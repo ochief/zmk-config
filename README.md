@@ -10,4 +10,4 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 ## Keymap Drawer
 - [Web UI](https://caksoylar.github.io/keymap-drawer)
 - [Github](https://github.com/caksoylar/keymap-drawer)
-- Author: [@braveKarma](https://github.com/caksoylar)
+- *Author:* [@braveKarma](https://github.com/caksoylar)
