@@ -40,7 +40,7 @@
 / {
 
   combos {
-        #include "combos30.dtsi"
+        #include "combos.dtsi"
     };
   macros {
         #include "macros.dtsi"
