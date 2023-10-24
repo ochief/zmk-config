@@ -37,15 +37,15 @@
   ╰───────────╮ 26  27 │ │ 28  29 ╭───────────╯
               ╰────────╯ ╰────────╯            */
 
-/ {
-
+{
+/*
   combos {
         #include "combos.dtsi"
     };
   macros {
         #include "macros.dtsi"
     };
-
+*/
   behaviors {
 
     // Sticky key on tap, normal key on hold
