@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define base 0
-#define nav  1
+#define up 1
 #define misc 2
 
 &caps_word {
@@ -42,8 +42,8 @@
             >;
         };
         
-        nav_layer {
-            label = "Navigation";
+        up_layer {
+            label = "Upper";
             bindings = <
                &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans       &kp INS &kp HOME   &kp UP     &kp END      &kp PG_UP
                &sk LGUI   &sk LALT     &sk LCTL        &sk LSHIFT       &caps_word   &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
