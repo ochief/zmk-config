@@ -33,6 +33,7 @@
                 &kp N       &kp S       &lt up T    &lt lo H    &none                   &none       &lt lo A    &lt up E    &kp I       &kp O
                             &none       &none       &none                                           &none       &none       &none
                                                     &sl nav     &kp SPACE               &kp BSPC    &kp RET
+            >;                                                    
         };
 
         up_layer {
