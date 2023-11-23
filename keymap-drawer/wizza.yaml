@@ -14,7 +14,7 @@ layers:
   - S
   - {t: T, h: Left Upper}
   - H
-  - '`'
+  - ''
   - ''
   - A
   - {t: E, h: Right Upper}
