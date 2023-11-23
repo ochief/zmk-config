@@ -14,14 +14,6 @@
 #define up 1
 #define lo 2
 
-&caps_word {
-    continue-list = <UNDERSCORE MINUS>;
-};
-
-&sk {
-  quick-release;
-};
-
 &lt {
     tapping-term-ms = <250>;
     quick_tap_ms = <250>;
@@ -39,8 +31,7 @@
             bindings = <
                 &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
                 &kp N       &kp S       &lt up T    &lt lo H    &none                   &none       &lt lo A    &lt up E    &kp I       &kp O
-                            &none       &none       &none                                           &none       &none       &none 
-
+                            &none       &none       &none                                           &none       &none       &none
                                                     &sl nav     &kp SPACE               &kp BSPC    &kp RET
         };
 
@@ -49,8 +40,7 @@
             bindings = <
                 &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
                 &kp L       &kp C       &kp D       &kp R       &none                   &none       &kp U       &kp Q       &kp Y       &none
-                            &none       &none       &none                                           &none       &none       &none 
-
+                            &none       &none       &none                                           &none       &none       &none
                                                     &sl nav     &kp SPACE               &kp BSPC    &kp RET
             >;
         };
@@ -60,8 +50,7 @@
             bindings = <
                 &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
                 &kp V       &kp F       &kp G       &kp M       &none                   &none       &kp K       &kp Z       &kp J       &none
-                            &none       &none       &none                                           &none       &none       &none 
-
+                            &none       &none       &none                                           &none       &none       &none
                                                     &sl nav     &kp SPACE               &kp BSPC    &kp RET
             >;
         };          
