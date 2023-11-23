@@ -7,7 +7,6 @@ on:
       - "config/*.keymap"
       - "config/*.dtsi"
       - "config/boards/shield/wizza/*.dtsi"
-      - "keymap_drawer.config.yaml"
 
 jobs:
   draw:
