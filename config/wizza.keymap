@@ -30,6 +30,6 @@
                             &none       &none       &none                                           &none       &none       &none
                                                     &sl nav     &kp SPACE               &kp BSPC    &kp RET
             >;                                                    
-        };      
+        };        
     };
 };
