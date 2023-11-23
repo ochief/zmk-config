@@ -6,8 +6,8 @@ on:
     paths:
       - "config/*.keymap"
       - "config/combos.dtsi"
+      - "config/boards/shield/wizza/*.dtsi"
       - "keymap_drawer.config.yaml"
-      # - 'config/boards/*/*/*.keymap'
 
 jobs:
   draw:
