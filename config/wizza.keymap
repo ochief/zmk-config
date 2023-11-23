@@ -14,10 +14,6 @@
 #define lup 1
 #define rup 2
 
-&caps_word {
-    continue-list = <UNDERSCORE MINUS>;
-};
-
 &sk {
   quick-release;
 };
@@ -36,12 +32,12 @@
             label = "Base";
             bindings = <
                 &none  &none    &none       &none     &none           &none     &none   &none       &none  &none
-                &kp N  &kp S    &lt lup T   &kp H     &kp GRAVE       &none     &kp A   &lt rup E   &kp I  &kp O
+                &kp N  &kp S    &lt 1 T     &kp H     &none           &none     &kp A   &lt 2 E     &kp I  &kp O
                        &none    &none       &none                               &none   &none       &none
                                             &none     &kp SPACE       &sk LSHFT &kp BSPC
             >;
         };
-        
+
         lup_layer {
             label = "Left Upper";
             bindings = <
@@ -56,7 +52,7 @@
             label = "Right Upper";
             bindings = <
                 &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans          
-                &kp L   &kp C   &kp D   &kp R   &trans              &trans  &kp U   &tran   &kp Y  &kp SQT
+                &kp L   &kp C   &kp D   &kp R   &trans              &trans  &kp U   &tran   &kp Y   &kp SQT
                         &trans  &trans  &trans                              &trans  &trans  &trans
                                         &trans  &trans              &trans  &trans
             >;
