@@ -2,8 +2,9 @@
 This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration for my current 30-key wireless keyboard [Wizza](https://github.com/AlaaSaadAbdo/battoota) by [@AlaaSaadAbdo](https://github.com/AlaaSaadAbdo).
 
 ## Layout
+![34 key layout (generated with Caksoylar's keymap-drawer)](keymap-drawer/wizza.svg)
 
-## Links
+## Links0
 - [Official ZMK](https://github.com/zmkfirmware/zmk)
 - [Urob ZMK](https://github.com/urob/zmk)
 
