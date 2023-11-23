@@ -11,8 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define base 0
-#define upp 1
-#define low 2
+#define up   1
 
 &lt {
     tapping-term-ms = <250>;
@@ -21,37 +20,28 @@
 };
 
 / {
+    #include "combos.dtsi"
+
     keymap {
         compatible = "zmk,keymap";
 
         base_layer {
-            label = "Base";
+            label = "Base Layer";
             bindings = <
                 &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
-                &kp N       &kp S       &lt upp T   &lt low H    &none                  &none      &kp A       &kp E       &kp I       &kp O
+                &kp N       &kp S       &lt up T    &Kp H       &none                   &none       &kp A       &kp E       &kp I       &kp O
                             &none       &none       &none                                           &none       &none       &none
-                                                    &sl nav     &kp SPACE               &kp BSPC    &kp RET
-            >;                                                    
+                                                    &none       &kp SPACE               &kp BSPC    &kp RET
+            >; 
         };
 
-        upp_layer {
-            label = "Upper";
+        up_layer {
+            label = "Upper Layer";
             bindings = <
                 &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
-                &none       &none       &trans      &trans      &none                   &none       &kp U       &kp Q       &kp Y       &none
+                &none       &none       &none       &none       &none                   &none       &kp A       &kp E       &kp I       &kp O
                             &none       &none       &none                                           &none       &none       &none
-                                                    &sl nav     &kp SPACE               &kp BSPC    &kp RET
-            >;
-        };
-
-        low_layer {
-            label = "Lower";
-            bindings = <
-                &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
-                &none       &none       &trans      &trans      &none                   &none       &kp K       &kp Z       &kp J       &none
-                            &none       &none       &none                                           &none       &none       &none
-                                                    &sl nav     &kp SPACE               &kp BSPC    &kp RET
-            >;
-        };          
-    };
+                                                    &none       &kp SPACE               &kp BSPC    &kp RET
+            >; 
+        };        
 };
