@@ -11,8 +11,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define base 0
-#define up 1
-#define misc 2
+#define lup 1
+#define rup 2
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
@@ -35,31 +35,31 @@
         base_layer {
             label = "Base";
             bindings = <
-                &none  &none    &none    &none     &none           &none     &none   &none    &none  &none
-                &kp N  &kp S    &kp T    &kp H     &kp GRAVE       &none     &kp A   &kp E    &kp I  &kp O
-                       &none    &none    &none                               &none   &none    &none
-                                         &sl up  &kp SPACE       &sk LSHFT &kp BSPC
+                &none  &none    &none       &none     &none           &none     &none   &none       &none  &none
+                &kp N  &kp S    &lt lup T   &kp H     &kp GRAVE       &none     &kp A   &lt rup E   &kp I  &kp O
+                       &none    &none       &none                               &none   &none       &none
+                                            &none     &kp SPACE       &sk LSHFT &kp BSPC
             >;
         };
         
-        up_layer {
-            label = "Upper";
+        lup_layer {
+            label = "Left Upper";
             bindings = <
-               &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans       &kp INS &kp HOME   &kp UP     &kp END      &kp PG_UP
-               &sk LGUI   &sk LALT     &sk LCTL        &sk LSHIFT       &caps_word   &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
-                          &kp ESC      &kp LA(LS(UP))  &kp LA(LS(DOWN))                      &kp C_PREV &kp C_PLAY &kp C_NEXT
-                                                       &sl misc         &trans       &kp TAB &kp RET
+                &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans          
+                &kp L   &kp C   &trans  &kp R   &trans              &trans  &kp U   &kp Q    &kp Y  &kp SQT
+                        &trans  &trans  &trans                              &trans  &trans  &trans
+                                        &trans  &trans              &trans  &trans
             >;
         };
 
-        misc_layer {
-            label = "Miscellaneous";
+        rup_layer {
+            label = "Right Upper";
             bindings = <
-                &trans &trans &trans &trans &trans        &trans     &out OUT_USB &out OUT_BLE &out OUT_TOG &trans
-                &trans &trans &trans &trans &trans        &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-                       &trans &trans &trans                          &trans       &trans       &trans
-                                     &trans &trans                   &trans       &trans
+                &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans          
+                &kp L   &kp C   &kp D   &kp R   &trans              &trans  &kp U   &tran   &kp Y  &kp SQT
+                        &trans  &trans  &trans                              &trans  &trans  &trans
+                                        &trans  &trans              &trans  &trans
             >;
-        };
+        };        
     };
 };
