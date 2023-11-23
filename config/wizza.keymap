@@ -12,9 +12,15 @@
 
 #define base 0
 #define nav  1
-#define num  2
-#define misc 3
-#define func 4
+#define misc 2
+
+&caps_word {
+    continue-list = <UNDERSCORE MINUS>;
+};
+
+&sk {
+  quick-release;
+};
 
 &lt {
     tapping-term-ms = <250>;
@@ -25,68 +31,36 @@
 / {
     #include "combos.dtsi"
 
-    behaviors {
-        hm: homerow_mod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick_tap_ms = <250>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
         base_layer {
-            label = "Luna Base Layer";
+            label = "Base";
             bindings = <
-                &hm LGUI R &hm LALT S &hm LCTL T &hm LSHFT H  &none           &none     &hm LSHFT N &hm LCTL A &hm LALT I &hm LGUI O
-                &kp V      &kp C      &kp D      &kp M        &none           &none     &kp L       &kp U      &kp Y      &kp SQT
-                           &none      &none      &none                                  &none       &none      &none
-                                                 &lt misc ESC &lt nav SPACE   &lt num E &lt func BSPC
+                &kp N1 &kp N2   &kp N3   &kp N4    &kp N5          &kp N6    &kp N7  &kp N8   &kp N9 &kp N0
+                &kp N  &kp S    &kp T    &kp H     &kp GRAVE       &kp BSLH  &kp A   &kp E    &kp I  &kp O
+                       &kp EXCL &kp SEMI &kp COMMA                           &kp DOT &kp FSLH &kp QMARK
+                                         &sl nav   &kp SPACE       &kp BSPC  &kp RET
             >;
         };
-
+        
         nav_layer {
-            label = "Navigation and Shortcuts";
+            label = "Navigation";
             bindings = <
-               &kp LGUI   &kp LALT     &kp LCTL    &kp LSHIFT      &none   &none   &kp LEFT &kp DOWN &kp UP    &kp RIGHT
-               &kp LA(UP) &kp LA(DOWN) &kp LC(TAB) &kp LC(LS(TAB)) &none   &none   &kp HOME &kp END  &kp PG_DN &kp PG_UP
-                          &none        &none       &none                           &none    &none    &none
-                                                   &trans          &trans  &kp RET &kp TAB
-            >;
-        };
-
-        num_layer {
-            label = "Numbers and Symbols";
-            bindings = <
-               &hm LGUI N1 &hm LALT N2 &hm LCTL N3 &hm LSHFT N4 &none         &none  &hm LSHFT N5 &hm LCTL N6 &hm LALT N7 &hm LGUI N8
-               &kp LBKT    &kp RBKT    &kp EQUAL   &kp MINUS    &none         &none  &kp SEMI     &kp FSLH    &kp N9      &kp N0
-                           &none       &none       &none                             &none        &none       &none
-                                                   &kp GRAVE    &kp BSLH      &trans &trans
+               &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans       &kp INS &kp HOME   &kp UP     &kp END      &kp PG_UP
+               &sk LGUI   &sk LALT     &sk LCTL        &sk LSHIFT       &caps_word   &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
+                          &kp ESC      &kp LA(LS(UP))  &kp LA(LS(DOWN))                      &kp C_PREV &kp C_PLAY &kp C_NEXT
+                                                       &sl misc         &trans       &trans  &kp TAB
             >;
         };
 
         misc_layer {
             label = "Miscellaneous";
             bindings = <
-                &bootloader &trans &trans &trans &trans        &trans        &out OUT_USB     &out OUT_BLE      &out OUT_TOG      &trans
-                &trans      &trans &trans &trans &trans        &bt BT_CLR    &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4
-                            &trans &trans &trans                             &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG
-                                          &trans &trans        &trans        &trans
-            >;        };
-
-       func_layer {
-            label = "Function Keys";
-
-            bindings = <
-               &trans      &trans        &trans       &trans       &trans      &trans &trans       &trans       &trans      &bootloader
-               &hm LGUI F1 &hm LALT F2   &hm LCTL F3  &hm LSHFT F4 &kp F5      &kp F6 &hm LSHFT F7 &hm LCTL F8  &hm LALT F9 &hm LGUI F10
-                           &kp C_BRI_DEC &kp C_BRI_UP &kp F11                         &kp F12      &kp C_VOL_DN &kp C_VOL_UP
-                                                      &trans       &trans      &trans &trans
+                &trans &trans &trans &trans &trans        &trans     &out OUT_USB &out OUT_BLE &out OUT_TOG &trans
+                &trans &trans &trans &trans &trans        &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+                       &trans &trans &trans                          &trans       &trans       &trans
+                                     &trans &trans                   &trans     &trans
             >;
         };
     };
