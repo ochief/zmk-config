@@ -32,7 +32,7 @@
             label = "Base";
             bindings = <
                 &none  &none    &none       &none     &none           &none     &none   &none       &none  &none
-                &kp N  &kp S    &lt 1 T     &kp H     &none           &none     &kp A   &lt 2 E     &kp I  &kp O
+                &kp N  &kp S    &lt lup T   &kp H     &none           &none     &kp A   &lt rup E   &kp I  &kp O
                        &none    &none       &none                               &none   &none       &none
                                             &none     &kp SPACE       &sk LSHFT &kp BSPC
             >;
