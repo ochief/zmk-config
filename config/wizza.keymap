@@ -11,6 +11,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define base 0
+#define up 1
+#define lo 2
 
 &lt {
     tapping-term-ms = <250>;
@@ -26,10 +28,30 @@
             label = "Base";
             bindings = <
                 &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
-                &kp N       &kp S       &lt up T    &lt lo H    &none                   &none       &lt lo A    &lt up E    &kp I       &kp O
+                &kp N       &kp S       &lt up T    &lt lo H    &none                   &none       &kp A       &kp E       &kp I       &kp O
                             &none       &none       &none                                           &none       &none       &none
                                                     &sl nav     &kp SPACE               &kp BSPC    &kp RET
             >;                                                    
-        };        
+        };
+
+        up_layer {
+            label = "Upper";
+            bindings = <
+                &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
+                &none       &none       &trans      &trans      &none                   &none       &kp U       &kp Q       &kp Y       &none
+                            &none       &none       &none                                           &none       &none       &none
+                                                    &sl nav     &kp SPACE               &kp BSPC    &kp RET
+            >;
+        };
+
+        lo_layer {
+            label = "Lower";
+            bindings = <
+                &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
+                &none       &none       &trans      &trans      &none                   &none       &kp K       &kp Z       &kp J       &none
+                            &none       &none       &none                                           &none       &none       &none
+                                                    &sl nav     &kp SPACE               &kp BSPC    &kp RET
+            >;
+        };          
     };
 };
