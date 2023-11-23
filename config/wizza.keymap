@@ -11,8 +11,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define base 0
-#define nav  1
-#define misc 2
+#define up 1
+#define lo 2
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
@@ -37,31 +37,33 @@
         base_layer {
             label = "Base";
             bindings = <
-                &kp N1 &kp N2   &kp N3   &kp N4    &kp N6          &kp N6    &kp N7  &kp N8   &kp N9 &kp N0
-                &kp N  &kp S    &kp T    &kp H     &kp GRAVE       &kp BSLH  &kp A   &kp E    &kp I  &kp O
-                       &kp EXCL &kp SEMI &kp COMMA                           &kp DOT &kp FSLH &kp QMARK
-                                         &sl nav   &kp SPACE       &kp BSPC  &kp RET
-            >;
+                &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
+                &kp N       &kp S       &lt up T    &lt lo H    &none                   &none       &lt lo A    &lt up E    &kp I       &kp O
+                            &none       &none       &none                                           &none       &none       &none 
+
+                                                    &sl nav     &kp SPACE               &kp BSPC    &kp RET
         };
-        
-        nav_layer {
-            label = "Navigation";
+
+        up_layer {
+            label = "Upper";
             bindings = <
-               &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans       &kp INS &kp HOME   &kp UP     &kp END      &kp PG_UP
-               &sk LGUI   &sk LALT     &sk LCTL        &sk LSHIFT       &caps_word   &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
-                          &kp ESC      &kp LA(LS(UP))  &kp LA(LS(DOWN))                      &kp C_PREV &kp C_PLAY &kp C_NEXT
-                                                       &sl misc         &trans       &trans  &kp TAB
+                &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
+                &kp L       &kp C       &kp D       &kp R       &none                   &none       &kp U       &kp Q       &kp Y       &none
+                            &none       &none       &none                                           &none       &none       &none 
+
+                                                    &sl nav     &kp SPACE               &kp BSPC    &kp RET
             >;
         };
 
-        misc_layer {
-            label = "Miscellaneous";
+        lo_layer {
+            label = "Lower";
             bindings = <
-                &trans &trans &trans &trans &trans        &trans     &out OUT_USB &out OUT_BLE &out OUT_TOG &trans
-                &trans &trans &trans &trans &trans        &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-                       &trans &trans &trans                          &trans       &trans       &trans
-                                     &trans &trans                   &trans     &trans
+                &none       &none       &none       &none       &none                   &none       &none       &none       &none       &none
+                &kp V       &kp F       &kp G       &kp M       &none                   &none       &kp K       &kp Z       &kp J       &none
+                            &none       &none       &none                                           &none       &none       &none 
+
+                                                    &sl nav     &kp SPACE               &kp BSPC    &kp RET
             >;
-        };
+        };          
     };
 };
