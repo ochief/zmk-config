@@ -11,6 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define base 0
+#define num 1
 
 &sk {
   quick-release;
@@ -27,13 +28,23 @@
         compatible = "zmk,keymap";
 
         base_layer {
-            label = "Wizza Base Layer";
+            label = "Base Layer";
             bindings = <
-                &kp W &kp C &kp G &kp D   &kp K         &kp J     &kp L &kp U &kp O &kp Y
-                &kp R &kp S &kp T &kp H   &kp F         &kp M     &kp N &kp E &kp A &kp I
-                      &kp V &kp P &kp B                           &kp X &kp Z &kp Q
-                                  &none &kp SPACE     &sk LSHFT &none
+                &kp W       &kp C       &kp G       &kp D       &kp K               &kp J       &kp L       &kp U       &kp O       &kp Y
+                &kp R       &kp S       &kp T       &kp H       &kp F               &kp M       &kp N       &kp E       &kp A       &kp I
+                            &kp V       &kp P       &kp B                                       &kp X       &kp Z       &kp Q
+                                                    &none       &kp SPACE           &sk LSHFT   &sl num
             >;
-        };      
+        };
+
+        num_layer {
+            label = "Number Layer";
+            bindings = <
+                &trans      &trans      &trans      &trans      &trans              &trans      &trans      &trans      &trans      &trans
+                &kp N4      &kp N3      &kp N2      &kp N1      &trans              &trans      &kp N0      &kp N6      &kp N7      &kp N8
+                            &trans      &trans      &kp N5                                      &kp N9      &trans      &trans
+                                                    &trans      &trans              &trans      &trans
+            >;
+        };   
     };
 };

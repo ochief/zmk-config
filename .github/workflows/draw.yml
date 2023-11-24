@@ -6,7 +6,6 @@ on:
     paths:
       - "config/*.keymap"
       - "config/*.dtsi"
-      - "config/boards/shield/wizza/*.dtsi"
 
 jobs:
   draw:
