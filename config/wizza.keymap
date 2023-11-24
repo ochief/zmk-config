@@ -12,10 +12,6 @@
 
 #define base 0
 
-&caps_word {
-    continue-list = <UNDERSCORE MINUS>;
-};
-
 &sk {
   quick-release;
 };
@@ -27,8 +23,6 @@
 };
 
 / {
-    #include "combos.dtsi"
-
     keymap {
         compatible = "zmk,keymap";
 
