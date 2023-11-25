@@ -29,7 +29,7 @@ layers:
   - Q
   - ''
   - SPACE
-  - {t: LSHFT SMART NUM, h: sticky}
+  - {t: LSHFT num word, h: sticky}
   Number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
