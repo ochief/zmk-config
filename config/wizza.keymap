@@ -44,16 +44,16 @@
                 &kp W       &kp C       &kp G       &kp D       &kp K               &kp J       &kp L       &kp U       &kp O       &kp Y
                 &kp R       &kp S       &kp T       &kp H       &kp F               &kp M       &kp N       &kp E       &kp A       &kp I
                             &kp V       &kp P       &kp B                                       &kp X       &kp Z       &kp Q
-                                                    &none       &kp SPACE           &sk LSHFT   &num_word
+                                                    &mo NAV     &kp SPACE           &sk LSHFT   &num_word
             >;
         };
 
         nav_layer {
             label = "Navigation";
             bindings = <
-                ______      ______      ______      ______      ______              &kp INS     &kp HOME    &kp UP      &kp END     &kp PG_UP
-                 &sk LGUI   &sk LALT    &sk LCTL    &sk LSHFT   ______              &kp DEL     &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN
-                            ______      ______      ______                                      &kp BSPC    &kp TAB     &kp ESC
+                ______      ______      ______      ______      ______              &kp PG_UP   &kp HOME    &kp UP      &kp END     ______
+                 &sk LGUI   &sk LALT    &sk LCTL    &sk LSHFT   ______              &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   ______
+                            ______      ______      ______                                      &kp BSPC    &kp TAB     &kp DEL
                                                     ______      ______              ______      &kp RET
             >;
         };
