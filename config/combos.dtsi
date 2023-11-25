@@ -6,9 +6,13 @@
         timeout-ms = <MS>; \
     };
 
+#define COMBO_TERM_FAST 14
+#define COMBO_TERM_NORMAL 20
+#define COMBO_TERM_SLOW 45
+
 combos {
     compatible = "zmk,combos";
 
     // Chords
-    COMBO(ch_the, &ch_the, 2 3, DEF, 50)
+    COMBO(ch_the, &ch_the, 2 3, DEF, COMBO_TERM_SLOW)
 };

@@ -10,6 +10,7 @@
       tap-ms = <TAPMS>; \
       bindings = <BINDINGS>; \
   };
-
+  
+/* macro: */
 // Chords
 MACRO(ch_the, &kp T &kp H &kp E, 0, 0)
