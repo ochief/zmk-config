@@ -13,6 +13,5 @@
 combos {
     compatible = "zmk,combos";
 
-    // Chords
-    COMBO(ch_the, &ch_the, 2 3, DEF, COMBO_TERM_SLOW)
+    COMBO(the, &ch_the, 2 3, DEF, COMBO_TERM_SLOW)
 };
