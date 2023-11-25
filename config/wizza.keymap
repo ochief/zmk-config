@@ -23,7 +23,8 @@
   quick-release;
 };
 
-// tap: num-word | double-tap: sticky num-layer | hold: num-layer
+/ {
+    // tap: num-word | double-tap: sticky num-layer | hold: num-layer
     ZMK_BEHAVIOR(smart_num, hold_tap,
         flavor = "balanced";
         tapping-term-ms = <200>;
@@ -39,7 +40,6 @@
         continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
     };
 
-/ {
     /* Keymap */
     keymap {
         compatible = "zmk,keymap";
