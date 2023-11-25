@@ -43,28 +43,19 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
 };
 
-/ {
-    keymap {
-        compatible = "zmk,keymap";
 
-        DEF_layer {
-            label = "Default Layer";
-            bindings = <
-                &kp W       &kp C       &kp G       &kp D       &kp K               &kp J       &kp L       &kp U       &kp O       &kp Y
-                &kp R       &kp S       &kp T       &kp H       &kp F               &kp M       &kp N       &kp E       &kp A       &kp I
-                            &kp V       &kp P       &kp B                                       &kp X       &kp Z       &kp Q
-                                                    &none       &kp SPACE           &sk LSHFT   SMART_NUM
-            >;
-        };
+/* Keymap */
 
-        NUM_layer {
-            label = "Number Layer";
-            bindings = <
-                ______      ______      ______      ______      ______              ______      ______      ______      ______      ______
-                &kp N4      &kp N3      &kp N2      &kp N1      ______              ______      &kp N0      &kp N6      &kp N7      &kp N8
-                            ______      ______      &kp N5                                      &kp N9      ______      ______
-                                                    ______      ______              ______      ______
-            >;
-        };   
-    };
-};
+ZMK_LAYE(base,
+    &kp W       &kp C       &kp G       &kp D       &kp K               &kp J       &kp L       &kp U       &kp O       &kp Y
+    &kp R       &kp S       &kp T       &kp H       &kp F               &kp M       &kp N       &kp E       &kp A       &kp I
+                &kp V       &kp P       &kp B                                       &kp X       &kp Z       &kp Q
+                                        &none       &kp SPACE           &sk LSHFT   SMART_NUM
+)
+
+ZMK_LAYER(num,
+    ______      ______      ______      ______      ______              ______      ______      ______      ______      ______
+    &kp N4      &kp N3      &kp N2      &kp N1      ______              ______      &kp N0      &kp N6      &kp N7      &kp N8
+                ______      ______      &kp N5                                      &kp N9      ______      ______
+                                        ______      ______              ______      ______
+)
