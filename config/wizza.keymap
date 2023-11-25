@@ -10,8 +10,10 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define base 0
-#define num 1
+#define DEF 0
+#define NUM 1
+
+#define ___ &trans
 
 &sk {
   quick-release;
@@ -44,7 +46,7 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     keymap {
         compatible = "zmk,keymap";
 
-        base_layer {
+        DEF_layer {
             label = "Base Layer";
             bindings = <
                 &kp W       &kp C       &kp G       &kp D       &kp K               &kp J       &kp L       &kp U       &kp O       &kp Y
@@ -54,13 +56,13 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
             >;
         };
 
-        num_layer {
+        NUM_layer {
             label = "Number Layer";
             bindings = <
-                &trans      &trans      &trans      &trans      &trans              &trans      &trans      &trans      &trans      &trans
-                &kp N4      &kp N3      &kp N2      &kp N1      &trans              &trans      &kp N0      &kp N6      &kp N7      &kp N8
-                            &trans      &trans      &kp N5                                      &kp N9      &trans      &trans
-                                                    &trans      &trans              &trans      &trans
+                ______      ______      ______      ______      ______              ______      ______      ______      ______      ______
+                &kp N4      &kp N3      &kp N2      &kp N1      ______              ______      &kp N0      &kp N6      &kp N7      &kp N8
+                            ______      ______      &kp N5                                      &kp N9      ______      ______
+                                                    ______      ______              ______      ______
             >;
         };   
     };
