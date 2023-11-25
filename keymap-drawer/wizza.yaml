@@ -1,0 +1,99 @@
+layout: {qmk_keyboard: berylline}
+layers:
+  Base Layer:
+  - W
+  - C
+  - G
+  - D
+  - K
+  - J
+  - L
+  - U
+  - O
+  - Y
+  - R
+  - S
+  - T
+  - H
+  - F
+  - M
+  - N
+  - E
+  - A
+  - I
+  - V
+  - P
+  - B
+  - X
+  - Z
+  - Q
+  - Navigation
+  - SPACE
+  - {t: LSHFT, h: sticky}
+  - '&num_word'
+  Navigation:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PG UP
+  - HOME
+  - UP
+  - END
+  - {t: ▽, type: trans}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTL, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - {t: ▽, type: trans}
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BSPC
+  - TAB
+  - DEL
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RET
+  Number:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ','
+  - .
+  - ''''
+  - ;
+  - '4'
+  - '3'
+  - '2'
+  - '1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '6'
+  - '7'
+  - '8'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '5'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [2, 3]
+  k: '&ch_the'
+  l: [Base Layer]
