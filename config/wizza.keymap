@@ -46,8 +46,8 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     keymap {
         compatible = "zmk,keymap";
 
-        DEF_layer {
-            label = "Base Layer";
+        def_layer {
+            label = "Default Layer";
             bindings = <
                 &kp W       &kp C       &kp G       &kp D       &kp K               &kp J       &kp L       &kp U       &kp O       &kp Y
                 &kp R       &kp S       &kp T       &kp H       &kp F               &kp M       &kp N       &kp E       &kp A       &kp I
@@ -56,7 +56,7 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
             >;
         };
 
-        NUM_layer {
+        num_layer {
             label = "Number Layer";
             bindings = <
                 ______      ______      ______      ______      ______              ______      ______      ______      ______      ______
