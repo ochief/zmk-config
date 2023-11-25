@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: berylline}
 layers:
-  Base Layer:
+  Default Layer:
   - W
   - C
   - G
