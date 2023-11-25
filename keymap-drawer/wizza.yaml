@@ -27,7 +27,7 @@ layers:
   - X
   - Z
   - Q
-  - ''
+  - Navigation
   - SPACE
   - {t: LSHFT, h: sticky}
   - '&num_word'
@@ -37,28 +37,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INS
+  - PG UP
   - HOME
   - UP
   - END
-  - PG UP
+  - {t: ▽, type: trans}
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTL, h: sticky}
   - {t: LSHFT, h: sticky}
   - {t: ▽, type: trans}
-  - DEL
+  - PG DN
   - LEFT
   - DOWN
   - RIGHT
-  - PG DN
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BSPC
   - TAB
-  - ESC
-  - {t: ▽, type: trans}
+  - DEL
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RET
