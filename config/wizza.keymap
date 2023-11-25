@@ -20,12 +20,6 @@
   quick-release;
 };
 
-&lt {
-    tapping-term-ms = <250>;
-    quick_tap_ms = <250>;
-    flavor = "tap-preferred";
-};
-
 // tap: num-word | double-tap: sticky num-layer | hold: num-layer
 #define SMART_NUM &smart_num NUM 0
 ZMK_BEHAVIOR(smart_num, hold_tap,
@@ -43,10 +37,9 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
 };
 
-
 /* Keymap */
 
-ZMK_LAYE(base,
+ZMK_LAYER(base,
     &kp W       &kp C       &kp G       &kp D       &kp K               &kp J       &kp L       &kp U       &kp O       &kp Y
     &kp R       &kp S       &kp T       &kp H       &kp F               &kp M       &kp N       &kp E       &kp A       &kp I
                 &kp V       &kp P       &kp B                                       &kp X       &kp Z       &kp Q
