@@ -100,8 +100,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-Default Layer">
-<text x="0" y="28" class="label">Default Layer:</text>
+<g transform="translate(30, 0)" class="layer-Base Layer">
+<text x="0" y="28" class="label">Base Layer:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 93) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -228,8 +228,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 329)" class="layer-Number Layer">
-<text x="0" y="28" class="label">Number Layer:</text>
+<g transform="translate(30, 329)" class="layer-Number">
+<text x="0" y="28" class="label">Number:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 93) rotate(-8.0)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
