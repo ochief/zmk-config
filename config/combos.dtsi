@@ -10,5 +10,5 @@ combos {
     compatible = "zmk,combos";
 
     // Chords
-    COMBO(ch_the, &ch_the, 2 3, def, 50)
+    COMBO(ch_the, &ch_the, 2 3, DEF, 50)
 };
