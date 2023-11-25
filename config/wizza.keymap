@@ -13,7 +13,7 @@
 #define DEF 0
 #define NUM 1
 
-#define ___ &trans
+#define ______ &trans
 
 &sk {
   quick-release;
