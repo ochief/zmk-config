@@ -24,6 +24,9 @@
 };
 
 / {
+    #include "combos.dtsi"
+    #include "macros.dtsi"
+
     behaviors {
 		num_word: behavior_num_word {
             compatible = "zmk,behavior-caps-word";
@@ -47,7 +50,7 @@
                                                     &mo NAV     &kp SPACE           &sk LSHFT   &num_word
             >;
         };
-
+         
         nav_layer {
             label = "Navigation";
             bindings = <
