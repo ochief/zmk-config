@@ -16,6 +16,7 @@
 #define ______ &trans
 
 &sk {
+  release-after-ms = <900>;  // release after 0.6s
   quick-release;
 };
 
@@ -46,7 +47,7 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     keymap {
         compatible = "zmk,keymap";
 
-        def_layer {
+        DEF_layer {
             label = "Default Layer";
             bindings = <
                 &kp W       &kp C       &kp G       &kp D       &kp K               &kp J       &kp L       &kp U       &kp O       &kp Y
@@ -56,7 +57,7 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
             >;
         };
 
-        num_layer {
+        NUM_layer {
             label = "Number Layer";
             bindings = <
                 ______      ______      ______      ______      ______              ______      ______      ______      ______      ______
