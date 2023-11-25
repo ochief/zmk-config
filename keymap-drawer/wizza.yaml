@@ -29,7 +29,8 @@ layers:
   - Q
   - ''
   - SPACE
-  - {t: LSHFT num word, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - '&num_word'
   Number:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
