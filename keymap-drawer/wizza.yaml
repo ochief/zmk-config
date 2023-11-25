@@ -95,5 +95,5 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [2, 3]
-  k: '&ch_the'
+  k: '&macro_the'
   l: [Base Layer]
