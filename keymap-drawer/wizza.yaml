@@ -30,35 +30,6 @@ layers:
   - ''
   - SPACE
   - {t: LSHFT, h: sticky}
-  - '&smart_num NUM 0'
-  Number Layer:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '4'
-  - '3'
-  - '2'
-  - '1'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - '6'
-  - '7'
-  - '8'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '5'
-  - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&smart_num 1 0'
+  Number Layer: ['&______ ______ ______ ______ ______ ______ ______ ______ ______ ______', '4', '3', '2', '1              ', '0', '6', '7', '8              ', '5',
+    '9                                          ']
