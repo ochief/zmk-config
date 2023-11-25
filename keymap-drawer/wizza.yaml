@@ -30,7 +30,7 @@ layers:
   - ''
   - SPACE
   - {t: LSHFT, h: sticky}
-  - {t: Number Layer, h: sticky}
+  - '&smart_num NUM 0'
   Number Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -61,4 +61,4 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
