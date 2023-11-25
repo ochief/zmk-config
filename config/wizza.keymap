@@ -11,7 +11,9 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEF 0
-#define NUM 1
+#define NAV 1
+#define NUM 2
+
 
 #define xxxxxx &none
 #define ______ &trans
@@ -24,11 +26,11 @@
 / {
     behaviors {
 		num_word: behavior_num_word {
-			compatible = "zmk,behavior-caps-word";
-			label = "NUM_WORD";
-			#binding-cells = <0>;
-            layers = <1>;                                     // insert location of numbers layer here
-			continue-list = <BACKSPACE DELETE DOT COMMA>;   // adjust as desired
+            compatible = "zmk,behavior-caps-word";
+            label = "NUM_WORD";
+            #binding-cells = <0>;
+            layers = <2>;                                   // insert location of numbers layer here
+            continue-list = <BACKSPACE DELETE DOT COMMA>;   // adjust as desired
             ignore-numbers;                                 // numbers don't deactivate the layer
 		};
 	};
@@ -46,10 +48,20 @@
             >;
         };
 
+        nav_layer {
+            label = "Navigation";
+            bindings = <
+                ______      ______      ______      ______      ______              &kp INS     &kp HOME    &kp UP      &kp END     &kp PG_UP
+                 &sk LGUI   &sk LALT    &sk LCTL    &sk LSHFT   ______              &kp DEL     &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN
+                            ______      ______      ______                                      &kp BSPC    &kp TAB     &kp ESC
+                                                    ______      ______              ______      &kp RET
+            >;
+        };
+
         num_layer {
             label = "Number";
             bindings = <
-                ______      ______      ______      ______      ______              ______      ______      ______      ______      ______
+                ______      ______      ______      ______      ______              ______      &kp COMMA   &kp DOT     &kp SQT     &kp SEMI
                 &kp N4      &kp N3      &kp N2      &kp N1      ______              ______      &kp N0      &kp N6      &kp N7      &kp N8
                             ______      ______      &kp N5                                      &kp N9      ______      ______
                                                     ______      ______              ______      ______
