@@ -4,7 +4,7 @@
 #define MACRO(NAME, BINDINGS, WAITMS, TAPMS) \
     macro_##NAME: macro_##NAME { \
         compatible = "zmk,behavior-macro"; \
-        label = str(macro_##NAME); \
+        label = str(NAME); \
         #binding-cells = <0>; \
         wait-ms = <WAITMS>; \
         tap-ms = <TAPMS>; \

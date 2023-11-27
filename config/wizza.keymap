@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-// version 1.1
+// version 1.2
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
