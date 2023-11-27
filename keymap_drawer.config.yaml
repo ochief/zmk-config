@@ -8,7 +8,7 @@ draw_config:
   key_ry: 6.0
   n_columns: 1
   separate_combo_diagrams: true
-  combo_diagrams_scale: 2
+  combo_diagrams_scale: 4
   inner_pad_w: 2.0
   inner_pad_h: 2.0
   outer_pad_w: 30.0
