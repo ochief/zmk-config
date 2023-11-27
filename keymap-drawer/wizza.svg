@@ -487,7 +487,7 @@ path.combo {
 <g transform="translate(0, 56)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_the</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;the</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -585,7 +585,7 @@ path.combo {
 <g transform="translate(0, 56)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 88%">&amp;macro_a</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;a</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -683,7 +683,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_be</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;be</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -781,7 +781,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_to</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;to</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -879,7 +879,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_of</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;of</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -977,7 +977,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_and</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;and</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -1075,7 +1075,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_in</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;in</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -1173,7 +1173,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_that</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;that</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -1271,7 +1271,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_have</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;have</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key held keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key held"/>
@@ -1369,7 +1369,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_having</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;having</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key held keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key held"/>
@@ -1467,7 +1467,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 88%">&amp;macro_I</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;I</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -1565,7 +1565,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_it</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;it</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -1663,7 +1663,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_for</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;for</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -1761,7 +1761,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_not</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;not</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -1859,7 +1859,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_on</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;on</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -1957,7 +1957,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_with</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;with</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2055,7 +2055,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_he</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;he</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2153,7 +2153,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_as</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;as</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2251,7 +2251,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_you</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;you</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2349,7 +2349,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_do</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;do</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2447,7 +2447,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_at</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;at</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2545,7 +2545,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_this</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;this</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2643,7 +2643,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_but</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;but</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2741,7 +2741,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_his</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;his</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2839,7 +2839,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_by</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;by</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -2937,7 +2937,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_from</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;from</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3035,7 +3035,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_they</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;they</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3133,7 +3133,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_we</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;we</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3231,7 +3231,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_say</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;say</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3329,7 +3329,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_her</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;her</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3427,7 +3427,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_she</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;she</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3525,7 +3525,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_or</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;or</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3623,7 +3623,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_an</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;an</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3721,7 +3721,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_will</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;will</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3819,7 +3819,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_my</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;my</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -3917,7 +3917,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_one</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;one</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4015,7 +4015,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_all</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;all</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4113,7 +4113,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_would</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;would</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4211,7 +4211,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_there</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;there</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4309,7 +4309,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_their</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;their</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4407,7 +4407,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_what</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;what</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4505,7 +4505,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_so</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;so</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4603,7 +4603,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_up</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;up</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4701,7 +4701,6 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_out</tspan></text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4799,7 +4798,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_if</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;if</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4897,7 +4896,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_about</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;about</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -4995,7 +4994,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_who</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;who</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5093,7 +5092,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_get</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;get</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5191,7 +5190,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_getting</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 88%">&amp;getting</tspan></text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5289,7 +5288,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_which</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;which</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5387,7 +5386,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_go</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;go</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5485,7 +5484,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_me</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;me</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5583,7 +5582,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_when</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;when</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5681,7 +5680,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_make</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;make</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5779,7 +5778,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_making</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;making</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5877,7 +5876,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_can</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;can</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -5975,7 +5974,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_like</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;like</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6073,7 +6072,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_liking</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;liking</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6171,7 +6170,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_time</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;time</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6269,7 +6268,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_no</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;no</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6367,7 +6366,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_just</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;just</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6465,7 +6464,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_him</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;him</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6563,7 +6562,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_know</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;know</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6661,7 +6660,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_take</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;take</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6759,7 +6758,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_taking</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;taking</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6857,7 +6856,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_people</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;people</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -6955,7 +6954,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_into</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;into</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7053,7 +7052,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_year</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;year</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7151,7 +7150,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_your</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;your</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7249,7 +7248,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_good</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;good</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7347,7 +7346,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_some</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;some</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7445,7 +7444,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_could</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;could</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7543,7 +7542,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_them</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;them</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7641,7 +7640,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_see</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;see</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7739,7 +7738,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_other</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;other</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7837,7 +7836,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_than</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;than</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -7935,7 +7934,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_then</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;then</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -8033,7 +8032,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_now</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;now</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -8131,7 +8130,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_look</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;look</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key held keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key held"/>
@@ -8229,7 +8228,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_only</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;only</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -8327,7 +8326,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_come</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;come</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -8425,7 +8424,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_coming</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;coming</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -8523,7 +8522,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_its</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;its</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -8621,7 +8620,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_over</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;over</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key held keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key held"/>
@@ -8719,7 +8718,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_think</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;think</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -8817,7 +8816,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_also</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;also</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -8915,7 +8914,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_back</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;back</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9013,7 +9012,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_after</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;after</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9111,7 +9110,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_use</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;use</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9209,7 +9208,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_using</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;using</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9307,7 +9306,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_two</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;two</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9405,7 +9404,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_how</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;how</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9503,7 +9502,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_our</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;our</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9601,7 +9600,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_work</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;work</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9699,7 +9698,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_first</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;first</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9797,7 +9796,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_well</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;well</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9895,7 +9894,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_way</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;way</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -9993,7 +9992,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_even</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;even</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key held keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key held"/>
@@ -10091,7 +10090,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_new</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;new</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -10189,7 +10188,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_want</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;want</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -10287,7 +10286,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_because</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 88%">&amp;because</tspan></text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -10385,7 +10384,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_any</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;any</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -10483,7 +10482,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_these</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;these</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -10581,7 +10580,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_give</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;give</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -10679,7 +10678,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_giving</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;giving</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -10777,7 +10776,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_day</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;day</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -10875,7 +10874,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_most</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;most</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -10973,7 +10972,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_us</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;us</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11071,7 +11070,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_without</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 88%">&amp;without</tspan></text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11169,7 +11168,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_where</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;where</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11267,7 +11266,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_why</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;why</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11365,7 +11364,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_is</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;is</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11463,7 +11462,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_are</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;are</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11561,7 +11560,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_was</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;was</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11659,7 +11658,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_were</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;were</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11757,7 +11756,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_has</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;has</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11855,7 +11854,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_had</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;had</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -11953,7 +11952,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_should</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;should</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12051,7 +12050,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_been</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;been</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12149,7 +12148,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_may</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;may</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12247,7 +12246,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_made</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;made</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12345,7 +12344,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_said</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;said</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12443,7 +12442,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_cannot</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;cannot</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12541,7 +12540,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_does</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;does</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12639,7 +12638,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_did</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;did</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12737,7 +12736,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_seem</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;seem</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12835,7 +12834,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_call</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;call</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -12933,7 +12932,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_thank</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;thank</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -13031,7 +13030,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;macro_Im</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;Im</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -13129,7 +13128,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_many</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;many</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -13227,7 +13226,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_very</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;very</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key held keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key held"/>
@@ -13325,7 +13324,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_question</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 78%">&amp;question</tspan></text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -13423,7 +13422,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_second</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;second</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -13521,7 +13520,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_thing</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;thing</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -13619,7 +13618,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_yes</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;yes</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -13717,7 +13716,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_cant</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;cant</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -13815,7 +13814,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_different</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;different</tspan></text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -13913,7 +13912,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_though</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;though</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -14011,7 +14010,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_through</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 88%">&amp;through</tspan></text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -14109,7 +14108,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_sorry</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;sorry</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -14207,7 +14206,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_move</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;move</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key held keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key held"/>
@@ -14305,7 +14304,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_direction</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;direction</tspan></text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -14403,7 +14402,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_next</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;next</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -14501,7 +14500,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 64%">&amp;macro_same</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;same</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -14599,7 +14598,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;macro_top</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;top</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
@@ -14697,7 +14696,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 60%">&amp;macro_month</tspan></text>
+<text x="0" y="0" class="key  combo-separate tap">&amp;month</text>
 </g>
 <g transform="translate(15, 105) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
