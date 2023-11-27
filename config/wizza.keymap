@@ -44,10 +44,10 @@
         def_layer {
             label = "Base Layer";
             bindings = <
-                &kp W       &kp C       &kp G       &kp D       &kp K               &kp J       &kp L       &kp U       &kp O       &kp Y
-                &kp R       &kp S       &kp T       &kp H       &kp F               &kp M       &kp N       &kp E       &kp A       &kp I
-                            &kp V       &kp P       &kp B                                       &kp X       &kp Z       &kp Q
-                                                    &mo NAV     &kp SPACE           &sk LSHFT   &num_word
+                &kp V       &kp W       &kp F       &kp P       &kp B               &kp X       &kp M       &kp COMMA   &kp DOT     &kp SQT
+                &kp         &kp S       &kp T       &kp H       &kp K               &kp J       &kp N       &kp A       &kp I       &kp O
+                            &kp C       &kp G       &kp D                                       &kp L       &kp U       &kp Y
+                                                    &mo nav     &kp SPACE           &kp E       &num_word                                  
             >;
         };
          
