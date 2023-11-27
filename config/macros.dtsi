@@ -12,4 +12,4 @@
     };
 
 /* macro: */
-MACRO(the, &kp T &kp H &kp E, 0, 0)
+MACRO(the, &kp T &kp H &kp E &kp SPACE, 0, 0)

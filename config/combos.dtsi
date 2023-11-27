@@ -10,8 +10,20 @@
 #define COMBO_TERM_NORMAL 20
 #define COMBO_TERM_SLOW 45
 
+/*
+v   w   f   p   b       x   m   ,   .   '       
+r   s   t   h   k       j   n   a   i   o
+    c   g   d               l   u   y
+        Nav Spc         E   Num
+
+0   1   2   3   4       5   6   7   8   9
+10  11  12  13  14      15  16  17  18  19
+    20  21  22              23  24  25
+            26  27      28  29
+*/
+
 combos {
     compatible = "zmk,combos";
 
-    COMBO(the, &macro_the, 2 3, DEF, COMBO_TERM_SLOW)
+    COMBO(the, &macro_the, 12 27, DEF, COMBO_TERM_SLOW)
 };
