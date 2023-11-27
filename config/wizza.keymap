@@ -55,7 +55,7 @@
         nav_layer {
             label = "Navigation";
             bindings = <
-                ______      ______      ______      ______      ______              &kp PG_UP   &kp HOME    &kp UP      &kp END     ______
+                &kp A       ______      ______      ______      ______              &kp PG_UP   &kp HOME    &kp UP      &kp END     ______
                 &sk LGUI    &sk LALT    &sk LCTL    &sk LSHFT   ______              &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   ______
                             ______      ______      ______                                      ______      ______      ______
                                                     ______      ______              &kp BSPC    &kp RET
