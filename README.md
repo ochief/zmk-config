@@ -13,8 +13,10 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 <img src="./images/numbers.svg" />
 
 ## Days of the Week
+<img src="./images/days.svg" />
 
 ## Months
+<img src="./images/months.svg" />
 
 ## Entities
 
