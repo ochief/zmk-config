@@ -28,6 +28,7 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 
 ### Functions
 <img src="./images/functions.svg" />
+
 <!--
 ### Entities
 <img src="./images/entities.svg" />
@@ -41,6 +42,7 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 ### Personal
 <img src="./images/personal.svg" />
 -->
+
 ## Links
 - [Official ZMK](https://github.com/zmkfirmware/zmk)
 - [Urob ZMK](https://github.com/urob/zmk)
