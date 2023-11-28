@@ -1,0 +1,504 @@
+layout: {qmk_keyboard: berylline}
+layers:
+  Base Layer: [V, W, F, P, B, X, M, ',', ., '''', R, S, T, H, K, J, N, A, I, O, C, G, D, L, U, Y, NAV, SPACE, E, Num Word]
+  NAV:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PG UP
+  - HOME
+  - UP
+  - END
+  - {t: ▽, type: trans}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTL, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - {t: ▽, type: trans}
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - BSPC
+  - RET
+  NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ','
+  - .
+  - ''''
+  - ;
+  - '4'
+  - '3'
+  - '2'
+  - '1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '6'
+  - '7'
+  - '8'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '5'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [12, 13]
+  k: the
+  l: [Base Layer]
+- p: [27, 17]
+  k: a
+  l: [Base Layer]
+- p: [4, 28]
+  k: be
+  l: [Base Layer]
+- p: [12, 19]
+  k: to
+  l: [Base Layer]
+- p: [19, 2]
+  k: of
+  l: [Base Layer]
+- p: [17, 16]
+  k: and
+  l: [Base Layer]
+- p: [18, 16]
+  k: in
+  l: [Base Layer]
+- p: [22, 12]
+  k: that
+  l: [Base Layer]
+- p: [13, 0]
+  k: have
+  l: [Base Layer]
+- p: [13, 0, 9]
+  k: having
+  l: [Base Layer]
+- p: [27, 18]
+  k: I
+  l: [Base Layer]
+- p: [18, 12]
+  k: it
+  l: [Base Layer]
+- p: [27, 2]
+  k: for
+  l: [Base Layer]
+- p: [16, 12]
+  k: not
+  l: [Base Layer]
+- p: [19, 16]
+  k: 'on'
+  l: [Base Layer]
+- p: [27, 1]
+  k: with
+  l: [Base Layer]
+- p: [13, 28]
+  k: he
+  l: [Base Layer]
+- p: [17, 11]
+  k: as
+  l: [Base Layer]
+- p: [19, 24]
+  k: you
+  l: [Base Layer]
+- p: [22, 19]
+  k: do
+  l: [Base Layer]
+- p: [17, 12]
+  k: at
+  l: [Base Layer]
+- p: [22, 18, 11]
+  k: this
+  l: [Base Layer]
+- p: [4, 24]
+  k: but
+  l: [Base Layer]
+- p: [13, 18, 11]
+  k: his
+  l: [Base Layer]
+- p: [4, 25]
+  k: by
+  l: [Base Layer]
+- p: [2, 6]
+  k: from
+  l: [Base Layer]
+- p: [22, 25]
+  k: they
+  l: [Base Layer]
+- p: [1, 28]
+  k: we
+  l: [Base Layer]
+- p: [11, 25]
+  k: say
+  l: [Base Layer]
+- p: [13, 10]
+  k: her
+  l: [Base Layer]
+- p: [11, 13]
+  k: she
+  l: [Base Layer]
+- p: [19, 10]
+  k: or
+  l: [Base Layer]
+- p: [27, 17, 16]
+  k: an
+  l: [Base Layer]
+- p: [1, 23]
+  k: will
+  l: [Base Layer]
+- p: [27, 6, 10]
+  k: my
+  l: [Base Layer]
+- p: [27, 19]
+  k: one
+  l: [Base Layer]
+- p: [17, 23]
+  k: all
+  l: [Base Layer]
+- p: [1, 22]
+  k: would
+  l: [Base Layer]
+- p: [12, 13, 28]
+  k: there
+  l: [Base Layer]
+- p: [22, 10]
+  k: their
+  l: [Base Layer]
+- p: [1, 12]
+  k: what
+  l: [Base Layer]
+- p: [11, 19]
+  k: so
+  l: [Base Layer]
+- p: [24, 3]
+  k: up
+  l: [Base Layer]
+- p: [19, 24, 12]
+  k: out
+  l: [Base Layer]
+- p: [18, 2]
+  k: if
+  l: [Base Layer]
+- p: [17, 4]
+  k: about
+  l: [Base Layer]
+- p: [13, 19]
+  k: who
+  l: [Base Layer]
+- p: [21, 28]
+  k: get
+  l: [Base Layer]
+- p: [21, 28, 9]
+  k: getting
+  l: [Base Layer]
+- p: [1, 20]
+  k: which
+  l: [Base Layer]
+- p: [27, 21]
+  k: go
+  l: [Base Layer]
+- p: [27, 6, 28]
+  k: me
+  l: [Base Layer]
+- p: [1, 16]
+  k: when
+  l: [Base Layer]
+- p: [6, 14]
+  k: make
+  l: [Base Layer]
+- p: [6, 14, 9]
+  k: making
+  l: [Base Layer]
+- p: [20, 16]
+  k: can
+  l: [Base Layer]
+- p: [23, 18]
+  k: like
+  l: [Base Layer]
+- p: [23, 18, 9]
+  k: liking
+  l: [Base Layer]
+- p: [12, 6]
+  k: time
+  l: [Base Layer]
+- p: [27, 16]
+  k: 'no'
+  l: [Base Layer]
+- p: [15, 11]
+  k: just
+  l: [Base Layer]
+- p: [13, 6]
+  k: him
+  l: [Base Layer]
+- p: [14, 16]
+  k: know
+  l: [Base Layer]
+- p: [12, 14]
+  k: take
+  l: [Base Layer]
+- p: [12, 14, 9]
+  k: taking
+  l: [Base Layer]
+- p: [3, 23]
+  k: people
+  l: [Base Layer]
+- p: [18, 19]
+  k: into
+  l: [Base Layer]
+- p: [25, 10]
+  k: year
+  l: [Base Layer]
+- p: [24, 10]
+  k: your
+  l: [Base Layer]
+- p: [21, 19]
+  k: good
+  l: [Base Layer]
+- p: [11, 6]
+  k: some
+  l: [Base Layer]
+- p: [20, 22]
+  k: could
+  l: [Base Layer]
+- p: [22, 6]
+  k: them
+  l: [Base Layer]
+- p: [11, 28]
+  k: see
+  l: [Base Layer]
+- p: [19, 22, 10]
+  k: other
+  l: [Base Layer]
+- p: [22, 17, 16]
+  k: than
+  l: [Base Layer]
+- p: [22, 16]
+  k: then
+  l: [Base Layer]
+- p: [16, 19, 1]
+  k: now
+  l: [Base Layer]
+- p: [0, 28, 16]
+  k: look
+  l: [Base Layer]
+- p: [19, 25]
+  k: only
+  l: [Base Layer]
+- p: [20, 6]
+  k: come
+  l: [Base Layer]
+- p: [20, 6, 9]
+  k: coming
+  l: [Base Layer]
+- p: [12, 11]
+  k: its
+  l: [Base Layer]
+- p: [19, 0]
+  k: over
+  l: [Base Layer]
+- p: [12, 16, 14]
+  k: think
+  l: [Base Layer]
+- p: [17, 19]
+  k: also
+  l: [Base Layer]
+- p: [4, 14]
+  k: back
+  l: [Base Layer]
+- p: [17, 2]
+  k: after
+  l: [Base Layer]
+- p: [24, 1, 7]
+  k: use
+  l: [Base Layer]
+- p: [24, 1, 7, 9]
+  k: using
+  l: [Base Layer]
+- p: [27, 12]
+  k: two
+  l: [Base Layer]
+- p: [13, 1]
+  k: how
+  l: [Base Layer]
+- p: [19, 24, 10]
+  k: our
+  l: [Base Layer]
+- p: [1, 14]
+  k: work
+  l: [Base Layer]
+- p: [2, 11]
+  k: first
+  l: [Base Layer]
+- p: [28, 23]
+  k: well
+  l: [Base Layer]
+- p: [1, 17, 25]
+  k: way
+  l: [Base Layer]
+- p: [28, 0]
+  k: even
+  l: [Base Layer]
+- p: [16, 28]
+  k: new
+  l: [Base Layer]
+- p: [1, 16, 12]
+  k: want
+  l: [Base Layer]
+- p: [4, 20]
+  k: because
+  l: [Base Layer]
+- p: [17, 25]
+  k: any
+  l: [Base Layer]
+- p: [22, 28, 11]
+  k: these
+  l: [Base Layer]
+- p: [21, 18]
+  k: give
+  l: [Base Layer]
+- p: [21, 18, 9]
+  k: giving
+  l: [Base Layer]
+- p: [22, 17]
+  k: day
+  l: [Base Layer]
+- p: [27, 6]
+  k: most
+  l: [Base Layer]
+- p: [24, 11]
+  k: us
+  l: [Base Layer]
+- p: [1, 19]
+  k: without
+  l: [Base Layer]
+- p: [1, 10]
+  k: where
+  l: [Base Layer]
+- p: [1, 25]
+  k: why
+  l: [Base Layer]
+- p: [18, 11]
+  k: is
+  l: [Base Layer]
+- p: [17, 10]
+  k: are
+  l: [Base Layer]
+- p: [1, 17]
+  k: was
+  l: [Base Layer]
+- p: [28, 10]
+  k: were
+  l: [Base Layer]
+- p: [13, 1, 7]
+  k: has
+  l: [Base Layer]
+- p: [13, 22]
+  k: had
+  l: [Base Layer]
+- p: [11, 22]
+  k: should
+  l: [Base Layer]
+- p: [4, 16]
+  k: been
+  l: [Base Layer]
+- p: [6, 17, 25]
+  k: may
+  l: [Base Layer]
+- p: [6, 17, 22]
+  k: made
+  l: [Base Layer]
+- p: [17, 18]
+  k: said
+  l: [Base Layer]
+- p: [20, 12]
+  k: cannot
+  l: [Base Layer]
+- p: [22, 28]
+  k: does
+  l: [Base Layer]
+- p: [22, 18]
+  k: did
+  l: [Base Layer]
+- p: [11, 28, 6]
+  k: seem
+  l: [Base Layer]
+- p: [20, 23]
+  k: call
+  l: [Base Layer]
+- p: [12, 13, 17]
+  k: thank
+  l: [Base Layer]
+- p: [18, 6]
+  k: I'm
+  l: [Base Layer]
+- p: [6, 17]
+  k: many
+  l: [Base Layer]
+- p: [0, 25]
+  k: very
+  l: [Base Layer]
+- p: [1, 2, 16]
+  k: question
+  l: [Base Layer]
+- p: [11, 20]
+  k: second
+  l: [Base Layer]
+- p: [22, 21]
+  k: thing
+  l: [Base Layer]
+- p: [27, 25]
+  k: 'yes'
+  l: [Base Layer]
+- p: [20, 16, 9]
+  k: can't
+  l: [Base Layer]
+- p: [22, 18, 2]
+  k: different
+  l: [Base Layer]
+- p: [22, 21, 13]
+  k: though
+  l: [Base Layer]
+- p: [12, 10, 24]
+  k: through
+  l: [Base Layer]
+- p: [11, 10]
+  k: sorry
+  l: [Base Layer]
+- p: [6, 0]
+  k: move
+  l: [Base Layer]
+- p: [22, 18, 10]
+  k: direction
+  l: [Base Layer]
+- p: [16, 5]
+  k: next
+  l: [Base Layer]
+- p: [11, 17, 6]
+  k: same
+  l: [Base Layer]
+- p: [12, 3]
+  k: top
+  l: [Base Layer]
+- p: [6, 19, 16]
+  k: month
+  l: [Base Layer]
