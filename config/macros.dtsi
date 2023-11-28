@@ -14,7 +14,7 @@
 /* macro: */
 MACRO(Monday, &kp M &macro_release &kp LSHIFT &macro_tap &kp O &kp N &kp D &kp A &kp Y, 0, 0)
 MACRO(Tuesday, &kp T &macro_release &kp LSHIFT &macro_tap &kp U &kp E &kp S &kp D &kp A &kp Y, 0, 0)
-MACRO(Wendesday, &kp W &macro_release &kp LSHIFT &macro_tap &kp E &kp N &kp D &kp E &kp S &kp D &kp A &kp Y, 0, 0)
+MACRO(Wednesday, &kp W &macro_release &kp LSHIFT &macro_tap &kp E &kp D &kp N &kp E &kp S &kp D &kp A &kp Y, 0, 0)
 MACRO(Thursday, &kp T &macro_release &kp LSHIFT &macro_tap &kp H &kp U &kp R &kp S &kp D &kp A &kp Y, 0, 0)
 MACRO(Friday, &kp F &macro_release &kp LSHIFT &macro_tap &kp R &kp I &kp D &kp A &kp Y, 0, 0)
 MACRO(Saturday, &kp S &macro_release &kp LSHIFT &macro_tap &kp A &kp T &kp U &kp R &kp D &kp A &kp Y, 0, 0)

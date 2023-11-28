@@ -29,11 +29,11 @@
 combos {
     compatible = "zmk,combos";
 
-    COMBO(Monday, &macro_Monday, 16 11, NUM, COMBO_TERM_SLOW)
-    COMBO(Tuesday, &macro_Tuesday, 16 12, NUM, COMBO_TERM_SLOW)
-    COMBO(Wendesday, &macro_Wendesday, 16 13, NUM, COMBO_TERM_SLOW)
-    COMBO(Thursday, &macro_Thursday, 16 20, NUM, COMBO_TERM_SLOW)
-    COMBO(Friday, &macro_Friday, 16 21, NUM, COMBO_TERM_SLOW)
-    COMBO(Saturday, &macro_Saturday, 16 22, NUM, COMBO_TERM_SLOW)
-    COMBO(Sunday, &macro_Sunday, 16 1, NUM, COMBO_TERM_SLOW)
+    COMBO(Monday, &macro_Monday, 28 11, NUM, COMBO_TERM_SLOW)
+    COMBO(Tuesday, &macro_Tuesday, 28 12, NUM, COMBO_TERM_SLOW)
+    COMBO(Wednesday, &macro_Wednesday, 28 13, NUM, COMBO_TERM_SLOW)
+    COMBO(Thursday, &macro_Thursday, 28 20, NUM, COMBO_TERM_SLOW)
+    COMBO(Friday, &macro_Friday, 28 21, NUM, COMBO_TERM_SLOW)
+    COMBO(Saturday, &macro_Saturday, 28 22, NUM, COMBO_TERM_SLOW)
+    COMBO(Sunday, &macro_Sunday, 28 1, NUM, COMBO_TERM_SLOW)
 };
