@@ -149,7 +149,7 @@ parse_config:
     '&num': "NUM"
     '&macro_Monday': "Monday"
     '&macro_Tuesday': "Tuesday"
-    '&macro_Wendesday': "Wendesday"
+    '&macro_Wednesday': "Wednesday"
     '&macro_Thursday': "Thursday"
     '&macro_Friday': "Friday"
     '&macro_Saturday': "Saturday"
