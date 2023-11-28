@@ -144,7 +144,8 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-      '&macro_the': 'the'
+    '&num_word' : 'Num Word'
+    '&macro_the': 'the'
     '&macro_a': 'a'
     '&macro_be': 'be'
     '&macro_to': 'to'
