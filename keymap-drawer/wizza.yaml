@@ -32,24 +32,24 @@ layers:
   - {type: trans}
   - {type: trans}
 combos:
-- p: [16, 11]
+- p: [28, 11]
   k: Monday
   l: [NUM]
-- p: [16, 12]
+- p: [28, 12]
   k: Tuesday
   l: [NUM]
-- p: [16, 13]
-  k: Wendesday
+- p: [28, 13]
+  k: '&macro_Wednesday'
   l: [NUM]
-- p: [16, 20]
+- p: [28, 20]
   k: Thursday
   l: [NUM]
-- p: [16, 21]
+- p: [28, 21]
   k: Friday
   l: [NUM]
-- p: [16, 22]
+- p: [28, 22]
   k: Saturday
   l: [NUM]
-- p: [16, 1]
+- p: [28, 1]
   k: Sunday
   l: [NUM]
