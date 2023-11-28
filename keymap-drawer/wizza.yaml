@@ -32,24 +32,39 @@ layers:
   - {type: trans}
   - {type: trans}
 combos:
-- p: [28, 11]
-  k: Monday
+- p: [28, 16, 11]
+  k: January
   l: [NUM]
-- p: [28, 12]
-  k: Tuesday
+- p: [28, 16, 12]
+  k: February
   l: [NUM]
-- p: [28, 13]
-  k: Wednesday
+- p: [28, 16, 13]
+  k: March
   l: [NUM]
-- p: [28, 20]
-  k: Thursday
+- p: [28, 16, 20]
+  k: April
   l: [NUM]
-- p: [28, 21]
-  k: Friday
+- p: [28, 16, 21]
+  k: May
   l: [NUM]
-- p: [28, 22]
-  k: Saturday
+- p: [28, 16, 22]
+  k: June
   l: [NUM]
-- p: [28, 1]
-  k: Sunday
+- p: [28, 16, 1]
+  k: July
+  l: [NUM]
+- p: [28, 16, 2]
+  k: August
+  l: [NUM]
+- p: [28, 16, 3]
+  k: September
+  l: [NUM]
+- p: [28, 16, 26]
+  k: October
+  l: [NUM]
+- p: [28, 16, 0]
+  k: November
+  l: [NUM]
+- p: [28, 16, 10]
+  k: December
   l: [NUM]
