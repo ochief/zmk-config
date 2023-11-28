@@ -11,10 +11,10 @@
 #define COMBO_TERM_SLOW 45
 
 /*
-    w   g   d   f   b       x   m   ,   .   '
-    r   s   t   h   k       j   n   a   i   o
-        c   macro   d               l   u   y
-            Nav Spc         E   Num
+    w   g   d   f   b       x   l   u   o   y
+    r   s   t   h   k       v   n   e   a   i
+        c   m   p               ,   u   y
+            Nav Spc         Sft Num
 
     0   1   2   3   4       5   6   7   8   9
     10  11  12  13  14      15  16  17  18  19
@@ -25,6 +25,11 @@
 combos {
     compatible = "zmk,combos";
 
+    COMBO(j, &kp J, 1 2, DEF, COMBO_TERM_SLOW)
+    COMBO(q, &kp Q, 2 3, DEF, COMBO_TERM_SLOW)
+    COMBO(z, &kp Z, 6 7, DEF, COMBO_TERM_SLOW)
+
+Combo
     COMBO(the, &macro_the, 12 13, DEF, COMBO_TERM_SLOW)
     COMBO(a, &macro_a, 27 18, DEF, COMBO_TERM_SLOW)
     COMBO(be, &macro_be, 4 17, DEF, COMBO_TERM_SLOW)
@@ -33,8 +38,8 @@ combos {
     COMBO(and, &macro_and, 18 16, DEF, COMBO_TERM_SLOW)
     COMBO(in, &macro_in, 19 16, DEF, COMBO_TERM_SLOW)
     COMBO(that, &macro_that, 2 12, DEF, COMBO_TERM_SLOW)
-    COMBO(have, &macro_have, 13 1 2, DEF, COMBO_TERM_SLOW)
-    COMBO(having, &macro_having, 13 1 2 25, DEF, COMBO_TERM_SLOW)
+    COMBO(have, &macro_have, 13 15, DEF, COMBO_TERM_SLOW)
+    COMBO(having, &macro_having, 13 15 25, DEF, COMBO_TERM_SLOW)
     COMBO(I, &macro_I, 27 19, DEF, COMBO_TERM_SLOW)
     COMBO(it, &macro_it, 19 12, DEF, COMBO_TERM_SLOW)
     COMBO(for, &macro_for, 27 3, DEF, COMBO_TERM_SLOW)
@@ -85,7 +90,7 @@ combos {
     COMBO(liking, &macro_liking, 6 19 25, DEF, COMBO_TERM_SLOW)
     COMBO(time, &macro_time, 12 21, DEF, COMBO_TERM_SLOW)
     COMBO(no, &macro_no, 27 16, DEF, COMBO_TERM_SLOW)
-    COMBO(just, &macro_just, 15 11, DEF, COMBO_TERM_SLOW)
+    COMBO(just, &macro_just, 1 2 11, DEF, COMBO_TERM_SLOW)
     COMBO(him, &macro_him, 13 21, DEF, COMBO_TERM_SLOW)
     COMBO(know, &macro_know, 14 16, DEF, COMBO_TERM_SLOW)
     COMBO(take, &macro_take, 12 14, DEF, COMBO_TERM_SLOW)
@@ -103,18 +108,18 @@ combos {
     COMBO(than, &macro_than, 2 18 16, DEF, COMBO_TERM_SLOW)
     COMBO(then, &macro_then, 2 16, DEF, COMBO_TERM_SLOW)
     COMBO(now, &macro_now, 16 8 0, DEF, COMBO_TERM_SLOW)
-    COMBO(look, &macro_look, 1 2 17 16, DEF, COMBO_TERM_SLOW)
+    COMBO(look, &macro_look, 15 17 16, DEF, COMBO_TERM_SLOW)
     COMBO(only, &macro_only, 8 9, DEF, COMBO_TERM_SLOW)
     COMBO(come, &macro_come, 20 21, DEF, COMBO_TERM_SLOW)
     COMBO(coming, &macro_coming, 20 21 25, DEF, COMBO_TERM_SLOW)
     COMBO(its, &macro_its, 12 11, DEF, COMBO_TERM_SLOW)
-    COMBO(over, &macro_over, 8 1 2, DEF, COMBO_TERM_SLOW)
+    COMBO(over, &macro_over, 8 15, DEF, COMBO_TERM_SLOW)
     COMBO(think, &macro_think, 12 16 14, DEF, COMBO_TERM_SLOW)
     COMBO(also, &macro_also, 18 8, DEF, COMBO_TERM_SLOW)
     COMBO(back, &macro_back, 4 14, DEF, COMBO_TERM_SLOW)
     COMBO(after, &macro_after, 18 3, DEF, COMBO_TERM_SLOW)
-    COMBO(use, &macro_use, 7 1 7, DEF, COMBO_TERM_SLOW)
-    COMBO(using, &macro_using, 7 1 7 25, DEF, COMBO_TERM_SLOW)
+    COMBO(use, &macro_use, 7 6 7, DEF, COMBO_TERM_SLOW)
+    COMBO(using, &macro_using, 7 6 7 25, DEF, COMBO_TERM_SLOW)
     COMBO(two, &macro_two, 27 12, DEF, COMBO_TERM_SLOW)
     COMBO(how, &macro_how, 13 0, DEF, COMBO_TERM_SLOW)
     COMBO(our, &macro_our, 8 7 10, DEF, COMBO_TERM_SLOW)
@@ -122,7 +127,7 @@ combos {
     COMBO(first, &macro_first, 3 11, DEF, COMBO_TERM_SLOW)
     COMBO(well, &macro_well, 17 6, DEF, COMBO_TERM_SLOW)
     COMBO(way, &macro_way, 0 18 9, DEF, COMBO_TERM_SLOW)
-    COMBO(even, &macro_even, 17 1 2, DEF, COMBO_TERM_SLOW)
+    COMBO(even, &macro_even, 17 15, DEF, COMBO_TERM_SLOW)
     COMBO(new, &macro_new, 16 17, DEF, COMBO_TERM_SLOW)
     COMBO(want, &macro_want, 0 16 12, DEF, COMBO_TERM_SLOW)
     COMBO(because, &macro_because, 4 20, DEF, COMBO_TERM_SLOW)
@@ -140,7 +145,7 @@ combos {
     COMBO(are, &macro_are, 18 10, DEF, COMBO_TERM_SLOW)
     COMBO(was, &macro_was, 0 18, DEF, COMBO_TERM_SLOW)
     COMBO(were, &macro_were, 17 10, DEF, COMBO_TERM_SLOW)
-    COMBO(has, &macro_has, 13 1 7, DEF, COMBO_TERM_SLOW)
+    COMBO(has, &macro_has, 13 6 7, DEF, COMBO_TERM_SLOW)
     COMBO(had, &macro_had, 13 2, DEF, COMBO_TERM_SLOW)
     COMBO(should, &macro_should, 11 2, DEF, COMBO_TERM_SLOW)
     COMBO(been, &macro_been, 4 16, DEF, COMBO_TERM_SLOW)
@@ -155,8 +160,8 @@ combos {
     COMBO(thank, &macro_thank, 12 13 18, DEF, COMBO_TERM_SLOW)
     COMBO(Im, &macro_Im, 19 21, DEF, COMBO_TERM_SLOW)
     COMBO(many, &macro_many, 21 18, DEF, COMBO_TERM_SLOW)
-    COMBO(very, &macro_very, 1 2 9, DEF, COMBO_TERM_SLOW)
-    COMBO(question, &macro_question, 1 2 16, DEF, COMBO_TERM_SLOW)
+    COMBO(very, &macro_very, 15 9, DEF, COMBO_TERM_SLOW)
+    COMBO(question, &macro_question, 2 3 16, DEF, COMBO_TERM_SLOW)
     COMBO(second, &macro_second, 11 20, DEF, COMBO_TERM_SLOW)
     COMBO(thing, &macro_thing, 2 1, DEF, COMBO_TERM_SLOW)
     COMBO(yes, &macro_yes, 27 9, DEF, COMBO_TERM_SLOW)
@@ -165,7 +170,7 @@ combos {
     COMBO(though, &macro_though, 2 1 13, DEF, COMBO_TERM_SLOW)
     COMBO(through, &macro_through, 12 10 7, DEF, COMBO_TERM_SLOW)
     COMBO(sorry, &macro_sorry, 11 10, DEF, COMBO_TERM_SLOW)
-    COMBO(move, &macro_move, 21 1 2, DEF, COMBO_TERM_SLOW)
+    COMBO(move, &macro_move, 21 15, DEF, COMBO_TERM_SLOW)
     COMBO(direction, &macro_direction, 2 19 10, DEF, COMBO_TERM_SLOW)
     COMBO(next, &macro_next, 16 5, DEF, COMBO_TERM_SLOW)
     COMBO(same, &macro_same, 11 18 21, DEF, COMBO_TERM_SLOW)
