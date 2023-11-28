@@ -58,7 +58,7 @@
                 ______      ______      ______      ______      ______              &kp PG_UP   &kp HOME    &kp UP      &kp END     ______
                 &sk LGUI    &sk LALT    &sk LCTL    &sk LSHFT   ______              &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   ______
                             ______      ______      ______                                      ______      ______      ______
-                                                    &caps_word  &kp CAPS            &kp BSPC    &kp RET
+                                                    ______      ______              &kp BSPC    &kp RET
             >;
         };
 
