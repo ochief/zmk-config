@@ -4,6 +4,24 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 ## Wizza Layout
 <img src="./keymap-drawer/wizza.svg" />
 
+## Num Word
+
+## Caps Word
+
+## Numbers
+
+## Days of the Week
+
+## Months
+
+## Entities
+
+## Work Terminology
+
+## Personal
+
+## Common Words
+
 ## Links
 - [Official ZMK](https://github.com/zmkfirmware/zmk)
 - [Urob ZMK](https://github.com/urob/zmk)
