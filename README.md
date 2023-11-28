@@ -1,6 +1,6 @@
 # zmk-config
 This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration for my current 30-key wireless keyboard [Wizza](https://github.com/AlaaSaadAbdo/battoota) by [@AlaaSaadAbdo](https://github.com/AlaaSaadAbdo).
-
+<!---
 ## Table of Contents
 
 ## Wizza Layout
@@ -11,7 +11,7 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 ## Num Layer
 
 ## Caps Word
-
+-->
 ## Combos
 
 ### Numbers
@@ -28,7 +28,7 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 
 ### Functions
 <img src="./images/functions.svg" />
-
+<!--
 ### Entities
 <img src="./images/entities.svg" />
 
@@ -40,7 +40,7 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 
 ### Personal
 <img src="./images/personal.svg" />
-
+-->
 ## Links
 - [Official ZMK](https://github.com/zmkfirmware/zmk)
 - [Urob ZMK](https://github.com/urob/zmk)
