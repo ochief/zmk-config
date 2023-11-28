@@ -17,9 +17,9 @@ layers:
   - '3'
   - '12'
   - {type: trans}
-  - {t: LCTL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - '4'
   - '5'
@@ -29,7 +29,7 @@ layers:
   - {type: trans}
   - '0'
   - {type: trans}
-  - {t: LSHFT, h: sticky}
+  - {type: trans}
   - {type: trans}
 combos:
 - p: [16, 11]
