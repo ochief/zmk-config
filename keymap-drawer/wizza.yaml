@@ -39,7 +39,7 @@ combos:
   k: Tuesday
   l: [NUM]
 - p: [28, 13]
-  k: '&macro_Wednesday'
+  k: Wednesday
   l: [NUM]
 - p: [28, 20]
   k: Thursday
