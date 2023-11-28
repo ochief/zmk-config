@@ -16,7 +16,7 @@ layers:
   - T
   - H
   - K
-  - J
+  - V
   - N
   - E
   - A
@@ -94,6 +94,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
+- p: [1, 2]
+  k: J
+  l: [Base Layer]
+- p: [2, 3]
+  k: Q
+  l: [Base Layer]
+- p: [6, 7]
+  k: Z
+  l: [Base Layer]
 - p: [12, 13]
   k: the
   l: [Base Layer]
@@ -118,10 +127,10 @@ combos:
 - p: [2, 12]
   k: that
   l: [Base Layer]
-- p: [13, 1, 2]
+- p: [13, 15]
   k: have
   l: [Base Layer]
-- p: [13, 1, 2, 25]
+- p: [13, 15, 25]
   k: having
   l: [Base Layer]
 - p: [27, 19]
@@ -274,7 +283,7 @@ combos:
 - p: [27, 16]
   k: 'no'
   l: [Base Layer]
-- p: [15, 11]
+- p: [1, 2, 11]
   k: just
   l: [Base Layer]
 - p: [13, 21]
@@ -328,7 +337,7 @@ combos:
 - p: [16, 8, 0]
   k: now
   l: [Base Layer]
-- p: [1, 2, 17, 16]
+- p: [15, 17, 16]
   k: look
   l: [Base Layer]
 - p: [8, 9]
@@ -343,7 +352,7 @@ combos:
 - p: [12, 11]
   k: its
   l: [Base Layer]
-- p: [8, 1, 2]
+- p: [8, 15]
   k: over
   l: [Base Layer]
 - p: [12, 16, 14]
@@ -358,10 +367,10 @@ combos:
 - p: [18, 3]
   k: after
   l: [Base Layer]
-- p: [7, 1, 7]
+- p: [7, 6, 7]
   k: use
   l: [Base Layer]
-- p: [7, 1, 7, 25]
+- p: [7, 6, 7, 25]
   k: using
   l: [Base Layer]
 - p: [27, 12]
@@ -385,7 +394,7 @@ combos:
 - p: [0, 18, 9]
   k: way
   l: [Base Layer]
-- p: [17, 1, 2]
+- p: [17, 15]
   k: even
   l: [Base Layer]
 - p: [16, 17]
@@ -439,7 +448,7 @@ combos:
 - p: [17, 10]
   k: were
   l: [Base Layer]
-- p: [13, 1, 7]
+- p: [13, 6, 7]
   k: has
   l: [Base Layer]
 - p: [13, 2]
@@ -484,10 +493,10 @@ combos:
 - p: [21, 18]
   k: many
   l: [Base Layer]
-- p: [1, 2, 9]
+- p: [15, 9]
   k: very
   l: [Base Layer]
-- p: [1, 2, 16]
+- p: [2, 3, 16]
   k: question
   l: [Base Layer]
 - p: [11, 20]
@@ -514,7 +523,7 @@ combos:
 - p: [11, 10]
   k: sorry
   l: [Base Layer]
-- p: [21, 1, 2]
+- p: [21, 15]
   k: move
   l: [Base Layer]
 - p: [2, 19, 10]
