@@ -147,16 +147,13 @@ parse_config:
     '&11': "11"
     '&12': "12"
     '&num': "NUM"
-    '&macro_one': "one"
-    '&macro_two': "two"
-    '&macro_three': "three"
-    '&macro_four': "four"
-    '&macro_five': "five"
-    '&macro_six': "six"
-    '&macro_seven': "seven"
-    '&macro_eight': "eight"
-    '&macro_nine': "nine"
-    '&macro_ten': "ten"  
+    '&macro_Monday': "Monday"
+    '&macro_Tuesday': "Tuesday"
+    '&macro_Wendesday': "Wendesday"
+    '&macro_Thursday': "Thursday"
+    '&macro_Friday': "Friday"
+    '&macro_Saturday': "Saturday"
+    '&macro_Sunday': "Sunday"
   sticky_label: sticky
   trans_legend:
     t: ''

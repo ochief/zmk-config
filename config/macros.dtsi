@@ -12,13 +12,10 @@
     };
 
 /* macro: */
-MACRO(one, &kp O &macro_release &kp LSHIFT &macro_tap &kp N &kp E, 0, 0)
-MACRO(two, &kp T &macro_release &kp LSHIFT &macro_tap &kp W &kp O, 0, 0)
-MACRO(three, &kp T &macro_release &kp LSHIFT &macro_tap &kp H &kp R &kp E &kp E, 0, 0)
-MACRO(four, &kp F &macro_release &kp LSHIFT &macro_tap &kp O &kp U &kp R, 0, 0)
-MACRO(five, &kp F &macro_release &kp LSHIFT &macro_tap &kp I &kp V &kp E, 0, 0)
-MACRO(six, &kp S &macro_release &kp LSHIFT &macro_tap &kp I &kp X, 0, 0)
-MACRO(seven, &kp S &macro_release &kp LSHIFT &macro_tap &kp E &kp V &kp E &kp N, 0, 0)
-MACRO(eight, &kp E &macro_release &kp LSHIFT &macro_tap &kp I &kp G &kp H &kp T, 0, 0)
-MACRO(nine, &kp N &macro_release &kp LSHIFT &macro_tap &kp I &kp N &kp E, 0, 0)
-MACRO(ten, &kp T &macro_release &kp LSHIFT &macro_tap &kp E &kp N, 0, 0)
+MACRO(Monday, &kp M &macro_release &kp LSHIFT &macro_tap &kp O &kp N &kp D &kp A &kp Y, 0, 0)
+MACRO(Tuesday, &kp T &macro_release &kp LSHIFT &macro_tap &kp U &kp E &kp S &kp D &kp A &kp Y, 0, 0)
+MACRO(Wendesday, &kp W &macro_release &kp LSHIFT &macro_tap &kp E &kp N &kp D &kp E &kp S &kp D &kp A &kp Y, 0, 0)
+MACRO(Thursday, &kp T &macro_release &kp LSHIFT &macro_tap &kp H &kp U &kp R &kp S &kp D &kp A &kp Y, 0, 0)
+MACRO(Friday, &kp F &macro_release &kp LSHIFT &macro_tap &kp R &kp I &kp D &kp A &kp Y, 0, 0)
+MACRO(Saturday, &kp S &macro_release &kp LSHIFT &macro_tap &kp A &kp T &kp U &kp R &kp D &kp A &kp Y, 0, 0)
+MACRO(Sunday, &kp S &macro_release &kp LSHIFT &macro_tap &kp U &kp N &kp D &kp A &kp Y, 0, 0)
