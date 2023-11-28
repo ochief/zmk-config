@@ -29,16 +29,16 @@
 combos {
     compatible = "zmk,combos";
 
-    COMBO(January, &macro_January, 28 29 11, NUM, COMBO_TERM_SLOW)
-    COMBO(February, &macro_February, 28 29 12, NUM, COMBO_TERM_SLOW)
-    COMBO(March, &macro_March, 28 29 13, NUM, COMBO_TERM_SLOW)
-    COMBO(April, &macro_April, 28 29 20, NUM, COMBO_TERM_SLOW)
-    COMBO(May, &macro_May, 28 29 21, NUM, COMBO_TERM_SLOW)
-    COMBO(June, &macro_June, 28 29 22, NUM, COMBO_TERM_SLOW)
-    COMBO(July, &macro_July, 28 29 1, NUM, COMBO_TERM_SLOW)
-    COMBO(August, &macro_August, 28 29 2, NUM, COMBO_TERM_SLOW)
-    COMBO(September, &macro_September, 28 29 3, NUM, COMBO_TERM_SLOW)
-    COMBO(October, &macro_October, 28 29 26, NUM, COMBO_TERM_SLOW)
-    COMBO(November, &macro_November, 28 29 0, NUM, COMBO_TERM_SLOW)
-    COMBO(December, &macro_December, 28 29 10, NUM, COMBO_TERM_SLOW)
+    COMBO(January, &macro_January, 28 16 11, NUM, COMBO_TERM_SLOW)
+    COMBO(February, &macro_February, 28 16 12, NUM, COMBO_TERM_SLOW)
+    COMBO(March, &macro_March, 28 16 13, NUM, COMBO_TERM_SLOW)
+    COMBO(April, &macro_April, 28 16 20, NUM, COMBO_TERM_SLOW)
+    COMBO(May, &macro_May, 28 16 21, NUM, COMBO_TERM_SLOW)
+    COMBO(June, &macro_June, 28 16 22, NUM, COMBO_TERM_SLOW)
+    COMBO(July, &macro_July, 28 16 1, NUM, COMBO_TERM_SLOW)
+    COMBO(August, &macro_August, 28 16 2, NUM, COMBO_TERM_SLOW)
+    COMBO(September, &macro_September, 28 16 3, NUM, COMBO_TERM_SLOW)
+    COMBO(October, &macro_October, 28 16 26, NUM, COMBO_TERM_SLOW)
+    COMBO(November, &macro_November, 28 16 0, NUM, COMBO_TERM_SLOW)
+    COMBO(December, &macro_December, 28 16 10, NUM, COMBO_TERM_SLOW)
 };
