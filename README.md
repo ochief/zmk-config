@@ -15,8 +15,11 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 ## Days of the Week
 <img src="./images/days.svg" />
 
-## Months
+## Months - Full
 <img src="./images/months.svg" />
+
+## Months - Short
+<img src="./images/mons.svg" />
 
 ## Entities
 
