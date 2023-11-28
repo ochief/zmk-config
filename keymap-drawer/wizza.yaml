@@ -17,9 +17,9 @@ layers:
   - '3'
   - '12'
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - {t: LCTL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
   - {type: trans}
   - '4'
   - '5'
@@ -29,36 +29,27 @@ layers:
   - {type: trans}
   - '0'
   - {type: trans}
+  - {t: LSHFT, h: sticky}
   - {type: trans}
-  - NUM
 combos:
-- p: [29, 11]
-  k: one
+- p: [16, 11]
+  k: Monday
   l: [NUM]
-- p: [29, 12]
-  k: two
+- p: [16, 12]
+  k: Tuesday
   l: [NUM]
-- p: [29, 13]
-  k: three
+- p: [16, 13]
+  k: Wendesday
   l: [NUM]
-- p: [29, 20]
-  k: four
+- p: [16, 20]
+  k: Thursday
   l: [NUM]
-- p: [29, 21]
-  k: five
+- p: [16, 21]
+  k: Friday
   l: [NUM]
-- p: [29, 22]
-  k: six
+- p: [16, 22]
+  k: Saturday
   l: [NUM]
-- p: [29, 1]
-  k: seven
-  l: [NUM]
-- p: [29, 2]
-  k: eight
-  l: [NUM]
-- p: [29, 3]
-  k: nine
-  l: [NUM]
-- p: [29, 26]
-  k: ten
+- p: [16, 1]
+  k: Sunday
   l: [NUM]
