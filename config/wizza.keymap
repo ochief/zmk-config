@@ -12,9 +12,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define DEF 0
-#define NAV 1
-#define NUM 2
+#define NUM 0
 
 #define xxxxxx &none
 #define ______ &trans
@@ -42,33 +40,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        def_layer {
-            label = "Base Layer";
-            bindings = <
-                &kp W       &kp G       &kp D       &kp F       &kp B               &kp X       &kp L       &kp U       &kp O       &kp Y
-                &kp R       &kp S       &kp T       &kp H       &kp K               &kp V       &kp N       &kp E       &kp A       &kp I
-                            &kp C       &kp M       &kp P                                       &kp COMMA   &kp DOT     &kp SQT
-                                                    &mo NAV     &kp SPACE           &sk LSHFT   &num_word                                  
-            >;
-        };
-         
-        nav_layer {
-            label = "NAV";
-            bindings = <
-                ______      ______      ______      ______      ______              &kp PG_UP   &kp HOME    &kp UP      &kp END     ______
-                &sk LGUI    &sk LALT    &sk LCTL    &sk LSHFT   ______              &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   ______
-                            ______      ______      ______                                      ______      ______      ______
-                                                    ______      ______              &kp BSPC    &kp RET
-            >;
-        };
-
         num_layer {
             label = "NUM";
             bindings = <
-                ______      &kp N7      &kp N8      &kp N9      ______              ______      ______      ______      ______      ______
-                ______      &kp N1      &kp N2      &kp N3      ______              ______      ______      ______      ______      ______
-                            &kp N4      &kp N5      &kp N6                                      &kp COMMA   &kp DOT     &kp SQT
-                                                    &kp N0      ______              ______      ______
+                &kp A       &kp N7      &kp N8      &kp N9      ______              ______      ______      ______      ______      ______
+                &kp B       &kp N1      &kp N2      &kp N3      ______              ______      ______      ______      ______      ______
+                            &kp N4      &kp N5      &kp N6                                      ______      ______      ______
+                                                    &kp N0      ______              ______      &kp C 
             >;
         };
     };

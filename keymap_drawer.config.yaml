@@ -144,6 +144,9 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
+    'A': "11"
+    'B': "12"
+    'C': "NUM"
     '&macro_one': "one"
     '&macro_two': "two"
     '&macro_three': "three"

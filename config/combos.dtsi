@@ -29,14 +29,14 @@
 combos {
     compatible = "zmk,combos";
 
-    COMBO(one, &macro_one, 29 11, DEF, COMBO_TERM_SLOW)
-    COMBO(two, &macro_two, 29 12, DEF, COMBO_TERM_SLOW)
-    COMBO(three, &macro_three, 29 13, DEF, COMBO_TERM_SLOW)
-    COMBO(four, &macro_four, 29 20, DEF, COMBO_TERM_SLOW)
-    COMBO(five, &macro_five, 29 21, DEF, COMBO_TERM_SLOW)
-    COMBO(six, &macro_six, 29 22, DEF, COMBO_TERM_SLOW)
-    COMBO(seven, &macro_seven, 29 1, DEF, COMBO_TERM_SLOW)
-    COMBO(eight, &macro_eight, 29 2, DEF, COMBO_TERM_SLOW)
-    COMBO(nine, &macro_nine, 29 3, DEF, COMBO_TERM_SLOW)
-    COMBO(ten, &macro_ten, 29 26, DEF, COMBO_TERM_SLOW)
+    COMBO(one, &macro_one, 29 11, NUM, COMBO_TERM_SLOW)
+    COMBO(two, &macro_two, 29 12, NUM, COMBO_TERM_SLOW)
+    COMBO(three, &macro_three, 29 13, NUM, COMBO_TERM_SLOW)
+    COMBO(four, &macro_four, 29 20, NUM, COMBO_TERM_SLOW)
+    COMBO(five, &macro_five, 29 21, NUM, COMBO_TERM_SLOW)
+    COMBO(six, &macro_six, 29 22, NUM, COMBO_TERM_SLOW)
+    COMBO(seven, &macro_seven, 29 1, NUM, COMBO_TERM_SLOW)
+    COMBO(eight, &macro_eight, 29 2, NUM, COMBO_TERM_SLOW)
+    COMBO(nine, &macro_nine, 29 3, NUM, COMBO_TERM_SLOW)
+    COMBO(ten, &macro_ten, 29 26, NUM, COMBO_TERM_SLOW)
 };
