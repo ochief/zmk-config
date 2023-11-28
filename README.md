@@ -6,6 +6,8 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 
 ## Num Word
 
+## Num Layer
+
 ## Caps Word
 
 ## Numbers
