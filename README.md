@@ -10,7 +10,7 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 ## Caps Word
 
 ## Numbers
-<img src="./images/numbers.PNG?" />
+<img src="./images/numbers.svg" />
 
 ## Days of the Week
 
