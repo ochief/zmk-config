@@ -144,9 +144,9 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-    'A': "11"
-    'B': "12"
-    'C': "NUM"
+    '&11': "11"
+    '&12': "12"
+    '&num': "NUM"
     '&macro_one': "one"
     '&macro_two': "two"
     '&macro_three': "three"
@@ -159,7 +159,7 @@ parse_config:
     '&macro_ten': "ten"  
   sticky_label: sticky
   trans_legend:
-    t: ▽
+    t: ''
     type: trans
   mark_alternate_layer_activators: false
   qmk_keycode_map:
