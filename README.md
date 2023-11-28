@@ -1,33 +1,47 @@
 # zmk-config
 This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration for my current 30-key wireless keyboard [Wizza](https://github.com/AlaaSaadAbdo/battoota) by [@AlaaSaadAbdo](https://github.com/AlaaSaadAbdo).
+<!--
+## Table of Contents
 
 ## Wizza Layout
-![30 key layout](./keymap-drawer/wizza.svg?)
+<img src="./keymap-drawer/wizza.svg" />
+
 ## Num Word
 
 ## Num Layer
 
 ## Caps Word
+-->
+## Combos
 
-## Numbers
+### Numbers
 <img src="./images/numbers.svg" />
 
-## Days of the Week
+### Days of the Week
 <img src="./images/days.svg" />
 
-## Months - Full
+### Months - Full
 <img src="./images/months.svg" />
 
-## Months - Short
+### Months - Short
 <img src="./images/mons.svg" />
 
-## Entities
+### Functions
+<img src="./images/functions.svg" />
 
-## Work Terminology
+<!--
+### Entities
+<img src="./images/entities.svg" />
 
-## Personal
+### Field Types
+<img src="./images/fields.svg" />
 
-## Common Words
+### Glossary
+<img src="./images/glossary.svg" />
+
+### Personal
+<img src="./images/personal.svg" />
+-->
 
 ## Links
 - [Official ZMK](https://github.com/zmkfirmware/zmk)
