@@ -1,6 +1,36 @@
 layout: {qmk_keyboard: berylline}
 layers:
-  Base Layer: [V, W, F, P, B, X, M, ',', ., '''', R, S, T, H, K, J, N, A, I, O, C, G, D, L, U, Y, NAV, SPACE, E, Num Word]
+  Base Layer:
+  - W
+  - G
+  - D
+  - F
+  - B
+  - X
+  - L
+  - U
+  - O
+  - Y
+  - R
+  - S
+  - T
+  - H
+  - K
+  - J
+  - N
+  - E
+  - A
+  - I
+  - C
+  - M
+  - P
+  - ','
+  - .
+  - ''''
+  - NAV
+  - SPACE
+  - {t: LSHFT, h: sticky}
+  - Num Word
   NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
