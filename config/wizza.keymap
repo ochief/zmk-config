@@ -65,10 +65,10 @@
         num_layer {
             label = "NUM";
             bindings = <
-                ______      ______      ______      ______      ______              ______      &kp COMMA   &kp DOT     &kp SQT     &kp SEMI
-                &kp N4      &kp N3      &kp N2      &kp N1      ______              ______      &kp N0      &kp N6      &kp N7      &kp N8
-                            ______      ______      &kp N5                                      &kp N9      ______      ______
-                                                    ______      ______              ______      ______
+                ______      &kp N7      &kp N8      &kp N9      ______              ______      ______      ______      ______      ______
+                ______      &kp N1      &kp N2      &kp N3      ______              ______      ______      ______      ______      ______
+                            &kp N4      &kp N5      &kp N6                                      &kp COMMA   &kp DOT     &kp SQT
+                                                    &kp N0      ______              ______      ______
             >;
         };
     };
