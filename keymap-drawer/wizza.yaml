@@ -1,69 +1,7 @@
 layout: {qmk_keyboard: berylline}
 layers:
-  Base Layer:
-  - W
-  - G
-  - D
-  - F
-  - B
-  - X
-  - L
-  - U
-  - O
-  - Y
-  - R
-  - S
-  - T
-  - H
-  - K
-  - V
-  - N
-  - E
-  - A
-  - I
-  - C
-  - M
-  - P
-  - ','
-  - .
-  - ''''
-  - NAV
-  - SPACE
-  - {t: LSHFT, h: sticky}
-  - '&num_word'
-  NAV:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - HOME
-  - UP
-  - END
-  - {t: ▽, type: trans}
-  - {t: LGUI, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LCTL, h: sticky}
-  - {t: LSHFT, h: sticky}
-  - {t: ▽, type: trans}
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - BSPC
-  - RET
   NUM:
-  - {t: ▽, type: trans}
+  - A
   - '7'
   - '8'
   - '9'
@@ -73,7 +11,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - B
   - '1'
   - '2'
   - '3'
@@ -86,41 +24,41 @@ layers:
   - '4'
   - '5'
   - '6'
-  - ','
-  - .
-  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - C
 combos:
 - p: [29, 11]
   k: one
-  l: [Base Layer]
+  l: [NUM]
 - p: [29, 12]
   k: two
-  l: [Base Layer]
+  l: [NUM]
 - p: [29, 13]
   k: three
-  l: [Base Layer]
+  l: [NUM]
 - p: [29, 20]
   k: four
-  l: [Base Layer]
+  l: [NUM]
 - p: [29, 21]
   k: five
-  l: [Base Layer]
+  l: [NUM]
 - p: [29, 22]
   k: six
-  l: [Base Layer]
+  l: [NUM]
 - p: [29, 1]
   k: seven
-  l: [Base Layer]
+  l: [NUM]
 - p: [29, 2]
   k: eight
-  l: [Base Layer]
+  l: [NUM]
 - p: [29, 3]
   k: nine
-  l: [Base Layer]
+  l: [NUM]
 - p: [29, 26]
   k: ten
-  l: [Base Layer]
+  l: [NUM]
