@@ -4,7 +4,7 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 ## Table of Contents
 
 ## Wizza Layout
-<img src="./images/wizza.svg" />
+<img src="./keymap-drawer/wizza.svg" />
 
 ## Num Word
 
