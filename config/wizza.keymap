@@ -9,7 +9,9 @@
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/keypos_def/keypos_30keys.h"
 
-#define NUM 0
+#define DEF 0
+
+#include "combos.dtsi"
 
 #define xxxxxx &none
 #define ______ &trans
@@ -40,7 +42,7 @@ MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
 /* Keymap */
-ZMK_LAYER(base,       
+ZMK_LAYER(DEF,       
     &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
     &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
                     ______          ______          ______                                          ______          ______          ______

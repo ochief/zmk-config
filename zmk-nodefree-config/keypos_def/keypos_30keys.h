@@ -1,4 +1,4 @@
-/*                              34 KEY MATRIX / LAYOUT MAPPING
+/*                              30 KEY MATRIX / LAYOUT MAPPING
 
   ╭────────────────────┬────────────────────╮ ╭─────────────────────┬─────────────────────╮
   │  0   1   2   3   4 │  5   6   7   8   9 │ │ LT4 LT3 LT2 LT1 LT0 │ RT0 RT1 RT2 RT3 RT4 │
