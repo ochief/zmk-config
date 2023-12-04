@@ -65,3 +65,6 @@ combos:
 - p: [13, 16]
   k: J
   l: [base]
+- p: [16, 17]
+  k: '-'
+  l: [base]
