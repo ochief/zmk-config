@@ -1,4 +1,4 @@
-// version 1.19 (used to refresh Keymap Drawer)
+// version 1.20 (used to refresh Keymap Drawer)
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -13,8 +13,6 @@
 
 #define xxxxxx &none
 #define ______ &trans
-
-#include "combos.dtsi"
 
 #define QUICK_TAP_MS 175
 
