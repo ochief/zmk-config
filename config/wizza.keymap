@@ -43,7 +43,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
 // tap: forward slash | shift + tap: back slash
 ZMK_BEHAVIOR(fwd_bac, mod_morph,
-    bindings = <&kp FSLH>, <&kp BSLH>;
+    bindings = <&kp FSLH>, <&kp NUBS>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
