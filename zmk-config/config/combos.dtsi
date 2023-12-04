@@ -24,21 +24,11 @@
     COMBO(j, &kp J, 1 2, DEF, COMBO_TERM_SLOW)
     COMBO(q, &kp Q, 2 3, DEF, COMBO_TERM_SLOW)
     COMBO(z, &kp Z, 6 7, DEF, COMBO_TERM_SLOW)
+    COMBO(F1, &macro_F1, 29 11, NUM, COMBO_TERM_SLOW)
 */
 
 combos {
     compatible = "zmk,combos";
 
-    COMBO(F1, &macro_F1, 29 11, NUM, COMBO_TERM_SLOW)
-    COMBO(F2, &macro_F2, 29 12, NUM, COMBO_TERM_SLOW)
-    COMBO(F3, &macro_F3, 29 13, NUM, COMBO_TERM_SLOW)
-    COMBO(F4, &macro_F4, 29 20, NUM, COMBO_TERM_SLOW)
-    COMBO(F5, &macro_F5, 29 21, NUM, COMBO_TERM_SLOW)
-    COMBO(F6, &macro_F6, 29 22, NUM, COMBO_TERM_SLOW)
-    COMBO(F7, &macro_F7, 29 1, NUM, COMBO_TERM_SLOW)
-    COMBO(F8, &macro_F8, 29 2, NUM, COMBO_TERM_SLOW)
-    COMBO(F9, &macro_F9, 29 3, NUM, COMBO_TERM_SLOW)
-    COMBO(F10, &macro_F10, 29 26, NUM, COMBO_TERM_SLOW)
-    COMBO(F11, &macro_F11, 29 0, NUM, COMBO_TERM_SLOW)
-    COMBO(F12, &macro_F12, 29 10, NUM, COMBO_TERM_SLOW)
+    COMBO(j, &kp J, 1 2, DEF, COMBO_TERM_SLOW)
 };
