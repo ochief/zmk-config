@@ -41,6 +41,18 @@
 MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
+// tap: comma | shift + tap: ques
+ZMK_BEHAVIOR(com_que, mod_morph,
+    bindings = <&kp COMMA>, <&kp QMARK>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+
+// tap: dot | shift + tap: excl
+ZMK_BEHAVIOR(dot_exc, mod_morph,
+    bindings = <&kp DOT>, <&kp EXCL>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+
 /* Keymap */
 ZMK_LAYER(base,       
     &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O

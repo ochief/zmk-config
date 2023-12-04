@@ -14,4 +14,21 @@
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 
-ZMK_COMBO(q,   &kp Q,       LT4 LT3,     DEF, COMBO_TERM_FAST)
+/* ALPHA */
+ZMK_COMBO(w,            &kp W,      LT4 LT3,        DEF, COMBO_TERM_FAST)
+ZMK_COMBO(m,            &kp M,      LT3 LT2,        DEF, COMBO_TERM_FAST) 
+ZMK_COMBO(b,            &kp B,      LT2 LT1,        DEF, COMBO_TERM_FAST)
+ZMK_COMBO(k,            &kp K,      LT1 RT1,        DEF, COMBO_TERM_FAST)
+// ZMK_COMBO(slash,        &kp "/",    
+ZMK_COMBO(comma,        &com_que,   RT2 RT3,        DEF, COMBO_TERM_FAST)
+ZMK_COMBO(dot,          &dot_exc,   RT3 RT4,        DEF, COMBO_TERM_FAST)
+ZMK_COMBO(q,            &kp Q,      LM4 LM3,        DEF, COMBO_TERM_FAST)
+ZMK_COMBO(f,            &kp F,      LM3 LM2,        DEF, COMBO_TERM_FAST)
+ZMK_COMBO(p,            &kp P,      LM2 LM1,        DEF, COMBO_TERM_FAST)
+ZMK_COMBO(j,            &kp J,      LM1 RM1,        DEF, COMBO_TERM_FAST)
+// ZMK_COMBO(hyphen,       &kp -,      
+// ZMK_COMBO(brackets,     &kp (),     
+// ZMK_COMBO(speech,       &kp "",     
+
+/* VERTICAL */
+
