@@ -39,16 +39,10 @@
 MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
-keymap {
-    compatible = "zmk,keymap";
-
-    num_layer {
-        label = "NUM";
-        bindings = <         
-            &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
-            &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
-                            ______          ______          ______                                          ______          ______          ______
-                                                            &kp SPACE       ______          &kp E           &sk LSHFT
-        >;
-    };
-};
+/* Keymap */
+ZMK_LAYER(base,       
+    &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
+    &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
+                    ______          ______          ______                                          ______          ______          ______
+                                                    &kp SPACE       ______          &kp E           &sk LSHFT
+)
