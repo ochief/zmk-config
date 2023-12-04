@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: berylline}
 layers:
-  base:
+  '0':
   - {t: R, h: LGUI}
   - {t: S, h: LALT}
   - {t: T, h: LSHFT}
@@ -31,3 +31,7 @@ layers:
   - {type: trans}
   - E
   - {t: LSHFT, h: sticky}
+combos:
+- p: [0, 1]
+  k: Q
+  l: ['0']
