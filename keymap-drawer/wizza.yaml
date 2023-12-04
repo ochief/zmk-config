@@ -1,0 +1,33 @@
+layout: {qmk_keyboard: berylline}
+layers:
+  NUM:
+  - {t: R, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: T, h: LSHFT}
+  - {t: H, h: LCTRL}
+  - {type: trans}
+  - {type: trans}
+  - {t: N, h: LCTRL}
+  - {t: A, h: RSHFT}
+  - {t: I, h: LALT}
+  - {t: O, h: LGUI}
+  - Q
+  - C
+  - G
+  - D
+  - {type: trans}
+  - {type: trans}
+  - L
+  - U
+  - Y
+  - ''''
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - SPACE
+  - {type: trans}
+  - E
+  - {t: LSHFT, h: sticky}
