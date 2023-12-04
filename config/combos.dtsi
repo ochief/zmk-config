@@ -26,7 +26,7 @@ ZMK_COMBO(q,            &kp Q,              LM4 LM3,        DEF,        COMBO_TE
 ZMK_COMBO(f,            &kp F,              LM3 LM2,        DEF,        COMBO_TERM_FAST)
 ZMK_COMBO(p,            &kp P,              LM2 LM1,        DEF,        COMBO_TERM_FAST)
 ZMK_COMBO(j,            &kp J,              LM1 RM1,        DEF,        COMBO_TERM_FAST)
-ZMK_COMBO(minus,        &kp MINUS,          RM1,RM2,        DEF,        COMBO_TERM_FAST)
+ZMK_COMBO(minus,        &kp MINUS,          RM1 RM2,        DEF,        COMBO_TERM_FAST)
 // ZMK_COMBO(brackets,     &kp (),     
 // ZMK_COMBO(speech,       &kp "",     
 
