@@ -13,35 +13,50 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 ## Caps Word
 -->
 ## Combos
+<details>
+  <summary>Number</summary>
+  <img src="./images/numbers.svg" />
+</details>
 
-### Numbers
-<img src="./images/numbers.svg" />
+<details>
+  <summary>Days of the Week</summary>
+  <img src="./images/days.svg" />
+</details>
 
-### Days of the Week
-<img src="./images/days.svg" />
+<details>
+  <summary>Months - Full</summary>
+  <img src="./images/months.svg" />
+</details>
 
-### Months - Full
-<img src="./images/months.svg" />
+<details>
+  <summary>Months - Short</summary>
+  <img src="./images/mons.svg" />
+</details>
 
-### Months - Short
-<img src="./images/mons.svg" />
+<details>
+  <summary>Functions</summary>
+  <img src="./images/functions.svg" />
+</details>
 
-### Functions
-<img src="./images/functions.svg" />
+<details>
+  <summary>Entities</summary>
+  <img src="./images/entities.svg" />
+</details>
 
-<!--
-### Entities
-<img src="./images/entities.svg" />
+<details>
+  <summary>Field Types</summary>
+  <img src="./images/fields.svg" />
+</details>
 
-### Field Types
-<img src="./images/fields.svg" />
+<details>
+  <summary>Glossary</summary>
+ <img src="./images/glossary.svg" />
+</details>
 
-### Glossary
-<img src="./images/glossary.svg" />
-
-### Personal
-<img src="./images/personal.svg" />
--->
+<details>
+  <summary>Personal</summary>
+  <img src="./images/personal.svg" />
+</details>
 
 ## Links
 - [Official ZMK](https://github.com/zmkfirmware/zmk)
