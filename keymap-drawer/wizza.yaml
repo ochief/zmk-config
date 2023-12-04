@@ -48,7 +48,7 @@ combos:
   k: {t: ',', s: '?'}
   l: [base]
 - p: [8, 9]
-  k: {t: ., s: '!'}
+  k: '&ddot_exc_scol'
   l: [base]
 - p: [10, 11]
   k: Q
