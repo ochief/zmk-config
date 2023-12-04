@@ -45,7 +45,7 @@ combos:
   k: K
   l: [base]
 - p: [6, 7]
-  k: {t: /, s: \}
+  k: {t: /, s: NUBS}
   l: [base]
 - p: [7, 8]
   k: {t: ',', s: '?'}
