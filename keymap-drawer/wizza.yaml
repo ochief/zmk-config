@@ -33,5 +33,32 @@ layers:
   - {t: LSHFT, h: sticky}
 combos:
 - p: [0, 1]
+  k: W
+  l: [base]
+- p: [1, 2]
+  k: M
+  l: [base]
+- p: [2, 3]
+  k: B
+  l: [base]
+- p: [3, 6]
+  k: K
+  l: [base]
+- p: [7, 8]
+  k: {t: ',', s: '?'}
+  l: [base]
+- p: [8, 9]
+  k: {t: ., s: '!'}
+  l: [base]
+- p: [10, 11]
   k: Q
+  l: [base]
+- p: [11, 12]
+  k: F
+  l: [base]
+- p: [12, 13]
+  k: P
+  l: [base]
+- p: [13, 16]
+  k: J
   l: [base]
