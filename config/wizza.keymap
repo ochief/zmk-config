@@ -41,20 +41,29 @@
 MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
-// tap: comma | shift + tap: scolon | ctrl + tap: ques
-ZMK_BEHAVIOR(com_que, mod_morph,
-    bindings = <&kp COMMA>, <&kp QMARK>;
+// tap: forward slash | shift + tap: back slash
+ZMK_BEHAVIOR(fwd_bac, mod_morph,
+    bindings = <&kp FSLH>, <&kp BSLH>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
-// tap: dot | shift + tap: colon | ctrl + tap: excl
-ZMK_BEHAVIOR(dot_exc, mod_morph,
-    bindings = <&kp DOT>, <&kp EXCL>;
+// tap: comma | shift + tap: semi-colon | ctrl + tap: question mark
+ZMK_BEHAVIOR(com_sco, mod_morph,
+    bindings = <&kp COMMA>, <&kp SEMI>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
+ZMK_BEHAVIOR(com_sco_que, mod_morph,
+    bindings = <&com_sco>, <&kp QMARK>;
+    mods = <(MOD_LCTL|MOD_RCTL)>;
+)
 
-ZMK_BEHAVIOR(dot_exc_scol, mod_morph,
-    bindings = <&dot_exc>, <&kp SEMI>;
+// tap: dot | shift + tap: colon | ctrl + tap: exclamation mark
+ZMK_BEHAVIOR(dot_col, mod_morph,
+    bindings = <&kp DOT>, <&kp COLON>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+ZMK_BEHAVIOR(dot_col_exc, mod_morph,
+    bindings = <&dot_col>, <&kp EXCL>;
     mods = <(MOD_LCTL|MOD_RCTL)>;
 )
 
