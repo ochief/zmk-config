@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: berylline}
 layers:
-  NUM:
+  base:
   - {t: R, h: LGUI}
   - {t: S, h: LALT}
   - {t: T, h: LSHFT}
