@@ -919,9 +919,8 @@ path.combo {
 <g transform="translate(0, 18)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap">
-<tspan x="0" dy="-0.6em">KP</tspan><tspan x="0" dy="1.2em">EQUAL</tspan>
-</text>
+<text x="0" y="0" class="key  combo-separate tap">=</text>
+<text x="0" y="-24" class="key  combo-separate shifted">=</text>
 </g>
 <g transform="translate(10, 89) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-8" y="-7" width="16" height="15" class="key"/>
@@ -1019,9 +1018,8 @@ path.combo {
 <g transform="translate(0, 18)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap">
-<tspan x="0" dy="-0.6em">KP</tspan><tspan x="0" dy="1.2em">COMMA</tspan>
-</text>
+<text x="0" y="0" class="key  combo-separate tap">,</text>
+<text x="0" y="-24" class="key  combo-separate shifted">,</text>
 </g>
 <g transform="translate(10, 89) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-8" y="-7" width="16" height="15" class="key"/>
@@ -1119,9 +1117,8 @@ path.combo {
 <g transform="translate(0, 18)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap">
-<tspan x="0" dy="-0.6em">KP</tspan><tspan x="0" dy="1.2em">DOT</tspan>
-</text>
+<text x="0" y="0" class="key  combo-separate tap">.</text>
+<text x="0" y="-24" class="key  combo-separate shifted">.</text>
 </g>
 <g transform="translate(10, 89) rotate(-8.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-8" y="-7" width="16" height="15" class="key"/>
