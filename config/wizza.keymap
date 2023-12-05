@@ -70,6 +70,25 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
 };
 
+// MOD MORPHS
+ZMK_BEHAVIOR(equal, mod_morph,
+    bindings = <&kp EQUAL>, <&kp EQUAL>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+
+ZMK_BEHAVIOR(comma, mod_morph,
+    bindings = <&kp COMMA>, <&kp COMMA>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+
+ZMK_BEHAVIOR(dot, mod_morph,
+    bindings = <&kp DOT>, <&kp DOT>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+
+// MACROS
+
+
 /* Keymap */
 ZMK_LAYER(base,       
     &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
