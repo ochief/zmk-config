@@ -10,6 +10,9 @@
 #include "../zmk-nodefree-config/keypos_def/keypos_30keys.h"
 
 #define DEF 0
+#define NUM 1
+#define NAV 2
+#define SYM 3
 
 #include "combos.dtsi"
 
