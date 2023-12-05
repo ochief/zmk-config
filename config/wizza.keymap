@@ -41,36 +41,57 @@
 MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
-// tap: forward slash | shift + tap: back slash
-ZMK_BEHAVIOR(fwd_bac, mod_morph,
-    bindings = <&kp FSLH>, <&kp NUBS>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
+// tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shift
+ZMK_BEHAVIOR(smart_shft, mod_morph,
+    bindings = <&sk LSHFT>, <&caps_word>;
+    mods = <(MOD_LSFT)>;
 )
+&caps_word {  // mods deactivate caps-word, requires PR #1451
+    /delete-property/ ignore-modifiers;
+};
 
-// tap: comma | shift + tap: semi-colon | ctrl + tap: question mark
-ZMK_BEHAVIOR(com_sco, mod_morph,
-    bindings = <&kp COMMA>, <&kp SEMI>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
+// tap: num-word | double-tap: sticky num-layer | hold: num-layer
+#define SMART_NUM &smart_num NUM 0
+ZMK_BEHAVIOR(smart_num, hold_tap,
+    flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <QUICK_TAP_MS>;
+    bindings = <&mo>, <&num_dance>;
 )
-ZMK_BEHAVIOR(com_sco_que, mod_morph,
-    bindings = <&com_sco>, <&kp QMARK>;
-    mods = <(MOD_LCTL|MOD_RCTL)>;
+ZMK_BEHAVIOR(num_dance, tap_dance,
+    tapping-term-ms = <200>;
+    bindings = <&num_word>, <&sl NUM>;  // reverse this for sticky-num on single tap
 )
-
-// tap: dot | shift + tap: colon | ctrl + tap: exclamation mark
-ZMK_BEHAVIOR(dot_col, mod_morph,
-    bindings = <&kp DOT>, <&kp COLON>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-)
-ZMK_BEHAVIOR(dot_col_exc, mod_morph,
-    bindings = <&dot_col>, <&kp EXCL>;
-    mods = <(MOD_LCTL|MOD_RCTL)>;
-)
+&num_word {  // num-word, requires PR #1451
+    layers = <NUM>;
+    continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
+};
 
 /* Keymap */
 ZMK_LAYER(base,       
     &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
     &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
                     ______          ______          ______                                          ______          ______          ______
-                                                    &kp SPACE       ______          &kp E           &sk LSHFT
+                                                    SMART_NUM       &kp SPACE       &kp E           &smart_shft
+)
+
+ZMK_LAYER(num,       
+    ______          ______          ______          ______          ______          ______          &kp N1          &kp N2          &kp N3          &kp N4
+    ______          ______          ______          ______          ______          ______          &kp N5          &kp N6          &kp N7          &kp N8
+                    ______          ______          ______                                          ______          ______          ______
+                                                    ______          &kp SPACE       &kp N0          &kp N9
+)
+
+ZMK_LAYER(nav,       
+    ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
+    ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
+                    ______          ______          ______                                          ______          ______          ______
+                                                    ______          ______          ______          ______
+)
+
+ZMK_LAYER(sym,       
+    ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
+    ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
+                    ______          ______          ______                                          ______          ______          ______
+                                                    ______          ______          ______          ______
 )
