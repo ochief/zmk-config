@@ -159,10 +159,10 @@ combos:
   k: J
   l: [base]
 - p: [16, 17]
-  k: '&LS(SQT)'
+  k: LS(SQT)
   l: [base, num, sym]
 - p: [26, 27]
-  k: '&LG(LS(S))'
+  k: LG(LS(S))
   l: [base, num, sym]
 - p: [0, 10]
   k: <
@@ -189,17 +189,17 @@ combos:
   k: '>'
   l: [base, num, sym]
 - p: [10, 11]
-  k: '&RA(N4)'
+  k: RA(4)
   l: [num, sym]
 - p: [11, 12]
-  k: '&LS(N4)'
+  k: LS(4)
   l: [num, sym]
 - p: [12, 13]
-  k: '&LS(N3)'
+  k: LS(3)
   l: [num, sym]
 - p: [17, 18]
-  k: '&LS(NUBS)'
+  k: LS(NUBS)
   l: [num, sym]
 - p: [18, 19]
-  k: '&LS(NUHS)'
+  k: LS(NUHS)
   l: [num, sym]
