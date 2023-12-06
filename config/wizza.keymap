@@ -87,28 +87,28 @@ ZMK_BEHAVIOR(dot, mod_morph,
 )
 
 /* Keymap */
-ZMK_LAYER(base,       
+ZMK_LAYER(base,
     &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
     &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
                     ______          ______          ______                                          ______          ______          ______
                                                     SMART_NUM       &kp SPACE       &kp E           &smart_shft
 )
 
-ZMK_LAYER(num,       
+ZMK_LAYER(num,
     ______          ______          ______          ______          ______          ______          &kp N1          &kp N2          &kp N3          &kp N4
     ______          ______          ______          ______          ______          ______          &kp N5          &kp N6          &kp N7          &kp N8
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          &kp SPACE       &kp N0          &kp N9
 )
 
-ZMK_LAYER(nav,       
+ZMK_LAYER(nav,
     ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
     ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          ______          ______          ______
 )
 
-ZMK_LAYER(sym,       
+ZMK_LAYER(sym,
     ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
     ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
                     ______          ______          ______                                          ______          ______          ______
