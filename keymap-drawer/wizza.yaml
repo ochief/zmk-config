@@ -192,14 +192,14 @@ combos:
   k: '&RA(N4)'
   l: [num, sym]
 - p: [11, 12]
-  k: $
+  k: '&LS(N4)'
   l: [num, sym]
 - p: [12, 13]
   k: '&LS(N3)'
   l: [num, sym]
 - p: [17, 18]
-  k: '|'
+  k: '&LS(NUBS)'
   l: [num, sym]
 - p: [18, 19]
-  k: '~'
+  k: '&LS(NUHS)'
   l: [num, sym]
