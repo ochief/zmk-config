@@ -8,7 +8,7 @@
               ╰─────────┴─────────╯             */
 
 // use require-prior-idle-ms for combos
-#undef COMBO_HOOK
+#undef  COMBO_HOOK
 #define COMBO_HOOK require-prior-idle-ms = <150>;
 
 #define COMBO_TERM_FAST 18
@@ -26,7 +26,7 @@ ZMK_COMBO(q,            &kp Q,              LM4 LM3,        DEF         ,       
 ZMK_COMBO(f,            &kp F,              LM3 LM2,        DEF         ,       COMBO_TERM_FAST)
 ZMK_COMBO(p,            &kp P,              LM2 LM1,        DEF         ,       COMBO_TERM_FAST)
 ZMK_COMBO(j,            &kp J,              LM1 RM1,        DEF         ,       COMBO_TERM_FAST)
-ZMK_COMBO(at,           LS(SQT)             RM1 RM2,        DEF NUM SYM ,       COMBO_TERM_FAST) //might need unicode
+ZMK_COMBO(at,           LS(SQT),            RM1 RM2,        DEF NUM SYM ,       COMBO_TERM_FAST) //might need unicode
 ZMK_COMBO(screenshot,   LG(LS(S)),          LH1 LH0,        DEF NUM SYM ,       COMBO_TERM_FAST)
 
 /* VERTICAL */
@@ -47,4 +47,4 @@ ZMK_COMBO(pipe,         &kp PIPE,           RM2 RM3,            NUM SYM ,       
 ZMK_COMBO(tilde,        &kp TILDE,          RM3 RM4,            NUM SYM ,       COMBO_TERM_FAST) // might need unicode
 
 /* NUMBER */
-//ZMK_COMBO(con_space,    &con_space,         RHO RH1,          NUM     ,       COMBO_TERM_FAST)
+// ZMK_COMBO(con_space,    &con_space,         RHO RH1,          NUM     ,       COMBO_TERM_FAST)
