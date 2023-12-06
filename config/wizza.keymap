@@ -14,13 +14,10 @@
 #define NAV 2
 #define SYM 3
 
-// #include "uk_keymap.h"
 #include "combos.dtsi"
 
 #define xxxxxx &none
 #define ______ &trans
-
-#define UK_GRV GRAVE
 
 #define QUICK_TAP_MS 175
 
@@ -91,14 +88,11 @@ ZMK_BEHAVIOR(dot, mod_morph,
 
 
 
-// MACROS
-
-
 /* Keymap */
 ZMK_LAYER(base,       
     &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
     &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
-                    ______          ______          UK_GRV                                          ______          ______          ______
+                    ______          ______          ______                                          ______          ______          ______
                                                     SMART_NUM       &kp SPACE       &kp E           &smart_shft
 )
 
