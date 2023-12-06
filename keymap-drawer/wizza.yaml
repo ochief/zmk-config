@@ -138,13 +138,13 @@ combos:
   k: K
   l: [base]
 - p: [6, 7]
-  k: {t: '=', s: '='}
+  k: '='
   l: [base, num, sym]
 - p: [7, 8]
-  k: {t: ',', s: ','}
+  k: ','
   l: [base, num, sym]
 - p: [8, 9]
-  k: {t: ., s: .}
+  k: .
   l: [base, num, sym]
 - p: [10, 11]
   k: Q
