@@ -144,21 +144,16 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-    '&11': "11"
-    '&12': "12"
-    '&num': "NUM"
-    '&macro_F1': "F1"
-    '&macro_F2': "F2"
-    '&macro_F3': "F3"
-    '&macro_F4': "F4"
-    '&macro_F5': "F5"
-    '&macro_F6': "F6"
-    '&macro_F7': "F7"
-    '&macro_F8': "F8"
-    '&macro_F9': "F9"
-    '&macro_F10': "F10"
-    '&macro_F11': "F11"
-    '&macro_F12': "F12"
+    '&equal': "="
+    '&comma': ","
+    '&dot': "."
+    'LS(SQT)': "@"
+    'LG(LS(S))': "SS"
+    'RA(N4)': "€"
+    'LS(N4)': "$"
+    'LS(N3)': "£"
+    'LS(NUBS)': "|"
+    'LS(NUBS)': "~"
   sticky_label: sticky
   trans_legend:
     t: ''
