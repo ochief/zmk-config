@@ -22,7 +22,8 @@ layers:
   - Y
   - ''''
   - {type: trans}
-  - '&trans GRAVE'
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -56,8 +57,8 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
   - {type: trans}
+  - {type: held}
   - SPACE
   - '0'
   - '9'
