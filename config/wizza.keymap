@@ -14,11 +14,13 @@
 #define NAV 2
 #define SYM 3
 
-#include "uk_keymap.h"
+// #include "uk_keymap.h"
 #include "combos.dtsi"
 
 #define xxxxxx &none
 #define ______ &trans
+
+#define UK_GRV GRAVE
 
 #define QUICK_TAP_MS 175
 
