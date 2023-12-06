@@ -14,6 +14,7 @@
 #define NAV 2
 #define SYM 3
 
+#include "uk_keymap.h"
 #include "combos.dtsi"
 
 #define xxxxxx &none
@@ -86,6 +87,8 @@ ZMK_BEHAVIOR(dot, mod_morph,
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
 
+
+
 // MACROS
 
 
@@ -93,7 +96,7 @@ ZMK_BEHAVIOR(dot, mod_morph,
 ZMK_LAYER(base,       
     &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
     &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
-                    ______          ______          ______                                          ______          ______          ______
+                    ______          ______          UK_GRV                                          ______          ______          ______
                                                     SMART_NUM       &kp SPACE       &kp E           &smart_shft
 )
 
