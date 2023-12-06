@@ -147,13 +147,13 @@ parse_config:
     '&equal': "="
     '&comma': ","
     '&dot': "."
-    'LS(SQT)': "@"
-    'LG(LS(S))': "SS"
-    'RA(N4)': "€"
-    'LS(N4)': "$"
-    'LS(N3)': "£"
-    'LS(NUBS)': "|"
-    'LS(NUBS)': "~"
+    '&kp LS(SQT)': "@"
+    '&kp LG(LS(S))': "SS"
+    '&kp RA(N4)': "€"
+    '&kp LS(N4)': "$"
+    '&kp LS(N3)': "£"
+    '&kp LS(NUBS)': "|"
+    '&kp LS(NUBS)': "~"
   sticky_label: sticky
   trans_legend:
     t: ''
