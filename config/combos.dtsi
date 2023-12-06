@@ -41,10 +41,10 @@ ZMK_COMBO(gt,           &kp GT,             RT4 RM4,        DEF NUM SYM,        
 
 /* SYMBOLS */
 ZMK_COMBO(euro,         RA(N4),             LM4 LM3,            NUM SYM,        COMBO_TERM_FAST)// might need
-ZMK_COMBO(dollar,       &kp DOLLAR,         LM3 LM2,            NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(dollar,       LS(N4),             LM3 LM2,            NUM SYM,        COMBO_TERM_FAST)
 ZMK_COMBO(pound,        LS(N3),             LM2 LM1,            NUM SYM,        COMBO_TERM_FAST)// might need
-ZMK_COMBO(pipe,         &kp PIPE,           RM2 RM3,            NUM SYM,        COMBO_TERM_FAST) // might need
-ZMK_COMBO(tilde,        &kp TILDE,          RM3 RM4,            NUM SYM,        COMBO_TERM_FAST) // might need unicode
+ZMK_COMBO(pipe,         LS(NUBS),           RM2 RM3,            NUM SYM,        COMBO_TERM_FAST) // might need
+ZMK_COMBO(tilde,        LS(NUHS),           RM3 RM4,            NUM SYM,        COMBO_TERM_FAST) // might need unicode
 
 /* NUMBER */
 // ZMK_COMBO(con_space,    &con_space,         RHO RH1,          NUM,       COMBO_TERM_FAST)
