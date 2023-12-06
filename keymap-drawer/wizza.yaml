@@ -22,8 +22,7 @@ layers:
   - Y
   - ''''
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - '&trans KC_GRV'
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -57,8 +56,8 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
   - {type: held}
+  - {type: trans}
   - SPACE
   - '0'
   - '9'
