@@ -1,9 +1,6 @@
-#pragma once
-#include "keycodes.h"
-// clang-format off
-
 // Aliases
-#define UK_GRV  KC_GRV  // `
+#define UK_GRV  GRAVE  // `
+/*
 #define UK_1    KC_1    // 1
 #define UK_2    KC_2    // 2
 #define UK_3    KC_3    // 3
@@ -80,3 +77,4 @@
 #define UK_IACU ALGR(KC_I)    // Í
 #define UK_OACU ALGR(KC_O)    // Ó
 #define UK_AACU ALGR(KC_A)    // Á
+*/
