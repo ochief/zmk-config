@@ -22,7 +22,7 @@ layers:
   - Y
   - ''''
   - {type: trans}
-  - '&trans KC_GRV'
+  - '&trans GRAVE'
   - {type: trans}
   - {type: trans}
   - {type: trans}
