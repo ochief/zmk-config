@@ -21,6 +21,12 @@
 
 #define QUICK_TAP_MS 175
 
+&lt {  // layer-tap config
+    flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <QUICK_TAP_MS>;
+};
+
 &sk {
   release-after-ms = <900>;  // release after 0.6s
   quick-release;
@@ -80,7 +86,7 @@ ZMK_BEHAVIOR(comma, mod_morph,
     bindings = <&kp COMMA>, <&kp COMMA>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 )
-
+////////// look at urobs latest and greatest mod morph
 ZMK_BEHAVIOR(dot, mod_morph,
     bindings = <&kp DOT>, <&kp DOT>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -91,11 +97,11 @@ ZMK_LAYER(base,
     &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
     &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
                     ______          ______          ______                                          ______          ______          ______
-                                                    SMART_NUM       &kp SPACE       &kp E           &smart_shft
+                                                    SMART_NUM       &kp SPACE       &lt_e SYM       &smart_shft
 )
 
 ZMK_LAYER(num,
-    ______          ______          ______          ______          ______          ______          &kp N1          &kp N2          &kp N3          &kp N4
+    &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______          ______          &kp N1          &kp N2          &kp N3          &kp N4
     ______          ______          ______          ______          ______          ______          &kp N5          &kp N6          &kp N7          &kp N8
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          &kp SPACE       &kp N0          &kp N9
@@ -109,8 +115,8 @@ ZMK_LAYER(nav,
 )
 
 ZMK_LAYER(sym,
-    ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
-    ______          ______          ______          ______          ______          ______          ______          ______          ______          ______
+    &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDS        ______          ______          &kp PRCNT       &kp SEMI        &kp QMARK       &kp DQT
+    &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          &kp GRAVE       &kp COLON       &kp EXCL        &kp SQT
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          ______          ______          ______
 )
