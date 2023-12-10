@@ -159,10 +159,10 @@ combos:
   k: J
   l: [base]
 - p: [16, 17]
-  k: LS(SQT)
+  k: '@'
   l: [base, num, sym]
 - p: [26, 27]
-  k: LG(LS(S))
+  k: SS
   l: [base, num, sym]
 - p: [0, 10]
   k: <
@@ -189,16 +189,16 @@ combos:
   k: '>'
   l: [base, num, sym]
 - p: [10, 11]
-  k: RA(4)
+  k: €
   l: [num, sym]
 - p: [11, 12]
-  k: LS(4)
+  k: $
   l: [num, sym]
 - p: [12, 13]
-  k: LS(3)
+  k: £
   l: [num, sym]
 - p: [17, 18]
-  k: LS(NUBS)
+  k: '~'
   l: [num, sym]
 - p: [18, 19]
   k: LS(NUHS)
