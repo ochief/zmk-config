@@ -97,7 +97,7 @@ layers:
   - NUBS
   - '#'
   - '&'
-  - UNDS
+  - _
   - {type: trans}
   - {type: trans}
   - '%'
