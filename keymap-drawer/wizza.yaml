@@ -29,7 +29,7 @@ layers:
   - {type: trans}
   - {t: '&num_dance', h: num}
   - SPACE
-  - '&lt_e 3'
+  - {t: E, h: sym}
   - {t: LSHFT, h: sticky, s: '&caps_word'}
   num:
   - {t: LGUI, h: sticky}
@@ -122,7 +122,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
 combos:
 - p: [0, 1]
