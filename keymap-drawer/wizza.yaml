@@ -29,13 +29,13 @@ layers:
   - {type: trans}
   - {t: '&num_dance', h: num}
   - SPACE
-  - E
+  - '&lt_e 3'
   - {t: LSHFT, h: sticky, s: '&caps_word'}
   num:
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - {t: LCTRL, h: sticky}
   - {type: trans}
   - {type: trans}
   - '1'
@@ -94,26 +94,26 @@ layers:
   - {type: trans}
   - {type: trans}
   sym:
+  - NUBS
+  - '#'
+  - '&'
+  - UNDS
   - {type: trans}
   - {type: trans}
+  - '%'
+  - ;
+  - '?'
+  - '"'
+  - /
+  - '*'
+  - +
+  - '-'
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - '`'
+  - ':'
+  - '!'
+  - ''''
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -198,8 +198,8 @@ combos:
   k: £
   l: [num, sym]
 - p: [17, 18]
-  k: '~'
+  k: '|'
   l: [num, sym]
 - p: [18, 19]
-  k: LS(NUHS)
+  k: '~'
   l: [num, sym]
