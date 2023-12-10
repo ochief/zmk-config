@@ -115,10 +115,8 @@ ZMK_LAYER(nav,
 )
 
 ZMK_LAYER(sym,
-    &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDS        ______          ______          &kp PRCNT       &kp SEMI        &kp QMARK       &kp DQT
+    &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______          ______          &kp PRCNT       &kp SEMI        &kp QMARK       &kp DQT
     &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          &kp GRAVE       &kp COLON       &kp EXCL        &kp SQT
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          ______          ______          ______
 )
-
-/* Ver 0.2 */
