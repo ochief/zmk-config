@@ -86,16 +86,16 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
 SIMPLE_MORPH(   dot,       SFT,    &kp DOT,     &kp DOT)     // tap: dot     shift + tap: dot
 SIMPLE_MORPH(   comma,     SFT,    &kp COMMA,   &kp COMMA)   // tap: comma   shift + tap: comma
 SIMPLE_MORPH(   equal,     SFT,    &kp EQUAL,   &kp EQUAL)   // tap: equal   shift + tap: equal
-SIMPLE_MORPH(   1perc,     SFT,    &kp N1,      &kp EQUAL)   // tap: one     shift + tap: equal
-SIMPLE_MORPH(   2semi,     SFT,    &kp N2,      &kp EQUAL)   // tap: two     shift + tap: equal
-SIMPLE_MORPH(   3ques,     SFT,    &kp N3,      &kp EQUAL)   // tap: three   shift + tap: equal
-SIMPLE_MORPH(   4spee,     SFT,    &kp N4,      &kp EQUAL)   // tap: four    shift + tap: equal
-SIMPLE_MORPH(   5grav,     SFT,    &kp N5,      &kp EQUAL)   // tap: five    shift + tap: equal
-SIMPLE_MORPH(   6colo,     SFT,    &kp N6,      &kp EQUAL)   // tap: six     shift + tap: equal
-SIMPLE_MORPH(   7excl,     SFT,    &kp N7,      &kp EQUAL)   // tap: seven   shift + tap: equal
-SIMPLE_MORPH(   8squo,     SFT,    &kp N8,      &kp EQUAL)   // tap: eight   shift + tap: equal
-SIMPLE_MORPH(   9cara,     SFT,    &kp N9,      &kp EQUAL)   // tap: nine    shift + tap: equal
-SIMPLE_MORPH(   0grav,     SFT,    &kp N0,      &kp EQUAL)   // tap: zero    shift + tap: equal
+SIMPLE_MORPH(   1perc,     SFT,    &kp N1,      &kp EQUAL)   // tap: one     shift + tap: percentage
+SIMPLE_MORPH(   2semi,     SFT,    &kp N2,      &kp EQUAL)   // tap: two     shift + tap: semi-colon
+SIMPLE_MORPH(   3ques,     SFT,    &kp N3,      &kp EQUAL)   // tap: three   shift + tap: question mark
+SIMPLE_MORPH(   4spee,     SFT,    &kp N4,      &kp EQUAL)   // tap: four    shift + tap: speech marks
+SIMPLE_MORPH(   5grav,     SFT,    &kp N5,      &kp EQUAL)   // tap: five    shift + tap: grave
+SIMPLE_MORPH(   6colo,     SFT,    &kp N6,      &kp EQUAL)   // tap: six     shift + tap: colon
+SIMPLE_MORPH(   7excl,     SFT,    &kp N7,      &kp EQUAL)   // tap: seven   shift + tap: exclamation mark
+SIMPLE_MORPH(   8squo,     SFT,    &kp N8,      &kp EQUAL)   // tap: eight   shift + tap: single quote
+SIMPLE_MORPH(   9cara,     SFT,    &kp N9,      &kp EQUAL)   // tap: nine    shift + tap: carat
+SIMPLE_MORPH(   0grav,     SFT,    &kp N0,      &kp EQUAL)   // tap: zero    shift + tap: grave
 
 /* Keymap */
 ZMK_LAYER(base,
