@@ -66,8 +66,7 @@ draw_config:
 
     /* color accent for ghost (optional) keys */
     rect.ghost, rect.combo.ghost {
-        stroke-dasharray: 4, 4;
-        stroke-width: 2;
+        display: none;
     }
 
     text {
