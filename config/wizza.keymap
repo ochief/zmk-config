@@ -9,15 +9,24 @@
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/keypos_def/keypos_30keys.h"
 
-#define DEF 0
-#define NUM 1
-#define NAV 2
-#define SYM 3
+#define DEF         0
+#define NUM         1
+#define NAV         2
+#define SYM         3
 
-#include "combos.dtsi" // have one for mod morphs?
+// DEFINES
+#define xxxxxx      &none
+#define ______      &trans
+#define SPEECH      &kp LS(N2)
+#define AT          &kp LS(SQT)
+#define SCREEN      &kp LG(LS(S))
+#define EURO        &kp RA(N4)
+#define DOLLAR      &kp LS(N4)
+#define POUND       &kp LS(N3)
+#define PIPE        &kp LS(NUBS)
+#define TILDE       &kp LS(NUHS)   
 
-#define xxxxxx &none
-#define ______ &trans
+#include "combos.dtsi"
 
 #define QUICK_TAP_MS 175
 
@@ -83,9 +92,6 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
         bindings = <BINDING1>, <BINDING2>; \
     )
 
-// DEFINES
-#define SPEECH          &kp LS(N2)                          // speech marks
-
 // COMBOS
 SIMPLE_MORPH(dot,       SFT,    &kp DOT,    &kp DOT)        // tap: dot         shift + tap: dot
 SIMPLE_MORPH(comma,     SFT,    &kp COMMA,  &kp COMMA)      // tap: comma       shift + tap: comma
@@ -132,7 +138,7 @@ ZMK_LAYER(nav,
 )
 
 ZMK_LAYER(sym,
-    &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______          ______          &kp PRCNT       &kp SEMI        &kp QMARK       &kp LS(N2)
+    &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______          ______          &kp PRCNT       &kp SEMI        &kp QMARK       &SPEECH
     &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          &kp GRAVE       &kp COLON       &kp EXCL        &kp SQT
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          ______          ______          ______
