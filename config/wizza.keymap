@@ -104,6 +104,7 @@ SIMPLE_MORPH(plu_amp,   SFT,    &kp PLUS,   &kp AMPS)       // tap: plus        
 SIMPLE_MORPH(min_und,   SFT,    &kp MINUS,  &kp UNDER)      // tap: minus       shift + tap: underscore
 
 // RIGHT HAND NUMBER LAYER
+/*
 SIMPLE_MORPH(1_perc,    SFT,    &kp N1,     &kp PRCNT)      // tap: one         shift + tap: percentage
 SIMPLE_MORPH(2_semi,    SFT,    &kp N2,     &kp SEMI)       // tap: two         shift + tap: semi-colon
 SIMPLE_MORPH(3_ques,    SFT,    &kp N3,     &kp QMARK)      // tap: three       shift + tap: question mark
@@ -114,6 +115,7 @@ SIMPLE_MORPH(7_excl,    SFT,    &kp N7,     &kp EXCL)       // tap: seven       
 SIMPLE_MORPH(8_squo,    SFT,    &kp N8,     &kp SQT)        // tap: eight       shift + tap: single quote
 SIMPLE_MORPH(9_cara,    SFT,    &kp N9,     &kp CARET)      // tap: nine        shift + tap: carat
 SIMPLE_MORPH(0_grav,    SFT,    &kp N0,     &kp GRAVE)      // tap: zero        shift + tap: grave
+*/
 
 /* Keymap */
 ZMK_LAYER(base,
