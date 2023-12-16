@@ -17,5 +17,6 @@ jobs:
       keymap_patterns: "config/*.keymap"        # path to the keymaps to parse
       config_path: "keymap_drawer.config.yaml"  # config file, ignored if not exists
       output_folder: "keymap-drawer"            # path to save produced SVG and keymap YAML files
-      install_branch: "main"     
-      draw_args: "berylline:'--ghost-keys 4 5 14 15 21 22 23 24 25 26'"   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+      install_branch: "main"   
+      parse_args: ""  
+      draw_args: "--ghost-keys 4 5 14 15 21 22 23 24 25 26"   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
