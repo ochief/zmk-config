@@ -83,9 +83,19 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
         bindings = <BINDING1>, <BINDING2>; \
     )
 
-SIMPLE_MORPH(dot,   SFT, &kp DOT, &kp DOT)      // tap: dot     shift + tap: dot
-SIMPLE_MORPH(comma, SFT, &kp COMMA, &kp COMMA)  // tap: comma   shift + tap: comma
-SIMPLE_MORPH(equal, SFT, &kp EQUAL, &kp EQUAL)  // tap: equal   shift + tap: equal
+SIMPLE_MORPH(   dot,       SFT,    &kp DOT,     &kp DOT)     // tap: dot     shift + tap: dot
+SIMPLE_MORPH(   comma,     SFT,    &kp COMMA,   &kp COMMA)   // tap: comma   shift + tap: comma
+SIMPLE_MORPH(   equal,     SFT,    &kp EQUAL,   &kp EQUAL)   // tap: equal   shift + tap: equal
+SIMPLE_MORPH(   1perc,     SFT,    &kp N1,      &kp EQUAL)   // tap: one     shift + tap: equal
+SIMPLE_MORPH(   2semi,     SFT,    &kp N2,      &kp EQUAL)   // tap: two     shift + tap: equal
+SIMPLE_MORPH(   3ques,     SFT,    &kp N3,      &kp EQUAL)   // tap: three   shift + tap: equal
+SIMPLE_MORPH(   4spee,     SFT,    &kp N4,      &kp EQUAL)   // tap: four    shift + tap: equal
+SIMPLE_MORPH(   5grav,     SFT,    &kp N5,      &kp EQUAL)   // tap: five    shift + tap: equal
+SIMPLE_MORPH(   6colo,     SFT,    &kp N6,      &kp EQUAL)   // tap: six     shift + tap: equal
+SIMPLE_MORPH(   7excl,     SFT,    &kp N7,      &kp EQUAL)   // tap: seven   shift + tap: equal
+SIMPLE_MORPH(   8squo,     SFT,    &kp N8,      &kp EQUAL)   // tap: eight   shift + tap: equal
+SIMPLE_MORPH(   9cara,     SFT,    &kp N9,      &kp EQUAL)   // tap: nine    shift + tap: equal
+SIMPLE_MORPH(   0grav,     SFT,    &kp N0,      &kp EQUAL)   // tap: zero    shift + tap: equal
 
 /* Keymap */
 ZMK_LAYER(base,
@@ -96,10 +106,10 @@ ZMK_LAYER(base,
 )
 
 ZMK_LAYER(num,
-    &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______          ______          &kp N1          &kp N2          &kp N3          &kp N4
-    &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          &kp N5          &kp N6          &kp N7          &kp N8
+    &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______          ______          1perc           2semi           3ques           4spee
+    &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          5grav           6colo           7excl           8squo
                     ______          ______          ______                                          ______          ______          ______
-                                                    ______          &kp SPACE       &kp N0          &kp N9
+                                                    ______          &kp SPACE       0grav           9grav
 )
 
 ZMK_LAYER(nav,
