@@ -147,6 +147,7 @@ parse_config:
     '&equal': '='
     '&comma': ','
     '&dot': '.'
+    '&kp LS(N2)': '"'
     '&kp NUBS': '\'
     '&kp LS(SQT)': '@'
     '&kp LG(LS(S))': 'SS'
