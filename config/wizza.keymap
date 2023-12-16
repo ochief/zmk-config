@@ -18,7 +18,7 @@
 #define xxxxxx      &none
 #define ______      &trans
 #define SYM_DQT     &kp LS(N2)
-#define SYM_AT      &kp LS(SQT)
+#define SYM_EMA     &kp LS(SQT)
 #define SCREEN      &kp LG(LS(S))
 #define CUR_EUR     &kp RA(N4)
 #define CUR_DOL     &kp LS(N4)
