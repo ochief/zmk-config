@@ -17,14 +17,14 @@
 // DEFINES
 #define xxxxxx      &none
 #define ______      &trans
-#define SPEECH      &kp LS(N2)
-#define AT          &kp LS(SQT)
+#define SYM_DQT     &kp LS(N2)
+#define SYM_AT      &kp LS(SQT)
 #define SCREEN      &kp LG(LS(S))
-#define EURO        &kp RA(N4)
-#define DOLLAR      &kp LS(N4)
-#define POUND       &kp LS(N3)
-#define PIPE        &kp LS(NUBS)
-#define TILDE       &kp LS(NUHS)   
+#define CUR_EUR     &kp RA(N4)
+#define CUR_DOL     &kp LS(N4)
+#define CUR_POU     &kp LS(N3)
+#define SYM_PIP     &kp LS(NUBS)
+#define SYM_TIL     &kp LS(NUHS)   
 
 #include "combos.dtsi"
 
@@ -127,7 +127,7 @@ ZMK_LAYER(num,
     &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______          ______          &1_perc         &2_semi         &3_ques         &4_spee
     &fsl_bsl        &ast_has        &plu_amp        &min_und        ______          ______          &5_grav         &6_colo         &7_excl         &8_squo
                     ______          ______          ______                                          ______          ______          ______
-                                                    ______          &kp SPACE       &0_grav         &9_grav
+                                                    ______          &kp SPACE       &0_grav         &9_cara
 )
 
 ZMK_LAYER(nav,
@@ -138,7 +138,7 @@ ZMK_LAYER(nav,
 )
 
 ZMK_LAYER(sym,
-    &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______          ______          &kp PRCNT       &kp SEMI        &kp QMARK       &SPEECH
+    &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______          ______          &kp PRCNT       &kp SEMI        &kp QMARK       &SYM_DQT
     &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          &kp GRAVE       &kp COLON       &kp EXCL        &kp SQT
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          ______          ______          ______

@@ -19,14 +19,17 @@ ZMK_COMBO(c_w,            &kp W,        LT4 LT3,        DEF,                COMB
 ZMK_COMBO(c_m,            &kp M,        LT3 LT2,        DEF,                COMBO_TERM_FAST) 
 ZMK_COMBO(c_b,            &kp B,        LT2 LT1,        DEF,                COMBO_TERM_FAST)
 ZMK_COMBO(c_k,            &kp K,        LT1 RT1,        DEF,                COMBO_TERM_FAST)
-ZMK_COMBO(c_equal,        &equal,       RT1 RT2,        DEF NUM SYM,        COMBO_TERM_FAST)
-ZMK_COMBO(c_comma,        &comma,       RT2 RT3,        DEF NUM SYM,        COMBO_TERM_FAST)
-ZMK_COMBO(c_dot,          &dot,         RT3 RT4,        DEF NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_equal,        &SYM_EQU,     RT1 RT2,        DEF NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_comma,        &SYM_COM,     RT2 RT3,        DEF NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_dot,          &SYM_DOT,     RT3 RT4,        DEF NUM SYM,        COMBO_TERM_FAST)
 ZMK_COMBO(c_q,            &kp Q,        LM4 LM3,        DEF,                COMBO_TERM_FAST)
 ZMK_COMBO(c_f,            &kp F,        LM3 LM2,        DEF,                COMBO_TERM_FAST)
 ZMK_COMBO(c_p,            &kp P,        LM2 LM1,        DEF,                COMBO_TERM_FAST)
 ZMK_COMBO(c_j,            &kp J,        LM1 RM1,        DEF,                COMBO_TERM_FAST)
-ZMK_COMBO(c_at,           &AT,          RM1 RM2,        DEF NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_at,           &SYM_AT,      RM1 RM2,        DEF NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_x,            &kp X,        RM2 RM3,        DEF,                COMBO_TERM_FAST)
+ZMK_COMBO(c_z,            &kp Z,        RM3 RM4,        DEF,                COMBO_TERM_FAST)
+
 ZMK_COMBO(c_screenshot,   &SCREEN,      LH1 LH0,        DEF NUM SYM,        COMBO_TERM_FAST)
 
 /* VERTICAL */
@@ -40,11 +43,11 @@ ZMK_COMBO(c_rbkt,         &kp RBKT,     RT3 RM3,        DEF NUM SYM,        COMB
 ZMK_COMBO(c_gt,           &kp GT,       RT4 RM4,        DEF NUM SYM,        COMBO_TERM_FAST)
 
 /* SYMBOLS */
-ZMK_COMBO(c_euro,         &EURO,        LM4 LM3,            NUM SYM,        COMBO_TERM_FAST)
-ZMK_COMBO(c_dollar,       &DOLAR,       LM3 LM2,            NUM SYM,        COMBO_TERM_FAST)
-ZMK_COMBO(c_pound,        &POUND,       LM2 LM1,            NUM SYM,        COMBO_TERM_FAST)
-ZMK_COMBO(c_pipe,         &PIPE,        RM2 RM3,            NUM SYM,        COMBO_TERM_FAST)
-ZMK_COMBO(c_tilde,        &TILDE,       RM3 RM4,            NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_euro,         &CUR_EUR,     LM4 LM3,            NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_dollar,       &CUR_DOL,     LM3 LM2,            NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_pound,        &CUR_POU,     LM2 LM1,            NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_pipe,         &SYM_PIP,     RM2 RM3,            NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_tilde,        &SYM_TIL,     RM3 RM4,            NUM SYM,        COMBO_TERM_FAST)
 
 /* NUMBER */
 // ZMK_COMBO(c_con_space, &con_space,   RHO RH1,            NUM,       COMBO_TERM_FAST)
