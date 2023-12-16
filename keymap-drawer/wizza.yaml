@@ -42,10 +42,10 @@ layers:
   - '2'
   - '3'
   - '4'
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - /
+  - '*'
+  - +
+  - '-'
   - {type: trans}
   - {type: trans}
   - '5'
@@ -94,7 +94,7 @@ layers:
   - {type: trans}
   - {type: trans}
   sym:
-  - NUBS
+  - \
   - '#'
   - '&'
   - _
@@ -103,7 +103,7 @@ layers:
   - '%'
   - ;
   - '?'
-  - '"'
+  - LS(2)
   - /
   - '*'
   - +
