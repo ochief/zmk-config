@@ -106,10 +106,10 @@ ZMK_LAYER(base,
 )
 
 ZMK_LAYER(num,
-    &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______          ______          1perc           2semi           3ques           4spee
-    &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          5grav           6colo           7excl           8squo
+    &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______          ______          &1perc          &2semi          &3ques          &4spee
+    &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          &5grav          &6colo          &7excl          &8squo
                     ______          ______          ______                                          ______          ______          ______
-                                                    ______          &kp SPACE       0grav           9grav
+                                                    ______          &kp SPACE       &0grav          &9grav
 )
 
 ZMK_LAYER(nav,
