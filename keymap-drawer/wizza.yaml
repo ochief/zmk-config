@@ -38,20 +38,20 @@ layers:
   - {t: LCTRL, h: sticky}
   - {type: trans}
   - {type: trans}
-  - {t: '1', s: '='}
-  - {t: '2', s: '='}
-  - {t: '3', s: '='}
-  - {t: '4', s: '='}
-  - /
-  - '*'
-  - +
-  - '-'
+  - {t: '1', s: '%'}
+  - {t: '2', s: ;}
+  - {t: '3', s: '?'}
+  - {t: '4', s: LS(2)}
+  - {t: /, s: \}
+  - {t: '*', s: '#'}
+  - {t: +, s: '&'}
+  - {t: '-', s: _}
   - {type: trans}
   - {type: trans}
-  - {t: '5', s: '='}
-  - {t: '6', s: '='}
-  - {t: '7', s: '='}
-  - {t: '8', s: '='}
+  - {t: '5', s: '`'}
+  - {t: '6', s: ':'}
+  - {t: '7', s: '!'}
+  - {t: '8', s: ''''}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -60,8 +60,8 @@ layers:
   - {type: trans}
   - {type: held}
   - SPACE
-  - {t: '0', s: '='}
-  - '&9grav'
+  - {t: '0', s: '`'}
+  - '&9_grav'
   nav:
   - {type: trans}
   - {type: trans}
