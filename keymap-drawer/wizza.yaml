@@ -192,7 +192,7 @@ combos:
   k: €
   l: [num, sym]
 - p: [11, 12]
-  k: $
+  k: '&DOLAR'
   l: [num, sym]
 - p: [12, 13]
   k: £
