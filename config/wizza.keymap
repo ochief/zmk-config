@@ -107,7 +107,7 @@ SIMPLE_MORPH(min_und,   SFT,    &kp MINUS,  &kp UNDER)      // tap: minus       
 SIMPLE_MORPH(one_per,   SFT,    &kp N1,     &kp PRCNT)      // tap: one         shift + tap: percentage
 SIMPLE_MORPH(two_sem,   SFT,    &kp N2,     &kp SEMI)       // tap: two         shift + tap: semi-colon
 SIMPLE_MORPH(thr_que,   SFT,    &kp N3,     &kp QMARK)      // tap: three       shift + tap: question mark
-SIMPLE_MORPH(fou_spe,   SFT,    &kp N4,     SPEECH)         // tap: four        shift + tap: speech marks
+SIMPLE_MORPH(fou_spe,   SFT,    &kp N4,     SYM_DQT)        // tap: four        shift + tap: speech marks
 SIMPLE_MORPH(fiv_gra,   SFT,    &kp N5,     &kp GRAVE)      // tap: five        shift + tap: grave
 SIMPLE_MORPH(six_col,   SFT,    &kp N6,     &kp COLON)      // tap: six         shift + tap: colon
 SIMPLE_MORPH(sev_exc,   SFT,    &kp N7,     &kp EXCL)       // tap: seven       shift + tap: exclamation mark
