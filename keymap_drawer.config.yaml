@@ -144,9 +144,9 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-    '&equal': '='
-    '&comma': ','
-    '&dot': '.'
+    '&c_equal': '='
+    '&c_comma': ','
+    '&c_dot': '.'
     '&kp LS(N2)': '"'
     '&kp NUBS': '\'
     '&kp LS(SQT)': '@'

@@ -29,8 +29,7 @@ ZMK_COMBO(c_j,            &kp J,        LM1 RM1,        DEF,                COMB
 ZMK_COMBO(c_at,           SYM_EMA,      RM1 RM2,        DEF NUM SYM,        COMBO_TERM_FAST)
 ZMK_COMBO(c_x,            &kp X,        RM2 RM3,        DEF,                COMBO_TERM_FAST)
 ZMK_COMBO(c_z,            &kp Z,        RM3 RM4,        DEF,                COMBO_TERM_FAST)
-
-ZMK_COMBO(c_screen,       &SCREEN,      LH1 LH0,        DEF NUM SYM,        COMBO_TERM_FAST)
+ZMK_COMBO(c_screen,       SCREEN,       LH1 LH0,        DEF NUM SYM,        COMBO_TERM_FAST)
 
 /* VERTICAL */
 ZMK_COMBO(c_lt,           &kp LT,       LT4 LM4,        DEF NUM SYM,        COMBO_TERM_FAST)
