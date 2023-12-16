@@ -144,16 +144,17 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-    '&equal': "="
-    '&comma': ","
-    '&dot': "."
-    '&kp LS(SQT)': "@"
-    '&kp LG(LS(S))': "SS"
-    '&kp RA(N4)': "€"
-    '&kp LS(N4)': "$"
-    '&kp LS(N3)': "£"
-    '&kp LS(NUBS)': "|"
-    '&kp LS(NUHS)': "~"
+    '&equal': '='
+    '&comma': ','
+    '&dot': '.'
+    '&kp NUBS': '\'
+    '&kp LS(SQT)': '@'
+    '&kp LG(LS(S))': 'SS'
+    '&kp RA(N4)': '€'
+    '&kp LS(N4)': '$'
+    '&kp LS(N3)': '£'
+    '&kp LS(NUBS)': '|'
+    '&kp LS(NUHS)': '~'
   sticky_label: sticky
   trans_legend:
     t: ''

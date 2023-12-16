@@ -14,7 +14,7 @@
 #define NAV 2
 #define SYM 3
 
-#include "combos.dtsi"
+#include "combos.dtsi" // have one for mod morphs?
 
 #define xxxxxx &none
 #define ______ &trans
@@ -76,21 +76,16 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
 };
 
-// MOD MORPHS
-ZMK_BEHAVIOR(equal, mod_morph,
-    bindings = <&kp EQUAL>, <&kp EQUAL>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-)
+// reuse basic mod-morph scheme
+#define SIMPLE_MORPH(NAME, MOD, BINDING1, BINDING2) \
+    ZMK_BEHAVIOR(NAME, mod_morph, \
+        mods = <(MOD_L ## MOD|MOD_R ## MOD)>; \
+        bindings = <BINDING1>, <BINDING2>; \
+    )
 
-ZMK_BEHAVIOR(comma, mod_morph,
-    bindings = <&kp COMMA>, <&kp COMMA>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-)
-////////// look at urobs latest and greatest mod morph
-ZMK_BEHAVIOR(dot, mod_morph,
-    bindings = <&kp DOT>, <&kp DOT>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-)
+SIMPLE_MORPH(dot,   SFT, &kp DOT, &kp DOT)      // tap: dot     shift + tap: dot
+SIMPLE_MORPH(comma, SFT, &kp COMMA, &kp COMMA)  // tap: comma   shift + tap: comma
+SIMPLE_MORPH(equal, SFT, &kp EQUAL, &kp EQUAL)  // tap: equal   shift + tap: equal
 
 /* Keymap */
 ZMK_LAYER(base,
@@ -102,7 +97,7 @@ ZMK_LAYER(base,
 
 ZMK_LAYER(num,
     &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______          ______          &kp N1          &kp N2          &kp N3          &kp N4
-    ______          ______          ______          ______          ______          ______          &kp N5          &kp N6          &kp N7          &kp N8
+    &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          &kp N5          &kp N6          &kp N7          &kp N8
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          &kp SPACE       &kp N0          &kp N9
 )
@@ -115,8 +110,10 @@ ZMK_LAYER(nav,
 )
 
 ZMK_LAYER(sym,
-    &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______          ______          &kp PRCNT       &kp SEMI        &kp QMARK       &kp DQT
+    &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______          ______          &kp PRCNT       &kp SEMI        &kp QMARK       &kp LS(N2)
     &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______          ______          &kp GRAVE       &kp COLON       &kp EXCL        &kp SQT
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          ______          ______          ______
 )
+
+// ^ ` Replace Grave on symbol layer with ```
