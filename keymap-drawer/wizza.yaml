@@ -41,7 +41,7 @@ layers:
   - {t: '1', s: '%'}
   - {t: '2', s: ;}
   - {t: '3', s: '?'}
-  - {t: '4', s: '"'}
+  - {t: '4', s: '&SPEECH'}
   - {t: /, s: \}
   - {t: '*', s: '#'}
   - {t: +, s: '&'}
@@ -61,7 +61,7 @@ layers:
   - {type: held}
   - SPACE
   - {t: '0', s: '`'}
-  - '&9_grav'
+  - {t: '9', s: ^}
   nav:
   - {type: trans}
   - {type: trans}
@@ -138,13 +138,13 @@ combos:
   k: K
   l: [base]
 - p: [6, 7]
-  k: '='
+  k: '&SYM_EQU'
   l: [base, num, sym]
 - p: [7, 8]
-  k: ','
+  k: '&SYM_COM'
   l: [base, num, sym]
 - p: [8, 9]
-  k: .
+  k: '&SYM_DOT'
   l: [base, num, sym]
 - p: [10, 11]
   k: Q
@@ -161,6 +161,12 @@ combos:
 - p: [16, 17]
   k: '@'
   l: [base, num, sym]
+- p: [17, 18]
+  k: X
+  l: [base]
+- p: [18, 19]
+  k: Z
+  l: [base]
 - p: [26, 27]
   k: SS
   l: [base, num, sym]
@@ -192,7 +198,7 @@ combos:
   k: €
   l: [num, sym]
 - p: [11, 12]
-  k: '&DOLAR'
+  k: $
   l: [num, sym]
 - p: [12, 13]
   k: £
