@@ -26,7 +26,7 @@ ZMK_COMBO(c_q,            &kp Q,        LM4 LM3,        DEF,                COMB
 ZMK_COMBO(c_f,            &kp F,        LM3 LM2,        DEF,                COMBO_TERM_FAST)
 ZMK_COMBO(c_p,            &kp P,        LM2 LM1,        DEF,                COMBO_TERM_FAST)
 ZMK_COMBO(c_j,            &kp J,        LM1 RM1,        DEF,                COMBO_TERM_FAST)
-ZMK_COMBO(c_at,           &SYM_EMA,     RM1 RM2,        DEF NUM SYM,        COMBO_TERM_FAST)
+// ZMK_COMBO(c_at,           &SYM_EMA,     RM1 RM2,        DEF NUM SYM,        COMBO_TERM_FAST)
 ZMK_COMBO(c_x,            &kp X,        RM2 RM3,        DEF,                COMBO_TERM_FAST)
 ZMK_COMBO(c_z,            &kp Z,        RM3 RM4,        DEF,                COMBO_TERM_FAST)
 
