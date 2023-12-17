@@ -128,6 +128,8 @@ combos:
 - p: [0, 1]
   k: W
   l: [base]
+  a: bottom
+  draw_separate: true
 - p: [1, 2]
   k: M
   l: [base]
