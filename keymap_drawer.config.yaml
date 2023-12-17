@@ -292,6 +292,4 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-  zmk_combos: {
-    c_w:    {draw_separate: true}
-  }
+  zmk_combos: {}

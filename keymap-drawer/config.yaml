@@ -1,0 +1,5 @@
+# configuration for https://github.com/caksoylar/keymap-drawer
+parse_config:
+  raw_binding_map:
+      zmk_combos:
+        c_w:    {draw_separate: true}
