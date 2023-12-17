@@ -293,5 +293,5 @@ parse_config:
     NUHS: '#'
     TILDE2: '~'
   zmk_combos: {
-    c_w: 'draw_separate: true'
+    c_w:    {draw_separate: true}
   }
