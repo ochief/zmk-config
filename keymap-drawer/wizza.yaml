@@ -5,8 +5,8 @@ layers:
   - {t: S, h: Alt}
   - {t: T, h: Shift}
   - {t: H, h: Ctrl}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: N, h: Ctrl}
   - {t: A, h: Shift}
   - {t: I, h: Alt}
@@ -15,18 +15,18 @@ layers:
   - C
   - G
   - D
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - L
   - U
   - Y
   - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '&num_dance', h: num}
   - ␣
   - {t: E, h: sym}
@@ -36,99 +36,98 @@ layers:
   - {t: Alt, h: sticky}
   - {t: Shift, h: sticky}
   - {t: Ctrl, h: sticky}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '1', s: '%'}
   - {t: '2', s: ;}
   - {t: '3', s: '?'}
-  - {t: '4', s: LS(2)}
-  - {t: /, s: NUBS}
+  - {t: '4', s: '"'}
+  - {t: /, s: \}
   - {t: '*', s: '#'}
   - {t: +, s: '&'}
   - {t: '-', s: _}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '5', s: '`'}
   - {t: '6', s: ':'}
   - {t: '7', s: '!'}
   - {t: '8', s: ''''}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
   - ␣
   - {t: '0', s: '`'}
   - {t: '9', s: ^}
   nav:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   sym:
-  - NUBS
+  - \
   - '#'
   - '&'
   - _
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - '%'
   - ;
   - '?'
-  - LS(2)
+  - '"'
   - /
   - '*'
   - +
   - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - '`'
   - ':'
   - '!'
   - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {type: trans}
 combos:
 - p: [0, 1]
   k: W
   l: [base]
-  a: bottom
   draw_separate: true
 - p: [1, 2]
   k: M
@@ -140,13 +139,13 @@ combos:
   k: K
   l: [base]
 - p: [6, 7]
-  k: {t: '=', s: '='}
+  k: '='
   l: [base, num, sym]
 - p: [7, 8]
-  k: {t: ',', s: ','}
+  k: ','
   l: [base, num, sym]
 - p: [8, 9]
-  k: {t: ., s: .}
+  k: .
   l: [base, num, sym]
 - p: [10, 11]
   k: Q
@@ -161,7 +160,7 @@ combos:
   k: J
   l: [base]
 - p: [16, 17]
-  k: LS(SQT)
+  k: '@'
   l: [base, num, sym]
 - p: [17, 18]
   k: X
@@ -170,7 +169,7 @@ combos:
   k: Z
   l: [base]
 - p: [26, 27]
-  k: LG(LS(S))
+  k: SS
   l: [base, num, sym]
 - p: [0, 10]
   k: <
@@ -197,17 +196,17 @@ combos:
   k: '>'
   l: [base]
 - p: [10, 11]
-  k: RA(4)
+  k: €
   l: [num, sym]
 - p: [11, 12]
-  k: LS(4)
+  k: $
   l: [num, sym]
 - p: [12, 13]
-  k: LS(3)
+  k: £
   l: [num, sym]
 - p: [17, 18]
-  k: LS(NUBS)
+  k: '|'
   l: [num, sym]
 - p: [18, 19]
-  k: LS(NUHS)
+  k: '~'
   l: [num, sym]
