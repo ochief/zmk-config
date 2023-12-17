@@ -10,9 +10,10 @@
 #include "../zmk-nodefree-config/keypos_def/keypos_30keys.h"
 
 #define DEF         0
-#define NUM         1
-#define NAV         2
-#define SYM         3
+#define VER         1
+#define NUM         2
+#define NAV         3
+#define SYM         4
 
 // DEFINES
 #define xxxxxx      &none
@@ -121,6 +122,13 @@ ZMK_LAYER(base,
     &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
                     ______          ______          ______                                          ______          ______          ______
                                                     SMART_NUM       &kp SPACE       &lt SYM E       &smart_shft
+)
+
+ZMK_LAYER(ver
+    &kp R           &kp S           &kp T           &kp H           ______          ______          &kp N           &kp A           &kp I           &kp O
+    &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
+                    ______          ______          ______                                          ______          ______          ______
+                                                    ______          ______          &kp E           ______
 )
 
 ZMK_LAYER(num,
