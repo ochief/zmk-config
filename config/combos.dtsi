@@ -33,23 +33,23 @@ ZMK_COMBO(c_screen,       SCREEN,       LH1 LH0,        DEF NUM SYM,        COMB
 
 /* VERTICAL */
 #ifdef KEYMAP_DRAWER
-  ZMK_COMBO(c_lt,           &kp LT,       LT4 LM4,        DEF,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_lbkt,         &kp LBKT,     LT3 LM3,        DEF,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_lbrc,         &kp LBRC,     LT2 LM2,        DEF,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_lpar,         &kp LPAR,     LT1 LM1,       DEF,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_rpar,         &kp RPAR,     RT1 RM1,       DEF,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_rbrc,         &kp RBRC,     RT2 RM2,        DEF,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_rbkt,         &kp RBKT,     RT3 RM3,       DEF,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_gt,           &kp GT,       RT4 RM4,        DEF,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_lt,         &kp LT,       LT4 LM4,        DEF,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_lbkt,       &kp LBKT,     LT3 LM3,        DEF,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_lbrc,       &kp LBRC,     LT2 LM2,        DEF,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_lpar,       &kp LPAR,     LT1 LM1,        DEF,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_rpar,       &kp RPAR,     RT1 RM1,        DEF,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_rbrc,       &kp RBRC,     RT2 RM2,        DEF,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_rbkt,       &kp RBKT,     RT3 RM3,        DEF,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_gt,         &kp GT,       RT4 RM4,        DEF,        COMBO_TERM_FAST)
 #else
-  ZMK_COMBO(c_lt,           &kp LT,       LT4 LM4,        DEF NUM SYM,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_lbkt,         &kp LBKT,     LT3 LM3,        DEF NUM SYM,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_lbrc,         &kp LBRC,     LT2 LM2,        DEF NUM SYM,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_lpar,         &kp LPAR,     LT1 LM1,        DEF NUM SYM,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_rpar,         &kp RPAR,     RT1 RM1,        DEF NUM SYM,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_rbrc,         &kp RBRC,     RT2 RM2,        DEF NUM SYM,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_rbkt,         &kp RBKT,     RT3 RM3,        DEF NUM SYM,        COMBO_TERM_FAST)
-  ZMK_COMBO(c_gt,           &kp GT,       RT4 RM4,        DEF NUM SYM,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_lt,         &kp LT,       LT4 LM4,        DEF NUM SYM,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_lbkt,       &kp LBKT,     LT3 LM3,        DEF NUM SYM,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_lbrc,       &kp LBRC,     LT2 LM2,        DEF NUM SYM,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_lpar,       &kp LPAR,     LT1 LM1,        DEF NUM SYM,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_rpar,       &kp RPAR,     RT1 RM1,        DEF NUM SYM,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_rbrc,       &kp RBRC,     RT2 RM2,        DEF NUM SYM,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_rbkt,       &kp RBKT,     RT3 RM3,        DEF NUM SYM,        COMBO_TERM_FAST)
+  ZMK_COMBO(c_gt,         &kp GT,       RT4 RM4,        DEF NUM SYM,        COMBO_TERM_FAST)
 #endif
 
 /* SYMBOLS */
