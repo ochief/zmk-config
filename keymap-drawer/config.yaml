@@ -1,7 +1,7 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
     zmk_combos:
-      c_w:    {align: bottom, draw_separate: true}
+      combo_c_w:    {align: bottom, draw_separate: true}
 
     zmk_keycode_map:
       LCTRL: Ctrl
