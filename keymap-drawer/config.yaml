@@ -1,7 +1,11 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
     zmk_combos:
-      combo_c_w:    {align: bottom, draw_separate: true}
+      combo_c_w: {draw_separate: true}
+
+    trans_legend:
+      t: ''
+      type: trans
 
     zmk_keycode_map:
       LCTRL: Ctrl
@@ -102,3 +106,12 @@ parse_config:
       TILDE2: '~'
       UNDER: _
       UNDERSCORE: _
+
+    svg_style: |
+      /* color accent for ghost (optional) keys */
+      rect.ghost, rect.combo.ghost {
+        display: none;
+      }
+
+
+
