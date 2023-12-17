@@ -1,16 +1,16 @@
 layout: {qmk_keyboard: berylline}
 layers:
   base:
-  - {t: R, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: T, h: LSHFT}
-  - {t: H, h: LCTRL}
+  - {t: R, h: Gui}
+  - {t: S, h: Alt}
+  - {t: T, h: Shift}
+  - {t: H, h: Ctrl}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: N, h: LCTRL}
-  - {t: A, h: RSHFT}
-  - {t: I, h: LALT}
-  - {t: O, h: LGUI}
+  - {t: N, h: Ctrl}
+  - {t: A, h: Shift}
+  - {t: I, h: Alt}
+  - {t: O, h: Gui}
   - Q
   - C
   - G
@@ -28,14 +28,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '&num_dance', h: num}
-  - SPACE
+  - ␣
   - {t: E, h: sym}
-  - {t: LSHFT, h: sticky, s: '&caps_word'}
+  - {t: Shift, h: sticky, s: '&caps_word'}
   num:
-  - {t: LGUI, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LSHFT, h: sticky}
-  - {t: LCTRL, h: sticky}
+  - {t: Gui, h: sticky}
+  - {t: Alt, h: sticky}
+  - {t: Shift, h: sticky}
+  - {t: Ctrl, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '1', s: '%'}
@@ -59,7 +59,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - SPACE
+  - ␣
   - {t: '0', s: '`'}
   - {t: '9', s: ^}
   nav:
@@ -128,6 +128,8 @@ combos:
 - p: [0, 1]
   k: W
   l: [base]
+  a: bottom
+  draw_separate: true
 - p: [1, 2]
   k: M
   l: [base]
