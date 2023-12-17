@@ -1,4 +1,4 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
     zmk_combos:
-      c_w:    {draw_separate: true}
+      c_w:    {align: bottom, draw_separate: true}
