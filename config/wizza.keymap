@@ -9,6 +9,7 @@
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/keypos_def/keypos_30keys.h"
 
+
 #define DEF         0
 #define VER         1
 #define NUM         2
@@ -117,18 +118,18 @@ SIMPLE_MORPH(nin_car,   SFT,    &kp N9,     &kp CARET)      // tap: nine        
 SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        shift + tap: grave
 
 /* Keymap */
-ZMK_LAYER(base,
-    &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
-    &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
-                    ______          ______          ______                                          ______          ______          ______
-                                                    SMART_NUM       &kp SPACE       &lt SYM E       &smart_shft
-)
-
 ZMK_LAYER(ver,
     &kp R           &kp S           &kp T           &kp H           ______          ______          &kp N           &kp A           &kp I           &kp O
     &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
                     ______          ______          ______                                          ______          ______          ______
                                                     ______          ______          &kp E           ______
+)
+
+ZMK_LAYER(base,
+    &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______          ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
+    &kp Q           &kp C           &kp G           &kp D           ______          ______          &kp L           &kp U           &kp Y           &kp SQT
+                    ______          ______          ______                                          ______          ______          ______
+                                                    SMART_NUM       &kp SPACE       &lt SYM E       &smart_shft
 )
 
 ZMK_LAYER(num,
