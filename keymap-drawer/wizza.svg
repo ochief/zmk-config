@@ -496,54 +496,22 @@ path.combo {
 <text x="267" y="237" class="combo tap"><tspan style="font-size: 78%">LG(LS(S))</tspan></text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="20" y="109" width="28" height="26" class="combo"/>
-<text x="34" y="122" class="combo tap">&lt;</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="82" y="62" width="28" height="26" class="combo"/>
-<text x="96" y="75" class="combo tap">[</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="147" y="44" width="28" height="26" class="combo"/>
-<text x="161" y="57" class="combo tap">{</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="208" y="58" width="28" height="26" class="combo"/>
-<text x="222" y="71" class="combo tap">(</text>
-</g>
-<g class="combo combopos-9">
-<rect rx="6" ry="6" x="496" y="58" width="28" height="26" class="combo"/>
-<text x="510" y="71" class="combo tap">)</text>
-</g>
-<g class="combo combopos-10">
-<rect rx="6" ry="6" x="556" y="44" width="28" height="26" class="combo"/>
-<text x="570" y="57" class="combo tap">}</text>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="621" y="62" width="28" height="26" class="combo"/>
-<text x="635" y="75" class="combo tap">]</text>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="684" y="109" width="28" height="26" class="combo"/>
-<text x="698" y="122" class="combo tap">&gt;</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="54" y="114" width="28" height="26" class="combo"/>
 <text x="68" y="127" class="combo tap">RA(4)</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="115" y="81" width="28" height="26" class="combo"/>
 <text x="129" y="94" class="combo tap">LS(4)</text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="177" y="80" width="28" height="26" class="combo"/>
 <text x="191" y="93" class="combo tap">LS(3)</text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="588" y="81" width="28" height="26" class="combo"/>
 <text x="602" y="94" class="combo tap"><tspan style="font-size: 88%">LS(NUBS)</tspan></text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="650" y="114" width="28" height="26" class="combo"/>
 <text x="664" y="127" class="combo tap"><tspan style="font-size: 88%">LS(NUHS)</tspan></text>
 </g>
@@ -820,54 +788,22 @@ path.combo {
 <text x="267" y="237" class="combo tap"><tspan style="font-size: 78%">LG(LS(S))</tspan></text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="20" y="109" width="28" height="26" class="combo"/>
-<text x="34" y="122" class="combo tap">&lt;</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="82" y="62" width="28" height="26" class="combo"/>
-<text x="96" y="75" class="combo tap">[</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="147" y="44" width="28" height="26" class="combo"/>
-<text x="161" y="57" class="combo tap">{</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="208" y="58" width="28" height="26" class="combo"/>
-<text x="222" y="71" class="combo tap">(</text>
-</g>
-<g class="combo combopos-9">
-<rect rx="6" ry="6" x="496" y="58" width="28" height="26" class="combo"/>
-<text x="510" y="71" class="combo tap">)</text>
-</g>
-<g class="combo combopos-10">
-<rect rx="6" ry="6" x="556" y="44" width="28" height="26" class="combo"/>
-<text x="570" y="57" class="combo tap">}</text>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="621" y="62" width="28" height="26" class="combo"/>
-<text x="635" y="75" class="combo tap">]</text>
-</g>
-<g class="combo combopos-12">
-<rect rx="6" ry="6" x="684" y="109" width="28" height="26" class="combo"/>
-<text x="698" y="122" class="combo tap">&gt;</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="54" y="114" width="28" height="26" class="combo"/>
 <text x="68" y="127" class="combo tap">RA(4)</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="115" y="81" width="28" height="26" class="combo"/>
 <text x="129" y="94" class="combo tap">LS(4)</text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="177" y="80" width="28" height="26" class="combo"/>
 <text x="191" y="93" class="combo tap">LS(3)</text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="588" y="81" width="28" height="26" class="combo"/>
 <text x="602" y="94" class="combo tap"><tspan style="font-size: 88%">LS(NUBS)</tspan></text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="650" y="114" width="28" height="26" class="combo"/>
 <text x="664" y="127" class="combo tap"><tspan style="font-size: 88%">LS(NUHS)</tspan></text>
 </g>
