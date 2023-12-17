@@ -1,117 +1,128 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
-    zmk_combos:
-      combo_c_w: {draw_separate: true}
+  zmk_combos:
+    combo_c_w: {draw_separate: true}
 
-    trans_legend:
-      t: ''
-      type: trans
+  raw_binding_map:
+    '&equal': '='
+    '&comma': ','
+    '&dot': '.'
+    '&kp LS(N2)': '"'
+    '&kp NUBS': '\'
+    '&kp LS(SQT)': '@'
+    '&kp LG(LS(S))': 'SS'
+    '&kp RA(N4)': '€'
+    '&kp LS(N4)': '$'
+    '&kp LS(N3)': '£'
+    '&kp LS(NUBS)': '|'
+    '&kp LS(NUHS)': '~'
 
-    zmk_keycode_map:
-      LCTRL: Ctrl
-      RCTRL: Ctrl
-      LALT: Alt
-      RALT: Alt
-      LGUI: Gui
-      RGUI: Gui
-      LSHFT: Shift
-      RSHFT: Shift
-      ESC: Esc
-      SPACE: ␣
-      BSPC: ⌫
-      RET: ⏎
-      TAB: ↹
-      DEL: ⌦
+  trans_legend:
+    t: ''
+    type: trans
 
-      PG_UP: Page Up
-      PG_DN: Page Down
-      INS: Insert
-      HOME: Home
-      END: End
-      CAPS: Caps Lock
-      PSCRN: Print Scrn
-      PAUSE_BREAK: Pause Break
+  zmk_keycode_map:
+    LCTRL: Ctrl
+    RCTRL: Ctrl
+    LALT: Alt
+    RALT: Alt
+    LGUI: Gui
+    RGUI: Gui
+    LSHFT: Shift
+    RSHFT: Shift
+    ESC: Esc
+    SPACE: ␣
+    BSPC: ⌫
+    RET: ⏎
+    TAB: ↹
+    DEL: ⌦
 
-      UP: ↑
-      DOWN: ↓
-      LEFT: ←
-      RIGHT: →
+    PG_UP: Page Up
+    PG_DN: Page Down
+    INS: Insert
+    HOME: Home
+    END: End
+    CAPS: Caps Lock
+    PSCRN: Print Scrn
+    PAUSE_BREAK: Pause Break
 
-      C_PP: ⏯
-      C_NEXT: ⏭️
-      C_PREV: ⏮️
+    UP: ↑
+    DOWN: ↓
+    LEFT: ←
+    RIGHT: →
 
-      # defaults
-      AMPERSAND: '&'
-      AMPS: '&'
-      APOS: "'"
-      APOSTROPHE: "'"
-      ASTERISK: '*'
-      ASTRK: '*'
-      AT: '@'
-      AT_SIGN: '@'
-      BACKSLASH: \
-      BSLH: \
-      CARET: ^
-      COLON: ':'
-      COMMA: ','
-      DLLR: $
-      DOLLAR: $
-      DOT: .
-      DOUBLE_QUOTES: '"'
-      DQT: '"'
-      EQUAL: '='
-      EXCL: '!'
-      EXCLAMATION: '!'
-      FSLH: /
-      GRAVE: '`'
-      GREATER_THAN: '>'
-      GT: '>'
-      HASH: '#'
-      LBKT: '['
-      LBRC: '{'
-      LEFT_BRACE: '{'
-      LEFT_BRACKET: '['
-      LEFT_PARENTHESIS: (
-      LESS_THAN: <
-      LPAR: (
-      LT: <
-      MINUS: '-'
-      NON_US_BACKSLASH: \
-      NON_US_BSLH: '|'
-      NON_US_HASH: '#'
-      NUHS: '#'
-      PERCENT: '%'
-      PERIOD: .
-      PIPE: '|'
-      PIPE2: '|'
-      PLUS: +
-      POUND: '#'
-      PRCNT: '%'
-      QMARK: '?'
-      QUESTION: '?'
-      RBKT: ']'
-      RBRC: '}'
-      RIGHT_BRACE: '}'
-      RIGHT_BRACKET: ']'
-      RIGHT_PARENTHESIS: )
-      RPAR: )
-      SEMI: ;
-      SEMICOLON: ;
-      SINGLE_QUOTE: ''''
-      SLASH: /
-      SQT: ''''
-      STAR: '*'
-      TILDE: '~'
-      TILDE2: '~'
-      UNDER: _
-      UNDERSCORE: _
+    C_PP: ⏯
+    C_NEXT: ⏭️
+    C_PREV: ⏮️
 
-    svg_style: |
-      /* color accent for ghost (optional) keys */
-      rect.ghost, rect.combo.ghost {
-        display: none;
-      }
-
-
-
+    # defaults
+    AMPERSAND: '&'
+    AMPS: '&'
+    APOS: "'"
+    APOSTROPHE: "'"
+    ASTERISK: '*'
+    ASTRK: '*'
+    AT: '@'
+    AT_SIGN: '@'
+    BACKSLASH: \
+    BSLH: \
+    CARET: ^
+    COLON: ':'
+    COMMA: ','
+    DLLR: $
+    DOLLAR: $
+    DOT: .
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    EQUAL: '='
+    EXCL: '!'
+    EXCLAMATION: '!'
+    FSLH: /
+    GRAVE: '`'
+    GREATER_THAN: '>'
+    GT: '>'
+    HASH: '#'
+    LBKT: '['
+    LBRC: '{'
+    LEFT_BRACE: '{'
+    LEFT_BRACKET: '['
+    LEFT_PARENTHESIS: (
+    LESS_THAN: <
+    LPAR: (
+    LT: <
+    MINUS: '-'
+    NON_US_BACKSLASH: \
+    NON_US_BSLH: '|'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    PERCENT: '%'
+    PERIOD: .
+    PIPE: '|'
+    PIPE2: '|'
+    PLUS: +
+    POUND: '#'
+    PRCNT: '%'
+    QMARK: '?'
+    QUESTION: '?'
+    RBKT: ']'
+    RBRC: '}'
+    RIGHT_BRACE: '}'
+    RIGHT_BRACKET: ']'
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    SEMI: ;
+    SEMICOLON: ;
+    SINGLE_QUOTE: ''''
+    SLASH: /
+    SQT: ''''
+    STAR: '*'
+    TILDE: '~'
+    TILDE2: '~'
+    UNDER: _
+    UNDERSCORE: _
+    
+  svg_style: |
+    /* color accent for ghost (optional) keys */
+    rect.ghost, rect.combo.ghost {
+      display: none;
+    }
