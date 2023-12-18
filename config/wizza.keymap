@@ -1,4 +1,4 @@
-// version 1.63 (used to refresh Keymap Drawer)
+// version 1.64 (used to refresh Keymap Drawer)
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -10,16 +10,16 @@
 #include "../zmk-nodefree-config/keypos_def/keypos_30keys.h"
 
 #ifdef KEYMAP_DRAWER
-  #define VER       0
-  #define DEF       1
-  #define NUM         2
-  #define NAV         3
-  #define SYM         4
+    #define VER     0
+    #define DEF     1
+    #define NUM     2
+    #define NAV     3
+    #define SYM     4
 #else
-  #define DEF       0
-  #define NUM       1
-  #define NAV       2
-  #define SYM       3
+    #define DEF     0
+    #define NUM     1
+    #define NAV     2
+    #define SYM     3
 #endif
 
 // DEFINES
