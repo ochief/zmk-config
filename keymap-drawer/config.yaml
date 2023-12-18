@@ -32,6 +32,9 @@ parse_config:
     type: trans
 
   zmk_keycode_map:
+    NAV: NAV3
+    SYM: SYM3
+
     LCTRL: Ctrl
     RCTRL: Ctrl
     LALT: Alt
