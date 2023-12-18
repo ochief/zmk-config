@@ -2,7 +2,7 @@ layout:
   ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
 layers:
   VERTICAL:
-  - b
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -35,12 +35,12 @@ layers:
   MAIN:
   - {t: R, h: Gui}
   - {t: S, h: Alt}
-  - {t: T, h: Shift}
+  - {t: T, h: LSHIFT}
   - {t: H, h: Ctrl}
   - {type: trans}
   - {type: trans}
   - {t: N, h: Ctrl}
-  - {t: A, h: Shift}
+  - {t: A, h: RSHIFT}
   - {t: I, h: Alt}
   - {t: O, h: Gui}
   - Q
@@ -111,7 +111,7 @@ layers:
   - '-'
   - {type: trans}
   - {type: trans}
-  - '`'
+  - '```'
   - ':'
   - '!'
   - ''''
@@ -126,36 +126,43 @@ layers:
   - {type: held}
   - {type: trans}
   Nav:
+  - {t: Esc, h: Gui}
+  - '&hml LALT'
+  - LCTRL(A)
+  - '&hml LSHIFT'
+  - LCTRL(Y)
+  - '&hml LCTRL'
+  - LCTRL(Z)
   - {type: trans}
   - {type: trans}
+  - {t: ←, h: Home}
+  - '&mt LCTRL(END)'
+  - LCTRL(END)
+  - {t: →, h: End}
+  - {type: trans}
+  - LCTRL(X)
+  - LCTRL(C)
+  - LCTRL(V)
+  - '&mt LCTRL(DEL)'
+  - LCTRL(DEL)
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - '&mt LCTRL(BSPC)'
+  - LCTRL(BSPC)
+  - '&mt LCTRL(HOME)'
+  - LCTRL(HOME)
+  - LGUI(X)
   - {type: trans}
   - {type: held}
   - {type: trans}
   - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - ENTER
+  - ↹
 combos:
 - p: [0, 1]
   k: W
