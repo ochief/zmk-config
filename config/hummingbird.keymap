@@ -170,4 +170,4 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                                                         ______          ______              ______          ______
     )
 
-    // . https://github.com/urob/zmk-config?tab=readme-ov-file space sticky shift
+    // . https://github.com/urob/zmk-config?tab=readme-ov-file space sticky shift1
