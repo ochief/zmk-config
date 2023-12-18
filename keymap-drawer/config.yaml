@@ -1,7 +1,7 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
   zmk_combos:
-    combo_c_w: {draw_separate: true}
+    # combo_c_w: {draw_separate: true}
 
   raw_binding_map:
     '&tri_grave': '```'
