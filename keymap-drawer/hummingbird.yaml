@@ -80,7 +80,7 @@ layers:
   - {t: '-', s: _}
   - {type: trans}
   - {type: trans}
-  - {t: '5', s: '`'}
+  - {t: '5', s: '&tri_grave'}
   - {t: '6', s: ':'}
   - {t: '7', s: '!'}
   - {t: '8', s: ''''}
