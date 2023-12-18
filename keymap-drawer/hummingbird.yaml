@@ -62,7 +62,7 @@ layers:
   - {t: '&num_dance', h: Number}
   - ␣
   - {t: E, h: Navigation}
-  - {t: Shift, h: sticky, s: '&caps_word'}
+  - SHIFT
   Number:
   - {t: Gui, h: sticky}
   - {t: Alt, h: sticky}
@@ -204,11 +204,11 @@ combos:
   k: Z
   l: [Main]
 - p: [26, 27]
-  k: Screen  Shot
+  k: Screenshot
   l: [Main, Number, Navigation]
   a: top
-  o: 0.4
-  w: 100.0
+  o: 0.3
+  w: 90.0
 - p: [0, 10]
   k: <
   l: [Vertical]
