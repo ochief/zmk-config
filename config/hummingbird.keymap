@@ -147,21 +147,21 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                                                         SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
     )
 
-    ZMK_LAYER(NUM,
+    ZMK_LAYER(Num,
         &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______              ______          &one_per        &two_sem        &thr_que        &fou_spe
         &fsl_bsl        &ast_has        &plu_amp        &min_und        ______              ______          &fiv_gra        &six_col        &sev_exc        &eig_sqt
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          &lt NAV SPACE       &zer_gra        &nin_car
     )
 
-    ZMK_LAYER(SYM,
+    ZMK_LAYER(Sym,
         &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______              ______          &kp PRCNT       &kp SEMI        &kp QMARK       SYM_DQT
         &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______              ______          &kp GRAVE       &kp COLON       &kp EXCL        &kp SQT
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          ______              ______          ______
     )
 
-    ZMK_LAYER(NAV,
+    ZMK_LAYER(Nav,
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
                         ______          ______          ______                                              ______          ______          ______

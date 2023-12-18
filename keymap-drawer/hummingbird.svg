@@ -333,12 +333,12 @@ path.combo {
 <g transform="translate(270, 196)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<text x="0" y="24" class="key hold">4</text>
+<text x="0" y="24" class="key hold">Nav</text>
 </g>
 <g transform="translate(360, 196)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
-<text x="0" y="24" class="key hold">3</text>
+<text x="0" y="24" class="key hold">Sym</text>
 </g>
 <g transform="translate(420, 196)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -412,8 +412,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 572)" class="layer-2">
-<text x="0" y="28" class="label">2:</text>
+<g transform="translate(30, 572)" class="layer-Num">
+<text x="0" y="28" class="label">Num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -531,7 +531,7 @@ path.combo {
 <g transform="translate(270, 196)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<text x="0" y="24" class="key hold">4</text>
+<text x="0" y="24" class="key hold">Nav</text>
 </g>
 <g transform="translate(360, 196)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -587,8 +587,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 852)" class="layer-3">
-<text x="0" y="28" class="label">3:</text>
+<g transform="translate(30, 852)" class="layer-Sym">
+<text x="0" y="28" class="label">Sym:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -740,8 +740,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1132)" class="layer-4">
-<text x="0" y="28" class="label">4:</text>
+<g transform="translate(30, 1132)" class="layer-Nav">
+<text x="0" y="28" class="label">Nav:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
