@@ -20,9 +20,9 @@ parse_config:
     '&kp RA(N4)': '€'
     '&kp LS(N4)': '$'
     '&kp LS(N3)': '£'
-    '&smart_shft': 'SFT'
+    '&smart_shft': 'SHIFT'
     'NAV': 'NAV'
-    'SYM': 'SYM'
+    '&lt SYM E': 'SYM'
     'SMART_NUM': 'NUM'
 
   trans_legend:
@@ -39,7 +39,7 @@ parse_config:
     LSHFT: Shift
     RSHFT: Shift
     ESC: Esc
-    SPACE: ␣
+    SPACE: SPACE # ␣
     BSPC: ⌫
     RET: ⏎
     TAB: ↹
