@@ -107,7 +107,6 @@ ZMK_BEHAVIOR(tri_grave, macro,
     bindings = <&kp GRAVE &kp GRAVE &kp GRAVE &kp ENTER>;
 )
 
-
 // COMBOS
 SIMPLE_MORPH(dot,       SFT,    &kp DOT,    &kp DOT)        // tap: dot         shift + tap: dot
 SIMPLE_MORPH(comma,     SFT,    &kp COMMA,  &kp COMMA)      // tap: comma       shift + tap: comma
