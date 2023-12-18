@@ -126,6 +126,8 @@ parse_config:
     UNDERSCORE: _
 
 draw_config:
+  shrink_wide_legends: 15
+
   svg_style: |
     /* font and background color specifications */
     svg.keymap {

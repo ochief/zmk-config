@@ -327,7 +327,7 @@ path.combo {
 </g>
 <g transform="translate(210, 196)" class="key keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;num_dance</tspan></text>
+<text x="0" y="0" class="key tap">&amp;num_dance</text>
 <text x="0" y="24" class="key hold">Number</text>
 </g>
 <g transform="translate(270, 196)" class="key keypos-27">
@@ -337,13 +337,13 @@ path.combo {
 <g transform="translate(360, 196)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 70%">Navigation</tspan></text>
+<text x="0" y="24" class="key hold">Navigation</text>
 </g>
 <g transform="translate(420, 196)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Shift</text>
 <text x="0" y="24" class="key hold">sticky</text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+<text x="0" y="-24" class="key shifted">&amp;caps_word</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="46" y="29" width="28" height="26" class="combo"/>
@@ -409,7 +409,7 @@ path.combo {
 <path d="M240,145 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
 <path d="M240,145 h24 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
 <rect rx="6" ry="6" x="190" y="132" width="100" height="26" class="combo"/>
-<text x="240" y="145" class="combo tap"><tspan style="font-size: 64%">Screen Shot</tspan></text>
+<text x="240" y="145" class="combo tap">Screen Shot</text>
 </g>
 </g>
 </g>
@@ -563,7 +563,7 @@ path.combo {
 <path d="M240,145 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
 <path d="M240,145 h24 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
 <rect rx="6" ry="6" x="190" y="132" width="100" height="26" class="combo"/>
-<text x="240" y="145" class="combo tap"><tspan style="font-size: 64%">Screen Shot</tspan></text>
+<text x="240" y="145" class="combo tap">Screen Shot</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="46" y="85" width="28" height="26" class="combo"/>
@@ -811,7 +811,7 @@ path.combo {
 <path d="M240,145 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
 <path d="M240,145 h24 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
 <rect rx="6" ry="6" x="190" y="132" width="100" height="26" class="combo"/>
-<text x="240" y="145" class="combo tap"><tspan style="font-size: 64%">Screen Shot</tspan></text>
+<text x="240" y="145" class="combo tap">Screen Shot</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="46" y="85" width="28" height="26" class="combo"/>
