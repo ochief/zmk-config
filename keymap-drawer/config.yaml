@@ -23,6 +23,8 @@ parse_config:
     '&smart_shft': 'SHIFT'
     'NAV': 'NAV'
     'Symbol': 'SYM'
+    'symbol': 'SYM1'
+    'SYM': 'SYM2'
     'SMART_NUM': 'NUM'
 
   trans_legend:

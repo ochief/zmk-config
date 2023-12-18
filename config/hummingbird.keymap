@@ -1,4 +1,4 @@
-// ver  sion 1.77 (used to refresh Keymap Drawer)
+// ver  sion 1.78 (used to refresh Keymap Drawer)
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
