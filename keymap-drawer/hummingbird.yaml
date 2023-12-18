@@ -59,10 +59,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - NUM1
+  - NUM
   - ␣
-  - {t: E, h: Navigation}
-  - SHIFT
+  - {t: E, h: Symbols}
+  - SFT
   Number:
   - {t: Gui, h: sticky}
   - {t: Alt, h: sticky}
@@ -123,7 +123,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
   Navigation:
   - {type: trans}
@@ -154,7 +154,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
   - {type: trans}
 combos:
 - p: [0, 1]
@@ -173,13 +173,13 @@ combos:
   o: 0.2
 - p: [6, 7]
   k: '='
-  l: [Main, Number, Navigation]
+  l: [Main, Number, Symbols]
 - p: [7, 8]
   k: ','
-  l: [Main, Number, Navigation]
+  l: [Main, Number, Symbols]
 - p: [8, 9]
   k: .
-  l: [Main, Number, Navigation]
+  l: [Main, Number, Symbols]
 - p: [10, 11]
   k: Q
   l: [Main]
@@ -196,7 +196,7 @@ combos:
   o: 0.2
 - p: [16, 17]
   k: '@'
-  l: [Main, Number, Navigation]
+  l: [Main, Number, Symbols]
 - p: [17, 18]
   k: X
   l: [Main]
@@ -205,7 +205,7 @@ combos:
   l: [Main]
 - p: [26, 27]
   k: Screenshot
-  l: [Main, Number, Navigation]
+  l: [Main, Number, Symbols]
   a: top
   o: 0.3
   w: 90.0
@@ -235,16 +235,16 @@ combos:
   l: [Vertical]
 - p: [10, 11]
   k: €
-  l: [Number, Navigation]
+  l: [Number, Symbols]
 - p: [11, 12]
   k: $
-  l: [Number, Navigation]
+  l: [Number, Symbols]
 - p: [12, 13]
   k: £
-  l: [Number, Navigation]
+  l: [Number, Symbols]
 - p: [17, 18]
   k: '|'
-  l: [Number, Navigation]
+  l: [Number, Symbols]
 - p: [18, 19]
   k: '~'
-  l: [Number, Navigation]
+  l: [Number, Symbols]
