@@ -130,6 +130,8 @@ SIMPLE_MORPH(eig_sqt,   SFT,    &kp N8,     &kp SQT)        // tap: eight       
 SIMPLE_MORPH(nin_car,   SFT,    &kp N9,     &kp CARET)      // tap: nine        shift + tap: carat
 SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        shift + tap: grave
 
+
+
 /* Keymap */
 #ifdef KEYMAP_DRAWER
     ZMK_LAYER(Vertical,
@@ -167,3 +169,5 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
+
+    // . https://github.com/urob/zmk-config?tab=readme-ov-file space sticky shift
