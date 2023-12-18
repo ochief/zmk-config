@@ -21,10 +21,6 @@ parse_config:
     '&kp LS(N4)': '$'
     '&kp LS(N3)': '£'
     '&smart_shft': 'SHIFT'
-    'NAV': 'NAV'
-    'Symbol': 'SYM'
-    'symbol': 'SYM1'
-    'SYM': 'SYM2'
     'SMART_NUM': 'NUM'
 
   trans_legend:
@@ -32,9 +28,6 @@ parse_config:
     type: trans
 
   zmk_keycode_map:
-    NAV: NAV3
-    SYM: SYM3
-
     LCTRL: Ctrl
     RCTRL: Ctrl
     LALT: Alt

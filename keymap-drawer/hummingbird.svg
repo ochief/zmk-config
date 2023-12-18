@@ -93,12 +93,12 @@ path.combo {
   visibility: hidden;
 }
 /* End Tabler Icons Cleanup */</style>
-<g transform="translate(30, 0)" class="layer-Vertical">
-<text x="0" y="28" class="label">Vertical:</text>
+<g transform="translate(30, 0)" class="layer-VERTICAL">
+<text x="0" y="28" class="label">VERTICAL:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">a</text>
+<text x="0" y="0" class="key tap">b</text>
 </g>
 <g transform="translate(90, 28)" class="key trans keypos-1">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
@@ -221,8 +221,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 280)" class="layer-Main">
-<text x="0" y="28" class="label">Main:</text>
+<g transform="translate(30, 280)" class="layer-MAIN">
+<text x="0" y="28" class="label">MAIN:</text>
 <g transform="translate(0, 68)">
 <g transform="translate(30, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -333,11 +333,12 @@ path.combo {
 <g transform="translate(270, 196)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
+<text x="0" y="24" class="key hold">4</text>
 </g>
 <g transform="translate(360, 196)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
-<text x="0" y="24" class="key hold">Symbol</text>
+<text x="0" y="24" class="key hold">3</text>
 </g>
 <g transform="translate(420, 196)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -411,8 +412,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 572)" class="layer-Number">
-<text x="0" y="28" class="label">Number:</text>
+<g transform="translate(30, 572)" class="layer-2">
+<text x="0" y="28" class="label">2:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -530,6 +531,7 @@ path.combo {
 <g transform="translate(270, 196)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
+<text x="0" y="24" class="key hold">4</text>
 </g>
 <g transform="translate(360, 196)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -585,8 +587,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 852)" class="layer-Symbol">
-<text x="0" y="28" class="label">Symbol:</text>
+<g transform="translate(30, 852)" class="layer-3">
+<text x="0" y="28" class="label">3:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -738,8 +740,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1132)" class="layer-Navigation">
-<text x="0" y="28" class="label">Navigation:</text>
+<g transform="translate(30, 1132)" class="layer-4">
+<text x="0" y="28" class="label">4:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
@@ -822,8 +824,8 @@ path.combo {
 <g transform="translate(210, 196)" class="key trans keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
 </g>
-<g transform="translate(270, 196)" class="key trans keypos-27">
-<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
+<g transform="translate(270, 196)" class="key held keypos-27">
+<rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key held"/>
 </g>
 <g transform="translate(360, 196)" class="key trans keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key trans"/>
