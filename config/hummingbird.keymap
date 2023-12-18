@@ -27,12 +27,12 @@
 #define ______      &trans
 #define SYM_DQT     &kp LS(N2)
 #define SYM_EMA     &kp LS(SQT)
+#define SYM_PIP     &kp LS(NUBS)
+#define SYM_TIL     &kp LS(NUHS)   
 #define SCREEN      &kp LG(LS(S))
 #define CUR_EUR     &kp RA(N4)
 #define CUR_DOL     &kp LS(N4)
 #define CUR_POU     &kp LS(N3)
-#define SYM_PIP     &kp LS(NUBS)
-#define SYM_TIL     &kp LS(NUHS)   
 
 #include "combos.dtsi"
 

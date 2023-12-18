@@ -4,18 +4,19 @@ parse_config:
     combo_c_w: {draw_separate: true}
 
   raw_binding_map:
+    '&tri_grave': '```'
     '&equal': '='
     '&comma': ','
     '&dot': '.'
-    '&kp LS(N2)': '"'
     '&kp NUBS': '\'
+    '&kp LS(N2)': '"'
     '&kp LS(SQT)': '@'
+    '&kp LS(NUBS)': '|'
+    '&kp LS(NUHS)': '~'
     '&kp LG(LS(S))': 'SS'
     '&kp RA(N4)': '€'
     '&kp LS(N4)': '$'
     '&kp LS(N3)': '£'
-    '&kp LS(NUBS)': '|'
-    '&kp LS(NUHS)': '~'
 
   trans_legend:
     t: ''
