@@ -406,10 +406,10 @@ path.combo {
 <text x="570" y="98" class="combo tap">Z</text>
 </g>
 <g class="combo combopos-14">
-<path d="M240,145 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
-<path d="M240,145 h24 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
-<rect rx="6" ry="6" x="190" y="132" width="100" height="26" class="combo"/>
-<text x="240" y="145" class="combo tap">Screen Shot</text>
+<path d="M240,156 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo"/>
+<path d="M240,156 h24 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo"/>
+<rect rx="6" ry="6" x="195" y="143" width="90" height="26" class="combo"/>
+<text x="240" y="156" class="combo tap">Screenshot</text>
 </g>
 </g>
 </g>
@@ -560,10 +560,10 @@ path.combo {
 <text x="450" y="84" class="combo tap">@</text>
 </g>
 <g class="combo combopos-4">
-<path d="M240,145 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
-<path d="M240,145 h24 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
-<rect rx="6" ry="6" x="190" y="132" width="100" height="26" class="combo"/>
-<text x="240" y="145" class="combo tap">Screen Shot</text>
+<path d="M240,156 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo"/>
+<path d="M240,156 h24 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo"/>
+<rect rx="6" ry="6" x="195" y="143" width="90" height="26" class="combo"/>
+<text x="240" y="156" class="combo tap">Screenshot</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="46" y="85" width="28" height="26" class="combo"/>
@@ -808,10 +808,10 @@ path.combo {
 <text x="450" y="84" class="combo tap">@</text>
 </g>
 <g class="combo combopos-4">
-<path d="M240,145 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
-<path d="M240,145 h24 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
-<rect rx="6" ry="6" x="190" y="132" width="100" height="26" class="combo"/>
-<text x="240" y="145" class="combo tap">Screen Shot</text>
+<path d="M240,156 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo"/>
+<path d="M240,156 h24 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo"/>
+<rect rx="6" ry="6" x="195" y="143" width="90" height="26" class="combo"/>
+<text x="240" y="156" class="combo tap">Screenshot</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="46" y="85" width="28" height="26" class="combo"/>
