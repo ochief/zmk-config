@@ -21,7 +21,7 @@ parse_config:
     '&kp LS(N4)': '$'
     '&kp LS(N3)': '£'
     '&smart_shft': 'SHIFT'
-
+    'navigation': 'NAV'
 
   trans_legend:
     t: ''
@@ -29,7 +29,7 @@ parse_config:
 
   zmk_keycode_map:
     SMART_NUM: NUM
-    
+
     LCTRL: Ctrl
     RCTRL: Ctrl
     LALT: Alt
