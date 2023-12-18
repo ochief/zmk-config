@@ -59,7 +59,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: '&num_dance', h: Number}
+  - NUM1
   - ␣
   - {t: E, h: Navigation}
   - SHIFT
@@ -90,7 +90,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
   - ␣
   - {t: '0', s: '`'}
   - {t: '9', s: ^}

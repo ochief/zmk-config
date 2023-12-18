@@ -22,6 +22,8 @@ parse_config:
     '&kp LS(N3)': '£'
     '&smart_shft': 'SHIFT'
     'navigation': 'NAV'
+    'SMART_NUM': 'NUM1'
+    '&SMART_NUM': 'NUM2'
 
   trans_legend:
     t: ''
