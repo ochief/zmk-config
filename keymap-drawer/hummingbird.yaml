@@ -60,9 +60,9 @@ layers:
   - {type: trans}
   - {type: trans}
   - NUM
-  - ␣
-  - {t: E, h: Symbols}
-  - SFT
+  - SPACE
+  - '{t: SYM h: E}'
+  - SHIFT
   Number:
   - {t: Gui, h: sticky}
   - {t: Alt, h: sticky}
@@ -91,7 +91,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - ␣
+  - SPACE
   - {t: '0', s: '`'}
   - {t: '9', s: ^}
   Symbols:
@@ -123,7 +123,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
   - {type: trans}
   Navigation:
   - {type: trans}
