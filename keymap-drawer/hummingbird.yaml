@@ -204,10 +204,11 @@ combos:
   k: Z
   l: [Main]
 - p: [26, 27]
-  k: Screenshot
+  k: Screen  Shot
   l: [Main, Number, Navigation]
   a: top
-  o: 0.2
+  o: 0.4
+  w: 100.0
 - p: [0, 10]
   k: <
   l: [Vertical]
