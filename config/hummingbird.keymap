@@ -154,7 +154,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                                                         ______          &kp SPACE           &zer_gra        &nin_car
     )
 
-    ZMK_LAYER(Symbols,
+    ZMK_LAYER(Symbol,
         &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______              ______          &kp PRCNT       &kp SEMI        &kp QMARK       SYM_DQT
         &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______              ______          &kp GRAVE       &kp COLON       &kp EXCL        &kp SQT
                         ______          ______          ______                                              ______          ______          ______        
