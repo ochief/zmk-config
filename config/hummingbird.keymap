@@ -26,11 +26,11 @@
 #define xxxxxx      &none
 #define ______      &trans
 
-#define LG          LGUI
-#define LA          LALT
-#define LS          LSHIFT
-#define RS          RSHIFT
-#define LC          LCTRL
+#define L_G         LGUI
+#define L_A         LALT
+#define L_S         LSHIFT
+#define R_S         RSHIFT
+#define L_C         LCTRL
 
 #define SYM_DQT     &kp LS(N2)
 #define SYM_EMA     &kp LS(SQT)
@@ -189,7 +189,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
     )
 #endif
     ZMK_LAYER(MAIN,
-        &hml LG R       &hml LA S       &hml LS T       &hml LC H       ______              ______          &hmr LC N       &hmr RS A       &hmr LA I       &hmr LG O
+        &hml LG R       &hml L_A  S     &hml L_S T      &hml L_C H      ______              ______          &hmr L_C N      &hmr R_S A      &hmr L_A I      &hmr L_G O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
                                                         SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
@@ -210,7 +210,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
     )
 /*
     ZMK_LAYER(Nav,
-        &hml LG ESC     &hml LA SELALL  &hml LS REDO    &hml LC UNDO    ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       ______
+        &hml L_G ESC    &hml L_A SELALL &hml L_S REDO   &hml L_C UNDO   ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       ______
         CUT             COPY            PASTE           NAV_DEL         ______              ______          NAV_BSPC        NAV_UP          WINX            ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              &kp ENTER       &kp TAB
