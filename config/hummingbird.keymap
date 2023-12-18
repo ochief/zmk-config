@@ -25,14 +25,35 @@
 // DEFINES
 #define xxxxxx      &none
 #define ______      &trans
+
+#define LG          LGUI
+#define LA          LALT
+#define LS          LSHIFT
+#define RS          RSHIFT
+#define LC          LCTRL
+
 #define SYM_DQT     &kp LS(N2)
 #define SYM_EMA     &kp LS(SQT)
 #define SYM_PIP     &kp LS(NUBS)
 #define SYM_TIL     &kp LS(NUHS)   
-#define SCREEN      &kp LG(LS(S))
+
 #define CUR_EUR     &kp RA(N4)
 #define CUR_DOL     &kp LS(N4)
 #define CUR_POU     &kp LS(N3)
+
+#define WINX        &kp LG(X)
+#define SCREEN      &kp LG(LS(S))
+#define CUT         &kp LC(X)
+#define COPY        &kp LC(C)
+#define PASTE       &kp LC(V)
+#define PASTES      &kp LC(LS(V))
+#define SELALL      &kp LC(A)
+#define UNDO        &kp LC(Z)
+#define REDO        &kp LC(Y)
+#define BEG_DOC     &kp LC(HOME)
+#define END_DOC     &kp LC(END)
+#define DWORD_B     &kp LC(BSPC)
+#define DWORD_F     &kp LC(DEL)
 
 #include "combos.dtsi"
 
@@ -93,12 +114,33 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
 };
 
-// reuse basic mod-morph scheme
-#define SIMPLE_MORPH(NAME, MOD, BINDING1, BINDING2) \
+// long-tap action on hold, short-tap action on all interrupts
+#define MT_CORE \
+    flavor = "tap-preferred"; \
+    tapping-term-ms = <220>; \
+    quick-tap-ms = <220>; \
+    hold-trigger-key-positions = <0>;
+
+&mt { MT_CORE };
+ZMK_BEHAVIOR(mt_home, hold_tap, bindings = <&masked_home>, <&kp>; MT_CORE)
+ZMK_BEHAVIOR(mt_end,  hold_tap, bindings = <&masked_end>, <&kp>; MT_CORE)
+
+#define NAV_LEFT  &mt_home 0    LEFT    // tap: left  | long-tap: beginning of line
+#define NAV_RIGHT &mt_end 0     RIGHT   // tap: right | long-tap: end of line
+#define NAV_UP    &mt LC(HOME)  BEG_DOC // tap: up    | long-tap: beginning of document
+#define NAV_DOWN  &mt LC(END)   END_DOC // tap: down  | long-tap: end of document
+#define NAV_BSPC  &mt LC(BSPC)  DWORD_B // tap: bspc  | long-tap: delete word backward
+#define NAV_DEL   &mt LC(DEL)   DWORD_F // tap: del   | long-tap: delete word forward
+#define NAV_PASTE &mt PASTE     PASTES  // tap: paste | long-tap: paste special
+
+// mask CTRL when holding left/right to avoid accidental jumps to beginning/end of document
+#define MASK_MODS(NAME, MODS, BINDING) \
     ZMK_BEHAVIOR(NAME, mod_morph, \
-        mods = <(MOD_L ## MOD|MOD_R ## MOD)>; \
-        bindings = <BINDING1>, <BINDING2>; \
+        bindings = <BINDING>, <BINDING>; \
+        mods = <MODS>; \
     )
+MASK_MODS(masked_home, (MOD_LCTL), &kp HOME)
+MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 
 // ```
 ZMK_BEHAVIOR(tri_grave, macro,
@@ -106,6 +148,13 @@ ZMK_BEHAVIOR(tri_grave, macro,
     tap-ms = <50>;
     bindings = <&kp GRAVE &kp GRAVE &kp GRAVE &kp ENTER>;
 )
+
+// reuse basic mod-morph scheme
+#define SIMPLE_MORPH(NAME, MOD, BINDING1, BINDING2) \
+    ZMK_BEHAVIOR(NAME, mod_morph, \
+        mods = <(MOD_L ## MOD|MOD_R ## MOD)>; \
+        bindings = <BINDING1>, <BINDING2>; \
+    )
 
 // COMBOS
 SIMPLE_MORPH(dot,       SFT,    &kp DOT,    &kp DOT)        // tap: dot         shift + tap: dot
@@ -133,7 +182,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
 /* Keymap */
 #ifdef KEYMAP_DRAWER
     ZMK_LAYER(VERTICAL,
-        &kp b          ______          ______          ______          ______              ______          ______          ______          ______          ______
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
@@ -141,7 +190,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
 #endif
 
     ZMK_LAYER(MAIN,
-        &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______              ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
+        &hml LG R       &hml LA S       &hml LS T       &hml LC H       ______              ______          &hmr LC N       &hmr RS A       &hmr LA I       &hmr LG O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
                                                         SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
@@ -156,16 +205,16 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
 
     ZMK_LAYER(Sym,
         &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______              ______          &kp PRCNT       &kp SEMI        &kp QMARK       SYM_DQT
-        &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______              ______          &kp GRAVE       &kp COLON       &kp EXCL        &kp SQT
+        &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______              ______          &tri_grave      &kp COLON       &kp EXCL        &kp SQT
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          ______              ______          ______
     )
 
     ZMK_LAYER(Nav,
-        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
-        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+        &hml LG ESC     &hml LA SELALL  &hml LS REDO    &hml LC UNDO    ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       ______
+        CUT             COPY            PASTE           NAV_DEL         ______              ______          NAV_BSPC        NAV_UP          WINX            ______
                         ______          ______          ______                                              ______          ______          ______
-                                                        ______          ______              ______          ______
+                                                        ______          ______              &kp ENTER       &kp TAB
     )
 
     // . https://github.com/urob/zmk-config?tab=readme-ov-file space sticky shift1
