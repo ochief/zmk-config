@@ -20,4 +20,4 @@ jobs:
       output_folder: keymap-drawer            # path to save produced SVG and keymap YAML files
       install_branch: main
       amend_commit: true
-      draw_args: "wizza: '&hummingbird_ortho --ghost-keys 4 5 14 15 20 21 22 23 24 25'"   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+      draw_args: "hummingbird: '--ghost-keys 4 5 14 15 20 21 22 23 24 25'"   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
