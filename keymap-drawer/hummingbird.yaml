@@ -160,7 +160,6 @@ combos:
 - p: [0, 1]
   k: W
   l: [Main]
-  draw_separate: true
 - p: [1, 2]
   k: M
   l: [Main]
@@ -170,6 +169,8 @@ combos:
 - p: [3, 6]
   k: K
   l: [Main]
+  a: top
+  o: 0.2
 - p: [6, 7]
   k: '='
   l: [Main, Number, Symbols]
@@ -191,6 +192,8 @@ combos:
 - p: [13, 16]
   k: J
   l: [Main]
+  a: bottom
+  o: 0.2
 - p: [16, 17]
   k: '@'
   l: [Main, Number, Symbols]
