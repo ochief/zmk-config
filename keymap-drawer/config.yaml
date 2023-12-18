@@ -2,8 +2,10 @@
 parse_config:
   zmk_combos:
     # combo_c_w: {draw_separate: true}
-      combo_c_k: {a: top, offset: 0.2}
-      combo_c_j: {a: bottom, offset: 0.2}
+      combo_c_k:      {a: top, offset: 0.2}
+      combo_c_j:      {a: bottom, offset: 0.2}
+      combo_c_screen: {a: top, offset: 0.2}
+
   raw_binding_map:
     '&tri_grave': '```'
     '&equal': '='
@@ -14,7 +16,7 @@ parse_config:
     '&kp LS(SQT)': '@'
     '&kp LS(NUBS)': '|'
     '&kp LS(NUHS)': '~'
-    '&kp LG(LS(S))': 'SS'
+    '&kp LG(LS(S))': 'Screenshot'
     '&kp RA(N4)': '€'
     '&kp LS(N4)': '$'
     '&kp LS(N3)': '£'
