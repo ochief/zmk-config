@@ -1,36 +1,5 @@
 layout: {qmk_keyboard: berylline}
 layers:
-  base:
-  - {t: R, h: Gui}
-  - {t: S, h: Alt}
-  - {t: T, h: Shift}
-  - {t: H, h: Ctrl}
-  - {type: trans}
-  - {type: trans}
-  - {t: N, h: Ctrl}
-  - {t: A, h: Shift}
-  - {t: I, h: Alt}
-  - {t: O, h: Gui}
-  - Q
-  - C
-  - G
-  - D
-  - {type: trans}
-  - {type: trans}
-  - L
-  - U
-  - Y
-  - ''''
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {t: '&num_dance', h: num}
-  - ␣
-  - {t: E, h: sym}
-  - {t: Shift, h: sticky, s: '&caps_word'}
   ver:
   - R
   - S
@@ -62,6 +31,37 @@ layers:
   - {type: trans}
   - E
   - {type: trans}
+  base:
+  - {t: R, h: Gui}
+  - {t: S, h: Alt}
+  - {t: T, h: Shift}
+  - {t: H, h: Ctrl}
+  - {type: trans}
+  - {type: trans}
+  - {t: N, h: Ctrl}
+  - {t: A, h: Shift}
+  - {t: I, h: Alt}
+  - {t: O, h: Gui}
+  - Q
+  - C
+  - G
+  - D
+  - {type: trans}
+  - {type: trans}
+  - L
+  - U
+  - Y
+  - ''''
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: '&num_dance', h: num}
+  - ␣
+  - {t: E, h: sym}
+  - {t: Shift, h: sticky, s: '&caps_word'}
   num:
   - {t: Gui, h: sticky}
   - {t: Alt, h: sticky}
