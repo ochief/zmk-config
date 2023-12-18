@@ -20,18 +20,16 @@ parse_config:
     '&kp RA(N4)': '€'
     '&kp LS(N4)': '$'
     '&kp LS(N3)': '£'
-    '&smart_shft': 'SHIFT'
-    'navigation': 'NAV'
-    'SMART_NUM': 'NUM1'
-    '&SMART_NUM': 'NUM2'
+    '&smart_shft': 'SFT'
+    'NAV': 'NAV'
+    'SYM': 'SYM'
+    'SMART_NUM': 'NUM'
 
   trans_legend:
     t: ''
     type: trans
 
   zmk_keycode_map:
-    SMART_NUM: NUM
-
     LCTRL: Ctrl
     RCTRL: Ctrl
     LALT: Alt

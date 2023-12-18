@@ -1,4 +1,4 @@
-// version 1.74 (used to refresh Keymap Drawer)
+// version 1.75 (used to refresh Keymap Drawer)
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -13,13 +13,13 @@
     #define VER     0
     #define DEF     1
     #define NUM     2
-    #define NAV     3
-    #define SYM     4
+    #define SYM     3
+    #define NAV     4
 #else
     #define DEF     0
     #define NUM     1
-    #define NAV     2
-    #define SYM     3
+    #define SYM     2
+    #define NAV     3
 #endif
 
 // DEFINES
@@ -129,8 +129,6 @@ SIMPLE_MORPH(sev_exc,   SFT,    &kp N7,     &kp EXCL)       // tap: seven       
 SIMPLE_MORPH(eig_sqt,   SFT,    &kp N8,     &kp SQT)        // tap: eight       shift + tap: single quote
 SIMPLE_MORPH(nin_car,   SFT,    &kp N9,     &kp CARET)      // tap: nine        shift + tap: carat
 SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        shift + tap: grave
-
-
 
 /* Keymap */
 #ifdef KEYMAP_DRAWER
