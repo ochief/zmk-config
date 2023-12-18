@@ -2,26 +2,6 @@ layout:
   ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
 layers:
   ver:
-  - R
-  - S
-  - T
-  - H
-  - {type: trans}
-  - {type: trans}
-  - N
-  - A
-  - I
-  - O
-  - Q
-  - C
-  - G
-  - D
-  - {type: trans}
-  - {type: trans}
-  - L
-  - U
-  - Y
-  - ''''
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -30,7 +10,27 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - E
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   base:
   - {t: R, h: Gui}
@@ -80,7 +80,7 @@ layers:
   - {t: '-', s: _}
   - {type: trans}
   - {type: trans}
-  - {t: '5', s: '&tri_grave'}
+  - {t: '5', s: '```'}
   - {t: '6', s: ':'}
   - {t: '7', s: '!'}
   - {t: '8', s: ''''}
@@ -159,47 +159,47 @@ layers:
 combos:
 - p: [0, 1]
   k: W
-  l: [base, ver]
+  l: [base]
   draw_separate: true
 - p: [1, 2]
   k: M
-  l: [base, ver]
+  l: [base]
 - p: [2, 3]
   k: B
-  l: [base, ver]
+  l: [base]
 - p: [3, 6]
   k: K
-  l: [base, ver]
+  l: [base]
 - p: [6, 7]
   k: '='
-  l: [base, ver, num, sym]
+  l: [base, num, sym]
 - p: [7, 8]
   k: ','
-  l: [base, ver, num, sym]
+  l: [base, num, sym]
 - p: [8, 9]
   k: .
-  l: [base, ver, num, sym]
+  l: [base, num, sym]
 - p: [10, 11]
   k: Q
-  l: [base, ver]
+  l: [base]
 - p: [11, 12]
   k: F
-  l: [base, ver]
+  l: [base]
 - p: [12, 13]
   k: P
-  l: [base, ver]
+  l: [base]
 - p: [13, 16]
   k: J
-  l: [base, ver]
+  l: [base]
 - p: [16, 17]
   k: '@'
-  l: [base, ver, num, sym]
+  l: [base, num, sym]
 - p: [17, 18]
   k: X
-  l: [base, ver]
+  l: [base]
 - p: [18, 19]
   k: Z
-  l: [base, ver]
+  l: [base]
 - p: [26, 27]
   k: SS
   l: [base, num, sym]
