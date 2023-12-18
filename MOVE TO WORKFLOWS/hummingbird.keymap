@@ -178,4 +178,4 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
     )
 #endif
 
-// ^ ` Replace Gra ve on symbol layer with ```
+// ^ ` Replace Grave on symbol layer with ```
