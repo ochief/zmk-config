@@ -22,7 +22,7 @@ parse_config:
     '&kp LS(N3)': '£'
     '&smart_shft': 'SHIFT'
     'NAV': 'NAV'
-    '&lt SYM E': 'SYM'
+    '&lt SYM E': '{t: SYM h: E}'
     'SMART_NUM': 'NUM'
 
   trans_legend:
