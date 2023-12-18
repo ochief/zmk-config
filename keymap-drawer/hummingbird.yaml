@@ -1,8 +1,8 @@
 layout:
   ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
 layers:
-  Vertical:
-  - a
+  VERTICAL:
+  - b
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -32,7 +32,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  Main:
+  MAIN:
   - {t: R, h: Gui}
   - {t: S, h: Alt}
   - {t: T, h: Shift}
@@ -60,10 +60,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - NUM
-  - SPACE
-  - {t: E, h: Symbol}
+  - {t: SPACE, h: '4'}
+  - {t: E, h: '3'}
   - SHIFT
-  Number:
+  '2':
   - {t: Gui, h: sticky}
   - {t: Alt, h: sticky}
   - {t: Shift, h: sticky}
@@ -91,10 +91,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - SPACE
+  - {t: SPACE, h: '4'}
   - {t: '0', s: '`'}
   - {t: '9', s: ^}
-  Symbol:
+  '3':
   - \
   - '#'
   - '&'
@@ -125,7 +125,7 @@ layers:
   - {type: trans}
   - {type: held}
   - {type: trans}
-  Navigation:
+  '4':
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -153,98 +153,98 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
   - {type: trans}
 combos:
 - p: [0, 1]
   k: W
-  l: [Main]
+  l: [MAIN]
 - p: [1, 2]
   k: M
-  l: [Main]
+  l: [MAIN]
 - p: [2, 3]
   k: B
-  l: [Main]
+  l: [MAIN]
 - p: [3, 6]
   k: K
-  l: [Main]
+  l: [MAIN]
   a: top
   o: 0.2
 - p: [6, 7]
   k: '='
-  l: [Main, Number, Symbol]
+  l: [MAIN, '2', '3']
 - p: [7, 8]
   k: ','
-  l: [Main, Number, Symbol]
+  l: [MAIN, '2', '3']
 - p: [8, 9]
   k: .
-  l: [Main, Number, Symbol]
+  l: [MAIN, '2', '3']
 - p: [10, 11]
   k: Q
-  l: [Main]
+  l: [MAIN]
 - p: [11, 12]
   k: F
-  l: [Main]
+  l: [MAIN]
 - p: [12, 13]
   k: P
-  l: [Main]
+  l: [MAIN]
 - p: [13, 16]
   k: J
-  l: [Main]
+  l: [MAIN]
   a: bottom
   o: 0.2
 - p: [16, 17]
   k: '@'
-  l: [Main, Number, Symbol]
+  l: [MAIN, '2', '3']
 - p: [17, 18]
   k: X
-  l: [Main]
+  l: [MAIN]
 - p: [18, 19]
   k: Z
-  l: [Main]
+  l: [MAIN]
 - p: [26, 27]
   k: Screenshot
-  l: [Main, Number, Symbol]
+  l: [MAIN, '2', '3']
   a: top
   o: 0.3
   w: 90.0
 - p: [0, 10]
   k: <
-  l: [Vertical]
+  l: [VERTICAL]
 - p: [1, 11]
   k: '['
-  l: [Vertical]
+  l: [VERTICAL]
 - p: [2, 12]
   k: '{'
-  l: [Vertical]
+  l: [VERTICAL]
 - p: [3, 13]
   k: (
-  l: [Vertical]
+  l: [VERTICAL]
 - p: [6, 16]
   k: )
-  l: [Vertical]
+  l: [VERTICAL]
 - p: [7, 17]
   k: '}'
-  l: [Vertical]
+  l: [VERTICAL]
 - p: [8, 18]
   k: ']'
-  l: [Vertical]
+  l: [VERTICAL]
 - p: [9, 19]
   k: '>'
-  l: [Vertical]
+  l: [VERTICAL]
 - p: [10, 11]
   k: €
-  l: [Number, Symbol]
+  l: ['2', '3']
 - p: [11, 12]
   k: $
-  l: [Number, Symbol]
+  l: ['2', '3']
 - p: [12, 13]
   k: £
-  l: [Number, Symbol]
+  l: ['2', '3']
 - p: [17, 18]
   k: '|'
-  l: [Number, Symbol]
+  l: ['2', '3']
 - p: [18, 19]
   k: '~'
-  l: [Number, Symbol]
+  l: ['2', '3']
