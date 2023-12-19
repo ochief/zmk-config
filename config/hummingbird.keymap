@@ -1,4 +1,4 @@
-n// version 1.81 (used to refresh Keymap Drawer)
+// version 1.80 (used to refresh Keymap Drawer)
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -133,25 +133,25 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
 
 /* Keymap */
 #ifdef KEYMAP_DRAWER
-    ZMK_LAYER(Vertical,
+    ZMK_LAYER(VERTICAL,
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
 #endif
-    ZMK_LAYER(Def,
-        &hml LGUI R     &hml LALT  S    &hml LSHFT T    &hml LCTRL H    ______              ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
+    ZMK_LAYER(MAIN,
+        &hml LGUI R       &hml LALT S     &hml LSHFT T      &hml LCTRL H      ______              ______          &hmr LCTRL N      &hmr RSHFT A      &hmr LALT I      &hmr LGUI O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
-                                                        SMART_NUM       &lt SYM SPACE       &lt SYM E       &smart_shft
+                                                        SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
     )
 
     ZMK_LAYER(Num,
         &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______              ______          &one_per        &two_sem        &thr_que        &fou_spe
         &fsl_bsl        &ast_has        &plu_amp        &min_und        ______              ______          &fiv_gra        &six_col        &sev_exc        &eig_sqt
                         ______          ______          ______                                              ______          ______          ______        
-                                                        ______          &lt SYM SPACE       &zer_gra        &nin_car
+                                                        ______          &lt NAV SPACE       &zer_gra        &nin_car
     )
 
     ZMK_LAYER(Sym,
@@ -160,13 +160,3 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          ______              ______          ______
     )
-/*
-     . https://github.com/urob/zmk-config?tab=readme-ov-file space sticky shift1
-    arc https://drive.google.com/drive/folders/10N0V3K-6Q4GS0lPfVbcR1eG27Feylqk2
-     ntfs formatted SD card sdl2
-
-    Anyone figure out a workaround for the volume issue in RA for the Arc S?  I still can't figure out a way to lower/raise the volume 
-[1:45 AM]Noisaac: Someone on the retro gaming handhelds discord was having a similar issue. I think all they did to fix it was run the "fix permissions" script in the options menu
-
-maybe thumb for up/down
-*/
