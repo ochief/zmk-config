@@ -8,7 +8,6 @@ parse_config:
       combo_c_capslock: {a: top, offset: 0.3, w: 90}
 
   raw_binding_map:
-=
     '&equal'        : '='
     '&comma'        : ','
     '&dot'          : '.'
