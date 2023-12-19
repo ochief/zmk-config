@@ -14,8 +14,7 @@
     #define DEF     1
     #define NUM     2
     #define SYM     3
-    #define NAV     4
-    #define MIS     5    
+    #define NAV     4  
 #else
     #define DEF     0
     #define NUM     1

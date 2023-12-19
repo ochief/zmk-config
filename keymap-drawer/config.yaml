@@ -22,7 +22,7 @@ parse_config:
     '&kp LS(N4)'    : '$'
     '&kp LS(N3)'    : '£'
 
-    '&kp LC(A)'     : 'SEL ALL'
+    '&kp LC(A)'     : 'SELALL'
     '&kp LC(Y)'     : 'REDO'
     '&kp LC(Z)'     : 'UNDO'
     '&kp LC(X)'     : 'CUT'
