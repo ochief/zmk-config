@@ -1,4 +1,4 @@
-// version 1.80 (used to refresh Keymap Drawer)
+n// version 1.80 (used to refresh Keymap Drawer)
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -14,23 +14,17 @@
     #define DEF     1
     #define NUM     2
     #define SYM     3
- 
+    #define NAV     4
 #else
     #define DEF     0
     #define NUM     1
     #define SYM     2
-
+    #define NAV     3
 #endif
 
 // DEFINES
 #define xxxxxx      &none
 #define ______      &trans
-
-#define L_G         LGUI
-#define L_A         LALT
-#define L_S         LSHFT
-#define R_S         RSHFT
-#define L_C         LCTRL
 
 #define SYM_DQT     &kp LS(N2)
 #define SYM_EMA     &kp LS(SQT)
@@ -149,7 +143,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
     )
 #endif
     ZMK_LAYER(MAIN,
-        &hml LG R       &hml L_A  S     &hml L_S T      &hml L_C H      ______              ______          &hmr L_C N      &hmr R_S A      &hmr L_A I      &hmr L_G O
+        &hml LUI R       &hml LALT  S     &hml LSHFT T      &hml LCTRL H      ______              ______          &hmr LCTRL N      &hmr RSHFT A      &hmr LALT I      &hmr LGUI O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
                                                         SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
