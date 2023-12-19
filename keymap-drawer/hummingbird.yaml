@@ -1,0 +1,219 @@
+layout:
+  ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
+layers:
+  Vertical:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  Main:
+  - {t: R, h: LUI}
+  - {t: S, h: Alt}
+  - {t: T, h: Shift}
+  - {t: H, h: Ctrl}
+  - {type: trans}
+  - {type: trans}
+  - {t: N, h: Ctrl}
+  - {t: A, h: Shift}
+  - {t: I, h: Alt}
+  - {t: O, h: Gui}
+  - Q
+  - C
+  - G
+  - D
+  - {type: trans}
+  - {type: trans}
+  - L
+  - U
+  - Y
+  - ''''
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - NUM
+  - {t: SPACE, h: Sym}
+  - {t: E, h: Sym}
+  - SHIFT
+  Num:
+  - {t: Gui, h: sticky}
+  - {t: Alt, h: sticky}
+  - {t: Shift, h: sticky}
+  - {t: Ctrl, h: sticky}
+  - {type: trans}
+  - {type: trans}
+  - {t: '1', s: '%'}
+  - {t: '2', s: ;}
+  - {t: '3', s: '?'}
+  - {t: '4', s: '"'}
+  - {t: /, s: \}
+  - {t: '*', s: '#'}
+  - {t: +, s: '&'}
+  - {t: '-', s: _}
+  - {type: trans}
+  - {type: trans}
+  - {t: '5', s: '```'}
+  - {t: '6', s: ':'}
+  - {t: '7', s: '!'}
+  - {t: '8', s: ''''}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: SPACE, h: Sym}
+  - {t: '0', s: '`'}
+  - {t: '9', s: ^}
+  Sym:
+  - \
+  - '#'
+  - '&'
+  - _
+  - {type: trans}
+  - {type: trans}
+  - '%'
+  - ;
+  - '?'
+  - '"'
+  - /
+  - '*'
+  - +
+  - '-'
+  - {type: trans}
+  - {type: trans}
+  - '```'
+  - ':'
+  - '!'
+  - ''''
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
+combos:
+- p: [0, 1]
+  k: W
+  l: [Main]
+- p: [1, 2]
+  k: M
+  l: [Main]
+- p: [2, 3]
+  k: B
+  l: [Main]
+- p: [3, 6]
+  k: K
+  l: [Main]
+  a: top
+  o: 0.2
+- p: [6, 7]
+  k: '='
+  l: [Main, Num, Sym]
+- p: [7, 8]
+  k: ','
+  l: [Main, Num, Sym]
+- p: [8, 9]
+  k: .
+  l: [Main, Num, Sym]
+- p: [10, 11]
+  k: Q
+  l: [Main]
+- p: [11, 12]
+  k: F
+  l: [Main]
+- p: [12, 13]
+  k: P
+  l: [Main]
+- p: [13, 16]
+  k: J
+  l: [Main]
+  a: bottom
+  o: 0.2
+- p: [16, 17]
+  k: '@'
+  l: [Main, Num, Sym]
+- p: [17, 18]
+  k: X
+  l: [Main]
+- p: [18, 19]
+  k: Z
+  l: [Main]
+- p: [26, 27]
+  k: Screenshot
+  l: [Main, Num, Sym]
+  a: top
+  o: 0.3
+  w: 90.0
+- p: [0, 10]
+  k: <
+  l: [Vertical]
+- p: [1, 11]
+  k: '['
+  l: [Vertical]
+- p: [2, 12]
+  k: '{'
+  l: [Vertical]
+- p: [3, 13]
+  k: (
+  l: [Vertical]
+- p: [6, 16]
+  k: )
+  l: [Vertical]
+- p: [7, 17]
+  k: '}'
+  l: [Vertical]
+- p: [8, 18]
+  k: ']'
+  l: [Vertical]
+- p: [9, 19]
+  k: '>'
+  l: [Vertical]
+- p: [10, 11]
+  k: €
+  l: [Num, Sym]
+- p: [11, 12]
+  k: $
+  l: [Num, Sym]
+- p: [12, 13]
+  k: £
+  l: [Num, Sym]
+- p: [17, 18]
+  k: '|'
+  l: [Num, Sym]
+- p: [18, 19]
+  k: '~'
+  l: [Num, Sym]
