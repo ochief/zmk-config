@@ -33,7 +33,7 @@ layers:
   - {type: trans}
   - {type: trans}
   Main:
-  - {t: R, h: LUI}
+  - {t: R, h: Gui}
   - {t: S, h: Alt}
   - {t: T, h: Shift}
   - {t: H, h: Ctrl}
