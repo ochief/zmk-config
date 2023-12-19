@@ -127,7 +127,7 @@ layers:
   Nav:
   - {t: Esc, h: Gui}
   - {t: LC(A), h: Alt}
-  - {t: W REDO, h: Shift}
+  - {t: LC(Y), h: Shift}
   - {t: LC(Z), h: Ctrl}
   - {type: trans}
   - {type: trans}
