@@ -136,7 +136,7 @@ ZMK_LAYER(num,
     &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______              ______          &one_per        &two_sem        &thr_que        &fou_spe
     &fsl_bsl        &ast_has        &plu_amp        &min_und        ______              ______          &fiv_gra        &six_col        &sev_exc        &eig_sqt
                     ______          ______          ______                                              ______          ______          ______        
-                                                    ______          &lt NAV SPACE       &zer_gra        &nin_car
+                                                    ______          &lt SPACE           &zer_gra        &nin_car
 )
 
 ZMK_LAYER(sym,
