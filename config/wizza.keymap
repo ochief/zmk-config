@@ -129,7 +129,7 @@ ZMK_LAYER(base,
     &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______              ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
     &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                     ______          ______          ______                                              ______          ______          ______
-                                                    SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
+                                                    SMART_NUM       &kp SPACE       &lt SYM E       &smart_shft
 )
 
 ZMK_LAYER(num,
