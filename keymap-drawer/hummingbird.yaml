@@ -35,12 +35,12 @@ layers:
   MAIN:
   - {t: R, h: LG}
   - {t: S, h: Alt}
-  - {t: T, h: LSHIFT}
+  - {t: T, h: Shift}
   - {t: H, h: Ctrl}
   - {type: trans}
   - {type: trans}
   - {t: N, h: Ctrl}
-  - {t: A, h: RSHIFT}
+  - {t: A, h: Shift}
   - {t: I, h: Alt}
   - {t: O, h: Gui}
   - Q
@@ -128,7 +128,7 @@ layers:
   Nav:
   - {t: Esc, h: Gui}
   - {t: LC(A), h: Alt}
-  - {t: LC(Y), h: LSHIFT}
+  - {t: LC(Y), h: Shift}
   - {t: LC(Z), h: Ctrl}
   - {type: trans}
   - {type: trans}
