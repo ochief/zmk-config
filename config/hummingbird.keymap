@@ -127,10 +127,10 @@ ZMK_BEHAVIOR(mt_end,  hold_tap, bindings = <&masked_end>, <&kp>; MT_CORE)
 
 #define NAV_LEFT  &mt_home 0    LEFT    // tap: left  | long-tap: beginning of line
 #define NAV_RIGHT &mt_end 0     RIGHT   // tap: right | long-tap: end of line
-#define NAV_UP    &mt LC(HOME)  BEG_DOC // tap: up    | long-tap: beginning of document
-#define NAV_DOWN  &mt LC(END)   END_DOC // tap: down  | long-tap: end of document
-#define NAV_BSPC  &mt LC(BSPC)  DWORD_B // tap: bspc  | long-tap: delete word backward
-#define NAV_DEL   &mt LC(DEL)   DWORD_F // tap: del   | long-tap: delete word forward
+#define NAV_UP    &mt BEG_DOC   UP      // tap: up    | long-tap: beginning of document
+#define NAV_DOWN  &mt END_DOC   down    // tap: down  | long-tap: end of document
+#define NAV_BSPC  &mt DWORD_B   BSPC    // tap: bspc  | long-tap: delete word backward
+#define NAV_DEL   &mt DWORD_F   DEL     // tap: del   | long-tap: delete word forward
 #define NAV_PASTE &mt PASTE     PASTES  // tap: paste | long-tap: paste special
 
 // mask CTRL when holding left/right to avoid accidental jumps to beginning/end of document
