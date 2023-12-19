@@ -208,12 +208,11 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          ______              ______          ______
     )
-/*
+
     ZMK_LAYER(Nav,
         &hml L_G ESC    &hml L_A SELALL &hml L_S REDO   &hml L_C UNDO   ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       ______
         CUT             COPY            PASTE           NAV_DEL         ______              ______          NAV_BSPC        NAV_UP          WINX            ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              &kp ENTER       &kp TAB
     )
-*/
     // . https://github.com/urob/zmk-config?tab=readme-ov-file space sticky shift1
