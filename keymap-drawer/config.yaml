@@ -8,57 +8,74 @@ parse_config:
       combo_c_capslock: {a: top, offset: 0.3, w: 90}
 
   raw_binding_map:
-    'W_SALL': 'SEL ALL'
-    '&tri_grave': '```'
-    '&equal': '='
-    '&comma': ','
-    '&dot': '.'
-    '&kp NUBS': '\'
-    '&kp LS(N2)': '"'
-    '&kp LS(SQT)': '@'
-    '&kp LS(NUBS)': '|'
-    '&kp LS(NUHS)': '~'
-    '&kp LG(LS(S))': 'Screenshot'
-    '&kp RA(N4)': '€'
-    '&kp LS(N4)': '$'
-    '&kp LS(N3)': '£'
-    '&smart_shft': 'SHIFT'
-    'SMART_NUM': 'NUM'
+=
+    '&equal'        : '='
+    '&comma'        : ','
+    '&dot'          : '.'
+    '&kp NUBS'      : '\'
+    '&kp LS(N2)'    : '"'
+    '&kp LS(SQT)'   : '@'
+    '&kp LS(NUBS)'  : '|'
+    '&kp LS(NUHS)'  : '~'
+
+    '&kp RA(N4)'    : '€'
+    '&kp LS(N4)'    : '$'
+    '&kp LS(N3)'    : '£'
+
+    '&kp LC(A)'     : 'SEL ALL'
+    '&kp LC(Y)'     : 'REDO'
+    '&kp LC(Z)'     : 'UNDO'
+    '&kp LC(X)'     : 'CUT'
+    '&kp LC(C)'     : 'COPY'
+    '&kp LC(V)'     : 'PASTE'
+    '&kp LC(LS(V))' : 'SPASTE'  
+    '&kp LC(DEL)'   : 'DWORD F'
+    '&kp LC(BSPC)'  : 'DWORD B' 
+    '&kp LC(HOME)'  : 'BEG DOC'
+    '&kp LC(END)'   : 'END DOC'
+
+    '&kp LG(X)'     : 'WIN X'
+    '&kp LC(LS(L))' : 'BITWAR'
+    '&kp LC(LS(O))' : 'ONELOG'
+    '&kp LG(LS(S))' : 'SCREENSHOT'
+
+    '&smart_shft'   : 'SHIFT'
+    'SMART_NUM'     : 'NUM'
+    '&tri_grave'    : '```'
 
   trans_legend:
     t: ''
     type: trans
 
   zmk_keycode_map:
-    W_SALL: SEL ALL
-    LCTRL: Ctrl
-    RCTRL: Ctrl
-    LALT: Alt
-    RALT: Alt
-    LGUI: Gui
-    RGUI: Gui
-    LSHFT: Shift
-    RSHFT: Shift
-    ESC: Esc
+    LCTRL: CTRL
+    RCTRL: CTRL
+    LALT: ALT
+    RALT: ALT
+    LGUI: GUI
+    RGUI: GUI
+    LSHFT: SHIFT
+    RSHFT: SHIFT
+    ESC: ESC
     SPACE: SPACE # ␣
-    BSPC: ⌫
-    RET: ⏎
-    TAB: ↹
-    DEL: ⌦
+    BSPC: BSPC
+    RET: ENT
+    TAB: TAB
+    DEL: DEL
 
-    PG_UP: Page Up
-    PG_DN: Page Down
-    INS: Insert
-    HOME: Home
-    END: End
-    CAPS: Caps Lock
+    PG_UP: PG UP
+    PG_DN: PG DN
+    INS: INS
+    HOME: HOME
+    END: END
+    CAPS: CAPS  LOCK
     PSCRN: Print Scrn
     PAUSE_BREAK: Pause Break
 
-    UP: ↑
-    DOWN: ↓
-    LEFT: ←
-    RIGHT: →
+    UP: UP
+    DOWN: DOWN
+    LEFT: LEFT
+    RIGHT: RIGHT
 
     C_PP: ⏯
     C_NEXT: ⏭️
