@@ -140,7 +140,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                                                         ______          ______              ______          ______
     )
 #endif
-    ZMK_LAYER(Main,
+    ZMK_LAYER(Def,
         &hml LGUI R     &hml LALT  S    &hml LSHFT T    &hml LCTRL H    ______              ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
@@ -160,5 +160,13 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          ______              ______          ______
     )
+/*
+     . https://github.com/urob/zmk-config?tab=readme-ov-file space sticky shift1
+    arc https://drive.google.com/drive/folders/10N0V3K-6Q4GS0lPfVbcR1eG27Feylqk2
+     ntfs formatted SD card sdl2
 
-    // . https://github.com/urob/zmk-config?tab=readme-ov-file space sticky shift1
+    Anyone figure out a workaround for the volume issue in RA for the Arc S?  I still can't figure out a way to lower/raise the volume 
+[1:45 AM]Noisaac: Someone on the retro gaming handhelds discord was having a similar issue. I think all they did to fix it was run the "fix permissions" script in the options menu
+
+maybe thumb for up/down
+*/

@@ -220,8 +220,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 280)" class="layer-Main">
-<text x="0" y="28" class="label">Main:</text>
+<g transform="translate(30, 280)" class="layer-Def">
+<text x="0" y="28" class="label">Def:</text>
 <g transform="translate(0, 68)">
 <g transform="translate(30, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
