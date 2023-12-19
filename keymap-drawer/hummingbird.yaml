@@ -144,7 +144,7 @@ layers:
   - {type: trans}
   - {t: BSPC, h: DWORD B}
   - TAB
-  - WIN X
+  - WIN+X
   - {t: ONELOG, h: BITWAR}
   - {type: trans}
   - {type: trans}
