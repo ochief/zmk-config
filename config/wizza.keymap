@@ -133,14 +133,14 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
 
 /* Keymap */
 #ifdef KEYMAP_DRAWER
-    ZMK_LAYER(VERTICAL,
+    ZMK_LAYER(Vertical,
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
 #endif
-    ZMK_LAYER(MAIN,
+    ZMK_LAYER(Def,
         &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______              ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
