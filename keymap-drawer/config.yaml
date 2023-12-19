@@ -34,7 +34,7 @@ parse_config:
     '&kp LC(HOME)'  : 'BEG DOC'
     '&kp LC(END)'   : 'END DOC'
 
-    '&kp LG(X)'     : 'WIN X'
+    '&kp LG(X)'     : 'WIN+X'
     '&kp LC(LS(L))' : 'BITWAR'
     '&kp LC(LS(O))' : 'ONELOG'
     '&kp LG(LS(S))' : 'SCREENSHOT'
