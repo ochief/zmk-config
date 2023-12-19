@@ -197,7 +197,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
     )
 
     ZMK_LAYER(num,
-        &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______              ______          &one_per        &two_sem        &thr_que        &fou_spe
+        &sk L_G         &sk L_A         &sk L_S         &sk L_C         ______              ______          &one_per        &two_sem        &thr_que        &fou_spe
         &fsl_bsl        &ast_has        &plu_amp        &min_und        ______              ______          &fiv_gra        &six_col        &sev_exc        &eig_sqt
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          &lt NAV SPACE       &zer_gra        &nin_car
@@ -212,7 +212,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
 
  	ZMK_LAYER(Nav,
         &hml L_G ESC    &hml L_A W_SALL &hml L_S W_REDO &hml L_C W_UNDO ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       &kp ENTER
-        W_CUT           WCOPY           NAV_PASTE       NAV_DEL         ______              ______          NAV_BSPC        ______          ______          WINX            
+        W_CUT           W_COPY          NAV_PASTE       NAV_DEL         ______              ______          NAV_BSPC        ______          ______          WINX            
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              NAV_UP          &kp TAB
     )   
