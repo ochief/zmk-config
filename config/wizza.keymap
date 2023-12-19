@@ -133,28 +133,28 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
 
 /* Keymap */
 #ifdef KEYMAP_DRAWER
-    ZMK_LAYER(Vertical,
+    ZMK_LAYER(ver,
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
 #endif
-    ZMK_LAYER(Def,
+    ZMK_LAYER(def,
         &hml LGUI R     &hml LALT S     &hml LSHFT T    &hml LCTRL H    ______              ______          &hmr LCTRL N    &hmr RSHFT A    &hmr LALT I     &hmr LGUI O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
                                                         SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
     )
 
-    ZMK_LAYER(Num,
+    ZMK_LAYER(num,
         &sk LGUI        &sk LALT        &sk LSHFT       &sk LCTRL       ______              ______          &one_per        &two_sem        &thr_que        &fou_spe
         &fsl_bsl        &ast_has        &plu_amp        &min_und        ______              ______          &fiv_gra        &six_col        &sev_exc        &eig_sqt
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          &lt NAV SPACE       &zer_gra        &nin_car
     )
 
-    ZMK_LAYER(Sym,
+    ZMK_LAYER(sym,
         &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______              ______          &kp PRCNT       &kp SEMI        &kp QMARK       SYM_DQT
         &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______              ______          &tri_grave      &kp COLON       &kp EXCL        &kp SQT
                         ______          ______          ______                                              ______          ______          ______        
