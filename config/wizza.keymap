@@ -27,7 +27,7 @@
 #define SYM_DQT     &kp LS(N2)
 #define SYM_EMA     &kp LS(SQT)
 #define SYM_PIP     &kp LS(NUBS)
-#define SYM_TIL     &kp LS(NUHS)   
+#define SYM_TIL     &kp LS(NUHS)
 
 #define CUR_EUR     &kp RA(N4)
 #define CUR_DOL     &kp LS(N4)
