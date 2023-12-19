@@ -52,9 +52,9 @@
 #define DWORD_B     LC(BSPC)
 #define DWORD_F     LC(DEL)
 
-#define W_SELALL    LC(A)
+#define W_SALL      LC(A)
 #define W_UNDO      LC(Z)
-#define W_REDO      LC(Y)
+#define W_REDI      LC(Y)
 
 #include "combos.dtsi"
 
@@ -211,7 +211,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
     )
 
  	ZMK_LAYER(Nav,
-        &hml L_G ESC    &hml L_A SELALL &hml L_S REDO   &hml L_C UNDO   ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       &kp ENTER
+        &hml L_G ESC    &hml L_A W_SALL &hml L_S W_REDO &hml L_C W_UNDO ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       &kp ENTER
         CUT             COPY            PASTE           NAV_DEL         ______              ______          NAV_BSPC        NAV_UP          WINX            ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              NAV_UP          &kp TAB
