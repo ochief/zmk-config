@@ -327,7 +327,9 @@ path.combo {
 </g>
 <g transform="translate(237, 230)" class="key keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">NUM</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">NUM</tspan><tspan x="0" dy="1.2em">WORD</tspan>
+</text>
 </g>
 <g transform="translate(298, 245)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -565,22 +567,26 @@ path.combo {
 <text x="540" y="93" class="combo tap">@</text>
 </g>
 <g class="combo combopos-4">
+<rect rx="6" ry="6" x="450" y="224" width="28" height="26" class="combo"/>
+<text x="464" y="237" class="combo tap">&amp;con_space</text>
+</g>
+<g class="combo combopos-5">
 <rect rx="6" ry="6" x="54" y="114" width="28" height="26" class="combo"/>
 <text x="68" y="127" class="combo tap">€</text>
 </g>
-<g class="combo combopos-5">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="115" y="81" width="28" height="26" class="combo"/>
 <text x="129" y="94" class="combo tap">$</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-7">
 <rect rx="6" ry="6" x="177" y="80" width="28" height="26" class="combo"/>
 <text x="191" y="93" class="combo tap">£</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="588" y="81" width="28" height="26" class="combo"/>
 <text x="602" y="94" class="combo tap">|</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="650" y="114" width="28" height="26" class="combo"/>
 <text x="664" y="127" class="combo tap">~</text>
 </g>
@@ -781,7 +787,7 @@ path.combo {
 </g>
 <g transform="translate(702, 93) rotate(8.0)" class="key keypos-9">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">BITWAR</text>
+<text x="0" y="0" class="key tap">SWAPPER</text>
 </g>
 <g transform="translate(38, 150) rotate(-8.0)" class="key keypos-10">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -825,6 +831,7 @@ path.combo {
 <g transform="translate(694, 150) rotate(8.0)" class="key keypos-19">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ONELOG</text>
+<text x="0" y="24" class="key hold">BITWAR</text>
 </g>
 <g transform="translate(101, 161) rotate(-3.0)" class="key ghost keypos-20">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key ghost"/>
