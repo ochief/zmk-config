@@ -1,4 +1,4 @@
-n// version 1.80 (used to refresh Keymap Drawer)
+n// version 1.81 (used to refresh Keymap Drawer)
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
