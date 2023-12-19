@@ -28,8 +28,8 @@
 
 #define L_G         LGUI
 #define L_A         LALT
-#define L_S         LSHIFT
-#define R_S         RSHIFT
+#define L_S         LSHFT
+#define R_S         RSHFT
 #define L_C         LCTRL
 
 #define SYM_DQT     &kp LS(N2)
