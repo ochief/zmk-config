@@ -14,10 +14,12 @@
     #define DEF     1
     #define NUM     2
     #define SYM     3
+    #define NAV     4
 #else
     #define DEF     0
     #define NUM     1
     #define SYM     2
+    #define NAV     3
 #endif
 
 // DEFINES
