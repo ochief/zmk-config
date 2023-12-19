@@ -127,7 +127,7 @@ layers:
   - {type: trans}
   nav:
   - {t: ESC, h: GUI}
-  - {t: SEL ALL, h: ALT}
+  - {t: SELALL, h: ALT}
   - {t: REDO, h: SHIFT}
   - {t: UNDO, h: CTRL}
   - {type: trans}
