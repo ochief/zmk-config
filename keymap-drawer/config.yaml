@@ -7,6 +7,7 @@ parse_config:
       combo_c_screen: {a: top, offset: 0.3, w: 90}
 
   raw_binding_map:
+    'W_SALL': 'SEL ALL'
     '&tri_grave': '```'
     '&equal': '='
     '&comma': ','
