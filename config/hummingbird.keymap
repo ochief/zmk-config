@@ -43,18 +43,18 @@
 
 #define WINX        &kp LG(X)
 #define SCREEN      &kp LG(LS(S))
-#define CUT         &kp LC(X)
-#define COPY        &kp LC(C)
-#define PASTE       LC(V)
-#define PASTES      LC(LS(V))
+#define W_CUT       &kp LC(X)
+#define W_COPY      &kp LC(C)
+#define W_PASTE     LC(V)
+#define W_PASTES    LC(LS(V))
 #define BEG_DOC     LC(HOME)
 #define END_DOC     LC(END)
 #define DWORD_B     LC(BSPC)
 #define DWORD_F     LC(DEL)
 
-#define SELALL      LC(A)
-#define UNDO        LC(Z)
-#define REDO        LC(Y)
+#define W_SELALL      LC(A)
+#define W_UNDO        LC(Z)
+#define W_REDO        LC(Y)
 
 #include "combos.dtsi"
 
@@ -126,13 +126,13 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
 ZMK_BEHAVIOR(mt_home, hold_tap, bindings = <&masked_home>, <&kp>; MT_CORE)
 ZMK_BEHAVIOR(mt_end,  hold_tap, bindings = <&masked_end>, <&kp>; MT_CORE)
 
-#define NAV_LEFT  &mt_home 0    LEFT    // tap: left  | long-tap: beginning of line
-#define NAV_RIGHT &mt_end 0     RIGHT   // tap: right | long-tap: end of line
-#define NAV_UP    &mt BEG_DOC   UP      // tap: up    | long-tap: beginning of document
-#define NAV_DOWN  &mt END_DOC   DOWN    // tap: down  | long-tap: end of document
-#define NAV_BSPC  &mt DWORD_B   BSPC    // tap: bspc  | long-tap: delete word backward
-#define NAV_DEL   &mt DWORD_F   DEL     // tap: del   | long-tap: delete word forward
-#define NAV_PASTE &mt PASTE     PASTES  // tap: paste | long-tap: paste special
+#define NAV_LEFT  &mt_home 0    LEFT        // tap: left  | long-tap: beginning of line
+#define NAV_RIGHT &mt_end 0     RIGHT       // tap: right | long-tap: end of line
+#define NAV_UP    &mt BEG_DOC   UP          // tap: up    | long-tap: beginning of document
+#define NAV_DOWN  &mt END_DOC   DOWN        // tap: down  | long-tap: end of document
+#define NAV_BSPC  &mt DWORD_B   BSPC        // tap: bspc  | long-tap: delete word backward
+#define NAV_DEL   &mt DWORD_F   DEL         // tap: del   | long-tap: delete word forward
+#define NAV_PASTE &mt W_PASTE   W_PASTES    // tap: paste | long-tap: paste special
 
 // mask CTRL when holding left/right to avoid accidental jumps to beginning/end of document
 #define MASK_MODS(NAME, MODS, BINDING) \
@@ -211,8 +211,8 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
     )
 
     ZMK_LAYER(Nav,
-        ESC             SELALL          REDO            UNDO            ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       ______
-        CUT             COPY            PASTE           NAV_DEL         ______              ______          NAV_BSPC        NAV_UP          WINX            ______
+        ESC             W_SELALL          W_REDO            W_UNDO            ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       ______
+        W_CUT           W_COPY            NAV_PASTE         NAV_DEL         ______              ______          NAV_BSPC        NAV_UP          WINX            ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              &kp ENTER       &kp TAB
     )
