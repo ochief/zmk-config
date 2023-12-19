@@ -32,16 +32,16 @@ layers:
   - {type: trans}
   - {type: trans}
   base:
-  - {t: R, h: Gui}
-  - {t: S, h: Alt}
-  - {t: T, h: Shift}
-  - {t: H, h: Ctrl}
+  - {t: R, h: GUI}
+  - {t: S, h: ALT}
+  - {t: T, h: SHIFT}
+  - {t: H, h: CTRL}
   - {type: trans}
   - {type: trans}
-  - {t: N, h: Ctrl}
-  - {t: A, h: Shift}
-  - {t: I, h: Alt}
-  - {t: O, h: Gui}
+  - {t: N, h: CTRL}
+  - {t: A, h: SHIFT}
+  - {t: I, h: ALT}
+  - {t: O, h: GUI}
   - Q
   - C
   - G
@@ -63,10 +63,10 @@ layers:
   - {t: E, h: sym}
   - SHIFT
   num:
-  - {t: Gui, h: sticky}
-  - {t: Alt, h: sticky}
-  - {t: Shift, h: sticky}
-  - {t: Ctrl, h: sticky}
+  - {t: GUI, h: sticky}
+  - {t: ALT, h: sticky}
+  - {t: SHIFT, h: sticky}
+  - {t: CTRL, h: sticky}
   - {type: trans}
   - {type: trans}
   - {t: '1', s: '%'}
@@ -125,26 +125,26 @@ layers:
   - {type: held}
   - {type: trans}
   nav:
-  - {t: Esc, h: Gui}
-  - {t: LC(A), h: Alt}
-  - {t: LC(Y), h: Shift}
-  - {t: LC(Z), h: Ctrl}
+  - {t: ESC, h: GUI}
+  - {t: SEL ALL, h: ALT}
+  - {t: REDO, h: SHIFT}
+  - {t: UNDO, h: CTRL}
   - {type: trans}
   - {type: trans}
-  - {t: ←, h: Home}
-  - {t: ↓, h: LC(END)}
-  - {t: →, h: End}
-  - LC(LS(L))
-  - LC(X)
-  - LC(C)
-  - {t: LC(LS(V)), h: LC(V)}
-  - {t: ⌦, h: LC(DEL)}
+  - {t: LEFT, h: HOME}
+  - {t: DOWN, h: END DOC}
+  - {t: RIGHT, h: END}
+  - BITWAR
+  - CUT
+  - COPY
+  - {t: SPASTE, h: PASTE}
+  - {t: DEL, h: DWORD F}
   - {type: trans}
   - {type: trans}
-  - {t: ⌫, h: LC(BSPC)}
-  - ↹
-  - LG(X)
-  - LC(LS(O))
+  - {t: BSPC, h: DWORD B}
+  - TAB
+  - WIN X
+  - ONELOG
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -153,7 +153,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: held}
-  - {t: ↑, h: LC(HOME)}
+  - {t: UP, h: BEG DOC}
   - ENTER
   misc:
   - {type: trans}
@@ -234,13 +234,13 @@ combos:
   k: Z
   l: [base]
 - p: [26, 27]
-  k: Screenshot
+  k: SCREENSHOT
   l: [base]
   a: top
   o: 0.3
   w: 90.0
 - p: [28, 29]
-  k: Caps Lock
+  k: CAPS  LOCK
   l: [base]
   a: top
   o: 0.3
