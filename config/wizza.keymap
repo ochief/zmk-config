@@ -15,11 +15,13 @@
     #define NUM     2
     #define SYM     3
     #define NAV     4
+    #define MIS     5    
 #else
     #define DEF     0
     #define NUM     1
     #define SYM     2
     #define NAV     3
+    #define MIS     4
 #endif
 
 // DEFINES
@@ -43,10 +45,14 @@
 
 #define WINX        &kp LG(X)
 #define SCREEN      &kp LG(LS(S))
+#define BITW        &kp LC(LS(L))
+#define ONEL        &kp LC(LS(O))
+
 #define W_CUT       &kp LC(X)
 #define W_COPY      &kp LC(C)
 #define W_PASTE     LC(V)
 #define W_PASTES    LC(LS(V))
+
 #define BEG_DOC     LC(HOME)
 #define END_DOC     LC(END)
 #define DWORD_B     LC(BSPC)
@@ -140,6 +146,7 @@ ZMK_BEHAVIOR(mt_end,  hold_tap, bindings = <&masked_end>, <&kp>; MT_CORE)
 #define NAV_BSPC  &mt DWORD_B   BSPC        // tap: bspc  | long-tap: delete word backward
 #define NAV_DEL   &mt DWORD_F   DEL         // tap: del   | long-tap: delete word forward
 #define NAV_PASTE &mt W_PASTE   W_PASTES    // tap: paste | long-tap: paste special
+// close + bitwarden close + onelogin
 
 // mask CTRL when holding left/right to avoid accidental jumps to beginning/end of document
 #define MASK_MODS(NAME, MODS, BINDING) \
@@ -210,9 +217,22 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                                                         ______          ______              ______          ______
     )
 
- 	ZMK_LAYER(Nav,
-        &hml L_G ESC    &hml L_A W_SALL &hml L_S W_REDO &hml L_C W_UNDO ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       &kp ENTER
-        W_CUT           W_COPY          NAV_PASTE       NAV_DEL         ______              ______          NAV_BSPC        ______          ______          WINX            
+ 	ZMK_LAYER(nav,
+        &hml L_G ESC    &hml L_A W_SALL &hml L_S W_REDO &hml L_C W_UNDO ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       BITW 
+        W_CUT           W_COPY          NAV_PASTE       NAV_DEL         ______              ______          NAV_BSPC        &kp TAB         WINX            ONEL            
                         ______          ______          ______                                              ______          ______          ______
-                                                        ______          ______              NAV_UP          &kp TAB
-    )   
+                                                        ______          ______              NAV_UP          &kp ENTER
+    )
+
+    ZMK_LAYER(misc,
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+                        ______          ______          ______                                              ______          ______          ______
+                                                        ______          ______              ______          ______
+    )
+/*
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+                        ______          ______          ______                                              ______          ______          ______
+                                                        ______          ______              ______          ______
+*/
