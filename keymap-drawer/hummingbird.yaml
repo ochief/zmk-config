@@ -2,191 +2,191 @@ layout:
   ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
 layers:
   VERTICAL:
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   base:
-  - {t: R, h: GUI}
-  - {t: S, h: ALT}
-  - {t: T, h: SHIFT}
-  - {t: H, h: CTRL}
-  - {type: trans}
-  - {type: trans}
-  - {t: N, h: CTRL}
-  - {t: A, h: SHIFT}
-  - {t: I, h: ALT}
-  - {t: O, h: GUI}
+  - {t: R, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: T, h: LSHFT}
+  - {t: H, h: LCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: N, h: LCTRL}
+  - {t: A, h: RSHFT}
+  - {t: I, h: LALT}
+  - {t: O, h: LGUI}
   - Q
   - C
   - G
   - D
-  - {type: trans}
-  - {type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - L
   - U
   - Y
   - ''''
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - NUM WORD
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '&num_dance', h: num}
   - {t: SPACE, h: nav}
   - {t: E, h: sym}
-  - SHIFT
+  - {t: LSHFT, h: sticky, s: '&caps_word'}
   num:
-  - {t: GUI, h: sticky}
-  - {t: ALT, h: sticky}
-  - {t: SHIFT, h: sticky}
-  - {t: CTRL, h: sticky}
-  - {type: trans}
-  - {type: trans}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: '1', s: '%'}
   - {t: '2', s: ;}
   - {t: '3', s: '?'}
-  - {t: '4', s: '"'}
-  - {t: /, s: \}
+  - {t: '4', s: LS(2)}
+  - {t: /, s: NUBS}
   - {t: '*', s: '#'}
   - {t: +, s: '&'}
   - {t: '-', s: _}
-  - {type: trans}
-  - {type: trans}
-  - {t: '5', s: '```'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '5', s: '&tri_grave'}
   - {t: '6', s: ':'}
   - {t: '7', s: '!'}
   - {t: '8', s: ''''}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: SPACE, h: nav}
   - {t: '0', s: '`'}
   - {t: '9', s: ^}
   sym:
-  - \
+  - NUBS
   - '#'
   - '&'
   - _
-  - {type: trans}
-  - {type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '%'
   - ;
   - '?'
-  - '"'
+  - LS(2)
   - /
   - '*'
   - +
   - '-'
-  - {type: trans}
-  - {type: trans}
-  - '```'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&tri_grave'
   - ':'
   - '!'
   - ''''
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {type: trans}
+  - {t: ▽, type: trans}
   nav:
-  - {t: ESC, h: GUI}
-  - {t: SEL ALL, h: ALT}
-  - {t: REDO, h: SHIFT}
-  - {t: UNDO, h: CTRL}
-  - {type: trans}
-  - {type: trans}
+  - {t: ESC, h: LGUI}
+  - {t: LC(A), h: LALT}
+  - {t: LC(Y), h: LSHFT}
+  - {t: LC(Z), h: LCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: LEFT, h: HOME}
-  - {t: DOWN, h: END DOC}
+  - {t: DOWN, h: LC(END)}
   - {t: RIGHT, h: END}
-  - SWAPPER
-  - CUT
-  - COPY
-  - {t: SPASTE, h: PASTE}
-  - {t: DEL, h: DWORD F}
-  - {type: trans}
-  - {type: trans}
-  - {t: BSPC, h: DWORD B}
+  - '&swapper'
+  - LC(X)
+  - LC(C)
+  - {t: LC(LS(V)), h: LC(V)}
+  - {t: DEL, h: LC(DEL)}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BSPC, h: LC(BSPC)}
   - TAB
-  - WIN X
-  - {t: ONELOG, h: BITWAR}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - LG(X)
+  - {t: LC(LS(O)), h: LC(LS(L))}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: UP, h: BEG DOC}
+  - {t: UP, h: LC(HOME)}
   - ENTER
   misc:
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [0, 1]
   k: W
@@ -200,16 +200,14 @@ combos:
 - p: [3, 6]
   k: K
   l: [base]
-  a: top
-  o: 0.2
 - p: [6, 7]
-  k: '='
+  k: {t: '=', s: '='}
   l: [base, num, sym]
 - p: [7, 8]
-  k: ','
+  k: {t: ',', s: ','}
   l: [base, num, sym]
 - p: [8, 9]
-  k: .
+  k: {t: ., s: .}
   l: [base, num, sym]
 - p: [10, 11]
   k: Q
@@ -223,10 +221,8 @@ combos:
 - p: [13, 16]
   k: J
   l: [base]
-  a: bottom
-  o: 0.2
 - p: [16, 17]
-  k: '@'
+  k: LS(SQT)
   l: [base, num, sym]
 - p: [17, 18]
   k: X
@@ -235,23 +231,14 @@ combos:
   k: Z
   l: [base]
 - p: [26, 27]
-  k: SCREENSHOT
+  k: LG(LS(S))
   l: [base]
-  a: top
-  o: 0.3
-  w: 90.0
 - p: [28, 29]
-  k: CAPS  LOCK
+  k: CAPS
   l: [base]
-  a: top
-  o: 0.3
-  w: 90.0
 - p: [28, 29]
-  k: CONT  SPC
+  k: '&con_space'
   l: [num]
-  a: bottom
-  o: 0.3
-  w: 90.0
 - p: [0, 10]
   k: <
   l: [VERTICAL]
@@ -277,17 +264,17 @@ combos:
   k: '>'
   l: [VERTICAL]
 - p: [10, 11]
-  k: €
+  k: RA(4)
   l: [num, sym]
 - p: [11, 12]
-  k: $
+  k: LS(4)
   l: [num, sym]
 - p: [12, 13]
-  k: £
+  k: LS(3)
   l: [num, sym]
 - p: [17, 18]
-  k: '|'
+  k: LS(NUBS)
   l: [num, sym]
 - p: [18, 19]
-  k: '~'
+  k: LS(NUHS)
   l: [num, sym]
