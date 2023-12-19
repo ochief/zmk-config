@@ -45,8 +45,8 @@
 
 #define WINX        &kp LG(X)
 #define SCREEN      &kp LG(LS(S))
-#define BITW        &kp LC(LS(L))
-#define ONEL        &kp LC(LS(O))
+#define BITW        LC(LS(L))
+#define ONEL        LC(LS(O))
 
 #define W_CUT       &kp LC(X)
 #define W_COPY      &kp LC(C)
@@ -121,6 +121,12 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
 };
 
+// Alt+Tab swapper, requires PR #1366
+ZMK_BEHAVIOR(swapper, tri_state,
+    bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+    ignored-key-positions = <LT2>;
+)
+
 // ```
 ZMK_BEHAVIOR(tri_grave, macro,
     wait-ms = <500>;
@@ -139,13 +145,15 @@ ZMK_BEHAVIOR(tri_grave, macro,
 ZMK_BEHAVIOR(mt_home, hold_tap, bindings = <&masked_home>, <&kp>; MT_CORE)
 ZMK_BEHAVIOR(mt_end,  hold_tap, bindings = <&masked_end>, <&kp>; MT_CORE)
 
-#define NAV_LEFT  &mt_home 0    LEFT        // tap: left  | long-tap: beginning of line
-#define NAV_RIGHT &mt_end 0     RIGHT       // tap: right | long-tap: end of line
-#define NAV_UP    &mt BEG_DOC   UP          // tap: up    | long-tap: beginning of document
-#define NAV_DOWN  &mt END_DOC   DOWN        // tap: down  | long-tap: end of document
-#define NAV_BSPC  &mt DWORD_B   BSPC        // tap: bspc  | long-tap: delete word backward
-#define NAV_DEL   &mt DWORD_F   DEL         // tap: del   | long-tap: delete word forward
-#define NAV_PASTE &mt W_PASTE   W_PASTES    // tap: paste | long-tap: paste special
+#define NAV_LEFT  &mt_home 0    LEFT        // tap: left        | long-tap: beginning of line
+#define NAV_RIGHT &mt_end 0     RIGHT       // tap: right       | long-tap: end of line
+#define NAV_UP    &mt BEG_DOC   UP          // tap: up          | long-tap: beginning of document
+#define NAV_DOWN  &mt END_DOC   DOWN        // tap: down        | long-tap: end of document
+#define NAV_BSPC  &mt DWORD_B   BSPC        // tap: bspc        | long-tap: delete word backward
+#define NAV_DEL   &mt DWORD_F   DEL         // tap: del         | long-tap: delete word forward
+#define NAV_PASTE &mt W_PASTE   W_PASTES    // tap: paste       | long-tap: paste special
+#define NAV_LOG   &mt BITW      ONEL        // tap: bitwarden   | long-tap: OneLogin  
+
 // close + bitwarden close + onelogin
 
 // mask CTRL when holding left/right to avoid accidental jumps to beginning/end of document
@@ -218,8 +226,8 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
     )
 
  	ZMK_LAYER(nav,
-        &hml L_G ESC    &hml L_A W_SALL &hml L_S W_REDO &hml L_C W_UNDO ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       BITW 
-        W_CUT           W_COPY          NAV_PASTE       NAV_DEL         ______              ______          NAV_BSPC        &kp TAB         WINX            ONEL            
+        &hml L_G ESC    &hml L_A W_SALL &hml L_S W_REDO &hml L_C W_UNDO ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       &swapper 
+        W_CUT           W_COPY          NAV_PASTE       NAV_DEL         ______              ______          NAV_BSPC        &kp TAB         WINX            NAV_LOG      
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              NAV_UP          &kp ENTER
     )

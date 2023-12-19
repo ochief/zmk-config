@@ -38,8 +38,9 @@ parse_config:
     '&kp LC(LS(O))' : 'ONELOG'
     '&kp LG(LS(S))' : 'SCREENSHOT'
 
+    '&swapper'      : 'SWAPPER'
     '&smart_shft'   : 'SHIFT'
-    'SMART_NUM'     : 'NUM'
+    'SMART_NUM'     : 'NUM WORD'
     '&tri_grave'    : '```'
 
   trans_legend:
