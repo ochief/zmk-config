@@ -127,7 +127,7 @@ layers:
   Nav:
   - {t: Esc, h: Gui}
   - {t: LC(A), h: Alt}
-  - {t: W REDO, h: Shift}
+  - {t: LC(Y), h: Shift}
   - {t: LC(Z), h: Ctrl}
   - {type: trans}
   - {type: trans}
@@ -135,7 +135,8 @@ layers:
   - {t: ↓, h: LC(END)}
   - {t: →, h: End}
   - ENTER
-  - LC(X) WCOPY
+  - LC(X)
+  - LC(C)
   - {t: LC(LS(V)), h: LC(V)}
   - {t: ⌦, h: LC(DEL)}
   - {type: trans}
@@ -151,8 +152,8 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {t: ↑, h: LC(HOME), type: held}
+  - {type: held}
+  - {t: ↑, h: LC(HOME)}
   - ↹
 combos:
 - p: [0, 1]
