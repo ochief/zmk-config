@@ -47,13 +47,14 @@
 #define COPY        &kp LC(C)
 #define PASTE       &kp LC(V)
 #define PASTES      &kp LC(LS(V))
-#define SELALL      &kp LC(A)
-#define UNDO        &kp LC(Z)
-#define REDO        &kp LC(Y)
 #define BEG_DOC     &kp LC(HOME)
 #define END_DOC     &kp LC(END)
 #define DWORD_B     &kp LC(BSPC)
 #define DWORD_F     &kp LC(DEL)
+
+#define SELALL      LC(A)
+#define UNDO        LC(Z)
+#define REDO        LC(Y)
 
 #include "combos.dtsi"
 
