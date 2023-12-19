@@ -50,6 +50,7 @@ ZMK_COMBO(c_screen,       SCREEN,       LH1 LH0,        DEF     NUM SYM ,     CO
   ZMK_COMBO(c_rbrc,       &kp RBRC,     RT2 RM2,        DEF     NUM SYM ,     COMBO_TERM_FAST)
   ZMK_COMBO(c_rbkt,       &kp RBKT,     RT3 RM3,        DEF     NUM SYM ,     COMBO_TERM_FAST)
   ZMK_COMBO(c_gt,         &kp GT,       RT4 RM4,        DEF     NUM SYM ,     COMBO_TERM_FAST)
+#endif
 
 /* SYMBOLS */
 ZMK_COMBO(c_euro,         CUR_EUR,      LM4 LM3,                NUM SYM ,     COMBO_TERM_FAST)
