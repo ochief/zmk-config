@@ -568,7 +568,9 @@ path.combo {
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="450" y="224" width="28" height="26" class="combo"/>
-<text x="464" y="237" class="combo tap">&amp;con_space</text>
+<text x="464" y="237" class="combo tap">
+<tspan x="464" dy="-0.6em">CONT</tspan><tspan x="464" dy="1.2em">SPC</tspan>
+</text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="54" y="114" width="28" height="26" class="combo"/>

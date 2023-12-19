@@ -246,7 +246,7 @@ combos:
   o: 0.3
   w: 90.0
 - p: [28, 29]
-  k: '&con_space'
+  k: CONT SPC
   l: [num]
 - p: [0, 10]
   k: <
