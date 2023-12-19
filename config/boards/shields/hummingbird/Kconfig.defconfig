@@ -1,17 +1,17 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_WIZZA_LEFT
+if SHIELD_HUMMINGBIRD_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Wizza"
+	default "Hummingbird"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_WIZZA_LEFT || SHIELD_WIZZA_RIGHT
+if SHIELD_HUMMINGBIRD_LEFT || SHIELD_HUMMINGBIRD_RIGHT
 
 config ZMK_SPLIT
 	default y

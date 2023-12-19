@@ -59,7 +59,7 @@ parse_config:
     LSHFT: SHIFT
     RSHFT: SHIFT
     ESC: ESC
-    SPACE: SPACE # ␣
+    SPACE: SPACE
     BSPC: BSPC
     RET: ENT
     TAB: TAB

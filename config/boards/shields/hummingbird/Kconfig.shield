@@ -1,0 +1,8 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_HUMMINGBIRD_LEFT
+	def_bool $(shields_list_contains,hummingbird_left)
+
+config SHIELD_HUMMINGBIRD_RIGHT
+	def_bool $(shields_list_contains,hummingbird_right)
