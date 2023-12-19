@@ -134,6 +134,13 @@ ZMK_BEHAVIOR(tri_grave, macro,
     bindings = <&kp GRAVE &kp GRAVE &kp GRAVE &kp ENTER>;
 )
 
+// Space continued
+ZMK_BEHAVIOR(con_space, macro,
+    wait-ms = <500>;
+    tap-ms = <50>;
+    bindings = <&kp SPACE>;
+)
+
 // long-tap action on hold, short-tap action on all interrupts
 #define MT_CORE \
     flavor = "tap-preferred"; \
