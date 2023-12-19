@@ -4,7 +4,7 @@ This is my personal [ZMK firmware](https://github.com/ochief/zmk) configuration 
 ## Wizza Layout
 <img src="./keymap-drawer/hummingbird.svg" />
 
-<!--
+<!-- a
 ## Combos
 <details>
   <summary>Number</summary>

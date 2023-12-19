@@ -144,7 +144,7 @@ layers:
   - {type: trans}
   - {t: BSPC, h: DWORD B}
   - TAB
-  - WIN X
+  - WIN+X
   - {t: ONELOG, h: BITWAR}
   - {type: trans}
   - {type: trans}
@@ -156,37 +156,6 @@ layers:
   - {type: held}
   - {t: UP, h: BEG DOC}
   - ENTER
-  misc:
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
 combos:
 - p: [0, 1]
   k: W
