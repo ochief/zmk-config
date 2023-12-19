@@ -14,12 +14,12 @@
     #define DEF     1
     #define NUM     2
     #define SYM     3
-    #define NAV     4
+ 
 #else
     #define DEF     0
     #define NUM     1
     #define SYM     2
-    #define NAV     3
+
 #endif
 
 // DEFINES
@@ -41,20 +41,7 @@
 #define CUR_DOL     &kp LS(N4)
 #define CUR_POU     &kp LS(N3)
 
-#define WINX        &kp LG(X)
 #define SCREEN      &kp LG(LS(S))
-#define W_CUT       &kp LC(X)
-#define W_COPY      &kp LC(C)
-#define W_PASTE     LC(V)
-#define W_PASTES    LC(LS(V))
-#define BEG_DOC     LC(HOME)
-#define END_DOC     LC(END)
-#define DWORD_B     LC(BSPC)
-#define DWORD_F     LC(DEL)
-
-#define W_SELALL      LC(A)
-#define W_UNDO        LC(Z)
-#define W_REDO        LC(Y)
 
 #include "combos.dtsi"
 
@@ -114,34 +101,6 @@ ZMK_BEHAVIOR(num_dance, tap_dance,
     layers = <NUM>;
     continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
 };
-
-// long-tap action on hold, short-tap action on all interrupts
-#define MT_CORE \
-    flavor = "tap-preferred"; \
-    tapping-term-ms = <220>; \
-    quick-tap-ms = <220>; \
-    hold-trigger-key-positions = <0>;
-
-&mt { MT_CORE };
-ZMK_BEHAVIOR(mt_home, hold_tap, bindings = <&masked_home>, <&kp>; MT_CORE)
-ZMK_BEHAVIOR(mt_end,  hold_tap, bindings = <&masked_end>, <&kp>; MT_CORE)
-
-#define NAV_LEFT  &mt_home 0    LEFT        // tap: left  | long-tap: beginning of line
-#define NAV_RIGHT &mt_end 0     RIGHT       // tap: right | long-tap: end of line
-#define NAV_UP    &mt BEG_DOC   UP          // tap: up    | long-tap: beginning of document
-#define NAV_DOWN  &mt END_DOC   DOWN        // tap: down  | long-tap: end of document
-#define NAV_BSPC  &mt DWORD_B   BSPC        // tap: bspc  | long-tap: delete word backward
-#define NAV_DEL   &mt DWORD_F   DEL         // tap: del   | long-tap: delete word forward
-#define NAV_PASTE &mt W_PASTE   W_PASTES    // tap: paste | long-tap: paste special
-
-// mask CTRL when holding left/right to avoid accidental jumps to beginning/end of document
-#define MASK_MODS(NAME, MODS, BINDING) \
-    ZMK_BEHAVIOR(NAME, mod_morph, \
-        bindings = <BINDING>, <BINDING>; \
-        mods = <MODS>; \
-    )
-MASK_MODS(masked_home, (MOD_LCTL), &kp HOME)
-MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 
 // ```
 ZMK_BEHAVIOR(tri_grave, macro,
@@ -210,10 +169,4 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                                                         ______          ______              ______          ______
     )
 
-    ZMK_LAYER(Nav,
-        ESC             W_SELALL          W_REDO            W_UNDO            ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       ______
-        W_CUT           W_COPY            NAV_PASTE         NAV_DEL         ______              ______          NAV_BSPC        NAV_UP          WINX            ______
-                        ______          ______          ______                                              ______          ______          ______
-                                                        ______          ______              &kp ENTER       &kp TAB
-    )
     // . https://github.com/urob/zmk-config?tab=readme-ov-file space sticky shift1
