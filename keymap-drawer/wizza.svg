@@ -410,8 +410,10 @@ path.combo {
 <text x="267" y="184" class="combo tap">Screenshot</text>
 </g>
 <g class="combo combopos-15">
-<rect rx="6" ry="6" x="450" y="224" width="28" height="26" class="combo"/>
-<text x="464" y="237" class="combo tap">
+<path d="M464,184 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v36" class="combo"/>
+<path d="M464,184 h24 a6.0,6.0 0 0 1 6.0,6.0 v21" class="combo"/>
+<rect rx="6" ry="6" x="419" y="171" width="90" height="26" class="combo"/>
+<text x="464" y="184" class="combo tap">
 <tspan x="464" dy="-0.6em">Caps</tspan><tspan x="464" dy="1.2em">Lock</tspan>
 </text>
 </g>

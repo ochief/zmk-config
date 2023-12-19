@@ -242,6 +242,9 @@ combos:
 - p: [28, 29]
   k: Caps Lock
   l: [base]
+  a: top
+  o: 0.3
+  w: 90.0
 - p: [0, 10]
   k: <
   l: [VERTICAL]
