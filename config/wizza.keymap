@@ -54,7 +54,7 @@
 
 #define W_SALL      LC(A)
 #define W_UNDO      LC(Z)
-#define W_REDI      LC(Y)
+#define W_REDO      LC(Y)
 
 #include "combos.dtsi"
 
