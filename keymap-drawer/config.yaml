@@ -1,11 +1,12 @@
 # configuration for https://github.com/caksoylar/keymap-drawer
 parse_config:
   zmk_combos:
-    # combo_c_w:        {draw_separate: true}
-      combo_c_k:        {a: top, offset: 0.2}
-      combo_c_j:        {a: bottom, offset: 0.2}
-      combo_c_screen:   {a: top, offset: 0.3, w: 90}
-      combo_c_capslock: {a: top, offset: 0.3, w: 90}
+    # combo_c_w:          {draw_separate: true}
+      combo_c_k:          {a: top, offset: 0.2}
+      combo_c_j:          {a: bottom, offset: 0.2}
+      combo_c_screen:     {a: top, offset: 0.3, w: 90}
+      combo_c_capslock:   {a: top, offset: 0.3, w: 90}
+      combo_c_con_space:  {a: top, offset: 0.3, w: 90}
 
   raw_binding_map:
     '&equal'        : '='
@@ -42,6 +43,7 @@ parse_config:
     '&smart_shft'   : 'SHIFT'
     'SMART_NUM'     : 'NUM WORD'
     '&tri_grave'    : '```'
+    '&con_space'    : 'CON  SPACE'
 
   trans_legend:
     t: ''
