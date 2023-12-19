@@ -32,7 +32,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  Main:
+  Def:
   - {t: R, h: Gui}
   - {t: S, h: Alt}
   - {t: T, h: Shift}
@@ -128,53 +128,53 @@ layers:
 combos:
 - p: [0, 1]
   k: W
-  l: [Main]
+  l: [Def]
 - p: [1, 2]
   k: M
-  l: [Main]
+  l: [Def]
 - p: [2, 3]
   k: B
-  l: [Main]
+  l: [Def]
 - p: [3, 6]
   k: K
-  l: [Main]
+  l: [Def]
   a: top
   o: 0.2
 - p: [6, 7]
   k: '='
-  l: [Main, Num, Sym]
+  l: [Def, Num, Sym]
 - p: [7, 8]
   k: ','
-  l: [Main, Num, Sym]
+  l: [Def, Num, Sym]
 - p: [8, 9]
   k: .
-  l: [Main, Num, Sym]
+  l: [Def, Num, Sym]
 - p: [10, 11]
   k: Q
-  l: [Main]
+  l: [Def]
 - p: [11, 12]
   k: F
-  l: [Main]
+  l: [Def]
 - p: [12, 13]
   k: P
-  l: [Main]
+  l: [Def]
 - p: [13, 16]
   k: J
-  l: [Main]
+  l: [Def]
   a: bottom
   o: 0.2
 - p: [16, 17]
   k: '@'
-  l: [Main, Num, Sym]
+  l: [Def, Num, Sym]
 - p: [17, 18]
   k: X
-  l: [Main]
+  l: [Def]
 - p: [18, 19]
   k: Z
-  l: [Main]
+  l: [Def]
 - p: [26, 27]
   k: Screenshot
-  l: [Main, Num, Sym]
+  l: [Def, Num, Sym]
   a: top
   o: 0.3
   w: 90.0
