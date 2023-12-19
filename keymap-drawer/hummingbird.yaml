@@ -127,12 +127,9 @@ layers:
   - {type: trans}
   Nav:
   - {t: Esc, h: Gui}
-  - '&hml LALT'
-  - LC(A)
-  - '&hml LSHIFT'
-  - LC(Y)
-  - '&hml LCTRL'
-  - LC(Z)
+  - {t: LC(A), h: Alt}
+  - {t: LC(Y), h: LSHIFT}
+  - {t: LC(Z), h: Ctrl}
   - {type: trans}
   - {type: trans}
   - {t: ←, h: Home}
@@ -153,10 +150,10 @@ layers:
   - LC(HOME) UP
   - LG(X)
   - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
