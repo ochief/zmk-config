@@ -15,11 +15,13 @@
     #define NUM     2
     #define SYM     3
     #define NAV     4
+    #define SYS     5
 #else
     #define DEF     0
     #define NUM     1
     #define SYM     2
     #define NAV     3
+    #define SYS     4
 #endif
 
 // DEFINES
@@ -156,10 +158,8 @@ ZMK_BEHAVIOR(mt_end,  hold_tap, bindings = <&masked_end>, <&kp>; MT_CORE)
 #define NAV_DOWN  &mt END_DOC   DOWN        // tap: down        | long-tap: end of document
 #define NAV_BSPC  &mt DWORD_B   BSPC        // tap: bspc        | long-tap: delete word backward
 #define NAV_DEL   &mt DWORD_F   DEL         // tap: del         | long-tap: delete word forward
-#define NAV_PASTE &mt W_PASTE   W_PASTES    // tap: paste       | long-tap: paste special
-#define NAV_LOG   &mt BITW      ONEL        // tap: bitwarden   | long-tap: OneLogin  
-
-// close + bitwarden close + onelogin
+#define NAV_PASTE &mt W_PASTES  W_PASTE     // tap: paste       | long-tap: paste special
+#define NAV_LOG   &mt ONEL      BITW        // tap: bitwarden   | long-tap: OneLogin  
 
 // mask CTRL when holding left/right to avoid accidental jumps to beginning/end of document
 #define MASK_MODS(NAME, MODS, BINDING) \
@@ -200,6 +200,8 @@ SIMPLE_MORPH(eig_sqt,   SFT,    &kp N8,     &kp SQT)        // tap: eight       
 SIMPLE_MORPH(nin_car,   SFT,    &kp N9,     &kp CARET)      // tap: nine        shift + tap: carat
 SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        shift + tap: grave
 
+ZMK_CONDITIONAL_LAYER(NAV SYM, SYS)  // NVA + SYM --> SYS
+
 /* Keymap */
 #ifdef KEYMAP_DRAWER
     ZMK_LAYER(VERTICAL,
@@ -236,3 +238,13 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              NAV_UP          &kp ENTER
     )
+
+ 	ZMK_LAYER(sys,
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+                        ______          ______          ______                                              ______          ______          ______
+                                                        ______          ______              ______          ______
+    )
+
+    // close apps / (Function keys / bluetooth - can this be a single layer)
+    // Magic key https://github.com/zmkfirmware/zmk/issues/1997#issuecomment-1849481621
