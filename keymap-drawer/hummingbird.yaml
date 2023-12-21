@@ -138,14 +138,14 @@ layers:
   - SWAPPER
   - CUT
   - COPY
-  - {t: SPASTE, h: PASTE}
+  - {t: PASTE, h: SPASTE}
   - {t: DEL, h: DWORD F}
   - {type: trans}
   - {type: trans}
   - {t: BSPC, h: DWORD B}
   - TAB
   - WIN+X
-  - {t: ONELOG, h: BITWAR}
+  - {t: BITWAR, h: ONELOG}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -156,6 +156,37 @@ layers:
   - {type: held}
   - {t: UP, h: BEG DOC}
   - ENTER
+  sys:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: trans}
 combos:
 - p: [0, 1]
   k: W
