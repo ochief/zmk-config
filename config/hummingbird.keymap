@@ -62,6 +62,11 @@
 #define W_UNDO      LC(Z)
 #define W_REDO      LC(Y)
 
+#define EXTP_OFF    &ext_power EP_OFF
+#define EXTP_ON     &ext_power EP_ON
+#define OUT_U       &out OUT_USB
+#define OUT_B       &out OUT_BLE
+
 #include "combos.dtsi"
 
 #define QUICK_TAP_MS 175
@@ -240,11 +245,12 @@ ZMK_CONDITIONAL_LAYER(NAV SYM, SYS)  // NVA + SYM --> SYS
     )
 
  	ZMK_LAYER(sys,
-        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
-        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+        &sys_reset      &kp C_VOL_DN    &kp C_MUTE      &kp C_VOL_UP    ______              ______          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &sys_reset
+        &bootloader     &kp DSK_PREV    &kp C_PP        &kp DSK_NEXT    ______              ______          &bt BT_CLR      &kp C_BRI_DN    &kp C_BRI_UP    &bootloader
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
 
     // close apps / (Function keys / bluetooth - can this be a single layer)
     // Magic key https://github.com/zmkfirmware/zmk/issues/1997#issuecomment-1849481621
+// Full Screen F11, F2 = rename
