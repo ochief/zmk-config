@@ -187,6 +187,37 @@ layers:
   - {type: held}
   - {type: held}
   - {type: trans}
+  sho:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
 combos:
 - p: [0, 1]
   k: W
@@ -252,6 +283,9 @@ combos:
   a: bottom
   o: 0.3
   w: 90.0
+- p: [26, 29]
+  k: '&sho_layer'
+  l: [base, num, sym]
 - p: [0, 10]
   k: <
   l: [VERTICAL]
