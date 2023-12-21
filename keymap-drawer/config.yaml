@@ -54,6 +54,9 @@ parse_config:
     '&sys_reset'    : 'RESET'
     '&bootloader'   : 'BOOT'
 
+    '&mo NUM'       : 'NUMWORD'
+    '&mo SHO'       : 'SHIFT'
+
   trans_legend:
     t: ''
     type: trans
