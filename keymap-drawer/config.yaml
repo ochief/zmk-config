@@ -7,6 +7,7 @@ parse_config:
       combo_c_screen:     {a: top, offset: 0.3, w: 90}
       combo_c_capslock:   {a: top, offset: 0.3, w: 90}
       combo_c_con_space:  {a: bottom, offset: 0.3, w: 90}
+      combo_c_sho_layer:  {a: bottom, offset: 0.3, w: 90}
 
   raw_binding_map:
     '&equal'        : '='
@@ -44,6 +45,7 @@ parse_config:
     'SMART_NUM'     : 'NUM WORD'
     '&tri_grave'    : '```'
     '&con_space'    : 'CONT  SPC'
+    '&sho_layer'    : 'SHORTCUTS'
 
     '&bt BT_SEL 0'  : 'BT-0'
     '&bt BT_SEL 1'  : 'BT-1'
