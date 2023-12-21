@@ -208,7 +208,7 @@ SIMPLE_MORPH(nin_car,   SFT,    &kp N9,     &kp CARET)      // tap: nine        
 SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        shift + tap: grave
 
 #ifdef KEYMAP_DRAWER
-    ZMK_CONDITIONAL_LAYER(NAV SYM, SYS) // NAV + SYM --> SYS
+    // ZMK_CONDITIONAL_LAYER(NAV SYM, SYS) // NAV + SYM --> SYS
     ZMK_CONDITIONAL_LAYER(NUM VER, SHO) // NUM + SYM --> SHO
 #else
     ZMK_BEHAVIOR(sys_layer, macro,
@@ -226,55 +226,55 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
 
 /* Keymap */
 #ifdef KEYMAP_DRAWER
-    ZMK_LAYER(VERTICAL,
+    ZMK_LAYER(Vertical,
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
-    ZMK_LAYER(base,
+    ZMK_LAYER(Base,
         &hml L_G R      &hml L_A S      &hml L_S T      &hml L_C H      ______              ______          &hmr L_C N      &hmr R_S A      &hmr L_A I      &hmr L_G O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
                                                         &lt NUM SPACE          &lt NAV SPACE       &lt SYM E      &lt VER SPACE
     )
 #else
-    ZMK_LAYER(base,
+    ZMK_LAYER(Base,
         &hml L_G R      &hml L_A S      &hml L_S T      &hml L_C H      ______              ______          &hmr L_C N      &hmr R_S A      &hmr L_A I      &hmr L_G O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
                                                         SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
     )
 #endif
-    ZMK_LAYER(num,
+    ZMK_LAYER(Numbers,
         &sk L_G         &sk L_A         &sk L_S         &sk L_C         ______              ______          &one_per        &two_sem        &thr_que        &fou_spe
         &fsl_bsl        &ast_has        &plu_amp        &min_und        ______              ______          &fiv_gra        &six_col        &sev_exc        &eig_sqt
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          &lt NAV SPACE       &zer_gra        &nin_car
     )
 
-    ZMK_LAYER(sym,
+    ZMK_LAYER(Symbols,
         &kp NUBS        &kp NUHS        &kp AMPS        &kp UNDER       ______              ______          &kp PRCNT       &kp SEMI        &kp QMARK       SYM_DQT
         &kp FSLH        &kp STAR        &kp PLUS        &kp MINUS       ______              ______          &tri_grave      &kp COLON       &kp EXCL        &kp SQT
                         ______          ______          ______                                              ______          ______          ______        
                                                         ______          ______              ______          ______
     )
 
- 	ZMK_LAYER(nav,
+ 	ZMK_LAYER(Navigation,
         &hml L_G ESC    &hml L_A W_SALL &hml L_S W_REDO &hml L_C W_UNDO ______              ______          NAV_LEFT        NAV_DOWN        NAV_RIGHT       &swapper 
         W_CUT           W_COPY          NAV_PASTE       NAV_DEL         ______              ______          NAV_BSPC        &kp TAB         WINX            NAV_LOG      
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              NAV_UP          &kp ENTER
     )
 
- 	ZMK_LAYER(sho,
+ 	ZMK_LAYER(Shortcuts,
         ______          ______          ______          &kp C_VOL_UP    ______              ______          ______          ______          ______          ______
         ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
 
-    ZMK_LAYER(sys,
+    ZMK_LAYER(System,
         &sys_reset      &kp C_VOL_DN    &kp C_MUTE      &kp C_VOL_UP    ______              ______          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &sys_reset
         &bootloader     &kp C_PREV      &kp C_PP        &kp C_NEXT      ______              ______          &bt BT_CLR      &kp C_BRI_DN    &kp C_BRI_UP    &bootloader
                         ______          ______          ______                                              ______          ______          ______
