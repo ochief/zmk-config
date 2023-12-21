@@ -58,7 +58,7 @@ ZMK_COMBO(c_con_space,    &con_space  , RH0 RH1 ,               NUM         , CO
 
 ZMK_COMBO(c_ep_on,        EXTP_ON     , LT3 LM3 ,                       SYS , COMBO_TERM_FAST)
 ZMK_COMBO(c_ep_off,       EXTP_OFF    , LT2 LM2 ,                       SYS , COMBO_TERM_FAST)
-ZMK_COMBO(c_xxx,          &kp X       , LT1 LM1 ,                       SYS , COMBO_TERM_FAST)
+ZMK_COMBO(c_xxx,          &kp F11     , LT1 LM1 ,                       SYS , COMBO_TERM_FAST)
 ZMK_COMBO(c_ins,          &kp INS     , RT1 RM1 ,                       SYS , COMBO_TERM_FAST)
 ZMK_COMBO(c_out_usb,      OUT_U       , RT2 RM2 ,                       SYS , COMBO_TERM_FAST)
 ZMK_COMBO(c_out_ble,      OUT_B       , RT3 RM3 ,                       SYS , COMBO_TERM_FAST)

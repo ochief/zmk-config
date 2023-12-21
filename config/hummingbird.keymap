@@ -246,7 +246,7 @@ ZMK_CONDITIONAL_LAYER(NAV SYM, SYS)  // NVA + SYM --> SYS
 
  	ZMK_LAYER(sys,
         &sys_reset      &kp C_VOL_DN    &kp C_MUTE      &kp C_VOL_UP    ______              ______          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &sys_reset
-        &bootloader     &kp DSK_PREV    &kp C_PP        &kp DSK_NEXT    ______              ______          &bt BT_CLR      &kp C_BRI_DN    &kp C_BRI_UP    &bootloader
+        &bootloader     &kp C_PREV      &kp C_PP        &kp C_NEXT      ______              ______          &bt BT_CLR      &kp C_BRI_DN    &kp C_BRI_UP    &bootloader
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )

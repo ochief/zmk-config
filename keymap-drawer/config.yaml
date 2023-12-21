@@ -45,6 +45,13 @@ parse_config:
     '&tri_grave'    : '```'
     '&con_space'    : 'CONT  SPC'
 
+    '&bt BT_SEL 0'  : 'BT-0'
+    '&bt BT_SEL 1'  : 'BT-1'
+    '&bt BT_SEL 2'  : 'BT-2'
+
+    '&sys_reset'    : 'RESET'
+    '&bootloader'   : 'BOOT'
+
   trans_legend:
     t: ''
     type: trans
@@ -79,9 +86,9 @@ parse_config:
     LEFT: LEFT
     RIGHT: RIGHT
 
-    C_PP: ⏯
-    C_NEXT: ⏭️
-    C_PREV: ⏮️
+    C_PP: PLAY PAUSE
+    C_NEXT: NEXT
+    C_PREV: PREV
 
     # defaults
     AMPERSAND: '&'
