@@ -59,7 +59,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - NUMWORD
+  - NUM WORD
   - {t: SPACE, h: nav}
   - {t: E, h: sym}
   - SHIFT
