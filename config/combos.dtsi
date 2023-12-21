@@ -34,7 +34,11 @@ ZMK_COMBO(c_z,            &kp Z       , RM3 RM4 ,       DEF                 , CO
 ZMK_COMBO(c_screen,       SCREEN      , LH1 LH0 ,       DEF                 , COMBO_TERM_FAST)
 ZMK_COMBO(c_capslock,     &kp CAPS    , RH0 RH1 ,       DEF                 , COMBO_TERM_FAST)
 ZMK_COMBO(c_con_space,    &con_space  , RH0 RH1 ,               NUM         , COMBO_TERM_FAST)
-ZMK_COMBO(c_sho_layer,    &sho_layer  , LH1 RH1 ,       DEF     NUM     SYM , COMBO_TERM_FAST)
+
+#ifdef KEYMAP_DRAWER
+  ZMK_COMBO(c_sys_layer,  &sys_layer  , LH0 RH0 ,       DEF     NUM     SYM , COMBO_TERM_FAST)
+  ZMK_COMBO(c_sho_layer,  &sho_layer  , LH1 RH1 ,       DEF     NUM     SYM , COMBO_TERM_FAST)
+#endif
 
 /* VERTICAL */
 #ifdef KEYMAP_DRAWER
