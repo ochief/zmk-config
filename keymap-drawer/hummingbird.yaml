@@ -59,10 +59,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - NUMWORD
+  - {t: SPACE, h: NUM WORD}
   - {t: SPACE, h: nav}
   - {t: E, h: sym}
-  - SHIFT
+  - {t: SPACE, h: SHIFT}
   num:
   - {t: GUI, h: sticky}
   - {t: ALT, h: sticky}
