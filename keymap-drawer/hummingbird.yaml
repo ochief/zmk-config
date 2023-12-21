@@ -1,7 +1,7 @@
 layout:
   ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
 layers:
-  VERTICAL:
+  Vertical:
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -32,7 +32,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  base:
+  Base:
   - {t: R, h: GUI}
   - {t: S, h: ALT}
   - {t: T, h: SHIFT}
@@ -59,11 +59,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: SPACE, h: NUM WORD}
-  - {t: SPACE, h: nav}
-  - {t: E, h: sym}
-  - {t: SPACE, h: SHIFT}
-  num:
+  - {t: SPACE, h: Numbers}
+  - {t: SPACE, h: Navigation}
+  - {t: E, h: Symbols}
+  - {t: SPACE, h: Vertical}
+  Numbers:
   - {t: GUI, h: sticky}
   - {t: ALT, h: sticky}
   - {t: SHIFT, h: sticky}
@@ -90,11 +90,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {t: SPACE, h: nav}
+  - {type: held}
+  - {t: SPACE, h: Navigation}
   - {t: '0', s: '`'}
   - {t: '9', s: ^}
-  sym:
+  Symbols:
   - \
   - '#'
   - '&'
@@ -125,7 +125,7 @@ layers:
   - {type: trans}
   - {type: held}
   - {type: trans}
-  nav:
+  Navigation:
   - {t: ESC, h: GUI}
   - {t: SELALL, h: ALT}
   - {t: REDO, h: SHIFT}
@@ -156,7 +156,7 @@ layers:
   - {type: held}
   - {t: UP, h: BEG DOC}
   - ENTER
-  sho:
+  Shortcuts:
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -183,11 +183,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  sys:
+  System:
   - RESET
   - VOL DN
   - MUTE
@@ -215,128 +215,128 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
-  - {type: held}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
 combos:
 - p: [0, 1]
   k: W
-  l: [base]
+  l: [Base]
 - p: [1, 2]
   k: M
-  l: [base]
+  l: [Base]
 - p: [2, 3]
   k: B
-  l: [base]
+  l: [Base]
 - p: [3, 6]
   k: K
-  l: [base]
+  l: [Base]
   a: top
   o: 0.2
 - p: [6, 7]
   k: '='
-  l: [base, num, sym]
+  l: [Base, Numbers, Symbols]
 - p: [7, 8]
   k: ','
-  l: [base, num, sym]
+  l: [Base, Numbers, Symbols]
 - p: [8, 9]
   k: .
-  l: [base, num, sym]
+  l: [Base, Numbers, Symbols]
 - p: [10, 11]
   k: Q
-  l: [base]
+  l: [Base]
 - p: [11, 12]
   k: F
-  l: [base]
+  l: [Base]
 - p: [12, 13]
   k: P
-  l: [base]
+  l: [Base]
 - p: [13, 16]
   k: J
-  l: [base]
+  l: [Base]
   a: bottom
   o: 0.2
 - p: [16, 17]
   k: '@'
-  l: [base, num, sym]
+  l: [Base, Numbers, Symbols]
 - p: [17, 18]
   k: X
-  l: [base]
+  l: [Base]
 - p: [18, 19]
   k: Z
-  l: [base]
+  l: [Base]
 - p: [26, 27]
   k: SCREENSHOT
-  l: [base]
+  l: [Base]
   a: top
   o: 0.3
   w: 90.0
 - p: [28, 29]
   k: CAPS  LOCK
-  l: [base]
+  l: [Base]
   a: top
   o: 0.3
   w: 90.0
 - p: [28, 29]
   k: CONT  SPC
-  l: [num]
+  l: [Numbers]
   a: top
   o: 0.3
   w: 90.0
 - p: [0, 10]
   k: <
-  l: [VERTICAL]
+  l: [Vertical]
 - p: [1, 11]
   k: '['
-  l: [VERTICAL]
+  l: [Vertical]
 - p: [2, 12]
   k: '{'
-  l: [VERTICAL]
+  l: [Vertical]
 - p: [3, 13]
   k: (
-  l: [VERTICAL]
+  l: [Vertical]
 - p: [6, 16]
   k: )
-  l: [VERTICAL]
+  l: [Vertical]
 - p: [7, 17]
   k: '}'
-  l: [VERTICAL]
+  l: [Vertical]
 - p: [8, 18]
   k: ']'
-  l: [VERTICAL]
+  l: [Vertical]
 - p: [9, 19]
   k: '>'
-  l: [VERTICAL]
+  l: [Vertical]
 - p: [1, 11]
   k: EP ON
-  l: [sys]
+  l: [System]
 - p: [2, 12]
   k: EP OFF
-  l: [sys]
+  l: [System]
 - p: [3, 13]
   k: F11
-  l: [sys]
+  l: [System]
 - p: [6, 16]
   k: INS
-  l: [sys]
+  l: [System]
 - p: [7, 17]
   k: OUT USB
-  l: [sys]
+  l: [System]
 - p: [8, 18]
   k: OUT BLE
-  l: [sys]
+  l: [System]
 - p: [10, 11]
   k: €
-  l: [num, sym]
+  l: [Numbers, Symbols]
 - p: [11, 12]
   k: $
-  l: [num, sym]
+  l: [Numbers, Symbols]
 - p: [12, 13]
   k: £
-  l: [num, sym]
+  l: [Numbers, Symbols]
 - p: [17, 18]
   k: '|'
-  l: [num, sym]
+  l: [Numbers, Symbols]
 - p: [18, 19]
   k: '~'
-  l: [num, sym]
+  l: [Numbers, Symbols]
