@@ -1,0 +1,342 @@
+layout:
+  ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
+layers:
+  VERTICAL:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  base:
+  - {t: R, h: GUI}
+  - {t: S, h: ALT}
+  - {t: T, h: SHIFT}
+  - {t: H, h: CTRL}
+  - {type: trans}
+  - {type: trans}
+  - {t: N, h: CTRL}
+  - {t: A, h: SHIFT}
+  - {t: I, h: ALT}
+  - {t: O, h: GUI}
+  - Q
+  - C
+  - G
+  - D
+  - {type: trans}
+  - {type: trans}
+  - L
+  - U
+  - Y
+  - ''''
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - NUMWORD
+  - {t: SPACE, h: nav}
+  - {t: E, h: sym}
+  - SHIFT
+  num:
+  - {t: GUI, h: sticky}
+  - {t: ALT, h: sticky}
+  - {t: SHIFT, h: sticky}
+  - {t: CTRL, h: sticky}
+  - {type: trans}
+  - {type: trans}
+  - {t: '1', s: '%'}
+  - {t: '2', s: ;}
+  - {t: '3', s: '?'}
+  - {t: '4', s: '"'}
+  - {t: /, s: \}
+  - {t: '*', s: '#'}
+  - {t: +, s: '&'}
+  - {t: '-', s: _}
+  - {type: trans}
+  - {type: trans}
+  - {t: '5', s: '```'}
+  - {t: '6', s: ':'}
+  - {t: '7', s: '!'}
+  - {t: '8', s: ''''}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: SPACE, h: nav}
+  - {t: '0', s: '`'}
+  - {t: '9', s: ^}
+  sym:
+  - \
+  - '#'
+  - '&'
+  - _
+  - {type: trans}
+  - {type: trans}
+  - '%'
+  - ;
+  - '?'
+  - '"'
+  - /
+  - '*'
+  - +
+  - '-'
+  - {type: trans}
+  - {type: trans}
+  - '```'
+  - ':'
+  - '!'
+  - ''''
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  nav:
+  - {t: ESC, h: GUI}
+  - {t: SELALL, h: ALT}
+  - {t: REDO, h: SHIFT}
+  - {t: UNDO, h: CTRL}
+  - {type: trans}
+  - {type: trans}
+  - {t: LEFT, h: HOME}
+  - {t: DOWN, h: END DOC}
+  - {t: RIGHT, h: END}
+  - SWAPPER
+  - CUT
+  - COPY
+  - {t: PASTE, h: SPASTE}
+  - {t: DEL, h: DWORD F}
+  - {type: trans}
+  - {type: trans}
+  - {t: BSPC, h: DWORD B}
+  - TAB
+  - WIN+X
+  - {t: BITWAR, h: ONELOG}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {t: UP, h: BEG DOC}
+  - ENTER
+  sho:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  sys:
+  - RESET
+  - VOL DN
+  - MUTE
+  - VOL UP
+  - {type: trans}
+  - {type: trans}
+  - BT-0
+  - BT-1
+  - BT-2
+  - RESET
+  - BOOT
+  - PREV
+  - PLAY PAUSE
+  - NEXT
+  - {type: trans}
+  - {type: trans}
+  - BT CLR
+  - BRI DN
+  - BRI UP
+  - BOOT
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: trans}
+combos:
+- p: [0, 1]
+  k: W
+  l: [base]
+- p: [1, 2]
+  k: M
+  l: [base]
+- p: [2, 3]
+  k: B
+  l: [base]
+- p: [3, 6]
+  k: K
+  l: [base]
+  a: top
+  o: 0.2
+- p: [6, 7]
+  k: '='
+  l: [base, num, sym]
+- p: [7, 8]
+  k: ','
+  l: [base, num, sym]
+- p: [8, 9]
+  k: .
+  l: [base, num, sym]
+- p: [10, 11]
+  k: Q
+  l: [base]
+- p: [11, 12]
+  k: F
+  l: [base]
+- p: [12, 13]
+  k: P
+  l: [base]
+- p: [13, 16]
+  k: J
+  l: [base]
+  a: bottom
+  o: 0.2
+- p: [16, 17]
+  k: '@'
+  l: [base, num, sym]
+- p: [17, 18]
+  k: X
+  l: [base]
+- p: [18, 19]
+  k: Z
+  l: [base]
+- p: [26, 27]
+  k: SCREENSHOT
+  l: [base]
+  a: top
+  o: 0.3
+  w: 90.0
+- p: [28, 29]
+  k: CAPS  LOCK
+  l: [base]
+  a: top
+  o: 0.3
+  w: 90.0
+- p: [28, 29]
+  k: CONT  SPC
+  l: [num]
+  a: top
+  o: 0.3
+  w: 90.0
+- p: [0, 10]
+  k: <
+  l: [VERTICAL]
+- p: [1, 11]
+  k: '['
+  l: [VERTICAL]
+- p: [2, 12]
+  k: '{'
+  l: [VERTICAL]
+- p: [3, 13]
+  k: (
+  l: [VERTICAL]
+- p: [6, 16]
+  k: )
+  l: [VERTICAL]
+- p: [7, 17]
+  k: '}'
+  l: [VERTICAL]
+- p: [8, 18]
+  k: ']'
+  l: [VERTICAL]
+- p: [9, 19]
+  k: '>'
+  l: [VERTICAL]
+- p: [1, 11]
+  k: EP ON
+  l: [sys]
+- p: [2, 12]
+  k: EP OFF
+  l: [sys]
+- p: [3, 13]
+  k: F11
+  l: [sys]
+- p: [6, 16]
+  k: INS
+  l: [sys]
+- p: [7, 17]
+  k: OUT USB
+  l: [sys]
+- p: [8, 18]
+  k: OUT BLE
+  l: [sys]
+- p: [10, 11]
+  k: €
+  l: [num, sym]
+- p: [11, 12]
+  k: $
+  l: [num, sym]
+- p: [12, 13]
+  k: £
+  l: [num, sym]
+- p: [17, 18]
+  k: '|'
+  l: [num, sym]
+- p: [18, 19]
+  k: '~'
+  l: [num, sym]
