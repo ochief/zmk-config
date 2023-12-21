@@ -157,26 +157,26 @@ layers:
   - {t: UP, h: BEG DOC}
   - ENTER
   sys:
+  - '&sys_reset'
+  - VOL DN
+  - MUTE
+  - VOL UP
   - {type: trans}
   - {type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - '&sys_reset'
+  - '&bootloader'
+  - DSK PREV
+  - ⏯
+  - DSK NEXT
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - BT CLR
+  - BRI DN
+  - BRI UP
+  - '&bootloader'
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -276,6 +276,24 @@ combos:
 - p: [9, 19]
   k: '>'
   l: [VERTICAL]
+- p: [1, 11]
+  k: EP ON
+  l: [sys]
+- p: [2, 12]
+  k: EP OFF
+  l: [sys]
+- p: [3, 13]
+  k: X
+  l: [sys]
+- p: [6, 16]
+  k: INS
+  l: [sys]
+- p: [7, 17]
+  k: OUT USB
+  l: [sys]
+- p: [8, 18]
+  k: OUT BLE
+  l: [sys]
 - p: [10, 11]
   k: €
   l: [num, sym]
