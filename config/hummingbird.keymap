@@ -15,15 +15,15 @@
     #define NUM     2
     #define SYM     3
     #define NAV     4
-    #define SYS     5
-    #define SHO     6
+    #define SHO     5
+    #define SYS     6
 #else
     #define DEF     0
     #define NUM     1
     #define SYM     2
     #define NAV     3
-    #define SYS     4
-    #define SHO     5
+    #define SHO     4
+    #define SYS     5
 #endif
 
 // DEFINES
@@ -252,16 +252,16 @@ ZMK_CONDITIONAL_LAYER(NAV SYM, SYS) // NVA + SYM --> SYS
                                                         ______          ______              NAV_UP          &kp ENTER
     )
 
- 	ZMK_LAYER(sys,
-        &sys_reset      &kp C_VOL_DN    &kp C_MUTE      &kp C_VOL_UP    ______              ______          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &sys_reset
-        &bootloader     &kp C_PREV      &kp C_PP        &kp C_NEXT      ______              ______          &bt BT_CLR      &kp C_BRI_DN    &kp C_BRI_UP    &bootloader
+ 	ZMK_LAYER(sho,
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
 
- 	ZMK_LAYER(sho,
-        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
-        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+    ZMK_LAYER(sys,
+        &sys_reset      &kp C_VOL_DN    &kp C_MUTE      &kp C_VOL_UP    ______              ______          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &sys_reset
+        &bootloader     &kp C_PREV      &kp C_PP        &kp C_NEXT      ______              ______          &bt BT_CLR      &kp C_BRI_DN    &kp C_BRI_UP    &bootloader
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
