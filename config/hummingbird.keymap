@@ -253,4 +253,3 @@ ZMK_CONDITIONAL_LAYER(NAV SYM, SYS)  // NVA + SYM --> SYS
 
     // close apps / (Function keys / bluetooth - can this be a single layer)
     // Magic key https://github.com/zmkfirmware/zmk/issues/1997#issuecomment-1849481621
-// Full Screen F11, F2 = rename
