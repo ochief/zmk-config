@@ -157,26 +157,26 @@ layers:
   - {t: UP, h: BEG DOC}
   - ENTER
   sys:
-  - '&sys_reset'
+  - RESET
   - VOL DN
   - MUTE
   - VOL UP
   - {type: trans}
   - {type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - '&sys_reset'
-  - '&bootloader'
-  - DSK PREV
-  - ⏯
-  - DSK NEXT
+  - BT-0
+  - BT-1
+  - BT-2
+  - RESET
+  - BOOT
+  - PREV
+  - PLAY PAUSE
+  - NEXT
   - {type: trans}
   - {type: trans}
   - BT CLR
   - BRI DN
   - BRI UP
-  - '&bootloader'
+  - BOOT
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -283,7 +283,7 @@ combos:
   k: EP OFF
   l: [sys]
 - p: [3, 13]
-  k: X
+  k: F11
   l: [sys]
 - p: [6, 16]
   k: INS
