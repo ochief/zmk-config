@@ -156,37 +156,6 @@ layers:
   - {type: held}
   - {t: UP, h: BEG DOC}
   - ENTER
-  sys:
-  - RESET
-  - VOL DN
-  - MUTE
-  - VOL UP
-  - {type: trans}
-  - {type: trans}
-  - BT-0
-  - BT-1
-  - BT-2
-  - RESET
-  - BOOT
-  - PREV
-  - PLAY PAUSE
-  - NEXT
-  - {type: trans}
-  - {type: trans}
-  - BT CLR
-  - BRI DN
-  - BRI UP
-  - BOOT
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: held}
-  - {type: held}
-  - {type: trans}
   sho:
   - {type: trans}
   - {type: trans}
@@ -217,6 +186,37 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: trans}
+  sys:
+  - RESET
+  - VOL DN
+  - MUTE
+  - VOL UP
+  - {type: trans}
+  - {type: trans}
+  - BT-0
+  - BT-1
+  - BT-2
+  - RESET
+  - BOOT
+  - PREV
+  - PLAY PAUSE
+  - NEXT
+  - {type: trans}
+  - {type: trans}
+  - BT CLR
+  - BRI DN
+  - BRI UP
+  - BOOT
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: held}
   - {type: trans}
 combos:
 - p: [0, 1]
@@ -280,12 +280,15 @@ combos:
 - p: [28, 29]
   k: CONT  SPC
   l: [num]
-  a: bottom
+  a: top
   o: 0.3
   w: 90.0
 - p: [26, 29]
-  k: '&sho_layer'
+  k: SHORTCUTS
   l: [base, num, sym]
+  a: bottom
+  o: 0.3
+  w: 90.0
 - p: [0, 10]
   k: <
   l: [VERTICAL]
