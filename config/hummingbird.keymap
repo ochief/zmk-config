@@ -243,12 +243,7 @@ SIMPLE_MORPH(zer_gra,   SFT,    &kp N0,     &kp GRAVE)      // tap: zero        
         &hml L_G R      &hml L_A S      &hml L_S T      &hml L_C H      ______              ______          &hmr L_C N      &hmr R_S A      &hmr L_A I      &hmr L_G O
         &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
-                                                      #ifdef KEYMAP_DRAWER
-                                                        &lt SHO NUM     &lt NAV SPACE       &lt SYM E       &lt SHO SHIFT
-                                                      #else
                                                         SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
-                                                      #endIf
-
     )
 #endif
     ZMK_LAYER(num,
