@@ -59,10 +59,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - num
+  - NUM WORD
   - {t: SPACE, h: nav}
   - {t: E, h: sym}
-  - {t: SHIFT, h: sho}
+  - SHIFT
   num:
   - {t: GUI, h: sticky}
   - {t: ALT, h: sticky}
@@ -90,7 +90,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
   - {t: SPACE, h: nav}
   - {t: '0', s: '`'}
   - {t: '9', s: ^}
@@ -186,7 +186,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
   sys:
   - RESET
   - VOL DN
@@ -281,15 +281,6 @@ combos:
   k: CONT  SPC
   l: [num]
   a: top
-  o: 0.3
-  w: 90.0
-- p: [27, 28]
-  k: '&sys_layer'
-  l: [base, num, sym]
-- p: [26, 29]
-  k: SHORTCUTS
-  l: [base, num, sym]
-  a: bottom
   o: 0.3
   w: 90.0
 - p: [0, 10]
