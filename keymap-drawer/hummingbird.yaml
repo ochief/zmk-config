@@ -283,15 +283,15 @@ combos:
   a: top
   o: 0.3
   w: 90.0
-- p: [27, 28]
+- p: [26, 29]
   k: '&sys_layer'
-  l: [Base, Numbers, Symbols]
+  l: [Base, Numbers, Symbols, Navigation]
   a: bottom
   o: 0.3
   w: 90.0
-- p: [26, 29]
+- p: [27, 28]
   k: SHORTCUTS
-  l: [Base, Numbers, Symbols]
+  l: [Base, Numbers, Symbols, Navigation]
   a: bottom
   o: 0.6
   w: 90.0
