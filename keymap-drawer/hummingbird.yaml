@@ -62,7 +62,7 @@ layers:
   - {t: SPACE, h: Numbers}
   - {t: SPACE, h: Navigation}
   - {t: E, h: Symbols}
-  - {t: SPACE, h: Shortcuts}
+  - {t: SPACE, h: Vertical}
   Numbers:
   - {t: GUI, h: sticky}
   - {t: ALT, h: sticky}
@@ -183,10 +183,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
   - {type: held}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   System:
   - RESET
   - VOL DN
