@@ -2,10 +2,10 @@
 parse_config:
   zmk_combos:
     # combo_c_w:          {draw_separate: true}
-      combo_c_screen:     {a: bottom, offset: 0.3, w: 90}
-      combo_c_capslock:   {a: bottom, offset: 0.3, w: 90}
-      combo_c_sys_layer:  {a: top, offset: 0.9, w: 90}
-      combo_c_sho_layer:  {a: top, offset: 0.3, w: 90}
+      combo_c_screen:     {a: top,    offset: 0.3, w: 90}
+      combo_c_capslock:   {a: top,    offset: 0.3, w: 90}
+      combo_c_sys_layer:  {a: bottom, offset: 0.9, w: 90}
+      combo_c_sho_layer:  {a: bottom, offset: 0.3, w: 90}
 
   raw_binding_map:
     '&equal'        : '='
