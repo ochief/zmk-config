@@ -6,9 +6,8 @@ parse_config:
       combo_c_j:          {a: bottom, offset: 0.2}
       combo_c_screen:     {a: top, offset: 0.3, w: 90}
       combo_c_capslock:   {a: top, offset: 0.3, w: 90}
-      combo_c_con_space:  {a: top, offset: 0.3, w: 90}
       combo_c_sys_layer:  {a: bottom, offset: 0.3, w: 90}
-      combo_c_sho_layer:  {a: bottom, offset: 0.6, w: 90}
+      combo_c_sho_layer:  {a: bottom, offset: 0.8, w: 90}
 
   raw_binding_map:
     '&equal'        : '='
@@ -45,7 +44,7 @@ parse_config:
     '&smart_shft'   : 'SHIFT'
     'SMART_NUM'     : 'NUM WORD'
     '&tri_grave'    : '```'
-    '&con_space'    : 'CONT  SPC'
+    '&con_space'    : 'CON SPC'
     '&sho_layer'    : 'SHORTCUTS'
 
     '&bt BT_SEL 0'  : 'BT-0'
@@ -164,10 +163,10 @@ draw_config:
   shrink_wide_legends: 15
 
   svg_style: |
-    .layer-SYS .keypos-26 .key,
-    .layer-SYS .keypos-29 .key,
-    .layer-SHO .keypos-27 .key,
-    .layer-SHO .keypos-28 .key {
+    .layer-System .keypos-26 .key,
+    .layer-System .keypos-29 .key,
+    .layer-Shortcuts .keypos-27 .key,
+    .layer-Shortcuts .keypos-28 .key {
       fill: #fdd;
     }
 
