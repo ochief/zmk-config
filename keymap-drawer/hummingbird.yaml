@@ -231,8 +231,6 @@ combos:
 - p: [3, 6]
   k: K
   l: [Base]
-  a: top
-  o: 0.2
 - p: [6, 7]
   k: '='
   l: [Base, Numbers, Symbols]
@@ -254,8 +252,6 @@ combos:
 - p: [13, 16]
   k: J
   l: [Base]
-  a: bottom
-  o: 0.2
 - p: [16, 17]
   k: '@'
   l: [Base, Numbers, Symbols]
@@ -268,28 +264,28 @@ combos:
 - p: [26, 27]
   k: SCREENSHOT
   l: [Base]
-  a: top
+  a: bottom
   o: 0.3
   w: 90.0
 - p: [28, 29]
   k: CAPS  LOCK
   l: [Base]
-  a: top
+  a: bottom
   o: 0.3
   w: 90.0
 - p: [28, 29]
   k: CON SPC
   l: [Numbers]
 - p: [26, 29]
-  k: '&sys_layer'
+  k: SYSTEM
   l: [Base, Numbers, Symbols, Navigation]
-  a: bottom
-  o: 1.0
+  a: top
+  o: 0.9
   w: 90.0
 - p: [27, 28]
   k: SHORTCUTS
   l: [Base, Numbers, Symbols, Navigation]
-  a: bottom
+  a: top
   o: 0.3
   w: 90.0
 - p: [0, 10]
