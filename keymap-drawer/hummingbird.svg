@@ -1,8 +1,8 @@
-<svg width="690" height="2167" viewBox="0 0 690 2167" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<style>.layer-SYS .keypos-26 .key,
-.layer-SYS .keypos-29 .key,
-.layer-SHO .keypos-27 .key,
-.layer-SHO .keypos-28 .key {
+<svg width="690" height="2211" viewBox="0 0 690 2211" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>.layer-System .keypos-26 .key,
+.layer-System .keypos-29 .key,
+.layer-Shortcuts .keypos-27 .key,
+.layer-Shortcuts .keypos-28 .key {
   fill: #fdd;
 }
 
@@ -431,14 +431,14 @@ path.combo {
 <text x="315" y="242" class="combo tap">&amp;sys_layer</text>
 </g>
 <g class="combo combopos-17">
-<path d="M315,259 h-39 a6.0,6.0 0 0 1 -6.0,-6.0 v-38" class="combo"/>
-<path d="M315,259 h39 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="6" ry="6" x="270" y="246" width="90" height="26" class="combo"/>
-<text x="315" y="259" class="combo tap">SHORTCUTS</text>
+<path d="M315,270 h-39 a6.0,6.0 0 0 1 -6.0,-6.0 v-49" class="combo"/>
+<path d="M315,270 h39 a6.0,6.0 0 0 0 6.0,-6.0 v-49" class="combo"/>
+<rect rx="6" ry="6" x="270" y="257" width="90" height="26" class="combo"/>
+<text x="315" y="270" class="combo tap">SHORTCUTS</text>
 </g>
 </g>
 </g>
-<g transform="translate(30, 607)" class="layer-Numbers">
+<g transform="translate(30, 618)" class="layer-Numbers">
 <text x="0" y="28" class="label">Numbers:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key keypos-0">
@@ -586,10 +586,10 @@ path.combo {
 <text x="450" y="84" class="combo tap">@</text>
 </g>
 <g class="combo combopos-4">
-<path d="M390,150 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v21" class="combo"/>
-<path d="M390,150 h24 a6.0,6.0 0 0 1 6.0,6.0 v21" class="combo"/>
-<rect rx="6" ry="6" x="345" y="137" width="90" height="26" class="combo"/>
-<text x="390" y="150" class="combo tap">CONT SPC</text>
+<rect rx="6" ry="6" x="376" y="183" width="28" height="26" class="combo"/>
+<text x="390" y="196" class="combo tap">
+<tspan x="390" dy="-0.6em">CON</tspan><tspan x="390" dy="1.2em">SPC</tspan>
+</text>
 </g>
 <g class="combo combopos-5">
 <path d="M315,242 h-99 a6.0,6.0 0 0 1 -6.0,-6.0 v-21" class="combo"/>
@@ -598,10 +598,10 @@ path.combo {
 <text x="315" y="242" class="combo tap">&amp;sys_layer</text>
 </g>
 <g class="combo combopos-6">
-<path d="M315,259 h-39 a6.0,6.0 0 0 1 -6.0,-6.0 v-38" class="combo"/>
-<path d="M315,259 h39 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="6" ry="6" x="270" y="246" width="90" height="26" class="combo"/>
-<text x="315" y="259" class="combo tap">SHORTCUTS</text>
+<path d="M315,270 h-39 a6.0,6.0 0 0 1 -6.0,-6.0 v-49" class="combo"/>
+<path d="M315,270 h39 a6.0,6.0 0 0 0 6.0,-6.0 v-49" class="combo"/>
+<rect rx="6" ry="6" x="270" y="257" width="90" height="26" class="combo"/>
+<text x="315" y="270" class="combo tap">SHORTCUTS</text>
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="46" y="85" width="28" height="26" class="combo"/>
@@ -625,7 +625,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 921)" class="layer-Symbols">
+<g transform="translate(30, 944)" class="layer-Symbols">
 <text x="0" y="28" class="label">Symbols:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key keypos-0">
@@ -757,10 +757,10 @@ path.combo {
 <text x="315" y="242" class="combo tap">&amp;sys_layer</text>
 </g>
 <g class="combo combopos-5">
-<path d="M315,259 h-39 a6.0,6.0 0 0 1 -6.0,-6.0 v-38" class="combo"/>
-<path d="M315,259 h39 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="6" ry="6" x="270" y="246" width="90" height="26" class="combo"/>
-<text x="315" y="259" class="combo tap">SHORTCUTS</text>
+<path d="M315,270 h-39 a6.0,6.0 0 0 1 -6.0,-6.0 v-49" class="combo"/>
+<path d="M315,270 h39 a6.0,6.0 0 0 0 6.0,-6.0 v-49" class="combo"/>
+<rect rx="6" ry="6" x="270" y="257" width="90" height="26" class="combo"/>
+<text x="315" y="270" class="combo tap">SHORTCUTS</text>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="46" y="85" width="28" height="26" class="combo"/>
@@ -784,7 +784,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1236)" class="layer-Navigation">
+<g transform="translate(30, 1270)" class="layer-Navigation">
 <text x="0" y="28" class="label">Navigation:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key keypos-0">
@@ -914,14 +914,14 @@ path.combo {
 <text x="315" y="242" class="combo tap">&amp;sys_layer</text>
 </g>
 <g class="combo combopos-1">
-<path d="M315,259 h-39 a6.0,6.0 0 0 1 -6.0,-6.0 v-38" class="combo"/>
-<path d="M315,259 h39 a6.0,6.0 0 0 0 6.0,-6.0 v-38" class="combo"/>
-<rect rx="6" ry="6" x="270" y="246" width="90" height="26" class="combo"/>
-<text x="315" y="259" class="combo tap">SHORTCUTS</text>
+<path d="M315,270 h-39 a6.0,6.0 0 0 1 -6.0,-6.0 v-49" class="combo"/>
+<path d="M315,270 h39 a6.0,6.0 0 0 0 6.0,-6.0 v-49" class="combo"/>
+<rect rx="6" ry="6" x="270" y="257" width="90" height="26" class="combo"/>
+<text x="315" y="270" class="combo tap">SHORTCUTS</text>
 </g>
 </g>
 </g>
-<g transform="translate(30, 1551)" class="layer-Shortcuts">
+<g transform="translate(30, 1595)" class="layer-Shortcuts">
 <text x="0" y="28" class="label">Shortcuts:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key trans keypos-0">
@@ -1019,7 +1019,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1831)" class="layer-System">
+<g transform="translate(30, 1875)" class="layer-System">
 <text x="0" y="28" class="label">System:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 56)" class="key keypos-0">

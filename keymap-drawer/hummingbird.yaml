@@ -278,11 +278,8 @@ combos:
   o: 0.3
   w: 90.0
 - p: [28, 29]
-  k: CONT  SPC
+  k: CON SPC
   l: [Numbers]
-  a: top
-  o: 0.3
-  w: 90.0
 - p: [26, 29]
   k: '&sys_layer'
   l: [Base, Numbers, Symbols, Navigation]
@@ -293,7 +290,7 @@ combos:
   k: SHORTCUTS
   l: [Base, Numbers, Symbols, Navigation]
   a: bottom
-  o: 0.6
+  o: 0.8
   w: 90.0
 - p: [0, 10]
   k: <
