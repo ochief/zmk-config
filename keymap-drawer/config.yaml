@@ -7,7 +7,8 @@ parse_config:
       combo_c_screen:     {a: top, offset: 0.3, w: 90}
       combo_c_capslock:   {a: top, offset: 0.3, w: 90}
       combo_c_con_space:  {a: top, offset: 0.3, w: 90}
-      combo_c_sho_layer:  {a: bottom, offset: 0.3, w: 90}
+      combo_c_sys_layer:  {a: bottom, offset: 0.3, w: 90}
+      combo_c_sho_layer:  {a: bottom, offset: 0.6, w: 90}
 
   raw_binding_map:
     '&equal'        : '='
