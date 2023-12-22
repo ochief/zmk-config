@@ -160,7 +160,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - VOL UP
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -264,13 +264,13 @@ combos:
 - p: [26, 27]
   k: SCREENSHOT
   l: [Base]
-  a: bottom
+  a: top
   o: 0.3
   w: 90.0
 - p: [28, 29]
   k: CAPS  LOCK
   l: [Base]
-  a: bottom
+  a: top
   o: 0.3
   w: 90.0
 - p: [28, 29]
@@ -279,13 +279,13 @@ combos:
 - p: [26, 29]
   k: SYSTEM
   l: [Base, Numbers, Symbols, Navigation]
-  a: top
+  a: bottom
   o: 0.9
   w: 90.0
 - p: [27, 28]
   k: SHORTCUTS
   l: [Base, Numbers, Symbols, Navigation]
-  a: top
+  a: bottom
   o: 0.3
   w: 90.0
 - p: [0, 10]
