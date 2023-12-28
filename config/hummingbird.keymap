@@ -230,7 +230,7 @@ ZMK_BEHAVIOR(sho_layer, macro,
 #endif
     ZMK_LAYER(Base,
         &hml L_G R      &hml L_A S      &hml L_S T      &hml L_C H      ______              ______          &hmr L_C N      &hmr R_S A      &hmr L_A I      &hmr L_G O
-        &kp Q           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
+        &kp V           &kp C           &kp G           &kp D           ______              ______          &kp L           &kp U           &kp Y           &kp SQT
                         ______          ______          ______                                              ______          ______          ______
                                                         SMART_NUM       &lt NAV SPACE       &lt SYM E       &smart_shft
     )
@@ -262,7 +262,12 @@ ZMK_BEHAVIOR(sho_layer, macro,
                         ______          ______          ______                                              ______          ______          ______
                                                         ______          ______              ______          ______
     )
-
+/*
+        ______          ______          ______          prev_tab        ______              next_tab        ______          ______          ______          ______
+        ______          ______          ______          ______          ______              ______          ______          ______          ______          ______
+                        ______          ______          ______                                              ______          ______          ______
+                                                        ______          ______              ______          ______
+*/
     ZMK_LAYER(System,
         &sys_reset      &kp C_VOL_DN    &kp C_MUTE      &kp C_VOL_UP    ______              ______          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &sys_reset
         &bootloader     &kp C_PREV      &kp C_PP        &kp C_NEXT      ______              ______          &bt BT_CLR      &kp C_BRI_DN    &kp C_BRI_UP    &bootloader
@@ -272,3 +277,13 @@ ZMK_BEHAVIOR(sho_layer, macro,
 
     // close apps / (Function keys / bluetooth - can this be a single layer)
     // Magic key https://github.com/zmkfirmware/zmk/issues/1997#issuecomment-1849481621
+    // CTRL SHIFT F1 = pause zipchord
+    // CTRL SHIFT Z = zipchord
+    // leader key https://github.com/zmkfirmware/zmk/pull/1380 https://github.com/nickconway/zmk-config 
+    // emoticons, this, 100 maybe they can be leader sequences as well and can they add the reaction shortcut CTRL SHIFT \
+// afk, when you get a minute, zoom details (personal meeting)
+// https://www.youtube.com/shorts/I1sW8LC5tkQ
+
+// https://gist.github.com/urob/68a1e206b2356a01b876ed02d3f542c7
+
+
