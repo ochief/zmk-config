@@ -1,0 +1,28 @@
+# Example for using the keymap-drawer ZMK user config workflow
+name: Draw Keymap
+on:
+  workflow_dispatch:  # can be triggered manually
+  push:               # automatically run on changes to following paths
+    paths:
+      - "config/*.keymap"
+      - "config/*.dtsi"
+      - "keymap-drawer/config.yaml"
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write  # allow workflow to commit to the repo
+    with:
+      install_branch: "main"
+      keymap_patterns: "config/*.keymap"        # path to the keymaps to parse
+      config_path: "keymap-drawer/config.yaml"  # config file, ignored if not exists
+      output_folder: "img"            # path to save produced SVG and keymap YAML files
+      amend_commit: true # whether to amend the commit or create a new one
+      fail_on_error: true
