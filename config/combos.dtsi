@@ -21,8 +21,8 @@
 };
 
 #define COMBO_TERM_FAST 30
-#define COMBO_TERM_NORMAL 50
-#define COMBO_TERM_SLOW 80
+#define COMBO_TERM_NORMAL 40
+#define COMBO_TERM_SLOW 60
 
 / {
 	combos {
