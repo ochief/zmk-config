@@ -1,4 +1,0 @@
-#define ENCODERS
-
-#include "../../../base30.keymap"
-

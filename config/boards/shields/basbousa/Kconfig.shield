@@ -1,8 +1,0 @@
-# Copyright (c) 2022 The ZMK Contributors
-# SPDX-License-Identifier: MIT
-
-config SHIELD_BASBOUSA_LEFT
-	def_bool $(shields_list_contains,basbousa_left)
-
-config SHIELD_BASBOUSA_RIGHT
-	def_bool $(shields_list_contains,basbousa_right)
