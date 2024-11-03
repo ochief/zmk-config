@@ -116,8 +116,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-base">
-<text x="0" y="28" class="label" id="base">base:</text>
+<g transform="translate(30, 0)" class="layer-main">
+<text x="0" y="28" class="label" id="main">main:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(33, 93) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -238,6 +238,14 @@ path.combo {
 <g transform="translate(498, 230)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BSPC</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="181" y="22" width="28" height="26" class="combo"/>
+<text x="195" y="35" class="combo tap">Q</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="530" y="22" width="28" height="26" class="combo"/>
+<text x="544" y="35" class="combo tap">Z</text>
 </g>
 </g>
 </g>
