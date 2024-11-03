@@ -27,7 +27,7 @@ combos {
 	compatible = "zmk,combos";
 	
 	// missing alphas
-	COMBO(q,		&kp Q,			2 3, MAIN, COMBO_TERM_NORMAL)
-	COMBO(z,		&kp Z,			6 7, MAIN, COMBO_TERM_NORMAL)
+	COMBO(q,		&kp Q,			20 21, MAIN, COMBO_TERM_NORMAL)
+	COMBO(z,		&kp Z,			21 22, MAIN, COMBO_TERM_NORMAL)
 };
 		
