@@ -1,0 +1,33 @@
+/*					KEY POSITIONS
+		 0  1  2  3  4		 5  6  7  8  9
+		10 11 12 13 14		15 16 17 18 19 
+		   20 21 22			   23 24 25
+			     26 27		28 29
+		
+		 w  c  g  d  v		 x  l  u  o  y
+		 r  s  t  h  k		 j  n  e  a  i
+		 f  p  b				m  ,  .
+*/
+
+#define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, TIMEOUT) \
+combo_##NAME { \
+	bindings = <BINDINGS>; \
+	timeout-ms = <TIMEOUT>; \
+	key-positions = <KEYPOS>; \
+	layers = <LAYERS>; \
+	global-quick-tap-ms = <80>; \
+};
+
+#define COMBO_TERM_FAST 16
+#define COMBO_TERM_NORMAL 20
+#define COMBO_TERM_SLOW 35
+
+
+combos {
+	compatible = "zmk,combos";
+	
+	// missing alphas
+	COMBO(q,		&kp Q,			2 3, MAIN, COMBO_TERM_NORMAL)
+	COMBO(z,		&kp Z,			6 7, MAIN, COMBO_TERM_NORMAL)
+};
+		
