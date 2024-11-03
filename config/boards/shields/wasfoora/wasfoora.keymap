@@ -1,4 +1,4 @@
 #define WASFOORA
 
-#include "../../../base30.keymap"
+#include "../../../wizza.keymap"
 
