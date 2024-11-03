@@ -1,8 +1,15 @@
 name: Build Firmware
-on: [push, pull_request, workflow_dispatch]
-    push:
-        paths-ignore:
-        - "**.md"
+on:
+  workflow_dispatch:  # can be triggered manually
+  push:
+    paths-ignore:
+      - "**.md"
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
