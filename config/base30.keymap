@@ -24,14 +24,19 @@
 	keymap {
 		compatible = "zmk,keymap";
  
+		// x c w p k	j l u y '
+		// r s t h b	v n a i o
+		//	 f g d        m , .
+		//       _		  e
+ 
         base_layer {
             label = "Asfoora Base Layer";
             bindings = <
-				&kp W		&kp C		&kp G		&kp D		&kp K				&kp J		&kp L		&kp U		&kp O		&kp Y
-				&kp R		&kp S		&kp T		&kp H		&kp F				&kp M		&kp N		&kp E		&kp A		&kp I
-							&kp V		&kp P		&kp B                                       &kp X		&kp Z		&kp Q
+				&kp x		&kp C		&kp w		&kp P		&kp K				&kp J		&kp L		&kp U		&kp Y		&kp SQT
+				&kp R		&kp S		&kp T		&kp H		&kp B				&kp V		&kp N		&kp A		&kp I		&kp O
+							&kp F		&kp G		&kp D                                       &kp M		&kp COMMA	&kp DOT
 
-													&kp RET		&kp SPACE			&kp LSHIFT	&kp BSPC
+													&kp RET		&kp SPACE			&kp E		&kp BSPC
 			>;
 		};
 	};
