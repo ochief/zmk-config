@@ -32,7 +32,7 @@
         base_layer {
             label = "Asfoora Base Layer";
             bindings = <
-				&kp X		&kp C		&kp w		&kp P		&kp K				&kp J		&kp L		&kp U		&kp Y		&kp SQT
+				&kp X		&kp C		&kp W		&kp P		&kp K				&kp J		&kp L		&kp U		&kp Y		&kp SQT
 				&kp R		&kp S		&kp T		&kp H		&kp B				&kp V		&kp N		&kp A		&kp I		&kp O
 							&kp F		&kp G		&kp D                                       &kp M		&kp COMMA	&kp DOT
 
