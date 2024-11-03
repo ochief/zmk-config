@@ -26,5 +26,4 @@ jobs:
       config_path: "keymap-drawer/config.yaml"  # config file, ignored if not exists
       output_folder: "img"            # path to save produced SVG and keymap YAML files
       amend_commit: true # whether to amend the commit or create a new one
-      fail_on_error: true
-      draw_args: "wizza:" 
+      fail_on_error: true 
