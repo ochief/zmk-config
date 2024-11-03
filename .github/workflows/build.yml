@@ -1,7 +1,8 @@
 name: Build Firmware
 on: [push, pull_request, workflow_dispatch]
-    paths-ignore:
-    - "**.md"
+    push:
+        paths-ignore:
+        - "**.md"
 
 jobs:
   build:
