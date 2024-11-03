@@ -19,16 +19,16 @@
 	layers = <LAYERS>; \
 };
 
-#define COMBO_TERM_FAST 16
-#define COMBO_TERM_NORMAL 20
-#define COMBO_TERM_SLOW 35
+#define COMBO_TERM_FAST 20
+#define COMBO_TERM_NORMAL 35
+#define COMBO_TERM_SLOW 50
 
 / {
 	combos {
 		compatible = "zmk,combos";
 		
 		// missing alphas
-		COMBO(q,		&kp Q,			20 21, MAIN, COMBO_TERM_NORMAL)
-		COMBO(z,		&kp Z,			21 22, MAIN, COMBO_TERM_NORMAL)
+		COMBO(z,		&kp Z,			20 21, MAIN, COMBO_TERM_NORMAL)		
+		COMBO(q,		&kp Q,			21 22, MAIN, COMBO_TERM_NORMAL)
 	};
 };
