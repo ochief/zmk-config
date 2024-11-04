@@ -8,3 +8,72 @@ combos:
 - p: [21, 22]
   k: Q
   l: [main]
+- p: [4, 14]
+  k: BSPC
+  l: [main]
+- p: [2, 13]
+  k: ESC
+  l: [main]
+- p: [16, 7]
+  k: RET
+  l: [main]
+- p: [6, 7, 8]
+  k: CAPS
+  l: [main]
+- p: [16, 17]
+  k: TAB
+  l: [main]
+- p: [12, 13]
+  k: Alt+ BSPC
+  l: [main]
+- p: [11, 12]
+  k: '&caps_word'
+  l: [main]
+- p: [17, 18]
+  k: '&caps_word'
+  l: [main]
+- p: [6, 7]
+  k: '-'
+  l: [main]
+- p: [2, 3]
+  k: '@'
+  l: [main]
+- p: [7, 8]
+  k: '"'
+  l: [main]
+- p: [23, 25]
+  k: /
+  l: [main]
+- p: [21, 22]
+  k: '`'
+  l: [main]
+- p: [23, 24]
+  k: '!'
+  l: [main]
+- p: [24, 25]
+  k: '?'
+  l: [main]
+- p: [0, 10]
+  k: <
+  l: [main]
+- p: [1, 11]
+  k: '['
+  l: [main]
+- p: [2, 12]
+  k: (
+  l: [main]
+- p: [3, 13]
+  k: '{'
+  l: [main]
+- p: [9, 19]
+  k: '>'
+  l: [main]
+- p: [6, 16]
+  k: '}'
+  l: [main]
+- p: [7, 17]
+  k: )
+  l: [main]
+- p: [8, 18]
+  k: ']'
+  l: [main]
