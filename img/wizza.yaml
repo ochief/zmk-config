@@ -24,9 +24,9 @@ combos:
   k: '&caps_word'
   l: [main]
 - p: [26, 29]
-  k: Gui+Sft+ S
+  k: Sft+Gui+ S
   l: [main]
-- p: [2, 3, 4]
+- p: [1, 2, 3]
   k: '`'
   l: [main]
 - p: [11, 12]
@@ -44,20 +44,23 @@ combos:
 - p: [6, 7, 8]
   k: CAPS
   l: [main]
-- p: [6, 7]
-  k: '-'
+- p: [1, 2]
+  k: AMP
   l: [main]
 - p: [2, 3]
   k: '@'
   l: [main]
+- p: [6, 7]
+  k: '-'
+  l: [main]
 - p: [7, 8]
   k: '"'
   l: [main]
-- p: [23, 25]
-  k: /
-  l: [main]
 - p: [20, 22]
   k: \
+  l: [main]
+- p: [23, 25]
+  k: /
   l: [main]
 - p: [23, 24]
   k: '!'
