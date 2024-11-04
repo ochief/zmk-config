@@ -20,6 +20,8 @@
 #define SHO_COPY	&kp LC(C)
 #define SHO_PASTE	&kp LC(V)
 #define SHO_PASTE_S	&kp LC(LS(V))
+#define SHO_ALT_TAB &kp LA(TAB)
+#define SHO_APP_SEL &kp LC(LA(TAB))
 
 #define SK(KEY) &nk KEY KEY
 
@@ -71,10 +73,10 @@
 			
             bindings = <
 				DESK_LEFT	TAB_PREV	&kp TAB		TAB_NEXT	DESK_RIGHT			&kp PG_UP	&kp HOME	&kp UP		&kp END		&kp DEL
-				SK(LGUI)	SK(LALT)	SK(LSHIFT)	SK(LCTRL)	SHO_PASTE_S				&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
-							SHO_CUT		SHO_COPY	SHO_PASTE                                      	&kp BSPC	&none		&none
+				SK(LGUI)	SK(LALT)	SK(LSHIFT)	SK(LCTRL)	SHO_PASTE_S			&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&none		&none
 
-													&trans		&none				&none		&none
+													&trans		&none				ALT_TAB		APP_SEL
 			>;
 		};	
 	};
