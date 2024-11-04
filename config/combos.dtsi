@@ -1,5 +1,7 @@
 // FIX SCREWY SPACING
 // NOT RUN build on .md files
+// swap DQT and AT due to stupid UK thing
+// sort out custom shifts ,; .: ' '
 
 /*					KEY POSITIONS
 		 0  1  2  3  4		 5  6  7  8  9
@@ -27,7 +29,7 @@
 / {
 	combos {
 		compatible = "zmk,combos";
-	'cg
+
 		// missing alphas
 		COMBO(z,		&kp Z,							20 21, 		MAIN, COMBO_TERM_NORMAL)	
 		COMBO(q,		&kp Q,							21 22, 		MAIN, COMBO_TERM_NORMAL)
