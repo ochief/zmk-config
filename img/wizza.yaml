@@ -45,7 +45,7 @@ combos:
   k: CAPS
   l: [main]
 - p: [1, 2]
-  k: AMP
+  k: '&'
   l: [main]
 - p: [2, 3]
   k: '@'
