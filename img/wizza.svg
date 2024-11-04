@@ -281,7 +281,7 @@ path.combo {
 <path d="M369,230 l-109,0" class="combo"/>
 <path d="M369,230 l109,0" class="combo"/>
 <rect rx="6" ry="6" x="355" y="217" width="28" height="26" class="combo"/>
-<text x="369" y="230" class="combo tap">&amp;grave3</text>
+<text x="369" y="230" class="combo tap"><tspan style="font-size: 64%">&amp;macro_gra…</tspan></text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="119" y="81" width="28" height="26" class="combo"/>
