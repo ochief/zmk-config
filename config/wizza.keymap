@@ -11,19 +11,26 @@
 
 #define MAIN		0
 #define NAV 		1
+#define NUM			2
+#define MISC		3
 
+#define DEL_WORD	&kp DEL // need to fix	
 #define DESK_LEFT	&kp LC(LG(LEFT))
 #define DESK_RIGHT	&kp LC(LG(RIGHT))
-#define TAB_PREV	&kp LC(PG_UP)
-#define TAB_NEXT	&kp LC(PG_DN)
-#define SHO_CUT		&kp LC(X)
+#define KILL_APP	&kp LA(F4)
+#define LAUNCHER	&kp LA(SPACE)
+#define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
+#define SHO_CUT		&kp LC(X)
 #define SHO_PASTE	&kp LC(V)
 #define SHO_PASTE_S	&kp LC(LS(V))
-#define SHO_ALT_TAB &kp LA(TAB)
-#define SHO_APP_SEL &kp LC(LA(TAB))
+#define SHO_SEL_ALL &kp LC(A)
+#define SK(KEY) 	&nk KEY KEY
+#define TAB_PREV	&kp LC(PG_UP)
+#define TAB_NEW		&kp LC(TAB) // hold for incognito	
+#define TAB_NEXT	&kp LC(PG_DN)
 
-#define SK(KEY) &nk KEY KEY
+// lock / ctrl alt del
 
 &sk 		{ release-after-ms = <60000>; };
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
@@ -40,7 +47,7 @@
 	macros {
 		#include "macros.dtsi"
 	};
-
+	
 	keymap {
 		compatible = "zmk,keymap";
 		
@@ -64,7 +71,7 @@
 				&hm LGUI R	&hm LALT S	&hm LSHFT T	&hm LCTL H	&kp K				&kp J		&hm LCTL N	&hm LSHFT E	&hm LALT A	&hm LGUI I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
 												 // &kp SQT
-													&macro_nav	&kp SPACE			&kp LSHFT	&none
+													&macro_nav	&kp SPACE			&kp LSHFT	&macro_num
 			>;
 		};
 
@@ -72,22 +79,37 @@
             label = "NAV";
 			
             bindings = <
-				DESK_LEFT	TAB_PREV	&kp TAB		TAB_NEXT	DESK_RIGHT			&kp PG_UP	&kp HOME	&kp UP		&kp END		&kp DEL
-				SK(LGUI)	SK(LALT)	SK(LSHIFT)	SK(LCTRL)	SHO_PASTE_S			&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&none		&none
+				DESK_LEFT	TAB_PREV	TAB_NEW		TAB_NEXT	DESK_RIGHT			DEL_WORD	&kp F2		&kp UP		KILL_APP	&none
+				SK(LGUI)	SK(LALT)	SK(LSHIFT)	SK(LCTRL)	SHO_PASTE_S			SHO_SEL_ALL	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&kp DEL		&kp TAB
 
-													&trans		&none				SHO_ALT_TAB	SHO_APP_SEL
+													&trans		&none				SHO_APP_SEL &trans
 			>;
-		};	
-	};
-};
+		};
 
-/*
-			bindings = <
+        num_layer {
+            label = "NUM";
+			
+            bindings = <
 				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
-				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
+				&trans		&trans		&trans		&trans		&trans				&trans		&kp 1		&kp 2		&kp 3		&kp 4
 							&trans		&trans		&trans                                      &trans		&trans		&trans
 
 													&trans		&trans				&trans		&trans
 			>;
-*/
+		};
+		
+        misc_layer {
+            label = "MISC";
+			
+            bindings = <
+				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
+				&trans		&trans		&trans		&trans		&trans				&trans		&kp A		&kp B		&kp C		&kp D
+							&trans		&trans		&trans                                      &trans		&trans		&trans
+
+													&trans		&trans				&trans		&trans
+			>;
+		};
+		
+	};
+};
