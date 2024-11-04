@@ -42,12 +42,12 @@
 		COMBO(quote,	&kp GRAVE &kp GRAVE & KP Grave,	 2  3  4,	MAIN, COMBO_TERM_SLOW)	
 		COMBO(tab_bck,  &kp LS(TAB),    				11 12, 		MAIN, COMBO_TERM_FAST) 
 		COMBO(tab_fwd,  &kp TAB,   						12 13, 		MAIN, COMBO_TERM_FAST)              	
-		COMBO(del_bck,	&kp LC(BSPC)					16 17,  	MAIN, COMBO_TERM_FAST)
-		COMBO(del_fwd,	&kp LC(DEL)						17 18,  	MAIN, COMBO_TERM_FAST)
+		COMBO(del_bck,	&kp LC(BSPC),					16 17,  	MAIN, COMBO_TERM_FAST)
+		COMBO(del_fwd,	&kp LC(DEL),						17 18,  	MAIN, COMBO_TERM_FAST)
 		COMBO(capslock,	&kp CAPS,						 6  7  8,  	MAIN, COMBO_TERM_SLOW)
 
 		// common symbols  
-		COMBO(MINUS,    &kp MINUS,    					 6  7,   	MAIN NUM NAV FUN, COMBO_TERM_NORMAL)
+		COMBO(MINUS,    &kp MINUS,    					 6  7,   	MAIN, COMBO_TERM_NORMAL)
 		COMBO(at,       &kp AT,       					 2  3,  	MAIN, COMBO_TERM_NORMAL)
 		COMBO(dqt,      &kp DQT,      					 7  8,		MAIN, COMBO_TERM_NORMAL)
 		COMBO(slash,    &kp SLASH,    					23 25, 		MAIN, COMBO_TERM_NORMAL)
