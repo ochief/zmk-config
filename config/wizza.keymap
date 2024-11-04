@@ -11,6 +11,7 @@
 
 #define MAIN 0
 
+#include "macros.dtsi"
 #include "combos.dtsi"
 
 / {
