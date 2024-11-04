@@ -16,10 +16,10 @@
 #define DESK_RIGHT	&kp LC(LG(RIGHT))
 #define TAB_PREV	&kp LC(PG_UP)
 #define TAB_NEXT	&kp LC(PG_DN)
-#define CUT			&kp LC(X)
-#define COPY		&kp LC(C)
-#define PASTE		&kp LC(V)
-#define PASTE_S		&kp LC(LS(V))
+#define SHO_CUT		&kp LC(X)
+#define SHO_COPY	&kp LC(C)
+#define SHO_PASTE	&kp LC(V)
+#define SHO_PASTE_S	&kp LC(LS(V))
 
 #define SK(KEY) &nk KEY KEY
 
@@ -27,17 +27,9 @@
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 
 / {
-	behaviors {
-		#include "behaviors.dtsi"
-	};
-	
-	combos {
-		#include "combos.dtsi"
-	};
-	
-	macros {
-		#include "macros.dtsi"
-	};
+	behaviors	{ #include "behaviors.dtsi"; };
+	combos 		{ #include "combos.dtsi"; };
+	macros	 	{ #include "macros.dtsi"; };
 
 	keymap {
 		compatible = "zmk,keymap";
@@ -71,8 +63,8 @@
 			
             bindings = <
 				DESK_LEFT	TAB_PREV	&kp TAB		TAB_NEXT	DESK_RIGHT			&kp PG_UP	&kp HOME	&kp UP		&kp END		&kp DEL
-				SK(LGUI)	SK(LALT)	SK(LSHIFT)	SK(LCTRL)	PASTE_S				&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
-							CUT			COPY		PASTE                                      	&kp BSPC	&none		&none
+				SK(LGUI)	SK(LALT)	SK(LSHIFT)	SK(LCTRL)	SHO_PASTE_S				&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
+							SHO_CUT		SHO_COPY	SHO_PASTE                                      	&kp BSPC	&none		&none
 
 													&trans		&none				&none		&none
 			>;
