@@ -14,8 +14,11 @@ combos:
 - p: [5, 15]
   k: DEL
   l: [main]
-- p: [7, 16]
-  k: '&'
+- p: [6, 7, 8]
+  k: CAPS
+  l: [main]
+- p: [27, 28]
+  k: '&caps_word'
   l: [main]
 - p: [12, 22]
   k: ESC
@@ -23,16 +26,10 @@ combos:
 - p: [17, 23]
   k: RET
   l: [main]
-- p: [2, 3]
-  k: UND
-  l: [main]
-- p: [27, 28]
-  k: '&caps_word'
-  l: [main]
 - p: [1, 2, 3]
   k: Sft+Gui+ S
   l: [main]
-- p: [1, 2]
+- p: [2, 13]
   k: '&macro_grave3'
   l: [main]
 - p: [11, 12]
@@ -47,20 +44,14 @@ combos:
 - p: [17, 18]
   k: Ctl+ DEL
   l: [main]
-- p: [6, 7, 8]
-  k: CAPS
-  l: [main]
 - p: [2, 3]
-  k: '@'
+  k: _
   l: [main]
 - p: [6, 7]
   k: '-'
   l: [main]
-- p: [7, 8]
-  k: '"'
-  l: [main]
-- p: [20, 22]
-  k: \
+- p: [7, 16]
+  k: '&'
   l: [main]
 - p: [23, 25]
   k: /
@@ -70,6 +61,15 @@ combos:
   l: [main]
 - p: [24, 25]
   k: '?'
+  l: [main]
+- p: [1, 2]
+  k: '"'
+  l: [main]
+- p: [7, 8]
+  k: '@'
+  l: [main]
+- p: [20, 22]
+  k: '#'
   l: [main]
 - p: [0, 10]
   k: <
