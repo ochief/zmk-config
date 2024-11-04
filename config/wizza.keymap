@@ -92,7 +92,7 @@
 			
             bindings = <
 				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
-				&trans		&trans		&trans		&trans		&trans				&trans		&kp 1		&kp 2		&kp 3		&kp 4
+				&trans		&trans		&trans		&trans		&trans				&trans		&kp N1		&kp N2		&kp N3		&kp N4
 							&trans		&trans		&trans                                      &trans		&trans		&trans
 
 													&trans		&trans				&trans		&trans
