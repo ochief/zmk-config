@@ -16,8 +16,15 @@
 #define DESK_RIGHT	&kp LC(LG(RIGHT))
 #define TAB_PREV	&kp LC(PG_UP)
 #define TAB_NEXT	&kp LC(PG_DN)
+#define CUT			&kp LC(X)
+#define COPY		&kp LC(C)
+#define PASTE		&kp LC(V)
+#define PASTE_S		&kp LC(LS(V))
 
-&caps_word { continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
+#define SK(KEY) &nk KEY KEY
+
+&sk 		{ release-after-ms = <60000>; };
+&caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 
 / {
 	behaviors {
@@ -64,8 +71,8 @@
 			
             bindings = <
 				DESK_LEFT	TAB_PREV	&kp TAB		TAB_NEXT	DESK_RIGHT			&kp PG_UP	&kp HOME	&kp UP		&kp END		&kp DEL
-				&none		&none		&none		&none		&none				&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
-							&none		&none		&none                                      	&kp BSPC	&none		&none
+				SK(LGUI)	SK(LALT)	SK(LSHIFT)	SK(LCTRL)	PASTE_S				&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
+							CUT			COPY		PASTE                                      	&kp BSPC	&none		&none
 
 													&trans		&none				&none		&none
 			>;
