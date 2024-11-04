@@ -42,7 +42,7 @@
 		
 		COMBO(caps_w,   &caps_word,   					27 28, 		MAIN, COMBO_TERM_SLOW)                
 		COMBO(screens, 	&kp LS(LG(S)), 					 1  2  3,		MAIN, COMBO_TERM_SLOW)
-		COMBO(quote,	grave3,			 		 		26 29,		MAIN, COMBO_TERM_SLOW)	
+		COMBO(quote,	&macro_grave3,	 		 		26 29,		MAIN, COMBO_TERM_SLOW)	
 		COMBO(tab_bck,  &kp LS(TAB),    				11 12, 		MAIN, COMBO_TERM_FAST) 
 		COMBO(tab_fwd,  &kp TAB,   						12 13, 		MAIN, COMBO_TERM_FAST)              	
 		COMBO(del_bck,	&kp LC(BSPC),					16 17,  	MAIN, COMBO_TERM_FAST)
