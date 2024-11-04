@@ -26,47 +26,43 @@
 #define COMBO_TERM_NORMAL 30
 #define COMBO_TERM_SLOW 40
 
-/ {
-	combos {
-		compatible = "zmk,combos";
+compatible = "zmk,combos";
 
-		// missing alphas
-		COMBO(z,		&kp Z,							20 21, 		MAIN, COMBO_TERM_NORMAL)	
-		COMBO(q,		&kp Q,							21 22, 		MAIN, COMBO_TERM_NORMAL)
-		
-		// functions + clipboard + history
-		COMBO(bspc,     &kp BSPC,     					 4 14,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(del,     	&kp DEL,     					 5 15,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(esc,      &kp ESC,      					 2 13,  	MAIN, COMBO_TERM_NORMAL)
-		COMBO(ret,      &kp RET,      					16  7,  	MAIN, COMBO_TERM_NORMAL)
-		
-		COMBO(caps_w,   &caps_word,   					27 28, 		MAIN, COMBO_TERM_SLOW)                
-		COMBO(screens, 	&kp LS(LG(S)), 					 1  2  3,	MAIN, COMBO_TERM_SLOW)
-		COMBO(quote,	&macro_grave3,	 		 		26 29,		MAIN, COMBO_TERM_SLOW)	
-		COMBO(tab_bck,  &kp LS(TAB),    				11 12, 		MAIN, COMBO_TERM_FAST) 
-		COMBO(tab_fwd,  &kp TAB,   						12 13, 		MAIN, COMBO_TERM_FAST)              	
-		COMBO(del_bck,	&kp LC(BSPC),					16 17,  	MAIN, COMBO_TERM_FAST)
-		COMBO(del_fwd,	&kp LC(DEL),					17 18,  	MAIN, COMBO_TERM_FAST)
-		COMBO(capslock,	&kp CAPS,						 6  7  8,  	MAIN, COMBO_TERM_SLOW)
+// missing alphas
+COMBO(z,		&kp Z,							20 21, 		MAIN, COMBO_TERM_NORMAL)	
+COMBO(q,		&kp Q,							21 22, 		MAIN, COMBO_TERM_NORMAL)
 
-		// common symbols  
-		COMBO(amp,      &kp AMP,      					 1  2,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(at,       &kp AT,       					 2  3,  	MAIN, COMBO_TERM_NORMAL)
-		COMBO(MINUS,    &kp MINUS,    					 6  7,   	MAIN, COMBO_TERM_NORMAL)
-		COMBO(dqt,      &kp DQT,      					 7  8,		MAIN, COMBO_TERM_NORMAL)
-		COMBO(bslash,   &kp BSLH,    					20 22, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(slash,    &kp SLASH,    					23 25, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(excl,     &kp EXCL,    					23 24, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(qmark,    &kp QMARK,    					24 25, 		MAIN, COMBO_TERM_NORMAL)
+// functions + clipboard + history
+COMBO(bspc,     &kp BSPC,     					 4 14,  	MAIN, COMBO_TERM_SLOW)
+COMBO(del,     	&kp DEL,     					 5 15,  	MAIN, COMBO_TERM_SLOW)
+COMBO(esc,      &kp ESC,      					 2 13,  	MAIN, COMBO_TERM_NORMAL)
+COMBO(ret,      &kp RET,      					16  7,  	MAIN, COMBO_TERM_NORMAL)
 
-		// brackets 
-		COMBO(lt,       &kp LT,        					 0 10,		MAIN, COMBO_TERM_NORMAL)
-		COMBO(lbkt,     &kp LBKT,     					 1 11,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(lpar,     &kp LPAR,     					 2 12,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(lbrc,     &kp LBRC,     					 3 13,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(gt,       &kp GT,        					 9 19,  	MAIN, COMBO_TERM_NORMAL)
-		COMBO(rbrc,     &kp RBRC,     	 				 6 16,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(rpar,     &kp RPAR,     					 7 17,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(rbkt,     &kp RBKT,     					 8 18,  	MAIN, COMBO_TERM_SLOW)
-	};
-};
+COMBO(caps_w,   &caps_word,   					27 28, 		MAIN, COMBO_TERM_SLOW)                
+COMBO(screens, 	&kp LS(LG(S)), 					 1  2  3,	MAIN, COMBO_TERM_SLOW)
+COMBO(quote,	&macro_grave3,	 		 		26 29,		MAIN, COMBO_TERM_SLOW)	
+COMBO(tab_bck,  &kp LS(TAB),    				11 12, 		MAIN, COMBO_TERM_FAST) 
+COMBO(tab_fwd,  &kp TAB,   						12 13, 		MAIN, COMBO_TERM_FAST)              	
+COMBO(del_bck,	&kp LC(BSPC),					16 17,  	MAIN, COMBO_TERM_FAST)
+COMBO(del_fwd,	&kp LC(DEL),					17 18,  	MAIN, COMBO_TERM_FAST)
+COMBO(capslock,	&kp CAPS,						 6  7  8,  	MAIN, COMBO_TERM_SLOW)
+
+// common symbols  
+COMBO(amp,      &kp AMP,      					 1  2,  	MAIN, COMBO_TERM_SLOW)
+COMBO(at,       &kp AT,       					 2  3,  	MAIN, COMBO_TERM_NORMAL)
+COMBO(MINUS,    &kp MINUS,    					 6  7,   	MAIN, COMBO_TERM_NORMAL)
+COMBO(dqt,      &kp DQT,      					 7  8,		MAIN, COMBO_TERM_NORMAL)
+COMBO(bslash,   &kp BSLH,    					20 22, 		MAIN, COMBO_TERM_NORMAL)
+COMBO(slash,    &kp SLASH,    					23 25, 		MAIN, COMBO_TERM_NORMAL)
+COMBO(excl,     &kp EXCL,    					23 24, 		MAIN, COMBO_TERM_NORMAL)
+COMBO(qmark,    &kp QMARK,    					24 25, 		MAIN, COMBO_TERM_NORMAL)
+
+// brackets 
+COMBO(lt,       &kp LT,        					 0 10,		MAIN, COMBO_TERM_NORMAL)
+COMBO(lbkt,     &kp LBKT,     					 1 11,  	MAIN, COMBO_TERM_SLOW)
+COMBO(lpar,     &kp LPAR,     					 2 12,  	MAIN, COMBO_TERM_SLOW)
+COMBO(lbrc,     &kp LBRC,     					 3 13,  	MAIN, COMBO_TERM_SLOW)
+COMBO(gt,       &kp GT,        					 9 19,  	MAIN, COMBO_TERM_NORMAL)
+COMBO(rbrc,     &kp RBRC,     	 				 6 16,  	MAIN, COMBO_TERM_SLOW)
+COMBO(rpar,     &kp RPAR,     					 7 17,  	MAIN, COMBO_TERM_SLOW)
+COMBO(rbkt,     &kp RBKT,     					 8 18,  	MAIN, COMBO_TERM_SLOW)
