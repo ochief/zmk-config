@@ -33,8 +33,8 @@ COMBO(z,		&kp Z,							20 21, 		MAIN, COMBO_TERM_NORMAL)
 COMBO(q,		&kp Q,							21 22, 		MAIN, COMBO_TERM_NORMAL)
 
 // functions + clipboard + history
-COMBO(bspc,     &kp BSPC,     					 4 14,  	MAIN, COMBO_TERM_SLOW)
-COMBO(del,     	&kp DEL,     					 5 15,  	MAIN, COMBO_TERM_SLOW)
+COMBO(del,     	&kp DEL,     					 4 14,  	MAIN, COMBO_TERM_SLOW)
+COMBO(bspc,     &kp BSPC,     					 5 15,  	MAIN, COMBO_TERM_SLOW)
 COMBO(capslock,	&kp CAPS,						 6  7  8,  	MAIN, COMBO_TERM_SLOW)
 COMBO(capsword, &caps_word,   					27 28, 		MAIN, COMBO_TERM_SLOW)
 COMBO(esc,      &kp ESC,      					12 22,  	MAIN, COMBO_TERM_NORMAL)
