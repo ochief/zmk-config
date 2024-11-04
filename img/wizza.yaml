@@ -9,10 +9,10 @@ combos:
   k: Q
   l: [main]
 - p: [4, 14]
-  k: BSPC
+  k: DEL
   l: [main]
 - p: [5, 15]
-  k: DEL
+  k: BSPC
   l: [main]
 - p: [6, 7, 8]
   k: CAPS
