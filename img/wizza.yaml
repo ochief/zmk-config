@@ -1,6 +1,36 @@
 layout: {qmk_keyboard: berylline}
 layers:
-  main: [W, C, G, D, V, X, L, U, O, Y, R, S, T, H, K, J, N, E, A, I, F, P, B, M, ',', ., '''', SPACE, LSHFT, BSPC]
+  main:
+  - W
+  - C
+  - G
+  - D
+  - V
+  - X
+  - L
+  - U
+  - O
+  - Y
+  - {t: R, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: T, h: LSHFT}
+  - {t: H, h: LCTL}
+  - K
+  - J
+  - {t: N, h: LCTL}
+  - {t: E, h: LSHFT}
+  - {t: A, h: LALT}
+  - {t: I, h: LGUI}
+  - F
+  - P
+  - B
+  - M
+  - ','
+  - .
+  - ''''
+  - SPACE
+  - LSHFT
+  - BSPC
 combos:
 - p: [20, 21]
   k: Z
@@ -69,7 +99,7 @@ combos:
   k: '@'
   l: [main]
 - p: [20, 22]
-  k: '#'
+  k: NUBS
   l: [main]
 - p: [0, 10]
   k: <
