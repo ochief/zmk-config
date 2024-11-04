@@ -31,18 +31,19 @@
 
 	keymap {
 		compatible = "zmk,keymap";
-/*					KEY POSITIONS
-		 0  1  2  3  4		 5  6  7  8  9
-		10 11 12 13 14		15 16 17 18 19 
-		   20 21 22			   23 24 25
-			     26 27		28 29
 		
-		 w  c  g  d  v		 x  l  u  o  y
-		 r  s  t  h  k		 j  n  e  a  i
-		 f  p  b				m  ,  .
+		/*				KEY POSITIONS
+		 0	 1	 2	 3	 4		 5	 6	 7	 8	 9
+		10	11	12	13	14		15	16	17	18	19 
+			20	21	22				23	24	25
+					26	27		28	29
+		
+		 w   c	 g	 d	 v		 x	 l	 u	 o	 y
+		 r   s	 t	 h	 k		 j	 n	 e	 a	 i
+			 f	 p	 b				 m	 ,	 .
 		 
-		 HRMs = GASC
-*/
+		HRMs = GASC								 */
+
         main_layer {
             label = "MAIN";
 			
@@ -50,8 +51,8 @@
 				&kp W		&kp C		&kp G		&kp D		&kp V				&kp X		&kp L		&kp U		&kp O		&kp Y
 				&hm LGUI R	&hm LALT S	&hm LSHFT T	&hm LCTL H	&kp K				&kp J		&hm LCTL N	&hm LSHFT E	&hm LALT A	&hm LGUI I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
-
-													&kp SQT		&kp SPACE			&kp LSHFT	&macro_nav
+												 // &kp SQT
+													&macro_nav	&kp SPACE			&kp LSHFT	&trans
 			>;
 		};
 
@@ -59,11 +60,11 @@
             label = "NAV";
 			
             bindings = <
-				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
-				&trans		&kp LEFT	&kp DOWN	&kp RIGHT	&trans				&trans		&trans		&trans		&trans		&trans
-							&trans		&trans		&trans                                      &trans		&trans		&trans
+				&trans		&trans		&trans		&trans		&trans				&kp PG_UP	&kp HOME	&kp UP		&kp END		&kp DEL
+				&trans		&trans		&trans		&trans		&trans				&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
+							&trans		&trans		&trans                                      &kp BSPC	&trans		&trans
 
-													&trans		&kp UP				&trans		&trans
+													&trans		&trans				&trans		&trans
 			>;
 			
 			/*
