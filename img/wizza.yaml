@@ -42,10 +42,10 @@ layers:
   - UP
   - END
   - DEL
-  - '&nk LGUI LGUI'
-  - '&nk LALT LALT'
-  - '&nk LSHIFT LSHIFT'
-  - '&nk LCTRL LCTRL'
+  - {t: LGUI, h: LGUI}
+  - {t: LALT, h: LALT}
+  - {t: LSHIFT, h: LSHIFT}
+  - {t: LCTRL, h: LCTRL}
   - Ctl+Sft+ V
   - PG DN
   - LEFT
