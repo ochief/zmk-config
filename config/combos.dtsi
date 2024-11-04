@@ -55,9 +55,9 @@ COMBO(excl,     &kp EXCL,    					23 24, 		MAIN, COMBO_TERM_NORMAL)
 COMBO(qmark,    &kp QMARK,    					24 25, 		MAIN, COMBO_TERM_NORMAL)
 
 // stupid UK locale - name is correct
-COMBO(at,       &kp DQT,       					 1  2,  	MAIN, COMBO_TERM_NORMAL) // Stupid Locale
-COMBO(dqt,      &kp AT,      					 7  8,		MAIN, COMBO_TERM_NORMAL) // Stupid Locale
-COMBO(bslash,   &kp HASH,    					20 22, 		MAIN, COMBO_TERM_NORMAL) // Stupid Locale
+COMBO(at,       &kp DQT,       					 1  2,  	MAIN, COMBO_TERM_NORMAL)
+COMBO(dqt,      &kp AT,      					 7  8,		MAIN, COMBO_TERM_NORMAL)
+COMBO(bslash,   &kp NUBS,    					20 22, 		MAIN, COMBO_TERM_NORMAL)
 
 // brackets 
 COMBO(lt,       &kp LT,        					 0 10,		MAIN, COMBO_TERM_NORMAL)

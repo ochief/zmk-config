@@ -1,4 +1,3 @@
-/* Macro */
 #define str(s) #s
 #define MACRO(NAME, BINDINGS, WAITMS, TAPMS) \
   macro_##NAME: macro_##NAME { \

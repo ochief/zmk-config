@@ -12,18 +12,14 @@
 #define MAIN 0
 
 &caps_word {
-  continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>;
+  continue-list = <UNDERSCORE MINUS BACKSPACE>;
 };
 
 / {
-
-	combos {
-		#include "combos.dtsi"
-	};
 	
-	macros {
-		#include "macros.dtsi"
-	};
+	behaviors	{ #include "behaviors.dtsi"	};
+	combos		{ #include "combos.dtsi"	};
+	macros 		{ #include "macros.dtsi"	};
 
 	keymap {
 		compatible = "zmk,keymap";
@@ -42,7 +38,7 @@
 			
             bindings = <
 				&kp W		&kp C		&kp G		&kp D		&kp V				&kp X		&kp L		&kp U		&kp O		&kp Y
-				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
+				&hm LGUI R	&hm LALT S	&hm LSHFT T	&hm LCTL H	&kp K				&kp J		&hm LCTL N	&hm LSHFT E	&hm LALT A	&hm LGUI I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
 
 													&kp SQT		&kp SPACE			&kp LSHFT	&kp BSPC
