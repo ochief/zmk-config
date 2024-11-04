@@ -16,10 +16,17 @@
 };
 
 / {
+	behaviors {
+		#include "behaviors.dtsi"
+	};
 	
-	behaviors	{ #include "behaviors.dtsi"	};
-	combos		{ #include "combos.dtsi"	};
-	macros 		{ #include "macros.dtsi"	};
+	combos {
+		#include "combos.dtsi"
+	};
+	
+	macros {
+		#include "macros.dtsi"
+	};
 
 	keymap {
 		compatible = "zmk,keymap";
