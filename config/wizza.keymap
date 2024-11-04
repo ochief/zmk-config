@@ -12,14 +12,14 @@
 #define MAIN 0
 
 &caps_word {
-  continue-list = <UNDERSCORE MINUS BACKSPACE>;
+  continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>;
 };
 
 / {
 	behaviors {
 		#include "behaviors.dtsi"
 	};
-	
+		
 	combos {
 		#include "combos.dtsi"
 	};
@@ -50,8 +50,30 @@
 				&hm LGUI R	&hm LALT S	&hm LSHFT T	&hm LCTL H	&kp K				&kp J		&hm LCTL N	&hm LSHFT E	&hm LALT A	&hm LGUI I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
 
-													&kp SQT		&kp SPACE			&kp LSHFT	&kp BSPC
+													&kp SQT		&kp SPACE			&kp LSHFT	&macro_nav
 			>;
+		};
+
+        nav_layer {
+            label = "NAV";
+			
+            bindings = <
+				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
+				&trans		&kp LEFT	&kp DOWN	&kp RIGHT	&trans				&trans		&trans		&trans		&trans		&trans
+							&trans		&trans		&trans                                      &trans		&trans		&trans
+
+													&trans		&kp UP				&trans		&trans
+			>;
+			
+			/*
+			bindings = <
+				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
+				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
+							&trans		&trans		&trans                                      &trans		&trans		&trans
+
+													&trans		&trans				&trans		&trans
+			>;
+			*/
 		};
 	};
 };
