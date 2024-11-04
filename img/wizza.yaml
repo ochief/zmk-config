@@ -27,7 +27,7 @@ combos:
   k: Sft+Gui+ S
   l: [main]
 - p: [1, 2, 3]
-  k: '`'
+  k: '&grave3'
   l: [main]
 - p: [11, 12]
   k: Sft+ TAB
