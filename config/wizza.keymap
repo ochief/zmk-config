@@ -12,10 +12,10 @@
 #define MAIN		0
 #define NAV 		1
 
-#define DESK_LEFT	kp& LC(LG(LEFT))
-#define DESK_RIGHT	kp& LC(LG(RIGHT))
-#define TAB_PREV	kp& LC(PG_UP)
-#define TAB_NEXT	kp& LC(PG_DN)
+#define DESK_LEFT	&kp LC(LG(LEFT))
+#define DESK_RIGHT	&kp LC(LG(RIGHT))
+#define TAB_PREV	&kp LC(PG_UP)
+#define TAB_NEXT	&kp LC(PG_DN)
 
 &caps_word { continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 
@@ -65,7 +65,7 @@
             bindings = <
 				DESK_LEFT	TAB_PREV	&kp TAB		TAB_NEXT	DESK_RIGHT			&kp PG_UP	&kp HOME	&kp UP		&kp END		&kp DEL
 				&none		&none		&none		&none		&none				&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
-							&none		&none		&none                                      &kp BSPC	&none		&none
+							&none		&none		&none                                      	&kp BSPC	&none		&none
 
 													&trans		&none				&none		&none
 			>;

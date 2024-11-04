@@ -30,38 +30,38 @@ layers:
   - '&macro_nav'
   - SPACE
   - LSHFT
-  - {t: ▽, type: trans}
+  - ''
   nav:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Gui+ LEFT
+  - Ctl+ PG UP
+  - TAB
+  - Ctl+ PG DN
+  - Ctl+Gui+ RIGHT
   - PG UP
   - HOME
   - UP
   - END
   - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - PG DN
   - LEFT
   - DOWN
   - RIGHT
   - RET
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - BSPC
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
 combos:
 - p: [20, 21]
   k: Z
