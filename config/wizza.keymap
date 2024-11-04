@@ -51,26 +51,24 @@
 	keymap {
 		compatible = "zmk,keymap";
 		
-		/*				KEY POSITIONS
-		 0	 1	 2	 3	 4		 5	 6	 7	 8	 9
-		10	11	12	13	14		15	16	17	18	19 
-			20	21	22				23	24	25
-					26	27		28	29
-
-		 W	 C	 G	 D	 V		 X	 L	 U	 O	 Y
-		 R	 S	 T	 H	 K		 J	 N	 E	 A	 I 
-			 F	 P	 B				 M	 ,	 .
-		 
-		HRMs = GASC								 */
+//						KEY POSITIONS
+//		 0	 1	 2	 3	 4		 5	 6	 7	 8	 9
+//		10	11	12	13	14		15	16	17	18	19 
+//			20	21	22				23	24	25
+//					26	27		28	29
+//
+//		 W	 C	 G	 D	 V		 X	 L	 U	 O	 Y
+//		 R	 S	 T	 H	 K		 J	 N	 E	 A	 I 
+//			 F	 P	 B				 M	 ,	 .
 
         main_layer {
             label = "MAIN";
 			
             bindings = <
 				&kp W		&kp C		&kp G		&kp D		&kp V				&kp X		&kp L		&kp U		&kp O		&kp Y
-				&hm LGUI R	&hm LALT S	&hm LSHFT T	&hm LCTL H	&kp K				&kp J		&hm LCTL N	&hm LSHFT E	&hm LALT A	&hm LGUI I
+				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
-												 // &kp SQT
+
 													&macro_nav	&kp SPACE			&kp LSHFT	&macro_num
 			>;
 		};
@@ -79,11 +77,11 @@
             label = "NAV";
 			
             bindings = <
-				DESK_LEFT	TAB_PREV	TAB_NEW		TAB_NEXT	DESK_RIGHT			DEL_WORD	&kp F2		&kp UP		KILL_APP	&none
-				SK(LGUI)	SK(LALT)	SK(LSHIFT)	SK(LCTRL)	SHO_PASTE_S			SHO_SEL_ALL	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&kp DEL		&kp TAB
+				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&kp UP		TAB_NEXT	KILL_APP
+				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&none		&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&kp TAB		TAB_NEW
 
-													&trans		&none				SHO_APP_SEL &trans
+													&trans		&none				&kp RET		&trans
 			>;
 		};
 
@@ -113,3 +111,13 @@
 		
 	};
 };
+
+/*
+	Add SQT to macro_nav
+	Shift and BSPC = DEL
+	Hold SHO_PASE for paste special
+	Add New Tab -> Hold for New Incognito
+	Shortcut on NAV left hand for delete/backspace
+	sort out custom shifts ,; .: ' ' a
+	tidy up keymap drawer
+*/
