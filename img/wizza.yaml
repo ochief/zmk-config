@@ -23,11 +23,11 @@ combos:
 - p: [27, 28]
   k: '&caps_word'
   l: [main]
-- p: [26, 29]
+- p: [1, 2, 3]
   k: Sft+Gui+ S
   l: [main]
-- p: [1, 2, 3]
-  k: '`'
+- p: [26, 29]
+  k: '&grave3'
   l: [main]
 - p: [11, 12]
   k: Sft+ TAB

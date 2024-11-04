@@ -270,18 +270,18 @@ path.combo {
 <text x="369" y="245" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
 <g class="combo combopos-7">
-<path d="M369,230 l-109,0" class="combo"/>
-<path d="M369,230 l109,0" class="combo"/>
-<rect rx="6" ry="6" x="355" y="217" width="28" height="26" class="combo"/>
-<text x="369" y="230" class="combo tap">
-<tspan x="369" dy="-0.6em" style="font-size: 88%">Sft+Gui+</tspan><tspan x="369" dy="1.2em" style="font-size: 88%">S</tspan>
-</text>
-</g>
-<g class="combo combopos-8">
 <path d="M163,39 l-45,5" class="combo"/>
 <path d="M163,39 l43,3" class="combo"/>
 <rect rx="6" ry="6" x="149" y="26" width="28" height="26" class="combo"/>
-<text x="163" y="39" class="combo tap">`</text>
+<text x="163" y="39" class="combo tap">
+<tspan x="163" dy="-0.6em" style="font-size: 88%">Sft+Gui+</tspan><tspan x="163" dy="1.2em" style="font-size: 88%">S</tspan>
+</text>
+</g>
+<g class="combo combopos-8">
+<path d="M369,230 l-109,0" class="combo"/>
+<path d="M369,230 l109,0" class="combo"/>
+<rect rx="6" ry="6" x="355" y="217" width="28" height="26" class="combo"/>
+<text x="369" y="230" class="combo tap">&amp;grave3</text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="119" y="81" width="28" height="26" class="combo"/>
