@@ -40,7 +40,7 @@
 		COMBO(esc,      &kp ESC,      					 2 13,  	MAIN, COMBO_TERM_NORMAL)
 		COMBO(ret,      &kp RET,      					16  7,  	MAIN, COMBO_TERM_NORMAL)
 		
-		COMBO(caps_w,   &caps_word,   					27 28, 		MAIN, COMBO_TERM_FAST)                
+		COMBO(caps_w,   &caps_word,   					27 28, 		MAIN, COMBO_TERM_SLOW)                
 		COMBO(screens, 	&kp LS(LG(S)), 					26 29,		MAIN, COMBO_TERM_SLOW)
 		COMBO(quote,	&kp GRAVE &kp GRAVE & KP Grave,	 1  2  3,	MAIN, COMBO_TERM_SLOW)	
 		COMBO(tab_bck,  &kp LS(TAB),    				11 12, 		MAIN, COMBO_TERM_FAST) 
