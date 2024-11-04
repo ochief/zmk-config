@@ -29,7 +29,7 @@
 compatible = "zmk,combos";
 
 // missing alphas
-COMBO(z,		&kp Z,							20 21, 		MAIN, COMBO_TERM_NORMAL)	
+COMBO(z,		&kp Z,							20 21, 		MAIN, COMBO_TERM_NORMAL)
 COMBO(q,		&kp Q,							21 22, 		MAIN, COMBO_TERM_NORMAL)
 
 // functions + clipboard + history
@@ -40,9 +40,9 @@ COMBO(capsword, &caps_word,   					27 28, 		MAIN, COMBO_TERM_SLOW)
 COMBO(esc,      &kp ESC,      					12 22,  	MAIN, COMBO_TERM_NORMAL)
 COMBO(ret,      &kp RET,      					17 23,  	MAIN, COMBO_TERM_NORMAL)
 COMBO(screen, 	&kp LS(LG(S)), 					 1  2  3,	MAIN, COMBO_TERM_SLOW)
-COMBO(grave3,	&macro_grave3,	 		 		 2 13,		MAIN, COMBO_TERM_NORMAL)	
-COMBO(tab_bck,  &kp LS(TAB),    				11 12, 		MAIN, COMBO_TERM_FAST) 
-COMBO(tab_fwd,  &kp TAB,   						12 13, 		MAIN, COMBO_TERM_FAST)              	
+COMBO(grave3,	&macro_grave3,	 		 		 2 13,		MAIN, COMBO_TERM_NORMAL)
+COMBO(tab_bck,  &kp LS(TAB),    				11 12, 		MAIN, COMBO_TERM_FAST)
+COMBO(tab_fwd,  &kp TAB,   						12 13, 		MAIN, COMBO_TERM_FAST)
 COMBO(del_bck,	&kp LC(BSPC),					16 17,  	MAIN, COMBO_TERM_FAST)
 COMBO(del_fwd,	&kp LC(DEL),					17 18,  	MAIN, COMBO_TERM_FAST)
 
