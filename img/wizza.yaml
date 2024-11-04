@@ -42,19 +42,19 @@ layers:
   - UP
   - END
   - DEL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&nk LGUI LGUI'
+  - '&nk LALT LALT'
+  - '&nk LSHIFT LSHIFT'
+  - '&nk LCTRL LCTRL'
+  - Ctl+Sft+ V
   - PG DN
   - LEFT
   - DOWN
   - RIGHT
   - RET
-  - ''
-  - ''
-  - ''
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
   - BSPC
   - ''
   - ''
