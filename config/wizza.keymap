@@ -11,10 +11,20 @@
 
 #define MAIN 0
 
-#include "macros.dtsi"
-#include "combos.dtsi"
+&caps_word {
+  continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>;
+};
 
 / {
+
+	combos {
+		#include "combos.dtsi"
+	};
+	
+	macros {
+		#include "macros.dtsi"
+	};
+
 	keymap {
 		compatible = "zmk,keymap";
 /*					KEY POSITIONS
