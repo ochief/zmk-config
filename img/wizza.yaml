@@ -11,41 +11,56 @@ combos:
 - p: [4, 14]
   k: BSPC
   l: [main]
+- p: [5, 15]
+  k: DEL
+  l: [main]
 - p: [2, 13]
   k: ESC
   l: [main]
 - p: [16, 7]
   k: RET
   l: [main]
+- p: [27, 28]
+  k: '&caps_word'
+  l: [main]
+- p: [26, 29]
+  k: Sft+Gui+ S
+  l: [main]
+- p: [1, 2, 3]
+  k: '`'
+  l: [main]
+- p: [11, 12]
+  k: Sft+ TAB
+  l: [main]
+- p: [12, 13]
+  k: TAB
+  l: [main]
+- p: [16, 17]
+  k: Ctl+ BSPC
+  l: [main]
+- p: [17, 18]
+  k: Ctl+ DEL
+  l: [main]
 - p: [6, 7, 8]
   k: CAPS
   l: [main]
-- p: [16, 17]
-  k: TAB
-  l: [main]
-- p: [12, 13]
-  k: Alt+ BSPC
-  l: [main]
-- p: [11, 12]
-  k: '&caps_word'
-  l: [main]
-- p: [17, 18]
-  k: '&caps_word'
-  l: [main]
-- p: [6, 7]
-  k: '-'
+- p: [1, 2]
+  k: AMP
   l: [main]
 - p: [2, 3]
   k: '@'
   l: [main]
+- p: [6, 7]
+  k: '-'
+  l: [main]
 - p: [7, 8]
   k: '"'
   l: [main]
+- p: [20, 22]
+  k: \
+  l: [main]
 - p: [23, 25]
   k: /
-  l: [main]
-- p: [21, 22]
-  k: '`'
   l: [main]
 - p: [23, 24]
   k: '!'
