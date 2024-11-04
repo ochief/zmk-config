@@ -76,7 +76,7 @@
 				SK(LGUI)	SK(LALT)	SK(LSHIFT)	SK(LCTRL)	SHO_PASTE_S			&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&none		&none
 
-													&trans		&none				ALT_TAB		APP_SEL
+													&trans		&none				SHO_ALT_TAB	SHO_APP_SEL
 			>;
 		};	
 	};
