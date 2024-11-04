@@ -35,28 +35,29 @@ COMBO(q,		&kp Q,							21 22, 		MAIN, COMBO_TERM_NORMAL)
 // functions + clipboard + history
 COMBO(bspc,     &kp BSPC,     					 4 14,  	MAIN, COMBO_TERM_SLOW)
 COMBO(del,     	&kp DEL,     					 5 15,  	MAIN, COMBO_TERM_SLOW)
-COMBO(amp,      &kp AMPS,      					 7 16,  	MAIN, COMBO_TERM_SLOW)
-
+COMBO(capslock,	&kp CAPS,						 6  7  8,  	MAIN, COMBO_TERM_SLOW)
+COMBO(capsword, &caps_word,   					27 28, 		MAIN, COMBO_TERM_SLOW)
 COMBO(esc,      &kp ESC,      					12 22,  	MAIN, COMBO_TERM_NORMAL)
 COMBO(ret,      &kp RET,      					17 23,  	MAIN, COMBO_TERM_NORMAL)
-COMBO(und_sco,	&kp UND,						 2  3,		MAIN, COMBO_TERM_NORMAL)
-COMBO(caps_w,   &caps_word,   					27 28, 		MAIN, COMBO_TERM_SLOW)                
-COMBO(screens, 	&kp LS(LG(S)), 					 1  2  3,	MAIN, COMBO_TERM_SLOW)
-COMBO(quote,	&macro_grave3,	 		 		 1  2,		MAIN, COMBO_TERM_NORMAL)	
+COMBO(screen, 	&kp LS(LG(S)), 					 1  2  3,	MAIN, COMBO_TERM_SLOW)
+COMBO(grave3,	&macro_grave3,	 		 		 2 13,		MAIN, COMBO_TERM_NORMAL)	
 COMBO(tab_bck,  &kp LS(TAB),    				11 12, 		MAIN, COMBO_TERM_FAST) 
 COMBO(tab_fwd,  &kp TAB,   						12 13, 		MAIN, COMBO_TERM_FAST)              	
 COMBO(del_bck,	&kp LC(BSPC),					16 17,  	MAIN, COMBO_TERM_FAST)
 COMBO(del_fwd,	&kp LC(DEL),					17 18,  	MAIN, COMBO_TERM_FAST)
-COMBO(capslock,	&kp CAPS,						 6  7  8,  	MAIN, COMBO_TERM_SLOW)
 
 // common symbols 
-COMBO(at,       &kp AT,       					 2  3,  	MAIN, COMBO_TERM_NORMAL)
-COMBO(MINUS,    &kp MINUS,    					 6  7,   	MAIN, COMBO_TERM_NORMAL)
-COMBO(dqt,      &kp DQT,      					 7  8,		MAIN, COMBO_TERM_NORMAL)
-COMBO(bslash,   &kp BSLH,    					20 22, 		MAIN, COMBO_TERM_NORMAL)
+COMBO(under,    &kp UNDER,     					 2  3,  	MAIN, COMBO_TERM_NORMAL)
+COMBO(minus,    &kp MINUS,    					 6  7,   	MAIN, COMBO_TERM_NORMAL)
+COMBO(amps,     &kp AMPS,      					 7 16,  	MAIN, COMBO_TERM_SLOW)
 COMBO(slash,    &kp SLASH,    					23 25, 		MAIN, COMBO_TERM_NORMAL)
 COMBO(excl,     &kp EXCL,    					23 24, 		MAIN, COMBO_TERM_NORMAL)
 COMBO(qmark,    &kp QMARK,    					24 25, 		MAIN, COMBO_TERM_NORMAL)
+
+// stupid UK locale - name is correct
+COMBO(at,       &kp DQT,       					 1  2,  	MAIN, COMBO_TERM_NORMAL) // Stupid Locale
+COMBO(dqt,      &kp AT,      					 7  8,		MAIN, COMBO_TERM_NORMAL) // Stupid Locale
+COMBO(bslash,   &kp HASH,    					20 22, 		MAIN, COMBO_TERM_NORMAL) // Stupid Locale
 
 // brackets 
 COMBO(lt,       &kp LT,        					 0 10,		MAIN, COMBO_TERM_NORMAL)
