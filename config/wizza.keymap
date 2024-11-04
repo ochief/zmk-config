@@ -55,7 +55,7 @@
 				&hm LGUI R	&hm LALT S	&hm LSHFT T	&hm LCTL H	&kp K				&kp J		&hm LCTL N	&hm LSHFT E	&hm LALT A	&hm LGUI I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
 												 // &kp SQT
-													&macro_nav	&kp SPACE			&kp LSHFT	&trans
+													&macro_nav	&kp SPACE			&kp LSHFT	&none
 			>;
 		};
 
@@ -64,13 +64,16 @@
 			
             bindings = <
 				DESK_LEFT	TAB_PREV	&kp TAB		TAB_NEXT	DESK_RIGHT			&kp PG_UP	&kp HOME	&kp UP		&kp END		&kp DEL
-				&trans		&trans		&trans		&trans		&trans				&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
-							&trans		&trans		&trans                                      &kp BSPC	&trans		&trans
+				&none		&none		&none		&none		&none				&kp PG_DN	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RET
+							&none		&none		&none                                      &kp BSPC	&none		&none
 
-													&trans		&trans				&trans		&trans
+													&trans		&none				&none		&none
 			>;
-			
-			/*
+		};	
+	};
+};
+
+/*
 			bindings = <
 				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
 				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
@@ -78,7 +81,4 @@
 
 													&trans		&trans				&trans		&trans
 			>;
-			*/
-		};
-	};
-};
+*/
