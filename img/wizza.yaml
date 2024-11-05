@@ -17,7 +17,7 @@ layers:
   - {t: LCTRL, h: LCTRL}
   - {t: LSHIFT, h: LSHIFT}
   - Ctl+ A
-  - ''
+  - Ctl+ T
   - LEFT
   - DOWN
   - RIGHT
@@ -26,8 +26,8 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - BSPC
-  - TAB
-  - Ctl+ TAB
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - ''
   - RET
