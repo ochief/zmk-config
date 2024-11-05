@@ -1,6 +1,36 @@
 layout: {qmk_keyboard: berylline}
 layers:
-  main: [W, C, G, D, V, X, L, U, O, Y, R, S, T, H, K, J, N, E, A, I, F, P, B, M, ',', ., '&macro_test', SPACE, LSHFT, '']
+  main:
+  - W
+  - C
+  - G
+  - D
+  - V
+  - X
+  - L
+  - U
+  - O
+  - Y
+  - R
+  - S
+  - T
+  - H
+  - K
+  - J
+  - N
+  - E
+  - A
+  - I
+  - F
+  - P
+  - B
+  - M
+  - ','
+  - .
+  - '&macro_nav'
+  - {t: SPACE, s: CANCEL}
+  - LSHFT
+  - '&macro_num'
   nav:
   - F2
   - Ctl+Gui+ LEFT
