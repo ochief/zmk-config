@@ -100,8 +100,6 @@
 	};
 };
 
-&ht_repeat NAV 0
-
 /*
 	CHANGE SPACE TO CANCEL ON MOD MORPH
 	youtube, chrome, discord, slack, windows, explorer, joplin, drive/chrome/jira/confluence whatsapp =  shortcuts
