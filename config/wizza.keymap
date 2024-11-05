@@ -67,7 +67,7 @@
 			*/
 			bindings = <
 				&kp Y		&kp O		&kp U		&kp L		&kp X				&sqt_only	&kp D		&kp G		&kp C		&kp W
-				&kp I		&kp A		&kp E		&kp N		&kp J				&kp J		&kp H		&kp T		&kp S		&kp R
+				&kp I		&kp A		&kp E		&kp N		&kp J				&kp K		&kp H		&kp T		&kp S		&kp R
 							&kp DOT		&kp COMMA	&kp M                                       &kp B		&kp P		&kp F
 
 													&macro_num	&skq LSHIFT			&skq SPACE	&macro_nav
