@@ -5,7 +5,7 @@ layers:
   - C
   - G
   - D
-  - ''''
+  - {t: '''', s: ''''}
   - X
   - L
   - U
@@ -28,8 +28,8 @@ layers:
   - ','
   - .
   - '&macro_nav'
-  - {t: SPACE, s: CANCEL}
-  - LSHFT
+  - SPACE
+  - {t: LSHIFT, h: sticky}
   - '&macro_num'
   nav:
   - F2
