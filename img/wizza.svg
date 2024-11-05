@@ -225,7 +225,8 @@ path.combo {
 </g>
 <g transform="translate(241, 230)" class="key keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;macro_nav</tspan></text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;macro_dqt</tspan></text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 70%">&amp;macro_sqt</tspan></text>
 </g>
 <g transform="translate(302, 245)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -237,7 +238,6 @@ path.combo {
 </g>
 <g transform="translate(498, 230)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;macro_num</tspan></text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="120" y="139" width="28" height="26" class="combo"/>

@@ -30,6 +30,8 @@
 #define TAB_NEW		&kp LC(T)
 #define TAB_NEXT	&kp LC(PG_DN)
 
+// lock / ctrl alt del
+
 &sk 		{ release-after-ms = <60000>; };
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 
