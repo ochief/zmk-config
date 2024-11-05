@@ -15,7 +15,7 @@ ht: hold_tap {
 	flavor = "hold-preferred";
 	tapping-term-ms = <400>;
 	quick-tap-ms = <200>;
-	bindings = <&kp>, <&kp>;
+	bindings = <&macro_sqt>, <&macro_dqt>;
 	hold-trigger-key-positions = <1>;
 };
 
