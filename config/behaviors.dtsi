@@ -1,25 +1,30 @@
+&sk 		{ release-after-ms = <60000>; };
+&caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
+
 // Sticky key on tap, normal key on hold
 // Useful for modifier-clicking without the modifier remaining active
-nk: not_so_sticky_key {
-	compatible = "zmk,behavior-hold-tap";
-	label = "NOT_SO_STICKY_KEY";
-	#binding-cells = <2>;
-	tapping_term_ms = <250>;
-	flavor = "tap-preferred";
-	bindings = <&kp>, <&sk>;
-};
+/ {
+	nk: not_so_sticky_key {
+		compatible = "zmk,behavior-hold-tap";
+		label = "NOT_SO_STICKY_KEY";
+		#binding-cells = <2>;
+		tapping_term_ms = <250>;
+		flavor = "tap-preferred";
+		bindings = <&kp>, <&sk>;
+	};
 
-conditional_layers {
-	compatible = "zmk,conditional-layers";
-	tri_layer {
-        if-layers = <NAV NUM>;
-        then-layer = <MISC>;
-    };
-};
+	spa_can: space_cancel {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp SPACE>, <&kp K_CANCEL>;
+		mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+	};
 
-spa_can: space_cancel {
-    compatible = "zmk,behavior-mod-morph";
-	#binding-cells = <0>;
-	bindings = <&kp SPACE>, <&kp K_CANCEL>;
-	mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+	conditional_layers {
+		compatible = "zmk,conditional-layers";
+		tri_layer {
+			if-layers = <NAV NUM>;
+			then-layer = <MISC>;
+		};
+	};
 };
