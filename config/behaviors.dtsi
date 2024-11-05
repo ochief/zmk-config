@@ -18,7 +18,6 @@
 		#binding-cells = <0>;
 		bindings = <&kp SPACE>, <&kp K_CANCEL>;
 		mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-		masked_mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
 	};
 
 	conditional_layers {
