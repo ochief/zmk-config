@@ -5,7 +5,7 @@ layers:
   - C
   - G
   - D
-  - ''''
+  - {t: '''', s: ''''}
   - X
   - L
   - U
@@ -28,7 +28,7 @@ layers:
   - ','
   - .
   - '&macro_nav'
-  - '&spa_can'
+  - SPACE
   - {t: LSHIFT, h: sticky}
   - '&macro_num'
   nav:
