@@ -14,7 +14,7 @@
 #define NUM			2
 #define MISC		3
 
-#define DEL_WORD	&kp DEL // need to fix	
+#define DEL_WORD	&kp DEL
 #define DESK_LEFT	&kp LC(LG(LEFT))
 #define DESK_RIGHT	&kp LC(LG(RIGHT))
 #define KILL_APP	&kp LA(F4)
@@ -27,7 +27,7 @@
 #define SHO_SEL_ALL &kp LC(A)
 #define SK(KEY) 	&nk KEY KEY
 #define TAB_PREV	&kp LC(PG_UP)
-#define TAB_NEW		&kp LC(TAB) // hold for incognito	
+#define TAB_NEW		&kp LC(T)
 #define TAB_NEXT	&kp LC(PG_DN)
 
 // lock / ctrl alt del
@@ -76,19 +76,20 @@
         nav_layer {
             label = "NAV";
 			
-            bindings = <
+    
+        bindings = <
 				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&kp UP		TAB_NEXT	KILL_APP
-				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&none		&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&kp TAB		TAB_NEW
+				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			TAB_NEW		&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&none		&none
 
 													&trans		&none				&kp RET		&trans
 			>;
-		};
-
+		};			// app swap, win swap, clipboard
+		
         num_layer {
             label = "NUM";
 			
-            bindings = <
+			bindings = <
 				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
 				&trans		&trans		&trans		&trans		&trans				&trans		&kp N1		&kp N2		&kp N3		&kp N4
 							&trans		&trans		&trans                                      &trans		&trans		&trans
@@ -113,6 +114,27 @@
 };
 
 /*
+	youtube, chrome, discord, slack, windows, explorer, joplin, drive/chrome/jira/confluence whatsapp =  shortcuts
+	make sure markup is easy to get to 
+	mute mic / what are shortcuts for teams, slack, huddle	https://slack.com/intl/en-gb/help/articles/202288908-Format-your-messages#:~:text=with%20special%20characters.-,Formatting%20toolbar,new%20line%2C%20press%20Shift%20Enter%20.>>
+	close tab
+	how to get to url bar
+	vimium
+	back / forward
+	sticky shift
+	
+	Leader key on right
+	
+	Figure out best shortcuts for buttons VS good practice
+	
+	
+	don't need capsword
+	
+	
+	
+	
+	Numbers as functions
+	Fix Del Word	
 	Add SQT to macro_nav
 	Shift and BSPC = DEL
 	Hold SHO_PASE for paste special
@@ -120,4 +142,6 @@
 	Shortcut on NAV left hand for delete/backspace
 	sort out custom shifts ,; .: ' ' a
 	tidy up keymap drawer
+	Slack shortcuts on right hand of misc https://www.thena.ai/post/slack-keyboard-shortcuts
+	shift and enter for neww line
 */
