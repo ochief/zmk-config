@@ -17,7 +17,7 @@ conditional_layers {
     };
 };
 
-spa_can: grave_escape {
+spa_can: space_cancel {
     compatible = "zmk,behavior-mod-morph";
 	#binding-cells = <0>;
 	bindings = <&kp SPACE>, <&kp K_CANCEL>;
