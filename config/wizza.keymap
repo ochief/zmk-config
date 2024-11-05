@@ -56,7 +56,7 @@
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
 
-													&macro_nav	&spa_can			&kp LSHFT	&macro_num
+													&macro_nav	&spa_can			&skq LSHIFT	&macro_num
 			>;
 		};
 

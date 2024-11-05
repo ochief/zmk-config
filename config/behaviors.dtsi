@@ -1,10 +1,9 @@
 &sk 		{ release-after-ms = <60000>; };
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 
-// Sticky key on tap, normal key on hold
-// Useful for modifier-clicking without the modifier remaining active
 / {
-
+	// Sticky key on tap, normal key on hold
+	// Useful for modifier-clicking without the modifier remaining active
 	nk: not_so_sticky_key {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
@@ -13,11 +12,13 @@
 		bindings = <&kp>, <&sk>;
 	};
 
-	spa_can: space_cancel {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp SPACE>, <&kp K_CANCEL>;
-		mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+    skq: sticky_key_quick_release {
+		compatible = "zmk,behavior-sticky-key";
+		label = "STICKY_KEY_QUICK_RELEASE";
+		#binding-cells = <1>;
+		bindings = <&kp>;
+		quick-release;
+		release-after-ms = <750>;
 	};
 
 	conditional_layers {
