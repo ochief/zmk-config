@@ -5,7 +5,7 @@ layers:
   - C
   - G
   - D
-  - ''''
+  - {t: '''', s: ''''}
   - X
   - L
   - U
@@ -28,7 +28,7 @@ layers:
   - ','
   - .
   - '&macro_nav'
-  - '&spa_can'
+  - SPACE
   - {t: LSHIFT, h: sticky}
   - '&macro_num'
   nav:
@@ -125,14 +125,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [2, 3]
+- p: [1, 2]
   k: Q
+  l: [main]
+- p: [2, 3]
+  k: V
   l: [main]
 - p: [20, 21]
   k: Z
-  l: [main]
-- p: [21, 22]
-  k: V
   l: [main]
 - p: [3, 4]
   k: Ctl+ Y
