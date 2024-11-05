@@ -30,8 +30,6 @@
 #define TAB_NEW		&kp LC(T)
 #define TAB_NEXT	&kp LC(PG_DN)
 
-// lock / ctrl alt del
-
 &sk 		{ release-after-ms = <60000>; };
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 
@@ -69,7 +67,7 @@
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
 
-													&ht 0 0		&kp SPACE			&kp LSHFT	&none
+													&macro_test	&kp SPACE			&kp LSHFT	&none
 			>;
 		};
 
@@ -122,7 +120,7 @@
 	vimium
 	back / forward
 	sticky shift
-	
+	// lock / ctrl alt del
 	Leader key on right
 	
 	Figure out best shortcuts for buttons VS good practice

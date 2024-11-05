@@ -9,16 +9,6 @@ nk: not_so_sticky_key {
 	bindings = <&kp>, <&sk>;
 };
 
-ht: hold_tap {
-	compatible = "zmk,behavior-hold-tap";
-	#binding-cells = <2>;
-	flavor = "hold-preferred";
-	tapping-term-ms = <400>;
-	quick-tap-ms = <200>;
-	bindings = <&macro_sqt>, <&macro_dqt>;
-	hold-trigger-key-positions = <1>;
-};
-
 conditional_layers {
 	compatible = "zmk,conditional-layers";
 	tri_layer {
