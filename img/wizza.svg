@@ -242,16 +242,16 @@ path.combo {
 <text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;macro_num</tspan></text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="181" y="22" width="28" height="26" class="combo"/>
-<text x="195" y="35" class="combo tap">Q</text>
+<rect rx="6" ry="6" x="117" y="24" width="28" height="26" class="combo"/>
+<text x="131" y="37" class="combo tap">Q</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="120" y="139" width="28" height="26" class="combo"/>
-<text x="134" y="152" class="combo tap">Z</text>
+<rect rx="6" ry="6" x="181" y="22" width="28" height="26" class="combo"/>
+<text x="195" y="35" class="combo tap">V</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="181" y="138" width="28" height="26" class="combo"/>
-<text x="195" y="150" class="combo tap">V</text>
+<rect rx="6" ry="6" x="120" y="139" width="28" height="26" class="combo"/>
+<text x="134" y="152" class="combo tap">Z</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="242" y="44" width="28" height="26" class="combo"/>
