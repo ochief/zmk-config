@@ -47,16 +47,30 @@
 //		 W	 C	 G Q D	 '		 X	 L	 U	 O	 Y
 //		 R	 S	 T	 H	 K		 J	 N	 E	 A	 I 
 //			 F W P V B				 M	 ,	 .
+//
+//		 Y	 O	 U   L	 X		 '	 D	 G	 C	 W
+//		 I	 A	 E	 N	 J		 J	 H	 T	 S	 R 
+//			 .   ,   M				 B	 P	 F
+		
+
 
         main_layer {
             label = "MAIN";
-			
+			/*
             bindings = <
 				&kp W		&kp C		&kp G		&kp D		&sqt_only			&kp X		&kp L		&kp U		&kp O		&kp Y
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
 
 													&macro_nav	&kp SPACE			&skq LSHIFT	&macro_num
+			>;
+			*/
+			bindings = <
+				&kp Y		&kp O		&kp U		&kp L		&kp X				&sqt_only	&kp D		&kp G		&kp C		&kp W
+				&kp I		&kp A		&kp E		&kp N		&kp J				&kp J		&kp H		&kp T		&kp S		&kp R
+							&kp DOT		&kp COMMA	&kp M                                       &kp B		&kp P		&kp F
+
+													&macro_num	&skq LSHIFT			&skq SPACE	&macro_nav
 			>;
 		};
 
