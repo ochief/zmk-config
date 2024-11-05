@@ -10,6 +10,7 @@
 	};
 
 /* macro: */
-MACRO(test, &macro_tap &kp SQT &macro_tap &kp SQT &macro_press &mo NAV &macro_pause_for_release &macro_release &mo NAV, 0, 0)
-MACRO(nav, &macro_tap &kp K_CANCEL &macro_press &mo NAV &macro_pause_for_release &macro_release &mo NAV, 0, 0)
+MACRO(num, &macro_tap &kp SQT &macro_press &mo NUM &macro_pause_for_release &macro_release &mo NUM, 0, 0)
+MACRO(nav, &macro_tap &kp DQT &macro_press &mo NAV &macro_pause_for_release &macro_release &mo NAV, 0, 0)
+
 MACRO(grave3, &macro_tap &kp GRAVE &macro_tap &kp GRAVE &macro_tap &kp GRAVE, 0, 0)

@@ -16,3 +16,10 @@ conditional_layers {
         then-layer = <MISC>;
     };
 };
+
+spa_can: grave_escape {
+    compatible = "zmk,behavior-mod-morph";
+	#binding-cells = <0>;
+	bindings = <&kp SPACE>, <&kp K_CANCEL>;
+	mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+};

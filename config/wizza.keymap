@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#include "behaviors.dtsi"
+#include "combos.dtsi"
+#include "macros.dtsi"
+
 #define MAIN		0
 #define NAV 		1
 #define NUM			2
@@ -33,19 +37,7 @@
 &sk 		{ release-after-ms = <60000>; };
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 
-/ {
-	behaviors {
-		#include "behaviors.dtsi"
-	};
-	
-	combos {
-		#include "combos.dtsi"
-	};
-	
-	macros {
-		#include "macros.dtsi"
-	};
-	
+/ {	
 	keymap {
 		compatible = "zmk,keymap";
 		
@@ -67,7 +59,7 @@
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
 
-													&macro_test	&kp SPACE			&kp LSHFT	&none
+													&macro_nav	&spa_can			&kp LSHFT	&macro_num
 			>;
 		};
 
@@ -111,7 +103,10 @@
 	};
 };
 
+&ht_repeat NAV 0
+
 /*
+	CHANGE SPACE TO CANCEL ON MOD MORPH
 	youtube, chrome, discord, slack, windows, explorer, joplin, drive/chrome/jira/confluence whatsapp =  shortcuts
 	make sure markup is easy to get to 
 	mute mic / what are shortcuts for teams, slack, huddle	https://slack.com/intl/en-gb/help/articles/202288908-Format-your-messages#:~:text=with%20special%20characters.-,Formatting%20toolbar,new%20line%2C%20press%20Shift%20Enter%20.>>
