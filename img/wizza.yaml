@@ -28,8 +28,8 @@ layers:
   - ','
   - .
   - '&macro_nav'
-  - {t: SPACE, s: CANCEL}
-  - LSHFT
+  - '&spa_can'
+  - {t: LSHIFT, h: sticky}
   - '&macro_num'
   nav:
   - F2
