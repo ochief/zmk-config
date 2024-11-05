@@ -14,11 +14,17 @@
 
     skq: sticky_key_quick_release {
 		compatible = "zmk,behavior-sticky-key";
-		label = "STICKY_KEY_QUICK_RELEASE";
 		#binding-cells = <1>;
 		bindings = <&kp>;
 		quick-release;
 		release-after-ms = <750>;
+	};
+
+	sqt_only: sqt_only {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp SQT>, <&kp SQT>;
+		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 
 	conditional_layers {
