@@ -66,9 +66,7 @@
 
         nav_layer {
             label = "NAV";
-			
-    
-        bindings = <
+			bindings = <
 				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&kp_up		TAB_NEXT	KILL_APP
 				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp_left	&kp_down	&kp_right	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&none		&none
@@ -76,10 +74,20 @@
 													&trans		&none				&kp RET		&trans
 			>;
 		};
+
+        misc_layer {
+            label = "MISC";		
+            bindings = <
+				&none		&none		&none		&none		&none				&none		&none		&kp PG_UP	&none		&none
+				&none		&none		&none		&none		&none				&none		&kp HOME	&kp PG_DN	&kp END		&none
+							&none		&none		&none                                      	&none		&none		&none
+
+													&trans		&none				&none		&trans
+			>;
+		};
 		
         num_layer {
-            label = "NUM";
-			
+            label = "NUM";		
 			bindings = <
 				&trans		&kp 9		&kp 8		&kp 7		&trans				&trans		&trans		&trans		&trans		&trans
 				&kp 3		&kp 2		&kp 1		&kp 0		&trans				&trans		SK(LSHIFT)	SK(LCTRL)	SK(LALT)	SK(LGUI)
@@ -88,18 +96,6 @@
 													&trans		&trans				&trans		&trans
 			>;
 		};
-		
-        misc_layer {
-            label = "MISC";
-			
-            bindings = <
-				&none		&none		&none		&none		&none				&none		&none		&kp PG_UP	&none		&none
-				&none		&none		&none		&none		&none				&none		&kp HOME	&kp PG_DN	&kp END		&none
-							&none		&none		&none                                      	&none		&none		&none
-
-													&trans		&none				&none		&trans
-			>;
-		};	
 	};
 };
 
