@@ -8,6 +8,7 @@
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
 		tapping_term_ms = <250>;
+		lazy;
 		flavor = "tap-preferred";
 		bindings = <&kp>, <&sk>;
 	};
