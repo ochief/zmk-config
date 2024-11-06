@@ -69,9 +69,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '17'
+  - '7'
   - '8'
-  - '0'
+  - '9'
   - {t: ▽, type: trans}
   - {t: LGUI, h: LGUI}
   - {t: LALT, h: LALT}
