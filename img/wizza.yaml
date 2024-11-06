@@ -47,7 +47,7 @@ layers:
   - {t: LCTRL, h: LCTRL}
   - {t: LSHIFT, h: LSHIFT}
   - Ctl+ A
-  - '&mm_new_tab'
+  - {t: Ctl+ T, s: Ctl+Sft+ N}
   - '&kp_left'
   - '&kp_down'
   - '&kp_right'
