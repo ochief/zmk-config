@@ -39,18 +39,18 @@ layers:
   - DEL
   - DEL
   - Ctl+ PG UP
-  - {t: UP, s: PG UP}
+  - '&kp_up'
   - Ctl+ PG DN
   - Alt+ F4
-  - {t: LGUI, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LCTL, h: sticky}
-  - {t: LSHFT, h: sticky}
+  - {t: LGUI, h: LGUI}
+  - {t: LALT, h: LALT}
+  - {t: LCTRL, h: LCTRL}
+  - {t: LSHIFT, h: LSHIFT}
   - Ctl+ A
-  - Ctl+ T
-  - {t: LEFT, s: HOME}
-  - {t: DOWN, s: PG DN}
-  - {t: RIGHT, s: END}
+  - '&mm_new_tab'
+  - '&kp_left'
+  - '&kp_down'
+  - '&kp_right'
   - Ctl+Alt+ TAB
   - Ctl+ X
   - Ctl+ C
@@ -64,75 +64,75 @@ layers:
   - {t: ▽, type: trans}
   num:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
   - '9'
+  - '8'
+  - '7'
   - {t: ▽, type: trans}
-  - {t: LGUI, h: LGUI}
-  - {t: LALT, h: LALT}
-  - {t: LCTRL, h: LCTRL}
-  - {t: LSHIFT, h: LSHIFT}
-  - Ctl+ A
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '3'
+  - '2'
+  - '1'
   - '0'
-  - Ctl+ X
-  - Ctl+ C
-  - Ctl+ V
-  - '4'
-  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: LSHIFT, h: LSHIFT}
+  - {t: LCTRL, h: LCTRL}
+  - {t: LALT, h: LALT}
+  - {t: LGUI, h: LGUI}
   - '6'
+  - '5'
+  - '4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   misc:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PG UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - HOME
+  - PG DN
+  - END
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
 combos:
-- p: [1, 2]
+- p: [2, 3]
   k: Q
   l: [main]
-- p: [2, 3]
-  k: V
+- p: [20, 21]
+  k: Z
   l: [main]
 - p: [21, 22]
-  k: Z
+  k: V
   l: [main]
 - p: [3, 4]
   k: Ctl+ Y
