@@ -26,35 +26,7 @@
 		bindings = <&kp SQT>, <&kp SQT>;
 		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
-	
-	mm_left: mm_left_home {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp LEFT>, <&kp HOME>;
-		mods = <(MOD_LALT|MOD_RALT)>;
-	};
-	
-	mm_right: mm_right_end {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp RIGHT>, <&kp END>;
-		mods = <(MOD_LALT|MOD_RALT)>;
-	};
 
-	mm_up: mm_up_pgup {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp UP>, <&kp PG_UP>;
-		mods = <(MOD_LALT|MOD_RALT)>;
-	};
-
-	mm_down: mm_down_pgdn {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp DOWN>, <&kp PG_DN>;
-		mods = <(MOD_LALT|MOD_RALT)>;
-	};	
-	
 	&mm_new_tab: mm_new_tab_incognito
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;

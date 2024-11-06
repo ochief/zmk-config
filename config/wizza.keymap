@@ -51,9 +51,9 @@ CTRL+SHIFT+N
 //			20	21	22				23	24	25
 //					26	27		28	29
 //
-//		 W	 C Q G V D	 '		 X	 L	 U	 O	 Y
+//		 W	 C	 G Q D	 '		 X	 L	 U	 O	 Y
 //		 R	 S	 T	 H	 K		 J	 N	 E	 A	 I 
-//			 F Z P	 B				 M	 ,	 .
+//			 F Z P V B				 M	 ,	 .
 		
         main_layer {
             label = "MAIN";
@@ -71,21 +71,21 @@ CTRL+SHIFT+N
 			
     
         bindings = <
-				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&mm_up		TAB_NEXT	KILL_APP
-				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&mm_left	&mm_down	&mm_right	SHO_APP_SEL
+				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&kp_up		TAB_NEXT	KILL_APP
+				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp_left	&kp_down	&kp_right	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&none		&none
 
 													&trans		&none				&kp RET		&trans
 			>;
-		};			// app swap, win swap, clipboard
+		};
 		
         num_layer {
             label = "NUM";
 			
 			bindings = <
-				&trans		&trans		&kp TAB		&trans		&trans				&trans		&kp N7		&kp N8		&kp N9		&trans
-				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&trans		&kp N1		&kp N2		&kp N3		&kp N0
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp N4		&kp N5		&kp N6
+				&trans		&kp 9		&kp 8		&kp 7		&trans				&trans		&trans		&trans		&trans		&trans
+				&kp 3		&kp 2		&kp 1		&kp 0		&trans				&trans		SK(LSHIFT)	SK(LCTRL)	SK(LALT)	SK(LGUI)
+							&kp 6		&kp 5		&kp 4										&trans		&trans		&trans
 
 													&trans		&trans				&trans		&trans
 			>;
@@ -95,11 +95,11 @@ CTRL+SHIFT+N
             label = "MISC";
 			
             bindings = <
-				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
-				&trans		&trans		&trans		&trans		&trans				&trans		&kp A		&kp B		&kp C		&kp D
-							&trans		&trans		&trans                                      &trans		&trans		&trans
+				&none		&none		&none		&none		&none				&none		&none		&kp PG_UP	&none		&none
+				&none		&none		&none		&none		&none				&none		&kp HOME	&kp PG_DN	&kp END		&none
+							&none		&none		&none                                      	&none		&none		&none
 
-													&trans		&trans				&trans		&trans
+													&trans		&none				&none		&trans
 			>;
 		};	
 	};
