@@ -1,36 +1,36 @@
 layout: {qmk_keyboard: berylline}
 layers:
   main:
-  - Y
-  - O
-  - U
-  - L
-  - X
-  - {t: '''', s: ''''}
-  - D
-  - G
-  - C
   - W
-  - I
-  - A
-  - E
-  - N
-  - J
-  - K
-  - H
-  - T
-  - S
+  - C
+  - G
+  - D
+  - {t: '''', s: ''''}
+  - X
+  - L
+  - U
+  - O
+  - Y
   - R
-  - .
-  - ','
-  - M
-  - B
-  - P
+  - S
+  - T
+  - H
+  - K
+  - J
+  - N
+  - E
+  - A
+  - I
   - F
-  - '&macro_num'
-  - {t: LSHIFT, h: sticky}
-  - SPACE
+  - P
+  - B
+  - M
+  - ','
+  - .
   - '&macro_nav'
+  - SPACE
+  - {t: LSHIFT, h: sticky}
+  - '&macro_num'
   nav:
   - F2
   - Ctl+Gui+ LEFT
@@ -125,13 +125,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [6, 7]
-  k: V
-  l: [main]
-- p: [7, 8]
+- p: [1, 2]
   k: Q
   l: [main]
-- p: [24, 25]
+- p: [2, 3]
+  k: V
+  l: [main]
+- p: [21, 22]
   k: Z
   l: [main]
 - p: [3, 4]
