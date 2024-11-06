@@ -268,34 +268,46 @@ path.combo {
 </text>
 </g>
 <g class="combo combopos-5">
+<rect rx="6" ry="6" x="438" y="87" width="28" height="26" class="combo"/>
+<text x="452" y="100" class="combo tap">&amp;not_eq</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="469" y="44" width="28" height="26" class="combo"/>
+<text x="483" y="57" class="combo tap">&amp;comm_r</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="469" y="101" width="28" height="26" class="combo"/>
+<text x="483" y="114" class="combo tap">&amp;comm_l</text>
+</g>
+<g class="combo combopos-8">
 <rect rx="6" ry="6" x="23" y="109" width="28" height="26" class="combo"/>
 <text x="37" y="122" class="combo tap">&lt;</text>
 </g>
-<g class="combo combopos-6">
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="86" y="62" width="28" height="26" class="combo"/>
 <text x="100" y="75" class="combo tap">[</text>
 </g>
-<g class="combo combopos-7">
+<g class="combo combopos-10">
 <rect rx="6" ry="6" x="150" y="44" width="28" height="26" class="combo"/>
 <text x="164" y="57" class="combo tap">(</text>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-11">
 <rect rx="6" ry="6" x="211" y="58" width="28" height="26" class="combo"/>
 <text x="225" y="71" class="combo tap">{</text>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="687" y="109" width="28" height="26" class="combo"/>
 <text x="701" y="122" class="combo tap">&gt;</text>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="499" y="58" width="28" height="26" class="combo"/>
 <text x="513" y="71" class="combo tap">}</text>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="560" y="44" width="28" height="26" class="combo"/>
 <text x="574" y="57" class="combo tap">)</text>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-15">
 <rect rx="6" ry="6" x="625" y="62" width="28" height="26" class="combo"/>
 <text x="639" y="75" class="combo tap">]</text>
 </g>
