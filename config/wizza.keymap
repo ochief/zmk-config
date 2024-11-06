@@ -70,7 +70,7 @@
 				&kp I		&kp A		&kp E		&kp N		&kp J				&kp K		&kp H		&kp T		&kp S		&kp R
 							&kp DOT		&kp COMMA	&kp M                                       &kp B		&kp P		&kp F
 
-													&macro_num	&skq LSHIFT			&skq SPACE	&macro_nav
+													&macro_num	&skq LSHIFT			&kp SPACE	&macro_nav
 			>;
 		};
 
@@ -91,9 +91,9 @@
             label = "NUM";
 			
 			bindings = <
-				&trans		&trans		&trans		&trans		&trans				&trans		&trans		&trans		&trans		&trans
-				&trans		&trans		&trans		&trans		&trans				&trans		&kp N1		&kp N2		&kp N3		&kp N4
-							&trans		&trans		&trans                                      &trans		&trans		&trans
+				&trans		&trans		&kp TAB		&trans		&trans				&trans		&kp N17		&kp N8		&kp N0		&trans
+				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&trans		&kp N1		&kp N2		&kp N3		&kp N0
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp N4		&kp N5		&kp N6
 
 													&trans		&trans				&trans		&trans
 			>;
