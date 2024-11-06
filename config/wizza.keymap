@@ -39,8 +39,6 @@
 #include "combos.dtsi"
 #include "macros.dtsi"
 
-
-CTRL+SHIFT+N
 / {	
 	keymap {
 		compatible = "zmk,keymap";
