@@ -50,7 +50,7 @@ layers:
   - Ctl+ T
   - {t: LEFT, s: HOME}
   - {t: DOWN, s: PG DN}
-  - '&mm_right'
+  - {t: RIGHT, s: END}
   - Ctl+Alt+ TAB
   - Ctl+ X
   - Ctl+ C
