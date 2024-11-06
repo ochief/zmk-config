@@ -57,7 +57,7 @@
         main_layer {
             label = "MAIN";
             bindings = <
-				&kp W		&kp C		&kp G		&kp D		&sqt_only			&kp X		&kp L		&kp U		&kp O		&kp Y
+				&kp W		&kp C		&kp G		&kp D		&mm_sqt				&kp X		&kp L		&kp U		&kp O		&kp Y
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
 
@@ -70,8 +70,8 @@
 			
     
         bindings = <
-				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&kp UP		TAB_NEXT	KILL_APP
-				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			TAB_NEW		&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
+				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&mm_up		TAB_NEXT	KILL_APP
+				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			TAB_NEW		&mm_left	&mm_down	&mm_right	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&none		&none
 
 													&trans		&none				&kp RET		&trans
