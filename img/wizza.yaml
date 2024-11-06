@@ -39,7 +39,7 @@ layers:
   - DEL
   - DEL
   - Ctl+ PG UP
-  - '&kp_up'
+  - UP
   - Ctl+ PG DN
   - Alt+ F4
   - {t: LGUI, h: LGUI}
@@ -48,9 +48,9 @@ layers:
   - {t: LSHIFT, h: LSHIFT}
   - Ctl+ A
   - {t: Ctl+ T, s: Ctl+Sft+ N}
-  - '&kp_left'
-  - '&kp_down'
-  - '&kp_right'
+  - LEFT
+  - DOWN
+  - RIGHT
   - Ctl+Alt+ TAB
   - Ctl+ X
   - Ctl+ C
