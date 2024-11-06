@@ -27,6 +27,7 @@
 #define TAB_PREV	&kp LC(PG_UP)
 #define TAB_NEW		&kp LC(T)
 #define TAB_NEXT	&kp LC(PG_DN)
+#define TASK_MAN	&kp LC(LS(ESC))
 
 #define SLACK_1		&none
 #define SLACK_2		&none
@@ -72,7 +73,6 @@
 			>;
 		};
 // <!-- --> /* */ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE != COMBOS for ctrl K and ctrl F
-// 49114
         nav_layer {
             label = "NAV"; // desk left and right can be swapped for other useful navigation for slack etc. insert?
 			bindings = <
@@ -99,7 +99,7 @@
             label = "MISC";		
             bindings = <
 				&bt BT_CLR	&kp F5		&kp F12		&kp F11		&reset 				&kp LNLCK	BRI_DN		&kp PG_UP	BRI_UP		&kp INS
-				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&bootloader			&kp SLCK	&kp HOME	&kp PG_DN	&kp END		kp& SLCK
+				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&bootloader			&kp SLCK	&kp HOME	&kp PG_DN	&kp END		TASK_MAN
 							VOL_DOWN	VOL_MUTE	VOL_UP                                     	&kp C_PREV	&kp C_PLAY	&kp C_NEXT
 
 													&trans		&none				&none		&trans
