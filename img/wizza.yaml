@@ -42,15 +42,15 @@ layers:
   - {t: UP, s: PG UP}
   - Ctl+ PG DN
   - Alt+ F4
-  - {t: LGUI, h: LGUI}
-  - {t: LALT, h: LALT}
-  - {t: LCTRL, h: LCTRL}
-  - {t: LSHIFT, h: LSHIFT}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTL, h: sticky}
+  - {t: LSHFT, h: sticky}
   - Ctl+ A
   - Ctl+ T
   - {t: LEFT, s: HOME}
   - {t: DOWN, s: PG DN}
-  - '&mm_right'
+  - {t: RIGHT, s: END}
   - Ctl+Alt+ TAB
   - Ctl+ X
   - Ctl+ C
