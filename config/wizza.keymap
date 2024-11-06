@@ -54,12 +54,12 @@
             bindings = <
 				&kp W		&kp C		&kp G		&kp D		&mm_sqt				&kp X		&kp L		&kp U		&kp O		&kp Y
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
-							&kp F		&kp P		&kp B                                       &kp M		&kp COMMA	&kp DOT
+							&kp F		&kp P		&kp B                                       &kp M		&mm_com_sco	&mm_dot_col
 
 													&macro_nav	&kp SPACE			&skq LSHIFT	&macro_num
 			>;
 		};
-
+// <!-- --> /* */ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE
         nav_layer {
             label = "NAV";
 			bindings = <
@@ -70,13 +70,13 @@
 													&trans		&none				&kp RET		&trans
 			>;
 		};
-		
+	
         num_layer {
             label = "NUM";		
 			bindings = <
 				&trans		&kp N9		&kp N8		&kp N7		&trans				&trans		&trans		&trans		&trans		&trans
-				&kp N3		&kp N2		&kp N1		&kp N0		&trans				&trans		SK(LSHIFT)	SK(LCTRL)	SK(LALT)	SK(LGUI)
-							&kp N6		&kp N5		&kp N4										&trans		&trans		&trans
+				&kp N3		&kp N2		&kp N1		&kp N0		&trans				&kp EQUALS	SK(LSHIFT)	SK(LCTRL)	SK(LALT)	SK(LGUI)
+							&kp N6		&kp N5		&kp N4										&kp PLUS	&trans		&trans
 
 													&trans		&trans				&trans		&trans
 			>;
