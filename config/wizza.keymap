@@ -30,6 +30,7 @@
 #define TAB_NEW		&kp LC(T)
 #define INCOGNITO	&kp LC(LS(N))
 #define TAB_NEXT	&kp LC(PG_DN)
+#define NEW_LINE	&kp LA(ENTER)
 
 #include "behaviors.dtsi"
 #include "combos.dtsi"
@@ -59,13 +60,14 @@
 													&macro_nav	&kp SPACE			&skq LSHIFT	&macro_num
 			>;
 		};
-// <!-- --> /* */ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE
+// <!-- --> /* */ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE !=
+// 49114
         nav_layer {
             label = "NAV";
 			bindings = <
 				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&kp UP		TAB_NEXT	KILL_APP
 				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&none		&none
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	&none
 
 													&trans		&none				&kp RET		&trans
 			>;
@@ -96,6 +98,11 @@
 };
 
 /*
+// Chris Catman
+
+Christopher Cadman
+
+	https://zmk.dev/docs/keymaps/behaviors/sticky-key#lazy
 	CHANGE SPACE TO CANCEL ON MOD MORPH
 	youtube, chrome, discord, slack, windows, explorer, joplin, drive/chrome/jira/confluence whatsapp =  shortcuts
 	make sure markup is easy to get to 
