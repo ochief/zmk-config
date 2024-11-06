@@ -25,8 +25,8 @@ layers:
   - P
   - B
   - M
-  - ','
-  - .
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
   - '&macro_nav'
   - SPACE
   - {t: LSHIFT, h: sticky}
@@ -56,7 +56,7 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - BSPC
-  - ''
+  - Alt+ ENTER
   - ''
   - {t: ▽, type: trans}
   - ''
@@ -78,7 +78,7 @@ layers:
   - '1'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - EQUALS
   - {t: LSHIFT, h: LSHIFT}
   - {t: LCTRL, h: LCTRL}
   - {t: LALT, h: LALT}
@@ -86,7 +86,7 @@ layers:
   - '6'
   - '5'
   - '4'
-  - {t: ▽, type: trans}
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
