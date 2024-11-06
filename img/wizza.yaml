@@ -33,15 +33,15 @@ layers:
   - '&macro_num'
   nav:
   - F2
-  - Ctl+Gui+ LEFT
+  - ''
   - TAB
-  - Ctl+Gui+ RIGHT
+  - ''
   - DEL
-  - DEL
+  - {t: Alt+ 4, h: Ctl+ W}
   - Ctl+ PG UP
   - UP
   - Ctl+ PG DN
-  - Alt+ F4
+  - F6
   - {t: LGUI, h: LGUI}
   - {t: LALT, h: LALT}
   - {t: LCTRL, h: LCTRL}
@@ -54,10 +54,10 @@ layers:
   - Ctl+Alt+ TAB
   - Ctl+ X
   - Ctl+ C
-  - Ctl+ V
+  - {t: Ctl+Sft+ V, h: Ctl+ V}
   - BSPC
   - Alt+ ENTER
-  - ''
+  - DEL
   - {t: ▽, type: trans}
   - ''
   - RET
@@ -94,32 +94,32 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   misc:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BT CLR
+  - F5
+  - F12
+  - F11
+  - '&reset'
+  - LNLCK
+  - BRI DN
   - PG UP
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BRI UP
+  - INS
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - '&bootloader'
+  - SLCK
   - HOME
   - PG DN
-  - END
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - END kp
+  - '&SLCK'
+  - VOL DN
+  - MUTE
+  - VOL UP
+  - PREV
+  - PLAY
+  - NEXT
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -139,6 +139,42 @@ combos:
   l: [main]
 - p: [13, 14]
   k: Ctl+ Z
+  l: [main]
+- p: [5, 15]
+  k: '&not_eq'
+  l: [main]
+- p: [5, 6]
+  k: '&comm_r'
+  l: [main]
+- p: [15, 16]
+  k: '&comm_l'
+  l: [main]
+- p: [11, 20]
+  k: '&mkp MB4'
+  l: [main]
+- p: [12, 21]
+  k: '&mkp MB2'
+  l: [main]
+- p: [13, 22]
+  k: '&mkp MB1'
+  l: [main]
+- p: [1, 11]
+  k: '['
+  l: [main]
+- p: [2, 12]
+  k: (
+  l: [main]
+- p: [3, 13]
+  k: '{'
+  l: [main]
+- p: [6, 16]
+  k: '}'
+  l: [main]
+- p: [7, 17]
+  k: )
+  l: [main]
+- p: [8, 18]
+  k: ']'
   l: [main]
 - p: [0, 10]
   k: <
