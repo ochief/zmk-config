@@ -11,12 +11,8 @@
 
 #define MAIN		0
 #define NAV 		1
-#define NUM			2
-#define MISC		3
-
-
-
-
+#define MISC		2
+#define NUM			3
 
 #define DEL_WORD	&kp DEL
 #define DESK_LEFT	&kp LC(LG(LEFT))
