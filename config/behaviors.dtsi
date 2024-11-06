@@ -4,6 +4,14 @@
 / {
 	// Sticky key on tap, normal key on hold
 	// Useful for modifier-clicking without the modifier remaining active
+	ht: hold_tap {
+		compatible = "zmk,behavior-hold-tap";
+		#binding-cells = <2>;
+		tapping_term_ms = <250>;
+		flavor = "tap-preferred";
+		bindings = <&kp>, <&kp>;
+	};
+	
 	nk: not_so_sticky_key {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
@@ -20,6 +28,8 @@
 		quick-release;
 		release-after-ms = <750>;
 	};
+	
+	}&kp LA(F4)
 
 	mm_sqt: mm_sqt_only {
 		compatible = "zmk,behavior-mod-morph";

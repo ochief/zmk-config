@@ -36,6 +36,18 @@
 		COMBO(not_eq,	&not_eq,		 5 15, 		MAIN, COMBO_TERM_NORMAL)
 		COMBO(comm_r,	&comm_r,		 5  6, 		MAIN, COMBO_TERM_NORMAL)
 		COMBO(comm_l,	&comm_l,		15 16, 		MAIN, COMBO_TERM_NORMAL)
+
+		COMBO(mouse4,   &mkp MB4,     	11 20, 		MAIN, COMBO_TERM_NORMAL)
+		COMBO(mouse2,   &mkp MB2,     	12 21, 		MAIN, COMBO_TERM_NORMAL)
+	    COMBO(mouse1,   &mkp MB1,     	13 22, 		MAIN, COMBO_TERM_NORMAL)
+		
+		// brackets 
+		COMBO(lbkt,     &kp LBKT,     	 1 11,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(lpar,     &kp LPAR,     	 2 12,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(lbrc,     &kp LBRC,     	 3 13,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(rbrc,     &kp RBRC,     	 6 16,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(rpar,     &kp RPAR,     	 7 17,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(rbkt,     &kp RBKT,     	 8 18,  	MAIN, COMBO_TERM_SLOW)
 	
 	/*
 		COMBO(del,     	&kp DEL,     	 4 14,  	MAIN, COMBO_TERM_SLOW)

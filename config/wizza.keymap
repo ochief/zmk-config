@@ -15,22 +15,33 @@
 #define MISC		3
 
 #define DEL_WORD	&kp DEL
-#define DESK_LEFT	&kp LC(LG(LEFT))
-#define DESK_RIGHT	&kp LC(LG(RIGHT))
-#define KILL_APP	&kp LA(F4)
-#define LAUNCHER	&kp LA(SPACE)
+#define INCOGNITO	&kp LC(LS(N))
+#define KILL		&ht LC(W) LA(4)
+#define NEW_LINE	&kp LA(ENTER)
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
 #define SHO_CUT		&kp LC(X)
-#define SHO_PASTE	&kp LC(V)
-#define SHO_PASTE_S	&kp LC(LS(V))
+#define SHO_PASTE	&ht LC(V) LC(LS(V))
 #define SHO_SEL_ALL &kp LC(A)
 #define SK(KEY) 	&nk KEY KEY
 #define TAB_PREV	&kp LC(PG_UP)
 #define TAB_NEW		&kp LC(T)
-#define INCOGNITO	&kp LC(LS(N))
 #define TAB_NEXT	&kp LC(PG_DN)
-#define NEW_LINE	&kp LA(ENTER)
+
+#define SLACK_1		&none
+#define SLACK_2		&none
+
+#define CON_ZERO	&bt BT_SEL 0
+#define CON_ONE		&bt BT_SEL 1 
+#define CON_TWO		&bt BT_SEL 2 
+#define CON_THREE	&bt BT_SEL 3	
+
+#define VOL_DOWN 	&kp C_VOL_DN 
+#define VOL_UP		&kp C_VOL_UP 
+#define VOL_MUTE	&kp C_MUTE
+
+#define BRI_DN		&kp C_BRI_DN
+#define BRI_UP		&kp C_BRI_UP
 
 #include "behaviors.dtsi"
 #include "combos.dtsi"
@@ -60,14 +71,14 @@
 													&macro_nav	&kp SPACE			&skq LSHIFT	&macro_num
 			>;
 		};
-// <!-- --> /* */ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE !=
+// <!-- --> /* */ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE != COMBOS for ctrl K and ctrl F
 // 49114
         nav_layer {
-            label = "NAV";
+            label = "NAV"; // desk left and right can be swapped for other useful navigation for slack etc. insert?
 			bindings = <
-				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&kp UP		TAB_NEXT	KILL_APP
+				&kp F2		SLACK_1		&kp TAB		SLACK_2		&kp DEL				KILL	 	TAB_PREV	&kp UP		TAB_NEXT	&kp F6
 				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	&none
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	DEL_WORD
 
 													&trans		&none				&kp RET		&trans
 			>;
@@ -87,9 +98,9 @@
 		misc_layer {
             label = "MISC";		
             bindings = <
-				&none		&none		&none		&none		&none				&none		&none		&kp PG_UP	&none		&none
-				&none		&none		&none		&none		&none				&none		&kp HOME	&kp PG_DN	&kp END		&none
-							&none		&none		&none                                      	&none		&none		&none
+				&bt BT_CLR	&kp F5		&kp F12		&kp F11		&reset 				&kp LNLCK	BRI_DN		&kp PG_UP	BRI_UP		&kp INS
+				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&bootloader			&kp SLCK	&kp HOME	&kp PG_DN	&kp END		kp& SLCK
+							VOL_DOWN	VOL_MUTE	VOL_UP                                     	&kp C_PREV	&kp C_PLAY	&kp C_NEXT
 
 													&trans		&none				&none		&trans
 			>;
