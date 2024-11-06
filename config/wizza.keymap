@@ -71,7 +71,7 @@
     
         bindings = <
 				&kp F2		DESK_LEFT	&kp TAB		DESK_RIGHT	&kp DEL				DEL_WORD	TAB_PREV	&mm_up		TAB_NEXT	KILL_APP
-				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			TAB_NEW		&mm_left	&mm_down	&mm_right	SHO_APP_SEL
+				&sk LGUI    &sk LALT    &sk LCTL	&sk LSHFT	SHO_SEL_ALL			TAB_NEW		&mm_left	&mm_down	&mm_right	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	&none		&none
 
 													&trans		&none				&kp RET		&trans
