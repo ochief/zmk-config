@@ -112,8 +112,8 @@ layers:
   - SLCK
   - HOME
   - PG DN
-  - END kp
-  - '&SLCK'
+  - END
+  - Ctl+Sft+ ESC
   - VOL DN
   - MUTE
   - VOL UP
