@@ -29,7 +29,7 @@ layers:
   - F
   - '&macro_num'
   - {t: LSHIFT, h: sticky}
-  - {t: SPACE, h: sticky}
+  - SPACE
   - '&macro_nav'
   nav:
   - F2
@@ -65,30 +65,30 @@ layers:
   num:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '17'
+  - '8'
+  - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LGUI, h: LGUI}
+  - {t: LALT, h: LALT}
+  - {t: LCTRL, h: LCTRL}
+  - {t: LSHIFT, h: LSHIFT}
+  - Ctl+ A
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
+  - '0'
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
   - '4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '5'
+  - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
