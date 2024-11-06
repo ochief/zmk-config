@@ -34,7 +34,7 @@
 		mods = <(MOD_LALT|MOD_RALT)>;
 	};
 	
-	mm_end: mm_right_end {
+	mm_right: mm_right_end {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp RIGHT>, <&kp END>;
