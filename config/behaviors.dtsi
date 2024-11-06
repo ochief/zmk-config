@@ -27,7 +27,7 @@
 		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 
-	&mm_new_tab: mm_new_tab_incognito {
+	mm_new_tab: mm_new_tab_incognito {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <TAB_NEW>, <INCOGNITO>;
