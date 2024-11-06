@@ -39,7 +39,7 @@ layers:
   - DEL
   - DEL
   - Ctl+ PG UP
-  - UP
+  - {t: UP, s: PG UP}
   - Ctl+ PG DN
   - Alt+ F4
   - {t: LGUI, h: LGUI}
@@ -48,9 +48,9 @@ layers:
   - {t: LSHIFT, h: LSHIFT}
   - Ctl+ A
   - Ctl+ T
-  - LEFT
-  - DOWN
-  - RIGHT
+  - {t: LEFT, s: HOME}
+  - {t: DOWN, s: PG DN}
+  - '&mm_right'
   - Ctl+Alt+ TAB
   - Ctl+ X
   - Ctl+ C
