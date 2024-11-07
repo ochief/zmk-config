@@ -1,5 +1,5 @@
 &sk  { 
-	release-after-ms = <5000>;
+	release-after-ms = <60000>;
 	lazy;
 };
 

@@ -81,7 +81,7 @@
             label = "NAV"; // desk left and right can be swapped for other useful navigation for slack etc. insert?
 			bindings = <
 				&kp F2		SLACK_1		&kp TAB		SLACK_2		&kp DEL				KILL	 	TAB_PREV	&kp UP		TAB_NEXT	&kp F6
-				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
+				&sk LGUI	&sk LALT	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	DEL_WORD
 
 													&trans		&none				&kp RET		&trans
