@@ -149,15 +149,6 @@ combos:
 - p: [15, 16]
   k: '&macro_comm_l'
   l: [main]
-- p: [11, 20]
-  k: '&mkp MB4'
-  l: [main]
-- p: [12, 21]
-  k: '&mkp RCLK'
-  l: [main]
-- p: [13, 22]
-  k: '&mkp LCLK'
-  l: [main]
 - p: [1, 11]
   k: '['
   l: [main]
