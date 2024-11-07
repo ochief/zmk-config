@@ -102,7 +102,7 @@
 		misc_layer {
             label = "MISC";		
             bindings = <
-				&bt BT_CLR	&kp F5		&kp F12		&kp F11		&reset 				&kp LNLCK	BRI_DN		&kp PG_UP	BRI_UP		&kp INS
+				&bt BT_CLR	&kp F5		&kp F12		&kp F11		&sys_reset			&kp LNLCK	BRI_DN		&kp PG_UP	BRI_UP		&kp INS
 				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&bootloader			&kp SLCK	&kp HOME	&kp PG_DN	&kp END		TASK_MAN
 							VOL_DOWN	VOL_MUTE	VOL_UP                                     	&kp C_PREV	&kp C_PLAY	&kp C_NEXT
 
