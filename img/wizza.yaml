@@ -78,7 +78,7 @@ layers:
   - '1'
   - '0'
   - {t: ▽, type: trans}
-  - EQUALS
+  - '='
   - {t: LSHIFT, h: LSHIFT}
   - {t: LCTRL, h: LCTRL}
   - {t: LALT, h: LALT}
