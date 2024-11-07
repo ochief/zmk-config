@@ -12,7 +12,7 @@
 		bindings = <&kp>, <&kp>;
 	};
 
-	ht_TEST: hold_tap_test {
+	ht_TEST: hold_tap_TEST {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
 		tapping-term-ms = <200>;
@@ -20,7 +20,7 @@
 		bindings = <&mm_TEST>, <&mo NAV>;
 	};
 
-	mm_sqt: mm_sqt_only {
+	mm_TEST: mm_TEST {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp SQT>, <&kp K_CANCEL>;
