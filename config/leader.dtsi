@@ -9,7 +9,6 @@
 //			 F	 P	 B	
 
 #define LEADER(NAME, KEYS, BINDINGS, LAYERS) \
-
 leader_##NAME { \
     key-positions = <KEYS>; \
     bindings = <BINDINGS>; \

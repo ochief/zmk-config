@@ -9,7 +9,6 @@
 //			 F	 P	 B				 M	 ,	 .
 
 #define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, TIMEOUT) \
-
 combo_##NAME { \
 	bindings = <BINDINGS>; \
 	timeout-ms = <TIMEOUT>; \
