@@ -12,6 +12,21 @@
 		bindings = <&kp>, <&kp>;
 	};
 
+	ht_TEST: hold_tap {
+		compatible = "zmk,behavior-hold-tap";
+		#binding-cells = <2>;
+		tapping-term-ms = <200>;
+		flavor = "tap-preferred";
+		bindings = <&mm_TEST>, <&mo NAV>;
+	};
+
+	mm_sqt: mm_sqt_only {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp SQT>, <&kp K_CANCEL>;
+		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT|MOD_RSFT|MOD_RCTL|MOD_RALT|MOD_RGUI)>;
+	};
+
 	nk: not_so_sticky_key {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;

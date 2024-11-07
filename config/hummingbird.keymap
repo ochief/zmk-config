@@ -68,7 +68,7 @@
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&mm_com_sco	&mm_dot_col
 
-													&macro_nav	&kp SPACE			&skq LSHIFT	&macro_num
+													&ht_TEST	&kp SPACE			&skq LSHIFT	&macro_num
 			>;
 		};
 
