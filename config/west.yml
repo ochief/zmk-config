@@ -9,5 +9,11 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk
+      revision: going-modular
+      path: .
+      import:
+        file: app/west.yml
+        path-prefix: zmk
   self:
     path: config
