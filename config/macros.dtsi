@@ -17,7 +17,7 @@
 
 		MACRO(not_eq,	&macro_tap &kp LT &macro_tap &kp GT, 0, 0)
 		MACRO(comm_r,	&macro_tap &kp GT &macro_tap &kp MINUS &macro_tap &kp MINUS, 0, 0)
-		MACRO(comm_l,	&macro_tap &kp LT &macro_tap &kp EXCL &macro_tap &kp - &macro_tap &kp MINUS, 0, 0)
+		MACRO(comm_l,	&macro_tap &kp LT &macro_tap &kp EXCL &macro_tap &kp MINUS &macro_tap &kp MINUS, 0, 0)
 		MACRO(grave3,	&macro_tap &kp GRAVE &macro_tap &kp GRAVE &macro_tap &kp GRAVE, 0, 0)
 	};
 };
