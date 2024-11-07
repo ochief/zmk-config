@@ -14,6 +14,7 @@
 #define NUM			2
 #define MISC		3
 
+#define CAD			&kp LC(LA(DEL))
 #define DEL_WORD	&kp DEL
 #define INCOGNITO	&kp LC(LS(N))
 #define KILL		&ht LC(W) LA(4)
@@ -98,11 +99,11 @@
 													&trans		&trans				&trans		&trans
 			>;
 		};
-		// add obscure symbols here tap/holds to burn through four of them  ~ | => ` ^`¬
+
 		misc_layer {
             label = "MISC";		
             bindings = <
-				&bt BT_CLR	&kp CARET	&kp TILDE	&kp GRAVE	&kp INS				&kp LNLCK	BRI_DN		&kp PG_UP	BRI_UP		&bootloader
+				&bt BT_CLR	&kp CARET	&kp TILDE	&kp GRAVE	&kp F12				CAD			BRI_DN		&kp PG_UP	BRI_UP		&bootloader
 				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&kp F11				&kp F12		&kp HOME	&kp PG_DN	&kp END		TASK_MAN
 							VOL_DOWN	VOL_MUTE	VOL_UP                                     	&kp C_PREV	&kp C_PLAY	&kp C_NEXT
 
