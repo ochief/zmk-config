@@ -27,7 +27,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: nav, h: ''''}
+  - {t: '''', h: nav, s: CANCEL}
   - SPACE
   - {t: LSHIFT, h: sticky}
   - '&macro_num'
