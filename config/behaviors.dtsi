@@ -59,7 +59,7 @@
 	mm_search_shift: mm_search_shift {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp LC(F)>, <&kp LC(G)>
+		bindings = <&kp LC(F)>, <&kp LC(G)>;
 		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 
