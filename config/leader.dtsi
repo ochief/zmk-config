@@ -8,7 +8,9 @@
 //		 R	 S	 T	 H	 K		 J	 N	 E	 A	 I 
 //			 F	 P	 B				 M	 ,	 .
 
-ZMK_LEADER_SEQUENCE(de_ae,      &de_ae,         17)  // ä
-ZMK_LEADER_SEQUENCE(de_oe,      &de_oe,         17)  // ö
-ZMK_LEADER_SEQUENCE(de_ue,      &de_ue,         18)  // ü
-ZMK_LEADER_SEQUENCE(de_eszett,  &de_eszett,     19)  // ß
+/ {
+    ZMK_LEADER_SEQUENCE(de_ae,      &de_ae,         17)  // ä
+    ZMK_LEADER_SEQUENCE(de_oe,      &de_oe,         17)  // ö
+    ZMK_LEADER_SEQUENCE(de_ue,      &de_ue,         18)  // ü
+    ZMK_LEADER_SEQUENCE(de_eszett,  &de_eszett,     19)  // ß
+};
