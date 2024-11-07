@@ -6,11 +6,18 @@
 //
 //		 W	 C	 G	 D	 '		 X	 L	 U	 O	 Y
 //		 R	 S	 T	 H	 K		 J	 N	 E	 A	 I 
-//			 F	 P	 B				 M	 ,	 .
+//			 F	 P	 B	
 
-/ {
-    ZMK_LEADER_SEQUENCE(de_ae,      &kp n1,         17)  // ä
-    ZMK_LEADER_SEQUENCE(de_oe,      &kp n1,         17)  // ö
-    ZMK_LEADER_SEQUENCE(de_ue,      &kp n1,         18)  // ü
-    ZMK_LEADER_SEQUENCE(de_eszett,  &kp n1,         19)  // ß
+#define LEADER(NAME, KEYS, BINDINGS, LAYERS) \
+
+leader_##NAME { \
+    key-positions = <KEYS>; \
+    bindings = <BINDINGS>; \
+    layers = <LAYERS>; \
+};
+
+leader_sequences {
+    compatible = "zmk,leader-sequences";
+
+    LEADER(close, 23, &kp N1, MAIN)
 };
