@@ -27,7 +27,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: 1 0, h: ''''}
+  - {t: nav, h: ''''}
   - SPACE
   - {t: LSHIFT, h: sticky}
   - '&macro_num'
@@ -58,7 +58,7 @@ layers:
   - BSPC
   - Alt+ ENTER
   - Ctl+ BSPC
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - RET
   - {t: ▽, type: trans}
@@ -120,7 +120,7 @@ layers:
   - VOL DN
   - MUTE
   - VOL UP
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   - {t: ▽, type: trans}
