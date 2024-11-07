@@ -98,8 +98,8 @@ layers:
   - ^
   - '~'
   - '`'
-  - INS
-  - LNLCK
+  - F12
+  - Ctl+Alt+ DEL
   - BRI DN
   - PG UP
   - BRI UP
