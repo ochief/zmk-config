@@ -98,7 +98,7 @@ layers:
   - F5
   - F12
   - F11
-  - '&reset'
+  - ''
   - LNLCK
   - BRI DN
   - PG UP
