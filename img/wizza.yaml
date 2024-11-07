@@ -42,8 +42,8 @@ layers:
   - UP
   - Ctl+ PG DN
   - F6
-  - {t: LGUI, h: LGUI}
-  - {t: LALT, h: LALT}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
   - {t: LCTRL, h: LCTRL}
   - {t: LSHIFT, h: LSHIFT}
   - Ctl+ A
@@ -98,8 +98,8 @@ layers:
   - ^
   - '~'
   - '`'
-  - INS
-  - LNLCK
+  - F12
+  - Ctl+Alt+ DEL
   - BRI DN
   - PG UP
   - BRI UP

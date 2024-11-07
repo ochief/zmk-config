@@ -374,12 +374,12 @@ path.combo {
 <g transform="translate(41, 150) rotate(-8.0)" class="key keypos-10">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LGUI</text>
-<text x="0" y="24" class="key hold">LGUI</text>
+<text x="0" y="24" class="key hold">sticky</text>
 </g>
 <g transform="translate(101, 103) rotate(-3.0)" class="key keypos-11">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LALT</text>
-<text x="0" y="24" class="key hold">LALT</text>
+<text x="0" y="24" class="key hold">sticky</text>
 </g>
 <g transform="translate(164, 86)" class="key keypos-12">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -624,11 +624,13 @@ path.combo {
 </g>
 <g transform="translate(286, 71)" class="key keypos-4">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">INS</text>
+<text x="0" y="0" class="key tap">F12</text>
 </g>
 <g transform="translate(452, 71)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LNLCK</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 88%">Ctl+Alt+</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">DEL</tspan>
+</text>
 </g>
 <g transform="translate(513, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
