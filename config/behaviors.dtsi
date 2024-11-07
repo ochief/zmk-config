@@ -7,7 +7,7 @@
 	ht: hold_tap {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
-		tapping-term-ms = <100>;
+		tapping-term-ms = <200>;
 		flavor = "tap-preferred";
 		bindings = <&kp>, <&kp>;
 	};
@@ -54,7 +54,7 @@
 		#binding-cells = <0>;
 		bindings = <&kp DOT>, <&kp COLON>;
 		mods = <(MOD_LSFT|MOD_RSFT)>;
-	};	
+	};
 
 	conditional_layers {
 		compatible = "zmk,conditional-layers";

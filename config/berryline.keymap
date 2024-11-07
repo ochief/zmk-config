@@ -1,4 +1,4 @@
-/*
+	/*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -17,7 +17,7 @@
 #define CAD			&kp LC(LA(DEL))
 #define DEL_WORD	&kp LC(BSPC)
 #define INCOGNITO	&kp LC(LS(N))
-#define KILL		&ht LC(W) LA(F4)
+#define KILL		&ht LA(F4) LC(W)
 #define NEW_LINE	&kp LA(ENTER)
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
@@ -30,8 +30,8 @@
 #define TAB_NEXT	&kp LC(PG_DN)
 #define TASK_MAN	&kp LC(LS(ESC))
 
-#define SLACK_1		&none
-#define SLACK_2		&none
+#define SLACK_UP	LA(LS(UP)
+#define SLACK_DN	LA(LS(DOWN)
 
 #define CON_ZERO	&bt BT_SEL 0
 #define CON_ONE		&bt BT_SEL 1 
@@ -77,7 +77,7 @@
         nav_layer {
             label = "NAV"; // desk left and right can be swapped for other useful navigation for slack etc. insert?
 			bindings = <
-				&kp F2		SLACK_1		&kp TAB		SLACK_2		&kp DEL				KILL	 	TAB_PREV	&kp UP		TAB_NEXT	&kp F6
+				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				KILL	 	TAB_PREV	&kp UP		TAB_NEXT	&kp F6
 				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	DEL_WORD
 
@@ -101,7 +101,7 @@
             bindings = <
 				&bt BT_CLR	&kp CARET	&kp TILDE	&kp GRAVE	&kp F12				CAD			BRI_DN		&kp PG_UP	BRI_UP		&bootloader
 				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&kp F11				&kp F12		&kp HOME	&kp PG_DN	&kp END		TASK_MAN
-							VOL_DOWN	VOL_MUTE	VOL_UP                                     	&kp C_PREV	&kp C_PLAY	&kp C_NEXT
+							&kp C_PREV	&kp C_PLAY	&kp C_NEXT									VOL_DOWN	VOL_MUTE	VOL_UP                                     	
 
 													&trans		&none				&none		&trans
 			>;
