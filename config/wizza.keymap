@@ -50,7 +50,7 @@
 #include "combos.dtsi"
 #include "macros.dtsi"
 
-
+#include <dt-bindings/zmk/mouse.h>
 
 / {	
 	keymap {
