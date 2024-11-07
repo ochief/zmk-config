@@ -37,13 +37,13 @@ layers:
   - TAB
   - ''
   - DEL
-  - {t: Alt+ 4, h: Ctl+ W}
+  - {t: Alt+ F4, h: Ctl+ W}
   - Ctl+ PG UP
   - UP
   - Ctl+ PG DN
   - F6
-  - {t: LGUI, h: sticky}
-  - {t: LALT, h: sticky}
+  - {t: LGUI, h: LGUI}
+  - {t: LALT, h: LALT}
   - {t: LCTRL, h: LCTRL}
   - {t: LSHIFT, h: LSHIFT}
   - Ctl+ A
@@ -57,7 +57,7 @@ layers:
   - {t: Ctl+Sft+ V, h: Ctl+ V}
   - BSPC
   - Alt+ ENTER
-  - DEL
+  - Ctl+ BSPC
   - {t: ▽, type: trans}
   - ''
   - RET
@@ -98,8 +98,8 @@ layers:
   - ^
   - '~'
   - '`'
-  - INS
-  - LNLCK
+  - F12
+  - Ctl+Alt+ DEL
   - BRI DN
   - PG UP
   - BRI UP
