@@ -98,12 +98,12 @@
 													&trans		&trans				&trans		&trans
 			>;
 		};
-		
+		// add obscure symbols here tap/holds to burn through four of them  ~ | => ` ^¬
 		misc_layer {
             label = "MISC";		
             bindings = <
-				&bt BT_CLR	&kp F5		&kp F12		&kp F11		&none				&kp LNLCK	BRI_DN		&kp PG_UP	BRI_UP		&kp INS
-				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&bootloader			&kp SLCK	&kp HOME	&kp PG_DN	&kp END		TASK_MAN
+				&bt BT_CLR	&kp F12		&kp F11		&kp INS		&kp SLCK			&kp LNLCK	BRI_DN		&kp PG_UP	BRI_UP		&bootloader
+				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&none				&none		&kp HOME	&kp PG_DN	&kp END		TASK_MAN
 							VOL_DOWN	VOL_MUTE	VOL_UP                                     	&kp C_PREV	&kp C_PLAY	&kp C_NEXT
 
 													&trans		&none				&none		&trans
