@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/mouse.h>
 
 #define MAIN		0
 #define NAV 		1
@@ -49,6 +48,8 @@
 #include "combos.dtsi"
 #include "macros.dtsi"
 
+#include <dt-bindings/zmk/mouse.h>
+
 / {	
 	keymap {
 		compatible = "zmk,keymap";
@@ -73,7 +74,7 @@
 													&macro_nav	&kp SPACE			&skq LSHIFT	&macro_num
 			>;
 		};
-// <!-- --> /* */ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE != COMBOS for ctrl K and ctrl F
+
         nav_layer {
             label = "NAV"; // desk left and right can be swapped for other useful navigation for slack etc. insert?
 			bindings = <
@@ -113,7 +114,7 @@
 // Chris Catman
 
 Christopher Cadman
-
+// <!-- --> /* */ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE != COMBOS for ctrl K and ctrl F
 	https://zmk.dev/docs/keymaps/behaviors/sticky-key#lazy
 	CHANGE SPACE TO CANCEL ON MOD MORPH
 	youtube, chrome, discord, slack, windows, explorer, joplin, drive/chrome/jira/confluence whatsapp =  shortcuts
