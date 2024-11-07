@@ -27,7 +27,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - '&ht_TEST'
+  - {t: 1 0, h: ''''}
   - SPACE
   - {t: LSHIFT, h: sticky}
   - '&macro_num'
