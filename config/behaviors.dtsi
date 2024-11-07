@@ -1,6 +1,11 @@
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 &sk			{ release-after-ms = <60000>; };
 
+&leader {
+    timeout-ms = <200>;
+    timerless;
+};
+
 / {
 	// Sticky key on tap, normal key on hold
 	// Useful for modifier-clicking without the modifier remaining active
