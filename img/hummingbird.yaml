@@ -37,11 +37,11 @@ layers:
   - TAB
   - Alt+Sft+ UP
   - BSPC
-  - {t: Ctl+ W, h: Alt+ F4}
+  - {t: Ctl+ F, s: F6}
   - Ctl+ PG UP
   - UP
   - Ctl+ PG DN
-  - F6
+  - {t: Ctl+ W, h: Alt+ F4}
   - {t: LGUI, h: LGUI}
   - {t: LALT, h: LALT}
   - {t: LCTRL, h: LCTRL}
@@ -67,7 +67,7 @@ layers:
   - '9'
   - '8'
   - '7'
-  - BSPC
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - '6'
   - '5'
   - '4'
-  - +
+  - BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
