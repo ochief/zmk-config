@@ -12,7 +12,7 @@
 		bindings = <&kp>, <&kp>;
 	};
 
-	ht_TEST: hold_tap {
+	ht_TEST: hold_tap_test {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
 		tapping-term-ms = <200>;
