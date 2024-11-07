@@ -28,8 +28,6 @@
 		quick-release;
 		release-after-ms = <750>;
 	};
-	
-	}&kp LA(F4)
 
 	mm_sqt: mm_sqt_only {
 		compatible = "zmk,behavior-mod-morph";
