@@ -44,11 +44,13 @@
 #define BRI_DN		&kp C_BRI_DN
 #define BRI_UP		&kp C_BRI_UP
 
+#include <dt-bindings/zmk/mouse.h>
+
 #include "behaviors.dtsi"
 #include "combos.dtsi"
 #include "macros.dtsi"
 
-#include <dt-bindings/zmk/mouse.h>
+
 
 / {	
 	keymap {
