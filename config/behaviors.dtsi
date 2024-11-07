@@ -22,7 +22,7 @@
 
 	mm_sqt_cancel: mm_sqt_cancel {
 		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>
+		#binding-cells = <0>;
 		bindings = <&mm_sqt_sqt>, <&kp K_CANCEL>;
 		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT)>;
 	};
