@@ -49,6 +49,8 @@
 
 #define UK_TILDE	&kp TILDE2
 
+&leader		{ timeout-ms = <650>; };
+
 #include			"behaviors.dtsi"
 #include			"combos.dtsi"
 #include			"leader.dtsi"
