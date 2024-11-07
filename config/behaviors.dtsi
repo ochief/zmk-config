@@ -4,6 +4,22 @@
 / {
 	// Sticky key on tap, normal key on hold
 	// Useful for modifier-clicking without the modifier remaining active
+	nk: not_so_sticky_key {
+		compatible = "zmk,behavior-hold-tap";
+		#binding-cells = <2>;
+		tapping-term-ms = <250>;
+		flavor = "tap-preferred";
+		bindings = <&kp>, <&sk>;
+	};
+
+    skq: sticky_key_quick_release {
+		compatible = "zmk,behavior-sticky-key";
+		#binding-cells = <1>;
+		bindings = <&kp>;
+		quick-release;
+		release-after-ms = <750>;
+	};
+
 	ht: hold_tap {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
@@ -29,25 +45,9 @@
 
 	mm_sqt_sqt: mm_sqt {
 		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>
+		#binding-cells = <0>;
 		bindings = <&kp SQT>, <&kp SQT>;
 		mods = <(MOD_RSFT)>;
-	};
-
-	nk: not_so_sticky_key {
-		compatible = "zmk,behavior-hold-tap";
-		#binding-cells = <2>;
-		tapping-term-ms = <250>;
-		flavor = "tap-preferred";
-		bindings = <&kp>, <&sk>;
-	};
-
-    skq: sticky_key_quick_release {
-		compatible = "zmk,behavior-sticky-key";
-		#binding-cells = <1>;
-		bindings = <&kp>;
-		quick-release;
-		release-after-ms = <750>;
 	};
 
 	mm_sqt: mm_sqt_only {
