@@ -41,11 +41,13 @@
 #define VOL_UP		&kp C_VOL_UP 
 #define VOL_MUTE	&kp C_MUTE
 
+#define UK_TILDE	&kp TILDE2
+
 #include			"behaviors.dtsi"
 #include			"combos.dtsi"
 #include			"macros.dtsi"
 
-/ {	
+/ {
 	keymap {
 		compatible = "zmk,keymap";
 		
@@ -95,7 +97,7 @@
 		misc_layer {
             label = "MISC";		
             bindings = <
-				&bt BT_CLR	&kp CARET	&kp TILDE	&kp GRAVE	&kp F12				CAD			BRI_DN		&kp PG_UP	BRI_UP		&bootloader
+				&bt BT_CLR	&kp CARET	UK_TILDE	&kp GRAVE	&kp F12				CAD			BRI_DN		&kp PG_UP	BRI_UP		&bootloader
 				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&kp F11				&kp F12		&kp HOME	&kp PG_DN	&kp END		TASK_MAN
 							&kp C_PREV	&kp C_PLAY	&kp C_NEXT									VOL_DOWN	VOL_MUTE	VOL_UP                                     	
 
