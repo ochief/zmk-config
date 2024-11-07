@@ -67,7 +67,7 @@
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&mm_search_shift>, <&kp LC(K)>;
-		mods = <(MOD_RCTRL|MOD_RCTRL)>;
+		mods = <(MOD_LCTRL|MOD_RCTRL)>;
 	};
 
 	mm_search: mm_search {
