@@ -24,6 +24,7 @@
 #define DEL_WORD	&kp LC(BSPC)
 #define INCOGNITO	&kp LC(LS(N))
 #define KILL		&ht LA(F4) LC(W)
+#define NAV_SQT		&ht_sqt_nav NAV 0
 #define NEW_LINE	&kp LA(ENTER)
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
@@ -68,7 +69,7 @@
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&mm_com_sco	&mm_dot_col
 
-													&ht_TEST NAV 0	&kp SPACE			&skq RSHIFT	&macro_num
+													NAV_SQT		&kp SPACE			&skq RSHIFT	&macro_num
 			>;
 		};
 

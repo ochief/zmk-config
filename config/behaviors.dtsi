@@ -12,19 +12,26 @@
 		bindings = <&kp>, <&kp>;
 	};
 
-	ht_TEST: hold_tap_TEST {
+	ht_sqt_nav: hold_tap_TEST {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
 		tapping-term-ms = <200>;
 		flavor = "tap-preferred";
-		bindings = <&mo>, <&mm_TEST>;
+		bindings = <&mo>, <&mm_sqt_cancel>;
 	};
 
-	mm_TEST: mm_TEST {
+	mm_sqt_cancel: mm_sqt_cancel {
 		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp SQT>, <&kp K_CANCEL>;
+		#binding-cells = <0>
+		bindings = <&mm_sqt_sqt>, <&kp K_CANCEL>;
 		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT)>;
+	};
+
+	mm_sqt_sqt: mm_sqt {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>
+		bindings = <&kp SQT>, <&kp SQT>;
+		mods = <(MOD_RSFT)>;
 	};
 
 	nk: not_so_sticky_key {
