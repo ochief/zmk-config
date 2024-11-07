@@ -113,10 +113,8 @@
 };
 
 /*
-// Chris Catman
 
-Christopher Cadman
-// <!-- --> /* */ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE != COMBOS for ctrl K and ctrl F
+<!-- -->  macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE != COMBOS for ctrl K and ctrl F / html comments
 	https://zmk.dev/docs/keymaps/behaviors/sticky-key#lazy
 	CHANGE SPACE TO CANCEL ON MOD MORPH
 	youtube, chrome, discord, slack, windows, explorer, joplin, drive/chrome/jira/confluence whatsapp =  shortcuts
