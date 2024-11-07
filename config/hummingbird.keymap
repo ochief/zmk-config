@@ -71,9 +71,9 @@
 		};
 
         nav_layer {
-            label = "NAV"; // desk left and right can be swapped for other useful navigation for slack etc. insert?
+            label = "NAV";
 			bindings = <
-				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp BSPC			KILL	 	TAB_PREV	&kp UP		TAB_NEXT	&kp F6
+				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp BSPC			&mm_search	TAB_PREV	&kp UP		TAB_NEXT	KILL
 				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	DEL_WORD
 
@@ -84,9 +84,9 @@
         num_layer {
             label = "NUM";		
 			bindings = <
-				&trans		&kp N9		&kp N8		&kp N7		&kp BSPC			&trans		&trans		&trans		&trans		&trans
+				&trans		&kp N9		&kp N8		&kp N7		&trans				&trans		&trans		&trans		&trans		&trans
 				&kp N3		&kp N2		&kp N1		&kp N0		&trans				&kp EQUAL	SK(LSHIFT)	SK(LCTRL)	SK(LALT)	SK(LGUI)
-							&kp N6		&kp N5		&kp N4										&kp PLUS	&trans		&trans
+							&kp N6		&kp N5		&kp N4										&kp BSPC	&trans		&trans
 
 													&trans		&trans				&trans		&trans
 			>;
