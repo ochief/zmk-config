@@ -51,7 +51,6 @@
 
 #include			"behaviors.dtsi"
 #include			"combos.dtsi"
-#include			"leader.dtsi"
 #include			"macros.dtsi"
 
 / {
