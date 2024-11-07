@@ -95,21 +95,21 @@ layers:
   - {t: ▽, type: trans}
   misc:
   - BT CLR
-  - F5
-  - F12
-  - F11
-  - ''
+  - ^
+  - '~'
+  - '`'
+  - INS
   - LNLCK
   - BRI DN
   - PG UP
   - BRI UP
-  - INS
+  - '&bootloader'
   - {t: BT, h: '3'}
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
-  - '&bootloader'
-  - SLCK
+  - F11
+  - F12
   - HOME
   - PG DN
   - END
