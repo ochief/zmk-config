@@ -33,11 +33,11 @@ layers:
   - '&macro_num'
   nav:
   - F2
-  - ''
+  - Alt+Sft+ DOWN
   - TAB
-  - ''
-  - DEL
-  - {t: Alt+ F4, h: Ctl+ W}
+  - Alt+Sft+ UP
+  - BSPC
+  - {t: Ctl+ W, h: Alt+ F4}
   - Ctl+ PG UP
   - UP
   - Ctl+ PG DN
@@ -67,7 +67,7 @@ layers:
   - '9'
   - '8'
   - '7'
-  - {t: ▽, type: trans}
+  - BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,12 +114,12 @@ layers:
   - PG DN
   - END
   - Ctl+Sft+ ESC
-  - VOL DN
-  - MUTE
-  - VOL UP
   - PREV
   - PLAY
   - NEXT
+  - VOL DN
+  - MUTE
+  - VOL UP
   - {t: ▽, type: trans}
   - ''
   - ''
