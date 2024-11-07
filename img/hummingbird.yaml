@@ -5,7 +5,7 @@ layers:
   - C
   - G
   - D
-  - {t: '''', s: ''''}
+  - '&leader'
   - X
   - L
   - U
@@ -59,25 +59,25 @@ layers:
   - Alt+ ENTER
   - Ctl+ BSPC
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - RET
   - {t: ▽, type: trans}
   num:
-  - {t: ▽, type: trans}
+  - ''
   - '9'
   - '8'
   - '7'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '3'
   - '2'
   - '1'
   - '0'
-  - {t: ▽, type: trans}
+  - ''
   - '='
   - {t: LSHIFT, h: LSHIFT}
   - {t: LCTRL, h: LCTRL}
@@ -87,8 +87,8 @@ layers:
   - '5'
   - '4'
   - BSPC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,8 +121,8 @@ layers:
   - MUTE
   - VOL UP
   - {type: held}
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [2, 3]

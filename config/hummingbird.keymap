@@ -17,7 +17,7 @@
 
 #define XXXXXXXXXX	&none
 #define __________  &trans
-#define ___[XX]___	&trans
+#define ___XXXX___	&trans
 
 #define BRI_DN		&kp C_BRI_DN
 #define BRI_UP		&kp C_BRI_UP
@@ -86,7 +86,7 @@
 				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	DEL_WORD
 
-													___[XX]___	__________			&kp RET		__________
+													___XXXX___	__________			&kp RET		__________
 			>;
 		};
 	
@@ -97,7 +97,7 @@
 				&kp N3		&kp N2		&kp N1		&kp N0		XXXXXXXXXX			&kp EQUAL	SK(LSHIFT)	SK(LCTRL)	SK(LALT)	SK(LGUI)
 							&kp N6		&kp N5		&kp N4										&kp BSPC	XXXXXXXXXX	XXXXXXXXXX
 
-													__________	__________			__________	___[XX]___
+													__________	__________			__________	___XXXX___
 			>;
 		};
 
@@ -108,7 +108,7 @@
 				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&kp F11				&kp F12		&kp HOME	&kp PG_DN	&kp END		TASK_MAN
 							&kp C_PREV	&kp C_PLAY	&kp C_NEXT									VOL_DOWN	VOL_MUTE	VOL_UP                                     	
 
-													___[XX]___	__________			__________	___[XX]___
+													___XXXX___	__________			__________	___XXXX___
 			>;
 		};
 	};
