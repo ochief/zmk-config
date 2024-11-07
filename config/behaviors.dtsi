@@ -24,7 +24,7 @@
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp SQT>, <&kp K_CANCEL>;
-		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT|MOD_RSFT|MOD_RCTL|MOD_RALT|MOD_RGUI)>;
+		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT)>;
 	};
 
 	nk: not_so_sticky_key {
