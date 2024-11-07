@@ -15,9 +15,9 @@
 #define MISC		3
 
 #define CAD			&kp LC(LA(DEL))
-#define DEL_WORD	&kp DEL
+#define DEL_WORD	&kp LC(BSPC)
 #define INCOGNITO	&kp LC(LS(N))
-#define KILL		&ht LC(W) LA(4)
+#define KILL		&ht LC(W) LA(F4)
 #define NEW_LINE	&kp LA(ENTER)
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
@@ -82,7 +82,7 @@
             label = "NAV"; // desk left and right can be swapped for other useful navigation for slack etc. insert?
 			bindings = <
 				&kp F2		SLACK_1		&kp TAB		SLACK_2		&kp DEL				KILL	 	TAB_PREV	&kp UP		TAB_NEXT	&kp F6
-				&sk LGUI	&sk LALT	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
+				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	DEL_WORD
 
 													&trans		&none				&kp RET		&trans
@@ -115,6 +115,26 @@
 
 /*
 
+
+ESSENTIAL SHORTCUTS
+	- App Launch (replace START)
+	- ESC
+	- "
+	- @
+	- - 
+	- _
+	- !
+	- ?
+	- /
+	- \
+	- £ $ €
+	- *
+	- &
+
+ ESC
+ 
+ >-->--<!--<!--<!-->--<!-->--<!--<!--<!--<!--<!--<!--<!--<!-->--<!--<!-- l
+https://github.com/rafaelromao/keyboards/tree/main
 <!-- -->  macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE != COMBOS for ctrl K and ctrl F / html comments
 	https://zmk.dev/docs/keymaps/behaviors/sticky-key#lazy
 	CHANGE SPACE TO CANCEL ON MOD MORPH

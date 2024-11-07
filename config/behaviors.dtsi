@@ -1,8 +1,4 @@
-&sk  { 
-	release-after-ms = <60000>;
-	lazy;
-};
-
+&sk			{ release-after-ms = <60000>; };
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 
 / {
@@ -11,7 +7,7 @@
 	ht: hold_tap {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
-		tapping-term-ms = <250>;
+		tapping-term-ms = <100>;
 		flavor = "tap-preferred";
 		bindings = <&kp>, <&kp>;
 	};
