@@ -11,7 +11,7 @@
 		flavor = "tap-preferred";
 		bindings = <&kp>, <&kp>;
 	};
-	
+
 	nk: not_so_sticky_key {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
