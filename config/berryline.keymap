@@ -129,9 +129,8 @@ ESSENTIAL SHORTCUTS
 
  ESC
  
- >-->--<!--<!--<!-->--<!-->--<!--<!--<!--<!--<!--<!--<!--<!-->--<!--<!-- l
 https://github.com/rafaelromao/keyboards/tree/main
-<!-- -->  macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE != COMBOS for ctrl K and ctrl F / html comments
+ macros <> (vertical) ll combo? ALT + ENTER FOR NEW LINE != COMBOS for ctrl K and ctrl F / html comments
 	https://zmk.dev/docs/keymaps/behaviors/sticky-key#lazy
 	CHANGE SPACE TO CANCEL ON MOD MORPH a
 	youtube, chrome, discord, slack, windows, explorer, joplin, drive/chrome/jira/confluence whatsapp =  shortcuts
@@ -142,7 +141,7 @@ https://github.com/rafaelromao/keyboards/tree/main
 	vimium
 	back / forward
 	sticky shift
-	// lock / ctrl alt del
+	lock / ctrl alt del
 	Leader key on right
 	
 	New passwords using home row https://word.tips/unscramble/rsthiaen/
