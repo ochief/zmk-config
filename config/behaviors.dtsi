@@ -56,25 +56,25 @@
 		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 
-	mm_search_shift: mm_search_shift {
+	mm_search: mm_search {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp LC(F)>, <&kp LC(G)>;
-		mods = <(MOD_LSFT|MOD_RSFT)>;
+		bindings = <&mm_search_control>, <&kp F6>;
+		mods = <(MOD_LALT|MOD_RALT)>;
 	};
-	/*
+
 	mm_search_control: mm_search_control {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&mm_search_shift>, <&kp LC(K)>;
 		mods = <(MOD_LCTRL|MOD_RCTRL)>;
 	};
-	*/
-	mm_search: mm_search {
+
+	mm_search_shift: mm_search_shift {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&mm_search_shift>, <&kp F6>;
-		mods = <(MOD_LALT|MOD_RALT)>;
+		bindings = <&kp LC(F)>, <&kp LC(G)>;
+		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 
 	conditional_layers {
