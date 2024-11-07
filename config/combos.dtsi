@@ -4,9 +4,9 @@
 //			20	21	22				23	24	25
 //					26	27		28	29
 //
-//		 W	 C	 G Q D	 '		 X	 L	 U	 O	 Y
+//		 W	 C	 G	 D	 '		 X	 L	 U	 O	 Y
 //		 R	 S	 T	 H	 K		 J	 N	 E	 A	 I 
-//			 F Z P V B				 M	 ,	 .
+//			 F	 P	 B				 M	 ,	 .
 
 #define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, TIMEOUT) \
 	combo_##NAME { \
@@ -76,15 +76,4 @@
 		COMBO(dqt,      &kp AT,      	 7  8,		MAIN, COMBO_TERM_NORMAL)
 		COMBO(bslash,   &kp NUBS,    	20 22, 		MAIN, COMBO_TERM_NORMAL)
 */
-
-		// brackets 
-		COMBO(lt,       &kp LT,        	 0 10,		MAIN, COMBO_TERM_NORMAL)
-		COMBO(lbkt,     &kp LBKT,     	 1 11,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(lpar,     &kp LPAR,     	 2 12,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(lbrc,     &kp LBRC,     	 3 13,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(gt,       &kp GT,        	 9 19,  	MAIN, COMBO_TERM_NORMAL)
-		COMBO(rbrc,     &kp RBRC,     	 6 16,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(rpar,     &kp RPAR,     	 7 17,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(rbkt,     &kp RBKT,     	 8 18,  	MAIN, COMBO_TERM_SLOW)
-	};
 };
