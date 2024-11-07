@@ -37,7 +37,7 @@ layers:
   - TAB
   - Alt+Sft+ UP
   - BSPC
-  - {t: Ctl+ F, s: F6}
+  - {t: '&mm_search_ctrl', s: F6}
   - Ctl+ PG UP
   - UP
   - Ctl+ PG DN

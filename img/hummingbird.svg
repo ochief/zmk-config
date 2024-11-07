@@ -334,9 +334,7 @@ path.combo {
 </g>
 <g transform="translate(439, 71)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.0em">Ctl+</tspan><tspan x="0" dy="1.2em">F</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;mm_search…</tspan></text>
 <text x="0" y="-24" class="key shifted">F6</text>
 </g>
 <g transform="translate(500, 42)" class="key keypos-6">
