@@ -11,7 +11,7 @@
 
 #define MAIN		0
 #define NAV 		1
-#define NUM			2
+#define NUM 		2
 #define MISC		3
 
 #define BRI_DN		&kp C_BRI_DN
