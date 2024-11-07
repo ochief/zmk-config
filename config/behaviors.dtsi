@@ -17,7 +17,7 @@
 		#binding-cells = <2>;
 		tapping-term-ms = <200>;
 		flavor = "tap-preferred";
-		bindings = <&mm_TEST>, <&kp N1>;
+		bindings = <&mm_TEST 0 0>, <&kp N1>;
 	};
 
 	mm_TEST: mm_TEST {
