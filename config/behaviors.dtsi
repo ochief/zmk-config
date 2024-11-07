@@ -14,10 +14,10 @@
 
 	ht_TEST: hold_tap_TEST {
 		compatible = "zmk,behavior-hold-tap";
-		#binding-cells = <2>;
+		#binding-cells = <0>;
 		tapping-term-ms = <200>;
 		flavor = "tap-preferred";
-		bindings = <&mm_TEST 0 0>, <&kp N1>;
+		bindings = <&mm_TEST>, <&kp N1>;
 	};
 
 	mm_TEST: mm_TEST {
