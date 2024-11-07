@@ -37,7 +37,7 @@ layers:
   - TAB
   - Alt+Sft+ UP
   - BSPC
-  - {t: '&mm_search_ctrl', s: F6}
+  - {t: Ctl+ F, s: F6}
   - Ctl+ PG UP
   - UP
   - Ctl+ PG DN
@@ -149,21 +149,21 @@ combos:
 - p: [15, 16]
   k: '&macro_comm_l'
   l: [main]
-- p: [1, 11]
+- p: [11, 20]
   k: '['
   l: [main]
-- p: [2, 12]
+- p: [12, 21]
   k: (
   l: [main]
-- p: [3, 13]
+- p: [13, 22]
   k: '{'
   l: [main]
-- p: [6, 16]
+- p: [16, 23]
   k: '}'
   l: [main]
-- p: [7, 17]
+- p: [17, 24]
   k: )
   l: [main]
-- p: [8, 18]
+- p: [18, 25]
   k: ']'
   l: [main]
