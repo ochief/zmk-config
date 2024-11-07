@@ -3,10 +3,10 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: forkedzmk
-      url-base: https://github.com/nickconway/zmk
+      url-base: https://github.com/nickconway
   projects:
     - name: zmk
-      remote: zmk
+      remote: nickconway
       revision: leader-key
       import: app/west.yml
   self:
