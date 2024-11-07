@@ -124,3 +124,46 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [2, 3]
+  k: Q
+  l: [main]
+- p: [20, 21]
+  k: Z
+  l: [main]
+- p: [21, 22]
+  k: V
+  l: [main]
+- p: [3, 4]
+  k: Ctl+ Y
+  l: [main]
+- p: [13, 14]
+  k: Ctl+ Z
+  l: [main]
+- p: [5, 15]
+  k: '&macro_not_eq'
+  l: [main]
+- p: [5, 6]
+  k: '&macro_comm_r'
+  l: [main]
+- p: [15, 16]
+  k: '&macro_comm_l'
+  l: [main]
+- p: [11, 20]
+  k: '['
+  l: [main]
+- p: [12, 21]
+  k: (
+  l: [main]
+- p: [13, 22]
+  k: '{'
+  l: [main]
+- p: [16, 23]
+  k: '}'
+  l: [main]
+- p: [17, 24]
+  k: )
+  l: [main]
+- p: [18, 25]
+  k: ']'
+  l: [main]
