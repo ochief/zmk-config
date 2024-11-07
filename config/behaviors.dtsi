@@ -29,7 +29,7 @@
 		compatible = "zmk,behavior-tap-dance";
 		label = "leaders";
 		#binding-cells = <0>;
-		tapping-term-ms = <QUICK_TAP_TERM>;
+		tapping-term-ms = <300>;
 		bindings = <&leader &leader2 &leader3>;
 	};
 
