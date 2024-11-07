@@ -38,8 +38,8 @@
 		COMBO(comm_l,	&comm_l,		15 16, 		MAIN, COMBO_TERM_NORMAL)
 
 		COMBO(mouse4,   &mkp MB4,     	11 20, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(mouse2,   &mkp MB2,     	12 21, 		MAIN, COMBO_TERM_NORMAL)
-	    COMBO(mouse1,   &mkp MB1,     	13 22, 		MAIN, COMBO_TERM_NORMAL)
+		COMBO(mouse2,   &mkp RCLK,     	12 21, 		MAIN, COMBO_TERM_NORMAL)
+	    COMBO(mouse1,   &mkp LCLK,     	13 22, 		MAIN, COMBO_TERM_NORMAL)
 		
 		// brackets 
 		COMBO(lbkt,     &kp LBKT,     	 1 11,  	MAIN, COMBO_TERM_SLOW)

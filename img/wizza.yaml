@@ -153,10 +153,10 @@ combos:
   k: '&mkp MB4'
   l: [main]
 - p: [12, 21]
-  k: '&mkp MB2'
+  k: '&mkp RCLK'
   l: [main]
 - p: [13, 22]
-  k: '&mkp MB1'
+  k: '&mkp LCLK'
   l: [main]
 - p: [1, 11]
   k: '['
