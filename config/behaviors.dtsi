@@ -1,5 +1,6 @@
-&sk			{ release-after-ms = <60000>; };
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
+&sk			{ release-after-ms = <60000>; };
+&leader		{ timeout-ms = <650>; };
 
 / {
 	// Sticky key on tap, normal key on hold
