@@ -14,6 +14,11 @@
 #define NUM 		2
 #define MISC		3
 
+
+#define XXXXXXXXXX	&none
+#define __________  &trans
+#define ___[XX]___	&trans
+
 #define BRI_DN		&kp C_BRI_DN
 #define BRI_UP		&kp C_BRI_UP
 #define CAD			&kp LC(LA(DEL))
@@ -46,6 +51,7 @@
 
 #include			"behaviors.dtsi"
 #include			"combos.dtsi"
+#include			"leader.dtsi"
 #include			"macros.dtsi"
 
 / {
@@ -65,7 +71,7 @@
         main_layer {
             label = "MAIN";
             bindings = <
-				&kp W		&kp C		&kp G		&kp D		&mm_sqt				&kp X		&kp L		&kp U		&kp O		&kp Y
+				&kp W		&kp C		&kp G		&kp D		&leader			&kp X		&kp L		&kp U		&kp O		&kp Y
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&mm_com_sco	&mm_dot_col
 
@@ -80,18 +86,18 @@
 				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	DEL_WORD
 
-													&trans		&none				&kp RET		&trans
+													___[XX]___	__________			&kp RET		__________
 			>;
 		};
 	
         num_layer {
             label = "NUM";		
 			bindings = <
-				&trans		&kp N9		&kp N8		&kp N7		&trans				&trans		&trans		&trans		&trans		&trans
-				&kp N3		&kp N2		&kp N1		&kp N0		&trans				&kp EQUAL	SK(LSHIFT)	SK(LCTRL)	SK(LALT)	SK(LGUI)
-							&kp N6		&kp N5		&kp N4										&kp BSPC	&trans		&trans
+				XXXXXXXXXX	&kp N9		&kp N8		&kp N7		XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
+				&kp N3		&kp N2		&kp N1		&kp N0		XXXXXXXXXX			&kp EQUAL	SK(LSHIFT)	SK(LCTRL)	SK(LALT)	SK(LGUI)
+							&kp N6		&kp N5		&kp N4										&kp BSPC	XXXXXXXXXX	XXXXXXXXXX
 
-													&trans		&trans				&trans		&trans
+													__________	__________			__________	___[XX]___
 			>;
 		};
 
@@ -102,7 +108,7 @@
 				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&kp F11				&kp F12		&kp HOME	&kp PG_DN	&kp END		TASK_MAN
 							&kp C_PREV	&kp C_PLAY	&kp C_NEXT									VOL_DOWN	VOL_MUTE	VOL_UP                                     	
 
-													&trans		&none				&none		&trans
+													___[XX]___	__________			__________	___[XX]___
 			>;
 		};
 	};
