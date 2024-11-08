@@ -78,42 +78,42 @@ layers:
   - '1'
   - '0'
   - ''
-  - '='
-  - {t: LSHIFT, h: LSHIFT}
-  - {t: LCTRL, h: LCTRL}
-  - {t: LALT, h: LALT}
-  - {t: LGUI, h: LGUI}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '6'
   - '5'
   - '4'
-  - BSPC
   - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   misc:
-  - BT CLR
+  - {t: ▽, type: trans}
   - ^
   - '~'
   - '`'
-  - F12
+  - Ctl+Sft+ ESC
   - Ctl+Alt+ DEL
-  - BRI DN
+  - Ctl+Gui+ LEFT
   - PG UP
-  - BRI UP
+  - Ctl+Gui+ RIGHT
   - '&bootloader'
+  - BT CLR
   - {t: BT, h: '3'}
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
-  - {t: BT, h: '0'}
   - F11
   - F12
   - HOME
   - PG DN
   - END
-  - Ctl+Sft+ ESC
+  - '&macro_power'
   - PREV
   - PLAY
   - NEXT
@@ -152,21 +152,21 @@ combos:
 - p: [15, 16]
   k: '&macro_comm_l'
   l: [main]
-- p: [11, 20]
+- p: [1, 11]
   k: '['
   l: [main]
-- p: [12, 21]
+- p: [2, 12]
   k: (
   l: [main]
-- p: [13, 22]
+- p: [3, 13]
   k: '{'
   l: [main]
-- p: [16, 23]
+- p: [6, 16]
   k: '}'
   l: [main]
-- p: [17, 24]
+- p: [7, 17]
   k: )
   l: [main]
-- p: [18, 25]
+- p: [8, 18]
   k: ']'
   l: [main]
