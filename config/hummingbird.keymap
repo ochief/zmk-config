@@ -108,9 +108,9 @@
 		misc_layer {
             label = "MISC";		
             bindings = <
-				__________	&kp CARET	UK_TILDE	&kp GRAVE	TASK_MAN			CAD			DESK_L		&kp PG_UP	DESK_R		&bootloader
-				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		&kp F11				&kp F12		&kp HOME	&kp PG_DN	&kp END		POWER
-							&kp C_PREV	&kp C_PLAY	&kp C_NEXT									VOL_DOWN	VOL_MUTE	VOL_UP                                     	
+				&kp GRAVE	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp CARET			UK_TILDE	&kp F11		&kp PG_UP	&kp F12		&bootloader
+				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		TASK_MAN			POWER		&kp F12		&kp HOME	&kp PG_DN	&kp END		CAD
+							XXXXXXXXXX	DESK_L		DESK_R										VOL_DOWN	VOL_MUTE	VOL_UP                                     	
 
 													___XXXX___	__________			__________	___XXXX___
 			>;
