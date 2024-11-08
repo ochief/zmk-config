@@ -33,7 +33,7 @@
 #define NAV_SQT		&ht_sqt_nav NAV 0
 #define NEW_LINE	&kp LA(ENTER)
 #define NUM_APP		&ht_app_num NUM 0
-#define POWER		&macro_power
+#define SCREEN_SHOT &kp LG(LS(S))
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
 #define SHO_CUT		&kp LC(X)
@@ -49,6 +49,8 @@
 #define VOL_DOWN 	&kp C_VOL_DN 
 #define VOL_UP		&kp C_VOL_UP 
 #define VOL_MUTE	&kp C_MUTE
+
+#define MAC_WIN		&none^~~^~^~^^~^~^~
 
 #define UK_TILDE	&kp TILDE2
 
@@ -70,7 +72,20 @@
 //		 R	 S	 T	 H	 K		 J	 N	 E	 A	 I 
 //			 F	 P	 B				 M	 ,	 .
 		
-        main_layer {
+        
+		main_layer {
+            label = "MAIN";
+            bindings = <
+				&kp W		&kp C		&kp G		&kp D		&kp K				&kp J		&kp L		&kp U		&kp O		&kp Y
+				&kp R		&kp S		&kp T		&kp H		&kp F				&kp M		&kp N		&kp E		&kp A		&kp I
+							&kp V		&kp P		&kp B                                       &kp X		&kp Q		&kp Z
+
+													&kp SQT		&kp SPACE			&kp BSPC	&skq RSHIFT
+			>;
+		};
+
+		/*
+		main_layer {
             label = "MAIN";
             bindings = <
 				&kp W		&kp C		&kp G		&kp D		BITWARDEN			&kp X		&kp L		&kp U		&kp O		&kp Y
@@ -80,7 +95,7 @@
 													NAV_SQT		&kp SPACE			&skq RSHIFT	NUM_APP
 			>;
 		};
-
+		*/
         nav_layer {
             label = "NAV";
 			bindings = <
@@ -92,7 +107,18 @@
 			>;
 		};
 	
-		// https://github.com/caksoylar/zmk-config
+		/*
+		! ? " @
+
+		$ £(€) % & * - _ + = # @ / \ |
+
+		COMBOS TO SWITCH FROM MAC TO WIN
+
+		*/
+
+
+
+		// https://github.com/caksoylar/zmk-config / mouse layer and thumbs
 
         num_layer {
             label = "NUM";		
@@ -108,9 +134,9 @@
 		misc_layer {
             label = "MISC";		
             bindings = <
-				&kp GRAVE	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp CARET			UK_TILDE	&kp F11		&kp PG_UP	&kp F12		&bootloader
-				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		TASK_MAN			POWER		&kp HOME	&kp PG_DN	&kp END		CAD
-							XXXXXXXXXX	DESK_L		DESK_R										VOL_DOWN	VOL_MUTE	VOL_UP                                     	
+				TASK_MAN	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp CARET			UK_TILDE	&kp F11		&kp PG_UP	&kp F12		&bootloader
+				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		&kp GRAVE			POWER		u&kp HOME	&kp PG_DN	&kp END		CAD
+							SCREEN_SHOT	DESK_L		DESK_R										VOL_DOWN	VOL_MUTE	VOL_UP                                     	
 
 													___XXXX___	__________			__________	___XXXX___
 			>;
