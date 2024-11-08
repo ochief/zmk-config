@@ -43,25 +43,11 @@
 		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT)>;
 	};
 
-	mm_sqt_cancel: mm_sqt_cancel {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&mm_sqt_sqt>, <&kp K_CANCEL>;
-		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT)>;
-	};
-
-	mm_sqt_sqt: mm_sqt {
+	mm_sqt_sqt: mm_sqt_sqt {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp SQT>, <&kp SQT>;
 		mods = <(MOD_RSFT)>;
-	};
-
-	mm_sqt: mm_sqt_only {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp SQT>, <&kp SQT>;
-		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 
 	ht_app_num: ht_app_num {
