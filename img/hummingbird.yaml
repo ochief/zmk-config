@@ -5,7 +5,7 @@ layers:
   - C
   - G
   - D
-  - '&leaders'
+  - Alt+ SPACE
   - X
   - L
   - U
