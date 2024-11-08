@@ -19,6 +19,7 @@
 #define ___XXXX___	&trans
 
 #define APP_LAUNCH	&kp LA(SPACE)
+#define BITWARDEN	&kp LC(LS(L))
 #define BRI_DN		&kp C_BRI_DN
 #define BRI_UP		&kp C_BRI_UP
 #define CAD			&kp LC(LA(DEL))
@@ -71,7 +72,7 @@
         main_layer {
             label = "MAIN";
             bindings = <
-				&kp W		&kp C		&kp G		&kp D		XXXXXXXXXX			&kp X		&kp L		&kp U		&kp O		&kp Y
+				&kp W		&kp C		&kp G		&kp D		BITWARDEN			&kp X		&kp L		&kp U		&kp O		&kp Y
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&mm_com_sco	&mm_dot_col
 
