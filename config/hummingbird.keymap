@@ -135,7 +135,7 @@
             label = "MISC";		
             bindings = <
 				TASK_MAN	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp CARET			UK_TILDE	&kp F11		&kp PG_UP	&kp F12		&bootloader
-				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		&kp GRAVE			POWER		u&kp HOME	&kp PG_DN	&kp END		CAD
+				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		&kp GRAVE			POWER		&kp HOME	&kp PG_DN	&kp END		CAD
 							SCREEN_SHOT	DESK_L		DESK_R										VOL_DOWN	VOL_MUTE	VOL_UP                                     	
 
 													___XXXX___	__________			__________	___XXXX___
