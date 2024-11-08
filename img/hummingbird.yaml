@@ -94,29 +94,29 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   misc:
-  - {t: ▽, type: trans}
+  - '`'
+  - PREV
+  - PLAY
+  - NEXT
   - ^
   - '~'
-  - '`'
-  - Ctl+Sft+ ESC
-  - Ctl+Alt+ DEL
-  - Ctl+Gui+ LEFT
+  - F11
   - PG UP
-  - Ctl+Gui+ RIGHT
+  - F12
   - '&bootloader'
   - BT CLR
   - {t: BT, h: '3'}
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
-  - F11
-  - F12
+  - Ctl+Sft+ ESC
+  - '&macro_power'
   - HOME
   - PG DN
   - END
-  - '&macro_power'
-  - PREV
-  - PLAY
-  - NEXT
+  - Ctl+Alt+ DEL
+  - ''
+  - Ctl+Gui+ LEFT
+  - Ctl+Gui+ RIGHT
   - VOL DN
   - MUTE
   - VOL UP
