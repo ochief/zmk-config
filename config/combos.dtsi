@@ -40,12 +40,12 @@ combo_##NAME { \
 		COMBO(comm_l,	&macro_comm_l,	15 16, 		MAIN, COMBO_TERM_NORMAL)
 		
 		// brackets 
-		COMBO(lbkt,		&kp LBKT,     	11 20,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(lpar,     &kp LPAR,     	12 21,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(lbrc,     &kp LBRC,     	13 22,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(rbrc,     &kp RBRC,     	16 23,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(rpar,     &kp RPAR,     	17 24,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(rbkt,     &kp RBKT,     	18 25,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(lbkt,		&kp LBKT,     	 1 11,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(lpar,     &kp LPAR,     	 2 12,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(lbrc,     &kp LBRC,     	 3 13,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(rbrc,     &kp RBRC,     	 6 16,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(rpar,     &kp RPAR,     	 7 17,  	MAIN, COMBO_TERM_SLOW)
+		COMBO(rbkt,     &kp RBKT,     	 8 18,  	MAIN, COMBO_TERM_SLOW)
 
 	/*
 		COMBO(del,     	&kp DEL,     	 4 14,  	MAIN, COMBO_TERM_SLOW)

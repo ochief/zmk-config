@@ -13,26 +13,27 @@
 #define NAV 		1
 #define NUM 		2
 #define MISC		3
+// Game pad mode 
 
 #define XXXXXXXXXX	&none
 #define __________  &trans
 #define ___XXXX___	&trans
 
 #define APP_LAUNCH	&kp LA(SPACE)
-#define BITWARDEN	&kp LC(LS(L))
-#define BRI_DN		&kp C_BRI_DN
-#define BRI_UP		&kp C_BRI_UP
+#define BITWARDEN	&kp LC(LS(L))		// any other shortcuts I should be using?
 #define CAD			&kp LC(LA(DEL))
-#define CON_ZERO	&bt BT_SEL 0
 #define CON_ONE		&bt BT_SEL 1 
 #define CON_TWO		&bt BT_SEL 2 
 #define CON_THREE	&bt BT_SEL 3	
 #define DEL_WORD	&kp LC(BSPC)
+#define DESK_L		&kp LC(LG(LEFT))
+#define DESK_R		&kp LC(LG(RIGHT))
 #define INCOGNITO	&kp LC(LS(N))
 #define KILL		&ht LA(F4) LC(W)
 #define NAV_SQT		&ht_sqt_nav NAV 0
 #define NEW_LINE	&kp LA(ENTER)
 #define NUM_APP		&ht_app_num NUM 0
+#define POWER		&macro_power
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
 #define SHO_CUT		&kp LC(X)
@@ -91,22 +92,24 @@
 			>;
 		};
 	
+		// https://github.com/caksoylar/zmk-config
+
         num_layer {
             label = "NUM";		
 			bindings = <
 				XXXXXXXXXX	&kp N9		&kp N8		&kp N7		XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
-				&kp N3		&kp N2		&kp N1		&kp N0		XXXXXXXXXX			&kp EQUAL	SK(LSHIFT)	SK(LCTRL)	SK(LALT)	SK(LGUI)
-							&kp N6		&kp N5		&kp N4										&kp BSPC	XXXXXXXXXX	XXXXXXXXXX
+				&kp N3		&kp N2		&kp N1		&kp N0		XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
+							&kp N6		&kp N5		&kp N4										XXXXXXXXXX	__________	__________
 
 													__________	__________			__________	___XXXX___
 			>;
 		};
-
+		// retention clips https://www.reddit.com/r/Trackballs/comments/122d845/sanwa_gravi_and_nulea_m505_initial_impressions/	
 		misc_layer {
             label = "MISC";		
             bindings = <
-				&bt BT_CLR	&kp CARET	UK_TILDE	&kp GRAVE	&kp F12				CAD			BRI_DN		&kp PG_UP	BRI_UP		&bootloader
-				CON_THREE	CON_TWO		CON_ONE		CON_ZERO	&kp F11				&kp F12		&kp HOME	&kp PG_DN	&kp END		TASK_MAN
+				__________	&kp CARET	UK_TILDE	&kp GRAVE	TASK_MAN			CAD			DESK_L		&kp PG_UP	DESK_R		&bootloader
+				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		&kp F11				&kp F12		&kp HOME	&kp PG_DN	&kp END		POWER
 							&kp C_PREV	&kp C_PLAY	&kp C_NEXT									VOL_DOWN	VOL_MUTE	VOL_UP                                     	
 
 													___XXXX___	__________			__________	___XXXX___
