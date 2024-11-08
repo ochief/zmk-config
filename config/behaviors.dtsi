@@ -28,12 +28,19 @@
 		bindings = <&kp>, <&kp>;
 	};
 
-	ht_sqt_nav: hold_tap_TEST {
+	ht_sqt_nav: ht_sqt_nav {
 		compatible = "zmk,behavior-hold-tap";
 		#binding-cells = <2>;
 		tapping-term-ms = <200>;
 		flavor = "tap-preferred";
 		bindings = <&mo>, <&mm_sqt_cancel>;
+	};
+
+	mm_sqt_cancel: mm_sqt_cancel {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&mm_sqt_sqt>, <&kp K_CANCEL>;
+		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT)>;
 	};
 
 	mm_sqt_cancel: mm_sqt_cancel {
@@ -56,6 +63,21 @@
 		bindings = <&kp SQT>, <&kp SQT>;
 		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
+
+	ht_app_num: ht_app_num {
+		compatible = "zmk,behavior-hold-tap";
+		#binding-cells = <2>;
+		tapping-term-ms = <200>;
+		flavor = "tap-preferred";
+		bindings = <&mo>, <&mm_app_cancel>;
+	};
+
+	mm_app_cancel: mm_app_cancel {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <APP_LAUNCH>, <&kp K_CANCEL>;
+		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT)>;
+	};	
 
 	mm_new_tab: mm_new_tab_incognito {
 		compatible = "zmk,behavior-mod-morph";

@@ -31,6 +31,7 @@
 #define KILL		&ht LA(F4) LC(W)
 #define NAV_SQT		&ht_sqt_nav NAV 0
 #define NEW_LINE	&kp LA(ENTER)
+#define NUM_APP		&ht_app_num NUM 0
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
 #define SHO_CUT		&kp LC(X)
@@ -74,7 +75,7 @@
 				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
 							&kp F		&kp P		&kp B                                       &kp M		&mm_com_sco	&mm_dot_col
 
-													NAV_SQT		&kp SPACE			&skq RSHIFT	&macro_num
+													NAV_SQT		&kp SPACE			&skq RSHIFT	NUM_APP
 			>;
 		};
 
