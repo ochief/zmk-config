@@ -5,7 +5,7 @@ layers:
   - C
   - G
   - D
-  - Alt+ SPACE
+  - Ctl+Sft+ L
   - X
   - L
   - U
@@ -30,7 +30,7 @@ layers:
   - {t: '''', h: nav, s: CANCEL}
   - SPACE
   - {t: RSHIFT, h: sticky}
-  - '&macro_num'
+  - {t: Alt+ SPACE, h: num, s: CANCEL}
   nav:
   - F2
   - Alt+Sft+ DOWN
@@ -92,7 +92,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   misc:
   - BT CLR
   - ^
@@ -123,8 +123,11 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
 combos:
+- p: [12, 13]
+  k: ESC
+  l: [main]
 - p: [2, 3]
   k: Q
   l: [main]
