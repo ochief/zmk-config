@@ -24,6 +24,8 @@ combo_##NAME { \
     combos {
 		compatible = "zmk,combos";
 
+		COMBO(esc,		&kp ESC,		12 13, 		MAIN, COMBO_TERM_SLOW)
+
 		// missing alphas
 		COMBO(q,		&kp Q,			 2  3, 		MAIN, COMBO_TERM_NORMAL)
 		COMBO(z,		&kp Z,			20 21, 		MAIN, COMBO_TERM_NORMAL)
