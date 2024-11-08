@@ -5,8 +5,8 @@ layers:
   - C
   - G
   - D
-  - Ctl+Sft+ L
-  - X
+  - K
+  - J
   - L
   - U
   - O
@@ -15,22 +15,22 @@ layers:
   - S
   - T
   - H
-  - K
-  - J
+  - F
+  - M
   - N
   - E
   - A
   - I
-  - F
+  - V
   - P
   - B
-  - M
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - {t: '''', h: nav, s: CANCEL}
+  - X
+  - Q
+  - Z
+  - ''''
   - SPACE
+  - BSPC
   - {t: RSHIFT, h: sticky}
-  - {t: Alt+ SPACE, h: num, s: CANCEL}
   nav:
   - F2
   - Alt+Sft+ DOWN
@@ -58,7 +58,7 @@ layers:
   - BSPC
   - Alt+ ENTER
   - Ctl+ BSPC
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RET
   - {t: ▽, type: trans}
@@ -92,9 +92,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   misc:
-  - '`'
+  - Ctl+Sft+ ESC
   - PREV
   - PLAY
   - NEXT
@@ -108,22 +108,22 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
-  - Ctl+Sft+ ESC
-  - '&macro_power'
+  - '`'
+  - ''
   - HOME
   - PG DN
   - END
   - Ctl+Alt+ DEL
-  - ''
+  - Gui+Sft+ S
   - Ctl+Gui+ LEFT
   - Ctl+Gui+ RIGHT
   - VOL DN
   - MUTE
   - VOL UP
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [12, 13]
   k: ESC
