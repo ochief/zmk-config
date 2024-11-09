@@ -57,7 +57,7 @@ layers:
   - {t: Ctl+Sft+ V, h: Ctl+ V}
   - Alt+ ENTER
   - Ctl+ BSPC
-  - '&mm_grave3'
+  - '&macro_grave3'
   - {t: ▽, type: trans}
   - {type: held}
   - RET
