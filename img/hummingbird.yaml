@@ -1,51 +1,51 @@
 layout: {qmk_keyboard: hummingbird}
 layers:
   main:
+  - K
   - W
   - C
-  - G
   - D
-  - K
+  - B
   - J
   - L
   - U
-  - O
   - Y
-  - R
-  - S
-  - T
-  - H
-  - F
-  - M
-  - N
-  - E
-  - A
-  - I
-  - V
+  - {t: '''', s: ''''}
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTL}
+  - {t: T, h: LSFT}
   - P
-  - B
   - X
+  - {t: N, h: LSFT}
+  - {t: H, h: LCTL}
+  - {t: I, h: LALT}
+  - {t: O, h: LGUI}
+  - V
+  - F
+  - G
+  - M
   - Q
   - Z
-  - ''''
-  - SPACE
-  - BSPC
-  - {t: RSHIFT, h: sticky}
+  - {t: ESC, h: mis}
+  - {t: SPACE, h: nav}
+  - {t: E, h: num}
+  - {t: BSPC, h: sho}
   nav:
   - F2
   - Alt+Sft+ DOWN
   - TAB
   - Alt+Sft+ UP
-  - BSPC
+  - DEL
   - {t: Ctl+ F, s: F6}
   - Ctl+ PG UP
   - UP
   - Ctl+ PG DN
   - {t: Ctl+ W, h: Alt+ F4}
-  - {t: LGUI, h: LGUI}
-  - {t: LALT, h: LALT}
-  - {t: LCTRL, h: LCTRL}
-  - {t: LSHIFT, h: LSHIFT}
+  - LGUI
+  - LALT
+  - LCTL
+  - LSHIFT
   - Ctl+ A
   - {t: Ctl+ T, s: Ctl+Sft+ N}
   - LEFT
@@ -55,13 +55,13 @@ layers:
   - Ctl+ X
   - Ctl+ C
   - {t: Ctl+Sft+ V, h: Ctl+ V}
-  - BSPC
   - Alt+ ENTER
   - Ctl+ BSPC
+  - '&macro_grave3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - RET
-  - {t: ▽, type: trans}
+  - ''
   num:
   - ''
   - '9'
@@ -79,51 +79,82 @@ layers:
   - '0'
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - {t: ',', h: LSFT}
+  - {t: ., h: LSFT}
+  - {t: /, h: LSFT}
   - ''
   - '6'
   - '5'
   - '4'
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  mis:
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  misc:
-  - Ctl+Sft+ ESC
-  - PREV
-  - PLAY
-  - NEXT
   - ^
   - '~'
+  - '`'
+  - ''
+  - ''
   - F11
   - PG UP
   - F12
-  - '&bootloader'
+  - ''
   - BT CLR
   - {t: BT, h: '3'}
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
-  - '`'
+  - ''
   - ''
   - HOME
   - PG DN
   - END
-  - Ctl+Alt+ DEL
-  - Gui+Sft+ S
+  - '&bootloader'
+  - ''
   - Ctl+Gui+ LEFT
   - Ctl+Gui+ RIGHT
+  - Ctl+Alt+ DEL
+  - Gui+Sft+ S
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  sho:
+  - ''
+  - PREV
+  - PLAY
+  - NEXT
+  - ''
+  - ''
   - VOL DN
   - MUTE
   - VOL UP
+  - ''
+  - F22
+  - F21
+  - F20
+  - F19
+  - ''
+  - ''
+  - F13
+  - F14
+  - F15
+  - F16
+  - ''
+  - F24
+  - F23
+  - F17
+  - F18
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
 combos:
 - p: [12, 13]
   k: ESC
