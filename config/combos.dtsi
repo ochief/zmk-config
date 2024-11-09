@@ -26,18 +26,9 @@ combo_##NAME { \
 
 		COMBO(esc,		&kp ESC,		12 13, 		MAIN, COMBO_TERM_SLOW)
 
-		// missing alphas
-		COMBO(q,		&kp Q,			 2  3, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(z,		&kp Z,			20 21, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(v,		&kp V,			21 22, 		MAIN, COMBO_TERM_NORMAL)
-
 		// functions
 		COMBO(redo,		&kp LC(Y),		 3  4, 		MAIN, COMBO_TERM_NORMAL)
 		COMBO(undo,		&kp LC(Z),		13 14, 		MAIN, COMBO_TERM_NORMAL)
-
-		COMBO(not_eq,	&macro_not_eq,	 5 15, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(comm_r,	&macro_comm_r,	 5  6, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(comm_l,	&macro_comm_l,	15 16, 		MAIN, COMBO_TERM_NORMAL)
 		
 		// brackets 
 		COMBO(lbkt,		&kp LBKT,     	 1 11,  	MAIN, COMBO_TERM_SLOW)
