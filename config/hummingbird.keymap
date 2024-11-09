@@ -99,7 +99,7 @@
             label = "NAV";
 			bindings = <
 				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				&mm_search	TAB_PREV	&kp UP		TAB_NEXT	KILL
-				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
+				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL // or swapper
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	DEL_WORD	&mm_grave3
 
 													__________	___XXXX___			&kp RET		XXXXXXXXXX
@@ -119,9 +119,9 @@
 		mis_layer {
             label = "MISC";		
             bindings = <
-				TASK_MAN	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp CARET			UK_TILDE	&kp F11		&kp PG_UP	&kp F12		&bootloader
-				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		&kp GRAVE			XXXXXXXXXX	&kp HOME	&kp PG_DN	&kp END		CAD
-							SCREEN_SHOT	DESK_L		DESK_R										VOL_DOWN	VOL_MUTE	VOL_UP                                     	
+				XXXXXXXXXX	&kp CARET	UK_TILDE	&kp GRAVE	XXXXXXXXXX			XXXXXXXXXX	&kp F11		&kp PG_UP	&kp F12		XXXXXXXXXX
+				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		XXXXXXXXXX			XXXXXXXXXX	&kp HOME	&kp PG_DN	&kp END		&bootloader
+							XXXXXXXXXX	DESK_L		DESK_R										CAD			SCREEN_SHOT	XXXXXXXXXX                                     	
 
 													___XXXX___	__________			__________	__________
 			>;
@@ -130,9 +130,9 @@
 		sho_layer {
             label = "SHO";		
             bindings = <
-				XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
-				XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
-							XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX									XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX                                     	
+				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	XXXXXXXXXX			XXXXXXXXXX	VOL_DOWN	VOL_MUTE	VOL_UP 		XXXXXXXXXX
+				&kp F22		&kp F21		&kp F20		&kp F19		XXXXXXXXXX			XXXXXXXXXX	&kp F13		&kp F14		&kp F15		&kp F16
+							XXXXXXXXXX	&kp F24		&kp F23										&kp F17		&kp F18		XXXXXXXXXX                                     	
 
 													__________	__________			__________	___XXXX___
 			>;
