@@ -100,7 +100,7 @@
 			bindings = <
 				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				&mm_search	TAB_PREV	&kp UP		TAB_NEXT	KILL
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL // or swapper
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	DEL_WORD	&mm_grave3
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	DEL_WORD	&macro_grave3
 
 													__________	___XXXX___			&kp RET		XXXXXXXXXX
 			>;
