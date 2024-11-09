@@ -12,8 +12,8 @@
 #define MAIN		0
 #define NAV 		1
 #define NUM 		2
-#define MISC		3
-// Game pad mode 
+#define MIS			3
+#define SHO			4
 
 #define XXXXXXXXXX	&none
 #define __________  &trans
@@ -50,9 +50,20 @@
 #define VOL_UP		&kp C_VOL_UP 
 #define VOL_MUTE	&kp C_MUTE
 
-#define MAC_WIN		&none^~~^~^~^^~^~^~
-
 #define UK_TILDE	&kp TILDE2
+
+#define HRM_A		&hm LGUI A
+#define HRM_R		&hm LALT R
+#define HRM_S		&hm LCTL S
+#define HRM_T		&hm LSFT T
+#define HRM_N		&hm LSFT N
+#define HRM_H		&hm LCTL H
+#define HRM_I		&hm LALT I
+#define HRM_O		&hm LGUI O
+
+#define HRM_COMMA	&hm LSFT COMMA
+#define HRM_DOT		&hm LSFT DOT
+#define HRM_FSLH	&hm LSFT FSLH
 
 #include			"behaviors.dtsi"
 #include			"combos.dtsi"
@@ -76,69 +87,54 @@
 		main_layer {
             label = "MAIN";
             bindings = <
-				&kp W		&kp C		&kp G		&kp D		&kp K				&kp J		&kp L		&kp U		&kp O		&kp Y
-				&kp R		&kp S		&kp T		&kp H		&kp F				&kp M		&kp N		&kp E		&kp A		&kp I
-							&kp V		&kp P		&kp B                                       &kp X		&kp Q		&kp Z
-//																								,			.			/			ALT
-													&kp SQT		&kp SPACE			&kp BSPC	&skq RSHIFT
+				&kp K		&kp W		&kp C		&kp D		&kp B				&kp J		&kp L		&kp U		&kp Y		mm_sqt_sqt
+				HRM_A		HRM_R		HRM_S		HRM_T		&kp P				&kp X		HRM_N		HRM_H		HRM_I		HRM_O
+							&kp V		&kp F		&kp G                                       &kp M		&kp Q		&kp Z
+
+													&lt MIS ESC	&lt NAV SPACE		&lt NUM E	&lt SHO BSPC
 			>;
 		};
 
-		/*
-		main_layer {
-            label = "MAIN";
-            bindings = <
-				&kp W		&kp C		&kp G		&kp D		BITWARDEN			&kp X		&kp L		&kp U		&kp O		&kp Y
-				&kp R		&kp S		&kp T		&kp H		&kp K				&kp J		&kp N		&kp E		&kp A		&kp I
-							&kp F		&kp P		&kp B                                       &kp M		&mm_com_sco	&mm_dot_col
-
-													NAV_SQT		&kp SPACE			&skq RSHIFT	NUM_APP
-			>;
-		};
-		*/
         nav_layer {
             label = "NAV";
 			bindings = <
-				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp BSPC			&mm_search	TAB_PREV	&kp UP		TAB_NEXT	KILL
-				SK(LGUI)	SK(LALT)	SK(LCTRL)	SK(LSHIFT)	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	NEW_LINE	DEL_WORD
+				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				&mm_search	TAB_PREV	&kp UP		TAB_NEXT	KILL
+				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	DEL_WORD	&mm_grave3
 
-													___XXXX___	__________			&kp RET		__________
+													__________	___XXXX___			&kp RET		XXXXXXXXXX
 			>;
 		};
-	
-		/*
-		! ? " @
-
-		$ £(€) % & * - _ + = # @ / \ |
-
-		COMBOS TO SWITCH FROM MAC TO WIN
-
-		*/
-
-
-
-		// https://github.com/caksoylar/zmk-config / mouse layer and thumbs
 
         num_layer {
             label = "NUM";		
 			bindings = <
 				XXXXXXXXXX	&kp N9		&kp N8		&kp N7		XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
-				&kp N3		&kp N2		&kp N1		&kp N0		XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
-							&kp N6		&kp N5		&kp N4										XXXXXXXXXX	__________	__________
-
-													__________	__________			__________	___XXXX___
+				&kp N3		&kp N2		&kp N1		&kp N0		XXXXXXXXXX			XXXXXXXXXX	HRM_COMMA 	HRM_DOT		HRM_FSLH	XXXXXXXXXX
+							&kp N6		&kp N5		&kp N4										&kp COMMA   &kp DOT     &kp FSLH
+													__________	__________			___XXXX___	__________
 			>;
 		};
-		// retention clips https://www.reddit.com/r/Trackballs/comments/122d845/sanwa_gravi_and_nulea_m505_initial_impressions/	
-		misc_layer {
+
+		mis_layer {
             label = "MISC";		
             bindings = <
 				TASK_MAN	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp CARET			UK_TILDE	&kp F11		&kp PG_UP	&kp F12		&bootloader
 				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		&kp GRAVE			XXXXXXXXXX	&kp HOME	&kp PG_DN	&kp END		CAD
 							SCREEN_SHOT	DESK_L		DESK_R										VOL_DOWN	VOL_MUTE	VOL_UP                                     	
 
-													___XXXX___	__________			__________	___XXXX___
+													___XXXX___	__________			__________	__________
+			>;
+		};
+
+		sho_layer {
+            label = "SHO";		
+            bindings = <
+				XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
+				XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
+							XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX									XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX                                     	
+
+													__________	__________			__________	___XXXX___
 			>;
 		};
 	};
