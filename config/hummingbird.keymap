@@ -98,20 +98,20 @@
         nav_layer {
             label = "NAV";
 			bindings = <
-				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				&mm_search	TAB_PREV	&kp UP		TAB_NEXT	KILL
-				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL // or swapper
+				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				&kp F6		TAB_PREV	&kp UP		TAB_NEXT	KILL
+				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	&kp ENTER
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	DEL_WORD	&macro_grave3
 
-													__________	___XXXX___			&kp RET		XXXXXXXXXX
+													__________	___XXXX___			SHO_APP_SEL XXXXXXXXXX
 			>;
 		};
 
         num_layer {
-            label = "NUM";		
+            label = "NUM";
 			bindings = <
 				XXXXXXXXXX	&kp N9		&kp N8		&kp N7		XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
-				&kp N3		&kp N2		&kp N1		&kp N0		XXXXXXXXXX			XXXXXXXXXX	HRM_COMMA 	HRM_DOT		HRM_FSLH	XXXXXXXXXX
-							&kp N6		&kp N5		&kp N4										&kp COMMA   &kp DOT     &kp FSLH
+				&kp N3		&kp N2		&kp N1		&kp N0		XXXXXXXXXX			XXXXXXXXXX	HRM_COMMA 	HRM_DOT		HRM_FSLH	&kp ENTER
+							&kp N6		&kp N5		&kp N4										XXXXXXXXXX  XXXXXXXXXX	XXXXXXXXXX
 													__________	__________			___XXXX___	__________
 			>;
 		};
