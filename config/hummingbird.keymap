@@ -87,7 +87,7 @@
 		main_layer {
             label = "MAIN";
             bindings = <
-				&kp K		&kp W		&kp C		&kp D		&kp B				&kp J		&kp L		&kp U		&kp Y		mm_sqt_sqt
+				&kp K		&kp W		&kp C		&kp D		&kp B				&kp J		&kp L		&kp U		&kp Y		&mm_sqt_sqt
 				HRM_A		HRM_R		HRM_S		HRM_T		&kp P				&kp X		HRM_N		HRM_H		HRM_I		HRM_O
 							&kp V		&kp F		&kp G                                       &kp M		&kp Q		&kp Z
 
