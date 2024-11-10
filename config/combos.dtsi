@@ -32,10 +32,8 @@ combo_##NAME { \
 		COMBO(at,       UK_AT,       	 1  2,  	MAIN, COMBO_TERM_NORMAL)
 		COMBO(dqt,      UK_DQT,      	 7  8,		MAIN, COMBO_TERM_NORMAL)
 		COMBO(fslh,   	UK_FSLH,       	17 23,  	MAIN, COMBO_TERM_NORMAL)
-		COMBO(bslh,     UK_BSLH,      	12 22,		MAIN, COMBO_TERM_NORMAL)
-		COMBO(excl,     UK_EXCL,    	24 25, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(qmark,    UK_QMARK,    	23 24, 		MAIN, COMBO_TERM_NORMAL)
-		
+
+
 		// brackets 
 		COMBO(lt,		&kp LT,     	 0 10,  	MAIN, COMBO_TERM_SLOW)
 		COMBO(lbkt,		&kp LBKT,     	 1 11,  	MAIN, COMBO_TERM_SLOW)
