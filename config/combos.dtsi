@@ -29,15 +29,19 @@ combo_##NAME { \
 		COMBO(redo,		&kp LC(Y),		 3  4, 		DEF NUM, COMBO_TERM_NORMAL)
 		COMBO(undo,		&kp LC(Z),		13 14, 		DEF NUM, COMBO_TERM_NORMAL)
 
+		// single thumbs
+		COMBO(esc,		&kp ESC,		 1  2, 		DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(bspc,		&kp BSPC,		 7  8, 		DEF NUM, COMBO_TERM_NORMAL
+
 		// common symbols 
-		COMBO(lt,       UK_LT,       	20 21,  	DEF NUM, COMBO_TERM_NORMAL)
-		COMBO(gt,      	UK_GT,      	21 22,		DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(lt,       &kp LT,       	20 21,  	DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(gt,      	&kp GT,      	21 22,		DEF NUM, COMBO_TERM_NORMAL)
 		COMBO(at,       UK_AT,       	 2  3,  	DEF NUM, COMBO_TERM_NORMAL)
 		COMBO(dqt,      UK_DQT,      	 6  7,		DEF NUM, COMBO_TERM_NORMAL)
 		COMBO(fslh,   	UK_FSLH,       	17 23,  	DEF NUM, COMBO_TERM_NORMAL)
-		COMBO(bslh,     UK_BSLH,      	12 22,		DEF NUM, COMBO_TERM_NORMAL)
-		COMBO(excl,     UK_EXCL,    	24 25, 		DEF NUM, COMBO_TERM_NORMAL)
-		COMBO(qmark,    UK_QMARK,    	23 24, 		DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(bslh,     &kp BSLH,      	12 22,		DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(excl,     &kp EXCL,    	24 25, 		DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(qmark,    &kp QMARK,    	23 24, 		DEF NUM, COMBO_TERM_NORMAL)
 		
 		// brackets 
 		COMBO(lbkt,		&kp LBKT,     	 1 11,  	DEF NUM, COMBO_TERM_SLOW)
