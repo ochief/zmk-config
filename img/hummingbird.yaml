@@ -131,6 +131,12 @@ combos:
 - p: [13, 14]
   k: Ctl+ Z
   l: [Default, Number]
+- p: [1, 2]
+  k: ESC
+  l: [Default, Number]
+- p: [7, 8]
+  k: BSPC
+  l: [Default, Number]
 - p: [20, 21]
   k: <
   l: [Default, Number]
