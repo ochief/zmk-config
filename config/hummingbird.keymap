@@ -9,7 +9,7 @@
 #include			<dt-bindings/zmk/bt.h>
 #include			<dt-bindings/zmk/outputs.h>
 
-#define MAIN		0
+#define DEF			0
 #define NAV 		1
 #define NUM 		2
 #define MIS			3
@@ -101,8 +101,8 @@
 //			 F	 P	 B				 M	 ,	 .
 		
         
-		main_layer {
-            label = "MAIN";
+		Default_layer {
+            label = "DEF";
             bindings = <
 				&kp K		&kp W		&kp C		&kp D		&kp B				&kp J		&kp L		&kp U		&kp Y		&mm_sqt_sqt
 				HRM_A		HRM_R		HRM_S		HRM_T		&kp P				&kp X		HRM_N		HRM_H		HRM_I		HRM_O
@@ -112,7 +112,7 @@
 			>;
 		};
 
-        nav_layer {
+        Navigation_layer {
             label = "NAV";
 			bindings = <
 				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		&kp F6
@@ -122,19 +122,19 @@
 													__________	___XXXX___			SHO_APP_SEL __________
 			>;
 		};
-
-        num_layer {
+     // PLUS MINUS ASTERISK
+        Number_layer {
             label = "NUM";
 			bindings = <
 				UK_LT		&kp N9		&kp N8		&kp N7		UK_PIPE				UK_DOLLAR	UK_SEMI		UK_COLON	UK_PERCENT	UK_GT
 				&kp N3		&kp N2		&kp N1		&kp N0		UK_AMPS				UK_POUND	HRM_COMMA 	HRM_DOT		HRM_STAR	HRM_ENTER
-							&kp N6		&kp N5		&kp N4										UK_EQUAL	UK_UNDER	UK_HASH     // PLUS MINUS ASTERISK
+							&kp N6		&kp N5		&kp N4										UK_EQUAL	UK_UNDER	UK_HASH
 													__________	__________			___XXXX___	__________
 			>;
 		};
 
-		mis_layer {
-            label = "MISC";		
+		Misc_layer {
+            label = "MIS";		
             bindings = <
 				&bootloader	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp F11				&kp F12		VOL_DOWN	VOL_MUTE	VOL_UP		KILL
 				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					SCREEN_SHOT	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
