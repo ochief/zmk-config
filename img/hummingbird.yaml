@@ -131,45 +131,6 @@ combos:
 - p: [13, 14]
   k: Ctl+ Z
   l: [Default, Number]
-- p: [20, 21]
-  k: <
-  l: [Default, Number]
-- p: [21, 22]
-  k: '>'
-  l: [Default, Number]
-- p: [2, 3]
-  k: '"'
-  l: [Default, Number]
-- p: [6, 7]
-  k: '@'
-  l: [Default, Number]
-- p: [17, 23]
-  k: /
-  l: [Default, Number]
-- p: [12, 22]
-  k: \
-  l: [Default, Number]
-- p: [24, 25]
-  k: '!'
-  l: [Default, Number]
-- p: [23, 24]
-  k: '?'
-  l: [Default, Number]
-- p: [1, 11]
-  k: '['
-  l: [Default, Number]
-- p: [2, 12]
-  k: (
-  l: [Default, Number]
-- p: [3, 13]
-  k: '{'
-  l: [Default, Number]
-- p: [6, 16]
-  k: '}'
-  l: [Default, Number]
-- p: [7, 17]
-  k: )
-  l: [Default, Number]
-- p: [8, 18]
-  k: ']'
+- p: [1, 2]
+  k: ESC
   l: [Default, Number]
