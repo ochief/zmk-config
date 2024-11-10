@@ -26,8 +26,8 @@
 #define MIS			3
 
 #define XXXXXXXXXX	&none
-#define __________  &trans
 #define ___XXXX___	&trans
+#define __________  &trans
 
 #define HRM_A		&hm LGUI A
 #define HRM_R		&hm LALT R
@@ -79,7 +79,7 @@
 #define UK_HASH		&kp GRAVE	//	#
 #define UK_POUND	&kp HASH	//	£
 #define UK_TILDE	&kp TILDE2	//	~
-#define UK_FSLH		&kp FSLH	//	\
+#define UK_FSLH		&kp FSLH	//
 #define UK_PIPE		&kp PIPE	//	|
 
 #define A_INBOX		&kp F13
@@ -113,7 +113,7 @@
 			bindings = <
 				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		&kp F6
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	&kp ENTER
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	TAB_PREV	TAB_NEXT	
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	TAB_PREV	TAB_NEXT
 
 													__________	___XXXX___			SHO_APP_SEL __________
 			>;
@@ -124,7 +124,7 @@
 			bindings = <
 				UK_PIPE		&kp N9		&kp N8		&kp N7		&kp EQUAL			&kp DOLLAR	&kp SEMI	&kp COLON	UK_HASH		&kp PERCENT
 				&kp N3		&kp N2		&kp N1		&kp N0		&kp AMPS			UK_POUND	HRM_COMMA 	HRM_DOT		HRM_STAR	HRM_ENTER
-							&kp N6		&kp N5		&kp N4										&kp MINUS	&kp UNDER	&kp PLUS		
+							&kp N6		&kp N5		&kp N4										&kp MINUS	&kp UNDER	&kp PLUS
 													__________	__________			___XXXX___	__________
 			>;
 		};
@@ -134,7 +134,7 @@
             bindings = <
 				&bootloader	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp F11				&kp F12		VOL_DOWN	VOL_MUTE	VOL_UP		KILL
 				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					SCREEN_SHOT	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
-							&kp CARET	UK_TILDE	&kp GRAVE									A_CALENDAR	DESK_L		DESK_R					                                   	
+							&kp CARET	UK_TILDE	&kp GRAVE									A_CALENDAR	DESK_L		DESK_R                          	
 
 													__________	___XXXX___			___XXXX___	__________
 			>;
