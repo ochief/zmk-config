@@ -50,7 +50,12 @@
 #define VOL_UP		&kp C_VOL_UP 
 #define VOL_MUTE	&kp C_MUTE
 
-#define UK_TILDE	&kp TILDE2
+#define UK_AT		&kp DQT		// @
+#define UK_BSLH		&kp NUBS	// \
+#define UK_DQT		&kp AT		// "
+#define UK_HASH		&kp GRAVE	// #
+#define UK_POUND	&kp HASH	// £
+#define UK_TILDE	&kp TILDE2	// ~
 
 #define HRM_A		&hm LGUI A
 #define HRM_R		&hm LALT R
@@ -109,9 +114,9 @@
         num_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	&kp N9		&kp N8		&kp N7		XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
-				&kp N3		&kp N2		&kp N1		&kp N0		XXXXXXXXXX			XXXXXXXXXX	HRM_COMMA 	HRM_DOT		HRM_FSLH	&kp ENTER
-							&kp N6		&kp N5		&kp N4										XXXXXXXXXX  XXXXXXXXXX	XXXXXXXXXX
+				UK_POUND	&kp N9		&kp N8		&kp N7		&kp DOLLAR			&kp PIPE	&kp SEMI	&kp COLON	&kp PERCENT	UK_HASH
+				&kp N3		&kp N2		&kp N1		&kp N0		UK_BSLH				UK_BSLH		HRM_COMMA 	HRM_DOT		HRM_FSLH	&kp ENTER
+							&kp N6		&kp N5		&kp N4										&kp EQUALS	&kp UNDS	&kp PLUS
 													__________	__________			___XXXX___	__________
 			>;
 		};
