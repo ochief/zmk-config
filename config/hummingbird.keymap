@@ -96,10 +96,10 @@
 //			20	21	22				23	24	25
 //					26	27		28	29
 //
-//		 W	 C	 G	 D	 '		 X	 L	 U	 O	 Y
-//		 R	 S	 T	 H	 K		 J	 N	 E	 A	 I 
-//			 F	 P	 B				 M	 ,	 .
-		
+//		 K	 W	 C	 D	 B		 J	 L	 U	 Y	 '
+//		 A	 R	 S	 T	 P		 X	 N	 H	 I	 O 
+//			 V	 F	 G				 M	 Q	 Z
+					ESC	SPA		 E	BSPC
         
 		Default_layer {
             label = "DEF";
@@ -108,7 +108,7 @@
 				HRM_A		HRM_R		HRM_S		HRM_T		&kp P				&kp X		HRM_N		HRM_H		HRM_I		HRM_O
 							&kp V		&kp F		&kp G                                       &kp M		&kp Q		&kp Z
 
-													&lt MIS ESC	&lt NAV SPACE		&lt NUM E	&lt SHO BSPC
+													&kp ESC	&lt NAV SPACE		&lt NUM E	&kp BSPC
 			>;
 		};
 
