@@ -24,46 +24,25 @@ combo_##NAME { \
     combos {
 		compatible = "zmk,combos";
 
-		COMBO(esc,		&kp ESC,		12 13, 		MAIN, COMBO_TERM_SLOW)
-
 		// functions
 		COMBO(redo,		&kp LC(Y),		 3  4, 		MAIN, COMBO_TERM_NORMAL)
 		COMBO(undo,		&kp LC(Z),		13 14, 		MAIN, COMBO_TERM_NORMAL)
+
+		// common symbols 
+		COMBO(at,       UK_AT,       	 1  2,  	MAIN, COMBO_TERM_NORMAL)
+		COMBO(dqt,      UK_DQT,      	 7  8,		MAIN, COMBO_TERM_NORMAL)
+		COMBO(excl,     &kp EXCL,    	23 24, 		MAIN, COMBO_TERM_NORMAL)
+		COMBO(qmark,    &kp QMARK,    	24 25, 		MAIN, COMBO_TERM_NORMAL)
 		
 		// brackets 
+		COMBO(lt,		&kp LT,     	 0 10,  	MAIN, COMBO_TERM_SLOW)
 		COMBO(lbkt,		&kp LBKT,     	 1 11,  	MAIN, COMBO_TERM_SLOW)
 		COMBO(lpar,     &kp LPAR,     	 2 12,  	MAIN, COMBO_TERM_SLOW)
 		COMBO(lbrc,     &kp LBRC,     	 3 13,  	MAIN, COMBO_TERM_SLOW)
 		COMBO(rbrc,     &kp RBRC,     	 6 16,  	MAIN, COMBO_TERM_SLOW)
 		COMBO(rpar,     &kp RPAR,     	 7 17,  	MAIN, COMBO_TERM_SLOW)
 		COMBO(rbkt,     &kp RBKT,     	 8 18,  	MAIN, COMBO_TERM_SLOW)
-
-	/*
-		COMBO(del,     	&kp DEL,     	 4 14,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(bspc,     &kp BSPC,     	 5 15,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(capslock,	&kp CAPS,		 6  7  8,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(capsword, &caps_word,   	27 28, 		MAIN, COMBO_TERM_SLOW)
-		COMBO(esc,      &kp ESC,      	12 22,  	MAIN, COMBO_TERM_NORMAL)
-		COMBO(ret,      &kp RET,      	17 23,  	MAIN, COMBO_TERM_NORMAL)
-		COMBO(screen, 	&kp LS(LG(S)), 	 1  2  3,	MAIN, COMBO_TERM_SLOW)
-		COMBO(grave3,	&macro_grave3,	 2 13,		MAIN, COMBO_TERM_NORMAL)
-		COMBO(tab_bck,  &kp LS(TAB),    11 12, 		MAIN, COMBO_TERM_FAST)
-		COMBO(tab_fwd,  &kp TAB,   		12 13, 		MAIN, COMBO_TERM_FAST)
-		COMBO(del_bck,	&kp LC(BSPC),	16 17,  	MAIN, COMBO_TERM_FAST)
-		COMBO(del_fwd,	&kp LC(DEL),	17 18,  	MAIN, COMBO_TERM_FAST)
-
-		// common symbols 
-		COMBO(under,    &kp UNDER,     	 2  3,  	MAIN, COMBO_TERM_NORMAL)
-		COMBO(minus,    &kp MINUS,    	 6  7,   	MAIN, COMBO_TERM_NORMAL)
-		COMBO(amps,     &kp AMPS,      	 7 16,  	MAIN, COMBO_TERM_SLOW)
-		COMBO(slash,    &kp SLASH,    	23 25, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(excl,     &kp EXCL,    	23 24, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(qmark,    &kp QMARK,    	24 25, 		MAIN, COMBO_TERM_NORMAL)
-
-		// stupid UK locale - name is correct
-		COMBO(at,       &kp DQT,       	 1  2,  	MAIN, COMBO_TERM_NORMAL)
-		COMBO(dqt,      &kp AT,      	 7  8,		MAIN, COMBO_TERM_NORMAL)
-		COMBO(bslash,   &kp NUBS,    	20 22, 		MAIN, COMBO_TERM_NORMAL)
+		COMBO(gt,		&kp GT,     	 9 19,  	MAIN, COMBO_TERM_SLOW)
 	*/
 	};
 };
