@@ -66,6 +66,7 @@
 #define UK_EQUAL	&kp EQUAL	//	=
 #define UK_MINUS	&kp MINUS	//	=
 #define UK_UNDER	&kp UNDER	//	_
+#define UK_PLUS		&kp PLUS	//	_
 #define UK_LT		&kp LT		//	<
 #define UK_GT		&kp GT		//	>
 

@@ -63,16 +63,16 @@ layers:
   - Ctl+Alt+ TAB
   - {t: ▽, type: trans}
   Number:
-  - <
+  - '|'
   - '9'
   - '8'
   - '7'
-  - '|'
+  - '='
   - $
   - ;
   - ':'
+  - '`'
   - '%'
-  - '>'
   - '3'
   - '2'
   - '1'
@@ -86,9 +86,9 @@ layers:
   - '6'
   - '5'
   - '4'
-  - '='
+  - '-'
   - _
-  - '`'
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -131,10 +131,16 @@ combos:
 - p: [13, 14]
   k: Ctl+ Z
   l: [Default, Number]
-- p: [1, 2]
+- p: [20, 21]
+  k: <
+  l: [Default, Number]
+- p: [21, 22]
+  k: '>'
+  l: [Default, Number]
+- p: [2, 3]
   k: '"'
   l: [Default, Number]
-- p: [7, 8]
+- p: [6, 7]
   k: '@'
   l: [Default, Number]
 - p: [17, 23]
@@ -148,9 +154,6 @@ combos:
   l: [Default, Number]
 - p: [23, 24]
   k: '?'
-  l: [Default, Number]
-- p: [0, 10]
-  k: <
   l: [Default, Number]
 - p: [1, 11]
   k: '['
@@ -169,7 +172,4 @@ combos:
   l: [Default, Number]
 - p: [8, 18]
   k: ']'
-  l: [Default, Number]
-- p: [9, 19]
-  k: '>'
   l: [Default, Number]
