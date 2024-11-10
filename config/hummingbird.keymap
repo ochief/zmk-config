@@ -82,7 +82,7 @@
 #define HRM_COMMA	&hm LSFT COMMA
 #define HRM_DOT		&hm LCTL DOT
 #define HRM_PLUS	&hm LALT PLUS
-#define HRM_STAR	&hm LGUI STAR
+#define HRM_ENTER	&hm LGUI ENTER
 
 #include			"behaviors.dtsi"
 #include			"combos.dtsi"
