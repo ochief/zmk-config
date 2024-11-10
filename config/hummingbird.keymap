@@ -13,14 +13,12 @@
 #define NAV 		1
 #define NUM 		2
 #define MIS			3
-#define SHO			4
 
 #define XXXXXXXXXX	&none
 #define __________  &trans
 #define ___XXXX___	&trans
 
 #define APP_LAUNCH	&kp LA(SPACE)
-#define BITWARDEN	&kp LC(LS(L))		// any other shortcuts I should be using?
 #define CAD			&kp LC(LA(DEL))
 #define CON_ONE		&bt BT_SEL 1 
 #define CON_TWO		&bt BT_SEL 2 
@@ -143,17 +141,6 @@
 							XXXXXXXXXX	DESK_L		DESK_R										CAD			SCREEN_SHOT	XXXXXXXXXX                                     	
 
 													___XXXX___	__________			__________	__________
-			>;
-		};
-
-		sho_layer {
-            label = "SHO";		
-            bindings = <
-				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	XXXXXXXXXX			XXXXXXXXXX	VOL_DOWN	VOL_MUTE	VOL_UP 		XXXXXXXXXX
-				&kp F22		&kp F21		&kp F20		&kp F19		XXXXXXXXXX			XXXXXXXXXX	&kp F13		&kp F14		&kp F15		&kp F16
-							XXXXXXXXXX	&kp F24		&kp F23										&kp F17		&kp F18		XXXXXXXXXX                                     	
-
-													__________	__________			__________	___XXXX___
 			>;
 		};
 	};
