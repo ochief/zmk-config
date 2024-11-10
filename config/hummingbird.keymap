@@ -50,12 +50,25 @@
 #define VOL_UP		&kp C_VOL_UP 
 #define VOL_MUTE	&kp C_MUTE
 
-#define UK_AT		&kp DQT		// @
-#define UK_BSLH		&kp NUBS	// \
-#define UK_DQT		&kp AT		// "
-#define UK_HASH		&kp GRAVE	// #
-#define UK_POUND	&kp HASH	// £
-#define UK_TILDE	&kp TILDE2	// ~
+#define UK_AT		&kp DQT		//	@
+#define UK_DQT		&kp AT		//	"
+#define UK_HASH		&kp GRAVE	//	#
+#define UK_POUND	&kp HASH	//	£
+#define UK_TILDE	&kp TILDE2	//	~
+#define UK_FSLH		&kp FSLH	//	/
+#define UK_BSLH		&kp BSLH	//	\
+#define UK_EXCL		&kp EXCL	//	!
+#define UK_QMARK	&kp QMARK	//	?	
+#define UK_PIPE		&kp PIPE	//	|
+#define UK_AMPS		&kp AMPS	//	&
+#define UK_DOLLAR	&kp DOLLAR	//	$	
+#define UK_SEMI		&kp SEMI	//	;
+#define UK_COLON	&kp COLON	//	:
+#define UK_PERCENT	&kp PERCENT	//	%
+#define UK_EQUALS	&kp EQUALS	//	=
+#define UK_UNDS		&kp UNDS	//	_
+#define UK_LT		&kp LT		//	<
+#define UK_GT		&kp GT		//	>
 
 #define HRM_A		&hm LGUI A
 #define HRM_R		&hm LALT R
@@ -67,8 +80,9 @@
 #define HRM_O		&hm LGUI O
 
 #define HRM_COMMA	&hm LSFT COMMA
-#define HRM_DOT		&hm LSFT DOT
-#define HRM_FSLH	&hm LSFT FSLH
+#define HRM_DOT		&hm LCTL DOT
+#define HRM_PLUS	&hm LALT PLUS
+#define HRM_STAR	&hm LGUI STAR
 
 #include			"behaviors.dtsi"
 #include			"combos.dtsi"
@@ -114,9 +128,9 @@
         num_layer {
             label = "NUM";
 			bindings = <
-				UK_POUND	&kp N9		&kp N8		&kp N7		&kp DOLLAR			&kp PIPE	&kp SEMI	&kp COLON	&kp PERCENT	UK_HASH
-				&kp N3		&kp N2		&kp N1		&kp N0		UK_BSLH				UK_BSLH		HRM_COMMA 	HRM_DOT		HRM_FSLH	&kp ENTER
-							&kp N6		&kp N5		&kp N4										&kp EQUALS	&kp UNDS	&kp PLUS
+				UK_LT		&kp N9		&kp N8		&kp N7		UK_PIPE				UK_DOLLAR	UK_SEMI		UK_COLON	UK_PERCENT	UK_GT
+				&kp N3		&kp N2		&kp N1		&kp N0		UK_AMPS				UK_POUND	HRM_COMMA 	HRM_DOT		HRM_STAR	HRM_ENTER
+							&kp N6		&kp N5		&kp N4										UK_EQUALS	UK_UNDS		UK_HASH
 													__________	__________			___XXXX___	__________
 			>;
 		};
