@@ -31,7 +31,7 @@ combo_##NAME { \
 
 		// single thumbs
 		COMBO(esc,		&kp ESC,		 1  2, 		DEF NUM, COMBO_TERM_NORMAL)
-		COMBO(bspc,		&kp BSPC,		 7  8, 		DEF NUM, COMBO_TERM_NORMAL
+		COMBO(bspc,		&kp BSPC,		 7  8, 		DEF NUM, COMBO_TERM_NORMAL)
 
 		// common symbols 
 		COMBO(lt,       &kp LT,       	20 21,  	DEF NUM, COMBO_TERM_NORMAL)
