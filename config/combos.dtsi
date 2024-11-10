@@ -33,8 +33,8 @@ combo_##NAME { \
 		COMBO(dqt,      UK_DQT,      	 7  8,		MAIN, COMBO_TERM_NORMAL)
 		COMBO(fslh,   	UK_FSLH,       	17 23,  	MAIN, COMBO_TERM_NORMAL)
 		COMBO(bslh,     UK_BSLH,      	12 22,		MAIN, COMBO_TERM_NORMAL)
-		COMBO(excl,     UK_EXCL,    	23 24, 		MAIN, COMBO_TERM_NORMAL)
-		COMBO(qmark,    UK_QMARK,    	24 25, 		MAIN, COMBO_TERM_NORMAL)
+		COMBO(excl,     UK_EXCL,    	24 25, 		MAIN, COMBO_TERM_NORMAL)
+		COMBO(qmark,    UK_QMARK,    	23 24, 		MAIN, COMBO_TERM_NORMAL)
 		
 		// brackets 
 		COMBO(lt,		&kp LT,     	 0 10,  	MAIN, COMBO_TERM_SLOW)
@@ -45,6 +45,5 @@ combo_##NAME { \
 		COMBO(rpar,     &kp RPAR,     	 7 17,  	MAIN, COMBO_TERM_SLOW)
 		COMBO(rbkt,     &kp RBKT,     	 8 18,  	MAIN, COMBO_TERM_SLOW)
 		COMBO(gt,		&kp GT,     	 9 19,  	MAIN, COMBO_TERM_SLOW)
-	*/
 	};
 };
