@@ -86,7 +86,7 @@
 #define A_SLACK		&kp F14
 #define A_GLADMIN	&kp F15	
 #define A_BULLHORN	&kp F16
-#define A_CALENDAR	&kp F17		
+#define A_CALENDAR	&kp F17			
 
 #include			"behaviors.dtsi"
 #include			"combos.dtsi"
@@ -132,9 +132,9 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				UK_LT		&kp N9		&kp N8		&kp N7		UK_PIPE				UK_DOLLAR	UK_SEMI		UK_COLON	UK_PERCENT	UK_GT
+				UK_PIPE		&kp N9		&kp N8		&kp N7		UK_EQUAL			UK_DOLLAR	UK_SEMI		UK_COLON	UK_HASH		UK_PERCENT
 				&kp N3		&kp N2		&kp N1		&kp N0		UK_AMPS				UK_POUND	HRM_COMMA 	HRM_DOT		HRM_STAR	HRM_ENTER
-							&kp N6		&kp N5		&kp N4										UK_EQUAL	UK_UNDER	UK_HASH
+							&kp N6		&kp N5		&kp N4										UK_MINUS	UK_UNDER	UK_PLUS		
 													__________	__________			___XXXX___	__________
 			>;
 		};

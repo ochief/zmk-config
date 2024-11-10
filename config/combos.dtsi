@@ -30,21 +30,21 @@ combo_##NAME { \
 		COMBO(undo,		&kp LC(Z),		13 14, 		DEF NUM, COMBO_TERM_NORMAL)
 
 		// common symbols 
-		COMBO(at,       UK_AT,       	 1  2,  	DEF NUM, COMBO_TERM_NORMAL)
-		COMBO(dqt,      UK_DQT,      	 7  8,		DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(lt,       UK_LT,       	20 21,  	DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(gt,      	UK_GT,      	21 22,		DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(at,       UK_AT,       	 2  3,  	DEF NUM, COMBO_TERM_NORMAL)
+		COMBO(dqt,      UK_DQT,      	 6  7,		DEF NUM, COMBO_TERM_NORMAL)
 		COMBO(fslh,   	UK_FSLH,       	17 23,  	DEF NUM, COMBO_TERM_NORMAL)
 		COMBO(bslh,     UK_BSLH,      	12 22,		DEF NUM, COMBO_TERM_NORMAL)
 		COMBO(excl,     UK_EXCL,    	24 25, 		DEF NUM, COMBO_TERM_NORMAL)
 		COMBO(qmark,    UK_QMARK,    	23 24, 		DEF NUM, COMBO_TERM_NORMAL)
 		
 		// brackets 
-		COMBO(lt,		&kp LT,     	 0 10,  	DEF NUM, COMBO_TERM_SLOW)
 		COMBO(lbkt,		&kp LBKT,     	 1 11,  	DEF NUM, COMBO_TERM_SLOW)
 		COMBO(lpar,     &kp LPAR,     	 2 12,  	DEF NUM, COMBO_TERM_SLOW)
 		COMBO(lbrc,     &kp LBRC,     	 3 13,  	DEF NUM, COMBO_TERM_SLOW)
 		COMBO(rbrc,     &kp RBRC,     	 6 16,  	DEF NUM, COMBO_TERM_SLOW)
 		COMBO(rpar,     &kp RPAR,     	 7 17,  	DEF NUM, COMBO_TERM_SLOW)
 		COMBO(rbkt,     &kp RBKT,     	 8 18,  	DEF NUM, COMBO_TERM_SLOW)
-		COMBO(gt,		&kp GT,     	 9 19,  	DEF NUM, COMBO_TERM_SLOW)
 	};
 };
