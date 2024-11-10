@@ -55,8 +55,8 @@
 #define UK_HASH		&kp GRAVE	//	#
 #define UK_POUND	&kp HASH	//	£
 #define UK_TILDE	&kp TILDE2	//	~
-#define UK_FSLH		&kp FSLH	//	/
-#define UK_BSLH		&kp BSLH	//	\
+#define UK_FSLH		&kp FSLH	//	
+#define UK_BSLH		&kp BSLH	//	
 #define UK_EXCL		&kp EXCL	//	!
 #define UK_QMARK	&kp QMARK	//	?	
 #define UK_PIPE		&kp PIPE	//	|
@@ -66,7 +66,7 @@
 #define UK_COLON	&kp COLON	//	:
 #define UK_PERCENT	&kp PERCENT	//	%
 #define UK_EQUAL	&kp EQUAL	//	=
-#define UK_UNDER		&kp UNDER	//	_
+#define UK_UNDER	&kp UNDER	//	_
 #define UK_LT		&kp LT		//	<
 #define UK_GT		&kp GT		//	>
 
