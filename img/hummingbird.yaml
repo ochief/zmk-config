@@ -162,6 +162,15 @@ combos:
 - p: [13, 14]
   k: Ctl+ Z
   l: [main]
+- p: [1, 2]
+  k: '"'
+  l: [main]
+- p: [7, 8]
+  k: '@'
+  l: [main]
+- p: [17, 23]
+  k: /
+  l: [main]
 - p: [0, 10]
   k: <
   l: [main]
