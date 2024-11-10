@@ -9,8 +9,8 @@
 #define MIS			3
 
 #define XXXXXXXXXX	&none
-#define __________  &trans
 #define ___XXXX___	&trans
+#define __________  &trans
 
 #define HRM_A		&hm LGUI A
 #define HRM_R		&hm LALT R
@@ -57,13 +57,13 @@
 #define VOL_UP		&kp C_VOL_UP 
 #define VOL_MUTE	&kp C_MUTE
 
-#define UK_AT		&kp DQT		//	@
-#define UK_DQT		&kp AT		//	"
-#define UK_HASH		&kp GRAVE	//	#
-#define UK_POUND	&kp HASH	//	£
-#define UK_TILDE	&kp TILDE2	//	~
-#define UK_FSLH		&kp FSLH	//	\
-#define UK_PIPE		&kp PIPE	//	|
+#define UK_AT		&kp DQT
+#define UK_DQT		&kp AT
+#define UK_HASH		&kp GRAVE
+#define UK_POUND	&kp HASH
+#define UK_TILDE	&kp TILDE2
+#define UK_FSLH		&kp FSLH
+#define UK_PIPE		&kp PIPE
 
 #define A_INBOX		&kp F13
 #define A_SLACK		&kp F14
