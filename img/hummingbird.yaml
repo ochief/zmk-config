@@ -63,32 +63,32 @@ layers:
   - Ctl+Alt+ TAB
   - ''
   num:
-  - '#'
+  - <
   - '9'
   - '8'
   - '7'
-  - $
   - '|'
+  - $
   - ;
   - ':'
   - '%'
-  - '`'
+  - '>'
   - '3'
   - '2'
   - '1'
   - '0'
-  - NUBS
-  - NUBS
+  - '&'
+  - '#'
   - {t: ',', h: LSFT}
-  - {t: ., h: LSFT}
-  - {t: /, h: LSFT}
-  - ENTER
+  - {t: ., h: LCTL}
+  - {t: '*', h: LALT}
+  - {t: ENTER, h: LGUI}
   - '6'
   - '5'
   - '4'
-  - EQUALS
-  - UNDS
-  - +
+  - '='
+  - _
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -161,18 +161,6 @@ combos:
   l: [main]
 - p: [13, 14]
   k: Ctl+ Z
-  l: [main]
-- p: [1, 2]
-  k: '"'
-  l: [main]
-- p: [7, 8]
-  k: '@'
-  l: [main]
-- p: [23, 24]
-  k: '!'
-  l: [main]
-- p: [24, 25]
-  k: '?'
   l: [main]
 - p: [0, 10]
   k: <
