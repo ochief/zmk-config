@@ -99,7 +99,7 @@
 //		 K	 W	 C	 D	 B		 J	 L	 U	 Y	 '
 //		 A	 R	 S	 T	 P		 X	 N	 H	 I	 O 
 //			 V	 F	 G				 M	 Q	 Z
-					ESC	SPA		 E	BSPC
+//					ESC	SPA		 E	BSPC
         
 		Default_layer {
             label = "DEF";
