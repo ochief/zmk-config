@@ -65,9 +65,9 @@
 #define UK_SEMI		&kp SEMI	//	;
 #define UK_COLON	&kp COLON	//	:
 #define UK_PERCENT	&kp PERCENT	//	%
-#define UK_EQUALS	&kp EQUALS	//	=
+#define UK_EQUAL	&kp EQUAL	//	=
 #define UK_UNDS		&kp UNDS	//	_
-#define UK_LT		&kp LT		//	< a
+#define UK_LT		&kp LT		//	<
 #define UK_GT		&kp GT		//	>
 
 #define HRM_A		&hm LGUI A
