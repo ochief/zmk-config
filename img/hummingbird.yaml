@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: hummingbird}
 layers:
-  main:
+  Default:
   - K
   - W
   - C
@@ -27,21 +27,21 @@ layers:
   - M
   - Q
   - Z
-  - {t: ESC, h: mis}
-  - {t: SPACE, h: nav}
-  - {t: E, h: num}
-  - {t: BSPC, h: sho}
-  nav:
+  - ESC
+  - {t: SPACE, h: Navigation}
+  - {t: E, h: Number}
+  - BSPC
+  Navigation:
   - F2
   - Alt+Sft+ DOWN
   - TAB
   - Alt+Sft+ UP
   - DEL
-  - F6
-  - Ctl+ PG UP
+  - Ctl+ BSPC
+  - HOME
   - UP
-  - Ctl+ PG DN
-  - {t: Ctl+ W, h: Alt+ F4}
+  - END
+  - F6
   - LGUI
   - LALT
   - LCTL
@@ -56,13 +56,13 @@ layers:
   - Ctl+ C
   - {t: Ctl+Sft+ V, h: Ctl+ V}
   - Alt+ ENTER
-  - Ctl+ BSPC
-  - '&macro_grave3'
+  - Ctl+ PG UP
+  - Ctl+ PG DN
   - {t: ▽, type: trans}
   - {type: held}
   - Ctl+Alt+ TAB
-  - ''
-  num:
+  - {t: ▽, type: trans}
+  Number:
   - <
   - '9'
   - '8'
@@ -93,114 +93,83 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  mis:
-  - ''
-  - ^
-  - '~'
-  - '`'
-  - ''
-  - ''
+  Misc:
+  - '&bootloader'
+  - PREV
+  - PLAY
+  - NEXT
   - F11
-  - PG UP
   - F12
-  - ''
+  - VOL DN
+  - MUTE
+  - VOL UP
+  - {t: Ctl+ W, h: Alt+ F4}
   - BT CLR
   - {t: BT, h: '3'}
   - {t: BT, h: '2'}
   - {t: BT, h: '1'}
-  - ''
-  - ''
-  - HOME
-  - PG DN
-  - END
-  - '&bootloader'
-  - ''
-  - Ctl+Gui+ LEFT
-  - Ctl+Gui+ RIGHT
   - Ctl+Alt+ DEL
   - Gui+Sft+ S
-  - ''
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  sho:
-  - ''
-  - PREV
-  - PLAY
-  - NEXT
-  - ''
-  - ''
-  - VOL DN
-  - MUTE
-  - VOL UP
-  - ''
-  - F22
-  - F21
-  - F20
-  - F19
-  - ''
-  - ''
   - F13
   - F14
   - F15
   - F16
-  - ''
-  - F24
-  - F23
+  - ^
+  - '~'
+  - '`'
   - F17
-  - F18
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Gui+ LEFT
+  - Ctl+Gui+ RIGHT
   - {t: ▽, type: trans}
   - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [3, 4]
   k: Ctl+ Y
-  l: [main]
+  l: [Default, Number]
 - p: [13, 14]
   k: Ctl+ Z
-  l: [main]
+  l: [Default, Number]
 - p: [1, 2]
   k: '"'
-  l: [main]
+  l: [Default, Number]
 - p: [7, 8]
   k: '@'
-  l: [main]
+  l: [Default, Number]
 - p: [17, 23]
   k: /
-  l: [main]
+  l: [Default, Number]
 - p: [12, 22]
   k: \
-  l: [main]
+  l: [Default, Number]
 - p: [24, 25]
   k: '!'
-  l: [main]
+  l: [Default, Number]
 - p: [23, 24]
   k: '?'
-  l: [main]
+  l: [Default, Number]
 - p: [0, 10]
   k: <
-  l: [main]
+  l: [Default, Number]
 - p: [1, 11]
   k: '['
-  l: [main]
+  l: [Default, Number]
 - p: [2, 12]
   k: (
-  l: [main]
+  l: [Default, Number]
 - p: [3, 13]
   k: '{'
-  l: [main]
+  l: [Default, Number]
 - p: [6, 16]
   k: '}'
-  l: [main]
+  l: [Default, Number]
 - p: [7, 17]
   k: )
-  l: [main]
+  l: [Default, Number]
 - p: [8, 18]
   k: ']'
-  l: [main]
+  l: [Default, Number]
 - p: [9, 19]
   k: '>'
-  l: [main]
+  l: [Default, Number]

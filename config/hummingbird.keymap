@@ -82,6 +82,12 @@
 #define HRM_STAR	&hm LALT STAR
 #define HRM_ENTER	&hm LGUI ENTER
 
+#define A_INBOX		&kp F13
+#define A_SLACK		&kp F14
+#define A_GLADMIN	&kp F15	
+#define A_BULLHORN	&kp F16
+#define A_CALENDAR	&kp F17		
+
 #include			"behaviors.dtsi"
 #include			"combos.dtsi"
 #include			"macros.dtsi"
