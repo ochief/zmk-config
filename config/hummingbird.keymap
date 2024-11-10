@@ -115,11 +115,11 @@
         nav_layer {
             label = "NAV";
 			bindings = <
-				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				&kp F6		TAB_PREV	&kp UP		TAB_NEXT	KILL
+				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		&kp F6
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	&kp ENTER
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	DEL_WORD	&macro_grave3
+							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	TAB_PREV	TAB_NEXT	
 
-													__________	___XXXX___			SHO_APP_SEL XXXXXXXXXX
+													__________	___XXXX___			SHO_APP_SEL __________
 			>;
 		};
 
@@ -136,11 +136,11 @@
 		mis_layer {
             label = "MISC";		
             bindings = <
-				XXXXXXXXXX	&kp CARET	UK_TILDE	&kp GRAVE	XXXXXXXXXX			XXXXXXXXXX	&kp F11		&kp PG_UP	&kp F12		XXXXXXXXXX
-				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		XXXXXXXXXX			XXXXXXXXXX	&kp HOME	&kp PG_DN	&kp END		&bootloader
-							XXXXXXXXXX	DESK_L		DESK_R										CAD			SCREEN_SHOT	XXXXXXXXXX                                     	
+				&bootloader	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp F11				&kp F12		VOL_DOWN	VOL_MUTE	VOL_UP		KILL
+				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					SCREEN_SHOT	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
+							&kp CARET	UK_TILDE	&kp GRAVE									A_CALENDAR	DESK_L		DESK_R					                                   	
 
-													___XXXX___	__________			__________	__________
+													__________	___XXXX___			___XXXX___	__________
 			>;
 		};
 	};
