@@ -1,6 +1,14 @@
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
 
 / {
+	conditional_layers {
+		compatible = "zmk,conditional-layers";
+		tri_layer {
+			if-layers = <NAV NUM>;
+			then-layer = <MISC>;
+		};
+	}
+
 	hm: homerow_mod {
 		compatible = "zmk,behavior-hold-tap";
 		label = "HOMEROW_MODS";
@@ -11,11 +19,12 @@
 		bindings = <&kp>, <&kp>;
 	};
 
-	mm_sqt_sqt: mm_sqt_sqt {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp SQT>, <&kp SQT>;
-		mods = <(MOD_RSFT)>;
+	ht: hold_tap {
+		compatible = "zmk,behavior-hold-tap";
+		#binding-cells = <2>;
+		tapping-term-ms = <200>;
+		flavor = "tap-preferred";
+		bindings = <&kp>, <&kp>;
 	};
 
 	mm_new_tab: mm_new_tab_incognito {
@@ -25,11 +34,10 @@
 		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 
-	conditional_layers {
-		compatible = "zmk,conditional-layers";
-		tri_layer {
-			if-layers = <NAV NUM>;
-			then-layer = <MIS>;
-		};
+	mm_sqt_sqt: mm_sqt_sqt {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp SQT>, <&kp SQT>;
+		mods = <(MOD_RSFT)>;
 	};
 };
