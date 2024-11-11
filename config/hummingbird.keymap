@@ -33,7 +33,7 @@
 				HRM_A		HRM_R		HRM_S		HRM_T		&kp P				&kp X		HRM_N		HRM_H		HRM_I		HRM_O
 							&kp V		&kp F		&kp G                                       &kp M		&kp Q		&kp Z
 
-													&kp ESC	&lt NAV SPACE		&lt NUM E	&kp BSPC
+													&kp ESC	&lt NAV SPACE			&lt NUM E	&kp BSPC
 			>;
 		};
 
@@ -44,7 +44,7 @@
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	&kp ENTER
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	TAB_PREV	TAB_NEXT
 
-													__________	___XXXX___			SHO_APP_SEL __________
+													__________	___XXXX___			&lt NUM SHO_APP_SEL __________
 			>;
 		};
  
