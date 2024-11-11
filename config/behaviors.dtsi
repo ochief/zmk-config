@@ -7,7 +7,7 @@
 			if-layers = <NAV NUM>;
 			then-layer = <MIS>;
 		};
-	}
+	};
 
 	hm: homerow_mod {
 		compatible = "zmk,behavior-hold-tap";
