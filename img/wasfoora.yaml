@@ -13,10 +13,10 @@ layers:
   - {t: A, h: Win}
   - {t: R, h: Alt}
   - {t: S, h: Ctrl}
-  - {t: T, h: LSFT}
+  - {t: T, h: Shift}
   - P
   - X
-  - {t: N, h: LSFT}
+  - {t: N, h: Shift}
   - {t: H, h: Ctrl}
   - {t: I, h: Alt}
   - {t: O, h: Win}
@@ -45,7 +45,7 @@ layers:
   - '0'
   - '&'
   - £
-  - {t: ',', h: LSFT}
+  - {t: ',', h: Shift}
   - {t: ., h: Ctrl}
   - {t: '-', h: Alt}
   - {t: _, h: Win}
@@ -59,9 +59,9 @@ layers:
   - {t: ▽, type: trans}
   Navigation:
   - F2
-  - SLACK ↓
+  - SLACK →
   - TAB
-  - SLACK ↑
+  - SLACK ←
   - DEL
   - DEL WORD
   - HOME
@@ -82,7 +82,7 @@ layers:
   - COPY
   - PASTE
   - ENTER
-  - ← TAB
+  - TAB ←
   - TAB →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,7 +111,7 @@ layers:
   - '~'
   - '`'
   - CAL
-  - ← DESK
+  - DESK ←
   - DESK →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
