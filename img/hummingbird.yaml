@@ -28,8 +28,8 @@ layers:
   - Q
   - Z
   - ESC
-  - {t: SPACE, h: Navigation}
-  - {t: E, h: Number}
+  - {t: SPACE, h: Number}
+  - {t: E, h: Navigation}
   - BSPC
   Navigation:
   - F2
@@ -59,8 +59,8 @@ layers:
   - TAB PREV
   - TAB NEXT
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   Number:
   - '|'
@@ -90,8 +90,8 @@ layers:
   - '*'
   - +
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Misc:
   - BOOT
@@ -125,12 +125,6 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
 combos:
-- p: [3, 4]
-  k: REDO
-  l: [Default]
-- p: [13, 14]
-  k: UNDO
-  l: [Default]
 - p: [1, 2]
   k: ESC
   l: [Default]
@@ -161,21 +155,21 @@ combos:
 - p: [23, 24]
   k: '?'
   l: [Default]
-- p: [1, 11]
-  k: '['
-  l: [Default]
-- p: [2, 12]
-  k: (
-  l: [Default]
 - p: [3, 13]
-  k: '{'
-  l: [Default]
-- p: [6, 16]
   k: '}'
   l: [Default]
-- p: [7, 17]
+- p: [2, 12]
   k: )
   l: [Default]
-- p: [8, 18]
+- p: [1, 11]
   k: ']'
+  l: [Default]
+- p: [8, 18]
+  k: '['
+  l: [Default]
+- p: [7, 17]
+  k: (
+  l: [Default]
+- p: [6, 16]
+  k: '{'
   l: [Default]
