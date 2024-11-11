@@ -33,12 +33,12 @@ layers:
   - '9'
   - '8'
   - '7'
-  - '='
+  - '%'
   - $
   - ;
   - ':'
   - '#'
-  - '%'
+  - +
   - '3'
   - '2'
   - '1'
@@ -54,7 +54,7 @@ layers:
   - '4'
   - ENTER
   - '*'
-  - +
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Navigation:
@@ -86,7 +86,7 @@ layers:
   - TAB →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Misc:
+  Miscellaneous:
   - BOOT
   - PREV ←
   - PLAY
@@ -134,6 +134,12 @@ combos:
 - p: [6, 16]
   k: '{'
   l: [Default]
+- p: [11, 12]
+  k: '&caps_word'
+  l: [Default]
+- p: [24, 25]
+  k: '&caps_word'
+  l: [Default]
 - p: [20, 21]
   k: <
   l: [Default]
@@ -146,10 +152,10 @@ combos:
 - p: [6, 7]
   k: '@'
   l: [Default]
-- p: [17, 23]
+- p: [7, 16]
   k: /
   l: [Default]
-- p: [12, 22]
+- p: [2, 13]
   k: \
   l: [Default]
 - p: [24, 25]
@@ -164,9 +170,9 @@ combos:
 - p: [20, 22]
   k: <  >
   l: [Default]
-- p: [1, 2]
+- p: [12, 22]
   k: Esc
   l: [Default]
-- p: [7, 8]
+- p: [17, 23]
   k: ⌫
   l: [Default]
