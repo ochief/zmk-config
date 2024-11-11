@@ -71,7 +71,7 @@ layers:
   - Win
   - Alt
   - Ctrl
-  - LSHIFT
+  - Shift
   - SEL ALL
   - NEW TAB
   - ←
@@ -96,7 +96,7 @@ layers:
   - VOL ←
   - MUTE
   - VOL →
-  - {t: Ctl+ W, h: Alt+ F4}
+  - CLOSE
   - CLEAR
   - BT  3
   - BT  2
