@@ -37,8 +37,8 @@ combo_##NAME { \
 			COMBO(lbrc,     &kp LBRC,     	 6 16,  	DEF, COMBO_TERM_SLOW)
 
 			// caps word
-			COMBO(capsword,	&caps_word,		11 12,		DEF, COMBO_TERM_SLOW)
-			COMBO(capsword,	&caps_word,		17 18,		DEF, COMBO_TERM_SLOW)
+			COMBO(cword_l,	&caps_word,		11 12,		DEF, COMBO_TERM_SLOW)
+			COMBO(cword_r,	&caps_word,		17 18,		DEF, COMBO_TERM_SLOW)
 
 			// common symbols
 			COMBO(lt,       &kp LT,       	20 21,  	DEF, COMBO_TERM_NORMAL)
