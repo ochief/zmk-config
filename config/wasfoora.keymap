@@ -61,7 +61,7 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				&kp F2		SLACK_DN	&kp TAB		SLACK_UP	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		&kp F6
+				&kp F2		SLACK_UP	&kp TAB		SLACK_DN	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		&kp F6
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp ENTER	TAB_PREV	TAB_NEXT
 
@@ -76,7 +76,7 @@
 		Misc_layer {
             label = "MIS";
             bindings = <
-				&bootloader	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp F11				&kp F12		VOL_DOWN	VOL_MUTE	VOL_UP		KILL
+				&bootloader	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp F11				&kp F12		VOL_DOWN	VOL_MUTE	VOL_UP		CLOSE
 				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					SCREEN_SHOT	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
 							&kp CARET	UK_TILDE	UK_GRAVE									A_CALENDAR	DESK_L		DESK_R
 				

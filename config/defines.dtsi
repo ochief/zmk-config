@@ -28,6 +28,7 @@
 #define HRM_UNDER	&hm LGUI UNDER
 
 #define CAD			&kp LC(LA(DEL))
+#define CLOSE		&ht LA(F4) LC(W)
 #define CON_ONE		&bt BT_SEL 1
 #define CON_TWO		&bt BT_SEL 2
 #define CON_THREE	&bt BT_SEL 3
@@ -35,7 +36,6 @@
 #define DESK_L		&kp LC(LG(LEFT))
 #define DESK_R		&kp LC(LG(RIGHT))
 #define INCOGNITO	&kp LC(LS(N))
-#define KILL		&ht LA(F4) LC(W)
 #define NAV_SQT		&ht_sqt_nav NAV 0
 
 #define SCREEN_SHOT &kp LG(LS(S))

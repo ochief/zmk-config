@@ -5,7 +5,7 @@ parse_config:
 
     '&bootloader':    'BOOT'
     '&macro_grave3':  '```'
-    '&macro_nequal':  '<>'
+    '&macro_nequal':  '<  >'
     '&mm_new_tab':    'NEW TAB'
     '&mm_sqt_sqt':    "'"
     'A_BULLHORN':     'BH'
@@ -13,16 +13,13 @@ parse_config:
     'A_GLADMIN':      'ADMIN'
     'A_INBOX':        'INBOX'
     'A_SLACK':        'SLACK'
-    'C_NEXT':         'NEXT →'
-    'C_PREV':         'PREV ←'
-    'CAD':            'C+A+D'
-    'CON_ONE':        'BT1'
-    'CON_THREE':      'BT3'
-    'CON_TWO':        'BT2'
+    'CAD':            'C  A  D'
+    'CON_ONE':        'BT  1'
+    'CON_THREE':      'BT  3'
+    'CON_TWO':        'BT  2'
     'DEL_WORD':       'DEL WORD'
     'DESK_L':         'DESK ←'
     'DESK_R':         'DESK →'
-    'KILL':           'KILL'
     'NEW_LINE':       'NEW LINE'
     'SCREEN_SHOT':    'SSHOT'
     'SHO_APP_SEL':    'SWAP'
@@ -41,6 +38,8 @@ parse_config:
     'UK_GRAVE':       '`'
     'UK_HASH':        '#'
     'UK_POUND':       '£'
+    'VOL_DOWN':       VOL ←    
+    'VOL_UP':         VOL →
     
   zmk_keycode_map:
     'LCTL':           'Ctrl'
@@ -49,6 +48,9 @@ parse_config:
     'LSFT':           'Shift'
     'ESC':            'Esc'
     'BSPC':           '⌫'
+    'C_NEXT':         'NEXT →'
+    'C_PREV':         'PREV ←'
+    'BT_CLR':         'CLEAR'
 
     UP: ↑
     DOWN: ↓
