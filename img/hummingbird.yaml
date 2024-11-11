@@ -60,35 +60,35 @@ layers:
   - TAB NEXT
   - {t: ▽, type: trans}
   - {type: held}
-  - SWAPPER
+  - SWAP
   - {t: ▽, type: trans}
   Number:
-  - PIPE
+  - '|'
   - '9'
   - '8'
   - '7'
-  - EQUAL
-  - DOLLAR
-  - SEMI
-  - COLON
+  - '='
+  - $
+  - ;
+  - ':'
   - '#'
-  - PERCENT
+  - '%'
   - '3'
   - '2'
   - '1'
   - '0'
-  - AMPS
+  - '&'
   - £
-  - {t: COMMA, h: LSFT}
-  - {t: DOT, h: LCTL}
-  - {t: STAR, h: LALT}
+  - {t: ',', h: LSFT}
+  - {t: ., h: LCTL}
+  - {t: '*', h: LALT}
   - {t: ENTER, h: LGUI}
   - '6'
   - '5'
   - '4'
-  - MINUS
-  - UNDER
-  - PLUS
+  - '-'
+  - _
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -109,13 +109,13 @@ layers:
   - BT2
   - BT1
   - C+A+D
-  - S SHOT
+  - SSHOT
   - INBOX
   - SLACK
   - ADMIN
   - BH
-  - CARET
-  - TILDE2
+  - ^
+  - '~'
   - '#'
   - CAL
   - DESK L
@@ -138,10 +138,10 @@ combos:
   k: BSPC
   l: [Default]
 - p: [20, 21]
-  k: LT
+  k: <
   l: [Default]
 - p: [21, 22]
-  k: GT
+  k: '>'
   l: [Default]
 - p: [2, 3]
   k: '"'
@@ -150,32 +150,32 @@ combos:
   k: '@'
   l: [Default]
 - p: [17, 23]
-  k: FSLH
+  k: /
   l: [Default]
 - p: [12, 22]
-  k: BSLH
+  k: \
   l: [Default]
 - p: [24, 25]
-  k: EXCL
+  k: '!'
   l: [Default]
 - p: [23, 24]
-  k: QMARK
+  k: '?'
   l: [Default]
 - p: [1, 11]
-  k: LBKT
+  k: '['
   l: [Default]
 - p: [2, 12]
-  k: LPAR
+  k: (
   l: [Default]
 - p: [3, 13]
-  k: LBRC
+  k: '{'
   l: [Default]
 - p: [6, 16]
-  k: RBRC
+  k: '}'
   l: [Default]
 - p: [7, 17]
-  k: RPAR
+  k: )
   l: [Default]
 - p: [8, 18]
-  k: RBKT
+  k: ']'
   l: [Default]
