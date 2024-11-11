@@ -6,3 +6,5 @@ parse_config:
     'UK_DQT': '@'
     'UK_HASH': '#'
     'UK_POUND': '£'
+  zmk_combos:
+    'redo': 'REDO'
