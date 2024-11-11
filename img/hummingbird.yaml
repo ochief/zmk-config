@@ -10,7 +10,7 @@ layers:
   - L
   - U
   - Y
-  - {t: '''', s: ''''}
+  - ''''
   - {t: A, h: LGUI}
   - {t: R, h: LALT}
   - {t: S, h: LCTL}
