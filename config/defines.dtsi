@@ -24,8 +24,8 @@
 
 #define HRM_COMMA	&hm LSFT COMMA
 #define HRM_DOT		&hm LCTL DOT
-#define HRM_STAR	&hm LALT MINUS
-#define HRM_ENTER	&hm LGUI UNDER
+#define HRM_MINUS	&hm LALT MINUS
+#define HRM_UNDER	&hm LGUI UNDER
 
 #define CAD			&kp LC(LA(DEL))
 #define CON_ONE		&bt BT_SEL 1 
