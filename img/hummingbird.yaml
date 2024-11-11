@@ -46,7 +46,7 @@ layers:
   - LALT
   - LCTL
   - LSHIFT
-  - Ctl+ A
+  - SEL ALL
   - NEW TAB
   - LEFT
   - DOWN
@@ -60,7 +60,7 @@ layers:
   - TAB NEXT
   - {t: ▽, type: trans}
   - {type: held}
-  - Ctl+Alt+ TAB
+  - SWAP
   - {t: ▽, type: trans}
   Number:
   - '|'
@@ -109,7 +109,7 @@ layers:
   - BT2
   - BT1
   - C+A+D
-  - S SHOT
+  - SSHOT
   - INBOX
   - SLACK
   - ADMIN
@@ -118,7 +118,7 @@ layers:
   - '~'
   - '#'
   - CAL
-  - DESK  L
+  - DESK L
   - DESK R
   - {t: ▽, type: trans}
   - {type: held}
