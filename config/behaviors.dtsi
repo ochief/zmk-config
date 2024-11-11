@@ -5,7 +5,7 @@
 		compatible = "zmk,conditional-layers";
 		tri_layer {
 			if-layers = <NAV NUM>;
-			then-layer = <MISC>;
+			then-layer = <MIS>;
 		};
 	}
 
