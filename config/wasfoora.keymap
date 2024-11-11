@@ -21,6 +21,8 @@
 #include "macros.dtsi"
 
 // capsword
+// advanced https://github.com/caksoylar/zmk-config/blob/main/keymap-drawer/config.yaml
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
