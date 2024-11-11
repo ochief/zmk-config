@@ -26,10 +26,6 @@ combo_##NAME { \
 		compatible = "zmk,combos";
 
 		#ifdef KEYMAP_DRAWER
-			// functions
-			COMBO(redo,		SHO_REDO,		  3  4, 	DEF, COMBO_TERM_NORMAL)
-			COMBO(undo,		SHO_UNDO,		13 14, 		DEF, COMBO_TERM_NORMAL)
-
 			// single thumbs
 			COMBO(esc,		&kp ESC,		 1  2, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(bspc,		&kp BSPC,		 7  8, 		DEF, COMBO_TERM_NORMAL)
