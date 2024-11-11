@@ -18,8 +18,8 @@ parse_config:
     'KILL':         'KILL'
     'NEW_LINE':     'NEW LINE'
     'REDO':         'REDO'
-    'SCREEN_SHOT':  'S SHOT'
-    'SHO_APP_SEL':  'SWAPPER'
+    'SCREEN_SHOT':  'SSHOT'
+    'SHO_APP_SEL':  'SWAP'
     'SHO_COPY':     'COPY'
     'SHO_CUT':      'CUT'
     'SHO_PASTE':    'PASTE'
@@ -33,5 +33,3 @@ parse_config:
     'UK_HASH':      '#'
     'UK_POUND':     '£'
     'UNDO':         'UNDO' 
-  zmk_keycode_map:
-    'GRAVE': '`'
