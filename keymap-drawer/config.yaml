@@ -2,55 +2,56 @@ parse_config:
   raw_binding_map:
     '&lt NAV SPACE':  {t: ␣, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
-
-    '&bootloader':    'BOOT'
+    '&bootloader':    BOOT
     '&macro_grave3':  '```'
-    '&macro_nequal':  '<  >'
-    '&mm_new_tab':    'NEW TAB'
+    '&macro_nequal':  <  >
+    '&mm_new_tab':    NEW TAB
     '&mm_sqt_sqt':    "'"
-    'A_BULLHORN':     'BH'
-    'A_CALENDAR':     'CAL'
-    'A_GLADMIN':      'ADMIN'
-    'A_INBOX':        'INBOX'
-    'A_SLACK':        'SLACK'
-    'CAD':            'C  A  D'
-    'CON_ONE':        'BT  1'
-    'CON_THREE':      'BT  3'
-    'CON_TWO':        'BT  2'
-    'DEL_WORD':       'DEL WORD'
-    'DESK_L':         'DESK ←'
-    'DESK_R':         'DESK →'
-    'NEW_LINE':       'NEW LINE'
-    'SCREEN_SHOT':    'SSHOT'
-    'SHO_APP_SEL':    'SWAP'
-    'SHO_COPY':       'COPY'
-    'SHO_CUT':        'CUT'
-    'SHO_PASTE':      'PASTE'
-    'SHO_REDO':       'REDO'
-    'SHO_SEL_ALL':    'SEL ALL'
-    'SHO_UNDO':       'UNDO' 
-    'SLACK_DN':       'SLACK →'
-    'SLACK_UP':       'SLACK ←'
-    'TAB_NEXT':       'TAB →'
-    'TAB_PREV':       'TAB ←'
-    'UK_AT':          '"'
-    'UK_DQT':         '@'
-    'UK_GRAVE':       '`'
-    'UK_HASH':        '#'
-    'UK_POUND':       '£'
-    'VOL_DOWN':       VOL ←    
-    'VOL_UP':         VOL →
+    
+    A_BULLHORN:       BH
+    A_CALENDAR:       CAL
+    A_GLADMIN:        ADMIN
+    A_INBOX:          INBOX
+    A_SLACK:          SLACK
+    CAD:              C  A  D
+    CON_ONE:          BT  1
+    CON_TWO:          BT  2
+    CON_THREE:        BT  3
+    DEL_WORD:         DEL WORD
+    DESK_L:           DESK ←
+    DESK_R:           DESK →
+    NEW_LINE:         NEW LINE
+    SCREEN_SHOT:      SSHOT
+    SHO_APP_SEL:      SWAP
+    SHO_COPY:         COPY
+    SHO_CUT:          CUT
+    SHO_PASTE:        PASTE
+    SHO_REDO:         REDO
+    SHO_SEL_ALL:      SEL ALL
+    SHO_UNDO:         UNDO
+    SLACK_DN:         SLACK →
+    SLACK_UP:         SLACK ←
+    TAB_NEXT:         TAB →
+    TAB_PREV:         TAB ←
+    UK_AT:            '"'
+    UK_DQT:           '@'
+    UK_GRAVE:         '`'
+    UK_HASH:          '#'
+    UK_POUND:         £
+    VOL_UP:           VOL →
+    VOL_DOWN:         VOL ←
     
   zmk_keycode_map:
-    'LCTL':           'Ctrl'
-    'LALT':           'Alt'
-    'LGUI':           'Win'
-    'LSFT':           'Shift'
-    'ESC':            'Esc'
-    'BSPC':           '⌫'
-    'C_NEXT':         'NEXT →'
-    'C_PREV':         'PREV ←'
-    'BT_CLR':         'CLEAR'
+    LCTL:             Ctrl
+    LALT:             Alt
+    LGUI:             Win
+    LSFT:             Shift
+    ESC:              Esc
+    
+    BSPC:             ⌫
+    C_PREV:           PREV ←
+    C_NEXT:           NEXT →
+    BT_CLR:           CLEAR
 
     UP: ↑
     DOWN: ↓

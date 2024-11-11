@@ -62,7 +62,7 @@
             label = "NAV";
 			bindings = <
 				&kp F2		SLACK_UP	&kp TAB		SLACK_DN	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		&kp F6
-				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
+				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp ENTER	TAB_PREV	TAB_NEXT
 
 				#ifndef KEYMAP_DRAWER
