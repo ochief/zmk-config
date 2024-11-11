@@ -1,7 +1,7 @@
 parse_config:
   raw_binding_map:
     '&mm_sqt_sqt': "'"
-    '&redo': 'REDO'   
+    'Ctl+Y': 'REDO'   
     'UK_AT': '"'
     'UK_DQT': '@'
     'UK_HASH': '#'
