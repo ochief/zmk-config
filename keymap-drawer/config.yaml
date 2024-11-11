@@ -1,0 +1,4 @@
+parse_config:
+  raw_binding_map:
+    '&mm_sqt_sqt': "'"
+    'redo': 'REDO'   
