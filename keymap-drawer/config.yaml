@@ -1,6 +1,6 @@
 parse_config:
   raw_binding_map:
-    '&lt NAV SPACE':  {t: SPACE, h: NAV}
+    '&lt NAV SPACE':  {t: ␣, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
 
     '&bootloader':    'BOOT'
@@ -39,18 +39,19 @@ parse_config:
     'UK_GRAVE':       '`'
     'UK_HASH':        '#'
     'UK_POUND':       '£'
+    
   zmk_keycode_map:
-    'LCTRL':            'Ctrl'
-    'RCTRL':            'Ctrl'
-    'LALT':             'Alt'
-    'RALT':             'Alt'
-    'LGUI':             'Win'
-    'RGUI':             'Win'
-    'LSHFT':            'Shift'
-    'RSHFT':            'Shift'
-    'ESC':              'Esc'
-    'SPACE':            '␣'
-    'BSPC':             '⌫'
+    'LCTL':           'Ctrl'
+    'RCTL':           'Ctrl'
+    'LALT':           'Alt'
+    'RALT':           'Alt'
+    'LGUI':           'Win'
+    'RGUI':           'Win'
+    'LSHFT':          'Shift'
+    'RSHFT':          'Shift'
+    'ESC':            'Esc'
+    'BSPC':           '⌫'
+
 draw_config:
   footer_text: 'Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>'
   dark_mode: auto
