@@ -31,37 +31,6 @@ layers:
   - {t: SPACE, h: Navigation}
   - {t: E, h: Number}
   - BSPC
-  Navigation:
-  - F2
-  - SLACK DN
-  - TAB
-  - SLACK UP
-  - DEL
-  - DEL WORD
-  - HOME
-  - UP
-  - END
-  - F6
-  - LGUI
-  - LALT
-  - LCTL
-  - LSHIFT
-  - SEL ALL
-  - NEW TAB
-  - LEFT
-  - DOWN
-  - RIGHT
-  - SWAP
-  - CUT
-  - COPY
-  - PASTE
-  - ENTER
-  - TAB PREV
-  - TAB NEXT
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Number:
   - '|'
   - '9'
@@ -92,6 +61,37 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  Navigation:
+  - F2
+  - SLACK DN
+  - TAB
+  - SLACK UP
+  - DEL
+  - DEL WORD
+  - HOME
+  - UP
+  - END
+  - F6
+  - LGUI
+  - LALT
+  - LCTL
+  - LSHIFT
+  - SEL ALL
+  - NEW TAB
+  - LEFT
+  - DOWN
+  - RIGHT
+  - SWAP
+  - CUT
+  - COPY
+  - PASTE
+  - ENTER
+  - TAB PREV
+  - TAB NEXT
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Misc:
   - BOOT
@@ -125,12 +125,6 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
 combos:
-- p: [3, 4]
-  k: REDO
-  l: [Default]
-- p: [13, 14]
-  k: UNDO
-  l: [Default]
 - p: [1, 2]
   k: ESC
   l: [Default]
