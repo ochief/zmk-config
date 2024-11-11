@@ -63,7 +63,7 @@
 #define UK_GRAVE	&kp TILDE
 #define UK_HASH		&kp GRAVE
 #define UK_PIPE		&kp PIPE
-#define UK_POUND	&ht &kp HASH &kp RA(E)
+#define UK_POUND	&ht HASH RA(E)
 #define UK_TILDE	&kp TILDE2
 
 #define A_BULLHORN	&kp F16

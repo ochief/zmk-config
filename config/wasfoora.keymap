@@ -15,8 +15,6 @@
 //			 V	 F	 G				 M	 Q	 Z
 //					ESC	SPA		 E	BSPC
 
-// nothing using Grave3 at the mo
-
 #include "defines.dtsi"
 #include "behaviors.dtsi"
 #include "combos.dtsi"
