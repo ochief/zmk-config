@@ -40,6 +40,7 @@
 #define NAV_SQT		&ht_sqt_nav NAV 0
 #define NEW_LINE	&kp LA(ENTER)
 #define NUM_APP		&ht_app_num NUM 0
+#define REDO        &kp LC(Y)
 #define SCREEN_SHOT &kp LG(LS(S))
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
@@ -53,24 +54,22 @@
 #define TAB_NEW		&kp LC(T)
 #define TAB_NEXT	&kp LC(PG_DN)
 #define TASK_MAN	&kp LC(LS(ESC))
+#define UNDO        &kp LC(Z)
 #define VOL_DOWN 	&kp C_VOL_DN 
 #define VOL_UP		&kp C_VOL_UP 
 #define VOL_MUTE	&kp C_MUTE
 
 #define UK_AT		&kp DQT
 #define UK_DQT		&kp AT
+#define UK_FSLH		&kp FSLH
+#define UK_GRAVE	&kp TILDE
 #define UK_HASH		&kp GRAVE
+#define UK_PIPE		&kp PIPE
 #define UK_POUND	&kp HASH
 #define UK_TILDE	&kp TILDE2
-#define UK_FSLH		&kp FSLH
-#define UK_PIPE		&kp PIPE
-// HOW TO GET GRAVE TO WORK
 
-#define A_INBOX		&kp F13
-#define A_SLACK		&kp F14
-#define A_GLADMIN	&kp F15	
 #define A_BULLHORN	&kp F16
 #define A_CALENDAR	&kp F17
-
-#define REDO        &kp LC(Y)
-#define UNDO        &kp LC(Z)
+#define A_GLADMIN	&kp F15	
+#define A_INBOX		&kp F13
+#define A_SLACK		&kp F14
