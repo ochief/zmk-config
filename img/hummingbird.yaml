@@ -28,40 +28,9 @@ layers:
   - Q
   - Z
   - ESC
-  - {t: SPACE, h: Number}
-  - {t: E, h: Navigation}
+  - {t: SPACE, h: Navigation}
+  - {t: E, h: Number}
   - BSPC
-  Navigation:
-  - F2
-  - SLACK DN
-  - TAB
-  - SLACK UP
-  - DEL
-  - DEL WORD
-  - HOME
-  - UP
-  - END
-  - F6
-  - LGUI
-  - LALT
-  - LCTL
-  - LSHIFT
-  - SEL ALL
-  - NEW TAB
-  - LEFT
-  - DOWN
-  - RIGHT
-  - SWAP
-  - CUT
-  - COPY
-  - PASTE
-  - ENTER
-  - TAB PREV
-  - TAB NEXT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   Number:
   - '|'
   - '9'
@@ -89,6 +58,37 @@ layers:
   - ENTER
   - '*'
   - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  Navigation:
+  - F2
+  - SLACK DN
+  - TAB
+  - SLACK UP
+  - DEL
+  - DEL WORD
+  - HOME
+  - UP
+  - END
+  - F6
+  - LGUI
+  - LALT
+  - LCTL
+  - LSHIFT
+  - SEL ALL
+  - NEW TAB
+  - LEFT
+  - DOWN
+  - RIGHT
+  - SWAP
+  - CUT
+  - COPY
+  - PASTE
+  - ENTER
+  - TAB PREV
+  - TAB NEXT
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
