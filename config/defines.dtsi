@@ -28,9 +28,9 @@
 #define HRM_UNDER	&hm LGUI UNDER
 
 #define CAD			&kp LC(LA(DEL))
-#define CON_ONE		&bt BT_SEL 1 
-#define CON_TWO		&bt BT_SEL 2 
-#define CON_THREE	&bt BT_SEL 3	
+#define CON_ONE		&bt BT_SEL 1
+#define CON_TWO		&bt BT_SEL 2
+#define CON_THREE	&bt BT_SEL 3
 #define DEL_WORD	&kp LC(BSPC)
 #define DESK_L		&kp LC(LG(LEFT))
 #define DESK_R		&kp LC(LG(RIGHT))
@@ -53,8 +53,8 @@
 #define TAB_NEXT	&kp LC(PG_DN)
 #define TASK_MAN	&kp LC(LS(ESC))
 
-#define VOL_DOWN 	&kp C_VOL_DN 
-#define VOL_UP		&kp C_VOL_UP 
+#define VOL_DOWN 	&kp C_VOL_DN
+#define VOL_UP		&kp C_VOL_UP
 #define VOL_MUTE	&kp C_MUTE
 
 #define UK_AT		&kp DQT
@@ -63,11 +63,11 @@
 #define UK_GRAVE	&kp TILDE
 #define UK_HASH		&kp GRAVE
 #define UK_PIPE		&kp PIPE
-#define UK_POUND	&kp HASH
+#define UK_POUND	&ht &kp HASH &kp 2
 #define UK_TILDE	&kp TILDE2
 
 #define A_BULLHORN	&kp F16
 #define A_CALENDAR	&kp F17
-#define A_GLADMIN	&kp F15	
+#define A_GLADMIN	&kp F15
 #define A_INBOX		&kp F13
 #define A_SLACK		&kp F14

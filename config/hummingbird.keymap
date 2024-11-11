@@ -43,7 +43,7 @@
             label = "NUM";
 			bindings = <
 				UK_PIPE		&kp N9		&kp N8		&kp N7		&kp EQUAL			&kp DOLLAR	&kp SEMI	&kp COLON	UK_HASH		&kp PERCENT
-				&kp N3		&kp N2		&kp N1		&kp N0		&kp AMPS			UK_POUND	HRM_COMMA 	HRM_DOT		HRM_MINUS	HRM_UNDER		
+				&kp N3		&kp N2		&kp N1		&kp N0		&kp AMPS			UK_POUND	HRM_COMMA 	HRM_DOT		HRM_MINUS	HRM_UNDER
 							&kp N6		&kp N5		&kp N4										&kp ENTER 	&kp STAR	&kp PLUS
 													__________	__________			___XXXX___	__________
 			>;
@@ -61,11 +61,11 @@
 		};
  
 		Misc_layer {
-            label = "MIS";		
+            label = "MIS";
             bindings = <
 				&bootloader	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp F11				&kp F12		VOL_DOWN	VOL_MUTE	VOL_UP		KILL
 				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					SCREEN_SHOT	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
-							&kp CARET	UK_TILDE	UK_GRAVE									A_CALENDAR	DESK_L		DESK_R                          	
+							&kp CARET	UK_TILDE	UK_GRAVE									A_CALENDAR	DESK_L		DESK_R
 
 													__________	___XXXX___			___XXXX___	__________
 			>;
