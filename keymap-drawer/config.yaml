@@ -1,12 +1,14 @@
 parse_config:
   raw_binding_map:
-    '&lt NAV SPACE':  {t: ␣, h: NAV}
+    '&lt NAV SPACE':  {t: SPACE, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
     '&bootloader':    BOOT
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
     '&mm_new_tab':    NEW TAB
     '&mm_sqt_sqt':    "'"
+    
+    #remove undo / redo
     
     A_BULLHORN:       BH
     A_CALENDAR:       CAL
@@ -47,7 +49,7 @@ parse_config:
   zmk_combos:
     grave3:           {align: bottom}
     nequal:           {align: bottom}
-        
+
   zmk_keycode_map:
     LCTL:             Ctrl
     LALT:             Alt
