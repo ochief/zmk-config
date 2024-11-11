@@ -135,11 +135,13 @@ combos:
   k: '{'
   l: [Default]
 - p: [11, 12]
-  k: CWORD
+  k: Caps Word
   l: [Default]
+  draw_separate: true
 - p: [17, 18]
-  k: CWORD
+  k: Caps Word
   l: [Default]
+  draw_separate: true
 - p: [20, 21]
   k: <
   l: [Default]
@@ -155,9 +157,11 @@ combos:
 - p: [7, 16]
   k: /
   l: [Default]
+  draw_separate: true
 - p: [2, 13]
   k: \
   l: [Default]
+  draw_separate: true
 - p: [24, 25]
   k: '!'
   l: [Default]
@@ -167,18 +171,24 @@ combos:
 - p: [23, 25]
   k: '```'
   l: [Default]
+  a: bottom
 - p: [20, 22]
   k: <  >
   l: [Default]
+  a: bottom
 - p: [12, 22]
   k: Esc
   l: [Default]
+  draw_separate: true
 - p: [17, 23]
   k: ⌫
   l: [Default]
+  draw_separate: true
 - p: [3, 4]
-  k: REDO
+  k: Redo
   l: [Default]
+  draw_separate: true
 - p: [13, 14]
-  k: UNDO
+  k: Undo
   l: [Default]
+  draw_separate: true
