@@ -64,9 +64,9 @@ layers:
   - SLACK →
   - DEL
   - DEL WORD
-  - HOME
+  - HOME ←
   - ↑
-  - END
+  - END →
   - F6
   - Win
   - Alt
@@ -135,10 +135,10 @@ combos:
   k: '{'
   l: [Default]
 - p: [11, 12]
-  k: '&caps_word'
+  k: CWORD
   l: [Default]
-- p: [24, 25]
-  k: '&caps_word'
+- p: [17, 18]
+  k: CWORD
   l: [Default]
 - p: [20, 21]
   k: <
@@ -175,4 +175,10 @@ combos:
   l: [Default]
 - p: [17, 23]
   k: ⌫
+  l: [Default]
+- p: [3, 4]
+  k: REDO
+  l: [Default]
+- p: [13, 14]
+  k: UNDO
   l: [Default]
