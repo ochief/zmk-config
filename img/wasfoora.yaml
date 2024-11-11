@@ -10,23 +10,23 @@ layers:
   - U
   - Y
   - ''''
-  - {t: A, h: LGUI}
-  - {t: R, h: LALT}
-  - {t: S, h: LCTL}
-  - {t: T, h: LSFT}
+  - {t: A, h: WIN}
+  - {t: R, h: ALT}
+  - {t: S, h: CTRL}
+  - {t: T, h: SHIFT}
   - P
   - X
-  - {t: N, h: LSFT}
-  - {t: H, h: LCTL}
-  - {t: I, h: LALT}
-  - {t: O, h: LGUI}
+  - {t: N, h: SHIFT}
+  - {t: H, h: CTRL}
+  - {t: I, h: ALT}
+  - {t: O, h: WIN}
   - V
   - F
   - G
   - M
   - Q
   - Z
-  - {t: SPACE, h: Navigation}
+  - TEST
   - {t: E, h: Number}
   Number:
   - '|'
@@ -45,10 +45,10 @@ layers:
   - '0'
   - '&'
   - £
-  - {t: ',', h: LSFT}
-  - {t: ., h: LCTL}
-  - {t: '-', h: LALT}
-  - {t: _, h: LGUI}
+  - {t: ',', h: SHIFT}
+  - {t: ., h: CTRL}
+  - {t: '-', h: ALT}
+  - {t: _, h: WIN}
   - '6'
   - '5'
   - '4'
@@ -84,7 +84,7 @@ layers:
   - ENTER
   - TAB PREV
   - TAB NEXT
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Misc:
   - BOOT
@@ -113,7 +113,7 @@ layers:
   - CAL
   - DESK L
   - DESK R
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
 combos:
 - p: [3, 13]
@@ -159,10 +159,10 @@ combos:
   k: '?'
   l: [Default]
 - p: [23, 25]
-  k: '&macro_grave3'
+  k: '```'
   l: [Default]
-- p: [20, 21]
-  k: '&macro_nequal'
+- p: [20, 22]
+  k: < >
   l: [Default]
 - p: [1, 2]
   k: ESC
