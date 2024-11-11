@@ -12,12 +12,12 @@ layers:
   - ''''
   - {t: A, h: Win}
   - {t: R, h: Alt}
-  - {t: S, h: LCTL}
+  - {t: S, h: Ctrl}
   - {t: T, h: LSFT}
   - P
   - X
   - {t: N, h: LSFT}
-  - {t: H, h: LCTL}
+  - {t: H, h: Ctrl}
   - {t: I, h: Alt}
   - {t: O, h: Win}
   - V
@@ -26,7 +26,7 @@ layers:
   - M
   - Q
   - Z
-  - {t: SPACE, h: NAV}
+  - {t: ␣, h: NAV}
   - {t: E, h: NUM}
   Number:
   - PIPE
@@ -46,7 +46,7 @@ layers:
   - AMPS
   - £
   - {t: COMMA, h: LSFT}
-  - {t: DOT, h: LCTL}
+  - {t: DOT, h: Ctrl}
   - {t: MINUS, h: Alt}
   - {t: UNDER, h: Win}
   - '6'
@@ -70,7 +70,7 @@ layers:
   - F6
   - Win
   - Alt
-  - LCTL
+  - Ctrl
   - LSHIFT
   - SEL ALL
   - NEW TAB
