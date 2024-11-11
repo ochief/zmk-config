@@ -70,3 +70,6 @@
 #define A_GLADMIN	&kp F15	
 #define A_BULLHORN	&kp F16
 #define A_CALENDAR	&kp F17
+
+#define REDO        &kp LC(Y)
+#define ASDF        &kp LC(Z)

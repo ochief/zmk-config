@@ -27,7 +27,7 @@ combo_##NAME { \
 
 		#ifdef KEYMAP_DRAWER
 			// functions
-			COMBO(redo,		&kp LC(Y),		 3  4, 		DEF, COMBO_TERM_NORMAL)
+			COMBO(redo,		REDO,		 	 3  4, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(undo,		&kp LC(Z),		13 14, 		DEF, COMBO_TERM_NORMAL)
 
 			// single thumbs

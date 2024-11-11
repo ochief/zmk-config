@@ -1,7 +1,8 @@
 parse_config:
   raw_binding_map:
     '&mm_sqt_sqt': "'"
-    'LC(Y)': 'REDO' 
+    'REDO': 'REDO'
+    'ASDF': 'UNDO' 
     'UK_AT': '"'
     'UK_DQT': '@'
     'UK_HASH': '#'
