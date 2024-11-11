@@ -10,66 +10,66 @@ layers:
   - U
   - Y
   - ''''
-  - {t: A, h: WIN}
-  - {t: R, h: ALT}
-  - {t: S, h: CTRL}
-  - {t: T, h: SHIFT}
+  - {t: A, h: Win}
+  - {t: R, h: Alt}
+  - {t: S, h: LCTL}
+  - {t: T, h: LSFT}
   - P
   - X
-  - {t: N, h: SHIFT}
-  - {t: H, h: CTRL}
-  - {t: I, h: ALT}
-  - {t: O, h: WIN}
+  - {t: N, h: LSFT}
+  - {t: H, h: LCTL}
+  - {t: I, h: Alt}
+  - {t: O, h: Win}
   - V
   - F
   - G
   - M
   - Q
   - Z
-  - TEST
-  - {t: E, h: Number}
+  - {t: SPACE, h: NAV}
+  - {t: E, h: NUM}
   Number:
-  - '|'
+  - PIPE
   - '9'
   - '8'
   - '7'
-  - '='
-  - $
-  - ;
-  - ':'
+  - EQUAL
+  - DOLLAR
+  - SEMI
+  - COLON
   - '#'
-  - '%'
+  - PERCENT
   - '3'
   - '2'
   - '1'
   - '0'
-  - '&'
+  - AMPS
   - £
-  - {t: ',', h: SHIFT}
-  - {t: ., h: CTRL}
-  - {t: '-', h: ALT}
-  - {t: _, h: WIN}
+  - {t: COMMA, h: LSFT}
+  - {t: DOT, h: LCTL}
+  - {t: MINUS, h: Alt}
+  - {t: UNDER, h: Win}
   - '6'
   - '5'
   - '4'
   - ENTER
-  - '*'
-  - +
+  - STAR
+  - PLUS
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   Navigation:
   - F2
-  - SLACK DN
+  - SLACK ↓
   - TAB
-  - SLACK UP
+  - SLACK ↑
   - DEL
   - DEL WORD
   - HOME
   - UP
   - END
   - F6
-  - LGUI
-  - LALT
+  - Win
+  - Alt
   - LCTL
   - LSHIFT
   - SEL ALL
@@ -82,8 +82,8 @@ layers:
   - COPY
   - PASTE
   - ENTER
-  - TAB PREV
-  - TAB NEXT
+  - ← TAB
+  - TAB →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Misc:
@@ -107,38 +107,38 @@ layers:
   - SLACK
   - ADMIN
   - BH
-  - ^
-  - '~'
+  - CARET
+  - TILDE2
   - '`'
   - CAL
-  - DESK L
-  - DESK R
+  - ← DESK
+  - DESK →
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [3, 13]
-  k: '}'
+  k: RBRC
   l: [Default]
 - p: [2, 12]
-  k: )
+  k: RPAR
   l: [Default]
 - p: [1, 11]
-  k: ']'
+  k: RBKT
   l: [Default]
 - p: [8, 18]
-  k: '['
+  k: LBKT
   l: [Default]
 - p: [7, 17]
-  k: (
+  k: LPAR
   l: [Default]
 - p: [6, 16]
-  k: '{'
+  k: LBRC
   l: [Default]
 - p: [20, 21]
-  k: <
+  k: LT
   l: [Default]
 - p: [21, 22]
-  k: '>'
+  k: GT
   l: [Default]
 - p: [2, 3]
   k: '"'
@@ -147,26 +147,26 @@ combos:
   k: '@'
   l: [Default]
 - p: [17, 23]
-  k: /
+  k: FSLH
   l: [Default]
 - p: [12, 22]
-  k: \
+  k: BSLH
   l: [Default]
 - p: [24, 25]
-  k: '!'
+  k: EXCL
   l: [Default]
 - p: [23, 24]
-  k: '?'
+  k: QMARK
   l: [Default]
 - p: [23, 25]
   k: '```'
   l: [Default]
 - p: [20, 22]
-  k: < >
+  k: <>
   l: [Default]
 - p: [1, 2]
-  k: ESC
+  k: Esc
   l: [Default]
 - p: [7, 8]
-  k: BSPC
+  k: ⌫
   l: [Default]
