@@ -55,9 +55,9 @@ layers:
   - CUT
   - COPY
   - PASTE
-  - Alt+ ENTER
-  - Ctl+ PG UP
-  - Ctl+ PG DN
+  - NEW LINE
+  - TAB PREV
+  - TAB NEXT
   - {t: ▽, type: trans}
   - {type: held}
   - Ctl+Alt+ TAB
