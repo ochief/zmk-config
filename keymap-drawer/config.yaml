@@ -31,3 +31,6 @@ parse_config:
     'SHO_COPY': 'COPY'
     'SHO_PASTE': 'PASTE'
     'SHO_ALL_SEL': 'SWAPPER'
+    'NEW_LINE': 'NEW LINE'
+    'TAB_PREV': 'TAB PREV'
+    'TAB_NEXT': 'TAB NEXT'
