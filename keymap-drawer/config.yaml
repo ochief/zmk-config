@@ -39,7 +39,7 @@ parse_config:
     'UK_GRAVE':       '`'
     'UK_HASH':        '#'
     'UK_POUND':       '£'
-zmk_keycode_map:
+  zmk_keycode_map:
     'LCTRL':            'Ctrl'
     'RCTRL':            'Ctrl'
     'LALT':             'Alt'
