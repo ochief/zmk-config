@@ -24,8 +24,6 @@ parse_config:
     DEL_WORD:         DEL WORD
     DESK_L:           DESK ←
     DESK_R:           DESK →
-    END:              END →
-    HOME:             HOME ←
     NEW_LINE:         NEW LINE
     SCREEN_SHOT:      SSHOT
     SHO_APP_SEL:      SWAP
@@ -67,6 +65,9 @@ parse_config:
     DOWN:             ↓
     LEFT:             ←
     RIGHT:            →
+
+    END:              END →
+    HOME:             HOME ←
 
     # defaults
     AMPS:             '&'
