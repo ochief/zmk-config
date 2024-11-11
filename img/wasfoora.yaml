@@ -29,32 +29,32 @@ layers:
   - {t: ␣, h: NAV}
   - {t: E, h: NUM}
   Number:
-  - PIPE
+  - '|'
   - '9'
   - '8'
   - '7'
-  - EQUAL
-  - DOLLAR
-  - SEMI
-  - COLON
+  - '='
+  - $
+  - ;
+  - ':'
   - '#'
-  - PERCENT
+  - '%'
   - '3'
   - '2'
   - '1'
   - '0'
-  - AMPS
+  - '&'
   - £
-  - {t: COMMA, h: LSFT}
-  - {t: DOT, h: Ctrl}
-  - {t: MINUS, h: Alt}
-  - {t: UNDER, h: Win}
+  - {t: ',', h: LSFT}
+  - {t: ., h: Ctrl}
+  - {t: '-', h: Alt}
+  - {t: _, h: Win}
   - '6'
   - '5'
   - '4'
   - ENTER
-  - STAR
-  - PLUS
+  - '*'
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Navigation:
@@ -65,7 +65,7 @@ layers:
   - DEL
   - DEL WORD
   - HOME
-  - UP
+  - ↑
   - END
   - F6
   - Win
@@ -74,9 +74,9 @@ layers:
   - LSHIFT
   - SEL ALL
   - NEW TAB
-  - LEFT
-  - DOWN
-  - RIGHT
+  - ←
+  - ↓
+  - →
   - SWAP
   - CUT
   - COPY
@@ -107,8 +107,8 @@ layers:
   - SLACK
   - ADMIN
   - BH
-  - CARET
-  - TILDE2
+  - ^
+  - '~'
   - '`'
   - CAL
   - ← DESK
@@ -117,28 +117,28 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [3, 13]
-  k: RBRC
+  k: '}'
   l: [Default]
 - p: [2, 12]
-  k: RPAR
+  k: )
   l: [Default]
 - p: [1, 11]
-  k: RBKT
+  k: ']'
   l: [Default]
 - p: [8, 18]
-  k: LBKT
+  k: '['
   l: [Default]
 - p: [7, 17]
-  k: LPAR
+  k: (
   l: [Default]
 - p: [6, 16]
-  k: LBRC
+  k: '{'
   l: [Default]
 - p: [20, 21]
-  k: LT
+  k: <
   l: [Default]
 - p: [21, 22]
-  k: GT
+  k: '>'
   l: [Default]
 - p: [2, 3]
   k: '"'
@@ -147,16 +147,16 @@ combos:
   k: '@'
   l: [Default]
 - p: [17, 23]
-  k: FSLH
+  k: /
   l: [Default]
 - p: [12, 22]
-  k: BSLH
+  k: \
   l: [Default]
 - p: [24, 25]
-  k: EXCL
+  k: '!'
   l: [Default]
 - p: [23, 24]
-  k: QMARK
+  k: '?'
   l: [Default]
 - p: [23, 25]
   k: '```'
