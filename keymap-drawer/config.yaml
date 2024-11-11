@@ -14,12 +14,15 @@ parse_config:
     A_INBOX:          INBOX
     A_SLACK:          SLACK
     CAD:              C  A  D
+    CLOSE:            CLOSE
     CON_ONE:          BT  1
     CON_TWO:          BT  2
     CON_THREE:        BT  3
     DEL_WORD:         DEL WORD
     DESK_L:           DESK ←
     DESK_R:           DESK →
+    END:              END →
+    HOME:             HOME ←
     NEW_LINE:         NEW LINE
     SCREEN_SHOT:      SSHOT
     SHO_APP_SEL:      SWAP
@@ -40,89 +43,62 @@ parse_config:
     UK_POUND:         £
     VOL_UP:           VOL →
     VOL_DOWN:         VOL ←
-    
+
+  zmk_combos:
+    grave3:           {align: bottom}
+    nequal:           {align: bottom}
+        
   zmk_keycode_map:
     LCTL:             Ctrl
     LALT:             Alt
     LGUI:             Win
     LSFT:             Shift
     ESC:              Esc
-    
+
     BSPC:             ⌫
     C_PREV:           PREV ←
     C_NEXT:           NEXT →
     BT_CLR:           CLEAR
 
-    UP: ↑
-    DOWN: ↓
-    LEFT: ←
-    RIGHT: →
+    UP:               ↑
+    DOWN:             ↓
+    LEFT:             ←
+    RIGHT:            →
 
     # defaults
-    AMPERSAND: '&'
-    AMPS: '&'
-    APOS: "'"
-    APOSTROPHE: "'"
-    ASTERISK: '*'
-    ASTRK: '*'
-    AT: '@'
-    AT_SIGN: '@'
-    BACKSLASH: \
-    BSLH: \
-    CARET: ^
-    COLON: ':'
-    COMMA: ','
-    DLLR: $
-    DOLLAR: $
-    DOT: .
-    DOUBLE_QUOTES: '"'
-    DQT: '"'
-    EQUAL: '='
-    EXCL: '!'
-    EXCLAMATION: '!'
-    FSLH: /
-    GRAVE: '`'
-    GREATER_THAN: '>'
-    GT: '>'
-    HASH: '#'
-    LBKT: '['
-    LBRC: '{'
-    LEFT_BRACE: '{'
-    LEFT_BRACKET: '['
-    LEFT_PARENTHESIS: (
-    LESS_THAN: <
-    LPAR: (
-    LT: <
-    MINUS: '-'
-    NON_US_BACKSLASH: \
-    NON_US_BSLH: '|'
-    NON_US_HASH: '#'
-    NUHS: '#'
-    PERCENT: '%'
-    PERIOD: .
-    PIPE: '|'
-    PIPE2: '|'
-    PLUS: +
-    POUND: '#'
-    PRCNT: '%'
-    QMARK: '?'
-    QUESTION: '?'
-    RBKT: ']'
-    RBRC: '}'
-    RIGHT_BRACE: '}'
-    RIGHT_BRACKET: ']'
-    RIGHT_PARENTHESIS: )
-    RPAR: )
-    SEMI: ;
-    SEMICOLON: ;
-    SINGLE_QUOTE: ''''
-    SLASH: /
-    SQT: ''''
-    STAR: '*'
-    TILDE: '~'
-    TILDE2: '~'
-    UNDER: _
-    UNDERSCORE: _
+    AMPS:             '&'
+    AT:               '@'
+    BSLH:             \
+    CARET:            ^
+    COLON:            ':'
+    COMMA:            ','
+    DOLLAR:           $
+    DOT:              '.'
+    DQT:              '"'
+    EQUAL:            '='
+    EXCL:             '!'
+    FSLH:             /
+    GRAVE:            '`'
+    GT:               '>'
+    HASH:             '#'
+    LBKT:             '['
+    LBRC:             '{'
+    LPAR:             (
+    LT:               <
+    MINUS:            '-'
+    PERCENT:          '%'
+    PIPE:             '|'
+    PLUS:             +
+    PRCNT:            '%'
+    QMARK:            '?'
+    RBKT:             ']'
+    RBRC:             '}'
+    RPAR:             )
+    SEMI:             ;
+    SQT:              ''''
+    STAR:             '*'
+    TILDE2:           '~'
+    UNDER:            _
 
 draw_config:
   footer_text: 'Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>'
