@@ -94,7 +94,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   Misc:
-  - '&bootloader'
+  - BOOT LOADER
   - PREV
   - PLAY
   - NEXT
@@ -103,23 +103,23 @@ layers:
   - VOL DN
   - MUTE
   - VOL UP
-  - {t: Ctl+ W, h: Alt+ F4}
+  - KILL
   - BT CLR
   - {t: BT, h: '3'}
   - {t: BT, h: '2'}
-  - {t: BT, h: '1'}
-  - Ctl+Alt+ DEL
-  - Gui+Sft+ S
-  - F13
-  - F14
-  - F15
-  - F16
+  - BT3
+  - C+A+D
+  - SCREENSHOT
+  - INBOX
+  - SLACK
+  - GLADMIN
+  - BULLHORN
   - ^
   - '~'
   - '#'
-  - F17
-  - Ctl+Gui+ LEFT
-  - Ctl+Gui+ RIGHT
+  - CALENDAR
+  - DESKTOP L
+  - DESKTOP R
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}

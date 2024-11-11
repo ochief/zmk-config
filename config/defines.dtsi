@@ -72,4 +72,4 @@
 #define A_CALENDAR	&kp F17
 
 #define REDO        &kp LC(Y)
-#define ASDF        &kp LC(Z)
+#define UNDO        &kp LC(Z)
