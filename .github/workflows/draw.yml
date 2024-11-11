@@ -1,8 +1,8 @@
 # Example for using the keymap-drawer ZMK user config workflow
 name: Draw Keymap
 on:
-  workflow_dispatch:  # can be triggered manually
-  push:               # automatically run on changes to following paths
+  workflow_dispatch:                            # can be triggered manually
+  push:                                         # automatically run on changes to following paths
     paths:
       - "config/*.keymap"
       - "config/*.dtsi"
@@ -19,11 +19,12 @@ jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     permissions:
-      contents: write  # allow workflow to commit to the repo
+      contents: write                           # allow workflow to commit to the repo
     with:
       install_branch: "main"
       keymap_patterns: "config/*.keymap"        # path to the keymaps to parse
       config_path: "keymap-drawer/config.yaml"  # config file, ignored if not exists
-      output_folder: "img"            # path to save produced SVG and keymap YAML files
-      amend_commit: true # whether to amend the commit or create a new one
-      fail_on_error: true 
+      output_folder: "img"                      # path to save produced SVG and keymap YAML files
+      amend_commit: true                        # whether to amend the commit or create a new one
+      fail_on_error: true
+      draw_args: "cols_thumbs_notation: '23332+1> 1<+23332'"
