@@ -59,9 +59,9 @@ layers:
   - {t: ▽, type: trans}
   Navigation:
   - F2
-  - SLACK →
-  - TAB
   - SLACK ←
+  - TAB
+  - SLACK →
   - DEL
   - DEL WORD
   - HOME
@@ -88,20 +88,20 @@ layers:
   - {t: ▽, type: trans}
   Misc:
   - BOOT
-  - PREV
+  - PREV ←
   - PLAY
-  - NEXT
+  - NEXT →
   - F11
   - F12
-  - VOL DN
+  - VOL ←
   - MUTE
-  - VOL UP
-  - KILL
-  - BT CLR
-  - BT3
-  - BT2
-  - BT1
-  - C+A+D
+  - VOL →
+  - {t: Ctl+ W, h: Alt+ F4}
+  - CLEAR
+  - BT  3
+  - BT  2
+  - BT  1
+  - C  A  D
   - SSHOT
   - INBOX
   - SLACK
@@ -162,7 +162,7 @@ combos:
   k: '```'
   l: [Default]
 - p: [20, 22]
-  k: <>
+  k: <  >
   l: [Default]
 - p: [1, 2]
   k: Esc
