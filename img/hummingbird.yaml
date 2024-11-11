@@ -129,7 +129,7 @@ combos:
   k: REDO
   l: [Default]
 - p: [13, 14]
-  k: Ctl+ Z
+  k: UNDO
   l: [Default]
 - p: [1, 2]
   k: ESC
