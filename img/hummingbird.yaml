@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [3, 4]
-  k: Ctl+ Y
+  k: REDO
   l: [Default]
 - p: [13, 14]
   k: Ctl+ Z
