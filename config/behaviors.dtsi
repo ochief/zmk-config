@@ -1,5 +1,4 @@
 &caps_word	{ continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>; };
-&sk			{ release-after-ms = <60000>; };
 
 / {
 	hm: homerow_mod {
@@ -12,55 +11,6 @@
 		bindings = <&kp>, <&kp>;
 	};
 
-	swap: swap {
-		compatible = "zmk,behavior-hold-tap";
-		#binding-cells = <2>;
-		tapping-term-ms = <200>;
-		flavor = "tap-preferred";
-		bindings = <&mo>, <SHO_APP_SEL>;
-	};
-
-	// Sticky key on tap, normal key on hold
-	// Useful for modifier-clicking without the modifier remaining active
-	nk: not_so_sticky_key {
-		compatible = "zmk,behavior-hold-tap";
-		#binding-cells = <2>;
-		tapping-term-ms = <250>;
-		flavor = "tap-preferred";
-		bindings = <&kp>, <&sk>;
-	};
-
-    skq: sticky_key_quick_release {
-		compatible = "zmk,behavior-sticky-key";
-		#binding-cells = <1>;
-		bindings = <&kp>;
-		quick-release;
-		release-after-ms = <750>;
-	};
-
-	ht: hold_tap {
-		compatible = "zmk,behavior-hold-tap";
-		#binding-cells = <2>;
-		tapping-term-ms = <200>;
-		flavor = "tap-preferred";
-		bindings = <&kp>, <&kp>;
-	};
-
-	ht_sqt_nav: ht_sqt_nav {
-		compatible = "zmk,behavior-hold-tap";
-		#binding-cells = <2>;
-		tapping-term-ms = <200>;
-		flavor = "tap-preferred";
-		bindings = <&mo>, <&mm_sqt_cancel>;
-	};
-
-	mm_sqt_cancel: mm_sqt_cancel {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&mm_sqt_sqt>, <&kp K_CANCEL>;
-		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT)>;
-	};
-
 	mm_sqt_sqt: mm_sqt_sqt {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
@@ -68,53 +18,10 @@
 		mods = <(MOD_RSFT)>;
 	};
 
-	ht_app_num: ht_app_num {
-		compatible = "zmk,behavior-hold-tap";
-		#binding-cells = <2>;
-		tapping-term-ms = <200>;
-		flavor = "tap-preferred";
-		bindings = <&mo>, <&mm_app_cancel>;
-	};
-
-	mm_app_cancel: mm_app_cancel {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <APP_LAUNCH>, <&kp K_CANCEL>;
-		mods = <(MOD_LGUI|MOD_LALT|MOD_LCTL|MOD_LSFT)>;
-	};	
-
 	mm_new_tab: mm_new_tab_incognito {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <TAB_NEW>, <INCOGNITO>;
-		mods = <(MOD_LSFT|MOD_RSFT)>;
-	};
-
-	mm_com_sco: mm_comma_semi_colon {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp COMMA>, <&kp SEMI>;
-		mods = <(MOD_LSFT|MOD_RSFT)>;
-	};
-
-	mm_dot_col: mm_dot_colon {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp DOT>, <&kp COLON>;
-		mods = <(MOD_LSFT|MOD_RSFT)>;
-	};
-
-	mm_search: mm_search {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&mm_search_shift>, <&kp F6>;
-		mods = <(MOD_LCTL|MOD_RCTL)>;
-	};
-
-	mm_search_shift: mm_search_shift {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp LC(F)>, <&kp LC(K)>;
 		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 

@@ -24,10 +24,9 @@
 
 #define HRM_COMMA	&hm LSFT COMMA
 #define HRM_DOT		&hm LCTL DOT
-#define HRM_STAR	&hm LALT STAR
-#define HRM_ENTER	&hm LGUI ENTER
+#define HRM_STAR	&hm LALT MINUS
+#define HRM_ENTER	&hm LGUI UNDER
 
-#define APP_LAUNCH	&kp LA(SPACE)
 #define CAD			&kp LC(LA(DEL))
 #define CON_ONE		&bt BT_SEL 1 
 #define CON_TWO		&bt BT_SEL 2 
@@ -38,8 +37,6 @@
 #define INCOGNITO	&kp LC(LS(N))
 #define KILL		&ht LA(F4) LC(W)
 #define NAV_SQT		&ht_sqt_nav NAV 0
-#define NEW_LINE	&kp LA(ENTER)
-#define NUM_APP		&ht_app_num NUM 0
 
 #define SCREEN_SHOT &kp LG(LS(S))
 #define SHO_APP_SEL &kp LC(LA(TAB))
@@ -49,7 +46,6 @@
 #define SHO_REDO    &kp LC(Y)
 #define SHO_SEL_ALL &kp LC(A)
 #define SHO_UNDO    &kp LC(Z)
-#define SK(KEY) 	&nk KEY KEY
 #define SLACK_UP	&kp LA(LS(UP))
 #define SLACK_DN	&kp LA(LS(DOWN))
 #define TAB_PREV	&kp LC(PG_UP)
