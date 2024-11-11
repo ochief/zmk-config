@@ -26,7 +26,7 @@ layers:
   - M
   - Q
   - Z
-  - {t: ␣, h: NAV}
+  - {t: SPACE, h: NAV}
   - {t: E, h: NUM}
   Number:
   - '|'
