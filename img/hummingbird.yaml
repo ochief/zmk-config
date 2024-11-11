@@ -161,21 +161,21 @@ combos:
 - p: [23, 24]
   k: '?'
   l: [Default]
-- p: [1, 11]
-  k: '['
-  l: [Default]
-- p: [2, 12]
-  k: (
-  l: [Default]
 - p: [3, 13]
-  k: '{'
-  l: [Default]
-- p: [6, 16]
   k: '}'
   l: [Default]
-- p: [7, 17]
+- p: [2, 12]
   k: )
   l: [Default]
-- p: [8, 18]
+- p: [1, 11]
   k: ']'
+  l: [Default]
+- p: [8, 18]
+  k: '['
+  l: [Default]
+- p: [7, 17]
+  k: (
+  l: [Default]
+- p: [6, 16]
+  k: '{'
   l: [Default]
