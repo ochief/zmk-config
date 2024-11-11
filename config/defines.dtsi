@@ -64,6 +64,7 @@
 #define UK_TILDE	&kp TILDE2
 #define UK_FSLH		&kp FSLH
 #define UK_PIPE		&kp PIPE
+// HOW TO GET GRAVE TO WORK
 
 #define A_INBOX		&kp F13
 #define A_SLACK		&kp F14
