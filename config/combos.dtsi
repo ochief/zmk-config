@@ -48,7 +48,7 @@ combo_##NAME { \
 
 			// macros
 			COMBO(grave3,	&macro_grave3,	23 25, 		DEF, COMBO_TERM_NORMAL)
-			COMBO(nequal, 	&macro_nequal,	20 21, 		DEF, COMBO_TERM_NORMAL)
+			COMBO(nequal, 	&macro_nequal,	20 22, 		DEF, COMBO_TERM_NORMAL)
 
 			// single thumbs
 			COMBO(esc,		&kp ESC,		 1  2, 		DEF, COMBO_TERM_NORMAL)
@@ -78,7 +78,7 @@ combo_##NAME { \
 
 			// macros
 			COMBO(grave3,	&macro_grave3,	23 25, 		DEF NUM, COMBO_TERM_NORMAL)
-			COMBO(nequal,	&macro_nequal,	20 21, 		DEF NUM, COMBO_TERM_NORMAL)
+			COMBO(nequal,	&macro_nequal,	20 22, 		DEF NUM, COMBO_TERM_NORMAL)
 
 			// single thumbs
 			COMBO(esc,		&kp ESC,		 1  2, 		DEF NUM, COMBO_TERM_NORMAL)

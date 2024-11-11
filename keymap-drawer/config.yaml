@@ -1,36 +1,56 @@
 parse_config:
   raw_binding_map:
-    '&bootloader':  'BOOT'
-    '&mm_new_tab':  'NEW TAB'
-    '&mm_sqt_sqt':  "'"
-    'A_BULLHORN':   'BH'
-    'A_CALENDAR':   'CAL'
-    'A_GLADMIN':    'ADMIN'
-    'A_INBOX':      'INBOX'
-    'A_SLACK':      'SLACK'
-    'CAD':          'C+A+D'
-    'CON_ONE':      'BT1'
-    'CON_THREE':    'BT3'
-    'CON_TWO':      'BT2'
-    'DEL_WORD':     'DEL WORD'
-    'DESK_L':       'DESK L'
-    'DESK_R':       'DESK R'
-    'KILL':         'KILL'
-    'NEW_LINE':     'NEW LINE'
-    'SCREEN_SHOT':  'SSHOT'
-    'SHO_APP_SEL':  'SWAP'
-    'SHO_COPY':     'COPY'
-    'SHO_CUT':      'CUT'
-    'SHO_PASTE':    'PASTE'
-    'SHO_REDO':     'REDO'
-    'SHO_SEL_ALL':  'SEL ALL'
-    'SHO_UNDO':     'UNDO' 
-    'SLACK_DN':     'SLACK DN'
-    'SLACK_UP':     'SLACK UP'
-    'TAB_NEXT':     'TAB NEXT'
-    'TAB_PREV':     'TAB PREV'
-    'UK_AT':        '"'
-    'UK_DQT':       '@'
-    'UK_GRAVE':     '`'
-    'UK_HASH':      '#'
-    'UK_POUND':     '£'
+    '&lt NAV SPACE': 'TEST'
+
+    '&bootloader':    'BOOT'
+    '&macro_grave3':  '```'
+    '&macro_nequal':  '< >'
+    '&mm_new_tab':    'NEW TAB'
+    '&mm_sqt_sqt':    "'"
+    'A_BULLHORN':     'BH'
+    'A_CALENDAR':     'CAL'
+    'A_GLADMIN':      'ADMIN'
+    'A_INBOX':        'INBOX'
+    'A_SLACK':        'SLACK'
+    'CAD':            'C+A+D'
+    'CON_ONE':        'BT1'
+    'CON_THREE':      'BT3'
+    'CON_TWO':        'BT2'
+    'DEL_WORD':       'DEL WORD'
+    'DESK_L':         'DESK L'
+    'DESK_R':         'DESK R'
+    'HRM_A':          {t: A, h: WIN}
+    'HRM_R':          {t: R, h: ALT}
+    'HRM_S':          {t: S, h: CTRL}
+    'HRM_T':          {t: T, h: SHIFT}
+    'HRM_N':          {t: N, h: SHIFT}
+    'HRM_H':          {t: H, h: CTRL}
+    'HRM_I':          {t: I, h: ALT}
+    'HRM_O':          {t: O, h: WIN}
+    'HRM_COMMA':      {t: ',', h: SHIFT}
+    'HRM_DOT':        {t: '.', h: CTRL}
+    'HRM_MINUS':      {t: '-', h: ALT}
+    'HRM_UNDER':      {t: '_', h: WIN}
+    'KILL':           'KILL'
+    'NEW_LINE':       'NEW LINE'
+    'SCREEN_SHOT':    'SSHOT'
+    'SHO_APP_SEL':    'SWAP'
+    'SHO_COPY':       'COPY'
+    'SHO_CUT':        'CUT'
+    'SHO_PASTE':      'PASTE'
+    'SHO_REDO':       'REDO'
+    'SHO_SEL_ALL':    'SEL ALL'
+    'SHO_UNDO':       'UNDO' 
+    'SLACK_DN':       'SLACK DN'
+    'SLACK_UP':       'SLACK UP'
+    'TAB_NEXT':       'TAB NEXT'
+    'TAB_PREV':       'TAB PREV'
+    'UK_AT':          '"'
+    'UK_DQT':         '@'
+    'UK_GRAVE':       '`'
+    'UK_HASH':        '#'
+    'UK_POUND':       '£'
+
+draw_config:
+  footer_text: 'Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>'
+  dark_mode: auto

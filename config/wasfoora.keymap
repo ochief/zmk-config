@@ -20,7 +20,8 @@
 #include "combos.dtsi"
 #include "macros.dtsi"
 
-// capsword
+// capsword / capslock
+// maybe tidy up shape again
 // advanced https://github.com/caksoylar/zmk-config/blob/main/keymap-drawer/config.yaml
 
 / {
@@ -34,7 +35,9 @@
 				HRM_A		HRM_R		HRM_S		HRM_T		&kp P				&kp X		HRM_N		HRM_H		HRM_I		HRM_O
 							&kp V		&kp F		&kp G                                       &kp M		&kp Q		&kp Z
 
-																&lt NAV SPACE		&lt NUM E
+				#ifndef KEYMAP_DRAWER				&kp ESC		&lt NAV SPACE		&lt NUM E	&kp BSPC
+				#else											&lt NAV SPACE		&lt NUM E
+				#endif
 			>;
 		};
 
@@ -45,7 +48,9 @@
 				&kp N3		&kp N2		&kp N1		&kp N0		&kp AMPS			UK_POUND	HRM_COMMA 	HRM_DOT		HRM_MINUS	HRM_UNDER
 							&kp N6		&kp N5		&kp N4										&kp ENTER 	&kp STAR	&kp PLUS
 
-																__________			___XXXX___
+				#ifndef KEYMAP_DRAWER				__________	__________			___XXXX___	__________
+				#else											__________			___XXXX___
+				#endif
 			>;
 		};
 
@@ -56,7 +61,9 @@
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp ENTER	TAB_PREV	TAB_NEXT
 
-																___XXXX___			__________
+				#ifndef KEYMAP_DRAWER				__________	___XXXX___			__________	__________
+				#else											___XXXX___			__________
+				#endif
 			>;
 		};
  
@@ -67,7 +74,9 @@
 				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					SCREEN_SHOT	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
 							&kp CARET	UK_TILDE	UK_GRAVE									A_CALENDAR	DESK_L		DESK_R
 				
-																___XXXX___			___XXXX___
+				#ifndef KEYMAP_DRAWER				__________	___XXXX___			___XXXX___	__________
+				#else											___XXXX___			___XXXX___
+				#endif
 			>;
 		};
 	};
