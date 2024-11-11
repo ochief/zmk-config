@@ -33,11 +33,11 @@ layers:
   - BSPC
   Navigation:
   - F2
-  - Alt+Sft+ DOWN
+  - SLACK DN
   - TAB
-  - Alt+Sft+ UP
+  - SLACK UP
   - DEL
-  - Ctl+ BSPC
+  - DEL WORD
   - HOME
   - UP
   - END
@@ -47,14 +47,14 @@ layers:
   - LCTL
   - LSHIFT
   - Ctl+ A
-  - {t: Ctl+ T, s: Ctl+Sft+ N}
+  - NEW TAB
   - LEFT
   - DOWN
   - RIGHT
   - ENTER
-  - Ctl+ X
-  - Ctl+ C
-  - {t: Ctl+Sft+ V, h: Ctl+ V}
+  - CUT
+  - COPY
+  - PASTE
   - Alt+ ENTER
   - Ctl+ PG UP
   - Ctl+ PG DN
