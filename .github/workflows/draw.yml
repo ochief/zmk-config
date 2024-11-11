@@ -27,4 +27,4 @@ jobs:
       output_folder: "img"                      # path to save produced SVG and keymap YAML files
       amend_commit: true                        # whether to amend the commit or create a new one
       fail_on_error: true
-      draw_args: "ortho_layout: '--cols-thumbs-notation 23332+1> 1<+23332'"
+      draw_args: "wasfoora: '-n 23332+1r_1l+23332'"
