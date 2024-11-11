@@ -13,6 +13,6 @@
 / {
 	macros {
 		MACRO(grave3,	&macro_tap &kp GRAVE &macro_tap &kp GRAVE &macro_tap &kp GRAVE, 0, 0)
-		MACRO(notequal,	&macro_tap &kp LT &macro_tap &kp GT, 0, 0)
+		MACRO(nequal,	&macro_tap &kp LT &macro_tap &kp GT, 0, 0)
 	};
 };
