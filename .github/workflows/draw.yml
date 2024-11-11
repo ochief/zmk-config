@@ -27,4 +27,4 @@ jobs:
       output_folder: "img"                      # path to save produced SVG and keymap YAML files
       amend_commit: true                        # whether to amend the commit or create a new one
       fail_on_error: true
-      draw_args: "ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}"
+      draw_args: "ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 1, drop_pinky: true, drop_inner: true}"
