@@ -33,11 +33,11 @@ layers:
   - BSPC
   Navigation:
   - F2
-  - Alt+Sft+ DOWN
+  - SLACK DN
   - TAB
-  - Alt+Sft+ UP
+  - SLACK UP
   - DEL
-  - Ctl+ BSPC
+  - DEL WORD
   - HOME
   - UP
   - END
@@ -47,14 +47,14 @@ layers:
   - LCTL
   - LSHIFT
   - Ctl+ A
-  - {t: Ctl+ T, s: Ctl+Sft+ N}
+  - NEW TAB
   - LEFT
   - DOWN
   - RIGHT
   - ENTER
-  - Ctl+ X
-  - Ctl+ C
-  - {t: Ctl+Sft+ V, h: Ctl+ V}
+  - CUT
+  - COPY
+  - PASTE
   - Alt+ ENTER
   - Ctl+ PG UP
   - Ctl+ PG DN
@@ -94,7 +94,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   Misc:
-  - BOOT LOADER
+  - BOOT
   - PREV
   - PLAY
   - NEXT
@@ -105,21 +105,21 @@ layers:
   - VOL UP
   - KILL
   - BT CLR
-  - {t: BT, h: '3'}
-  - {t: BT, h: '2'}
   - BT3
+  - BT2
+  - BT1
   - C+A+D
-  - SCREENSHOT
+  - S SHOT
   - INBOX
   - SLACK
-  - GLADMIN
-  - BULLHORN
+  - ADMIN
+  - BH
   - ^
   - '~'
   - '#'
-  - CALENDAR
-  - DESKTOP L
-  - DESKTOP R
+  - CAL
+  - DESK  L
+  - DESK R
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
