@@ -30,6 +30,7 @@ parse_config:
     'TAB_PREV':     'TAB PREV'
     'UK_AT':        '"'
     'UK_DQT':       '@'
+    'UK_GRAVE':     '`'
     'UK_HASH':      '#'
     'UK_POUND':     '£'
     'UNDO':         'UNDO' 

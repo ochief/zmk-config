@@ -63,7 +63,7 @@
             bindings = <
 				&bootloader	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp F11				&kp F12		VOL_DOWN	VOL_MUTE	VOL_UP		KILL
 				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					SCREEN_SHOT	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
-							&kp CARET	UK_TILDE	&kp GRAVE									A_CALENDAR	DESK_L		DESK_R                          	
+							&kp CARET	UK_TILDE	UK_GRAVE									A_CALENDAR	DESK_L		DESK_R                          	
 
 													__________	___XXXX___			___XXXX___	__________
 			>;
