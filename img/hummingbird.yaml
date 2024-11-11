@@ -60,7 +60,7 @@ layers:
   - TAB NEXT
   - {t: ▽, type: trans}
   - {type: held}
-  - SWAP
+  - {t: LC(LA(TAB)) 0, h: Number}
   - {t: ▽, type: trans}
   Number:
   - '|'
