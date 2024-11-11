@@ -40,13 +40,15 @@
 #define NAV_SQT		&ht_sqt_nav NAV 0
 #define NEW_LINE	&kp LA(ENTER)
 #define NUM_APP		&ht_app_num NUM 0
-#define REDO        &kp LC(Y)
+
 #define SCREEN_SHOT &kp LG(LS(S))
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
 #define SHO_CUT		&kp LC(X)
 #define SHO_PASTE	&ht LC(V) LC(LS(V))
+#define SHO_REDO    &kp LC(Y)
 #define SHO_SEL_ALL &kp LC(A)
+#define SHO_UNDO    &kp LC(Z)
 #define SK(KEY) 	&nk KEY KEY
 #define SLACK_UP	&kp LA(LS(UP))
 #define SLACK_DN	&kp LA(LS(DOWN))
@@ -54,7 +56,7 @@
 #define TAB_NEW		&kp LC(T)
 #define TAB_NEXT	&kp LC(PG_DN)
 #define TASK_MAN	&kp LC(LS(ESC))
-#define UNDO        &kp LC(Z)
+
 #define VOL_DOWN 	&kp C_VOL_DN 
 #define VOL_UP		&kp C_VOL_UP 
 #define VOL_MUTE	&kp C_MUTE
