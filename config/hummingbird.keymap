@@ -23,7 +23,6 @@
 #include "macros.dtsi"
 
 // capsword
-
 / {
 	keymap {
 		compatible = "zmk,keymap";

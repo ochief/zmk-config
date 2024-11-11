@@ -1,3 +1,7 @@
+layout:
+  cols_thumbs_notation:
+    '23332+1> 1<+23332'
+
 parse_config:
   raw_binding_map:
     '&bootloader':  'BOOT'
