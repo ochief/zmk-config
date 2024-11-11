@@ -50,12 +50,13 @@ parse_config:
     combo_nequal:     {align: bottom}
     combo_cword_l:    {draw_separate: true}
     combo_cword_r:    {draw_separate: true}
+    combo_bslh:       {draw_separate: true}
+    combo_fslh:       {draw_separate: true}
     combo_esc:        {draw_separate: true}
     combo_bspc:       {draw_separate: true}
     combo_sundo:      {draw_separate: true}
     combo_sredo:      {draw_separate: true}
-    combo_bslh:       {draw_separate: true}
-    combo_fslh:       {draw_separate: true}
+
     
 
   zmk_keycode_map:

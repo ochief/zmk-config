@@ -135,11 +135,11 @@ combos:
   k: '{'
   l: [Default]
 - p: [11, 12]
-  k: CWORD
+  k: Caps Word
   l: [Default]
   draw_separate: true
 - p: [17, 18]
-  k: CWORD
+  k: Caps Word
   l: [Default]
   draw_separate: true
 - p: [20, 21]
@@ -185,10 +185,10 @@ combos:
   l: [Default]
   draw_separate: true
 - p: [3, 4]
-  k: REDO
+  k: Redo
   l: [Default]
   draw_separate: true
 - p: [13, 14]
-  k: UNDO
+  k: Undo
   l: [Default]
   draw_separate: true
