@@ -3,7 +3,7 @@ parse_config:
     '&lt NAV SPACE':  {t: SPACE, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
     '&bootloader':    BOOT
-    '&caps_word':     CWORD
+    '&caps_word':     Caps Word
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
     '&mm_new_tab':    NEW TAB
@@ -30,9 +30,9 @@ parse_config:
     SHO_COPY:         COPY
     SHO_CUT:          CUT
     SHO_PASTE:        PASTE
-    SHO_REDO:         REDO
+    SHO_REDO:         Redo
     SHO_SEL_ALL:      SEL ALL
-    SHO_UNDO:         UNDO
+    SHO_UNDO:         Undo
     SLACK_DN:         SLACK →
     SLACK_UP:         SLACK ←
     TAB_NEXT:         TAB →
@@ -46,16 +46,16 @@ parse_config:
     VOL_DOWN:         VOL ←
 
   zmk_combos:
-    combo_grave3:           {align: bottom}
-    combo_nequal:           {align: bottom}
-    combo_esc:              {draw_separate: true}
-    combo_bspc:             {draw_separate: true}
-    combo_sredo:            {draw_separate: true}
-    combo_sundo:            {draw_separate: true}
-    combo_cword_l:          {draw_separate: true}
-    combo_cword_r:          {draw_separate: true}
-    combo_fslh:             {draw_separate: true}
-    combo_bslh:             {draw_separate: true}
+    combo_grave3:     {align: bottom}
+    combo_nequal:     {align: bottom}
+    combo_esc:        {draw_separate: true}
+    combo_bspc:       {draw_separate: true}
+    combo_sredo:      {draw_separate: true}
+    combo_sundo:      {draw_separate: true}
+    combo_cword_l:    {draw_separate: true}
+    combo_cword_r:    {draw_separate: true}
+    combo_fslh:       {draw_separate: true}
+    combo_bslh:       {draw_separate: true}
 
   zmk_keycode_map:
     LCTL:             Ctrl
@@ -114,4 +114,4 @@ parse_config:
 
 draw_config:
   footer_text: 'Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>'
-  dark_mode: auto
+  dark_mode: false
