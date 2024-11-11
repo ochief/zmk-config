@@ -44,7 +44,7 @@
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	&kp ENTER
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   NEW_LINE	TAB_PREV	TAB_NEXT
 
-													__________	___XXXX___			&lr NUM 0 	__________
+													__________	___XXXX___			&swap NUM 0 	__________
 			>;
 		};
  
