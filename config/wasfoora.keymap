@@ -34,7 +34,7 @@
 				HRM_A		HRM_R		HRM_S		HRM_T		&kp P				&kp X		HRM_N		HRM_H		HRM_I		HRM_O
 							&kp V		&kp F		&kp G                                       &kp M		&kp Q		&kp Z
 
-																&lt NAV SPACE		&lt NUM E
+													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E	XXXXXXXXXX
 			>;
 		};
 
@@ -45,7 +45,7 @@
 				&kp N3		&kp N2		&kp N1		&kp N0		&kp AMPS			UK_POUND	HRM_COMMA 	HRM_DOT		HRM_MINUS	HRM_UNDER
 							&kp N6		&kp N5		&kp N4										&kp ENTER 	&kp STAR	&kp PLUS
 
-																___XXXX___			___XXXX___
+													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
 			>;
 		};
 
@@ -56,7 +56,7 @@
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSHIFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp ENTER	TAB_PREV	TAB_NEXT
 
-																___XXXX___			___XXXX___
+													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
 			>;
 		};
  
@@ -67,7 +67,7 @@
 				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					SCREEN_SHOT	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
 							&kp CARET	UK_TILDE	UK_GRAVE									A_CALENDAR	DESK_L		DESK_R
 				
-																___XXXX___			___XXXX___
+													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
 			>;
 		};
 	};
