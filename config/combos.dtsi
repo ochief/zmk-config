@@ -75,8 +75,8 @@ combo_##NAME { \
 			COMBO(undo,		SHO_UNDO,		13 14, 		DEF NUM, COMBO_TERM_NORMAL)
 
 			// macros
-			COMBO(grave3,	&macro_grave3	23 25, 		DEF NUM, COMBO_TERM_NORMAL)
-			COMBO(nequal,	&macro_nequal	20 21, 		DEF NUM, COMBO_TERM_NORMAL)
+			COMBO(grave3,	&macro_grave3,	23 25, 		DEF NUM, COMBO_TERM_NORMAL)
+			COMBO(nequal,	&macro_nequal,	20 21, 		DEF NUM, COMBO_TERM_NORMAL)
 
 			// single thumbs
 			COMBO(esc,		&kp ESC,		 1  2, 		DEF NUM, COMBO_TERM_NORMAL)
