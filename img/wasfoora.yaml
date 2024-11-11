@@ -26,7 +26,7 @@ layers:
   - M
   - Q
   - Z
-  - {t: ␣, h: NAV}
+  - {t: SPACE, h: NAV}
   - {t: E, h: NUM}
   Number:
   - '|'
@@ -71,7 +71,7 @@ layers:
   - Win
   - Alt
   - Ctrl
-  - LSHIFT
+  - Shift
   - SEL ALL
   - NEW TAB
   - ←
@@ -96,7 +96,7 @@ layers:
   - VOL ←
   - MUTE
   - VOL →
-  - {t: Ctl+ W, h: Alt+ F4}
+  - CLOSE
   - CLEAR
   - BT  3
   - BT  2
