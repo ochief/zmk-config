@@ -60,7 +60,7 @@ layers:
   - TAB NEXT
   - {t: ▽, type: trans}
   - {type: held}
-  - SWAP
+  - {t: LC(LA(TAB)) 0, h: Number}
   - {t: ▽, type: trans}
   Number:
   - '|'
@@ -126,10 +126,10 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [3, 4]
-  k: REDO
+  k: '&REDO'
   l: [Default]
 - p: [13, 14]
-  k: UNDO
+  k: '&UNDO'
   l: [Default]
 - p: [1, 2]
   k: ESC
