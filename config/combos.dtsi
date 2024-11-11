@@ -38,7 +38,7 @@ combo_##NAME { \
 
 			// caps word
 			COMBO(capsword,	&caps_word,		11 12,		DEF, COMBO_TERM_SLOW)
-			COMBO(capsword,	&caps_word,		24 25,		DEF, COMBO_TERM_SLOW)
+			COMBO(capsword,	&caps_word,		17 18,		DEF, COMBO_TERM_SLOW)
 
 			// common symbols
 			COMBO(lt,       &kp LT,       	20 21,  	DEF, COMBO_TERM_NORMAL)
@@ -56,7 +56,9 @@ combo_##NAME { \
 
 			// functions
 			COMBO(esc,		&kp ESC,		12 22, 		DEF, COMBO_TERM_NORMAL)
-			COMBO(bspc,		&kp BSPC,		17 23, 		DEF, COMBO_TERM_NORMAL)	
+			COMBO(bspc,		&kp BSPC,		17 23, 		DEF, COMBO_TERM_NORMAL)
+			COMBO(sredo,	SHO_REDO,		 3  4,		DEF, COMBO_TERM_NORMAL)
+			COMBO(sundo,	SHO_UNDO,		13 14,		DEF, COMBO_TERM_NORMAL)
 		#endif
 	};
 };

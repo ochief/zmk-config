@@ -3,6 +3,7 @@ parse_config:
     '&lt NAV SPACE':  {t: SPACE, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
     '&bootloader':    BOOT
+    '&caps_word':     CWORD
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
     '&mm_new_tab':    NEW TAB
