@@ -55,67 +55,39 @@ layers:
   - ENTER
   - '*'
   - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Navigation:
-  - F2
-  - SLACK ←
-  - TAB
-  - SLACK →
-  - DEL
-  - DEL WORD
-  - HOME ←
-  - ↑
-  - END →
-  - F6
-  - Win
-  - Alt
-  - Ctrl
-  - Shift
-  - SEL ALL
-  - NEW TAB
-  - ←
-  - ↓
-  - →
-  - SWAP
-  - CUT
-  - COPY
-  - PASTE
-  - ENTER
-  - TAB ←
-  - TAB →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Miscellaneous:
-  - BOOT
-  - PREV ←
-  - PLAY
-  - NEXT →
-  - F11
-  - F12
-  - VOL ←
-  - MUTE
-  - VOL →
-  - CLOSE
-  - CLEAR
-  - BT  3
-  - BT  2
-  - BT  1
-  - C  A  D
-  - SSHOT
-  - INBOX
-  - SLACK
-  - ADMIN
-  - BH
-  - ^
-  - '~'
-  - '`'
-  - CAL
-  - DESK ←
-  - DESK →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  Navigation: [F2, SLACK ←, TAB, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F6, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE, ENTER, TAB
+      ←, TAB →, '', '']
+  Miscellaneous: [BOOT, PREV ←, PLAY, NEXT →, F11, F12, VOL ←, MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, C  A  D, SSHOT, INBOX, SLACK, ADMIN, BH, ^, '~', '`',
+    CAL, DESK ←, DESK →, '', '']
 combos:
+- p: [20, 21]
+  k: <
+  l: [Default]
+- p: [21, 22]
+  k: '>'
+  l: [Default]
+- p: [2, 3]
+  k: '"'
+  l: [Default]
+- p: [6, 7]
+  k: '@'
+  l: [Default]
+- p: [24, 25]
+  k: '!'
+  l: [Default]
+- p: [23, 24]
+  k: '?'
+  l: [Default]
+- p: [23, 25]
+  k: '```'
+  l: [Default]
+  a: bottom
+- p: [20, 22]
+  k: <  >
+  l: [Default]
+  a: bottom
 - p: [3, 13]
   k: '}'
   l: [Default]
@@ -142,40 +114,14 @@ combos:
   k: Caps Word
   l: [Default]
   draw_separate: true
-- p: [20, 21]
-  k: <
-  l: [Default]
-- p: [21, 22]
-  k: '>'
-  l: [Default]
-- p: [2, 3]
-  k: '"'
-  l: [Default]
-- p: [6, 7]
-  k: '@'
-  l: [Default]
-- p: [7, 16]
-  k: /
-  l: [Default]
-  draw_separate: true
 - p: [2, 13]
   k: \
   l: [Default]
   draw_separate: true
-- p: [24, 25]
-  k: '!'
+- p: [7, 16]
+  k: /
   l: [Default]
-- p: [23, 24]
-  k: '?'
-  l: [Default]
-- p: [23, 25]
-  k: '```'
-  l: [Default]
-  a: bottom
-- p: [20, 22]
-  k: <  >
-  l: [Default]
-  a: bottom
+  draw_separate: true
 - p: [12, 22]
   k: Esc
   l: [Default]
@@ -184,11 +130,11 @@ combos:
   k: ⌫
   l: [Default]
   draw_separate: true
-- p: [3, 4]
-  k: Redo
-  l: [Default]
-  draw_separate: true
 - p: [13, 14]
   k: Undo
+  l: [Default]
+  draw_separate: true
+- p: [3, 4]
+  k: Redo
   l: [Default]
   draw_separate: true
