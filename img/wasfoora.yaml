@@ -6,12 +6,12 @@ layers:
   - D
   - B
   - J
-  - L
+  - {type: held}
   - U
   - Y
   - ''''
   - {t: A, h: Win}
-  - {t: R, h: Alt}
+  - {h: Alt}
   - {t: S, h: Ctrl}
   - {t: T, h: Shift}
   - P
@@ -28,11 +28,93 @@ layers:
   - Z
   - {t: SPACE, h: NAV}
   - {t: E, h: NUM}
-  Number: [TAB, '9', '8', '7', '|', £, ;, ':', '*', '%', '3', '2', '1', '0', '&', $, ',', ., '"', '-', '6', '5', '4', BSPC, '=', _, '2', '2']
-  Navigation: [TAB, SLACK ←, SLACK THREAD, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, Alt+Sft+ I, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY,
-    PASTE, BSPC, TAB ←, TAB →, '2', '2']
-  Miscellaneous: [BOOT, PREV ←, PLAY/ PAUSE, NEXT →, F11, F12, VOL ←, VOL MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, F2, MIC MUTE, INBOX, SLACK, ADMIN, BH, ^,
-    '~', '`', CAL, DESK ←, DESK →, '2', '2']
+  Number:
+  - TAB
+  - '9'
+  - '8'
+  - '7'
+  - '|'
+  - £
+  - ;
+  - ':'
+  - '*'
+  - '%'
+  - '3'
+  - '2'
+  - '1'
+  - '0'
+  - '&'
+  - $
+  - ','
+  - .
+  - '"'
+  - '-'
+  - '6'
+  - '5'
+  - '4'
+  - BSPC
+  - '='
+  - _
+  - {t: ▽, type: trans}
+  - {type: held}
+  Navigation:
+  - TAB
+  - SLACK ←
+  - SLACK THREAD
+  - SLACK →
+  - DEL
+  - DEL WORD
+  - HOME ←
+  - ↑
+  - END →
+  - Alt+Sft+ I
+  - Win
+  - Alt
+  - Ctrl
+  - Shift
+  - SEL ALL
+  - NEW TAB
+  - ←
+  - ↓
+  - →
+  - SWAP
+  - CUT
+  - COPY
+  - PASTE
+  - BSPC
+  - TAB ←
+  - TAB →
+  - {type: held}
+  - {t: ▽, type: trans}
+  Miscellaneous:
+  - BOOT
+  - PREV ←
+  - PLAY/ PAUSE
+  - NEXT →
+  - F11
+  - F12
+  - VOL ←
+  - VOL MUTE
+  - VOL →
+  - CLOSE
+  - CLEAR
+  - BT  3
+  - BT  2
+  - BT  1
+  - F2
+  - MIC MUTE
+  - INBOX
+  - SLACK
+  - ADMIN
+  - BH
+  - ^
+  - '~'
+  - '`'
+  - CAL
+  - DESK ←
+  - DESK →
+  - {type: held}
+  - {type: held}
 combos:
 - p: [20, 21]
   k: <
