@@ -70,9 +70,8 @@ parse_config:
     LSFT:             Shift
     ESC:              Esc
 
-    BSPC:             ⌫
-    ENTER:            ⏎
-    C_PLAY:           PLAY PAUSE
+    ENTER:            Ent
+    C_PLAY:           PLAY/ PAUSE
     C_PREV:           PREV ←
     C_NEXT:           NEXT →
     BT_CLR:           CLEAR

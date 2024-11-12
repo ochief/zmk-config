@@ -31,10 +31,10 @@ combo_##NAME { \
 
 			COMBO(lt,       &kp LT,       	20 21,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(gt,      	&kp GT,      	21 22,		DEF, COMBO_TERM_NORMAL)
-			COMBO(at,       &kp PLUS,   	 6  7,  	DEF, COMBO_TERM_NORMAL)
+			COMBO(plus,     &kp PLUS,   	 6  7,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(at,       UK_AT,       	 7  8,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(f6,		&kp F6,			 1  2,  	DEF, COMBO_TERM_NORMAL)
-			COMBO(star,     &kp STAR,      	 2  3,		DEF, COMBO_TERM_NORMAL)
+			COMBO(star,     UK_HASH,      	 2  3,		DEF, COMBO_TERM_NORMAL)
 			COMBO(excl,     &kp EXCL,    	24 25, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(qmark,    &kp QMARK,    	23 24, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(grave3,	&macro_grave3,	23 25, 		DEF, COMBO_TERM_NORMAL)
