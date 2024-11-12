@@ -50,10 +50,10 @@ parse_config:
     VOL_MUTE:         VOL MUTE
 
   zmk_combos:
-    combo_nequal:     {a: bottom, o: 0.2}
-    combo_caps:       {a: bottom, o: 0.2}
-    combo_sshot:      {a: top, o: 0.2}
-    combo_grave3:     {a: top, o: 0.2}
+    combo_nequal:     {a: bottom, o: 0.3}
+    combo_caps:       {a: bottom, o: 0.3}
+    combo_sshot:      {a: top, o: 0.3}
+    combo_grave3:     {a: top, o: 0.3}
 
     combo_bslh:       {draw_separate: true}
     combo_fslh:       {draw_separate: true}
