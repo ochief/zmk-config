@@ -37,7 +37,7 @@ parse_config:
     SEL_LINES:        SEL LINES
     SHO_APP_SEL:      $$phosphor:bold/swap$$
     SHO_COPY:         COPY
-    SHO_CUT:          $$phosphor:bold/scissors $$
+    SHO_CUT:          $$phosphor:bold/scissors$$
     SHO_PASTE:        PASTE
     SHO_REDO:         $$phosphor:bold/arrow-clockwise$$
     SHO_SEL_ALL:      $$phosphor:bold/selection-all$$
