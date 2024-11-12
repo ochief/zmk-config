@@ -36,8 +36,8 @@
 #define DESK_L		&kp LC(LG(LEFT))
 #define DESK_R		&kp LC(LG(RIGHT))
 #define INCOGNITO	&kp LC(LS(N))
+#define MUTE_MIC    &kp F9
 #define NAV_SQT		&ht_sqt_nav NAV 0
-
 #define SCREEN_SHOT &kp LG(LS(S))
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
