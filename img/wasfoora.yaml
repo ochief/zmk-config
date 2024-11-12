@@ -42,7 +42,7 @@ layers:
   - '3'
   - '2'
   - '1'
-  - KP 0
+  - '0'
   - '&'
   - $
   - ','
@@ -136,7 +136,7 @@ combos:
   k: '@'
   l: [Default]
 - p: [1, 2]
-  k: C  A  D
+  k: SMILEY
   l: [Default]
 - p: [2, 3]
   k: '#'
