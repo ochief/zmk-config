@@ -34,6 +34,7 @@
 #define MUTE_MIC    &kp F9
 #define NAV_SQT		&ht_sqt_nav NAV 0
 #define SCREEN_SHOT &kp LG(LS(S))
+#define SEL_LINES   &kp LA(LS(I))
 #define SHO_APP_SEL &kp LC(LA(TAB))
 #define SHO_COPY	&kp LC(C)
 #define SHO_CUT		&kp LC(X)

@@ -15,6 +15,9 @@
  *					   SPACE	 E
  */
 
+#define THUMB_LEFT		&trans
+#define THUMB_RIGHT		&trans
+
 #include "defines.dtsi"
 #include "behaviors.dtsi"
 #include "combos.dtsi"
@@ -27,9 +30,14 @@
 // move img files OR rename and have all in keymap-drawer!!!
 // hold numbers for ctrl+shift+number	
 // maybe the app shortcuts are really wave box etc. shortcuts s
+// how about a big list of values
+// get ` in a better place
 / {
 	keymap {
 		compatible = "zmk,keymap";
+
+		// missing keys
+		// &kp F6
 
 		Default_layer {
             label = "DEF";
@@ -64,7 +72,7 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				&kp TAB		SLACK_UP	THREAD		SLACK_DN	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		&kp F6
+				&kp TAB		SLACK_UP	THREAD		SLACK_DN	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		SEL_LINES
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	TAB_PREV	TAB_NEXT
 
