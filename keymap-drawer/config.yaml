@@ -49,7 +49,7 @@ parse_config:
     TAB_PREV:         TAB ←
     TASK_MAN:         TASK MAN
     THREAD:           SLACK THREAD
-    UK_AT:            '@' 
+    UK_AT:            '@'   
     UK_GRAVE:         '`'
     UK_HASH:          '#'
     UK_POUND:         £
