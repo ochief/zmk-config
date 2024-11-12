@@ -5,7 +5,7 @@ parse_config:
     '&bootloader':    BOOT
     '&caps_word':     Caps Word
     '&macro_com_l':   '//'
-    '&macro_com_l':   '/*  */'  
+    '&macro_com_l':   '/*  */'
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
     '&mm_sqt_sqt':    "'"
@@ -21,10 +21,10 @@ parse_config:
     DEL_WORD:         DEL WORD
     DESK_L:           DESK ←
     DESK_R:           DESK →
-    MUTE_MIC:         $$phosphor:bold/microphone-slash$$
+    MUTE_MIC:         MIC MUTE
     NEW_LINE:         NEW LINE
     NUM_0:            '0'
-    NUM_1:            $$phosphor:bold/number-one$$
+    NUM_1:            '1'
     NUM_2:            '2'
     NUM_3:            '3'
     NUM_4:            '4'
@@ -33,29 +33,29 @@ parse_config:
     NUM_7:            '7'
     NUM_8:            '8'
     NUM_9:            '9'
-    SCREEN_SHOT:      $$phosphor:bold/camera$$
+    SCREEN_SHOT:      SCREEN SHOT
     SEL_LINES:        SEL LINES
-    SHO_APP_SEL:      SWAPPER
+    SHO_APP_SEL:      SWAP
     SHO_COPY:         COPY
     SHO_CUT:          CUT
     SHO_PASTE:        PASTE
-    SHO_REDO:         $$phosphor:bold/arrow-clockwise$$
+    SHO_REDO:         Redo
     SHO_SEL_ALL:      SEL ALL
-    SHO_UNDO:         $$phosphor:bold/arrow-counter-clockwise$$
+    SHO_UNDO:         Undo
     SLACK_DN:         SLACK →
     SLACK_UP:         SLACK ←
-    SMILEY:           $$phosphor:bold/smiley$$
+    SMILEY:           SMILEY
     TAB_NEXT:         TAB →
     TAB_PREV:         TAB ←
     TASK_MAN:         TASK MAN
     THREAD:           SLACK THREAD
-    UK_AT:            '@'   
+    UK_AT:            '@'
     UK_GRAVE:         '`'
     UK_HASH:          '#'
     UK_POUND:         £
-    VOL_UP:           $$phosphor:bold/speaker-high$$
-    VOL_DOWN:         $$phosphor:bold/speaker-low$$
-    VOL_MUTE:         $$phosphor:bold/speaker-slash$$
+    VOL_UP:           VOL →
+    VOL_DOWN:         VOL ←
+    VOL_MUTE:         VOL MUTE
 
   zmk_combos:
     combo_nequal:     {a: bottom, o: 0.3}
@@ -66,7 +66,7 @@ parse_config:
     combo_bslh:       {draw_separate: true}
     combo_fslh:       {draw_separate: true}
     combo_com_lin:    {draw_separate: true}
-    combo_com_blo:    {draw_separate: true}
+    combo_com_blo:     {draw_separate: true}
     combo_cword_l:    {draw_separate: true}
     combo_cword_r:    {draw_separate: true}
     combo_esc:        {draw_separate: true}
@@ -87,15 +87,15 @@ parse_config:
     F12:              DEV TOOLS
 
     ENTER:            Ent
-    C_PLAY:           $$phosphor:bold/play-pause$$
-    C_PREV:           $$phosphor:bold/skip-back$$
-    C_NEXT:           $$phosphor:bold/skip-forward$$
+    C_PLAY:           PLAY/ PAUSE
+    C_PREV:           PREV ←
+    C_NEXT:           NEXT →
     BT_CLR:           CLEAR
 
-    UP:               $$phosphor:bold/arrow-fat-up$$
-    DOWN:             $$phosphor:bold/arrow-fat-down$$
-    LEFT:             $$phosphor:bold/arrow-fat-left$$
-    RIGHT:            $$phosphor:bold/arrow-fat-right$$
+    UP:               ↑
+    DOWN:             ↓
+    LEFT:             ←
+    RIGHT:            →
 
     END:              END →
     HOME:             HOME ←
