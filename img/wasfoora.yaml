@@ -28,20 +28,17 @@ layers:
   - Z
   - {t: SPACE, h: NAV}
   - {t: E, h: NUM}
-  Number: [TAB, '9', '8', '7', '|', £, ;, ':', '*', '%', '3', '2', '1', '0', '&', $, ',', ., '"', '-', '6', '5', '4', BSPC, '=', _, '', '']
-  Navigation: [TAB, SLACK ←, SLACK THREAD, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F6, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE,
-    BSPC, TAB ←, TAB →, '', '']
+  Number: [TAB, '9', '8', '7', '|', £, ;, ':', '*', '%', '3', '2', '1', '0', '&', $, ',', ., '"', '-', '6', '5', '4', BSPC, '=', _, '2', '2']
+  Navigation: [TAB, SLACK ←, SLACK THREAD, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, Alt+Sft+ I, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY,
+    PASTE, BSPC, TAB ←, TAB →, '2', '2']
   Miscellaneous: [BOOT, PREV ←, PLAY/ PAUSE, NEXT →, F11, F12, VOL ←, VOL MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, F2, MIC MUTE, INBOX, SLACK, ADMIN, BH, ^,
-    '~', '`', CAL, DESK ←, DESK →, '', '']
+    '~', '`', CAL, DESK ←, DESK →, '2', '2']
 combos:
 - p: [20, 21]
   k: <
   l: [Default]
 - p: [21, 22]
   k: '>'
-  l: [Default]
-- p: [7, 8]
-  k: +
   l: [Default]
 - p: [6, 7]
   k: '@'
@@ -58,7 +55,10 @@ combos:
 - p: [23, 24]
   k: '?'
   l: [Default]
-- p: [23, 25]
+- p: [7, 8]
+  k: '`'
+  l: [Default]
+- p: [6, 8]
   k: '```'
   l: [Default]
   a: bottom
