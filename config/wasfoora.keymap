@@ -26,7 +26,7 @@
 // all numbers into mod morphs and hold taps (for navigating wavebox etc)?
 // move img files OR rename and have all in keymap-drawer!!!
 // hold numbers for ctrl+shift+number	
-// maybe the app shortcuts are really wave box etc. shortcuts
+// maybe the app shortcuts are really wave box etc. shortcuts s
 / {
 	keymap {
 		compatible = "zmk,keymap";
