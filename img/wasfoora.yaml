@@ -6,12 +6,12 @@ layers:
   - D
   - B
   - J
-  - {type: held}
+  - L
   - U
   - Y
   - ''''
   - {t: A, h: Win}
-  - {h: Alt}
+  - {t: R, h: Alt}
   - {t: S, h: Ctrl}
   - {t: T, h: Shift}
   - P
@@ -67,7 +67,7 @@ layers:
   - HOME ←
   - ↑
   - END →
-  - Alt+Sft+ I
+  - SEL LINES
   - Win
   - Alt
   - Ctrl
@@ -143,7 +143,7 @@ combos:
 - p: [6, 8]
   k: '```'
   l: [Default]
-  a: bottom
+  a: top
 - p: [20, 22]
   k: <  >
   l: [Default]
