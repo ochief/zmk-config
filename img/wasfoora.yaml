@@ -28,35 +28,7 @@ layers:
   - Z
   - {t: SPACE, h: NAV}
   - {t: E, h: NUM}
-  Number:
-  - TAB
-  - '9'
-  - '8'
-  - '7'
-  - '|'
-  - £
-  - ;
-  - ':'
-  - '*'
-  - '%'
-  - '3'
-  - '2'
-  - '1'
-  - '0'
-  - '&'
-  - $
-  - {t: ',', h: Shift}
-  - {t: ., h: Ctrl}
-  - {t: '"', h: Alt}
-  - {t: '-', h: Win}
-  - '6'
-  - '5'
-  - '4'
-  - BSPC
-  - '='
-  - _
-  - ''
-  - ''
+  Number: [TAB, '9', '8', '7', '|', £, ;, ':', '*', '%', '3', '2', '1', '0', '&', $, ',', ., '"', '-', '6', '5', '4', BSPC, '=', _, '', '']
   Navigation: [TAB, SLACK ←, SLACK THREAD, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F6, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE,
     BSPC, TAB ←, TAB →, '', '']
   Miscellaneous: [BOOT, PREV ←, PLAY/ PAUSE, NEXT →, F11, F12, VOL ←, VOL MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, F2, MIC MUTE, INBOX, SLACK, ADMIN, BH, ^,
