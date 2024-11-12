@@ -55,66 +55,12 @@ layers:
   - ENTER
   - '*'
   - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Navigation:
-  - F2
-  - SLACK ←
-  - TAB
-  - SLACK →
-  - DEL
-  - DEL WORD
-  - HOME ←
-  - ↑
-  - END →
-  - F6
-  - Win
-  - Alt
-  - Ctrl
-  - Shift
-  - SEL ALL
-  - NEW TAB
-  - ←
-  - ↓
-  - →
-  - SWAP
-  - CUT
-  - COPY
-  - PASTE
-  - ENTER
-  - TAB ←
-  - TAB →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Miscellaneous:
-  - BOOT
-  - PREV ←
-  - PLAY
-  - NEXT →
-  - F11
-  - F12
-  - VOL ←
-  - MUTE
-  - VOL →
-  - CLOSE
-  - CLEAR
-  - BT  3
-  - BT  2
-  - BT  1
-  - C  A  D
-  - SSHOT
-  - INBOX
-  - SLACK
-  - ADMIN
-  - BH
-  - ^
-  - '~'
-  - '`'
-  - CAL
-  - DESK ←
-  - DESK →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  Navigation: [F2, SLACK ←, TAB, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F6, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE, ENTER, TAB
+      ←, TAB →, '', '']
+  Miscellaneous: [BOOT, PREV ←, PLAY, NEXT →, F11, F12, VOL ←, MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, C  A  D, SSHOT, INBOX, SLACK, ADMIN, BH, ^, '~', '`',
+    CAL, DESK ←, DESK →, '', '']
 combos:
 - p: [20, 21]
   k: <
