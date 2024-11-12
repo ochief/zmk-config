@@ -9,7 +9,9 @@ parse_config:
     '&mm_new_tab':    NEW TAB
     '&mm_sqt_sqt':    "'"
     
-    #remove undo / redo
+    '___XXXX___':     {type: held}
+    'XXXXXXXXXX':     ''
+    '__________':     ''
     
     A_BULLHORN:       BH
     A_CALENDAR:       CAL
