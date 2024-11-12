@@ -90,6 +90,7 @@ parse_config:
     # defaults
     AMPS:             '&'
     AT:               '"' # UK
+    DQT:              '@' # UK
     BSLH:             \
     CARET:            ^
     COLON:            ':'
