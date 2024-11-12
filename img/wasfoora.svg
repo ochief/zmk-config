@@ -269,7 +269,9 @@ path.combo {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="106" y="15" width="28" height="26" class="combo"/>
-<text x="120" y="28" class="combo tap">SMILEY</text>
+<text x="120" y="28" class="combo tap">
+<tspan x="120" dy="-0.6em">MIC</tspan><tspan x="120" dy="1.2em">MUTE</tspan>
+</text>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="166" y="15" width="28" height="26" class="combo"/>
@@ -471,7 +473,9 @@ path.combo {
 </g>
 <g transform="translate(420, 56)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">SMILEY</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">DEL</tspan><tspan x="0" dy="1.2em">WORD</tspan>
+</text>
 </g>
 <g transform="translate(480, 28)" class="key keypos-6">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -519,9 +523,7 @@ path.combo {
 </g>
 <g transform="translate(420, 112)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">DEL</tspan><tspan x="0" dy="1.2em">WORD</tspan>
-</text>
+<text x="0" y="0" class="key tap">SMILEY</text>
 </g>
 <g transform="translate(480, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -656,13 +658,11 @@ path.combo {
 </g>
 <g transform="translate(540, 84)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">MIC</tspan><tspan x="0" dy="1.2em">MUTE</tspan>
-</text>
+<text x="0" y="0" class="key tap">F11</text>
 </g>
 <g transform="translate(600, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F11</text>
+<text x="0" y="0" class="key tap">F12</text>
 </g>
 <g transform="translate(660, 112)" class="key keypos-19">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>

@@ -63,7 +63,7 @@ layers:
   - SLACK THREAD
   - SLACK →
   - DEL
-  - SMILEY
+  - DEL WORD
   - HOME ←
   - ↑
   - END →
@@ -73,7 +73,7 @@ layers:
   - Ctrl
   - Shift
   - SEL ALL
-  - DEL WORD
+  - SMILEY
   - ←
   - ↓
   - →
@@ -104,8 +104,8 @@ layers:
   - CLEAR
   - F2
   - F6
-  - MIC MUTE
   - F11
+  - F12
   - TASK MAN
   - ^
   - '~'
@@ -136,7 +136,7 @@ combos:
   k: '@'
   l: [Default]
 - p: [1, 2]
-  k: SMILEY
+  k: MIC MUTE
   l: [Default]
 - p: [2, 3]
   k: '#'
