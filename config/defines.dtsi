@@ -47,6 +47,7 @@
 #define SHO_UNDO    &kp LC(Z)
 #define SLACK_UP	&kp LA(LS(UP))
 #define SLACK_DN	&kp LA(LS(DOWN))
+#define SMILEY      &kp LG(DOT)
 #define TAB_PREV	&kp LC(PG_UP)
 #define TAB_NEW		&kp LC(T)
 #define TAB_NEXT	&kp LC(PG_DN)

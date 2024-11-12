@@ -49,6 +49,7 @@ parse_config:
     SHO_UNDO:         Undo
     SLACK_DN:         SLACK →
     SLACK_UP:         SLACK ←
+    SMILEY:           SMILEY
     TAB_NEXT:         TAB →
     TAB_PREV:         TAB ←
     THREAD:           SLACK THREAD

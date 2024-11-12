@@ -31,14 +31,15 @@
 // hold numbers for ctrl+shift+number	
 // maybe the app shortcuts are really wave box etc. shortcuts s
 // how about a big list of values
-// get ` in a better place
+// WIN + . for smileys
 / {
 	keymap {
 		compatible = "zmk,keymap";
 
-		// missing keys
-		// &kp F6
-
+		/* missing keys
+				&kp F6
+				CAD
+		*/
 		Default_layer {
             label = "DEF";
             bindings = <
@@ -58,7 +59,7 @@
             label = "NUM";
 			bindings = <
 				&kp TAB		NUM_9		NUM_8		NUM_7		&kp PIPE			UK_POUND	&kp SEMI	&kp COLON	&kp STAR	&kp PERCENT
-				NUM_3		NUM_2		NUM_1		&kp KP_N0	&kp AMPS			&kp DOLLAR	&kp COMMA 	&kp DOT		UK_DQT		&kp MINUS
+				NUM_3		NUM_2		NUM_1		NUM_0		&kp AMPS			&kp DOLLAR	&kp COMMA 	&kp DOT		UK_DQT		&kp MINUS
 							NUM_6		NUM_5		NUM_4										&kp BSPC 	&kp EQUAL	&kp UNDER
 
 				#ifndef KEYMAP_DRAWER
