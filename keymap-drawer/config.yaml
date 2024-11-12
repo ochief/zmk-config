@@ -28,7 +28,7 @@ parse_config:
     DESK_R:           DESK →
     MUTE_MIC:         MIC MUTE
     NEW_LINE:         NEW LINE
-    SCREEN_SHOT:      SSHOT
+    SCREEN_SHOT:      SCREEN SHOT
     SHO_APP_SEL:      SWAP
     SHO_COPY:         COPY
     SHO_CUT:          CUT
@@ -56,7 +56,7 @@ parse_config:
     combo_bslh:       {draw_separate: true}
     combo_fslh:       {draw_separate: true}
     combo_esc:        {draw_separate: true}
-    combo_bspc:       {draw_separate: true}
+    combo_enter:      {draw_separate: true}
     combo_sundo:      {draw_separate: true}
     combo_sredo:      {draw_separate: true}
 
@@ -71,6 +71,8 @@ parse_config:
     ESC:              Esc
 
     BSPC:             ⌫
+    ENTER:            ⏎
+    C_PLAY:           PLAY PAUSE
     C_PREV:           PREV ←
     C_NEXT:           NEXT →
     BT_CLR:           CLEAR

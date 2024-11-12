@@ -8,7 +8,7 @@
  *		 K	 W	 C	 D	 B		 J	 L	 U	 Y	 '
  *		 A	 R	 S	 T	 P		 X	 N	 H	 I	 O 
  *			 V	 F	 G				 M	 Q	 Z
- *					ESC	SPA		 E	BSPC
+ *					   SPACE	 E
  */
 
 #define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, TIMEOUT) \

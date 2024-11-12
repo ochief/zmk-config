@@ -12,7 +12,7 @@
  *		 K	 W	 C	 D	 B		 J	 L	 U	 Y	 '
  *		 A	 R	 S	 T	 P		 X	 N	 H	 I	 O 
  *			 V	 F	 G				 M	 Q	 Z
- *					ESC	SPA		 E	BSPC
+ *					   SPACE	 E
  */
 
 #include "defines.dtsi"
@@ -36,7 +36,7 @@
 							&kp V		&kp F		&kp G                                       &kp M		&kp Q		&kp Z
 
 				#ifndef KEYMAP_DRAWER				
-												&kp ESC		&lt NAV SPACE		&lt NUM E	&kp BSPC
+													__________	&lt NAV SPACE	&lt NUM E		__________
 				#else											
 															&lt NAV SPACE		&lt NUM E
 				#endif
