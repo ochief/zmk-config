@@ -2,10 +2,10 @@ parse_config:
   raw_binding_map:
     '&lt NAV SPACE':  {t: SPACE, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
-    '&bootloader':    $$phosphor:bold/boot$$
+    '&bootloader':    BOOT
     '&caps_word':     Caps Word
     '&macro_com_l':   '//'
-    '&macro_com_l':   '/*  */'
+    '&macro_com_l':   '/*  */'  
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
     '&mm_sqt_sqt':    "'"
@@ -35,12 +35,12 @@ parse_config:
     NUM_9:            '9'
     SCREEN_SHOT:      $$phosphor:bold/camera$$
     SEL_LINES:        SEL LINES
-    SHO_APP_SEL:      $$phosphor:bold/swap$$
+    SHO_APP_SEL:      SWAPPER
     SHO_COPY:         COPY
-    SHO_CUT:          $$phosphor:bold/scissors$$
+    SHO_CUT:          CUT
     SHO_PASTE:        PASTE
     SHO_REDO:         $$phosphor:bold/arrow-clockwise$$
-    SHO_SEL_ALL:      $$phosphor:bold/selection-all$$
+    SHO_SEL_ALL:      SEL ALL
     SHO_UNDO:         $$phosphor:bold/arrow-counter-clockwise$$
     SLACK_DN:         SLACK →
     SLACK_UP:         SLACK ←
@@ -86,7 +86,7 @@ parse_config:
     F11:              FULL SCREEN
     F12:              DEV TOOLS
 
-    ENTER:            $$phosphor:bold/key-return$$
+    ENTER:            Ent
     C_PLAY:           $$phosphor:bold/play-pause$$
     C_PREV:           $$phosphor:bold/skip-back$$
     C_NEXT:           $$phosphor:bold/skip-forward$$
