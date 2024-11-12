@@ -144,10 +144,12 @@ combos:
   k: '```'
   l: [Default]
   a: top
+  o: 0.6
 - p: [20, 22]
   k: <  >
   l: [Default]
   a: bottom
+  o: 0.6
 - p: [3, 13]
   k: '}'
   l: [Default]
@@ -177,11 +179,11 @@ combos:
 - p: [2, 13]
   k: \
   l: [Default]
-  draw_separate: true
+  d: true
 - p: [7, 16]
   k: /
   l: [Default]
-  draw_separate: true
+  d: true
 - p: [12, 22]
   k: Esc
   l: [Default]
