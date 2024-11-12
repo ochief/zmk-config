@@ -102,9 +102,9 @@ layers:
   - BT  2
   - BT  1
   - CLEAR
-  - MIC MUTE
-  - F6
   - F2
+  - F6
+  - MIC MUTE
   - F11
   - TASK MAN
   - ^
