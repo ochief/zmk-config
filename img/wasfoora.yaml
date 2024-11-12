@@ -136,7 +136,7 @@ combos:
   k: '@'
   l: [Default]
 - p: [1, 2]
-  k: SMILEY
+  k: MIC MUTE
   l: [Default]
 - p: [2, 3]
   k: '#'
