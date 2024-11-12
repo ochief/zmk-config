@@ -19,7 +19,7 @@ parse_config:
     DEL_WORD:         DEL WORD
     DESK_L:           DESK ←
     DESK_R:           DESK →
-    DOLLAR:           $
+    MON_DOL:          $
     MUTE_MIC:         MIC MUTE
     NEW_LINE:         NEW LINE
     NUM_0:            '0'
@@ -108,7 +108,6 @@ parse_config:
     CARET:            ^
     COLON:            ':'
     COMMA:            ','
-    DOLLAR:           $
     DOT:              '.'
     EQUAL:            '='
     EXCL:             '!'
