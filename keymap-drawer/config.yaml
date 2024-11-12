@@ -44,7 +44,7 @@ parse_config:
     SHO_UNDO:         $$phosphor:bold/arrow-counter-clockwise$$
     SLACK_DN:         SLACK →
     SLACK_UP:         SLACK ←
-    SMILEY:           $$phosphor:smiley$$
+    SMILEY:           $$phosphor:bold/smiley$$
     TAB_NEXT:         TAB →
     TAB_PREV:         TAB ←
     TASK_MAN:         TASK MAN
