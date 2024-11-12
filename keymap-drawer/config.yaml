@@ -84,14 +84,12 @@ parse_config:
 
     # defaults
     AMPS:             '&'
-    AT:               '@'
     BSLH:             \
     CARET:            ^
     COLON:            ':'
     COMMA:            ','
     DOLLAR:           $
     DOT:              '.'
-    DQT:              '"'
     EQUAL:            '='
     EXCL:             '!'
     FSLH:             /
