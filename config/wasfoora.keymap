@@ -56,7 +56,7 @@
 				#ifndef KEYMAP_DRAWER
 													__________	__________			___XXXX___	__________
 				#else											
-																__________			___XXXX___
+																__________			THUMB_RIGHT
 				#endif
 			>;
 		};
@@ -71,7 +71,7 @@
 				#ifndef KEYMAP_DRAWER
 													__________	___XXXX___			__________	__________
 				#else											
-																___XXXX___			__________
+																THUMB_LEFT			__________
 				#endif
 			>;
 		};
@@ -86,7 +86,7 @@
 				#ifndef KEYMAP_DRAWER				
 													__________	___XXXX___			___XXXX___	__________
 				#else
-																___XXXX___			___XXXX___
+																THUMB_LEFT			THUMB_RIGHT
 				#endif
 			>;
 		};
