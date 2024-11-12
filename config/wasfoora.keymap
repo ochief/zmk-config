@@ -31,8 +31,8 @@
 		compatible = "zmk,keymap";
 
 		/* missing keys
-				&kp F6
-				CAD
+    '&macro_com_l':   '//'
+    '&macro_com_l':   '/*  */'
 		*/
 		Default_layer {
             label = "DEF";
