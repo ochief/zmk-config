@@ -263,7 +263,7 @@ path.combo {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="166" y="15" width="28" height="26" class="combo"/>
-<text x="180" y="28" class="combo tap">*</text>
+<text x="180" y="28" class="combo tap">#</text>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="556" y="127" width="28" height="26" class="combo"/>
@@ -348,7 +348,7 @@ path.combo {
 </g>
 <g transform="translate(600, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">#</text>
+<text x="0" y="0" class="key tap">*</text>
 </g>
 <g transform="translate(660, 56)" class="key keypos-9">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -412,7 +412,7 @@ path.combo {
 </g>
 <g transform="translate(480, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⌫</text>
+<text x="0" y="0" class="key tap">BSPC</text>
 </g>
 <g transform="translate(540, 140)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -543,7 +543,7 @@ path.combo {
 </g>
 <g transform="translate(480, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⌫</text>
+<text x="0" y="0" class="key tap">BSPC</text>
 </g>
 <g transform="translate(540, 140)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -581,7 +581,7 @@ path.combo {
 <g transform="translate(150, 28)" class="key keypos-2">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PLAY</tspan><tspan x="0" dy="1.2em">PAUSE</tspan>
+<tspan x="0" dy="-0.6em">PLAY/</tspan><tspan x="0" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
 <g transform="translate(210, 28)" class="key keypos-3">
@@ -1167,7 +1167,7 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap">⏎</text>
+<text x="0" y="0" class="key  combo-separate tap">Ent</text>
 </g>
 <g transform="translate(15, 86)" class="key keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key"/>
