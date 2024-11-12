@@ -50,6 +50,7 @@ parse_config:
     SMILEY:           SMILEY
     TAB_NEXT:         TAB →
     TAB_PREV:         TAB ←
+    TASK_MAN:         TASK MAN
     THREAD:           SLACK THREAD
     UK_AT:            '@'
     UK_GRAVE:         '`'

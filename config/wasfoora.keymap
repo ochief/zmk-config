@@ -23,15 +23,9 @@
 #include "combos.dtsi"
 #include "macros.dtsi"
 
-// capsword / capslock
 // maybe tidy up shape again
-// advanced https://github.com/caksoylar/zmk-config/blob/main/keymap-drawer/config.yaml
-// all numbers into mod morphs and hold taps (for navigating wavebox etc)?
 // move img files OR rename and have all in keymap-drawer!!!
-// hold numbers for ctrl+shift+number	
-// maybe the app shortcuts are really wave box etc. shortcuts s
-// how about a big list of values
-// WIN + . for smileys
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
@@ -73,7 +67,7 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				&kp TAB		SLACK_UP	THREAD		SLACK_DN	&kp DEL				CLOSE		&kp HOME	&kp UP		&kp END		SEL_LINES
+				&kp TAB		SLACK_UP	THREAD		SLACK_DN	&kp DEL				SMILEY		&kp HOME	&kp UP		&kp END		SEL_LINES
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSFT	SHO_SEL_ALL			DEL_WORD	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	TAB_PREV	TAB_NEXT
 
@@ -89,8 +83,8 @@
             label = "MIS";
             bindings = <
 				__________	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	__________			__________	VOL_DOWN	VOL_MUTE	VOL_UP		__________
-				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		&bootloader			&kp F12		&kp F6		MUTE_MIC	&kp F11		&bootloader
-							&kp CARET	UK_TILDE	UK_GRAVE									&kp F2		DESK_L		DESK_R
+				&bootloader	CON_THREE	CON_TWO		CON_ONE		&bt BT_CLR			MUTE_MIC	&kp F6		&kp F2		&kp F11		TASK_MAN		
+							&kp CARET	UK_TILDE	UK_GRAVE									CLOSE		DESK_L		DESK_R
 				
 				#ifndef KEYMAP_DRAWER				
 													__________	___XXXX___			___XXXX___	__________
