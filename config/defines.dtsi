@@ -64,12 +64,6 @@
 #define UK_POUND	&ht HASH RA(E)
 #define UK_TILDE	&kp TILDE2
 
-#define A_BULLHORN	&kp F16
-#define A_CALENDAR	&kp F17
-#define A_GLADMIN	&kp F15
-#define A_INBOX		&kp F13
-#define A_SLACK		&kp F14
-
 #define NUM_0       &ht KP_N0 LC(LS(N0))
 #define NUM_1       &ht KP_N1 LC(LS(N1))
 #define NUM_2       &ht KP_N2 LC(LS(N2))

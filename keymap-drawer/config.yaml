@@ -2,7 +2,7 @@ parse_config:
   raw_binding_map:
     '&lt NAV SPACE':  {t: SPACE, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
-    '&bootloader':    BOOT
+    '&bootloader':    $$phosphor:boot$$
     '&caps_word':     Caps Word
     '&macro_com_l':   '//'
     '&macro_com_l':   '/*  */'
@@ -14,11 +14,6 @@ parse_config:
     THUMB_LEFT:       {type: held}
     THUMB_RIGHT:      {type: held}
     
-    A_BULLHORN:       BH
-    A_CALENDAR:       CAL
-    A_GLADMIN:        ADMIN
-    A_INBOX:          INBOX
-    A_SLACK:          SLACK
     CLOSE:            CLOSE
     CON_ONE:          BT  1
     CON_TWO:          BT  2
@@ -26,10 +21,10 @@ parse_config:
     DEL_WORD:         DEL WORD
     DESK_L:           DESK ←
     DESK_R:           DESK →
-    MUTE_MIC:         MIC MUTE
+    MUTE_MIC:         $$phosphor:microphone-slash$$
     NEW_LINE:         NEW LINE
     NUM_0:            '0'
-    NUM_1:            '1'
+    NUM_1:            $$phosphor:number-one$$
     NUM_2:            '2'
     NUM_3:            '3'
     NUM_4:            '4'
@@ -38,18 +33,18 @@ parse_config:
     NUM_7:            '7'
     NUM_8:            '8'
     NUM_9:            '9'
-    SCREEN_SHOT:      SCREEN SHOT
+    SCREEN_SHOT:      $$phosphor:camera$$
     SEL_LINES:        SEL LINES
-    SHO_APP_SEL:      SWAP
+    SHO_APP_SEL:      $$phosphor:swap$$
     SHO_COPY:         COPY
-    SHO_CUT:          CUT
+    SHO_CUT:          $$phosphor:scissors $$
     SHO_PASTE:        PASTE
-    SHO_REDO:         Redo
-    SHO_SEL_ALL:      SEL ALL
-    SHO_UNDO:         Undo
+    SHO_REDO:         $$phosphor:arrow-clockwise$$
+    SHO_SEL_ALL:      $$phosphor:selection-all$$
+    SHO_UNDO:         $$phosphor:arrow-counter-clockwise$$
     SLACK_DN:         SLACK →
     SLACK_UP:         SLACK ←
-    SMILEY:           SMILEY
+    SMILEY:           $$phosphor:smiley$$
     TAB_NEXT:         TAB →
     TAB_PREV:         TAB ←
     TASK_MAN:         TASK MAN
@@ -58,9 +53,9 @@ parse_config:
     UK_GRAVE:         '`'
     UK_HASH:          '#'
     UK_POUND:         £
-    VOL_UP:           VOL →
-    VOL_DOWN:         VOL ←
-    VOL_MUTE:         VOL MUTE
+    VOL_UP:           $$phosphor:speaker-high$$
+    VOL_DOWN:         $$phosphor:speaker-low$$
+    VOL_MUTE:         $$phosphor:speaker-slash$$
 
   zmk_combos:
     combo_nequal:     {a: bottom, o: 0.3}
@@ -70,8 +65,8 @@ parse_config:
 
     combo_bslh:       {draw_separate: true}
     combo_fslh:       {draw_separate: true}
-    combo_com_lin:   {draw_separate: true}
-    combo_com_blo:   {draw_separate: true}
+    combo_com_lin:    {draw_separate: true}
+    combo_com_blo:    {draw_separate: true}
     combo_cword_l:    {draw_separate: true}
     combo_cword_r:    {draw_separate: true}
     combo_esc:        {draw_separate: true}
@@ -91,16 +86,16 @@ parse_config:
     F11:              FULL SCREEN
     F12:              DEV TOOLS
 
-    ENTER:            Ent
-    C_PLAY:           PLAY/ PAUSE
-    C_PREV:           PREV ←
-    C_NEXT:           NEXT →
+    ENTER:            $$phosphor:key-return$$
+    C_PLAY:           $$phosphor:play-pause$$
+    C_PREV:           $$phosphor:skip-back$$
+    C_NEXT:           $$phosphor:skip-forward$$
     BT_CLR:           CLEAR
 
-    UP:               ↑
-    DOWN:             ↓
-    LEFT:             ←
-    RIGHT:            →
+    UP:               $$phosphor:arrow-fat-up$$
+    DOWN:             $$phosphor:arrow-fat-down$$
+    LEFT:             $$phosphor:arrow-fat-left$$
+    RIGHT:            $$phosphor:arrow-fat-right$$
 
     END:              END →
     HOME:             HOME ←
