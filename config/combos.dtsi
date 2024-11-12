@@ -28,7 +28,7 @@ combo_##NAME { \
 		compatible = "zmk,combos";
 
 		#ifdef KEYMAP_DRAWER
-			COMBO(caps,		&kp caps_word,	 1, 3,		DEF, COMBO_TERM_NORMAL)
+			COMBO(caps,		&kp caps,	 	 1, 3,		DEF, COMBO_TERM_NORMAL)
 			COMBO(sshot,	SCREEN_SHOT,	 6, 8,		DEF, COMBO_TERM_NORMAL)
 			COMBO(lt,       &kp LT,       	20 21,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(gt,      	&kp GT,      	21 22,		DEF, COMBO_TERM_NORMAL)
