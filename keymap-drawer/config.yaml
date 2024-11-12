@@ -8,6 +8,7 @@ parse_config:
     '&macro_nequal':  <  >
     '&mm_new_tab':    NEW TAB
     '&mm_sqt_sqt':    "'"
+    '&trans':         ''
 
     THUMB_LEFT:       {type: held}
     THUMB_RIGHT:      {type: held}
