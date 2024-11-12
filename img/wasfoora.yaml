@@ -41,7 +41,7 @@ layers:
   - '%'
   - '3'
   - '2'
-  - $$phosphor:bold/number-one$$
+  - '1'
   - '0'
   - '&'
   - $
@@ -65,20 +65,20 @@ layers:
   - DEL
   - DEL WORD
   - HOME ←
-  - $$phosphor:bold/arrow-fat-up$$
+  - ↑
   - END →
   - SEL LINES
   - Win
   - Alt
   - Ctrl
   - Shift
-  - $$phosphor:bold/selection-all$$
-  - $$phosphor:bold/smiley$$
-  - $$phosphor:bold/arrow-fat-left$$
-  - $$phosphor:bold/arrow-fat-down$$
-  - $$phosphor:bold/arrow-fat-right$$
-  - $$phosphor:bold/swap$$
-  - $$phosphor:bold/scissors$$
+  - SEL ALL
+  - SMILEY
+  - ←
+  - ↓
+  - →
+  - SWAP
+  - CUT
   - COPY
   - PASTE
   - BSPC
@@ -88,16 +88,16 @@ layers:
   - ''
   Miscellaneous:
   - ''
-  - $$phosphor:bold/skip-back$$
-  - $$phosphor:bold/play-pause$$
-  - $$phosphor:bold/skip-forward$$
+  - PREV ←
+  - PLAY/ PAUSE
+  - NEXT →
   - ''
   - ''
-  - $$phosphor:bold/speaker-low$$
-  - $$phosphor:bold/speaker-slash$$
-  - $$phosphor:bold/speaker-high$$
+  - VOL ←
+  - VOL MUTE
+  - VOL →
   - ''
-  - $$phosphor:bold/boot$$
+  - BOOT
   - BT  3
   - BT  2
   - BT  1
@@ -122,7 +122,7 @@ combos:
   a: bottom
   o: 0.3
 - p: [1, 3]
-  k: $$phosphor:bold/camera$$
+  k: SCREEN SHOT
   l: [Default]
   a: top
   o: 0.3
@@ -136,7 +136,7 @@ combos:
   k: '@'
   l: [Default]
 - p: [1, 2]
-  k: $$phosphor:bold/microphone-slash$$
+  k: MIC MUTE
   l: [Default]
 - p: [2, 3]
   k: '#'
@@ -199,14 +199,14 @@ combos:
   l: [Default]
   draw_separate: true
 - p: [17, 23]
-  k: $$phosphor:bold/key-return$$
+  k: Ent
   l: [Default]
   draw_separate: true
 - p: [13, 14]
-  k: $$phosphor:bold/arrow-counter-clockwise$$
+  k: Undo
   l: [Default]
   draw_separate: true
 - p: [3, 4]
-  k: $$phosphor:bold/arrow-clockwise$$
+  k: Redo
   l: [Default]
   draw_separate: true
