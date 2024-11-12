@@ -52,13 +52,13 @@ layers:
   - '6'
   - '5'
   - '4'
-  - ENTER
+  - ⌫
   - '='
   - _
   - ''
   - ''
-  Navigation: [TAB, SLACK ←, '', SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F2, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE, ENTER, TAB
-      ←, TAB →, '', '']
+  Navigation: [TAB, SLACK ←, '', SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F2, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE, ⌫, TAB ←,
+    TAB →, '', '']
   Miscellaneous: [BOOT, PREV ←, PLAY, NEXT →, F11, F12, VOL ←, MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, C  A  D, SSHOT, INBOX, SLACK, ADMIN, BH, ^, '~', '`',
     CAL, DESK ←, DESK →, '', '']
 combos:
