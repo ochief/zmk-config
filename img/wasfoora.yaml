@@ -55,7 +55,7 @@ layers:
   - BSPC
   - '='
   - _
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
   Navigation:
   - TAB
@@ -85,7 +85,7 @@ layers:
   - TAB ←
   - TAB →
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   Miscellaneous:
   - BOOT
   - PREV ←
@@ -116,6 +116,16 @@ layers:
   - {type: held}
   - {type: held}
 combos:
+- p: [23, 25]
+  k: Caps
+  l: [Default]
+  a: bottom
+  o: 0.3
+- p: [1, 3]
+  k: SCREEN SHOT
+  l: [Default]
+  a: top
+  o: 0.3
 - p: [20, 21]
   k: <
   l: [Default]
@@ -144,12 +154,12 @@ combos:
   k: '```'
   l: [Default]
   a: top
-  o: 0.6
+  o: 0.3
 - p: [20, 22]
   k: <  >
   l: [Default]
   a: bottom
-  o: 0.6
+  o: 0.3
 - p: [3, 13]
   k: '}'
   l: [Default]
@@ -179,11 +189,11 @@ combos:
 - p: [2, 13]
   k: \
   l: [Default]
-  d: true
+  draw_separate: true
 - p: [7, 16]
   k: /
   l: [Default]
-  d: true
+  draw_separate: true
 - p: [12, 22]
   k: Esc
   l: [Default]
