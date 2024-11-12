@@ -12,8 +12,8 @@
 #define ___XXXX___	&trans
 #define __________  &trans
 
-#define THUMB_LEFT  &kp L
-#define THUMB_RIGHT &kp R
+#define THUMB_LEFT  &kp F23
+#define THUMB_RIGHT &kp F24
 
 #define HRM_A		&hm LGUI A
 #define HRM_R		&hm LALT R

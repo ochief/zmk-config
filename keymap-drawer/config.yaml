@@ -28,6 +28,7 @@ parse_config:
     MUTE_MIC:         MIC MUTE
     NEW_LINE:         NEW LINE
     SCREEN_SHOT:      SCREEN SHOT
+    SEL_LINES:        SEL LINES
     SHO_APP_SEL:      SWAP
     SHO_COPY:         COPY
     SHO_CUT:          CUT
@@ -49,9 +50,9 @@ parse_config:
     VOL_MUTE:         VOL MUTE
 
   zmk_combos:
-    combo_caps:       {align: top, o: 0.15}
-    combo_sshot:      {align: top, o: 0.15}
-    combo_grave3:     {align: bottom}
+    combo_caps:       {align: bottom}
+    combo_sshot:      {align: top}
+    combo_grave3:     {align: top}
     combo_nequal:     {align: bottom}
     combo_cword_l:    {draw_separate: true}
     combo_cword_r:    {draw_separate: true}
@@ -61,8 +62,6 @@ parse_config:
     combo_enter:      {draw_separate: true}
     combo_sundo:      {draw_separate: true}
     combo_sredo:      {draw_separate: true}
-
-    
 
   zmk_keycode_map:
     LCTL:             Ctrl
