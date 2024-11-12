@@ -29,7 +29,7 @@
 #define CON_ONE		&bt BT_SEL 1
 #define CON_TWO		&bt BT_SEL 2
 #define CON_THREE	&bt BT_SEL 3
-#define DEL_WORD	&kp LC(BSPC)
+#define DEL_WORD	&kp LC(DEL)
 #define DESK_L		&kp LC(LG(LEFT))
 #define DESK_R		&kp LC(LG(RIGHT))
 #define MON_DOL     &ht DOLLAR RA(5)
