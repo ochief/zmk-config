@@ -33,7 +33,7 @@ layers:
   - '9'
   - '8'
   - '7'
-  - '|'
+  - '&'
   - £
   - ;
   - ':'
@@ -43,18 +43,18 @@ layers:
   - '2'
   - '1'
   - '0'
-  - '&'
+  - '|'
   - $
   - {t: ',', h: Shift}
   - {t: ., h: Ctrl}
-  - {t: '-', h: Alt}
-  - {t: _, h: Win}
+  - {t: AT, h: Alt}
+  - {t: '-', h: Win}
   - '6'
   - '5'
   - '4'
   - ENTER
-  - '*'
   - '='
+  - _
   - ''
   - ''
   Navigation: [F2, SLACK ←, TAB, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F6, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE, ENTER, TAB
@@ -72,7 +72,7 @@ combos:
   k: '"'
   l: [Default]
 - p: [6, 7]
-  k: '@'
+  k: '*'
   l: [Default]
 - p: [24, 25]
   k: '!'
