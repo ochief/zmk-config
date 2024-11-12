@@ -28,6 +28,16 @@ combo_##NAME { \
 		compatible = "zmk,combos";
 
 		#ifdef KEYMAP_DRAWER
+
+			COMBO(lt,       &kp LT,       	20 21,  	DEF, COMBO_TERM_NORMAL)
+			COMBO(gt,      	&kp GT,      	21 22,		DEF, COMBO_TERM_NORMAL)
+			COMBO(at,       UK_AT,       	 2  3,  	DEF, COMBO_TERM_NORMAL)
+			COMBO(dqt,      UK_DQT,      	 6  7,		DEF, COMBO_TERM_NORMAL)
+			COMBO(excl,     &kp EXCL,    	24 25, 		DEF, COMBO_TERM_NORMAL)
+			COMBO(qmark,    &kp QMARK,    	23 24, 		DEF, COMBO_TERM_NORMAL)
+			COMBO(grave3,	&macro_grave3,	23 25, 		DEF, COMBO_TERM_NORMAL)
+			COMBO(nequal, 	&macro_nequal,	20 22, 		DEF, COMBO_TERM_NORMAL)
+
 			// brackets
 			COMBO(rbrc,     &kp RBRC,     	 3 13,  	DEF, COMBO_TERM_SLOW)
 			COMBO(rpar,     &kp RPAR,     	 2 12,  	DEF, COMBO_TERM_SLOW)
@@ -36,29 +46,15 @@ combo_##NAME { \
 			COMBO(lpar,     &kp LPAR,     	 7 17,  	DEF, COMBO_TERM_SLOW)
 			COMBO(lbrc,     &kp LBRC,     	 6 16,  	DEF, COMBO_TERM_SLOW)
 
-			// caps word
+			// drawn seperately
 			COMBO(cword_l,	&caps_word,		11 12,		DEF, COMBO_TERM_SLOW)
 			COMBO(cword_r,	&caps_word,		17 18,		DEF, COMBO_TERM_SLOW)
-
-			// common symbols
-			COMBO(lt,       &kp LT,       	20 21,  	DEF, COMBO_TERM_NORMAL)
-			COMBO(gt,      	&kp GT,      	21 22,		DEF, COMBO_TERM_NORMAL)
-			COMBO(at,       UK_AT,       	 2  3,  	DEF, COMBO_TERM_NORMAL)
-			COMBO(dqt,      UK_DQT,      	 6  7,		DEF, COMBO_TERM_NORMAL)
-			COMBO(fslh,   	UK_FSLH,       	 7 16,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(bslh,     &kp BSLH,      	 2 13,		DEF, COMBO_TERM_NORMAL)
-			COMBO(excl,     &kp EXCL,    	24 25, 		DEF, COMBO_TERM_NORMAL)
-			COMBO(qmark,    &kp QMARK,    	23 24, 		DEF, COMBO_TERM_NORMAL)
-
-			// macros
-			COMBO(grave3,	&macro_grave3,	23 25, 		DEF, COMBO_TERM_NORMAL)
-			COMBO(nequal, 	&macro_nequal,	20 22, 		DEF, COMBO_TERM_NORMAL)
-
-			// functions
+			COMBO(fslh,   	UK_FSLH,       	 7 16,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(esc,		&kp ESC,		12 22, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(bspc,		&kp BSPC,		17 23, 		DEF, COMBO_TERM_NORMAL)
-			COMBO(sredo,	SHO_REDO,		 3  4,		DEF, COMBO_TERM_NORMAL)
 			COMBO(sundo,	SHO_UNDO,		13 14,		DEF, COMBO_TERM_NORMAL)
+			COMBO(sredo,	SHO_REDO,		 3  4,		DEF, COMBO_TERM_NORMAL)			
 		#endif
 	};
 };
