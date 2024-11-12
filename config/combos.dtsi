@@ -33,7 +33,7 @@ combo_##NAME { \
 			COMBO(lt,       &kp LT,       	20 21,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(gt,      	&kp GT,      	21 22,		DEF, COMBO_TERM_NORMAL)
 			COMBO(at,       UK_AT,       	 6  7,  	DEF, COMBO_TERM_NORMAL)
-			COMBO(smiley,	SMILEY,			 1  2,  	DEF, COMBO_TERM_NORMAL)
+			COMBO(mute_mic,	MUTE_MIC,		 1  2,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(star,     UK_HASH,      	 2  3,		DEF, COMBO_TERM_NORMAL)
 			COMBO(excl,     &kp EXCL,    	24 25, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(qmark,    &kp QMARK,    	23 24, 		DEF, COMBO_TERM_NORMAL)

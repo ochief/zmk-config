@@ -26,6 +26,10 @@ parse_config:
     DEL_WORD:         DEL WORD
     DESK_L:           DESK ←
     DESK_R:           DESK →
+    F2:               RENAME
+    F6:               URL BAR
+    F11:              FULL SCREEN
+    F12:              DEV TOOLS
     MUTE_MIC:         MIC MUTE
     NEW_LINE:         NEW LINE
     NUM_0:            '0'
