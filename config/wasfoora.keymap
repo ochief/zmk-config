@@ -43,7 +43,7 @@
 				#endif
 			>;
 		};
-&kp STAR
+
         Number_layer {
             label = "NUM";
 			bindings = <
