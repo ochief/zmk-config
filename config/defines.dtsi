@@ -24,7 +24,7 @@
 
 #define HRM_COMMA	&hm LSFT COMMA
 #define HRM_DOT		&hm LCTL DOT
-#define HRM_DQT     &hm LALT UK_DQT
+#define HRM_DQT     &hm LALT AT // UK
 #define HRM_MINUS	&hm LGUI MINUS
 
 #define CAD			&kp LC(LA(DEL))
@@ -58,7 +58,6 @@
 #define VOL_MUTE	&kp C_MUTE
 
 #define UK_AT		&kp DQT
-#define UK_DQT		&kp AT
 #define UK_FSLH		&kp FSLH
 #define UK_GRAVE	&kp TILDE
 #define UK_HASH		&kp GRAVE
