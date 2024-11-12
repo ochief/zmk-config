@@ -33,7 +33,7 @@ layers:
   - '9'
   - '8'
   - '7'
-  - +
+  - '|'
   - £
   - ;
   - ':'
@@ -43,7 +43,7 @@ layers:
   - '2'
   - '1'
   - '0'
-  - '*'
+  - '&'
   - $
   - {t: ',', h: Shift}
   - {t: ., h: Ctrl}
@@ -57,10 +57,10 @@ layers:
   - _
   - ''
   - ''
-  Navigation: [TAB, SLACK ←, '', SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F2, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE, ⌫, TAB ←,
-    TAB →, '', '']
-  Miscellaneous: [BOOT, PREV ←, PLAY, NEXT →, F11, F12, VOL ←, MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, C  A  D, SSHOT, INBOX, SLACK, ADMIN, BH, ^, '~', '`',
-    CAL, DESK ←, DESK →, '', '']
+  Navigation: [TAB, SLACK ←, SSHOT, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F2, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE, ⌫, TAB
+      ←, TAB →, '', '']
+  Miscellaneous: [BOOT, PREV ←, PLAY, NEXT →, F11, F12, VOL ←, VOL MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, C  A  D, MIC MUTE, INBOX, SLACK, ADMIN, BH, ^,
+    '~', '`', CAL, DESK ←, DESK →, '', '']
 combos:
 - p: [20, 21]
   k: <
@@ -69,16 +69,16 @@ combos:
   k: '>'
   l: [Default]
 - p: [6, 7]
-  k: '@'
+  k: +
   l: [Default]
 - p: [7, 8]
-  k: F6
+  k: '@'
   l: [Default]
 - p: [1, 2]
-  k: '|'
+  k: F6
   l: [Default]
 - p: [2, 3]
-  k: '&'
+  k: '*'
   l: [Default]
 - p: [24, 25]
   k: '!'
@@ -133,9 +133,8 @@ combos:
   l: [Default]
   draw_separate: true
 - p: [17, 23]
-  k: ⌫
+  k: ENTER
   l: [Default]
-  draw_separate: true
 - p: [13, 14]
   k: Undo
   l: [Default]
