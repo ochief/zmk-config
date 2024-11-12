@@ -24,6 +24,7 @@
 // maybe tidy up shape again
 // advanced https://github.com/caksoylar/zmk-config/blob/main/keymap-drawer/config.yaml
 // all numbers into mod morphs and hold taps (for navigating wavebox etc)?
+// move img files OR rename and have all in keymap-drawer!!!
 / {
 	keymap {
 		compatible = "zmk,keymap";
