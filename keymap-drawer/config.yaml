@@ -8,8 +8,8 @@ parse_config:
     '&macro_nequal':  <  >
     '&mm_new_tab':    NEW TAB
     '&mm_sqt_sqt':    "'"
-    
-    '___XXXX___':     {type: held}
+
+
     'XXXXXXXXXX':     ''
     '__________':     ''
     
@@ -62,6 +62,7 @@ parse_config:
     
 
   zmk_keycode_map:
+    '___XXXX___':     {type: held}      
     LCTL:             Ctrl
     LALT:             Alt
     LGUI:             Win
