@@ -9,12 +9,8 @@ parse_config:
     '&mm_new_tab':    NEW TAB
     '&mm_sqt_sqt':    "'"
 
-    '___XXXX___':     {type: held}
     THUMB_LEFT:       {type: held}
     THUMB_RIGHT:      {type: held}
-
-    'XXXXXXXXXX':     '1'
-    '__________':     '2'
     
     A_BULLHORN:       BH
     A_CALENDAR:       CAL

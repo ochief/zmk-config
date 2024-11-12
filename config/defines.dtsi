@@ -12,6 +12,9 @@
 #define ___XXXX___	&trans
 #define __________  &trans
 
+#define THUMB_LEFT  &kp L
+#define THUMB_RIGHT &kp R
+
 #define HRM_A		&hm LGUI A
 #define HRM_R		&hm LALT R
 #define HRM_S		&hm LCTL S

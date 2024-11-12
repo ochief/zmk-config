@@ -49,7 +49,7 @@
 				#ifndef KEYMAP_DRAWER				
 													__________	&lt NAV SPACE	&lt NUM E		__________
 				#else											
-															&lt NAV SPACE		&lt NUM E
+																&lt NAV SPACE	&lt NUM E
 				#endif
 			>;
 		};
