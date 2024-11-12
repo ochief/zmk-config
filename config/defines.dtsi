@@ -30,6 +30,7 @@
 #define CON_TWO		&bt BT_SEL 2
 #define CON_THREE	&bt BT_SEL 3
 #define DEL_WORD	&kp LC(BSPC)
+#define DOLLAR      &ht DOLLAR RA(5)
 #define DESK_L		&kp LC(LG(LEFT))
 #define DESK_R		&kp LC(LG(RIGHT))
 #define MUTE_MIC    &kp F9

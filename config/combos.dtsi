@@ -40,8 +40,8 @@ combo_##NAME { \
 			COMBO(grave,	UK_GRAVE,		 7 	8, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(grave3,	&macro_grave3,	 6  8, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(nequal, 	&macro_nequal,	20 22, 		DEF, COMBO_TERM_NORMAL)
-
-
+			COMBO(dollar,	UK_POUND,		15 16,		DEF, COMBO_TERM_NORMAL)	
+			COMBO(dollar,	DOLLAR,			15 16,		DEF, COMBO_TERM_NORMAL)
 
 			// brackets
 			COMBO(rbrc,     &kp RBRC,     	 3 13,  	DEF, COMBO_TERM_SLOW)

@@ -52,9 +52,9 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				&kp TAB		NUM_9		NUM_8		NUM_7		&kp PIPE			UK_POUND	&kp SEMI	&kp COLON	&kp STAR	&kp PERCENT
-				NUM_3		NUM_2		NUM_1		NUM_0		&kp AMPS			&kp DOLLAR	&kp COMMA 	&kp DOT		UK_DQT		&kp MINUS
-							NUM_6		NUM_5		NUM_4										&kp BSPC 	&kp EQUAL	&kp UNDER
+				&kp TAB		NUM_9		NUM_8		NUM_7		&kp STAR			&kp PLUS	&kp SEMI	&kp COLON	&kp AMPS	&mm_sqt_sqt
+				NUM_3		NUM_2		NUM_1		NUM_0		&kp EQUAL			&kp PERCENT	&kp COMMA 	&kp DOT		&kp MINUS	UK_DQT
+							NUM_6		NUM_5		NUM_4										&kp BSPC 	&kp UNDER	&kp PIPE
 
 				#ifndef KEYMAP_DRAWER
 													__________	__________			___XXXX___	__________
