@@ -63,7 +63,7 @@ layers:
   - SLACK THREAD
   - SLACK →
   - DEL
-  - CLOSE
+  - SMILEY
   - HOME ←
   - ↑
   - END →
@@ -97,20 +97,20 @@ layers:
   - VOL MUTE
   - VOL →
   - ''
-  - CLEAR
+  - BOOT
   - BT  3
   - BT  2
   - BT  1
-  - BOOT
-  - F12
-  - F6
+  - CLEAR
   - MIC MUTE
+  - F6
+  - F2
   - F11
-  - BOOT
+  - TASK MAN
   - ^
   - '~'
   - '`'
-  - F2
+  - CLOSE
   - DESK ←
   - DESK →
   - {type: held}
