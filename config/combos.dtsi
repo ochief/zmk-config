@@ -21,6 +21,7 @@ combo_##NAME { \
 
 #define COMBO_TERM_FAST 20
 #define COMBO_TERM_NORMAL 30
+
 #define COMBO_TERM_SLOW 40
 
 / {
@@ -89,10 +90,10 @@ combo_##NAME { \
 			COMBO(cword_r,	&caps_word,		17 18,		DEF NUM, COMBO_TERM_SLOW)
 			COMBO(bslh,     &kp BSLH,      	 2 13,		DEF NUM, COMBO_TERM_NORMAL)
 			COMBO(fslh,   	UK_FSLH,       	 7 16,  	DEF NUM, COMBO_TERM_NORMAL)
-			COMBO(esc,		&kp ESC,		12 22, 		DEF NUM, COMBO_TERM_NORMAL)
-			COMBO(enter,	&kp ENTER,		17 23, 		DEF NUM, COMBO_TERM_NORMAL)
-			COMBO(sundo,	SHO_UNDO,		13 14,		DEF NUM, COMBO_TERM_NORMAL)
-			COMBO(sredo,	SHO_REDO,		 3  4,		DEF NUM, COMBO_TERM_NORMAL)			
+			COMBO(esc,		&kp ESC,		12 22, 		DEF NUM NAV, COMBO_TERM_NORMAL)
+			COMBO(enter,	&kp ENTER,		17 23, 		DEF NUM NAV, COMBO_TERM_NORMAL)
+			COMBO(sundo,	SHO_UNDO,		13 14,		DEF NUM NAV, COMBO_TERM_NORMAL)
+			COMBO(sredo,	SHO_REDO,		 3  4,		DEF NUM NAV, COMBO_TERM_NORMAL)			
 		#endif
 	};
 };
