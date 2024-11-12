@@ -74,7 +74,7 @@ combo_##NAME { \
 			COMBO(grave3,	&macro_grave3,	 6  8, 		DEF NUM, COMBO_TERM_NORMAL)
 			COMBO(nequal, 	&macro_nequal,	20 22, 		DEF NUM, COMBO_TERM_NORMAL)
 			COMBO(pound,	UK_POUND,		 5  6,		DEF NUM, COMBO_TERM_NORMAL)	
-			COMBO(dollar,	DOLLAR,			15 16,		DEF NUM, COMBO_TERM_NORMAL)
+			COMBO(dollar,	MON_DOL,		15 16,		DEF NUM, COMBO_TERM_NORMAL)
 
 			// brackets
 			COMBO(rbrc,     &kp RBRC,     	 3 13,  	DEF NUM, COMBO_TERM_SLOW)

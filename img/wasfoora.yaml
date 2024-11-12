@@ -164,7 +164,7 @@ combos:
   k: £
   l: [Default]
 - p: [15, 16]
-  k: {t: AGr+ 5, h: $}
+  k: $
   l: [Default]
 - p: [3, 13]
   k: '}'
