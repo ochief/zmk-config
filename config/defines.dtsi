@@ -71,3 +71,14 @@
 #define A_GLADMIN	&kp F15
 #define A_INBOX		&kp F13
 #define A_SLACK		&kp F14
+
+#define NUM_0       &ht KP_N0 LC(LS(N0))
+#define NUM_1       &ht KP_N1 LC(LS(N1))
+#define NUM_2       &ht KP_N2 LC(LS(N2))
+#define NUM_3       &ht KP_N3 LC(LS(N3))
+#define NUM_4       &ht KP_N4 LC(LS(N4))
+#define NUM_5       &ht KP_N5 LC(LS(N5))
+#define NUM_6       &ht KP_N6 LC(LS(N6))
+#define NUM_7       &ht KP_N7 LC(LS(N7))
+#define NUM_8       &ht KP_N8 LC(LS(N8))
+#define NUM_9       &ht KP_N9 LC(LS(N9))
