@@ -6,7 +6,6 @@ parse_config:
     '&caps_word':     Caps Word
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
-    '&mm_new_tab':    NEW TAB
     '&mm_sqt_sqt':    "'"
     '&trans':         ''
 
@@ -18,7 +17,6 @@ parse_config:
     A_GLADMIN:        ADMIN
     A_INBOX:          INBOX
     A_SLACK:          SLACK
-    CAD:              C  A  D
     CLOSE:            CLOSE
     CON_ONE:          BT  1
     CON_TWO:          BT  2

@@ -27,17 +27,10 @@
 		bindings = <&kp>, <&kp>;
 	};
 
-	mm_new_tab: mm_new_tab_incognito {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <TAB_NEW>, <INCOGNITO>;
-		mods = <(MOD_LSFT|MOD_RSFT)>;
-	};
-
 	mm_sqt_sqt: mm_sqt_sqt {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp SQT>, <&kp SQT>;
-		mods = <(MOD_RSFT)>;
+		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 };

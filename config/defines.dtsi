@@ -25,7 +25,6 @@
 #define HRM_I		&hm LALT I
 #define HRM_O		&hm LGUI O
 
-#define CAD			&kp LC(LA(DEL))
 #define CLOSE		&ht LA(F4) LC(W)
 #define CON_ONE		&bt BT_SEL 1
 #define CON_TWO		&bt BT_SEL 2
@@ -33,7 +32,6 @@
 #define DEL_WORD	&kp LC(BSPC)
 #define DESK_L		&kp LC(LG(LEFT))
 #define DESK_R		&kp LC(LG(RIGHT))
-#define INCOGNITO	&kp LC(LS(N))
 #define MUTE_MIC    &kp F9
 #define NAV_SQT		&ht_sqt_nav NAV 0
 #define SCREEN_SHOT &kp LG(LS(S))
@@ -49,7 +47,6 @@
 #define SLACK_DN	&kp LA(LS(DOWN))
 #define SMILEY      &kp LG(DOT)
 #define TAB_PREV	&kp LC(PG_UP)
-#define TAB_NEW		&kp LC(T)
 #define TAB_NEXT	&kp LC(PG_DN)
 #define TASK_MAN	&kp LC(LS(ESC))
 #define THREAD      &kp LC(LS(T))
