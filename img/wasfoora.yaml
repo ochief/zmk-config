@@ -57,10 +57,10 @@ layers:
   - _
   - ''
   - ''
-  Navigation: [TAB, SLACK ←, SCREEN SHOT, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F2, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE,
+  Navigation: [TAB, SLACK ←, SLACK THREAD, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F6, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE,
     BSPC, TAB ←, TAB →, '', '']
-  Miscellaneous: [BOOT, PREV ←, PLAY/ PAUSE, NEXT →, F11, F12, VOL ←, VOL MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, C  A  D, MIC MUTE, INBOX, SLACK, ADMIN,
-    BH, ^, '~', '`', CAL, DESK ←, DESK →, '', '']
+  Miscellaneous: [BOOT, PREV ←, PLAY/ PAUSE, NEXT →, F11, F12, VOL ←, VOL MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, F2, MIC MUTE, INBOX, SLACK, ADMIN, BH, ^,
+    '~', '`', CAL, DESK ←, DESK →, '', '']
 combos:
 - p: [20, 21]
   k: <
@@ -68,14 +68,14 @@ combos:
 - p: [21, 22]
   k: '>'
   l: [Default]
-- p: [6, 7]
+- p: [7, 8]
   k: +
   l: [Default]
-- p: [7, 8]
+- p: [6, 7]
   k: '@'
   l: [Default]
 - p: [1, 2]
-  k: F6
+  k: C  A  D
   l: [Default]
 - p: [2, 3]
   k: '#'
