@@ -2,7 +2,7 @@ parse_config:
   raw_binding_map:
     '&lt NAV SPACE':  {t: SPACE, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
-    '&bootloader':    $$phosphor:boot$$
+    '&bootloader':    $$phosphor:bold/boot$$
     '&caps_word':     Caps Word
     '&macro_com_l':   '//'
     '&macro_com_l':   '/*  */'
@@ -21,10 +21,10 @@ parse_config:
     DEL_WORD:         DEL WORD
     DESK_L:           DESK ←
     DESK_R:           DESK →
-    MUTE_MIC:         $$phosphor:microphone-slash$$
+    MUTE_MIC:         $$phosphor:bold/microphone-slash$$
     NEW_LINE:         NEW LINE
     NUM_0:            '0'
-    NUM_1:            $$phosphor:number-one$$
+    NUM_1:            $$phosphor:bold/number-one$$
     NUM_2:            '2'
     NUM_3:            '3'
     NUM_4:            '4'
@@ -33,15 +33,15 @@ parse_config:
     NUM_7:            '7'
     NUM_8:            '8'
     NUM_9:            '9'
-    SCREEN_SHOT:      $$phosphor:camera$$
+    SCREEN_SHOT:      $$phosphor:bold/camera$$
     SEL_LINES:        SEL LINES
-    SHO_APP_SEL:      $$phosphor:swap$$
+    SHO_APP_SEL:      $$phosphor:bold/swap$$
     SHO_COPY:         COPY
-    SHO_CUT:          $$phosphor:scissors $$
+    SHO_CUT:          $$phosphor:bold/scissors $$
     SHO_PASTE:        PASTE
-    SHO_REDO:         $$phosphor:arrow-clockwise$$
-    SHO_SEL_ALL:      $$phosphor:selection-all$$
-    SHO_UNDO:         $$phosphor:arrow-counter-clockwise$$
+    SHO_REDO:         $$phosphor:bold/arrow-clockwise$$
+    SHO_SEL_ALL:      $$phosphor:bold/selection-all$$
+    SHO_UNDO:         $$phosphor:bold/arrow-counter-clockwise$$
     SLACK_DN:         SLACK →
     SLACK_UP:         SLACK ←
     SMILEY:           $$phosphor:smiley$$
@@ -53,9 +53,9 @@ parse_config:
     UK_GRAVE:         '`'
     UK_HASH:          '#'
     UK_POUND:         £
-    VOL_UP:           $$phosphor:speaker-high$$
-    VOL_DOWN:         $$phosphor:speaker-low$$
-    VOL_MUTE:         $$phosphor:speaker-slash$$
+    VOL_UP:           $$phosphor:bold/speaker-high$$
+    VOL_DOWN:         $$phosphor:bold/speaker-low$$
+    VOL_MUTE:         $$phosphor:bold/speaker-slash$$
 
   zmk_combos:
     combo_nequal:     {a: bottom, o: 0.3}
@@ -86,16 +86,16 @@ parse_config:
     F11:              FULL SCREEN
     F12:              DEV TOOLS
 
-    ENTER:            $$phosphor:key-return$$
-    C_PLAY:           $$phosphor:play-pause$$
-    C_PREV:           $$phosphor:skip-back$$
-    C_NEXT:           $$phosphor:skip-forward$$
+    ENTER:            $$phosphor:bold/key-return$$
+    C_PLAY:           $$phosphor:bold/play-pause$$
+    C_PREV:           $$phosphor:bold/skip-back$$
+    C_NEXT:           $$phosphor:bold/skip-forward$$
     BT_CLR:           CLEAR
 
-    UP:               $$phosphor:arrow-fat-up$$
-    DOWN:             $$phosphor:arrow-fat-down$$
-    LEFT:             $$phosphor:arrow-fat-left$$
-    RIGHT:            $$phosphor:arrow-fat-right$$
+    UP:               $$phosphor:bold/arrow-fat-up$$
+    DOWN:             $$phosphor:bold/arrow-fat-down$$
+    LEFT:             $$phosphor:bold/arrow-fat-left$$
+    RIGHT:            $$phosphor:bold/arrow-fat-right$$
 
     END:              END →
     HOME:             HOME ←
