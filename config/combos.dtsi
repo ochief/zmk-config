@@ -31,10 +31,10 @@ combo_##NAME { \
 
 			COMBO(lt,       &kp LT,       	20 21,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(gt,      	&kp GT,      	21 22,		DEF, COMBO_TERM_NORMAL)
-			COMBO(at,       UK_AT,       	 6  7,  	DEF, COMBO_TERM_NORMAL)
-			COMBO(f6,		&kp F6,			 7  8,  	DEF, COMBO_TERM_NORMAL)
-			COMBO(pipe,		&kp PIPE,		 1  2,		DEF, COMBO_TERM_NORMAL)
-			COMBO(amps,     &kp AMPS,      	 2  3,		DEF, COMBO_TERM_NORMAL)
+			COMBO(at,       &kp AMPS,      	 6  7,  	DEF, COMBO_TERM_NORMAL)
+			COMBO(f6,		&kp PIPE,		 7  8,  	DEF, COMBO_TERM_NORMAL)
+			COMBO(pipe,		&kp F6,		 	 1  2,		DEF, COMBO_TERM_NORMAL)
+			COMBO(amps,     UK_AT,      	 2  3,		DEF, COMBO_TERM_NORMAL)
 			COMBO(excl,     &kp EXCL,    	24 25, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(qmark,    &kp QMARK,    	23 24, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(grave3,	&macro_grave3,	23 25, 		DEF, COMBO_TERM_NORMAL)
@@ -54,7 +54,7 @@ combo_##NAME { \
 			COMBO(bslh,     &kp BSLH,      	 2 13,		DEF, COMBO_TERM_NORMAL)
 			COMBO(fslh,   	UK_FSLH,       	 7 16,  	DEF, COMBO_TERM_NORMAL)
 			COMBO(esc,		&kp ESC,		12 22, 		DEF, COMBO_TERM_NORMAL)
-			COMBO(bspc,		&kp BSPC,		17 23, 		DEF, COMBO_TERM_NORMAL)
+			COMBO(enter,	&kp ENTER,		17 23, 		DEF, COMBO_TERM_NORMAL)
 			COMBO(sundo,	SHO_UNDO,		13 14,		DEF, COMBO_TERM_NORMAL)
 			COMBO(sredo,	SHO_REDO,		 3  4,		DEF, COMBO_TERM_NORMAL)			
 		#endif

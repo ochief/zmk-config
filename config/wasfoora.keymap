@@ -23,8 +23,7 @@
 // capsword / capslock
 // maybe tidy up shape again
 // advanced https://github.com/caksoylar/zmk-config/blob/main/keymap-drawer/config.yaml
-// all numbers into mod morphs?
-// swap bspc and enter around, push hash to combo
+// all numbers into mod morphs and hold taps (for navigating wavebox etc)?
 / {
 	keymap {
 		compatible = "zmk,keymap";
@@ -62,7 +61,7 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				&kp TAB		SLACK_UP	__________	SLACK_DN	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		&kp F2
+				&kp TAB		SLACK_UP	SCREEN_SHOT	SLACK_DN	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		&kp F2
 				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSFT	SHO_SEL_ALL			&mm_new_tab	&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
 							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	TAB_PREV	TAB_NEXT
 
@@ -78,7 +77,7 @@
             label = "MIS";
             bindings = <
 				&bootloader	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	&kp F11				&kp F12		VOL_DOWN	VOL_MUTE	VOL_UP		CLOSE
-				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					SCREEN_SHOT	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
+				&bt BT_CLR	CON_THREE	CON_TWO		CON_ONE		CAD					MUTE_MIC	A_INBOX		A_SLACK		A_GLADMIN	A_BULLHORN
 							&kp CARET	UK_TILDE	UK_GRAVE									A_CALENDAR	DESK_L		DESK_R
 				
 				#ifndef KEYMAP_DRAWER				
