@@ -29,11 +29,11 @@ layers:
   - {t: SPACE, h: NAV}
   - {t: E, h: NUM}
   Number:
-  - +
+  - TAB
   - '9'
   - '8'
   - '7'
-  - '&'
+  - +
   - £
   - ;
   - ':'
@@ -43,11 +43,11 @@ layers:
   - '2'
   - '1'
   - '0'
-  - '|'
+  - '*'
   - $
   - {t: ',', h: Shift}
   - {t: ., h: Ctrl}
-  - {t: AT, h: Alt}
+  - {t: '"', h: Alt}
   - {t: '-', h: Win}
   - '6'
   - '5'
@@ -57,7 +57,7 @@ layers:
   - _
   - ''
   - ''
-  Navigation: [F2, SLACK ←, TAB, SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F6, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE, ENTER, TAB
+  Navigation: [TAB, SLACK ←, '', SLACK →, DEL, DEL WORD, HOME ←, ↑, END →, F2, Win, Alt, Ctrl, Shift, SEL ALL, NEW TAB, ←, ↓, →, SWAP, CUT, COPY, PASTE, ENTER, TAB
       ←, TAB →, '', '']
   Miscellaneous: [BOOT, PREV ←, PLAY, NEXT →, F11, F12, VOL ←, MUTE, VOL →, CLOSE, CLEAR, BT  3, BT  2, BT  1, C  A  D, SSHOT, INBOX, SLACK, ADMIN, BH, ^, '~', '`',
     CAL, DESK ←, DESK →, '', '']
@@ -68,11 +68,17 @@ combos:
 - p: [21, 22]
   k: '>'
   l: [Default]
-- p: [2, 3]
-  k: '"'
-  l: [Default]
 - p: [6, 7]
-  k: '*'
+  k: '@'
+  l: [Default]
+- p: [7, 8]
+  k: F6
+  l: [Default]
+- p: [1, 2]
+  k: '|'
+  l: [Default]
+- p: [2, 3]
+  k: '&'
   l: [Default]
 - p: [24, 25]
   k: '!'
