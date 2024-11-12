@@ -4,8 +4,6 @@ parse_config:
     '&lt NUM E':      {t: E, h: NUM}
     '&bootloader':    BOOT
     '&caps_word':     Caps Word
-    '&macro_com_l':   '//'
-    '&macro_com_l':   '/*  */'
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
     '&mm_sqt_sqt':    "'"
@@ -21,6 +19,7 @@ parse_config:
     DEL_WORD:         DEL WORD
     DESK_L:           DESK ←
     DESK_R:           DESK →
+    DOLLAR:           $
     MUTE_MIC:         MIC MUTE
     NEW_LINE:         NEW LINE
     NUM_0:            '0'
