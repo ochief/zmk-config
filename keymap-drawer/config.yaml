@@ -4,6 +4,8 @@ parse_config:
     '&lt NUM E':      {t: E, h: NUM}
     '&bootloader':    BOOT
     '&caps_word':     Caps Word
+    '&macro_com_l':   '//'
+    '&macro_com_l':   '/*  */'
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
     '&mm_sqt_sqt':    "'"
@@ -68,6 +70,8 @@ parse_config:
 
     combo_bslh:       {draw_separate: true}
     combo_fslh:       {draw_separate: true}
+    combo_com_lin:   {draw_separate: true}
+    combo_com_blo:   {draw_separate: true}
     combo_cword_l:    {draw_separate: true}
     combo_cword_r:    {draw_separate: true}
     combo_esc:        {draw_separate: true}

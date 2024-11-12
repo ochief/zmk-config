@@ -83,7 +83,7 @@
             label = "MIS";
             bindings = <
 				__________	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	__________			__________	VOL_DOWN	VOL_MUTE	VOL_UP		__________
-				&bootloader	CON_THREE	CON_TWO		CON_ONE		&bt BT_CLR			MUTE_MIC	&kp F6		&kp F2		&kp F11		TASK_MAN		
+				&bootloader	CON_THREE	CON_TWO		CON_ONE		&bt BT_CLR			&kp F2		&kp F6		MUTE_MIC	&kp F11		TASK_MAN		
 							&kp CARET	UK_TILDE	UK_GRAVE									CLOSE		DESK_L		DESK_R
 				
 				#ifndef KEYMAP_DRAWER				
