@@ -39,8 +39,8 @@ parse_config:
     SLACK_UP:         SLACK ←
     TAB_NEXT:         TAB →
     TAB_PREV:         TAB ←
-    UK_AT:            '"'
-    UK_DQT:           '@'
+    UK_AT:            '@'
+    UK_DQT:           '"'
     UK_GRAVE:         '`'
     UK_HASH:          '#'
     UK_POUND:         £
