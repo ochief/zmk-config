@@ -63,7 +63,7 @@ layers:
   - SLACK THREAD
   - SLACK →
   - DEL
-  - DEL WORD
+  - SMILEY
   - HOME ←
   - ↑
   - END →
@@ -73,7 +73,7 @@ layers:
   - Ctrl
   - Shift
   - SEL ALL
-  - NEW TAB
+  - DEL WORD
   - ←
   - ↓
   - →
@@ -87,30 +87,30 @@ layers:
   - {type: held}
   - ''
   Miscellaneous:
-  - BOOT
+  - ''
   - PREV ←
   - PLAY/ PAUSE
   - NEXT →
-  - F11
-  - F12
+  - ''
+  - ''
   - VOL ←
   - VOL MUTE
   - VOL →
-  - CLOSE
-  - CLEAR
+  - ''
+  - BOOT
   - BT  3
   - BT  2
   - BT  1
-  - F2
+  - CLEAR
   - MIC MUTE
-  - INBOX
-  - SLACK
-  - ADMIN
-  - BH
+  - F6
+  - F2
+  - F11
+  - TASK MAN
   - ^
   - '~'
   - '`'
-  - CAL
+  - CLOSE
   - DESK ←
   - DESK →
   - {type: held}
