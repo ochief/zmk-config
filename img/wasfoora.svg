@@ -250,12 +250,12 @@ path.combo {
 <text x="180" y="140" class="combo tap">&gt;</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="166" y="15" width="28" height="26" class="combo"/>
-<text x="180" y="28" class="combo tap">&quot;</text>
+<rect rx="6" ry="6" x="496" y="15" width="28" height="26" class="combo"/>
+<text x="510" y="28" class="combo tap">@</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="496" y="15" width="28" height="26" class="combo"/>
-<text x="510" y="28" class="combo tap">*</text>
+<rect rx="6" ry="6" x="166" y="15" width="28" height="26" class="combo"/>
+<text x="180" y="28" class="combo tap">*</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="556" y="127" width="28" height="26" class="combo"/>

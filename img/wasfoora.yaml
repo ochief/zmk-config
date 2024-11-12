@@ -68,10 +68,10 @@ combos:
 - p: [21, 22]
   k: '>'
   l: [Default]
-- p: [2, 3]
-  k: '"'
-  l: [Default]
 - p: [6, 7]
+  k: '@'
+  l: [Default]
+- p: [2, 3]
   k: '*'
   l: [Default]
 - p: [24, 25]
