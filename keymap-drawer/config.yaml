@@ -40,6 +40,7 @@ parse_config:
     SLACK_UP:         SLACK ←
     TAB_NEXT:         TAB →
     TAB_PREV:         TAB ←
+    THREAD:           SLACK THREAD
     UK_AT:            '@'
     UK_GRAVE:         '`'
     UK_HASH:          '#'

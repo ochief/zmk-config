@@ -52,6 +52,7 @@
 #define TAB_NEW		&kp LC(T)
 #define TAB_NEXT	&kp LC(PG_DN)
 #define TASK_MAN	&kp LC(LS(ESC))
+#define THREAD      &kp LC(LS(T))
 
 #define VOL_DOWN 	&kp C_VOL_DN
 #define VOL_UP		&kp C_VOL_UP
