@@ -24,8 +24,8 @@ layers:
   - W
   - F
   - M
-  - ''
-  - ''
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
   - {t: SPACE, h: NAV}
   - {t: E, h: NUM}
   Number:
