@@ -41,7 +41,7 @@
             label = "NUM";
 			bindings = <
 				XXXXXXXXXX	__________	__________	__________	__________			__________	__________	__________	__________	XXXXXXXXXX
-				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	&kp BSPC
 							__________	__________	__________                                  __________	__________	__________
 
 				#ifndef KEYMAP_DRAWER
@@ -56,8 +56,8 @@
             label = "NAV";
 			bindings = <
 				XXXXXXXXXX	__________	__________	__________	__________			__________	NAV_SWITCHL	NAV_UP		NAV_SWITCHR	XXXXXXXXXX
-				&kp LGUI	&kp LALT	&kp LCTL	&kp LSFT	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_SWAP
-							__________	__________	&kp RSFT									__________	__________	__________			
+				&kp LGUI	&kp LALT	&kp LCTL	HRM_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	&kp BSPC
+							__________	__________	&kp RSFT									NAV_SEL_L	NAV_SEL_L	__________			
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX

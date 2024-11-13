@@ -21,6 +21,8 @@
 #define HRM_I		&hm LALT I
 #define HRM_O		&hm LGUI O
 
+#define NAV_SWAP    &hm LSFT NAV_SWAP
+
 // mod morphs
 #define COM_SEM     &mm_com_sem
 #define DOT_COL     &mm_dot_col
@@ -32,7 +34,7 @@
 #define NAV_RIGHT   &mm_right_end
 
 // core defines
-#define NAV_SWAP    &kp LC(LA(TAB))
+#define NAV_SWAP    LC(LA(TAB))
 #define DESK_L		&kp LC(LG(LEFT))
 #define DESK_R		&kp LC(LG(RIGHT))
 #define TAB_PREV	&kp LC(PG_UP)
