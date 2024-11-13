@@ -44,14 +44,14 @@
 		mods = <(MOD_LSFT)>;
 	};
 
-	mm_switch_left: mod_morph_slack_left_desk_left {
+	mm_switch_left: mod_morph_slack_desk_left {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <SLA_PREV>, <DESK_L>;
 		mods = <(MOD_LSFT)>;
 	};
 
-	mm_switch_right: mod_morph_slack_right_desk_right {
+	mm_switch_right: mod_morph_slack_desk_right {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <SLA_NEXT>, <DESK_R>;
