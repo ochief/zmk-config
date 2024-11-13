@@ -44,6 +44,20 @@
 		mods = <(MOD_LSFT)>;
 	};
 
+	mm_switch_left: mod_morph_tab_left_desk_left {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <TAB_PREV>, <DESK_L>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_switch_right: mod_morph_tab_right_desk_right {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <TAB_NEXT>, <DESK_R>;
+		mods = <(MOD_LSFT)>;
+	};
+
 	mm_up_pgup: mod_morph_up_pageup {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
