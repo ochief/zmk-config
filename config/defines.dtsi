@@ -29,7 +29,7 @@
 #define NAV_DOWN    &mm_down_pgdn
 #define NAV_LEFT    &mm_left_home
 #define NAV_RIGHT   &mm_right_end
-#define NAV_SWAP    &hm LSFT NAV_SWAP
+#define NAV_SWAP    &hm LSFT SWAPPER
 
 // number
 #define NUM_N0       &kp N0
@@ -50,6 +50,7 @@
 #define DESK_R		&kp LC(LG(RIGHT))
 #define TAB_PREV	&kp LC(PG_UP)
 #define TAB_NEXT	&kp LC(PG_DN)
+#define SWAPPER     LC(LA(TAB))
 
 // other
 #define XXXXXXXXXX	&none
