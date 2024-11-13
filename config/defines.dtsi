@@ -1,29 +1,42 @@
+// includes
 #include			<behaviors.dtsi>
 #include			<dt-bindings/zmk/keys.h>
 #include			<dt-bindings/zmk/bt.h>
 #include			<dt-bindings/zmk/outputs.h>
 
+// layers
 #define DEF			0
 #define NUM 		1
 #define NAV 		2
 #define MIS			3
 
+// home row mods
+#define HRM_R		&hm LGUI R
+#define HRM_S		&hm LALT S
+#define HRM_T		&hm LCTL T
+#define HRM_H		&hm LSFT H
+
+#define HRM_N		&hm LSFT N
+#define HRM_A		&hm LCTL A
+#define HRM_I		&hm LALT I
+#define HRM_O		&hm LGUI O
+
+// mod morphs
+#define COM_SEM     &mm_com_sem
+#define DOT_COL     &mm_dot_col
+#define UP          &mm_up_pgup
+#define DOWN        &mm_down_pgdn
+#define LEFT        &mm_left_home
+#define RIGHT       &mm_right_end
+
+// core defines
+#define SWAPPER     &kp LC(LA(TAB))
+
+// misc
 #define XXXXXXXXXX	&none
 #define ___XXXX___	&trans
 #define __________  &trans
 
+// keymap drawer
 #define THUMB_LEFT  &kp F23
 #define THUMB_RIGHT &kp F24
-
-#define HRM_R		&hm LGUI A
-#define HRM_S		&hm LALT R
-#define HRM_T		&hm LCTL S
-#define HRM_H		&hm LSFT T
-
-#define HRM_N		&hm LSFT N
-#define HRM_A		&hm LCTL H
-#define HRM_I		&hm LALT I
-#define HRM_O		&hm LGUI O
-
-#define COM_SEM     &mm_com_sem
-#define DOT_COL     &mm_dot_col

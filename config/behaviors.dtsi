@@ -1,6 +1,7 @@
 &caps_word	{ continue-list = <BACKSPACE UNDER MINUS N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>; };
 
 / {	
+	/******************** LAYERS     ********************/	
 	conditional_layers {
 		compatible = "zmk,conditional-layers";
 		tri_layer {
@@ -9,6 +10,7 @@
 		};
 	};
 
+	/******************** HOLD TAPS  ********************/
 	hm: homerow_mod {
 		compatible = "zmk,behavior-hold-tap";
 		label = "HOMEROW_MODS";
@@ -27,17 +29,46 @@
 		bindings = <&kp>, <&kp>;
 	};
 
+	/******************** MOD MORPHS ********************/
 	mm_com_sem: mod_morph_comma_semicolon {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp COMMA>, <&kp SEMI>;
-		mods = <(MOD_LSFT|MOD_RSFT)>;
+		mods = <(MOD_LSFT)>;
 	};
 
 	mm_dot_col: mod_morph_dot_colon {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp DOT>, <&kp COLON>;
-		mods = <(MOD_LSFT|MOD_RSFT)>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_up_pgup: mod_morph_up_pageup {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp UP>, <&kp PG_UP>;
+		mods = <(MOD_RSFT)>;
+	};
+
+	mm_down_pgdn: mod_morph_up_pagedown {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp DOWN>, <&kp PG_DN>;
+		mods = <(MOD_RSFT)>;
+	};
+
+	mm_left_home: mod_morph_left_home {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LEFT>, <&kp HOME>;
+		mods = <(MOD_RSFT)>;
+	};
+
+	mm_right_end: mod_morph_right_end {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp RIGHT>, <&kp END>;
+		mods = <(MOD_RSFT)>;
 	};
 };
