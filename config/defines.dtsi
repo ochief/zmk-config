@@ -25,7 +25,7 @@
 #define COM_SEM     &mm_com_sem
 #define DOT_COL     &mm_dot_col
 #define NAV_SWITCHL &mm_switch_left
-#define NAV_SWITCHL &mm_switch_right
+#define NAV_SWITCHR &mm_switch_right
 #define NAV_UP      &mm_up_pgup
 #define NAV_DOWN    &mm_down_pgdn
 #define NAV_LEFT    &mm_left_home
