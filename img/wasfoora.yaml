@@ -10,14 +10,14 @@ layers:
   - U
   - Y
   - ''
-  - {t: A, h: Win}
-  - {t: R, h: Alt}
-  - {t: S, h: Ctrl}
-  - {t: T, h: Shift}
+  - {t: R, h: Win}
+  - {t: S, h: Alt}
+  - {t: T, h: Ctrl}
+  - {t: H, h: Shift}
   - P
   - V
   - {t: N, h: Shift}
-  - {t: H, h: Ctrl}
+  - {t: A, h: Ctrl}
   - {t: I, h: Alt}
   - {t: O, h: Win}
   - B
@@ -36,22 +36,22 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ↑, s: PG UP}
   - ''
   - ''
+  - Win
+  - Alt
+  - Ctrl
+  - Shift
   - ''
   - ''
+  - {t: ←, s: HOME ←}
+  - {t: ↓, s: PG DN}
+  - {t: →, s: END →}
+  - Ctl+Alt+ TAB
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - RSFT
   - ''
   - ''
   - ''
