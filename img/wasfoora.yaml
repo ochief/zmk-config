@@ -35,9 +35,9 @@ layers:
   - ''
   - ''
   - ''
-  - '1'
-  - '2'
-  - '3'
+  - {t: '7', h: Ctl+Sft+ 7}
+  - {t: '8', h: Ctl+Sft+ 8}
+  - {t: '9', h: Ctl+Sft+ 9}
   - ''
   - ''
   - ''
@@ -45,16 +45,16 @@ layers:
   - ''
   - ''
   - ''
-  - '0'
-  - '1'
-  - '2'
-  - '3'
+  - {t: '0', h: Ctl+Sft+ 0}
+  - {t: '1', h: Ctl+Sft+ 1}
+  - {t: '2', h: Ctl+Sft+ 2}
+  - {t: '3', h: Ctl+Sft+ 3}
   - ''
   - ''
   - ''
-  - '4'
-  - '5'
-  - '6'
+  - {t: '4', h: Ctl+Sft+ 4}
+  - {t: '5', h: Ctl+Sft+ 5}
+  - {t: '6', h: Ctl+Sft+ 6}
   - ''
   - {type: held}
   Navigation:
@@ -62,8 +62,8 @@ layers:
   - Ctl+ PG UP
   - TAB
   - Ctl+ PG DN
-  - ''
-  - ''
+  - DEL
+  - Ctl+ DEL
   - {t: Alt+Sft+ ↑, s: Ctl+Gui+ ←}
   - {t: ↑, s: PG UP}
   - {t: Alt+Sft+ ↓, s: Ctl+Gui+ →}
@@ -72,15 +72,15 @@ layers:
   - Alt
   - Ctrl
   - {t: Ctl+Alt+ TAB, h: Shift}
-  - ''
-  - ''
+  - Ctl+ A
+  - Gui+ .
   - {t: ←, s: HOME ←}
   - {t: ↓, s: PG DN}
   - {t: →, s: END →}
   - ''
-  - ''
-  - ''
-  - {t: Ctl+ V, h: RSFT}
+  - Ctl+ X
+  - {t: Ctl+ C, h: RSFT}
+  - {t: Ctl+ LS, h: Ctl+ V}
   - Ctl+Sft+ ←
   - Sft+Ctl+ →
   - Alt+Sft+ I
