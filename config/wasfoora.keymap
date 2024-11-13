@@ -26,7 +26,7 @@
             label = "DEF";
             bindings = <
 				XXXXXXXXXX	&kp C		&kp G		&kp D		&kp K				&kp J		&kp L		&kp U		&kp Y		XXXXXXXXXX
-				HRM_R		HRM_S		HRM_T		HRM_H		&kp P				&kp V		HRM_N		HRM_A		HRM_I		HRM_O
+				DEF_R		DEF_S		DEF_T		DEF_H		&kp P				&kp V		HRM_N		HRM_A		HRM_I		HRM_O
 							&kp B		&kp W		&kp F                                       &kp M		DEF_COMMA	DEF_DOT
 
 				#ifndef KEYMAP_DRAWER				
@@ -56,7 +56,7 @@
             label = "NAV";
 			bindings = <
 				XXXXXXXXXX	__________	__________	__________	__________			__________	NAV_SWITCHL	NAV_UP		NAV_SWITCHR	XXXXXXXXXX
-				&kp LGUI	&kp LALT	&kp LCTL	HRM_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	__________
+				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	__________
 							__________	__________	&kp RSFT									NAV_SEL_L	NAV_SEL_L	__________			
 
 				#ifndef KEYMAP_DRAWER
