@@ -23,18 +23,16 @@
 #define DEF_DOT     &mm_dot_col
 
 // navigation
-#define NAV_PASTE   &ht LC(V) LC(LS)
-#define NAV_SWAP    &hm LSFT LC(LA(TAB))
-#define NAV_COPY    &hm RSFT LC(C)
-
 #define NAV_SEL_LE  &kp LC(LS(LEFT))
 #define NAV_SEL_RI  &kp LS(LC(RIGHT))
-#define NAV_SEL_UP  &kp LS(LC(UP_ARROW))
 #define NAV_SEL_LI  &kp LA(LS(I))
 #define NAV_TAB_LE  &kp LC(PG_UP)
 #define NAV_TAB_RI  &kp LC(PG_DN)
 #define NAV_CUT     &kp LC(X)
-#define NAV_SEL_AL  &kp LC(A)
+#define NAV_COPY    &hm RSFT LC(C)
+#define NAV_PASTE   &none // &ht LC(V) LC(LS)
+#define NAV_SWAP    &hm LSFT LC(LA(TAB))
+#define NAV_SEL_AL  &none // &kp LC(A)
 #define NAV_SMILEY  &kp LG(DOT)
 #define NAV_DELWRD  &kp LC(DEL)
 
