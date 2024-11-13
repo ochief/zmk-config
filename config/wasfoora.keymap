@@ -20,7 +20,7 @@
 
 / {
 	keymap {
-		compatible = "iazmk,keymap";
+		compatible = "zmk,keymap";
 
 		Default_layer {
             label = "DEF";
