@@ -35,6 +35,9 @@ layers:
   - ''
   - ''
   - ''
+  - '1'
+  - '2'
+  - '3'
   - ''
   - ''
   - ''
@@ -42,19 +45,16 @@ layers:
   - ''
   - ''
   - ''
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '4'
+  - '5'
+  - '6'
   - ''
   - {type: held}
   Navigation:
@@ -71,19 +71,19 @@ layers:
   - Win
   - Alt
   - Ctrl
-  - Shift
+  - {t: Ctl+Alt+ TAB, h: Shift}
   - ''
   - ''
   - {t: ←, s: HOME ←}
   - {t: ↓, s: PG DN}
   - {t: →, s: END →}
-  - Ctl+Alt+ TAB
+  - Sft+Ctl+ UP ARROW
   - ''
   - ''
   - RSFT
-  - ''
-  - ''
-  - ''
+  - Ctl+Sft+ ←
+  - Sft+Ctl+ →
+  - Sft+Ctl+ UP ARROW
   - {type: held}
   - ''
   Miscellaneous:

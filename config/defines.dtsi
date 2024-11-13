@@ -23,13 +23,17 @@
 #define DEF_DOT     &mm_dot_col
 
 // navigation
-#define NAV_SEL_L   &mm_switch_left
-#define NAV_SEL_R   &mm_switch_right
+#define NAV_SWI_LE  &mm_switch_left
+#define NAV_SWI_RI  &mm_switch_right
 #define NAV_UP      &mm_up_pgup
 #define NAV_DOWN    &mm_down_pgdn
 #define NAV_LEFT    &mm_left_home
 #define NAV_RIGHT   &mm_right_end
 #define NAV_SWAP    &hm LSFT SWAPPER
+#define NAV_SEL_LE  &kp LC(LS(LEFT))
+#define NAV_SEL_RI  &kp LS(LC(RIGHT))
+#define NAV_SEL_UP  &kp LS(LC(UP_ARROW))
+#define NAV_SEL_LI  &kp LA(LS(I))
 
 // number
 #define NUM_N0       &kp N0

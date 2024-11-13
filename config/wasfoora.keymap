@@ -55,9 +55,9 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				XXXXXXXXXX	__________	__________	__________	__________			__________	NAV_SWITCHL	NAV_UP		NAV_SWITCHR	XXXXXXXXXX
-				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	__________
-							__________	__________	&kp RSFT									NAV_SEL_L	NAV_SEL_L	__________			
+				XXXXXXXXXX	__________	__________	__________	__________			__________	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
+				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_SEL_UP
+							__________	__________	&kp RSFT									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_UP			
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX
