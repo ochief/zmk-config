@@ -47,15 +47,15 @@
 
 // number
 #define NUM_N0       &ht LC(LS(N0)) N0
-#define NUM_N1       &kp LC(LS(N1)) N1
-#define NUM_N2       &kp LC(LS(N2)) N2
-#define NUM_N3       &kp LC(LS(N3)) N3
-#define NUM_N4       &kp LC(LS(N4)) N4
-#define NUM_N5       &kp LC(LS(N5)) N5
-#define NUM_N6       &kp LC(LS(N6)) N6
-#define NUM_N7       &kp LC(LS(N7)) N7
-#define NUM_N8       &kp LC(LS(N8)) N8
-#define NUM_N9       &kp LC(LS(N9)) N9
+#define NUM_N1       &ht LC(LS(N1)) N1
+#define NUM_N2       &ht LC(LS(N2)) N2
+#define NUM_N3       &ht LC(LS(N3)) N3
+#define NUM_N4       &ht LC(LS(N4)) N4
+#define NUM_N5       &ht LC(LS(N5)) N5
+#define NUM_N6       &ht LC(LS(N6)) N6
+#define NUM_N7       &ht LC(LS(N7)) N7
+#define NUM_N8       &ht LC(LS(N8)) N8
+#define NUM_N9       &ht LC(LS(N9)) N9
 
 // miscellaneous
 
