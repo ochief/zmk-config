@@ -34,7 +34,7 @@
 		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 
-	mm_dot_col: mod_morph_comma_semicolon {
+	mm_dot_col: mod_morph_dot_colon {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp DOT>, <&kp COLON>;
