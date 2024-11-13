@@ -10,38 +10,48 @@
 #define NAV 		2
 #define MIS			3
 
-// home row mods
-#define HRM_R		&hm LGUI R
-#define HRM_S		&hm LALT S
-#define HRM_T		&hm LCTL T
-#define HRM_H		&hm LSFT H
+// default
+#define DEF_R		&hm LGUI R
+#define DEF_S		&hm LALT S
+#define DEF_T		&hm LCTL T
+#define DEF_H		&hm LSFT H
+#define DEF_N		&hm LSFT N
+#define DEF_A		&hm LCTL A
+#define DEF_I		&hm LALT I
+#define DEF_O		&hm LGUI O
+#define DEF_COMMA   &mm_com_sem
+#define DEF_DOT     &mm_dot_col
 
-#define HRM_N		&hm LSFT N
-#define HRM_A		&hm LCTL A
-#define HRM_I		&hm LALT I
-#define HRM_O		&hm LGUI O
-
-#define NAV_SWAP    &hm LSFT NAV_SWAP
-
-// mod morphs
-#define COM_SEM     &mm_com_sem
-#define DOT_COL     &mm_dot_col
+// navigation
 #define NAV_SWITCHL &mm_switch_left
 #define NAV_SWITCHR &mm_switch_right
 #define NAV_UP      &mm_up_pgup
 #define NAV_DOWN    &mm_down_pgdn
 #define NAV_LEFT    &mm_left_home
 #define NAV_RIGHT   &mm_right_end
+#define NAV_SWAP    &hm LSFT NAV_SWAP
 
-// core defines
-#define NAV_SWAP    LC(LA(TAB))
+// number
+#define NUM_0       &kp N0
+#define NUM_1       &kp N1
+#define NUM_2       &kp N2
+#define NUM_3       &kp N3
+#define NUM_4       &kp N4
+#define NUM_5       &kp N5
+#define NUM_6       &kp N6
+#define NUM_7       &kp N7
+#define NUM_8       &kp N8
+#define NUM_9       &kp N9
+
+// miscellaneous
+
+// referenced
 #define DESK_L		&kp LC(LG(LEFT))
 #define DESK_R		&kp LC(LG(RIGHT))
 #define TAB_PREV	&kp LC(PG_UP)
 #define TAB_NEXT	&kp LC(PG_DN)
 
-
-// misc
+// other
 #define XXXXXXXXXX	&none
 #define ___XXXX___	&trans
 #define __________  &trans
