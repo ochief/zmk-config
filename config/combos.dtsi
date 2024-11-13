@@ -26,6 +26,8 @@ combo_##NAME { \
 
 / {
     combos {
+
+	/*	
 		compatible = "zmk,combos";
 
 		#ifdef KEYMAP_DRAWER
@@ -96,4 +98,5 @@ combo_##NAME { \
 			COMBO(sredo,	SHO_REDO,		 3  4,		DEF NUM NAV, COMBO_TERM_NORMAL)			
 		#endif
 	};
+	*/
 };

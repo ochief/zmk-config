@@ -4,9 +4,12 @@
 #include			<dt-bindings/zmk/outputs.h>
 
 #define DEF			0
+
+/*
 #define NUM 		1
 #define NAV 		2
 #define MIS			3
+*/
 
 #define XXXXXXXXXX	&none
 #define ___XXXX___	&trans
@@ -15,16 +18,21 @@
 #define THUMB_LEFT  &kp F23
 #define THUMB_RIGHT &kp F24
 
-#define HRM_A		&hm LGUI A
-#define HRM_R		&hm LALT R
-#define HRM_S		&hm LCTL S
-#define HRM_T		&hm LSFT T
+#define HRM_R		&hm LGUI A
+#define HRM_S		&hm LALT R
+#define HRM_T		&hm LCTL S
+#define HRM_H		&hm LSFT T
 
 #define HRM_N		&hm LSFT N
-#define HRM_H		&hm LCTL H
+#define HRM_A		&hm LCTL H
 #define HRM_I		&hm LALT I
 #define HRM_O		&hm LGUI O
 
+#define COM_SEM     &smm COMMA SEMI
+#define DOT_COL     &smm DOT COLON
+
+
+/*
 #define CLOSE		&ht LA(F4) LC(W)
 #define CON_ONE		&bt BT_SEL 1
 #define CON_TWO		&bt BT_SEL 2
@@ -75,3 +83,4 @@
 #define NUM_7       &ht KP_N7 LC(LS(N7))
 #define NUM_8       &ht KP_N8 LC(LS(N8))
 #define NUM_9       &ht KP_N9 LC(LS(N9))
+*/

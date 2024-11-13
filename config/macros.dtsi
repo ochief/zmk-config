@@ -12,8 +12,6 @@
 /* macro: */
 / {
 	macros {
-		MACRO(macro_com_l,	&macro_tap UK_FSLH UK_FSLH,	0, 0)
-		MACRO(macro_com_b,	&macro_tap UK_FSLH &kp STAR &kp ENTER &kp ENTER &kp STAR UK_FSLH &kp UP, 0, 0)
 		MACRO(grave3,		&macro_tap &kp GRAVE &kp GRAVE &kp GRAVE, 0, 0)
 		MACRO(nequal,		&macro_tap &kp LT &kp GT, 0, 0)
 	};

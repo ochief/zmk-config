@@ -32,18 +32,18 @@
 		Default_layer {
             label = "DEF";
             bindings = <
-				&kp K		&kp W		&kp C		&kp D		&kp B				&kp J		&kp L		&kp U		&kp Y		&mm_sqt_sqt
-				HRM_A		HRM_R		HRM_S		HRM_T		&kp P				&kp X		HRM_N		HRM_H		HRM_I		HRM_O
-							&kp V		&kp F		&kp G                                       &kp M		&kp Q		&kp Z
+				XXXXXXXXXX	&kp C		&kp G		&kp D		&kp K				&kp J		&kp L		&kp U		&kp Y		XXXXXXXXXX
+				HRM_R		HRM_S		HRM_T		HRM_H		&kp P				&kp V		HRM_N		HRM_A		HRM_I		HRM_O
+							&kp B		&kp W		&kp F                                       &kp M		&mm COM_SEM	&mm DOT_COL
 
 				#ifndef KEYMAP_DRAWER				
-													__________	&lt NAV SPACE	&lt NUM E		__________
+													XXXXXXXXXX	&lt NAV SPACE	&lt NUM E		XXXXXXXXXX
 				#else											
 																&lt NAV SPACE	&lt NUM E
 				#endif
 			>;
 		};
-
+		/*
         Number_layer {
             label = "NUM";
 			bindings = <
@@ -89,4 +89,5 @@
 			>;
 		};
 	};
+	*/
 };
