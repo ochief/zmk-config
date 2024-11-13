@@ -40,8 +40,8 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	__________	__________	__________	__________			__________	__________	UP			__________	XXXXXXXXXX
-				&kp LGUI	&kp LATL	&kp LCTL	&kp LSFT	__________			__________	LEFT		DOWN		RIGHT		SWAPPER
+				XXXXXXXXXX	__________	__________	__________	__________			__________	__________	NAV_UP		__________	XXXXXXXXXX
+				&kp LGUI	&kp LATL	&kp LCTL	&kp LSFT	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_SWAP
 							__________	__________	&kp RSFT									__________	__________	__________
 
 				#ifndef KEYMAP_DRAWER
