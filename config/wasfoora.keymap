@@ -26,7 +26,7 @@
             label = "DEF";
             bindings = <
 				XXXXXXXXXX	&kp C		&kp G		&kp D		&kp K				&kp J		&kp L		&kp U		&kp Y		XXXXXXXXXX
-				DEF_R		DEF_S		DEF_T		DEF_H		&kp P				&kp V		HRM_N		HRM_A		HRM_I		HRM_O
+				DEF_R		DEF_S		DEF_T		DEF_H		&kp P				&kp V		DEF_N		DEF_A		DEF_I		DEF_O
 							&kp B		&kp W		&kp F                                       &kp M		DEF_COMMA	DEF_DOT
 
 				#ifndef KEYMAP_DRAWER				
