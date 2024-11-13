@@ -40,7 +40,7 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	__________	__________	__________	__________			__________	NUM_N1		NUM_N2		NUM_N3		XXXXXXXXXX
+				XXXXXXXXXX	__________	__________	__________	__________			__________	NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
 				__________	__________	__________	__________	__________			__________	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							__________	__________	__________                                  NUM_N4		NUM_N5		NUM_N6
 
@@ -55,9 +55,9 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				XXXXXXXXXX	NAV_TAB_LE	&kp TAB		NAV_TAB_RI	__________			__________	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
-				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	__________
-							__________	__________	NAV_PASTE									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_LI			
+				XXXXXXXXXX	NAV_TAB_LE	&kp TAB		NAV_TAB_RI	&kp DEL				NAV_DELWRD	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
+				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	NAV_SEL_AL			NAV_SMILEY	NAV_LEFT	NAV_DOWN	NAV_RIGHT	__________
+							NAV_CUT		NAV_COPY	NAV_PASTE									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_LI			
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX

@@ -23,32 +23,39 @@
 #define DEF_DOT     &mm_dot_col
 
 // navigation
-#define NAV_SWI_LE  &mm_switch_left
-#define NAV_SWI_RI  &mm_switch_right
-#define NAV_UP      &mm_up_pgup
-#define NAV_DOWN    &mm_down_pgdn
-#define NAV_LEFT    &mm_left_home
-#define NAV_RIGHT   &mm_right_end
+#define NAV_PASTE   &ht LC(V) LC(LS)
 #define NAV_SWAP    &hm LSFT LC(LA(TAB))
+#define NAV_COPY    &hm RSFT LC(C)
+
 #define NAV_SEL_LE  &kp LC(LS(LEFT))
 #define NAV_SEL_RI  &kp LS(LC(RIGHT))
 #define NAV_SEL_UP  &kp LS(LC(UP_ARROW))
 #define NAV_SEL_LI  &kp LA(LS(I))
 #define NAV_TAB_LE  &kp LC(PG_UP)
 #define NAV_TAB_RI  &kp LC(PG_DN)
-#define NAV_PASTE   &hm RSFT LC(V)
+#define NAV_CUT     &kp LC(X)
+#define NAV_SEL_AL  &kp LC(A)
+#define NAV_SMILEY  &kp LG(DOT)
+#define NAV_DELWRD  &kp LC(DEL)
+
+#define NAV_SWI_LE  &mm_switch_left
+#define NAV_SWI_RI  &mm_switch_right
+#define NAV_UP      &mm_up_pgup
+#define NAV_DOWN    &mm_down_pgdn
+#define NAV_LEFT    &mm_left_home
+#define NAV_RIGHT   &mm_right_end
 
 // number
-#define NUM_N0       &kp N0
-#define NUM_N1       &kp N1
-#define NUM_N2       &kp N2
-#define NUM_N3       &kp N3
-#define NUM_N4       &kp N4
-#define NUM_N5       &kp N5
-#define NUM_N6       &kp N6
-#define NUM_N7       &kp N7
-#define NUM_N8       &kp N8
-#define NUM_N9       &kp N9
+#define NUM_N0       &ht LC(LS(N0)) N0
+#define NUM_N1       &kp LC(LS(N1)) N1
+#define NUM_N2       &kp LC(LS(N2)) N2
+#define NUM_N3       &kp LC(LS(N3)) N3
+#define NUM_N4       &kp LC(LS(N4)) N4
+#define NUM_N5       &kp LC(LS(N5)) N5
+#define NUM_N6       &kp LC(LS(N6)) N6
+#define NUM_N7       &kp LC(LS(N7)) N7
+#define NUM_N8       &kp LC(LS(N8)) N8
+#define NUM_N9       &kp LC(LS(N9)) N9
 
 // miscellaneous
 
