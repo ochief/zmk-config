@@ -47,14 +47,14 @@
 	mm_switch_left: mod_morph_slack_desk_left {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <SLA_PREV>, <DESK_L>;
+		bindings = <&kp LA(LS(UP))>, <&kp LC(LG(LEFT))>;
 		mods = <(MOD_LSFT)>;
 	};
 
 	mm_switch_right: mod_morph_slack_desk_right {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <SLA_NEXT>, <DESK_R>;
+		bindings = <&kp LA(LS(DOWN))>, <&kp LC(LG(RIGHT))>;
 		mods = <(MOD_LSFT)>;
 	};
 

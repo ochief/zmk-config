@@ -52,12 +52,6 @@
 
 // miscellaneous
 
-// referenced
-#define DESK_L		&kp LC(LG(LEFT))
-#define DESK_R		&kp LC(LG(RIGHT))
-#define SLA_PREV	&kp LA(LS(UP))
-#define SLA_NEXT	&kp LA(LS(DN))    
-
 // other
 #define XXXXXXXXXX	&none
 #define ___XXXX___	&trans
