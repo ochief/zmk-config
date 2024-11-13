@@ -44,17 +44,17 @@
 		mods = <(MOD_LSFT)>;
 	};
 
-	mm_switch_left: mod_morph_tab_left_desk_left {
+	mm_switch_left: mod_morph_slack_left_desk_left {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <TAB_PREV>, <DESK_L>;
+		bindings = <SLA_PREV>, <DESK_L>;
 		mods = <(MOD_LSFT)>;
 	};
 
-	mm_switch_right: mod_morph_tab_right_desk_right {
+	mm_switch_right: mod_morph_slack_right_desk_right {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <TAB_NEXT>, <DESK_R>;
+		bindings = <SLA_NEXT>, <DESK_R>;
 		mods = <(MOD_LSFT)>;
 	};
 

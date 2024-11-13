@@ -20,7 +20,7 @@
 
 / {
 	keymap {
-		compatible = "zmk,keymap";
+		compatible = "iazmk,keymap";
 
 		Default_layer {
             label = "DEF";
@@ -55,9 +55,9 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				XXXXXXXXXX	__________	__________	__________	__________			__________	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
-				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_SEL_UP
-							__________	__________	&kp RSFT									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_UP			
+				XXXXXXXXXX	NAV_TAB_LE	&kp TAB		NAV_TAB_RI	__________			__________	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
+				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	__________
+							__________	__________	NAV_PASTE									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_LI			
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX

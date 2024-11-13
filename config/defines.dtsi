@@ -29,11 +29,14 @@
 #define NAV_DOWN    &mm_down_pgdn
 #define NAV_LEFT    &mm_left_home
 #define NAV_RIGHT   &mm_right_end
-#define NAV_SWAP    &hm LSFT SWAPPER
+#define NAV_SWAP    &hm LSFT LC(LA(TAB))
 #define NAV_SEL_LE  &kp LC(LS(LEFT))
 #define NAV_SEL_RI  &kp LS(LC(RIGHT))
 #define NAV_SEL_UP  &kp LS(LC(UP_ARROW))
 #define NAV_SEL_LI  &kp LA(LS(I))
+#define NAV_TAB_LE  &kp LC(PG_UP)
+#define NAV_TAB_RI  &kp LC(PG_DN)
+#define NAV_PASTE   &hm RSFT LC(V)
 
 // number
 #define NUM_N0       &kp N0
@@ -52,9 +55,8 @@
 // referenced
 #define DESK_L		&kp LC(LG(LEFT))
 #define DESK_R		&kp LC(LG(RIGHT))
-#define TAB_PREV	&kp LC(PG_UP)
-#define TAB_NEXT	&kp LC(PG_DN)
-#define SWAPPER     LC(LA(TAB))
+#define SLA_PREV	&kp LA(LS(UP))
+#define SLA_NEXT	&kp LA(LS(DN))    
 
 // other
 #define XXXXXXXXXX	&none
