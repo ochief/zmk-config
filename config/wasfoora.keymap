@@ -58,6 +58,11 @@
 				XXXXXXXXXX	NAV_TAB_LE	&kp TAB		NAV_TAB_RI	__________			__________	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
 				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	__________
 							__________	__________	NAV_PASTE									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_LI			
+=======
+				XXXXXXXXXX	__________	__________	__________	__________			__________	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
+				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	__________			__________	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_SEL_UP
+							__________	__________	&kp RSFT									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_UP			
+>>>>>>> 69e577bb7e9de516057bc5f9c3dc389eb07933ea
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX
