@@ -27,10 +27,17 @@
 		bindings = <&kp>, <&kp>;
 	};
 
-	smm: shift_mod_morph {
+	mm_com_sem: mod_morph_comma_semicolon {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp>, <&kp>;
+		bindings = <&kp COMMA>, <&kp SEMI>;
+		mods = <(MOD_LSFT|MOD_RSFT)>;
+	};
+
+	mm_dot_col: mod_morph_comma_semicolon {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp DOT>, <&kp COLON>;
 		mods = <(MOD_LSFT|MOD_RSFT)>;
 	};
 };

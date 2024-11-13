@@ -25,5 +25,5 @@
 #define HRM_I		&hm LALT I
 #define HRM_O		&hm LGUI O
 
-#define COM_SEM     &smm COMMA SEMI
-#define DOT_COL     &smm DOT COLON
+#define COM_SEM     &mm_com_sem
+#define DOT_COL     &mm_dot_col
