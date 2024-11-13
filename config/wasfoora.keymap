@@ -27,7 +27,7 @@
             bindings = <
 				XXXXXXXXXX	&kp C		&kp G		&kp D		&kp K				&kp J		&kp L		&kp U		&kp Y		XXXXXXXXXX
 				HRM_R		HRM_S		HRM_T		HRM_H		&kp P				&kp V		HRM_N		HRM_A		HRM_I		HRM_O
-							&kp B		&kp W		&kp F                                       &kp M		&mm COM_SEM	&mm DOT_COL
+							&kp B		&kp W		&kp F                                       &kp M		COM_SEM		DOT_COL
 
 				#ifndef KEYMAP_DRAWER				
 													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E		XXXXXXXXXX
