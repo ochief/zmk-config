@@ -37,9 +37,9 @@
 							&kp B		&kp W		&kp F                                       &kp M		&mm COM_SEM	&mm DOT_COL
 
 				#ifndef KEYMAP_DRAWER				
-													XXXXXXXXXX	&lt NAV SPACE	&lt NUM E		XXXXXXXXXX
+													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E		XXXXXXXXXX
 				#else											
-																&lt NAV SPACE	&lt NUM E
+																&lt NAV SPACE		&lt NUM E
 				#endif
 			>;
 		};
@@ -47,12 +47,12 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				&kp TAB		NUM_9		NUM_8		NUM_7		&kp STAR			&kp PLUS	&kp SEMI	&kp COLON	&kp AMPS	&mm_sqt_sqt
-				NUM_3		NUM_2		NUM_1		NUM_0		&kp EQUAL			&kp PERCENT	&kp COMMA 	&kp DOT		&kp MINUS	UK_DQT
-							NUM_6		NUM_5		NUM_4										&kp BSPC 	&kp UNDER	&kp PIPE
+				XXXXXXXXXX	__________	__________	__________	__________			__________	__________	__________	__________	XXXXXXXXXX
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+							__________	__________	__________                                  __________	__________	__________
 
 				#ifndef KEYMAP_DRAWER
-													__________	__________			&lt NUM ENTER __________
+													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 				#else											
 																__________			THUMB_RIGHT
 				#endif
@@ -62,12 +62,12 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				&kp TAB		SLACK_UP	THREAD		SLACK_DN	&kp DEL				DEL_WORD	&kp HOME	&kp UP		&kp END		SEL_LINES
-				&kp LGUI   	&kp LALT	&kp LCTL    &kp LSFT	SHO_SEL_ALL			SMILEY		&kp LEFT	&kp DOWN	&kp RIGHT	SHO_APP_SEL
-							SHO_CUT		SHO_COPY	SHO_PASTE                                   &kp BSPC	TAB_PREV	TAB_NEXT
+				XXXXXXXXXX	__________	__________	__________	__________			__________	__________	__________	__________	XXXXXXXXXX
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+							__________	__________	__________                                  __________	__________	__________
 
 				#ifndef KEYMAP_DRAWER
-													__________	___XXXX___			__________	__________
+													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX
 				#else											
 																THUMB_LEFT			__________
 				#endif
@@ -77,12 +77,12 @@
 		Miscellaneous_layer {
             label = "MIS";
             bindings = <
-				__________	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	__________			__________	VOL_DOWN	VOL_MUTE	VOL_UP		__________
-				&bootloader	CON_THREE	CON_TWO		CON_ONE		&bt BT_CLR			&kp F2		&kp F6		&kp F11		&kp F12		TASK_MAN		
-							&kp CARET	UK_TILDE	UK_GRAVE									CLOSE		DESK_L		DESK_R
+				XXXXXXXXXX	__________	__________	__________	__________			__________	__________	__________	__________	XXXXXXXXXX
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+							__________	__________	__________                                  __________	__________	__________
 				
 				#ifndef KEYMAP_DRAWER				
-													__________	___XXXX___			___XXXX___	__________
+													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
 				#else
 																THUMB_LEFT			THUMB_RIGHT
 				#endif
