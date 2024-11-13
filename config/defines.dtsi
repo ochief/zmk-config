@@ -4,12 +4,9 @@
 #include			<dt-bindings/zmk/outputs.h>
 
 #define DEF			0
-
-/*
 #define NUM 		1
 #define NAV 		2
 #define MIS			3
-*/
 
 #define XXXXXXXXXX	&none
 #define ___XXXX___	&trans
