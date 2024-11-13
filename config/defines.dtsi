@@ -33,6 +33,11 @@
 
 // core defines
 #define NAV_SWAP    &kp LC(LA(TAB))
+#define DESK_L		&kp LC(LG(LEFT))
+#define DESK_R		&kp LC(LG(RIGHT))
+#define TAB_PREV	&kp LC(PG_UP)
+#define TAB_NEXT	&kp LC(PG_DN)
+
 
 // misc
 #define XXXXXXXXXX	&none
