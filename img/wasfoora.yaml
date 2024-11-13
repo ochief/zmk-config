@@ -59,14 +59,14 @@ layers:
   - {type: held}
   Navigation:
   - ''
+  - Ctl+ PG UP
+  - TAB
+  - Ctl+ PG DN
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - {t: TAB ←, s: DESK ←}
+  - {t: Alt+Sft+ ↑, s: Ctl+Gui+ ←}
   - {t: ↑, s: PG UP}
-  - {t: TAB →, s: DESK →}
+  - {t: Alt+Sft+ ↓, s: Ctl+Gui+ →}
   - ''
   - Win
   - Alt
@@ -77,13 +77,13 @@ layers:
   - {t: ←, s: HOME ←}
   - {t: ↓, s: PG DN}
   - {t: →, s: END →}
-  - Sft+Ctl+ UP ARROW
   - ''
   - ''
-  - RSFT
+  - ''
+  - {t: Ctl+ V, h: RSFT}
   - Ctl+Sft+ ←
   - Sft+Ctl+ →
-  - Sft+Ctl+ UP ARROW
+  - Alt+Sft+ I
   - {type: held}
   - ''
   Miscellaneous:
