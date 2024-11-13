@@ -32,16 +32,16 @@
 #define NAV_SWAP    &hm LSFT NAV_SWAP
 
 // number
-#define NUM_0       &kp N0
-#define NUM_1       &kp N1
-#define NUM_2       &kp N2
-#define NUM_3       &kp N3
-#define NUM_4       &kp N4
-#define NUM_5       &kp N5
-#define NUM_6       &kp N6
-#define NUM_7       &kp N7
-#define NUM_8       &kp N8
-#define NUM_9       &kp N9
+#define NUM_N0       &kp N0
+#define NUM_N1       &kp N1
+#define NUM_N2       &kp N2
+#define NUM_N3       &kp N3
+#define NUM_N4       &kp N4
+#define NUM_N5       &kp N5
+#define NUM_N6       &kp N6
+#define NUM_N7       &kp N7
+#define NUM_N8       &kp N8
+#define NUM_N9       &kp N9
 
 // miscellaneous
 
