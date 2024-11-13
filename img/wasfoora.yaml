@@ -35,9 +35,9 @@ layers:
   - ''
   - ''
   - ''
-  - '1'
-  - '2'
-  - '3'
+  - LC(LS(7)) 7
+  - LC(LS(8)) 8
+  - LC(LS(9)) 9
   - ''
   - ''
   - ''
@@ -45,16 +45,16 @@ layers:
   - ''
   - ''
   - ''
-  - '0'
-  - '1'
-  - '2'
-  - '3'
+  - {t: '0', h: Ctl+Sft+ 0}
+  - LC(LS(1)) 1
+  - LC(LS(2)) 2
+  - LC(LS(3)) 3
   - ''
   - ''
   - ''
-  - '4'
-  - '5'
-  - '6'
+  - LC(LS(4)) 4
+  - LC(LS(5)) 5
+  - LC(LS(6)) 6
   - ''
   - {type: held}
   Navigation:
@@ -62,8 +62,8 @@ layers:
   - Ctl+ PG UP
   - TAB
   - Ctl+ PG DN
-  - ''
-  - ''
+  - DEL
+  - Ctl+ DEL
   - {t: Alt+Sft+ ↑, s: Ctl+Gui+ ←}
   - {t: ↑, s: PG UP}
   - {t: Alt+Sft+ ↓, s: Ctl+Gui+ →}
@@ -72,15 +72,15 @@ layers:
   - Alt
   - Ctrl
   - {t: Ctl+Alt+ TAB, h: Shift}
-  - ''
-  - ''
+  - Ctl+ A
+  - Gui+ .
   - {t: ←, s: HOME ←}
   - {t: ↓, s: PG DN}
   - {t: →, s: END →}
   - ''
-  - ''
-  - ''
-  - {t: Ctl+ V, h: RSFT}
+  - Ctl+ X
+  - {t: Ctl+ C, h: RSFT}
+  - {t: Ctl+ LS, h: Ctl+ V}
   - Ctl+Sft+ ←
   - Sft+Ctl+ →
   - Alt+Sft+ I
