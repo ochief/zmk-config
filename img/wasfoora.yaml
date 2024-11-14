@@ -63,9 +63,9 @@ layers:
   - {type: ghost}
   Navigation:
   - {type: ghost}
-  - TAB PREV
+  - PREV TAB
   - {t: NEW TAB, h: Incognito}
-  - TAB NEXT
+  - NEXT TAB
   - DEL
   - CLOSE
   - SWITCH LEFT
