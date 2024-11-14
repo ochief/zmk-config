@@ -58,13 +58,13 @@ layers:
   - '5'
   - '6'
   - {type: ghost}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {type: ghost}
   Navigation:
   - {type: ghost}
   - PREV TAB
-  - {t: NEW TAB, h: Incognito}
+  - NEW TAB
   - NEXT TAB
   - DEL
   - CLOSE
@@ -89,37 +89,37 @@ layers:
   - SEL NEXT
   - SEL LINE
   - {type: ghost}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {type: ghost}
   Miscellaneous:
   - {type: ghost}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {type: ghost}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {type: ghost}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {type: ghost}
