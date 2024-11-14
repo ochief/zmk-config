@@ -1,10 +1,13 @@
 parse_config:
   raw_binding_map:
+    '&bootloader':    BOOT
+    '&caps_word':     Caps Word
+    '&macro_grave3':  '```'
+    '&macro_nequal':  <  >
     '&trans':         ''
     '&none':          {type: ghost}
-
-    THUMB_LEFT:       {type: held}
-    THUMB_RIGHT:      {type: held}
+    '&lt NAV SPACE':  {t: SPACE, h: NAV}
+    '&lt NUM E':      {t: E, h: NUM}
 
     # navigation
     NAV_SEL_AL:     SEL ALL
