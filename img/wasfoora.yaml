@@ -35,9 +35,9 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '7', h: Ctl+Sft+ 7}
-  - {t: '8', h: Ctl+Sft+ 8}
-  - {t: '9', h: Ctl+Sft+ 9}
+  - {t: '7', s: Ctl+Sft+ 7}
+  - {t: '8', s: Ctl+Sft+ 8}
+  - {t: '9', s: Ctl+Sft+ 9}
   - ''
   - ''
   - ''
@@ -45,16 +45,16 @@ layers:
   - ''
   - ''
   - ''
+  - {t: '0', s: Ctl+Sft+ 0}
+  - {t: '1', s: Ctl+Sft+ 1}
+  - {t: '2', s: Ctl+Sft+ 2}
+  - {t: '3', s: Ctl+Sft+ 3}
   - ''
-  - {t: '1', h: Ctl+Sft+ 1}
-  - {t: '2', h: Ctl+Sft+ 2}
-  - {t: '3', h: Ctl+Sft+ 3}
   - ''
   - ''
-  - ''
-  - {t: '4', h: Ctl+Sft+ 4}
-  - {t: '5', h: Ctl+Sft+ 5}
-  - {t: '6', h: Ctl+Sft+ 6}
+  - {t: '4', s: Ctl+Sft+ 4}
+  - {t: '5', s: Ctl+Sft+ 5}
+  - {t: '6', s: Ctl+Sft+ 6}
   - ''
   - {type: held}
   Navigation:
