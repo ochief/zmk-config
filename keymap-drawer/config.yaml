@@ -63,7 +63,7 @@ parse_config:
     UK_AT:            '@'
     UK_TILDE:         '~'
     UK_GRAVE:         '`'
-    UK_POUND:         £
+    UK_POUND:         {t: £, h: €}
 
   zmk_keycode_map:
     LCTL:             Ctrl
