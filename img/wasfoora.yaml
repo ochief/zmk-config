@@ -26,8 +26,10 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: SPACE, h: Navigation}
-  - {t: E, h: Number}
+  - {type: ghost}
+  - {t: SPACE, h: NAV}
+  - {t: E, h: NUM}
+  - {type: ghost}
   Number:
   - {type: ghost}
   - A
@@ -55,8 +57,10 @@ layers:
   - '4'
   - '5'
   - '6'
+  - {type: ghost}
   - ''
-  - {type: held}
+  - ''
+  - {type: ghost}
   Navigation:
   - {type: ghost}
   - TAB PREV
@@ -84,8 +88,10 @@ layers:
   - SEL PREV
   - SEL NEXT
   - SEL LINE
-  - {type: held}
+  - {type: ghost}
   - ''
+  - ''
+  - {type: ghost}
   Miscellaneous:
   - {type: ghost}
   - ''
@@ -113,5 +119,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - {type: held}
+  - {type: ghost}
+  - ''
+  - ''
+  - {type: ghost}
