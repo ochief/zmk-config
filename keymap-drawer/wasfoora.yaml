@@ -36,7 +36,7 @@ layers:
   - A
   - A
   - A
-  - A
+  - B
   - '7'
   - '8'
   - '9'
@@ -59,29 +59,29 @@ layers:
   - '6'
   - {type: ghost}
   - ''
-  - ''
+  - {type: held}
   - {type: ghost}
   Navigation:
   - {type: ghost}
   - PREV TAB
-  - NEW TAB
+  - TAB
   - NEXT TAB
   - DEL
-  - CLOSE
+  - DEL WORD
   - SWITCH LEFT
   - {t: ↑, s: PG UP}
   - SWITCH RIGHT
   - {type: ghost}
-  - {t: REOPEN TAB, h: Win}
-  - {t: CLOSE TAB, h: Alt}
-  - {t: TAB, h: Ctrl}
+  - Win
+  - Alt
+  - Ctrl
   - {t: SWAP, h: Shift}
   - SEL ALL
-  - DEL WORD
+  - SMILEY
   - {t: ←, s: HOME}
   - {t: ↓, s: PG DN}
   - {t: →, s: END}
-  - SMILEY
+  - ''
   - CUT
   - COPY
   - PASTE
@@ -89,7 +89,7 @@ layers:
   - SEL NEXT
   - SEL LINE
   - {type: ghost}
-  - ''
+  - {type: held}
   - ''
   - {type: ghost}
   Miscellaneous:
@@ -120,6 +120,6 @@ layers:
   - ''
   - ''
   - {type: ghost}
-  - ''
-  - ''
+  - {type: held}
+  - {type: held}
   - {type: ghost}
