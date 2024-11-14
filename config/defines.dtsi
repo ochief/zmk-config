@@ -69,4 +69,4 @@
 // other
 #define XXXXXXXXXX	&none
 #define __________  &trans
-#define ___XXXX___  &trans
+#define ___XXXX___  &kp F24

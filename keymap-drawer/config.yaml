@@ -53,6 +53,7 @@ parse_config:
     F6:               URL BAR
     F11:              FULL SCREEN
     F12:              DEV TOOLS
+    F24:              {type: held}
 
     ENTER:            Ent
     C_PLAY:           PLAY/ PAUSE
