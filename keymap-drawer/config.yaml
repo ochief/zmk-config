@@ -6,8 +6,7 @@ parse_config:
     THUMB_LEFT:       {type: held}
     THUMB_RIGHT:      {type: held}
     
-    // navigation
-
+    # navigation
     NAV_SEL_AL:     SEL ALL
     NAV_SEL_LE:     SEL PREV
     NAV_SEL_RI:     SEL NEXT
@@ -23,7 +22,7 @@ parse_config:
     NAV_SWI_LE:     SWITCH LEFT
     NAV_SWI_RI:     SWITCH RIGHT
 
-    // number
+    # number
     NUM_N0:         '0'
     NUM_N1:         '1'
     NUM_N2:         '2'
