@@ -22,8 +22,9 @@ parse_config:
     NAV_PASTE:        PASTE
     NAV_SWAP:         {t: SWAP, h: Shift}
     NAV_TAB:          {t: TAB, h: Ctrl}
-    NAV_TAB_CL:       {t: CLOSE TAB, h: Alt}
-    NAV_TAB_RO:       {t: REOPEN TAB, h: Win}
+    NAV_BITWAR:       {t: BIT WAR, h: Alt}
+    NAV_TAB_CL:       {t: CLOSE TAB, h: GUI}
+    NAV_TAB_RO:       REOPEN TAB
     NAV_TAB_NE:       NEW TAB
     NAV_CLOSE:        CLOSE
     NAV_SMILEY:       SMILEY
