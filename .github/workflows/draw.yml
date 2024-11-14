@@ -24,7 +24,7 @@ jobs:
       install_branch: "main"
       keymap_patterns: "config/*.keymap"        # path to the keymaps to parse
       config_path: "keymap-drawer/config.yaml"  # config file, ignored if not exists
-      output_folder: "img"                      # path to save produced SVG and keymap YAML files
+      output_folder: "keymap-drawer"            # path to save produced SVG and keymap YAML files
       amend_commit: true                        # whether to amend the commit or create a new one
       fail_on_error: true
       draw_args: "wasfoora:'-n 2^3332^+2r_2l+2^3332^'"
