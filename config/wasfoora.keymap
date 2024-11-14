@@ -40,9 +40,9 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	__________	__________	__________	__________			__________	NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
-				__________	__________	__________	__________	__________			__________	NUM_N0		NUM_N1		NUM_N2		NUM_N3
-							__________	__________	__________                                  NUM_N4		NUM_N5		NUM_N6
+				XXXXXXXXXX	&kp 	  	&kp 	  	&kp			&kp 	  			NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
+				&kp 	  	&kp 	  	&kp 	  	&kp 	  	&kp 	  			&kp EQUALS	NUM_N0		NUM_N1		NUM_N2		NUM_N3
+							&kp 	  	&kp 	  	&kp 	                                    NUM_N4		NUM_N5		NUM_N6
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
