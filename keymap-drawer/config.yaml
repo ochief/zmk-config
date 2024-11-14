@@ -109,5 +109,5 @@ draw_config:
   # Custom CSS
   svg_style: |
     .ghost {
-      display: none;
+      display: none !important;
     }
