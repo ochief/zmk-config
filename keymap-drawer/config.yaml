@@ -13,8 +13,8 @@ parse_config:
     NAV_SEL_LE:       SEL PREV
     NAV_SEL_RI:       SEL NEXT
     NAV_SEL_LI:       SEL LINE
-    NAV_TAB_LE:       TAB PREV
-    NAV_TAB_RI:       TAB NEXT
+    NAV_TAB_LE:       PREV TAB
+    NAV_TAB_RI:       NEXT TAB
     NAV_CUT:          CUT
     NAV_COPY:         COPY
     NAV_PASTE:        PASTE
