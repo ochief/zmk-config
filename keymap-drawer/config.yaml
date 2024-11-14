@@ -76,6 +76,7 @@ parse_config:
     CARET:            ^
     COLON:            ':'
     COMMA:            ','
+    DOLLAR:           $
     DOT:              '.'
     EQUAL:            '='
     EXCL:             '!'
@@ -91,6 +92,7 @@ parse_config:
     PERCENT:          '%'
     PIPE:             '|'
     PLUS:             +
+    POUND:            £
     PRCNT:            '%'
     QMARK:            '?'
     RBKT:             ']'
