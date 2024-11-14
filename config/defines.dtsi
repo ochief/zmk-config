@@ -4,8 +4,6 @@
 #include			<dt-bindings/zmk/bt.h>
 #include			<dt-bindings/zmk/outputs.h>
 
-#define THUMB       &trans
-
 // layers
 #define DEF			0
 #define NUM 		1
@@ -74,6 +72,8 @@
 #define MIS_BT_3    &bt BT_SEL 3
 #define MIS_SCREEN  &kp LG(LS(S))
 #define MIS_CAD     &kp LC(LA(DEL))
+#define MIS_BRI_DN  &kp C_BRI_DN
+#define MIS_BRI_UP  &kp C_BRI_UP
 
 // UK symbols
 #define UK_HASH     &kp GRAVE

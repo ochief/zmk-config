@@ -72,7 +72,7 @@
 		Miscellaneous_layer {
             label = "MIS";
             bindings = <
-				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	C_BRI_DN			C_BRI_UP	MIS_VOL_DN	MIS_VOL_MU	MIS_VOL_UP	XXXXXXXXXX
+				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	MIS_BRI_DN			MIS_BRI_UP	MIS_VOL_DN	MIS_VOL_MU	MIS_VOL_UP	XXXXXXXXXX
 				&kp F12		&kp F2		&kp F11		&kp F6		&soft_off			&bootloader	MIS_BT_1	MIS_BT_2	MIS_BT_3	&bt BT_CLR
 							&kp CARET	UK_TILDE	UK_GRAVE									MIS_SCREEN	MIS_CAD		__________
 				

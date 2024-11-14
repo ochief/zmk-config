@@ -53,6 +53,8 @@ parse_config:
     MIS_BT_3:         BT  3
     MIS_SCREEN:       SCREEN SHOT
     MIS_CAD:          C  A  D
+    MIS_BRI_DN:       BRI DOWN
+    MIS_BRI_UP:       BRI UP
 
     # UK symbols
     UK_HASH:          '#'
