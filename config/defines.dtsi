@@ -81,7 +81,7 @@
 #define UK_AT       &kp DQT
 #define UK_TILDE    &kp TILDE2
 #define UK_GRAVE    &kp TILDE
-
+#define UK_PIPE     &kp PIPE
 #define UK_POUND    &ht RA(E) HASH 
 
 // other
