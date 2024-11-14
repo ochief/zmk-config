@@ -107,7 +107,7 @@ draw_config:
   dark_mode: false
 
   # Custom CSS
-  svg_style: |
+  svg_extra_style: |
     .ghost {
       display: none !important;
     }
