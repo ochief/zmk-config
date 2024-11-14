@@ -40,7 +40,7 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_DQT		&kp POUND 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
+				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		&kp POUND 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
 				&kp PERCENT &kp STAR  	&kp UNDER	&kp MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp PLUS  	&kp PIPE	&kp AMPS									NUM_N4		NUM_N5		NUM_N6
 

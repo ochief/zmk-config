@@ -45,6 +45,7 @@ parse_config:
 
     UK_HASH:          '#'
     UK_DQT:           '"'
+    UK_AT:            '@'
 
   zmk_keycode_map:
     LCTL:             Ctrl

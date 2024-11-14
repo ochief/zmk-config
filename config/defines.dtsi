@@ -70,6 +70,7 @@
 // UK symbols
 #define UK_HASH     &kp GRAVE
 #define UK_DQT      &kp AT
+#define UK_AT       &kp DQT
 
 // other
 #define XXXXXXXXXX	&none
