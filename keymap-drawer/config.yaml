@@ -5,7 +5,7 @@ parse_config:
 
     THUMB_LEFT:       {type: held}
     THUMB_RIGHT:      {type: held}
-    
+
     # navigation
     NAV_SEL_AL:     SEL ALL
     NAV_SEL_LE:     SEL PREV
