@@ -4,12 +4,9 @@ parse_config:
     '&caps_word':     Caps Word
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
-    '&trans':         ''
     '&none':          {type: ghost}
     '&lt NAV SPACE':  {t: SPACE, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
-
-    THUMB:            {type: HOLD}
 
     # navigation
     NAV_SEL_AL:       SEL ALL
