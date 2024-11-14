@@ -42,7 +42,7 @@ parse_config:
     NUM_N8:           '8'
     NUM_N9:           '9'
 
-    UK_HASH:          '#''
+    UK_HASH:          '#'
     UK_DQT:           '"'
 
   zmk_keycode_map:
