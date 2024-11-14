@@ -1,77 +1,38 @@
 parse_config:
   raw_binding_map:
-    '&lt NAV SPACE':  {t: SPACE, h: NAV}
-    '&lt NUM E':      {t: E, h: NUM}
-    '&bootloader':    BOOT
-    '&caps_word':     Caps Word
-    '&macro_grave3':  '```'
-    '&macro_nequal':  <  >
-    '&mm_sqt_sqt':    "'"
     '&trans':         ''
 
     THUMB_LEFT:       {type: held}
     THUMB_RIGHT:      {type: held}
     
-    CLOSE:            CLOSE
-    CON_ONE:          BT  1
-    CON_TWO:          BT  2
-    CON_THREE:        BT  3
-    DEL_WORD:         DEL WORD
-    DESK_L:           DESK ←
-    DESK_R:           DESK →
-    MON_DOL:          $
-    MUTE_MIC:         MIC MUTE
-    NEW_LINE:         NEW LINE
-    NUM_0:            '0'
-    NUM_1:            '1'
-    NUM_2:            '2'
-    NUM_3:            '3'
-    NUM_4:            '4'
-    NUM_5:            '5'
-    NUM_6:            '6'
-    NUM_7:            '7'
-    NUM_8:            '8'
-    NUM_9:            '9'
-    SCREEN_SHOT:      SCREEN SHOT
-    SEL_LINES:        SEL LINES
-    SHO_APP_SEL:      SWAP
-    SHO_COPY:         COPY
-    SHO_CUT:          CUT
-    SHO_PASTE:        PASTE
-    SHO_REDO:         Redo
-    SHO_SEL_ALL:      SEL ALL
-    SHO_UNDO:         Undo
-    SLACK_DN:         SLACK →
-    SLACK_UP:         SLACK ←
-    SMILEY:           SMILEY
-    TAB_NEXT:         TAB →
-    TAB_PREV:         TAB ←
-    TASK_MAN:         TASK MAN
-    THREAD:           SLACK THREAD
-    UK_AT:            '@'
-    UK_GRAVE:         '`'
-    UK_HASH:          '#'
-    UK_POUND:         £
-    VOL_UP:           VOL →
-    VOL_DOWN:         VOL ←
-    VOL_MUTE:         VOL MUTE
+    // navigation
 
-  zmk_combos:
-    combo_nequal:     {a: bottom, o: 0.3}
-    combo_caps:       {a: bottom, o: 0.3}
-    combo_sshot:      {a: top, o: 0.3}
-    combo_grave3:     {a: top, o: 0.3}
+    NAV_SEL_AL:     SEL ALL
+    NAV_SEL_LE:     SEL PREV
+    NAV_SEL_RI:     SEL NEXT
+    NAV_SEL_LI:     SEL LINE
+    NAV_TAB_LE:     TAB PREV
+    NAV_TAB_RI:     TAB NEXT
+    NAV_CUT:        CUT
+    NAV_COPY:       COPY
+    NAV_PASTE:      PASTE
+    NAV_SWAP:       SWAPPER
+    NAV_SMILEY:     SMILEY
+    NAV_DELWRD:     DEL WORD
+    NAV_SWI_LE:     SWITCH LEFT
+    NAV_SWI_RI:     SWITCH RIGHT
 
-    combo_bslh:       {draw_separate: true}
-    combo_fslh:       {draw_separate: true}
-    combo_com_lin:    {draw_separate: true}
-    combo_com_blo:     {draw_separate: true}
-    combo_cword_l:    {draw_separate: true}
-    combo_cword_r:    {draw_separate: true}
-    combo_esc:        {draw_separate: true}
-    combo_enter:      {draw_separate: true}
-    combo_sundo:      {draw_separate: true}
-    combo_sredo:      {draw_separate: true}
+    // number
+    NUM_N0:         '0'
+    NUM_N1:         '1'
+    NUM_N2:         '2'
+    NUM_N3:         '3'
+    NUM_N4:         '4'
+    NUM_N5:         '5'
+    NUM_N6:         '6'
+    NUM_N7:         '7'
+    NUM_N8:         '8'
+    NUM_N9:         '9'
 
   zmk_keycode_map:
     LCTL:             Ctrl
@@ -95,9 +56,6 @@ parse_config:
     DOWN:             ↓
     LEFT:             ←
     RIGHT:            →
-
-    END:              END →
-    HOME:             HOME ←
 
     # defaults
     AMPS:             '&'
