@@ -64,24 +64,24 @@ layers:
   Navigation:
   - {type: ghost}
   - TAB PREV
-  - TAB
+  - {t: NEW TAB, h: Incognito}
   - TAB NEXT
   - DEL
-  - DEL WORD
+  - CLOSE
   - SWITCH LEFT
   - {t: ↑, s: PG UP}
   - SWITCH RIGHT
   - {type: ghost}
-  - Win
-  - Alt
-  - Ctrl
+  - {t: REOPEN TAB, h: Win}
+  - {t: CLOSE TAB, h: Alt}
+  - {t: TAB, h: Ctrl}
   - {t: SWAP, h: Shift}
   - SEL ALL
-  - SMILEY
+  - DEL WORD
   - {t: ←, s: HOME}
   - {t: ↓, s: PG DN}
   - {t: →, s: END}
-  - {t: ▽, type: trans}
+  - SMILEY
   - CUT
   - COPY
   - PASTE
