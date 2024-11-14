@@ -75,7 +75,7 @@ layers:
   - Win
   - Alt
   - Ctrl
-  - SWAPPER
+  - {t: SWAP, h: Shift}
   - SEL ALL
   - SMILEY
   - {t: ←, s: HOME}
