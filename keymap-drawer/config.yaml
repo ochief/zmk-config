@@ -42,6 +42,9 @@ parse_config:
     NUM_N8:           '8'
     NUM_N9:           '9'
 
+    UK_HASH:          '#''
+    UK_DQT:           '"'
+
   zmk_keycode_map:
     LCTL:             Ctrl
     LALT:             Alt
@@ -68,8 +71,6 @@ parse_config:
 
     # defaults
     AMPS:             '&'
-    AT:               '"' # UK
-    DQT:              '@' # UK
     BSLH:             \
     CAPS:             Caps
     CARET:            ^
