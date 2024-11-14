@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  *
- *					KEY POSITIONS
+ *					   KEY POSITIONS
  *		 0	 1	 2	 3	 4		 5	 6	 7	 8	 9
  *		10	11	12	13	14		15	16	17	18	19 
  *			20	21	22				23	24	25
@@ -32,7 +32,7 @@
 				#ifndef KEYMAP_DRAWER				
 													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E		XXXXXXXXXX
 				#else											
-																&lt NAV SPACE		&lt NUM E
+													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E		XXXXXXXXXX
 				#endif
 			>;
 		};
@@ -47,7 +47,7 @@
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 				#else											
-																__________			___XXXX___
+													XXXXXXXXXX	__________			___XXXX___	XXXXXXXXXX
 				#endif
 			>;
 		};
@@ -62,7 +62,7 @@
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 				#else											
-																___XXXX___			__________
+													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX
 				#endif
 			>;
 		};
@@ -77,7 +77,7 @@
 				#ifndef KEYMAP_DRAWER				
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 				#else
-																___XXXX___			___XXXX___
+													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
 				#endif
 			>;
 		};
