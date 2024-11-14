@@ -18,6 +18,8 @@
 #include "defines.dtsi"
 #include "behaviors.dtsi"
 
+// POUND/EURO
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
