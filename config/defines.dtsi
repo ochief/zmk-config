@@ -43,6 +43,7 @@
 #define NAV_SMILEY  &kp LG(DOT)
 #define NAV_DELWRD  &kp LC(DEL)
 #define NAV_CLOSE   &kp LA(F4)
+#define NAV_THREAD  &kp LC(LS(T))
 
 #define NAV_SWI_LE  &mm_switch_left
 #define NAV_SWI_RI  &mm_switch_right
