@@ -64,7 +64,7 @@ layers:
   Navigation:
   - {type: ghost}
   - TAB PREV
-  - {t: Ctl+Sft+ N, h: Ctl+ T}
+  - {t: NEW TAB, h: Incognito}
   - TAB NEXT
   - DEL
   - CLOSE
@@ -72,7 +72,7 @@ layers:
   - {t: ↑, s: PG UP}
   - SWITCH RIGHT
   - {type: ghost}
-  - {t: REOPEN TAB, h: Gui}
+  - {t: REOPEN TAB, h: Win}
   - {t: CLOSE TAB, h: Alt}
   - {t: TAB, h: Ctrl}
   - {t: SWAP, h: Shift}
