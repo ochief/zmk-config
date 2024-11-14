@@ -86,10 +86,73 @@
 		mods = <(MOD_RSFT)>;
 	};
 
-	mm_n01: mod_morph_number_1 {
+	mm_number_0: mod_morph_number_0 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp>, <&kp>;
-		mods = <(MOD_RSFT)>;
+		bindings = <&kp LC(LS(N0))>, <&kp N0>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_number_1: mod_morph_number_1 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LC(LS(N1))>, <&kp N1>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_number_2: mod_morph_number_2 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LC(LS(N2))>, <&kp N2>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_number_3: mod_morph_number_3 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LC(LS(N3))>, <&kp N3>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_number_4: mod_morph_number_4 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LC(LS(N4))>, <&kp N4>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_number_5: mod_morph_number_5 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LC(LS(N5))>, <&kp N5>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_number_6: mod_morph_number_6 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LC(LS(N6))>, <&kp N6>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_number_7: mod_morph_number_7 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LC(LS(N7))>, <&kp N7>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_number_8: mod_morph_number_8 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LC(LS(N8))>, <&kp N8>;
+		mods = <(MOD_LSFT)>;
+	};
+
+	mm_number_9: mod_morph_number_9 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp LC(LS(N9))>, <&kp N9>;
+		mods = <(MOD_LSFT)>;
 	};
 };
