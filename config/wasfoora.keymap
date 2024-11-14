@@ -40,7 +40,7 @@
 				&kp A	  	&kp A	  	&kp A	  	&kp A	  	&kp A	  			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp A	  	&kp A	  	&kp A	                                    NUM_N4		NUM_N5		NUM_N6
 	
-													XXXXXXXXXX	__________			___XXXX___	XXXXXXXXXX
+													XXXXXXXXXX	THUMB				___XXXX___	XXXXXXXXXX
 			>;
 		};
 
