@@ -35,7 +35,7 @@ layers:
   - '!'
   - '?'
   - '@'
-  - £
+  - {t: £, h: €}
   - '#'
   - '7'
   - '8'
@@ -72,8 +72,8 @@ layers:
   - {t: ↑, s: PG UP}
   - SWITCH RIGHT
   - {type: ghost}
-  - {t: REOPEN TAB, h: Win}
-  - {t: CLOSE TAB, h: Alt}
+  - {t: CLOSE TAB, h: GUI}
+  - {t: BIT WAR, h: Alt}
   - {t: TAB, h: Ctrl}
   - {t: SWAP, h: Shift}
   - SEL ALL
@@ -103,11 +103,11 @@ layers:
   - VOL MUTE
   - VOL UP
   - {type: ghost}
-  - DEV TOOLS
+  - REOPEN TAB
   - RENAME
   - FULL SCREEN
   - URL BAR
-  - SOFT OFF
+  - DEV TOOLS
   - BOOT
   - BT  1
   - BT  2
@@ -118,7 +118,7 @@ layers:
   - '`'
   - SCREEN SHOT
   - C  A  D
-  - ''
+  - SOFT OFF
   - {type: ghost}
   - {type: held}
   - {type: held}
