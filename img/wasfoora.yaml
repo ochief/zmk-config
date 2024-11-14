@@ -58,8 +58,8 @@ layers:
   - '5'
   - '6'
   - {type: ghost}
-  - ''
-  - ''
+  - {type: HOLD}
+  - {type: HOLD}
   - {type: ghost}
   Navigation:
   - {type: ghost}
@@ -81,7 +81,7 @@ layers:
   - {t: ←, s: HOME}
   - {t: ↓, s: PG DN}
   - {t: →, s: END}
-  - ''
+  - {type: HOLD}
   - CUT
   - COPY
   - PASTE
@@ -89,37 +89,37 @@ layers:
   - SEL NEXT
   - SEL LINE
   - {type: ghost}
-  - ''
-  - ''
+  - {type: HOLD}
+  - {type: HOLD}
   - {type: ghost}
   Miscellaneous:
   - {type: ghost}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
   - {type: ghost}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
+  - {type: HOLD}
   - {type: ghost}
-  - ''
-  - ''
+  - {type: HOLD}
+  - {type: HOLD}
   - {type: ghost}
