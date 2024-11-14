@@ -66,6 +66,10 @@
 
 // miscellaneous
 
+// UK symbols
+#define UK_HASH     &kp GRAVE
+#define UK_DQT      &kp AT
+
 // other
 #define XXXXXXXXXX	&none
 #define __________  &trans
