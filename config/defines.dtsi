@@ -60,9 +60,4 @@
 
 // other
 #define XXXXXXXXXX	&none
-#define ___XXXX___	&trans
 #define __________  &trans
-
-// keymap drawer
-#define THUMB_LEFT  &kp F23
-#define THUMB_RIGHT &kp F24

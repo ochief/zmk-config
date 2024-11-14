@@ -19,7 +19,7 @@ parse_config:
     NAV_CUT:        CUT
     NAV_COPY:       COPY
     NAV_PASTE:      PASTE
-    NAV_SWAP:       SWAPPER
+    NAV_SWAP:       {t: SWAP, h: Shift}
     NAV_SMILEY:     SMILEY
     NAV_DELWRD:     DEL WORD
     NAV_SWI_LE:     SWITCH LEFT

@@ -51,7 +51,7 @@
 				&kp LGUI	&kp LALT	&kp LCTL	NAV_SWAP	NAV_SEL_AL			NAV_SMILEY	NAV_LEFT	NAV_DOWN	NAV_RIGHT	__________
 							NAV_CUT		NAV_COPY	NAV_PASTE									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_LI			
 
-													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX
+													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 			>;
 		};
  
@@ -62,7 +62,7 @@
 				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
 							__________	__________	__________                                  __________	__________	__________
 
-													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
+													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 			>;
 		};
 	};
