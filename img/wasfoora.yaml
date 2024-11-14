@@ -1,6 +1,6 @@
 layers:
   Default:
-  - ''
+  - {type: ghost}
   - C
   - G
   - D
@@ -9,7 +9,7 @@ layers:
   - L
   - U
   - Y
-  - ''
+  - {type: ghost}
   - {t: R, h: Win}
   - {t: S, h: Alt}
   - {t: T, h: Ctrl}
@@ -26,67 +26,68 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: SPACE, h: NAV}
-  - {t: E, h: NUM}
+  - {t: SPACE, h: Navigation}
+  - {t: E, h: Number}
   Number:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: '7', s: Ctl+Sft+ 7}
-  - {t: '8', s: Ctl+Sft+ 8}
-  - {t: '9', s: Ctl+Sft+ 9}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: '0', s: Ctl+Sft+ 0}
-  - {t: '1', s: Ctl+Sft+ 1}
-  - {t: '2', s: Ctl+Sft+ 2}
-  - {t: '3', s: Ctl+Sft+ 3}
-  - ''
-  - ''
-  - ''
-  - {t: '4', s: Ctl+Sft+ 4}
-  - {t: '5', s: Ctl+Sft+ 5}
-  - {t: '6', s: Ctl+Sft+ 6}
+  - {type: ghost}
+  - A
+  - B
+  - A
+  - A
+  - {type: ghost}
+  - '7'
+  - '8'
+  - '9'
+  - {type: ghost}
+  - A
+  - A
+  - A
+  - A
+  - A
+  - '='
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - A
+  - A
+  - A
+  - '4'
+  - '5'
+  - '6'
   - ''
   - {type: held}
   Navigation:
-  - ''
-  - Ctl+ PG UP
+  - {type: ghost}
+  - TAB PREV
   - TAB
-  - Ctl+ PG DN
+  - TAB NEXT
   - DEL
-  - Ctl+ DEL
-  - {t: Alt+Sft+ ↑, s: Ctl+Gui+ ←}
+  - DEL WORD
+  - SWITCH LEFT
   - {t: ↑, s: PG UP}
-  - {t: Alt+Sft+ ↓, s: Ctl+Gui+ →}
-  - ''
+  - SWITCH RIGHT
+  - {type: ghost}
   - Win
   - Alt
   - Ctrl
-  - {t: Ctl+Alt+ TAB, h: Shift}
-  - Ctl+ A
-  - Gui+ .
-  - {t: ←, s: HOME ←}
+  - SWAPPER
+  - SEL ALL
+  - SMILEY
+  - {t: ←, s: HOME}
   - {t: ↓, s: PG DN}
-  - {t: →, s: END →}
+  - {t: →, s: END}
   - ''
-  - Ctl+ X
-  - {t: Ctl+ C, h: RSFT}
-  - {t: Ctl+Sft+ V, h: Ctl+ V}
-  - Ctl+Sft+ ←
-  - Sft+Ctl+ →
-  - Alt+Sft+ I
+  - CUT
+  - COPY
+  - PASTE
+  - SEL PREV
+  - SEL NEXT
+  - SEL LINE
   - {type: held}
   - ''
   Miscellaneous:
+  - {type: ghost}
   - ''
   - ''
   - ''
@@ -95,8 +96,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - {type: ghost}
   - ''
   - ''
   - ''
