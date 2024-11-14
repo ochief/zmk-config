@@ -1,6 +1,6 @@
 <svg width="750" height="1176" viewBox="0 0 750 1176" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <style>.ghost {
-  display: none;
+  display: none !important;
 }</style>
 <g transform="translate(30, 0)" class="layer-Default">
 <text x="0" y="28" class="label" id="Default">Default:</text>
