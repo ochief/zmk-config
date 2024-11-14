@@ -30,9 +30,9 @@
 #define NAV_TAB_RI  &kp LC(PG_DN)
 #define NAV_CUT     &kp LC(X)
 #define NAV_COPY    &hm RSFT LC(C)
-#define NAV_PASTE   &none // &ht LC(V) LC(LS)
+#define NAV_PASTE   &ht LC(V) LC(LS(V))
 #define NAV_SWAP    &hm LSFT LC(LA(TAB))
-#define NAV_SEL_AL  &none // &kp LC(A)
+#define NAV_SEL_AL  &kp LC(A)
 #define NAV_SMILEY  &kp LG(DOT)
 #define NAV_DELWRD  &kp LC(DEL)
 
@@ -44,7 +44,7 @@
 #define NAV_RIGHT   &mm_right_end
 
 // number
-#define NUM_N0       &ht LC(LS(N0)) N0
+#define NUM_N0       &mm_n01 LC(LS(N0)) N0
 #define NUM_N1       &ht LC(LS(N1)) N1
 #define NUM_N2       &ht LC(LS(N2)) N2
 #define NUM_N3       &ht LC(LS(N3)) N3

@@ -85,4 +85,11 @@
 		bindings = <&kp RIGHT>, <&kp END>;
 		mods = <(MOD_RSFT)>;
 	};
+
+	mm_n01: mod_morph_number_1 {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp>, <&kp>;
+		mods = <(MOD_RSFT)>;
+	};
 };
