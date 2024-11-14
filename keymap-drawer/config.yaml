@@ -1,6 +1,7 @@
 parse_config:
   raw_binding_map:
     '&trans':         ''
+    '&none':          {type: ghost}
 
     THUMB_LEFT:       {type: held}
     THUMB_RIGHT:      {type: held}
