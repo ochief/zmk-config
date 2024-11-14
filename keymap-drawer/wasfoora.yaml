@@ -94,30 +94,30 @@ layers:
   - {type: ghost}
   Miscellaneous:
   - {type: ghost}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - PREV ←
+  - PLAY/ PAUSE
+  - NEXT →
+  - BRI DOWN
+  - BRI UP
+  - VOL DOWN
+  - VOL MUTE
+  - VOL UP
   - {type: ghost}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - DEV TOOLS
+  - RENAME
+  - FULL SCREEN
+  - URL BAR
+  - SOFT OFF
+  - BOOT
+  - BT  1
+  - BT  2
+  - BT  3
+  - CLEAR
+  - ^
+  - '~'
+  - '`'
+  - SCREEN SHOT
+  - C  A  D
   - ''
   - {type: ghost}
   - {type: held}
