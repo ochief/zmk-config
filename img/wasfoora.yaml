@@ -45,7 +45,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '0', h: Ctl+Sft+ 0}
+  - ''
   - {t: '1', h: Ctl+Sft+ 1}
   - {t: '2', h: Ctl+Sft+ 2}
   - {t: '3', h: Ctl+Sft+ 3}
@@ -72,7 +72,7 @@ layers:
   - Alt
   - Ctrl
   - {t: Ctl+Alt+ TAB, h: Shift}
-  - ''
+  - Ctl+ A
   - Gui+ .
   - {t: ←, s: HOME ←}
   - {t: ↓, s: PG DN}
@@ -80,7 +80,7 @@ layers:
   - ''
   - Ctl+ X
   - {t: Ctl+ C, h: RSFT}
-  - ''
+  - {t: Ctl+Sft+ V, h: Ctl+ V}
   - Ctl+Sft+ ←
   - Sft+Ctl+ →
   - Alt+Sft+ I
