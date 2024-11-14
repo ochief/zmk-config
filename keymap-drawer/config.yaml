@@ -22,7 +22,7 @@ parse_config:
     NAV_TAB:          {t: TAB, h: Ctrl}
     NAV_TAB_CL:       {t: CLOSE TAB, h: Alt}
     NAV_TAB_RO:       {t: REOPEN TAB, h: Win}
-    NAV_TAB_NE:       {t: NEW TAB, h: Incognito}
+    NAV_TAB_NE:       NEW TAB
     NAV_CLOSE:        CLOSE
     NAV_SMILEY:       SMILEY
     NAV_DELWRD:       DEL WORD

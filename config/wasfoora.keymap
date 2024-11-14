@@ -40,7 +40,7 @@
 				&kp A	  	&kp A	  	&kp A	  	&kp A	  	&kp A	  			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp A	  	&kp A	  	&kp A	                                    NUM_N4		NUM_N5		NUM_N6
 	
-													XXXXXXXXXX	&trans				&trans 		XXXXXXXXXX
+													XXXXXXXXXX	__________			___XXXX___	XXXXXXXXXX
 			>;
 		};
 
@@ -51,7 +51,7 @@
 				NAV_TAB_RO	NAV_TAB_CL	NAV_TAB		NAV_SWAP	NAV_SEL_AL			NAV_DELWRD	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_SMILEY
 							NAV_CUT		NAV_COPY	NAV_PASTE									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_LI			
 
-													XXXXXXXXXX	&trans 				&trans 		XXXXXXXXXX
+													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX
 			>;
 		};
  
@@ -62,7 +62,7 @@
 				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
 							__________	__________	__________                                  __________	__________	__________
 
-													XXXXXXXXXX	&trans				&trans	XXXXXXXXXX
+													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
 			>;
 		};
 	};

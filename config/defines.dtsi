@@ -24,7 +24,6 @@
 
 // navigation
 #define NAV_PASTE   &ht LC(V) LC(LS(V))
-#define NAV_TAB_NE  &ht LC(T) LC(LS(N))
 
 #define NAV_COPY    &hm RSFT LC(C)
 #define NAV_SWAP    &hm LSFT LC(LA(TAB))
@@ -49,6 +48,7 @@
 #define NAV_DOWN    &mm_down_pgdn
 #define NAV_LEFT    &mm_left_home
 #define NAV_RIGHT   &mm_right_end
+#define NAV_TAB_NE  &mm_tab_new_incognito
 
 // number
 #define NUM_N0       &mm_number_0
@@ -67,4 +67,4 @@
 // other
 #define XXXXXXXXXX	&none
 #define __________  &trans
-#define THUMB       &trans
+#define ___XXXX___  &trans
