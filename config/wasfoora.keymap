@@ -18,7 +18,15 @@
 #include "defines.dtsi"
 #include "behaviors.dtsi"
 
-// reopen tab maybe just SHIFT and Tab NEW
+/*
+EURO IS NOT WORKING
+PIPE is wrong on num
+HRM is wrong on num
+HRM ON NAV IS SCREWY
+Grave is wrong on misc
+Mute Mic missing = MIS_MUT_MIC 
+generate password 
+*/
 
 / {
 	keymap {
@@ -44,7 +52,7 @@
 			bindings = <
 				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_POUND 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
 				&kp PERCENT &kp STAR  	&kp UNDER	&kp MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
-							&kp PLUS  	&kp PIPE	&kp AMPS									NUM_N4		NUM_N5		NUM_N6
+							&kp PLUS  	UK_PIPE		&kp AMPS									NUM_N4		NUM_N5		NUM_N6
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
@@ -58,8 +66,8 @@
             label = "NAV";
 			bindings = <
 				XXXXXXXXXX	NAV_TAB_LE	NAV_TAB_NE	NAV_TAB_RI	&kp DEL				NAV_DELWRD	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
-				NAV_TAB_CL	NAV_BITWAR	NAV_TAB		NAV_SWAP	NAV_SEL_AL			NAV_SMILEY	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_THREAD
-							NAV_CUT		NAV_COPY	NAV_PASTE									NAV_SEL_LE	NAV_SEL_RI	NAV_SEL_LI			
+				NAV_INCOG	NAV_BITWAR	NAV_TAB		NAV_SWAP	NAV_SEL_AL			NAV_SMILEY	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_THREAD
+							NAV_CUT		NAV_COPY	NAV_PASTE									NAV_CLO_TAB	NAV_CLO_APP	NAV_SEL_LI			
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
@@ -72,12 +80,12 @@
 		Miscellaneous_layer {
             label = "MIS";
             bindings = <
-				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	MIS_BRI_DN			MIS_BRI_UP	MIS_VOL_DN	MIS_VOL_MU	MIS_VOL_UP	XXXXXXXXXX
-				NAV_TAB_RO	&kp F2		&kp F11		&kp F6		&kp F12				&bootloader	MIS_BT_1	MIS_BT_2	MIS_BT_3	&bt BT_CLR
-							&kp CARET	UK_TILDE	UK_GRAVE									MIS_SCREEN	MIS_CAD		&soft_off
+				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	MIS_BRI_UP			&bootloader	MIS_VOL_DN	MIS_VOL_MU	MIS_VOL_UP	XXXXXXXXXX
+				NAV_TAB_RO	&kp F2		&kp F11		&kp F6		MIS_BRI_DN			&soft_off	MIS_BT_1	MIS_BT_2	MIS_BT_3	&bt BT_CLR
+							&kp F12		MIS_CAD		MIS_SCREEN									MIS_MUT_MIC &kp CARET	UK_TILDE									
 				
 				#ifndef KEYMAP_DRAWER
-													XXXXXXXXXX	__________			__________	XXXXXXXXXX
+													XXXXXXXXXX	__________			__________	XXXXXXXXXXM
 				#else
 													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
 				#endif

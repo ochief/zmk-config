@@ -86,13 +86,6 @@
 		mods = <(MOD_LSFT)>;
 	};
 
-	mm_tab_new_incognito: mod_morph_tab_new_incognito {
-		compatible = "zmk,behavior-mod-morph";
-		#binding-cells = <0>;
-		bindings = <&kp LC(T)>, <&kp LC(LS(N))>;
-		mods = <(MOD_LSFT)>;
-	};
-
 	mm_number_0: mod_morph_number_0 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
