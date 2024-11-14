@@ -29,10 +29,10 @@
 				DEF_R		DEF_S		DEF_T		DEF_H		&kp P				&kp V		DEF_N		DEF_A		DEF_I		DEF_O
 							&kp B		&kp W		&kp F                                       &kp M		DEF_COMMA	DEF_DOT
 
-				#ifndef KEYMAP_DRAWER				
-													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E		XXXXXXXXXX
-				#else											
-													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E		XXXXXXXXXX
+				#ifndef KEYMAP_DRAWER
+													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E	XXXXXXXXXX
+				#else
+													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E	XXXXXXXXXX
 				#endif
 			>;
 		};
@@ -40,13 +40,13 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	&kp A	  	&kp B	  	&kp	A		&kp A	  					NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
+				XXXXXXXXXX	&kp A	  	&kp A	  	&kp	A		&kp A	  			&kp B		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
 				&kp A	  	&kp A	  	&kp A	  	&kp A	  	&kp A	  			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp A	  	&kp A	  	&kp A	                                    NUM_N4		NUM_N5		NUM_N6
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
-				#else											
+				#else
 													XXXXXXXXXX	__________			___XXXX___	XXXXXXXXXX
 				#endif
 			>;
@@ -61,7 +61,7 @@
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
-				#else											
+				#else
 													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX
 				#endif
 			>;
@@ -74,7 +74,7 @@
 				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
 							__________	__________	__________                                  __________	__________	__________
 				
-				#ifndef KEYMAP_DRAWER				
+				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 				#else
 													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
