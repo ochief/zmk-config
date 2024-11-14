@@ -24,8 +24,13 @@
 
 // navigation
 #define NAV_PASTE   &ht LC(V) LC(LS(V))
+#define NAV_TAB_NE  &ht LC(T) LC(LS(N))
+
 #define NAV_COPY    &hm RSFT LC(C)
 #define NAV_SWAP    &hm LSFT LC(LA(TAB))
+#define NAV_TAB     &hm LCTL TAB
+#define NAV_TAB_CL  &hm LALT LC(W)
+#define NAV_TAB_RO  &hm LGUI LC(LS(T))
 
 #define NAV_SEL_LE  &kp LC(LS(LEFT))
 #define NAV_SEL_RI  &kp LS(LC(RIGHT))
@@ -36,6 +41,7 @@
 #define NAV_SEL_AL  &kp LC(A)
 #define NAV_SMILEY  &kp LG(DOT)
 #define NAV_DELWRD  &kp LC(DEL)
+#define NAV_CLOSE   &kp LA(F4)
 
 #define NAV_SWI_LE  &mm_switch_left
 #define NAV_SWI_RI  &mm_switch_right

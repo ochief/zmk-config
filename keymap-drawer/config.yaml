@@ -19,6 +19,10 @@ parse_config:
     NAV_COPY:         COPY
     NAV_PASTE:        PASTE
     NAV_SWAP:         {t: SWAP, h: Shift}
+    NAV_TAB:          {t: TAB, h: Ctrl}
+    NAV_TAB_CL:       {t: CLOSE TAB, h: Alt}
+    NAV_TAB_RO:       {t: REOPEN TAB, h: Gui}
+    NAV_CLOSE:        CLOSE
     NAV_SMILEY:       SMILEY
     NAV_DELWRD:       DEL WORD
     NAV_SWI_LE:       SWITCH LEFT
