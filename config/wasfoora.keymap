@@ -18,6 +18,8 @@
 #include "defines.dtsi"
 #include "behaviors.dtsi"
 
+// reopen tab maybe just SHIFT and Tab NEW
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
