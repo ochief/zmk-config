@@ -39,7 +39,7 @@
 				XXXXXXXXXX	&kp A	  	&kp B	  	&kp	A		&kp A	  			XXXXXXXXXX	NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
 				&kp A	  	&kp A	  	&kp A	  	&kp A	  	&kp A	  			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp A	  	&kp A	  	&kp A	                                    NUM_N4		NUM_N5		NUM_N6
-
+	
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 			>;
 		};
