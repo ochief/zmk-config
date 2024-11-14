@@ -66,11 +66,22 @@
 #define NUM_N9       &mm_number_9
 
 // miscellaneous
+#define MIS_VOL_DN  &kp C_VOL_DN
+#define MIS_VOL_MU  &kp C_MUTE
+#define MIS_VOL_UP  &kp C_VOL_UP
+#define MIS_BT_1    &bt BT_SEL 1
+#define MIS_BT_2    &bt BT_SEL 2
+#define MIS_BT_3    &bt BT_SEL 3
+#define MIS_SCREEN  &kp LG(LS(S))
+#define MIS_CAD     &kp LC(LA(DEL))
 
 // UK symbols
 #define UK_HASH     &kp GRAVE
 #define UK_DQT      &kp AT
 #define UK_AT       &kp DQT
+#define UK_TILDE:   &kp TILDE2
+#define UK_GRAVE:   &kp TILDE
+#define UK_POUND:   &kp HASH
 
 // other
 #define XXXXXXXXXX	&none

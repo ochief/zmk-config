@@ -40,7 +40,7 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		&kp POUND 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
+				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_POUND 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
 				&kp PERCENT &kp STAR  	&kp UNDER	&kp MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp PLUS  	&kp PIPE	&kp AMPS									NUM_N4		NUM_N5		NUM_N6
 
@@ -51,6 +51,8 @@
 				#endif
 			>;
 		};
+
+		// SOFT OFF - WhERE ARE WE GOING TO ADD THIS
 
         Navigation_layer {
             label = "NAV";
@@ -68,11 +70,11 @@
 		};
  
 		Miscellaneous_layer {
-            label = "MIS";
+            label = "MIS";x
             bindings = <
-				XXXXXXXXXX	__________	__________	__________	__________			__________	__________	__________	__________	XXXXXXXXXX
-				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
-							__________	__________	__________									__________	__________	__________
+				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	C_BRI_DN			C_BRI_UP	MIS_VOL_DN	MIS_VOL_MU	MIS_VOL_UP	XXXXXXXXXX
+				&kp F12		&kp F2		&kp F11		&kp F6		&soft_off			&bootloader	MIS_BT_1	MIS_BT_2	MIS_BT_3	&bt BT_CLR
+							&kp CARET	UK_TILDE	UK_GRAVE									MIS_SCREEN	MIS_CAD		__________
 				
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX

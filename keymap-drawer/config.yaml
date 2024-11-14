@@ -1,6 +1,7 @@
 parse_config:
   raw_binding_map:
     '&bootloader':    BOOT
+    '&soft_off':      SOFT OFF
     '&caps_word':     Caps Word
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
@@ -43,9 +44,23 @@ parse_config:
     NUM_N8:           '8'
     NUM_N9:           '9'
 
+    # miscellaneous
+    MIS_VOL_DN:       VOL DOWN
+    MIS_VOL_MU:       VOL MUTE
+    MIS_VOL_UP:       VOL UP
+    MIS_BT_1:         BT  1
+    MIS_BT_2:         BT  2
+    MIS_BT_3:         BT  3
+    MIS_SCREEN:       SCREEN SHOT
+    MIS_CAD:          C  A  D
+
+    # UK symbols
     UK_HASH:          '#'
     UK_DQT:           '"'
     UK_AT:            '@'
+    UK_TILDE:         '~'
+    UK_GRAVE:         '`'
+    UK_POUND:         £
 
   zmk_keycode_map:
     LCTL:             Ctrl
