@@ -32,7 +32,6 @@ parse_config:
     NAV_SWI_RI:       SWITCH RIGHT
     NAV_THREAD:       SLACK THREAD
 
-
     # number
     NUM_N0:           '0'
     NUM_N1:           '1'
@@ -49,6 +48,7 @@ parse_config:
     MIS_VOL_DN:       VOL DOWN
     MIS_VOL_MU:       VOL MUTE
     MIS_VOL_UP:       VOL UP
+    MIS_MUT_MIC:      MUTE MIC
     MIS_BT_1:         BT  1
     MIS_BT_2:         BT  2
     MIS_BT_3:         BT  3

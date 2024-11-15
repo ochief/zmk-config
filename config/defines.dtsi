@@ -74,6 +74,7 @@
 #define MIS_CAD     &kp LC(LA(DEL))
 #define MIS_BRI_DN  &kp C_BRI_DN
 #define MIS_BRI_UP  &kp C_BRI_UP
+#define MIS_MUT_MIC &kp F9
 
 // UK symbols
 #define UK_HASH     &kp GRAVE

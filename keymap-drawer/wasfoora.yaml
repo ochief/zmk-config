@@ -72,7 +72,7 @@ layers:
   - {t: ↑, s: PG UP}
   - SWITCH RIGHT
   - {type: ghost}
-  - {t: CLOSE TAB, h: GUI}
+  - {t: INCOG, h: Win}
   - {t: BIT WAR, h: Alt}
   - {t: TAB, h: Ctrl}
   - {t: SWAP, h: Shift}
@@ -85,8 +85,8 @@ layers:
   - CUT
   - COPY
   - PASTE
-  - SEL PREV
-  - SEL NEXT
+  - CLOSE TAB
+  - CLOSE APP
   - SEL LINE
   - {type: ghost}
   - {type: held}
@@ -97,28 +97,28 @@ layers:
   - PREV ←
   - PLAY/ PAUSE
   - NEXT →
-  - BRI DOWN
-  - BRI UP
+  - ''
+  - ''
   - VOL DOWN
   - VOL MUTE
   - VOL UP
   - {type: ghost}
-  - REOPEN TAB
-  - RENAME
-  - FULL SCREEN
-  - URL BAR
   - DEV TOOLS
-  - BOOT
+  - RENAME
+  - C  A  D
+  - MUTE MIC
+  - BRI DOWN
+  - BRI UP
   - BT  1
   - BT  2
   - BT  3
   - CLEAR
-  - ^
-  - '~'
-  - '`'
-  - SCREEN SHOT
-  - C  A  D
   - SOFT OFF
+  - FULL SCREEN
+  - URL BAR
+  - '~'
+  - ^
+  - BOOT
   - {type: ghost}
   - {type: held}
   - {type: held}
