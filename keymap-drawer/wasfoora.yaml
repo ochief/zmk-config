@@ -83,7 +83,7 @@ layers:
   - {t: →, s: END}
   - SLACK THREAD
   - CUT
-  - COPY
+  - {t: Copy, h: R Shift}
   - PASTE
   - CLOSE TAB
   - CLOSE APP
@@ -93,32 +93,32 @@ layers:
   - ''
   - {type: ghost}
   Miscellaneous:
-  - {type: ghost}
-  - PREV ←
-  - PLAY/ PAUSE
-  - NEXT →
-  - {type: ghost}
-  - {type: ghost}
-  - VOL DOWN
-  - VOL MUTE
-  - VOL UP
-  - {type: ghost}
-  - DEV TOOLS
-  - RENAME
-  - URL BAR
-  - MUTE MIC
-  - BRI DOWN
-  - BRI UP
-  - BT  1
-  - BT  2
-  - BT  3
-  - CLEAR
-  - SOFT OFF
-  - FULL SCREEN
-  - C  A  D
-  - '~'
-  - ^
-  - BOOT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: ghost}
   - {type: held}
   - {type: held}
