@@ -62,11 +62,11 @@ layers:
   - {type: held}
   - {type: ghost}
   Navigation:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: ghost}
+  - PREV TAB
+  - NEW TAB
+  - NEXT TAB
+  - DEL
   - ''
   - ''
   - ''
