@@ -27,7 +27,7 @@
 #define NAV_TAB     &hm LCTL TAB
 #define NAV_SWAP    &hm LSFT LC(LA(TAB))
 #define NAV_INCOG   &hm LALT LC(N)
-#define NAV_BITWAR  &hm LGUI LC(LS(L))
+#define NAV_ARC     &hm LGUI LG(N1)
 #define NAV_COPY    &hm RSFT LC(C)
 
 #define NAV_SEL_LI  &kp LA(LS(I))
@@ -62,10 +62,10 @@
 #define NUM_N8      &mm_number_8
 #define NUM_N9      &mm_number_9
 
-#define MIS_MINUS   &hm LCTL MINUS
-#define MIS_UNDER   &hm LSFT UNDER
-#define MIS_STAR    &hm LALT STAR
-#define MIS_PERCENT &hm LGUI PERCENT
+#define NUM_MINUS   &hm LCTL MINUS
+#define NUM_UNDER   &hm LSFT UNDER
+#define NUM_STAR    &hm LALT STAR
+#define NUM_PERCENT &hm LGUI PERCENT
 
 // miscellaneous
 #define MIS_VOL_DN  &kp C_VOL_DN
@@ -78,6 +78,8 @@
 #define MIS_BRI_DN  &kp C_BRI_DN
 #define MIS_BRI_UP  &kp C_BRI_UP
 #define MIS_MUT_MIC &kp F9
+#define MIS_BITWAR  &kp LC(LS(L))
+#define MIS_GENERAT &kp LC(LS(N9))
 
 // UK symbols
 #define UK_HASH     &kp NUHS

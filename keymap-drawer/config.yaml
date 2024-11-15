@@ -21,7 +21,7 @@ parse_config:
     NAV_TAB:          {t: TAB, h: Ctrl}
     NAV_SWAP:         {t: SWAP, h: Shift}
     NAV_INCOG:        {t: INCOG, h: Alt}
-    NAV_BITWAR:       {t: BIT WAR, h: Gui}
+    NAV_ARC:          {t: ARC, h: Win}
     NAV_CLO_TAB:      CLOSE TAB
     NAV_TAB_RO:       REOPEN TAB
     NAV_TAB_NE:       NEW TAB
@@ -30,19 +30,13 @@ parse_config:
     NAV_DELWRD:       DEL WORD
     NAV_SWI_LE:       SWITCH LEFT
     NAV_SWI_RI:       SWITCH RIGHT
-    NAV_THREAD:       SLACK THREAD
+    NAV_THREAD:       SLACK THREAD        
 
     # number
-    NUM_N0:           '0'
-    NUM_N1:           '1'
-    NUM_N2:           '2'
-    NUM_N3:           '3'
-    NUM_N4:           '4'
-    NUM_N5:           '5'
-    NUM_N6:           '6'
-    NUM_N7:           '7'
-    NUM_N8:           '8'
-    NUM_N9:           '9'
+    NUM_MINUS:        {t: MINUS, h: Ctrl}
+    NUM_UNDER:        {t: UNDER, h: Shift}
+    NUM_STAR:         {t: STAR, h: Alt}
+    NUM_PERCENT:      {t: PERCENT, h: Win}
 
     # miscellaneous
     MIS_VOL_DN:       VOL DOWN
@@ -56,6 +50,8 @@ parse_config:
     MIS_CAD:          C  A  D
     MIS_BRI_DN:       BRI DOWN
     MIS_BRI_UP:       BRI UP
+    MIS_BITWAR:       BIT WAR 
+    MIS_GENERAT:      GEN PWD
 
     # UK symbols
     UK_HASH:          '#'
