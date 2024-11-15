@@ -62,32 +62,32 @@ layers:
   - {type: held}
   - {type: ghost}
   Navigation:
-  - {type: ghost}
-  - PREV TAB
-  - NEW TAB
-  - NEXT TAB
-  - DEL
-  - DEL WORD
-  - SWITCH LEFT
-  - {t: ↑, s: PG UP}
-  - SWITCH RIGHT
-  - {type: ghost}
-  - {t: INCOG, h: Win}
-  - {t: BIT WAR, h: Alt}
-  - {t: TAB, h: Ctrl}
-  - {t: SWAP, h: Shift}
-  - SEL ALL
-  - SMILEY
-  - {t: ←, s: HOME}
-  - {t: ↓, s: PG DN}
-  - {t: →, s: END}
-  - SLACK THREAD
-  - CUT
-  - {t: Copy, h: R Shift}
-  - PASTE
-  - CLOSE TAB
-  - CLOSE APP
-  - SEL LINE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: ghost}
   - {type: held}
   - ''
@@ -106,7 +106,7 @@ layers:
   - DEV TOOLS
   - RENAME
   - URL BAR
-  - MIC
+  - MIC MUTE
   - BRI DOWN
   - BRI UP
   - BT  1
