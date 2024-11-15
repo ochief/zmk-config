@@ -97,15 +97,15 @@ layers:
   - PREV ←
   - PLAY/ PAUSE
   - NEXT →
-  - ''
-  - ''
+  - {type: ghost}
+  - {type: ghost}
   - VOL DOWN
   - VOL MUTE
   - VOL UP
   - {type: ghost}
   - DEV TOOLS
   - RENAME
-  - C  A  D
+  - URL BAR
   - MUTE MIC
   - BRI DOWN
   - BRI UP
@@ -115,7 +115,7 @@ layers:
   - CLEAR
   - SOFT OFF
   - FULL SCREEN
-  - URL BAR
+  - C  A  D
   - '~'
   - ^
   - BOOT
