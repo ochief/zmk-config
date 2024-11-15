@@ -26,7 +26,7 @@
 // navigation
 #define NAV_PASTE   &ht LC(V) LC(LS(V))
 
-#define NAV_COPY    &hm RSFT LC(C)
+#define NAV_COPY    &hm RCTL LC(C)
 #define NAV_SWAP    &hm LSFT LC(LA(TAB))
 #define NAV_TAB     &hm LCTL TAB
 #define NAV_BITWAR  &hm LALT LC(LS(L))
