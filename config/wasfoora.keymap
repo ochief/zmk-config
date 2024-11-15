@@ -65,8 +65,8 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				XXXXXXXXXX	NAV_TAB_LE	NAV_TAB_NE	NAV_TAB_RI	&kp DEL				NAV_DELWRD	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXX
 				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+				NAV_INCOG	NAV_BITWAR	NAV_TAB		NAV_SWAP	NAV_SEL_AL			NAV_SMILEY	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_THREAD
 							__________	__________	__________									__________	__________	__________			
 
 				#ifndef KEYMAP_DRAWER
