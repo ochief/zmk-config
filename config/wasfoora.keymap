@@ -26,6 +26,7 @@
 	Grave is wrong on misc
 	Maybe swap CTRL + SHIFT over for easier SHIFT + PASTE
 	Screen shot as a combo
+	incogni
 */
 
 / {
@@ -67,7 +68,7 @@
 			bindings = <
 				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
 				NAV_INCOG	NAV_BITWAR	NAV_TAB		NAV_SWAP	NAV_SEL_AL			NAV_SMILEY	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_THREAD
-							__________	__________	__________									__________	__________	__________			
+							NAV_CUT		NAV_COPY	NAV_PASTE									NAV_CLO_TAB	NAV_CLO_APP	NAV_SEL_LI		
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
