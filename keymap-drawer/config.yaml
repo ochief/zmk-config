@@ -61,7 +61,6 @@ parse_config:
     UK_HASH:          '#'
     UK_DQT:           '"'
     UK_AT:            '@'
-    UK_TILDE:         '~'
     UK_GRAVE:         '`'
     UK_POUND:         {t: £, h: €}
 
@@ -111,7 +110,7 @@ parse_config:
     LT:               <
     MINUS:            '-'
     PERCENT:          '%'
-    PIPE:             '|'
+    PIPE2:            '|'
     PLUS:             +
     POUND:            £
     PRCNT:            '%'

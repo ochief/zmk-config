@@ -62,6 +62,11 @@
 #define NUM_N8      &mm_number_8
 #define NUM_N9      &mm_number_9
 
+#define MIS_MINUS   &hm LCTL MINUS
+#define MIS_UNDER   &hm LSFT UNDER
+#define MIS_STAR    &hm LALT STAR
+#define MIS_PERCENT &hm LGUI PERCENT
+
 // miscellaneous
 #define MIS_VOL_DN  &kp C_VOL_DN
 #define MIS_VOL_MU  &kp C_MUTE
