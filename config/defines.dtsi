@@ -24,8 +24,6 @@
 #define DEF_DOT     &mm_dot_col
 
 // navigation
-#define NAV_PASTE   &ht LC(V) LC(LS(V))
-
 #define NAV_COPY    &hm RCTL LC(C)
 #define NAV_SWAP    &hm LSFT LC(LA(TAB))
 #define NAV_TAB     &hm LCTL TAB
@@ -43,6 +41,7 @@
 #define NAV_THREAD  &kp LC(LS(T))
 #define NAV_TAB_NE  &kp LC(T)
 #define NAV_CLO_TAB &kp LC(W)
+#define NAV_PASTE   &kp LC(V)
 
 #define NAV_SWI_LE  &mm_switch_left
 #define NAV_SWI_RI  &mm_switch_right
@@ -76,12 +75,12 @@
 #define MIS_MUT_MIC &kp F9
 
 // UK symbols
-#define UK_HASH     &kp GRAVE
+#define UK_HASH     &kp NUHS
 #define UK_DQT      &kp AT
 #define UK_AT       &kp DQT
 #define UK_TILDE    &kp TILDE2
 #define UK_GRAVE    &kp TILDE
-#define UK_PIPE     &kp PIPE
+#define UK_PIPE     &kp PIPE2
 #define UK_POUND    &ht RA(E) HASH 
 
 // other
