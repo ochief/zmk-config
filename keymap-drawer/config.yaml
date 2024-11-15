@@ -16,12 +16,12 @@ parse_config:
     NAV_TAB_LE:       PREV TAB
     NAV_TAB_RI:       NEXT TAB
     NAV_CUT:          CUT
-    NAV_COPY:         COPY
+    NAV_COPY:         {t: COPY, h: R Shift}
     NAV_PASTE:        PASTE
-    NAV_SWAP:         SWAP
-    NAV_TAB:          TAB
-    NAV_BITWAR:       BIT WAR
-    NAV_INCOG:        INCOG
+    NAV_TAB:          {t: TAB, h: Ctrl}
+    NAV_SWAP:         {t: SWAP, h: Shift}
+    NAV_INCOG:        {t: INCOG, h: Alt}
+    NAV_BITWAR:       {t: BIT WAR, h: Gui}
     NAV_CLO_TAB:      CLOSE TAB
     NAV_TAB_RO:       REOPEN TAB
     NAV_TAB_NE:       NEW TAB

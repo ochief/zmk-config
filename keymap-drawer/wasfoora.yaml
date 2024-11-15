@@ -72,10 +72,10 @@ layers:
   - {t: ↑, s: PG UP}
   - SWITCH RIGHT
   - {type: ghost}
-  - BIT WAR
-  - INCOG
-  - SWAP
-  - TAB
+  - {t: BIT WAR, h: Gui}
+  - {t: INCOG, h: Alt}
+  - {t: SWAP, h: Shift}
+  - {t: TAB, h: Ctrl}
   - SEL ALL
   - SMILEY
   - {t: ←, s: HOME}
@@ -83,7 +83,7 @@ layers:
   - {t: →, s: END}
   - SLACK THREAD
   - CUT
-  - COPY
+  - {t: COPY, h: R Shift}
   - PASTE
   - CLOSE TAB
   - CLOSE APP
