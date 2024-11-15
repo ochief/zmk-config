@@ -13,10 +13,10 @@
 // default
 #define DEF_R		&hm LGUI R
 #define DEF_S		&hm LALT S
-#define DEF_T		&hm LCTL T
-#define DEF_H		&hm LSFT H
-#define DEF_N		&hm LSFT N
-#define DEF_A		&hm LCTL A
+#define DEF_T		&hm LSFT T
+#define DEF_H		&hm LCTL H
+#define DEF_N		&hm LCTL N
+#define DEF_A		&hm LSFT A
 #define DEF_I		&hm LALT I
 #define DEF_O		&hm LGUI O
 
@@ -24,11 +24,11 @@
 #define DEF_DOT     &mm_dot_col
 
 // navigation
-#define NAV_COPY    &hm RCTL LC(C)
-#define NAV_SWAP    &hm LSFT LC(LA(TAB))
 #define NAV_TAB     &hm LCTL TAB
-#define NAV_BITWAR  &hm LALT LC(LS(L))
-#define NAV_INCOG   &hm LGUI LC(LS(N))
+#define NAV_SWAP    &hm LSFT LC(LA(TAB))
+#define NAV_INCOG   &hm LALT LC(LS(N))
+#define NAV_BITWAR  &hm LGUI LC(LS(L))
+#define NAV_COPY    &hm RSFT LC(C)
 
 #define NAV_SEL_LI  &kp LA(LS(I))
 #define NAV_TAB_LE  &kp LC(PG_UP)
