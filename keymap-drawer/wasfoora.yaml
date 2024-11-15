@@ -67,11 +67,11 @@ layers:
   - NEW TAB
   - NEXT TAB
   - DEL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - DEL WORD
+  - SWITCH LEFT
+  - {t: ↑, s: PG UP}
+  - SWITCH RIGHT
+  - {type: ghost}
   - {t: INCOG, h: Win}
   - {t: BIT WAR, h: Alt}
   - {t: TAB, h: Ctrl}
