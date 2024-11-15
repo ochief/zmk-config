@@ -42,7 +42,7 @@
 #define NAV_CLO_APP &kp LA(F4)
 #define NAV_THREAD  &kp LC(LS(T))
 #define NAV_TAB_NE  &kp LC(T)
-#define NAV_CLO_TAB &kp LALT LC(W)
+#define NAV_CLO_TAB &kp LC(W)
 
 #define NAV_SWI_LE  &mm_switch_left
 #define NAV_SWI_RI  &mm_switch_right
