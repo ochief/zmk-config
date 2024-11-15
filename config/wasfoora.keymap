@@ -19,14 +19,16 @@
 #include "behaviors.dtsi"
 
 /*
-	EURO IS NOT WORKING
-	PIPE is wrong on num
-	HRM is wrong on num
-	HRM ON NAV IS SCREWY
-	Grave is wrong on misc
-	Maybe swap CTRL + SHIFT over for easier SHIFT + PASTE
-	Screen shot as a combo
-	incogni
+	MISSING
+	- Q Z X J (and /)
+	- caps_word
+	- caps_lock
+	- enter
+	- BACKSPACE
+	- Screen shot
+	- <>
+	- ```
+	- \ /
 */
 
 / {
