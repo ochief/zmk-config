@@ -19,13 +19,13 @@
 #include "behaviors.dtsi"
 
 /*
-EURO IS NOT WORKING
-PIPE is wrong on num
-HRM is wrong on num
-HRM ON NAV IS SCREWY
-Grave is wrong on misc
-Maybe swap CTRL + SHIFT over for easier SHIFT + PASTE
-Screen shot as a combo
+	EURO IS NOT WORKING
+	PIPE is wrong on num
+	HRM is wrong on num
+	HRM ON NAV IS SCREWY
+	Grave is wrong on misc
+	Maybe swap CTRL + SHIFT over for easier SHIFT + PASTE
+	Screen shot as a combo
 */
 
 / {
@@ -80,10 +80,10 @@ Screen shot as a combo
 		Miscellaneous_layer {
             label = "MIS";
             bindings = <
-				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	XXXXXXXXXX			XXXXXXXXXX	MIS_VOL_DN	MIS_VOL_MU	MIS_VOL_UP	XXXXXXXXXX
-				&kp F12		&kp F2		&kp F6		MIS_MUT_MIC	MIS_BRI_DN			MIS_BRI_UP	MIS_BT_1	MIS_BT_2	MIS_BT_3	&bt BT_CLR
-							&soft_off	&kp F11		MIS_CAD										UK_TILDE	&kp CARET	&bootloader								
-				
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+							__________	__________	__________									__________	__________	__________				
+
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 				#else
