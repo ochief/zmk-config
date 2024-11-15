@@ -62,28 +62,28 @@
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp UP>, <&kp PG_UP>;
-		mods = <(MOD_LSFT)>;
+		mods = <(MOD_RSFT)>;
 	};
 
 	mm_down_pgdn: mod_morph_up_pagedown {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp DOWN>, <&kp PG_DN>;
-		mods = <(MOD_LSFT)>;
+		mods = <(MOD_RSFT)>;
 	};
 
 	mm_left_home: mod_morph_left_home {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp LEFT>, <&kp HOME>;
-		mods = <(MOD_LSFT)>;
+		mods = <(MOD_RSFT)>;
 	};
 
 	mm_right_end: mod_morph_right_end {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp RIGHT>, <&kp END>;
-		mods = <(MOD_LSFT)>;
+		mods = <(MOD_RSFT)>;
 	};
 
 	mm_number_0: mod_morph_number_0 {
