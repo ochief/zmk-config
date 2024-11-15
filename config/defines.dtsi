@@ -81,7 +81,7 @@
 #define UK_TILDE    &kp TILDE2
 #define UK_GRAVE    &kp TILDE
 #define UK_PIPE     &kp PIPE2
-#define UK_POUND    &ht RA(E) HASH 
+#define UK_POUND    &ht LC(LA(N4)) HASH 
 
 // other
 #define XXXXXXXXXX	&none
