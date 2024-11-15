@@ -20,7 +20,7 @@
 
 /*
 	MISSING
-	- Q Z X J (and /)
+	- Q Z X J
 	- caps_word
 	- caps_lock
 	- enter
@@ -29,6 +29,9 @@
 	- <>
 	- ```
 	- \ /
+	- Maybe move Bitwarden and Generate password to MISC layer, then what else for nav?
+	- HRM for NUM 
+	- ALT + Numbers = move to another app (use FN 13) upwords
 */
 
 / {
@@ -54,7 +57,7 @@
             label = "NUM";
 			bindings = <
 				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_POUND 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
-				&kp PERCENT &kp STAR  	&kp UNDER	&kp MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
+				MIS_PERCENT MIS_STAR  	MIS_UNDER	MIS_MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp PLUS  	UK_PIPE		&kp AMPS									NUM_N4		NUM_N5		NUM_N6
 
 				#ifndef KEYMAP_DRAWER

@@ -89,70 +89,70 @@
 	mm_number_0: mod_morph_number_0 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N0>, <&kp LC(LS(N0))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N0>, <&kp F13>;
+		mods = <(MOD_LALT)>;
 	};
 
 	mm_number_1: mod_morph_number_1 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N1>, <&kp LC(LS(N1))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N1>, <&kp F14>;
+		mods = <(MOD_LALT)>;
 	};
 
 	mm_number_2: mod_morph_number_2 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N2>, <&kp LC(LS(N2))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N2>, <&kp F15>;
+		mods = <(MOD_LALT)>;
 	};
 
 	mm_number_3: mod_morph_number_3 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N3>, <&kp LC(LS(N3))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N3>, <&kp F16>;
+		mods = <(MOD_LALT)>;
 	};
 
 	mm_number_4: mod_morph_number_4 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N4>, <&kp LC(LS(N4))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N4>, <&kp F17>;
+		mods = <(MOD_LALT)>;
 	};
 
 	mm_number_5: mod_morph_number_5 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N5>, <&kp LC(LS(N5))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N5>, <&kp F18>;
+		mods = <(MOD_LALT)>;
 	};
 
 	mm_number_6: mod_morph_number_6 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N6>, <&kp LC(LS(N6))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N6>, <&kp F19>;
+		mods = <(MOD_LALT)>;
 	};
 
 	mm_number_7: mod_morph_number_7 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N7>, <&kp LC(LS(N7))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N7>, <&kp F20>;
+		mods = <(MOD_LALT)>;
 	};
 
 	mm_number_8: mod_morph_number_8 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N8>, <&kp LC(LS(N8))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N8>, <&kp F21>;
+		mods = <(MOD_LALT)>;
 	};
 
 	mm_number_9: mod_morph_number_9 {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N9>, <&kp LC(LS(N9))>;
-		mods = <(MOD_LSFT)>;
+		bindings = <&kp N9>, <&kp F22>;
+		mods = <(MOD_LALT)>;
 	};
 };
