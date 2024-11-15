@@ -85,7 +85,7 @@ Screen shot as a combo
 							&soft_off	&kp F11		&kp F6										UK_TILDE	&kp CARET	&bootloader								
 				
 				#ifndef KEYMAP_DRAWER
-													XXXXXXXXXX	__________			__________	XXXXXXXXXXM
+													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 				#else
 													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
 				#endif
