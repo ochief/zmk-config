@@ -16,7 +16,7 @@ parse_config:
     NAV_TAB_LE:       PREV TAB
     NAV_TAB_RI:       NEXT TAB
     NAV_CUT:          CUT
-    NAV_COPY:         COPY
+    NAV_COPY:         {t: Copy, h: R Shift}
     NAV_PASTE:        PASTE
     NAV_SWAP:         {t: SWAP, h: Shift}
     NAV_TAB:          {t: TAB, h: Ctrl}
@@ -48,7 +48,7 @@ parse_config:
     MIS_VOL_DN:       VOL DOWN
     MIS_VOL_MU:       VOL MUTE
     MIS_VOL_UP:       VOL UP
-    MIS_MUT_MIC:      MUTE MIC
+    MIS_MUT_MIC:         MIC
     MIS_BT_1:         BT  1
     MIS_BT_2:         BT  2
     MIS_BT_3:         BT  3
