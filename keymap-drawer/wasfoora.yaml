@@ -12,12 +12,12 @@ layers:
   - {type: ghost}
   - {t: R, h: Win}
   - {t: S, h: Alt}
-  - {t: T, h: Ctrl}
-  - {t: H, h: Shift}
+  - {t: T, h: Shift}
+  - {t: H, h: Ctrl}
   - P
   - V
-  - {t: N, h: Shift}
-  - {t: A, h: Ctrl}
+  - {t: N, h: Ctrl}
+  - {t: A, h: Shift}
   - {t: I, h: Alt}
   - {t: O, h: Win}
   - B
@@ -72,10 +72,10 @@ layers:
   - {t: ↑, s: PG UP}
   - SWITCH RIGHT
   - {type: ghost}
-  - {t: INCOG, h: Win}
-  - {t: BIT WAR, h: Alt}
-  - {t: TAB, h: Ctrl}
-  - {t: SWAP, h: Shift}
+  - BIT WAR
+  - INCOG
+  - SWAP
+  - TAB
   - SEL ALL
   - SMILEY
   - {t: ←, s: HOME}
@@ -83,7 +83,7 @@ layers:
   - {t: →, s: END}
   - SLACK THREAD
   - CUT
-  - {t: Copy, h: R Shift}
+  - COPY
   - PASTE
   - CLOSE TAB
   - CLOSE APP
