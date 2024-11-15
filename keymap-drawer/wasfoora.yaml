@@ -82,12 +82,12 @@ layers:
   - {t: ↓, s: PG DN}
   - {t: →, s: END}
   - SLACK THREAD
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - CUT
+  - {t: Copy, h: R Shift}
+  - PASTE
+  - CLOSE TAB
+  - CLOSE APP
+  - SEL LINE
   - {type: ghost}
   - {type: held}
   - ''
