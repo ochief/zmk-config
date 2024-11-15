@@ -83,7 +83,7 @@ layers:
   - {t: →, s: END}
   - SLACK THREAD
   - CUT
-  - COPY
+  - {t: Copy, h: R Shift}
   - PASTE
   - CLOSE TAB
   - CLOSE APP
@@ -106,7 +106,7 @@ layers:
   - DEV TOOLS
   - RENAME
   - URL BAR
-  - MUTE MIC
+  - MIC
   - BRI DOWN
   - BRI UP
   - BT  1
