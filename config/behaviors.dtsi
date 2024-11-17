@@ -58,7 +58,7 @@
 		mods = <(MOD_LSFT)>;
 	};
 
-	mm_sqt_dqt: mod_morph_slack_desk_right {
+	mm_sqt_dqt: mod_morph_sqt_dqt {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
 		bindings = <&kp SQT>, <UK_DQT>;
