@@ -5,6 +5,7 @@ parse_config:
     '&caps_word':     Caps Word
     '&macro_grave3':  '```'
     '&macro_nequal':  <  >
+    '&macro_qu':      QU
     '&trans':         ''
     '&none':          {type: ghost}
     '&lt NAV SPACE':  {t: SPACE, h: NAV}
@@ -59,6 +60,12 @@ parse_config:
     UK_AT:            '@'
     UK_GRAVE:         '`'
     UK_POUND:         {t: £, h: €}
+
+  zmk_combos:
+    combo_grave3:     {a: top, o: 0.3}
+    combo_q:          {a: top, o: 0.3}
+    combo_z:          {a: bottom, o: 0.3}
+    combo_nequal:     {a: bottom, o: 0.3}
 
   zmk_keycode_map:
     LCTL:             Ctrl

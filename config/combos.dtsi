@@ -34,9 +34,10 @@ combo_##NAME { \
 		COMBO(z,		&kp Z,			20 22,		DEF,		COMBO_TERM_NORMAL)
 
 		// missing symbols
-		COMBO(sqt,		&kp SQT,		 7  8,		DEF,		COMBO_TERM_NORMAL) // shift to DQT
-		COMBO(grave3,	&macro_nequal,	 6  8,		DEF,		COMBO_TERM_NORMAL)
-		COMBO(nequal,	&macro_grave3,	23 25,		DEF,		COMBO_TERM_NORMAL)
+		COMBO(grave,	UK_GRAVE,		 6  7,		DEF NUM,	COMBO_TERM_NORMAL)
+		COMBO(sqt,		&mm_sqt_dqt,	 7  8,		DEF NUM,	COMBO_TERM_NORMAL)
+		COMBO(grave3,	&macro_nequal,	 6  8,		DEF NUM,	COMBO_TERM_NORMAL)
+		COMBO(nequal,	&macro_grave3,	23 25,		DEF NUM,	COMBO_TERM_NORMAL)
 
 		// brackets
 		COMBO(rbrc,     &kp LBRC,     	 3 13,  	DEF NUM, 	COMBO_TERM_SLOW)
