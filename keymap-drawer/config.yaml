@@ -33,10 +33,10 @@ parse_config:
     NAV_THREAD:       SLACK THREAD        
 
     # number
-    NUM_MINUS:        {t: MINUS, h: Ctrl}
-    NUM_UNDER:        {t: UNDER, h: Shift}
-    NUM_STAR:         {t: STAR, h: Alt}
-    NUM_PERCENT:      {t: PERCENT, h: Win}
+    NUM_MINUS:        {t: '-', h: Ctrl}
+    NUM_UNDER:        {t: '_', h: Shift}
+    NUM_STAR:         {t: '*', h: Alt}
+    NUM_PERCENT:      {t: '%', h: Win}
 
     # miscellaneous
     MIS_VOL_DN:       VOL DOWN
