@@ -38,6 +38,10 @@ combo_##NAME { \
 		COMBO(sqt,		&mm_sqt_dqt,	 7  8,		DEF NUM,	COMBO_TERM_NORMAL)
 		COMBO(grave3,	&macro_grave3,	 6  8,		DEF NUM,	COMBO_TERM_NORMAL)
 		COMBO(nequal,	&macro_nequal,	23 25,		DEF NUM,	COMBO_TERM_NORMAL)
+		COMBO(lt,		&kp LT,			23 24,		DEF NUM,	COMBO_TERM_NORMAL)
+		COMBO(gt,		&kp GT,			24 25,		DEF NUM,	COMBO_TERM_NORMAL)
+		COMBO(bslsh,	&kp bslsh,		20 21,		DEF NUM,	COMBO_TERM_NORMAL)
+		COMBO(fslsh,	&kp fslsh,		21 22,		DEF NUM,	COMBO_TERM_NORMAL)
 
 		// brackets
 		COMBO(rbrc,     &kp LBRC,     	 3 13,  	DEF NUM, 	COMBO_TERM_SLOW)
