@@ -70,7 +70,7 @@ parse_config:
     combo_grave3:     {a: top, o: 0.3}
     combo_q:          {a: top, o: 0.3}
     combo_z:          {a: bottom, o: 0.3}
-    combo_nequal:     {a: bottom, o: 0.3}
+    combo_nequal:     {a: bottom, o: 0.3}   
     combo_undo:       {t: Undo, draw_separate: true}
     combo_redo:       {t: Redo, draw_separate: true}
     combo_tog_mic:    {draw_separate: true}
@@ -89,8 +89,7 @@ parse_config:
     F11:              FULL SCREEN
     F12:              DEV TOOLS
     F24:              {type: held}
-
-    ENTER:            Ent
+    ENTER:            Enter
     C_PLAY:           PLAY/ PAUSE
     C_PREV:           PREV ←
     C_NEXT:           NEXT →

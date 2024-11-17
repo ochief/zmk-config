@@ -52,6 +52,8 @@ combo_##NAME { \
 		COMBO(lbrc,     &kp RBRC,     	 6 16,  	DEF NUM, 		COMBO_TERM_SLOW)
 
 		// diagonals
+		COMBO(esc,		&kp ESC,     	12 22,  	DEF NUM NAV, 	COMBO_TERM_NORMAL)	
+		COMBO(enter,	&kp ENTER,     	17 23,  	DEF NUM NAV, 	COMBO_TERM_NORMAL)
 		COMBO(undo,		&kp LC(Z),		13 14,	  	DEF NUM NAV,	COMBO_TERM_SLOW)	
 		COMBO(redo,		&kp LC(Y),		 3  4,	  	DEF NUM NAV,	COMBO_TERM_SLOW)
 		COMBO(tog_mic,	DEF_TOG_MIC,	15 16,	  	DEF NUM NAV,	COMBO_TERM_SLOW)
