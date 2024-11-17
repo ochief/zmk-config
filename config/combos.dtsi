@@ -40,8 +40,8 @@ combo_##NAME { \
 		COMBO(nequal,	&macro_nequal,	23 25,		DEF NUM,	COMBO_TERM_NORMAL)
 		COMBO(lt,		&kp LT,			23 24,		DEF NUM,	COMBO_TERM_NORMAL)
 		COMBO(gt,		&kp GT,			24 25,		DEF NUM,	COMBO_TERM_NORMAL)
-		COMBO(bslh,		&kp bslh,		20 21,		DEF NUM,	COMBO_TERM_NORMAL)
-		COMBO(fslh,		&kp fslh,		21 22,		DEF NUM,	COMBO_TERM_NORMAL)
+		COMBO(bslh,		&kp BSLH,		20 21,		DEF NUM,	COMBO_TERM_NORMAL)
+		COMBO(fslh,		&kp FSLH,		21 22,		DEF NUM,	COMBO_TERM_NORMAL)
 
 		// brackets
 		COMBO(rbrc,     &kp LBRC,     	 3 13,  	DEF NUM, 	COMBO_TERM_SLOW)
