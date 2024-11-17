@@ -79,7 +79,7 @@
 				#endif
 			>;
 		};
- MIS_MUT_MIC
+
 		Miscellaneous_layer {
             label = "MIS";
             bindings = <
