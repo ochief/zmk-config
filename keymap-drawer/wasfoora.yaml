@@ -125,7 +125,7 @@ layers:
   - {type: ghost}
 combos:
 - p: [1, 2]
-  k: V
+  k: X
   l: [DEF]
 - p: [2, 3]
   k: QU
