@@ -22,13 +22,15 @@
 
 #define DEF_COMMA   &mm_com_sem
 #define DEF_DOT     &mm_dot_col
+#define DEF_TOG_MIC &kp F22
+#define DEF_SHA_SCR &kp F23
 
 // navigation
 #define NAV_TAB     &hm LCTL TAB
 #define NAV_SWAP    &hm LSFT LC(LA(TAB))
 #define NAV_INCOG   &hm LALT LC(N)
-#define NAV_ARC     &hm LGUI LG(N1)
 #define NAV_COPY    &hm RSFT LC(C)
+#define NAV_SCREENS &hm LGUI LG(LS(S))
 
 #define NAV_SEL_LI  &kp LA(LS(I))
 #define NAV_TAB_LE  &kp LC(PG_UP)
@@ -74,6 +76,7 @@
 #define MIS_BT_1    &bt BT_SEL 1
 #define MIS_BT_2    &bt BT_SEL 2
 #define MIS_BT_3    &bt BT_SEL 3
+#define MIS_BT_4    &bt BT_SEL 4
 #define MIS_CAD     &kp LC(LA(DEL))
 #define MIS_BRI_DN  &kp C_BRI_DN
 #define MIS_BRI_UP  &kp C_BRI_UP

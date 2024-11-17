@@ -11,6 +11,10 @@ parse_config:
     '&lt NAV SPACE':  {t: SPACE, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
 
+    #default
+    DEF_TOG_MIC:      Mute Mic
+    DEF_SHA_SCR:      Share Screen
+
     # navigation
     NAV_SEL_AL:       SEL ALL
     NAV_SEL_LI:       SEL LINE
@@ -22,7 +26,7 @@ parse_config:
     NAV_TAB:          {t: TAB, h: Ctrl}
     NAV_SWAP:         {t: SWAP, h: Shift}
     NAV_INCOG:        {t: INCOG, h: Alt}
-    NAV_ARC:          {t: ARC, h: Win}
+    NAV_SCREENS:      {t: S  SHOT, h: Win}
     NAV_CLO_TAB:      CLOSE TAB
     NAV_TAB_RO:       REOPEN TAB
     NAV_TAB_NE:       NEW TAB
@@ -47,6 +51,7 @@ parse_config:
     MIS_BT_1:         BT  1
     MIS_BT_2:         BT  2
     MIS_BT_3:         BT  3
+    MIS_BT_4:         BT  4    
     MIS_SCREEN:       SCREEN SHOT
     MIS_CAD:          C  A  D
     MIS_BRI_DN:       BRI DOWN
@@ -66,6 +71,10 @@ parse_config:
     combo_q:          {a: top, o: 0.3}
     combo_z:          {a: bottom, o: 0.3}
     combo_nequal:     {a: bottom, o: 0.3}
+    combo_undo:       {draw_separate: true}
+    combo_redo:       {draw_separate: true}
+    combo_tog_mic:    {draw_separate: true}
+    combo_share:      {draw_separate: true}
 
   zmk_keycode_map:
     LCTL:             Ctrl
