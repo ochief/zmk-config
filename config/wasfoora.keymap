@@ -9,11 +9,35 @@
  *			20	21	22				23	24	25
  *					26	27		28	29
  *
- *		 K	 W	 C	 D	 B		 J	 L	 U	 Y	 '
- *		 A	 R	 S	 T	 P		 X	 N	 H	 I	 O 
- *			 V	 F	 G				 M	 Q	 Z
+ *		 	 C	 G	 D	 K		 J	 L	 U	 Y
+ *		 R	 S	 T	 H	 P		 V	 N	 A	 I	 O
+ *			 B	 W	 F				 M	 ,	 .
  *					   SPACE	 E
+ *          	 Q	                    ```
+ *             V   QU                  `   ' 
+ *		 	 C	 G	 D	 K		 J	 L	 U	 Y
+ *		 R	 S	 T	 H	 P		 V	 N	 A	 I	 O
+ *			 B	 W	 F				 M	 ,	 .
+               \   /                   <   >
+                 Z                       <>
+
+				 How about a combo like ME for O'Keeffe
+ 
+HN Caps word / capslock same as https://github.com/grassfedreeve/akohekohe
+ Sticky shift
+diagonals for esc and return
+capslock on upper right diagonals
+screen shot lower on right diagonal
+what is the shortcut for O'Keeffe
+Mouse Keys?
+
+Maybe Vivaldi Is the browser
+https://floorp.app/en
+
+https://www.reddit.com/r/ErgoMechKeyboards/comments/1b0v601/trying_to_use_zmk_with_mouse_support_need_help/
  */
+
+
 
 #include "defines.dtsi"
 #include "behaviors.dtsi"
@@ -35,6 +59,18 @@
 	- Fix Surfing Keys, Arc Browser
 	- ALT is used for ARC
 	- Arc link instead of bit warden and push to MISC
+	bunch of zipchords for apostrophees
+	
+
+	SURFING Keys
+	T conflicts with a bunch
+	Change HJKL for arrows
+	add surfing keys and AHK script to Github for reference
+
+	api.Hints.setCharacters('rsthfmnaio');
+	because of surfing keys may need an Insert Button (could repalce generate with that)
+
+	Mouse Keys/how to focus form
 */
 
 / {
