@@ -72,7 +72,7 @@ layers:
   - {t: ↑, s: PG UP}
   - SWITCH RIGHT
   - {type: ghost}
-  - {t: ARC, h: Win}
+  - {t: S  SHOT, h: Win}
   - {t: INCOG, h: Alt}
   - {t: SWAP, h: Shift}
   - {t: TAB, h: Ctrl}
@@ -106,13 +106,13 @@ layers:
   - DEV TOOLS
   - RENAME
   - URL BAR
-  - MIC MUTE
   - BIT WAR
   - GEN PWD
+  - CLEAR
   - BT  1
   - BT  2
   - BT  3
-  - CLEAR
+  - BT  4
   - SOFT OFF
   - FULL SCREEN
   - C  A  D
@@ -125,7 +125,7 @@ layers:
   - {type: ghost}
 combos:
 - p: [1, 2]
-  k: V
+  k: X
   l: [DEF]
 - p: [2, 3]
   k: QU
@@ -186,3 +186,19 @@ combos:
 - p: [6, 16]
   k: '}'
   l: [DEF, NUM]
+- p: [13, 14]
+  k: Ctl+ Z
+  l: [DEF, NUM, NAV]
+  draw_separate: true
+- p: [3, 4]
+  k: Ctl+ Y
+  l: [DEF, NUM, NAV]
+  draw_separate: true
+- p: [15, 16]
+  k: Mute Mic
+  l: [DEF, NUM, NAV]
+  draw_separate: true
+- p: [5, 6]
+  k: Share Screen
+  l: [DEF, NUM, NAV]
+  draw_separate: true
