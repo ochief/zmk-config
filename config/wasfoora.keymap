@@ -30,7 +30,6 @@
 #include "macros.dtsi"
 
 // urob timeless hrm for alphas
-// mute mic , share screen on diagonals?
 
 / {
 	keymap {
