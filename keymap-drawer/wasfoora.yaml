@@ -1,5 +1,5 @@
 layers:
-  Default:
+  DEF:
   - {type: ghost}
   - C
   - G
@@ -30,7 +30,7 @@ layers:
   - {t: SPACE, h: NAV}
   - {t: E, h: NUM}
   - {type: ghost}
-  Number:
+  NUM:
   - {type: ghost}
   - '!'
   - '?'
@@ -61,7 +61,7 @@ layers:
   - ''
   - {type: held}
   - {type: ghost}
-  Navigation:
+  NAV:
   - {type: ghost}
   - PREV TAB
   - NEW TAB
@@ -92,7 +92,7 @@ layers:
   - {type: held}
   - ''
   - {type: ghost}
-  Miscellaneous:
+  MIS:
   - {type: ghost}
   - PREV ←
   - PLAY/ PAUSE
