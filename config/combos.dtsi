@@ -19,9 +19,9 @@ combo_##NAME { \
 	layers = <LAYERS>; \
 };
 
-#define COMBO_TERM_FAST		20
-#define COMBO_TERM_NORMAL	30
-#define COMBO_TERM_SLOW		40
+#define COMBO_TERM_FAST 20
+#define COMBO_TERM_NORMAL 30
+#define COMBO_TERM_SLOW	40
 
 / {
     combos {
