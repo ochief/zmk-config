@@ -156,6 +156,18 @@ combos:
   l: [DEF, NUM]
   a: bottom
   o: 0.3
+- p: [23, 24]
+  k: <
+  l: [DEF, NUM]
+- p: [24, 25]
+  k: '>'
+  l: [DEF, NUM]
+- p: [20, 21]
+  k: \
+  l: [DEF, NUM]
+- p: [21, 22]
+  k: /
+  l: [DEF, NUM]
 - p: [3, 13]
   k: '{'
   l: [DEF, NUM]
