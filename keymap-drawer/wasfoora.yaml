@@ -41,10 +41,10 @@ layers:
   - '8'
   - '9'
   - {type: ghost}
-  - {t: '%', h: Win}
-  - {t: '*', h: Alt}
-  - {t: _, h: Shift}
-  - {t: '-', h: Ctrl}
+  - {t: PERCENT, h: Win}
+  - {t: STAR, h: Alt}
+  - {t: UNDER, h: Shift}
+  - {t: MINUS, h: Ctrl}
   - $
   - '='
   - '0'
@@ -72,7 +72,7 @@ layers:
   - {t: ↑, s: PG UP}
   - SWITCH RIGHT
   - {type: ghost}
-  - {t: BIT WAR, h: Gui}
+  - {t: ARC, h: Win}
   - {t: INCOG, h: Alt}
   - {t: SWAP, h: Shift}
   - {t: TAB, h: Ctrl}
@@ -97,8 +97,8 @@ layers:
   - PREV ←
   - PLAY/ PAUSE
   - NEXT →
-  - {type: ghost}
-  - {type: ghost}
+  - BRI DOWN
+  - BRI UP
   - VOL DOWN
   - VOL MUTE
   - VOL UP
@@ -107,8 +107,8 @@ layers:
   - RENAME
   - URL BAR
   - MIC MUTE
-  - BRI DOWN
-  - BRI UP
+  - BIT WAR
+  - GEN PWD
   - BT  1
   - BT  2
   - BT  3
