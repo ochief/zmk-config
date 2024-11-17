@@ -25,8 +25,8 @@
  */
 
 #include "defines.dtsi"
-#include "behaviors.dtsi"
 #include "combos.dtsi"
+#include "behaviors.dtsi"
 #include "macros.dtsi"
 
 / {

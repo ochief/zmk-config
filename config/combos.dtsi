@@ -34,8 +34,7 @@ combo_##NAME { \
 		COMBO(z,		&kp Z,			20 22,		DEF,		COMBO_TERM_NORMAL)
 
 		// missing symbols
-		COMBO(sqt,		&kp SQT,		 7  8,		DEF,		COMBO_TERM_NORMAL)
-		// this needs to be shifted to DQT
+		COMBO(sqt,		&kp SQT,		 7  8,		DEF,		COMBO_TERM_NORMAL) // shift to DQT
 		COMBO(grave3,	&macro_nequal,	 6  8,		DEF,		COMBO_TERM_NORMAL)
 		COMBO(nequal,	&macro_grave3,	23 25,		DEF,		COMBO_TERM_NORMAL)
 
