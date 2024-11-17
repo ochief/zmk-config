@@ -29,7 +29,7 @@
 #include "behaviors.dtsi"
 #include "macros.dtsi"
 
-/urob timeless hrm for alphas
+// urob timeless hrm for alphas
 
 / {
 	keymap {
