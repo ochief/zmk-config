@@ -50,5 +50,8 @@ combo_##NAME { \
 		COMBO(lbkt,		&kp RBKT,     	 8 18,  	DEF NUM, 	COMBO_TERM_SLOW)
 		COMBO(lpar,     &kp RPAR,     	 7 17,  	DEF NUM, 	COMBO_TERM_SLOW)
 		COMBO(lbrc,     &kp RBRC,     	 6 16,  	DEF NUM, 	COMBO_TERM_SLOW)
+
+		// diagonals
+		
 	};	
 };
