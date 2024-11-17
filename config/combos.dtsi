@@ -24,7 +24,9 @@ combo_##NAME { \
 #define COMBO_TERM_SLOW	40
 
 / {
-    combos {			
+    combos {
+		compatible = "zmk,combos";			
+		
 		// missing alphas
 		COMBO(v,		&kp V,			 1  2,		DEF,		COMBO_TERM_NORMAL)
 		COMBO(qu,		&macro_qu,		 2  3,		DEF,		COMBO_TERM_NORMAL)		
