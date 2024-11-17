@@ -147,12 +147,12 @@ combos:
   k: {t: '''', s: '"'}
   l: [DEF, NUM]
 - p: [6, 8]
-  k: <  >
+  k: '```'
   l: [DEF, NUM]
   a: top
   o: 0.3
 - p: [23, 25]
-  k: '```'
+  k: <  >
   l: [DEF, NUM]
   a: bottom
   o: 0.3
