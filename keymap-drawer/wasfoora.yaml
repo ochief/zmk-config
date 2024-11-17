@@ -123,3 +123,54 @@ layers:
   - {type: held}
   - {type: held}
   - {type: ghost}
+combos:
+- p: [1, 2]
+  k: V
+  l: [DEF]
+- p: [2, 3]
+  k: QU
+  l: [DEF]
+- p: [1, 3]
+  k: Q
+  l: [DEF]
+  a: top
+  o: 0.3
+- p: [20, 22]
+  k: Z
+  l: [DEF]
+  a: bottom
+  o: 0.3
+- p: [6, 7]
+  k: '`'
+  l: [DEF, NUM]
+- p: [7, 8]
+  k: {t: '''', s: '"'}
+  l: [DEF, NUM]
+- p: [6, 8]
+  k: <  >
+  l: [DEF, NUM]
+  a: top
+  o: 0.3
+- p: [23, 25]
+  k: '```'
+  l: [DEF, NUM]
+  a: bottom
+  o: 0.3
+- p: [3, 13]
+  k: '{'
+  l: [DEF, NUM]
+- p: [2, 12]
+  k: (
+  l: [DEF, NUM]
+- p: [1, 11]
+  k: '['
+  l: [DEF, NUM]
+- p: [8, 18]
+  k: ']'
+  l: [DEF, NUM]
+- p: [7, 17]
+  k: )
+  l: [DEF, NUM]
+- p: [6, 16]
+  k: '}'
+  l: [DEF, NUM]
