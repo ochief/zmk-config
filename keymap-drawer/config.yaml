@@ -14,6 +14,8 @@ parse_config:
     #default
     DEF_TOG_MIC:      Mute Mic
     DEF_SHA_SCR:      Share Screen
+    DEF_UNDO:         Undo
+    DEF_REDO:         Redo
 
     # navigation
     NAV_SEL_AL:       SEL ALL
@@ -71,8 +73,8 @@ parse_config:
     combo_q:          {a: top, o: 0.3}
     combo_z:          {a: bottom, o: 0.3}
     combo_nequal:     {a: bottom, o: 0.3}   
-    combo_undo:       {t: Undo, draw_separate: true}
-    combo_redo:       {t: Redo, draw_separate: true}
+    combo_undo:       {draw_separate: true}
+    combo_redo:       {draw_separate: true}
     combo_tog_mic:    {draw_separate: true}
     combo_share:      {draw_separate: true}
 

@@ -22,8 +22,11 @@
 
 #define DEF_COMMA   &mm_com_sem
 #define DEF_DOT     &mm_dot_col
+
 #define DEF_TOG_MIC &kp F22
 #define DEF_SHA_SCR &kp F23
+#define DEF_UNDO    &kp LC(Z)
+#define DEF_REDO    &kp LC(Y)
 
 // navigation
 #define NAV_TAB     &hm LCTL TAB

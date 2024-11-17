@@ -105,18 +105,18 @@ layers:
   - {type: ghost}
   - DEV TOOLS
   - RENAME
+  - FULL SCREEN
   - URL BAR
   - BIT WAR
   - GEN PWD
-  - CLEAR
   - BT  1
   - BT  2
   - BT  3
-  - BT  4
+  - CLEAR
   - SOFT OFF
-  - FULL SCREEN
-  - C  A  D
   - '~'
+  - C  A  D
+  - SLEEP
   - ^
   - BOOT
   - {type: ghost}
@@ -186,12 +186,18 @@ combos:
 - p: [6, 16]
   k: '}'
   l: [DEF, NUM]
+- p: [12, 22]
+  k: Esc
+  l: [DEF, NUM, NAV]
+- p: [17, 23]
+  k: Enter
+  l: [DEF, NUM, NAV]
 - p: [13, 14]
-  k: Ctl+ Z
+  k: Undo
   l: [DEF, NUM, NAV]
   draw_separate: true
 - p: [3, 4]
-  k: Ctl+ Y
+  k: Redo
   l: [DEF, NUM, NAV]
   draw_separate: true
 - p: [15, 16]
