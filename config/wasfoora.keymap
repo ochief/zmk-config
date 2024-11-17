@@ -30,6 +30,9 @@
 #include "macros.dtsi"
 
 // urob timeless hrm for alphas
+// best way of handling euros
+// how to handle github stuff
+// how about mouse keys?? and other urob stuff.
 
 / {
 	keymap {
