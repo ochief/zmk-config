@@ -76,13 +76,13 @@
 #define MIS_BT_1    &bt BT_SEL 1
 #define MIS_BT_2    &bt BT_SEL 2
 #define MIS_BT_3    &bt BT_SEL 3
-#define MIS_BT_4    &bt BT_SEL 4
 #define MIS_CAD     &kp LC(LA(DEL))
 #define MIS_BRI_DN  &kp C_BRI_DN
 #define MIS_BRI_UP  &kp C_BRI_UP
 #define MIS_MUT_MIC &kp F9
 #define MIS_BITWAR  &kp LC(LS(L))
 #define MIS_GENERAT &kp LC(LS(N9))
+#define MIS_SLEEP   &kp F21       
 
 // UK symbols
 #define UK_HASH     &kp NUHS
