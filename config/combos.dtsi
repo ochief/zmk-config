@@ -25,26 +25,26 @@ combo_##NAME { \
 
 / {
     combos {
-		compatible = "zmk, combos"
+		compatible = "zmk, combos";
 			
 		// missing alphas
-		COMBO(v,		&kp V,			 1  2,		DEF,	COMBO_TERM_NORMAL)
-		COMBO(qu,		&macro_qu,		 2  3,		DEF,	COMBO_TERM_NORMAL)		
-		COMBO(q,		&kp Q,			 1  3,		DEF,	COMBO_TERM_NORMAL)
-		COMBO(z,		&kp Z,			20 22,		DEF,	COMBO_TERM_NORMAL)
+		COMBO(v,		&kp V,			 1  2,		DEF,		COMBO_TERM_NORMAL)
+		COMBO(qu,		&macro_qu,		 2  3,		DEF,		COMBO_TERM_NORMAL)		
+		COMBO(q,		&kp Q,			 1  3,		DEF,		COMBO_TERM_NORMAL)
+		COMBO(z,		&kp Z,			20 22,		DEF,		COMBO_TERM_NORMAL)
 
 		// missing symbols
-		COMBO(sqt,		&kp SQT,		 7  8,		DEF,	COMBO_TERM_NORMAL)
+		COMBO(sqt,		&kp SQT,		 7  8,		DEF,		COMBO_TERM_NORMAL)
 		// this needs to be shifted to DQT
-		COMBO(grave3,	&macro_nequal,	 6  8,		DEF,	COMBO_TERM_NORMAL)
-		COMBO(nequal,	&macro_grave3,	23 25,		DEF,	COMBO_TERM_NORMAL)
+		COMBO(grave3,	&macro_nequal,	 6  8,		DEF,		COMBO_TERM_NORMAL)
+		COMBO(nequal,	&macro_grave3,	23 25,		DEF,		COMBO_TERM_NORMAL)
 
 		// brackets
-		COMBO(rbrc,     &kp LBRC,     	 3 13,  	DEF NUM, COMBO_TERM_SLOW)
-		COMBO(rpar,     &kp LPAR,     	 2 12,  	DEF NUM, COMBO_TERM_SLOW)
-		COMBO(rbkt,     &kp LBKT,     	 1 11,  	DEF NUM, COMBO_TERM_SLOW)
-		COMBO(lbkt,		&kp RBKT,     	 8 18,  	DEF NUM, COMBO_TERM_SLOW)
-		COMBO(lpar,     &kp RPAR,     	 7 17,  	DEF NUM, COMBO_TERM_SLOW)
-		COMBO(lbrc,     &kp RBRC,     	 6 16,  	DEF NUM, COMBO_TERM_SLOW)
+		COMBO(rbrc,     &kp LBRC,     	 3 13,  	DEF NUM, 	COMBO_TERM_SLOW)
+		COMBO(rpar,     &kp LPAR,     	 2 12,  	DEF NUM, 	COMBO_TERM_SLOW)
+		COMBO(rbkt,     &kp LBKT,     	 1 11,  	DEF NUM, 	COMBO_TERM_SLOW)
+		COMBO(lbkt,		&kp RBKT,     	 8 18,  	DEF NUM, 	COMBO_TERM_SLOW)
+		COMBO(lpar,     &kp RPAR,     	 7 17,  	DEF NUM, 	COMBO_TERM_SLOW)
+		COMBO(lbrc,     &kp RBRC,     	 6 16,  	DEF NUM, 	COMBO_TERM_SLOW)
 	};	
 };
