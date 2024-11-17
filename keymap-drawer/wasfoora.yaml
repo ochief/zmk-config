@@ -1,5 +1,5 @@
 layers:
-  Default:
+  DEF:
   - {type: ghost}
   - C
   - G
@@ -30,7 +30,7 @@ layers:
   - {t: SPACE, h: NAV}
   - {t: E, h: NUM}
   - {type: ghost}
-  Number:
+  NUM:
   - {type: ghost}
   - '!'
   - '?'
@@ -41,10 +41,10 @@ layers:
   - '8'
   - '9'
   - {type: ghost}
-  - {t: PERCENT, h: Win}
-  - {t: STAR, h: Alt}
-  - {t: UNDER, h: Shift}
-  - {t: MINUS, h: Ctrl}
+  - {t: '%', h: Win}
+  - {t: '*', h: Alt}
+  - {t: _, h: Shift}
+  - {t: '-', h: Ctrl}
   - $
   - '='
   - '0'
@@ -61,7 +61,7 @@ layers:
   - ''
   - {type: held}
   - {type: ghost}
-  Navigation:
+  NAV:
   - {type: ghost}
   - PREV TAB
   - NEW TAB
@@ -92,7 +92,7 @@ layers:
   - {type: held}
   - ''
   - {type: ghost}
-  Miscellaneous:
+  MIS:
   - {type: ghost}
   - PREV ←
   - PLAY/ PAUSE
