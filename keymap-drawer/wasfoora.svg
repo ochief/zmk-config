@@ -241,7 +241,7 @@ path.combo {
 </g>
 <g transform="translate(270, 196)" class="key keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F21</text>
+<text x="0" y="0" class="key tap">VISUAL</text>
 </g>
 <g transform="translate(330, 196)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -255,7 +255,7 @@ path.combo {
 </g>
 <g transform="translate(480, 196)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F22</text>
+<text x="0" y="0" class="key tap">GRID</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="106" y="15" width="28" height="26" class="combo"/>
