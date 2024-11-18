@@ -33,9 +33,9 @@ parse_config:
     NAV_CLO_APP:      CLOSE APP
     NAV_SMILEY:       $$mdi:emoticon-happy-outline$$
     NAV_DELWRD:       DEL WORD
-    NAV_SWI_LE:       {t: $$mdi:arrow-left$$, s: Switch}
-    NAV_SWI_RI:       {t: $$mdi:arrow-right$$, s: Switch}
-    NAV_THREAD:       {t: $$mdi:slack$$, s: Thread}
+    NAV_SWI_LE:       {t: $$mdi:arrow-left$$, s: SWITCH}
+    NAV_SWI_RI:       {t: $$mdi:arrow-right$$, s: SWITCH}
+    NAV_THREAD:       SLACK THREAD
 
     # number
     NUM_MINUS:        {t: '-', h: Ctrl}
@@ -120,7 +120,7 @@ parse_config:
     C_PLAY:           $$mdi:play-pause$$
     C_PREV:           $$mdi:skip-previous$$
     C_NEXT:           $$mdi:skip-next$$
-    BT_CLR:           {t: $$mdi:bluetooth-connect$$, s: 'Clear'}
+    BT_CLR:           {t: $$mdi:bluetooth-connect$$, s: 'CLEAR'}
 
     UP:               {t: $$mdi:arrow-up$$, s: PG  Up}
     DOWN:             {t: $$mdi:arrow-down$$, s: PG  Down}
