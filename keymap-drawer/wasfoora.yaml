@@ -68,20 +68,20 @@ layers:
   - NEXT TAB
   - DEL
   - DEL WORD
-  - SWITCH $$mdi:arrow-left$$
+  - {t: '$$mdi:arrow-left$$', s: Switch}
   - {t: '$$mdi:arrow-up$$', s: PG UP}
-  - SWITCH $$mdi:arrow-right$$
+  - {t: '$$mdi:arrow-right$$', s: Switch}
   - ''
   - {t: S  SHOT, h: Win}
   - {t: INCOG, h: Alt}
   - {t: SWAP, h: Shift}
   - {t: TAB, h: Ctrl}
   - SEL ALL
-  - SMILEY
+  - $$mdi:emoticon-happy-outline$$
   - {t: '$$mdi:arrow-left$$', s: HOME}
   - {t: '$$mdi:arrow-down$$', s: PG DN}
   - {t: '$$mdi:arrow-right$$', s: END}
-  - $$mdi:slack$$  THREAD
+  - {t: '$$mdi:slack$$', s: Thread}
   - CUT
   - {t: COPY, h: R Shift}
   - PASTE
@@ -94,11 +94,11 @@ layers:
   - ''
   Miscellaneous:
   - ''
-  - PREV ←
+  - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
-  - NEXT →
-  - BRI DOWN
-  - BRI UP
+  - $$mdi:skip-next$$
+  - $$mdi:weather-night$$
+  - $$mdi:weather-sunny$$
   - $$mdi:volume-minus$$
   - $$mdi:volume-mute$$
   - $$mdi:volume-plus$$
@@ -108,10 +108,10 @@ layers:
   - FULL SCREEN
   - URL BAR
   - DEV TOOLS
-  - CLEAR
-  - $$mdi:bluetooth-connect$$  1
-  - $$mdi:bluetooth-connect$$  2
-  - $$mdi:bluetooth-connect$$  3
+  - {t: '$$mdi:bluetooth-connect$$', s: Clear}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', s: '3'}
   - GEN PWD
   - SOFT OFF
   - '~'
