@@ -131,35 +131,35 @@
 	mm_num_5: mod_morph_number_five {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N5>, <&kp F18>;
+		bindings = <&kp N5>, <&kp COMMA>;
 		mods = <(MOD_RSFT)>;
 	};
 
 	mm_num_6: mod_morph_number_six {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N6>, <&kp F19>;
+		bindings = <&kp N6>, <&kp DOT>;
 		mods = <(MOD_RSFT)>;
 	};
 
 	mm_num_7: mod_morph_number_seven {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N7>, <&kp F20>;
+		bindings = <&kp N7>, <&kp F18>;
 		mods = <(MOD_RSFT)>;
 	};
 
 	mm_num_8: mod_morph_number_eight {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N8>, <&kp F21>;
+		bindings = <&kp N8>, <&kp F19>;
 		mods = <(MOD_RSFT)>;
 	};
 
 	mm_num_9: mod_morph_number_nine {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
-		bindings = <&kp N9>, <&kp F22>;
+		bindings = <&kp N9>, <&kp F20>;
 		mods = <(MOD_RSFT)>;
 	};
 };
