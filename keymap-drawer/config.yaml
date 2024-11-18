@@ -16,7 +16,7 @@ parse_config:
     DEF_BACK_WD:      Back
 
     # navigation
-    NAV_SEL_AL:       SEL ALL
+    NAV_SEL_AL:       SELECT ALL
     NAV_SEL_LI:       SEL LINE
     NAV_TAB_LE:       PREV TAB
     NAV_TAB_RI:       NEXT TAB
@@ -26,13 +26,13 @@ parse_config:
     NAV_TAB:          {t: TAB, h: Ctrl}
     NAV_SWAP:         {t: SWAP, h: Shift}
     NAV_INCOG:        {t: INCOG, h: Alt}
-    NAV_SCREENS:      {t: S  SHOT, h: Win}
+    NAV_SCREENS:      {t: SCREEN SHOT, h: Win}
     NAV_CLO_TAB:      CLOSE TAB
     NAV_TAB_RO:       REOPEN TAB
     NAV_TAB_NE:       NEW TAB
     NAV_CLO_APP:      CLOSE APP
     NAV_SMILEY:       $$mdi:emoticon-happy-outline$$
-    NAV_DELWRD:       DEL WORD
+    NAV_DELWRD:       DELETE WORD
     NAV_SWI_LE:       {t: $$mdi:arrow-left$$, s: SWITCH}
     NAV_SWI_RI:       {t: $$mdi:arrow-right$$, s: SWITCH}
     NAV_THREAD:       SLACK THREAD
@@ -63,7 +63,6 @@ parse_config:
     MIS_BT_1:         {t: $$mdi:bluetooth-connect$$, s: '1'}
     MIS_BT_2:         {t: $$mdi:bluetooth-connect$$, s: '2'}
     MIS_BT_3:         {t: $$mdi:bluetooth-connect$$, s: '3'}
-    MIS_SCREEN:       SCREEN SHOT
     MIS_CAD:          C  A  D
     MIS_BRI_DN:       $$mdi:weather-night$$
     MIS_BRI_UP:       $$mdi:weather-sunny$$
@@ -108,7 +107,7 @@ parse_config:
     LSFT:             Shift
     RSFT:             R Shift
     ESC:              Esc
-
+    DEL:              DELETE
     F2:               RENAME
     F6:               URL BAR
     F11:              FULL SCREEN
