@@ -168,6 +168,22 @@ combos:
 - p: [21, 22]
   k: /
   l: [Default, Number/Symbol]
+- p: [11, 12]
+  k: Caps Word
+  l: [Default]
+  draw_separate: true
+- p: [17, 18]
+  k: Caps Word
+  l: [Default]
+  draw_separate: true
+- p: [16, 17]
+  k: BSPC
+  l: [Default, Number/Symbol]
+  draw_separate: true
+- p: [12, 13]
+  k: Ctl+ BSPC
+  l: [Default, Number/Symbol]
+  draw_separate: true
 - p: [12, 22]
   k: Esc
   l: [Default, Number/Symbol, Navigation]
