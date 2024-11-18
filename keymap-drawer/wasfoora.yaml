@@ -31,94 +31,94 @@ layers:
   - {t: E, h: NUM}
   - {type: ghost}
   NUM:
-  - {type: ghost}
-  - '!'
-  - '?'
-  - '@'
-  - {t: £, h: €}
-  - '#'
-  - '7'
-  - '8'
-  - '9'
-  - {type: ghost}
-  - {t: '%', h: Win}
-  - {t: '*', h: Alt}
-  - {t: _, h: Shift}
-  - {t: '-', h: Ctrl}
-  - $
-  - '='
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - +
-  - '|'
-  - '&'
-  - '4'
-  - '5'
-  - '6'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: ghost}
   - ''
   - {type: held}
   - {type: ghost}
   NAV:
-  - {type: ghost}
-  - PREV TAB
-  - NEW TAB
-  - NEXT TAB
-  - DEL
-  - DEL WORD
-  - SWITCH LEFT
-  - {t: ↑, s: PG UP}
-  - SWITCH RIGHT
-  - {type: ghost}
-  - {t: S  SHOT, h: Win}
-  - {t: INCOG, h: Alt}
-  - {t: SWAP, h: Shift}
-  - {t: TAB, h: Ctrl}
-  - SEL ALL
-  - SMILEY
-  - {t: ←, s: HOME}
-  - {t: ↓, s: PG DN}
-  - {t: →, s: END}
-  - SLACK THREAD
-  - CUT
-  - {t: COPY, h: R Shift}
-  - PASTE
-  - CLOSE TAB
-  - CLOSE APP
-  - SEL LINE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: ghost}
   - {type: held}
   - ''
   - {type: ghost}
   MIS:
-  - {type: ghost}
-  - PREV ←
-  - PLAY/ PAUSE
-  - NEXT →
-  - BRI DOWN
-  - BRI UP
-  - VOL DOWN
-  - VOL MUTE
-  - VOL UP
-  - {type: ghost}
-  - BIT WAR
-  - RENAME
-  - FULL SCREEN
-  - URL BAR
-  - DEV TOOLS
-  - CLEAR
-  - BT  1
-  - BT  2
-  - BT  3
-  - GEN PWD
-  - SOFT OFF
-  - '~'
-  - C  A  D
-  - SLEEP
-  - ^
-  - BOOT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: ghost}
   - {type: held}
   - {type: held}
