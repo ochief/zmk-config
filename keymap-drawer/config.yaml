@@ -126,6 +126,7 @@ parse_config:
 
     # defaults
     AMPS:             '&'
+    NUBS:             \
     BSLH:             \
     CAPS:             Caps
     CARET:            ^

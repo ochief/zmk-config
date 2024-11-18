@@ -95,7 +95,7 @@
 #define UK_DQT      &kp AT
 #define UK_AT       &kp DQT
 #define UK_TILDE    &kp TILDE2
-#define UK_GRAVE    &kp TILDE
+#define UK_GRAVE    &kp GRAVE
 #define UK_PIPE     PIPE2
 #define UK_BSLH     &kp NUBS
 #define UK_POUND    HASH 
