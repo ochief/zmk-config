@@ -24,9 +24,11 @@
 #include "macros.dtsi"
 
 // FORGOT BSPC
+// caps locks
 // urob timeless hrm for alphas
 // shift qu should be Qu not QU
 // AHK F keys including F10
+// timings for HR Combos
 // how about mouse keys?? and other urob stuff.
 // https://github.com/rvaiya/warpd/tree/master
 // https://github.com/lesderid/keynavish?tab=readme-ov-file https://github.com/stozi/gallium-ru-34
@@ -69,7 +71,7 @@
 		};
 
 		MIS_layer {
-            label = "Miscellaneous_layer";
+            label = "Miscellaneous";
             bindings = <
 				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	MIS_BRI_DN			MIS_BRI_UP	MIS_VOL_DN	MIS_VOL_MU	MIS_VOL_UP	XXXXXXXXXX
 				MIS_BITWAR	&kp F2		&kp F11		&kp F6		&kp F12				&bt BT_CLR	MIS_BT_1	MIS_BT_2	MIS_BT_3	MIS_GENERAT
