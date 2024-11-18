@@ -101,7 +101,8 @@ parse_config:
 
   zmk_keycode_map:
     Navigation:       NAV
-
+    1:                NUM
+    2:                NAV
     SPACE:            $$mdi:keyboard-space$$
     LCTL:             Ctrl
     LALT:             Alt
