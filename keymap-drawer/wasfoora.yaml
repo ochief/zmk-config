@@ -26,16 +26,16 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {type: ghost}
-  - {t: SPACE, h: NAV}
+  - F21
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: E, h: NUM}
-  - {type: ghost}
+  - F22
   NUM:
   - {type: ghost}
   - '!'
   - '?'
   - '@'
-  - {t: £, h: €}
+  - {t: £, s: €}
   - '#'
   - '7'
   - '8'
@@ -55,12 +55,12 @@ layers:
   - {t: '|', h: R Shift}
   - '&'
   - '4'
-  - {t: '5', h: ','}
-  - {t: '6', h: .}
-  - {type: ghost}
+  - {t: '5', s: ','}
+  - {t: '6', s: .}
   - ''
-  - {type: held}
-  - {type: ghost}
+  - ''
+  - ''
+  - ''
   NAV:
   - {type: ghost}
   - PREV TAB
@@ -88,10 +88,10 @@ layers:
   - CLOSE TAB
   - CLOSE APP
   - SEL LINE
-  - {type: ghost}
-  - {type: held}
   - ''
-  - {type: ghost}
+  - ''
+  - ''
+  - ''
   MIS:
   - {type: ghost}
   - PREV ←
@@ -119,10 +119,10 @@ layers:
   - SLEEP
   - ^
   - BOOT
-  - {type: ghost}
-  - {type: held}
-  - {type: held}
-  - {type: ghost}
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [1, 2]
   k: X
@@ -168,24 +168,6 @@ combos:
 - p: [21, 22]
   k: /
   l: [DEF, NUM]
-- p: [3, 13]
-  k: '{'
-  l: [DEF, NUM]
-- p: [2, 12]
-  k: (
-  l: [DEF, NUM]
-- p: [1, 11]
-  k: '['
-  l: [DEF, NUM]
-- p: [8, 18]
-  k: ']'
-  l: [DEF, NUM]
-- p: [7, 17]
-  k: )
-  l: [DEF, NUM]
-- p: [6, 16]
-  k: '}'
-  l: [DEF, NUM]
 - p: [12, 22]
   k: Esc
   l: [DEF, NUM, NAV]
@@ -209,4 +191,28 @@ combos:
 - p: [5, 6]
   k: Share Screen
   l: [DEF, NUM, NAV]
+  draw_separate: true
+- p: [3, 13]
+  k: '{'
+  l: [DEF, NUM]
+  draw_separate: true
+- p: [6, 16]
+  k: '}'
+  l: [DEF, NUM]
+  draw_separate: true
+- p: [2, 12]
+  k: (
+  l: [DEF, NUM]
+  draw_separate: true
+- p: [7, 17]
+  k: )
+  l: [DEF, NUM]
+  draw_separate: true
+- p: [1, 11]
+  k: '['
+  l: [DEF, NUM]
+  draw_separate: true
+- p: [8, 18]
+  k: ']'
+  l: [DEF, NUM]
   draw_separate: true
