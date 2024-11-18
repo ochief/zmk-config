@@ -92,7 +92,7 @@ layers:
   - ''
   - ''
   - ''
-  Miscellaneous_layer:
+  Miscellaneous:
   - {type: ghost}
   - PREV ←
   - PLAY/ PAUSE
@@ -176,12 +176,12 @@ combos:
   k: Caps Word
   l: [Default]
   draw_separate: true
-- p: [16, 17]
-  k: BSPC
+- p: [12, 13]
+  k: Back Word
   l: [Default, Number/Symbol]
   draw_separate: true
-- p: [12, 13]
-  k: Ctl+ BSPC
+- p: [16, 17]
+  k: BSPC
   l: [Default, Number/Symbol]
   draw_separate: true
 - p: [12, 22]
