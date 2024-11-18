@@ -97,10 +97,10 @@ parse_config:
     combo_lpar:       {draw_separate: true}
     combo_rbkt:       {draw_separate: true}
     combo_lbkt:       {draw_separate: true}
-		combo_caps_l:     {draw_separate: true}
-		combo_caps_r:     {draw_separate: true}
-		combo_bspc:       {draw_separate: true}
-		combo_backword:   {draw_separate: true}
+    combo_caps_l:     {draw_separate: true}
+    combo_caps_r:     {draw_separate: true}
+    combo_bspc:       {draw_separate: true}
+    combo_backword:   {draw_separate: true}
 
   zmk_keycode_map:
     LCTL:             Ctrl
