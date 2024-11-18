@@ -33,6 +33,7 @@
 // best way of handling euros
 // how to handle AHK stuff
 // how about mouse keys?? and other urob stuff.
+// https://github.com/lesderid/keynavish?tab=readme-ov-file https://github.com/stozi/gallium-ru-34
 
 / {
 	keymap {
@@ -56,9 +57,9 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_POUND 			UK_HASH		&kp N7		&kp N8		&kp N9		XXXXXXXXXX
-				NUM_PERCENT NUM_STAR  	NUM_UNDER	NUM_MINUS	&kp DOLLAR			&kp EQUAL	&kp N0		&kp N1		&kp N2		&kp N3
-							&kp PLUS  	UK_PIPE		&kp AMPS									&kp N4		&kp N5		&kp N6
+				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_POUND 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
+				NUM_PERCENT NUM_STAR  	NUM_UNDER	NUM_MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
+							&kp PLUS  	NUM_PIPE	&kp AMPS									NUM_N4		NUM_N5		NUM_N6
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX

@@ -23,8 +23,8 @@
 #define DEF_COMMA   &mm_com_sem
 #define DEF_DOT     &mm_dot_col
 
-#define DEF_TOG_MIC &kp F22
-#define DEF_SHA_SCR &kp F23
+#define DEF_TOG_MIC &kp F23
+#define DEF_SHA_SCR &kp F24
 #define DEF_UNDO    &kp LC(Z)
 #define DEF_REDO    &kp LC(Y)
 
@@ -56,21 +56,22 @@
 #define NAV_RIGHT   &mm_right_end
 
 // number
-#define NUM_N0      &mm_number_0
-#define NUM_N1      &mm_number_1
-#define NUM_N2      &mm_number_2
-#define NUM_N3      &mm_number_3
-#define NUM_N4      &mm_number_4
-#define NUM_N5      &mm_number_5
-#define NUM_N6      &mm_number_6
-#define NUM_N7      &mm_number_7
-#define NUM_N8      &mm_number_8
-#define NUM_N9      &mm_number_9
+#define NUM_N0      &mm_num_0
+#define NUM_N1      &mm_num_1
+#define NUM_N2      &mm_num_2
+#define NUM_N3      &mm_num_3
+#define NUM_N4      &mm_num_4
+#define NUM_N5      &mm_num_5
+#define NUM_N6      &mm_num_6
+#define NUM_N7      &mm_num_7
+#define NUM_N8      &mm_num_8
+#define NUM_N9      &mm_num_9
 
 #define NUM_MINUS   &hm LCTL MINUS
 #define NUM_UNDER   &hm LSFT UNDER
 #define NUM_STAR    &hm LALT STAR
 #define NUM_PERCENT &hm LGUI PERCENT
+#define NUM_PIPE    &hm RSFT UK_PIPE    
 
 // miscellaneous
 #define MIS_VOL_DN  &kp C_VOL_DN
@@ -85,7 +86,7 @@
 #define MIS_MUT_MIC &kp F9
 #define MIS_BITWAR  &kp LC(LS(L))
 #define MIS_GENERAT &kp LC(LS(N9))
-#define MIS_SLEEP   &kp F21       
+#define MIS_SLEEP   &kp F10      
 
 // UK symbols
 #define UK_HASH     &kp NUHS
@@ -99,4 +100,4 @@
 // other
 #define XXXXXXXXXX	&none
 #define __________  &trans
-#define ___XXXX___  &kp F24
+#define ___XXXX___  &kp INT1
