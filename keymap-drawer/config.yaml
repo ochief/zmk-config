@@ -110,6 +110,8 @@ parse_config:
     F6:               URL BAR
     F11:              FULL SCREEN
     F12:              DEV TOOLS
+    F23:              VISUAL
+    F24:              GRID
     K_APP:            {type: held}
     ENTER:            Enter
     C_PLAY:           PLAY/ PAUSE
