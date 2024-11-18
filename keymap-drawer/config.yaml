@@ -47,16 +47,16 @@ parse_config:
     NUM_PERCENT:      {t: '%', h: Win}
     NUM_PIPE:         {t: '|', h: R Shift}
     NUM_AMPS:         {t: '&', s: $$mdi:currency-gbp$$}
-    NUM_N0:           $$mdi:numberic-0$$
-    NUM_N1:           $$mdi:numberic-1$$
-    NUM_N2:           $$mdi:numberic-2$$
-    NUM_N3:           $$mdi:numberic-3$$
-    NUM_N4:           $$mdi:numberic-4$$
-    NUM_N5:           {t: $$mdi:numberic-5$$, s: ','}
-    NUM_N6:           {t: $$mdi:numberic-6$$, s: '.'}
-    NUM_N7:           $$mdi:numberic-7$$
-    NUM_N8:           $$mdi:numberic-8$$
-    NUM_N9:           $$mdi:numberic-9$$
+    NUM_N0:           $$mdi:numeric-0$$
+    NUM_N1:           $$mdi:numeric-1$$
+    NUM_N2:           $$mdi:numeric-2$$
+    NUM_N3:           $$mdi:numeric-3$$
+    NUM_N4:           $$mdi:numeric-4$$
+    NUM_N5:           {t: $$mdi:numeric-5$$, s: ','}
+    NUM_N6:           {t: $$mdi:numeric-6$$, s: '.'}
+    NUM_N7:           $$mdi:numeric-7$$
+    NUM_N8:           $$mdi:numeric-8$$
+    NUM_N9:           $$mdi:numeric-9$$
 
     # miscellaneous
     MIS_VOL_DN:       VOL DOWN
