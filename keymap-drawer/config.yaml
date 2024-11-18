@@ -65,8 +65,8 @@ parse_config:
     MIS_BT_3:         {t: $$mdi:bluetooth-connect$$, s: '3'}
     MIS_SCREEN:       SCREEN SHOT
     MIS_CAD:          C  A  D
-    MIS_BRI_DN:       BRI DOWN
-    MIS_BRI_UP:       BRI UP
+    MIS_BRI_DN:       $$mdi:weather-night$$
+    MIS_BRI_UP:       $$mdi:weather-sunny$$
     MIS_BITWAR:       BIT WAR 
     MIS_GENERAT:      GEN PWD
     MIS_SLEEP:        $$mdi:power-sleep$$
