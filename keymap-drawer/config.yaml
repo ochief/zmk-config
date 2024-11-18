@@ -7,9 +7,6 @@ parse_config:
     '&macro_nequal':  <  >
     '&macro_qu':      QU
     '&trans':         ''
-    '&none':          {type: ghost}
-    '&lt NAV SPACE':  {t: $$mdi:keyboard-space$$, h: NAV}
-    '&lt NUM E':      {t: E, h: NUM}
 
     #default
     DEF_TOG_MIC:      Mute Mic
@@ -36,9 +33,9 @@ parse_config:
     NAV_CLO_APP:      CLOSE APP
     NAV_SMILEY:       SMILEY
     NAV_DELWRD:       DEL WORD
-    NAV_SWI_LE:       SWITCH LEFT
-    NAV_SWI_RI:       SWITCH RIGHT
-    NAV_THREAD:       SLACK THREAD
+    NAV_SWI_LE:       SWITCH $$mdi:arrow-left$$
+    NAV_SWI_RI:       SWITCH $$mdi:arrow-right$$
+    NAV_THREAD:       $$mdi:slack$$  THREAD
 
     # number
     NUM_MINUS:        {t: '-', h: Ctrl}
@@ -47,32 +44,32 @@ parse_config:
     NUM_PERCENT:      {t: '%', h: Win}
     NUM_PIPE:         {t: '|', h: R Shift}
     NUM_AMPS:         {t: '&', s: '£'}
-    NUM_N0:           $$mdi:numeric-0$$
-    NUM_N1:           $$mdi:numeric-1$$
-    NUM_N2:           $$mdi:numeric-2$$
-    NUM_N3:           $$mdi:numeric-3$$
-    NUM_N4:           $$mdi:numeric-4$$
-    NUM_N5:           {t: $$mdi:numeric-5$$, s: ','}
-    NUM_N6:           {t: $$mdi:numeric-6$$, s: '.'}
-    NUM_N7:           $$mdi:numeric-7$$
-    NUM_N8:           $$mdi:numeric-8$$
-    NUM_N9:           $$mdi:numeric-9$$
+    NUM_N0:           '0'
+    NUM_N1:           '1'
+    NUM_N2:           '2'
+    NUM_N3:           '3'
+    NUM_N4:           '4'
+    NUM_N5:           {t: '5', s: ','}
+    NUM_N6:           {t: '6', s: '.'}
+    NUM_N7:           '7'
+    NUM_N8:           '8'
+    NUM_N9:           '9'
 
     # miscellaneous
-    MIS_VOL_DN:       VOL DOWN
-    MIS_VOL_MU:       VOL MUTE
-    MIS_VOL_UP:       VOL UP
-    MIS_MUT_MIC:      MIC MUTE
-    MIS_BT_1:         BT  1
-    MIS_BT_2:         BT  2
-    MIS_BT_3:         BT  3  
+    MIS_VOL_DN:       $$mdi:volume-minus$$
+    MIS_VOL_MU:       $$mdi:volume-mute$$
+    MIS_VOL_UP:       $$mdi:volume-plus$$
+    MIS_MUT_MIC:      $$mdi:microphone-off$$
+    MIS_BT_1:         $$mdi:bluetooth-connect$$  1
+    MIS_BT_2:         $$mdi:bluetooth-connect$$  2
+    MIS_BT_3:         $$mdi:bluetooth-connect$$  3  
     MIS_SCREEN:       SCREEN SHOT
     MIS_CAD:          C  A  D
     MIS_BRI_DN:       BRI DOWN
     MIS_BRI_UP:       BRI UP
     MIS_BITWAR:       BIT WAR 
     MIS_GENERAT:      GEN PWD
-    MIS_SLEEP:        SLEEP
+    MIS_SLEEP:        $$mdi:power-sleep$$
 
     # UK symbols
     UK_HASH:          '#'
@@ -104,6 +101,7 @@ parse_config:
     combo_backword:   {draw_separate: true}
 
   zmk_keycode_map:
+    SPACE:            $$mdi:keyboard-space$$
     LCTL:             Ctrl
     LALT:             Alt
     LGUI:             Win
@@ -119,15 +117,15 @@ parse_config:
     F22:              GRID
     K_APP:            {type: held}
     ENTER:            Enter
-    C_PLAY:           PLAY/ PAUSE
+    C_PLAY:           $$mdi:play-pause$$
     C_PREV:           PREV ←
     C_NEXT:           NEXT →
     BT_CLR:           CLEAR
 
-    UP:               {t: ↑, s: PG  Up}
-    DOWN:             {t: ↓, s: PG  Down}
-    LEFT:             {t: ←, s: Home}
-    RIGHT:            {t: →, s: End}
+    UP:               {t: $$mdi:arrow-up$$, s: PG  Up}
+    DOWN:             {t: $$mdi:arrow-down$$, s: PG  Down}
+    LEFT:             {t: $$mdi:arrow-left$$, s: Home}
+    RIGHT:            {t: $$mdi:arrow-right$$, s: End}
 
     # defaults
     AMPS:             '&'
