@@ -91,12 +91,12 @@ parse_config:
     combo_redo:       {draw_separate: true}
     combo_tog_mic:    {draw_separate: true}
     combo_share:      {draw_separate: true}
-    rbrc:             {draw_separate: true}
-		lbrc:             {draw_separate: true}
-		rpar:             {draw_separate: true}
-		lpar:             {draw_separate: true}
-		rbkt:             {draw_separate: true}
-		lbkt:             {draw_separate: true}
+    combo_rbrc:       {draw_separate: true}
+		combo_lbrc:       {draw_separate: true}
+		combo_rpar:       {draw_separate: true}
+		combo_lpar:       {draw_separate: true}
+		combo_rbkt:       {draw_separate: true}
+		combo_lbkt:       {draw_separate: true}
 
   zmk_keycode_map:
     LCTL:             Ctrl
