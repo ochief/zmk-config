@@ -29,7 +29,7 @@ combo_##NAME { \
 		
 		// missing alphas
 		COMBO(x,		&kp X,			 1  2,		DEF,			COMBO_TERM_NORMAL)
-		COMBO(qu,		&macro_qu,		 2  3,		DEF,			COMBO_TERM_NORMAL)		
+		COMBO(qu,		&macro_qu,		 2  3,		DEF,			COMBO_TERM_NORMAL)
 		COMBO(q,		&kp Q,			 1  3,		DEF,			COMBO_TERM_NORMAL)
 		COMBO(z,		&kp Z,			20 22,		DEF,			COMBO_TERM_NORMAL)
 
@@ -44,8 +44,8 @@ combo_##NAME { \
 		COMBO(fslh,		&kp FSLH,		21 22,		DEF NUM,		COMBO_TERM_NORMAL)
 
 		// diagonals
-		COMBO(esc,		&kp ESC,     	12 22,  	DEF NUM NAV, 	COMBO_TERM_NORMAL)	
-		COMBO(enter,	&kp ENTER,     	17 23,  	DEF NUM NAV, 	COMBO_TERM_NORMAL)	
+		COMBO(esc,		&kp ESC,     	12 22,  	DEF NUM NAV, 	COMBO_TERM_NORMAL)
+		COMBO(enter,	&kp ENTER,     	17 23,  	DEF NUM NAV, 	COMBO_TERM_NORMAL)
 		COMBO(undo,		DEF_UNDO,		13 14,	  	DEF NUM NAV,	COMBO_TERM_SLOW)
 		COMBO(tog_mic,	DEF_TOG_MIC,	15 16,	  	DEF NUM NAV,	COMBO_TERM_SLOW)
 		COMBO(redo,		DEF_REDO,		 3  4,	  	DEF NUM NAV,	COMBO_TERM_SLOW)
