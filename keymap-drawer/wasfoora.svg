@@ -33,9 +33,6 @@
 <svg id="mdi:skip-previous">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-previous" viewBox="0 0 24 24"><path d="M6,18V6H8V18H6M9.5,12L18,6V18L9.5,12Z" /></svg>
 </svg>
-<svg id="mdi:slack">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-slack" viewBox="0 0 24 24"><path d="M6,15A2,2 0 0,1 4,17A2,2 0 0,1 2,15A2,2 0 0,1 4,13H6V15M7,15A2,2 0 0,1 9,13A2,2 0 0,1 11,15V20A2,2 0 0,1 9,22A2,2 0 0,1 7,20V15M9,7A2,2 0 0,1 7,5A2,2 0 0,1 9,3A2,2 0 0,1 11,5V7H9M9,8A2,2 0 0,1 11,10A2,2 0 0,1 9,12H4A2,2 0 0,1 2,10A2,2 0 0,1 4,8H9M17,10A2,2 0 0,1 19,8A2,2 0 0,1 21,10A2,2 0 0,1 19,12H17V10M16,10A2,2 0 0,1 14,12A2,2 0 0,1 12,10V5A2,2 0 0,1 14,3A2,2 0 0,1 16,5V10M14,18A2,2 0 0,1 16,20A2,2 0 0,1 14,22A2,2 0 0,1 12,20V18H14M14,17A2,2 0 0,1 12,15A2,2 0 0,1 14,13H19A2,2 0 0,1 21,15A2,2 0 0,1 19,17H14Z" /></svg>
-</svg>
 <svg id="mdi:volume-minus">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-minus" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M14,11H22V13H14V11Z" /></svg>
 </svg>
@@ -567,7 +564,7 @@ path.combo {
 <g transform="translate(540, 28)" class="key keypos-6">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <use href="#mdi:arrow-left" xlink:href="#mdi:arrow-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-left"/>
-<text x="0" y="-24" class="key shifted">Switch</text>
+<text x="0" y="-24" class="key shifted">SWITCH</text>
 </g>
 <g transform="translate(600, 28)" class="key keypos-7">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -577,7 +574,7 @@ path.combo {
 <g transform="translate(660, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <use href="#mdi:arrow-right" xlink:href="#mdi:arrow-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-right"/>
-<text x="0" y="-24" class="key shifted">Switch</text>
+<text x="0" y="-24" class="key shifted">SWITCH</text>
 </g>
 <g transform="translate(720, 28)" class="key keypos-9">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -629,8 +626,9 @@ path.combo {
 </g>
 <g transform="translate(720, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<use href="#mdi:slack" xlink:href="#mdi:slack" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:slack"/>
-<text x="0" y="-24" class="key shifted">Thread</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">SLACK</tspan><tspan x="0" dy="1.2em">THREAD</tspan>
+</text>
 </g>
 <g transform="translate(90, 140)" class="key keypos-20">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -749,7 +747,7 @@ path.combo {
 <g transform="translate(480, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:bluetooth-connect"/>
-<text x="0" y="-24" class="key shifted">Clear</text>
+<text x="0" y="-24" class="key shifted">CLEAR</text>
 </g>
 <g transform="translate(540, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>

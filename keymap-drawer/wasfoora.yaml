@@ -68,9 +68,9 @@ layers:
   - NEXT TAB
   - DEL
   - DEL WORD
-  - {t: '$$mdi:arrow-left$$', s: Switch}
+  - {t: '$$mdi:arrow-left$$', s: SWITCH}
   - {t: '$$mdi:arrow-up$$', s: PG UP}
-  - {t: '$$mdi:arrow-right$$', s: Switch}
+  - {t: '$$mdi:arrow-right$$', s: SWITCH}
   - ''
   - {t: S  SHOT, h: Win}
   - {t: INCOG, h: Alt}
@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:arrow-left$$', s: HOME}
   - {t: '$$mdi:arrow-down$$', s: PG DN}
   - {t: '$$mdi:arrow-right$$', s: END}
-  - {t: '$$mdi:slack$$', s: Thread}
+  - SLACK THREAD
   - CUT
   - {t: COPY, h: R Shift}
   - PASTE
@@ -108,7 +108,7 @@ layers:
   - FULL SCREEN
   - URL BAR
   - DEV TOOLS
-  - {t: '$$mdi:bluetooth-connect$$', s: Clear}
+  - {t: '$$mdi:bluetooth-connect$$', s: CLEAR}
   - {t: '$$mdi:bluetooth-connect$$', s: '1'}
   - {t: '$$mdi:bluetooth-connect$$', s: '2'}
   - {t: '$$mdi:bluetooth-connect$$', s: '3'}
