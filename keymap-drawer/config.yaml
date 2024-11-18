@@ -34,11 +34,11 @@ parse_config:
     NAV_TAB_RO:       REOPEN TAB
     NAV_TAB_NE:       NEW TAB
     NAV_CLO_APP:      CLOSE APP
-    NAV_SMILEY:       SMILEY
+    NAV_SMILEY:       $$mdi:emoticon$$
     NAV_DELWRD:       DEL WORD
     NAV_SWI_LE:       SWITCH LEFT
     NAV_SWI_RI:       SWITCH RIGHT
-    NAV_THREAD:       SLACK THREAD
+    NAV_THREAD:       $$mdi:slack$$
 
     # number
     NUM_MINUS:        {t: '-', h: Ctrl}
@@ -46,17 +46,17 @@ parse_config:
     NUM_STAR:         {t: '*', h: Alt}
     NUM_PERCENT:      {t: '%', h: Win}
     NUM_PIPE:         {t: '|', h: R Shift}
-    NUM_AMPS:         {t: '&', s: '£'}
-    NUM_N0:           '0'
-    NUM_N1:           '1'
-    NUM_N2:           '2'
-    NUM_N3:           '3'
-    NUM_N4:           '4'
-    NUM_N5:           {t: '5', s: ','}
-    NUM_N6:           {t: '6', s: '.'}
-    NUM_N7:           '7'
-    NUM_N8:           '8'
-    NUM_N9:           '9'
+    NUM_AMPS:         {t: '&', s: $$mdi:currency-gbp$$}
+    NUM_N0:           $$mdi:numberic-0$$
+    NUM_N1:           $$mdi:numberic-1$$
+    NUM_N2:           $$mdi:numberic-2$$
+    NUM_N3:           $$mdi:numberic-3$$
+    NUM_N4:           $$mdi:numberic-4$$
+    NUM_N5:           {t: $$mdi:numberic-5$$, s: ','}
+    NUM_N6:           {t: $$mdi:numberic-6$$, s: '.'}
+    NUM_N7:           $$mdi:numberic-7$$
+    NUM_N8:           $$mdi:numberic-8$$
+    NUM_N9:           $$mdi:numberic-9$$
 
     # miscellaneous
     MIS_VOL_DN:       VOL DOWN
@@ -79,7 +79,7 @@ parse_config:
     UK_DQT:           '"'
     UK_AT:            '@'
     UK_GRAVE:         '`'
-    UK_EURO:          €
+    UK_EURO:          $$mdi:currency-eur$$
 
   zmk_combos:
     combo_grave3:     {a: top, o: 0.3}
@@ -137,7 +137,7 @@ parse_config:
     CARET:            ^
     COLON:            ':'
     COMMA:            ','
-    DOLLAR:           $
+    DOLLAR:           $$mdi:currency-usd$$
     DOT:              '.'
     EQUAL:            '='
     EXCL:             '!'
