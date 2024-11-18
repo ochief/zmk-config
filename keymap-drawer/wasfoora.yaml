@@ -198,12 +198,12 @@ combos:
   k: Undo
   l: [DEF, NUM, NAV]
   draw_separate: true
-- p: [3, 4]
-  k: Redo
-  l: [DEF, NUM, NAV]
-  draw_separate: true
 - p: [15, 16]
   k: Mute Mic
+  l: [DEF, NUM, NAV]
+  draw_separate: true
+- p: [3, 4]
+  k: Redo
   l: [DEF, NUM, NAV]
   draw_separate: true
 - p: [5, 6]
