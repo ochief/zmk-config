@@ -34,7 +34,7 @@ parse_config:
     NAV_TAB_RO:       REOPEN TAB
     NAV_TAB_NE:       NEW TAB
     NAV_CLO_APP:      CLOSE APP
-    NAV_SMILEY:       $$mdi:emoticon$$
+    NAV_SMILEY:       $$mdi:emoticon-happy-outline$$
     NAV_DELWRD:       DEL WORD
     NAV_SWI_LE:       SWITCH LEFT
     NAV_SWI_RI:       SWITCH RIGHT
