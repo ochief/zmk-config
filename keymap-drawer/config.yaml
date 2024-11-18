@@ -104,7 +104,7 @@ parse_config:
     F6:               URL BAR
     F11:              FULL SCREEN
     F12:              DEV TOOLS
-    INT1:             {type: held}
+    K_APP:            {type: held}
     ENTER:            Enter
     C_PLAY:           PLAY/ PAUSE
     C_PREV:           PREV ←
