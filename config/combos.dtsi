@@ -39,7 +39,7 @@ combo_##NAME { \
 		COMBO(nequal,	&macro_nequal,	23 25,		DEF NUM,		COMBO_TERM_NORMAL)
 		COMBO(lt,		&kp LT,			23 24,		DEF NUM,		COMBO_TERM_NORMAL)
 		COMBO(gt,		&kp GT,			24 25,		DEF NUM,		COMBO_TERM_NORMAL)
-		COMBO(bslh,		&kp BSLH,		20 21,		DEF NUM,		COMBO_TERM_NORMAL)
+		COMBO(bslh,		UK_BSLH,		20 21,		DEF NUM,		COMBO_TERM_NORMAL)
 		COMBO(fslh,		&kp FSLH,		21 22,		DEF NUM,		COMBO_TERM_NORMAL)
 
 		// diagonals
