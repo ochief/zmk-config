@@ -50,7 +50,7 @@
         NUMSYM_layer {
             label = "Number/Symbol";
 			bindings = <
-				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_POUND 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
+				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_EURO 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
 				NUM_PERCENT NUM_STAR  	NUM_UNDER	NUM_MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp PLUS  	NUM_PIPE	NUM_AMPS									NUM_N4		NUM_N5		NUM_N6
 
