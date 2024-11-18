@@ -53,7 +53,7 @@ layers:
   - '3'
   - +
   - {t: '|', h: R Shift}
-  - {t: '&', s: '#'}
+  - {t: '&', s: £}
   - '4'
   - {t: '5', s: ','}
   - {t: '6', s: .}
@@ -163,7 +163,7 @@ combos:
   k: '>'
   l: [Default, Number/Symbol]
 - p: [20, 21]
-  k: \
+  k: NUBS
   l: [Default, Number/Symbol]
 - p: [21, 22]
   k: /
