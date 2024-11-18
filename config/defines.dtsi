@@ -66,6 +66,7 @@
 #define NUM_N7      &mm_num_7
 #define NUM_N8      &mm_num_8
 #define NUM_N9      &mm_num_9
+#define NUM_AMPS    &mm_amps_pou
 
 #define NUM_MINUS   &hm LCTL MINUS
 #define NUM_UNDER   &hm LSFT UNDER
@@ -96,8 +97,8 @@
 #define UK_TILDE    &kp TILDE2
 #define UK_GRAVE    &kp TILDE
 #define UK_PIPE     PIPE2
-
-#define UK_POUND    &ht LC(LA(N4)) HASH 
+#define UK_POUND    HASH 
+#define UK_EURO     &kp LC(LA(N4)) 
 
 // other
 #define XXXXXXXXXX	&none

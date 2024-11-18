@@ -45,7 +45,7 @@ parse_config:
     NUM_STAR:         {t: '*', h: Alt}
     NUM_PERCENT:      {t: '%', h: Win}
     NUM_PIPE:         {t: '|', h: R Shift}
-
+    NUM_AMPS_POU:     {t: '&', s: £}
     NUM_N0:           '0'
     NUM_N1:           '1'
     NUM_N2:           '2'
@@ -78,7 +78,8 @@ parse_config:
     UK_DQT:           '"'
     UK_AT:            '@'
     UK_GRAVE:         '`'
-    UK_POUND:         {t: £, s: €}
+    UK_POUND:         £
+    UK_EURO:          €
 
   zmk_combos:
     combo_grave3:     {a: top, o: 0.3}

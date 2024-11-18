@@ -93,6 +93,13 @@
 		mods = <(MOD_RSFT)>;
 	};
 
+	mm_amps_pou: mod_morph_ampersand_pound {
+		compatible = "zmk,behavior-mod-morph";
+		#binding-cells = <0>;
+		bindings = <&kp AMPS>, <&kp UK_POUND>;
+		mods = <(MOD_RSFT)>;		
+	}
+
 	mm_num_0: mod_morph_number_zero {
 		compatible = "zmk,behavior-mod-morph";
 		#binding-cells = <0>;
