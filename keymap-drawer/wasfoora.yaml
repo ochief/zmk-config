@@ -92,7 +92,7 @@ layers:
   - ''
   - ''
   - ''
-  Miscellaneous_layer:
+  Miscellaneous:
   - {type: ghost}
   - PREV ←
   - PLAY/ PAUSE
