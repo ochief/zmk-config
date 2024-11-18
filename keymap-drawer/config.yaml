@@ -78,7 +78,6 @@ parse_config:
     UK_DQT:           '"'
     UK_AT:            '@'
     UK_GRAVE:         '`'
-    UK_POUND:         £
     UK_EURO:          €
 
   zmk_combos:
@@ -148,7 +147,6 @@ parse_config:
     PERCENT:          '%'
     PIPE2:            '|'
     PLUS:             +
-    POUND:            £
     PRCNT:            '%'
     QMARK:            '?'
     RBKT:             ']'
