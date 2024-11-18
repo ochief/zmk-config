@@ -177,7 +177,7 @@ combos:
   l: [Default]
   draw_separate: true
 - p: [12, 13]
-  k: Back Word
+  k: Back
   l: [Default, Number/Symbol]
   draw_separate: true
 - p: [16, 17]
