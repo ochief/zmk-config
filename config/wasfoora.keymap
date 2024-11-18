@@ -42,9 +42,9 @@
 							&kp B		&kp W		&kp F										&kp M		DEF_COMMA	DEF_DOT
 
 				#ifndef KEYMAP_DRAWER
-													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E	XXXXXXXXXX
+													&kp F21		&lt NAV SPACE		&lt NUM E	&kp F22
 				#else
-													XXXXXXXXXX	&lt NAV SPACE		&lt NUM E	XXXXXXXXXX
+													&kp F21		&lt NAV SPACE		&lt NUM E	&kp F22
 				#endif
 			>;
 		};
@@ -57,9 +57,9 @@
 							&kp PLUS  	NUM_PIPE	&kp AMPS									NUM_N4		NUM_N5		NUM_N6
 
 				#ifndef KEYMAP_DRAWER
-													XXXXXXXXXX	__________			__________	XXXXXXXXXX
+													__________	__________			__________	__________
 				#else
-													XXXXXXXXXX	__________			___XXXX___	XXXXXXXXXX
+													__________	__________			___XXXX___	__________
 				#endif
 			>;
 		};
@@ -72,9 +72,9 @@
 							NAV_CUT		NAV_COPY	NAV_PASTE									NAV_CLO_TAB	NAV_CLO_APP	NAV_SEL_LI
 
 				#ifndef KEYMAP_DRAWER
-													XXXXXXXXXX	__________			__________	XXXXXXXXXX
+													__________	__________			__________	__________
 				#else
-													XXXXXXXXXX	___XXXX___			__________	XXXXXXXXXX
+													__________	___XXXX___			__________	__________
 				#endif
 			>;
 		};
@@ -87,9 +87,9 @@
 							&soft_off	UK_TILDE	MIS_CAD										MIS_SLEEP	&kp CARET	&bootloader
 
 				#ifndef KEYMAP_DRAWER
-													XXXXXXXXXX	__________			__________	XXXXXXXXXX
+													__________	__________			__________	__________
 				#else
-													XXXXXXXXXX	___XXXX___			___XXXX___	XXXXXXXXXX
+													__________	___XXXX___			___XXXX___	__________
 				#endif
 			>;
 		};

@@ -87,7 +87,7 @@
 #define MIS_MUT_MIC &kp F9
 #define MIS_BITWAR  &kp LC(LS(L))
 #define MIS_GENERAT &kp LC(LS(N9))
-#define MIS_SLEEP   &kp F21      
+#define MIS_SLEEP   &kp F10
 
 // UK symbols
 #define UK_HASH     &kp NUHS
