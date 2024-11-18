@@ -1,9 +1,4 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- *
- *					   KEY POSITIONS
+/*					   KEY POSITIONS
  *		 0	 1	 2	 3	 4		 5	 6	 7	 8	 9
  *		10	11	12	13	14		15	16	17	18	19 
  *			20	21	22				23	24	25
@@ -21,7 +16,6 @@
  *			 B	 W	 F				 M	 ,	 .
  *             \   /                   <   >
  *               Z                      < >
- *
  */
 
 #include "defines.dtsi"
@@ -58,9 +52,9 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_POUND 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
-				NUM_PERCENT NUM_STAR  	NUM_UNDER	NUM_MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
-							&kp PLUS  	NUM_PIPE	&kp AMPS									NUM_N4		NUM_N5		NUM_N6
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________	
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+							__________	__________	__________									__________	__________	__________
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
@@ -73,9 +67,9 @@
         Navigation_layer {
             label = "NAV";
 			bindings = <
-				XXXXXXXXXX	NAV_TAB_LE	NAV_TAB_NE	NAV_TAB_RI	&kp DEL				NAV_DELWRD	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
-				NAV_SCREENS	NAV_INCOG	NAV_SWAP	NAV_TAB		NAV_SEL_AL			NAV_SMILEY	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_THREAD
-							NAV_CUT		NAV_COPY	NAV_PASTE									NAV_CLO_TAB	NAV_CLO_APP	NAV_SEL_LI
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________	
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+							__________	__________	__________									__________	__________	__________
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
@@ -88,9 +82,9 @@
 		Miscellaneous_layer {
             label = "MIS";
             bindings = <
-				XXXXXXXXXX	&kp C_PREV	&kp C_PLAY	&kp C_NEXT	MIS_BRI_DN			MIS_BRI_UP	MIS_VOL_DN	MIS_VOL_MU	MIS_VOL_UP	XXXXXXXXXX
-				MIS_BITWAR	&kp F2		&kp F11		&kp F6		&kp F12				&bt BT_CLR	MIS_BT_1	MIS_BT_2	MIS_BT_3	MIS_GENERAT
-							&soft_off	UK_TILDE	MIS_CAD										MIS_SLEEP	&kp CARET	&bootloader
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________	
+				__________	__________	__________	__________	__________			__________	__________	__________	__________	__________
+							__________	__________	__________									__________	__________	__________
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
