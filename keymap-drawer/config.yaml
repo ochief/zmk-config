@@ -98,7 +98,6 @@ parse_config:
 		rbkt:             {draw_separate: true}
 		lbkt:             {draw_separate: true}
 
-
   zmk_keycode_map:
     LCTL:             Ctrl
     LALT:             Alt
