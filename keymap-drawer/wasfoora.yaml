@@ -103,16 +103,16 @@ layers:
   - VOL MUTE
   - VOL UP
   - {type: ghost}
-  - DEV TOOLS
+  - BIT WAR
   - RENAME
   - FULL SCREEN
   - URL BAR
-  - BIT WAR
-  - GEN PWD
+  - DEV TOOLS
+  - CLEAR
   - BT  1
   - BT  2
   - BT  3
-  - CLEAR
+  - GEN PWD
   - SOFT OFF
   - '~'
   - C  A  D
@@ -189,9 +189,11 @@ combos:
 - p: [12, 22]
   k: Esc
   l: [DEF, NUM, NAV]
+  draw_separate: true
 - p: [17, 23]
   k: Enter
   l: [DEF, NUM, NAV]
+  draw_separate: true
 - p: [13, 14]
   k: Undo
   l: [DEF, NUM, NAV]
