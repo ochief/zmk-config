@@ -55,8 +55,8 @@ layers:
   - {t: '|', h: R Shift}
   - '&'
   - '4'
-  - '5'
-  - '6'
+  - {t: '5', h: ','}
+  - {t: '6', h: .}
   - {type: ghost}
   - ''
   - {type: held}
