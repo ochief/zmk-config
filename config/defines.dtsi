@@ -27,6 +27,7 @@
 #define DEF_SHA_SCR &kp F24
 #define DEF_UNDO    &kp LC(Z)
 #define DEF_REDO    &kp LC(Y)
+#define DEF_BACK_WD &kp LC(BSPC)
 
 // navigation
 #define NAV_TAB     &hm LCTL TAB

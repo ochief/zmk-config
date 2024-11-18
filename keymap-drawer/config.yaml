@@ -16,6 +16,7 @@ parse_config:
     DEF_SHA_SCR:      Share Screen
     DEF_UNDO:         Undo
     DEF_REDO:         Redo
+    DEF_BACK_WD:      Back Word
 
     # navigation
     NAV_SEL_AL:       SEL ALL
