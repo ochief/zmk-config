@@ -52,9 +52,9 @@
         Number_layer {
             label = "NUM";
 			bindings = <
-				XXXXXXXXXX	NAV_TAB_LE	NAV_TAB_NE	NAV_TAB_RI	&kp DEL				__________	__________	__________	__________	__________	
-				NAV_SCREENS	NAV_INCOG	NAV_SWAP	NAV_TAB		NAV_SEL_AL			__________	__________	__________	__________	__________
-							NAV_CUT		NAV_COPY	NAV_PASTE									__________	__________	__________
+				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_POUND 			UK_HASH		__________	__________	__________	XXXXXXXXXX	
+				NUM_PERCENT NUM_STAR  	NUM_UNDER	NUM_MINUS	&kp DOLLAR			&kp EQUAL	__________	__________	__________	__________
+							&kp PLUS  	NUM_PIPE	&kp AMPS									__________	__________	__________
 
 				#ifndef KEYMAP_DRAWER
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
