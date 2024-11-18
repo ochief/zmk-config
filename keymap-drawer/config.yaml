@@ -100,9 +100,11 @@ parse_config:
     combo_backword:   {draw_separate: true}
 
   zmk_keycode_map:
-    Navigation:       NAV
-    1:                NUM
-    2:                NAV
+    Navigation:       A
+    NUM 1:            B
+    NAV 2:            C
+    NUM:              D
+    NAV:              E
     SPACE:            $$mdi:keyboard-space$$
     LCTL:             Ctrl
     LALT:             Alt
