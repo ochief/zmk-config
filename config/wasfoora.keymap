@@ -23,6 +23,8 @@
 #include "behaviors.dtsi"
 #include "macros.dtsi"
 
+// FORGOT BSPC
+// Euro in top index, £ rshift
 // urob timeless hrm for alphas
 // best way of handling euros
 // how to handle AHK stuff
