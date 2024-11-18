@@ -95,7 +95,7 @@
 #define UK_AT       &kp DQT
 #define UK_TILDE    &kp TILDE2
 #define UK_GRAVE    &kp TILDE
-#define UK_PIPE     &kp PIPE2
+#define UK_PIPE     PIPE2
 
 #define UK_POUND    &ht LC(LA(N4)) HASH 
 
