@@ -8,7 +8,7 @@ parse_config:
     '&macro_qu':      QU
     '&trans':         ''
     '&none':          {type: ghost}
-    '&lt NAV SPACE':  {t: SPACE, h: NAV}
+    '&lt NAV SPACE':  {t: $$mdi:keyboard-space$$, h: NAV}
     '&lt NUM E':      {t: E, h: NUM}
 
     #default
@@ -51,8 +51,8 @@ parse_config:
     NUM_N2:           '2'
     NUM_N3:           '3'
     NUM_N4:           '4'
-    NUM_N5:           {t: '5', h: ','}
-    NUM_N6:           {t: '6', h: '.'}
+    NUM_N5:           {t: '5', s: ','}
+    NUM_N6:           {t: '6', s: '.'}
     NUM_N7:           '7'
     NUM_N8:           '8'
     NUM_N9:           '9'
@@ -78,7 +78,7 @@ parse_config:
     UK_DQT:           '"'
     UK_AT:            '@'
     UK_GRAVE:         '`'
-    UK_POUND:         {t: £, h: €}
+    UK_POUND:         {t: £, s: €}
 
   zmk_combos:
     combo_grave3:     {a: top, o: 0.3}
@@ -91,6 +91,13 @@ parse_config:
     combo_redo:       {draw_separate: true}
     combo_tog_mic:    {draw_separate: true}
     combo_share:      {draw_separate: true}
+    rbrc:             {draw_separate: true}
+		lbrc:             {draw_separate: true}
+		rpar:             {draw_separate: true}
+		lpar:             {draw_separate: true}
+		rbkt:             {draw_separate: true}
+		lbkt:             {draw_separate: true}
+
 
   zmk_keycode_map:
     LCTL:             Ctrl
@@ -111,10 +118,10 @@ parse_config:
     C_NEXT:           NEXT →
     BT_CLR:           CLEAR
 
-    UP:               ↑
-    DOWN:             ↓
-    LEFT:             ←
-    RIGHT:            →
+    UP:               {t: ↑, s: PG  Up}
+    DOWN:             {t: ↓, s: PG  Down}
+    LEFT:             {t: ←, s: Home}
+    RIGHT:            {t: →, s: End}
 
     # defaults
     AMPS:             '&'
