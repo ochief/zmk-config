@@ -26,10 +26,10 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - F21
+  - VISUAL
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: E, h: NUM}
-  - F22
+  - GRID
   Number/Symbol:
   - {type: ghost}
   - '!'
