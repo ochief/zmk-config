@@ -163,7 +163,7 @@ combos:
   k: '>'
   l: [Default, Number/Symbol]
 - p: [20, 21]
-  k: NUBS
+  k: \
   l: [Default, Number/Symbol]
 - p: [21, 22]
   k: /
