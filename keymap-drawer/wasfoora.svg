@@ -336,8 +336,7 @@ path.combo {
 </g>
 <g transform="translate(270, 28)" class="key keypos-4">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">£</text>
-<text x="0" y="-24" class="key shifted">€</text>
+<text x="0" y="0" class="key tap">€</text>
 </g>
 <g transform="translate(480, 28)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
@@ -414,6 +413,7 @@ path.combo {
 <g transform="translate(210, 140)" class="key keypos-22">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&amp;</text>
+<text x="0" y="-24" class="key shifted">#</text>
 </g>
 <g transform="translate(540, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
