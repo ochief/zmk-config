@@ -553,12 +553,12 @@ path.combo {
 </g>
 <g transform="translate(270, 28)" class="key keypos-4">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">DEL</text>
+<text x="0" y="0" class="key tap">DELETE</text>
 </g>
 <g transform="translate(480, 28)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">DEL</tspan><tspan x="0" dy="1.2em">WORD</tspan>
+<tspan x="0" dy="-0.6em">DELETE</tspan><tspan x="0" dy="1.2em">WORD</tspan>
 </text>
 </g>
 <g transform="translate(540, 28)" class="key keypos-6">
@@ -581,7 +581,9 @@ path.combo {
 </g>
 <g transform="translate(30, 84)" class="key keypos-10">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<text x="0" y="0" class="key tap">S SHOT</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">SCREEN</tspan><tspan x="0" dy="1.2em">SHOT</tspan>
+</text>
 <text x="0" y="24" class="key hold">Win</text>
 </g>
 <g transform="translate(90, 84)" class="key keypos-11">
@@ -602,7 +604,7 @@ path.combo {
 <g transform="translate(270, 84)" class="key keypos-14">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">SEL</tspan><tspan x="0" dy="1.2em">ALL</tspan>
+<tspan x="0" dy="-0.6em">SELECT</tspan><tspan x="0" dy="1.2em">ALL</tspan>
 </text>
 </g>
 <g transform="translate(480, 84)" class="key keypos-15">

@@ -66,17 +66,17 @@ layers:
   - PREV TAB
   - NEW TAB
   - NEXT TAB
-  - DEL
-  - DEL WORD
+  - DELETE
+  - DELETE WORD
   - {t: '$$mdi:arrow-left$$', s: SWITCH}
   - {t: '$$mdi:arrow-up$$', s: PG UP}
   - {t: '$$mdi:arrow-right$$', s: SWITCH}
   - ''
-  - {t: S  SHOT, h: Win}
+  - {t: SCREEN SHOT, h: Win}
   - {t: INCOG, h: Alt}
   - {t: SWAP, h: Shift}
   - {t: TAB, h: Ctrl}
-  - SEL ALL
+  - SELECT ALL
   - $$mdi:emoticon-happy-outline$$
   - {t: '$$mdi:arrow-left$$', s: HOME}
   - {t: '$$mdi:arrow-down$$', s: PG DN}
