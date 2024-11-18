@@ -31,11 +31,11 @@ parse_config:
     NAV_TAB_RO:       REOPEN TAB
     NAV_TAB_NE:       NEW TAB
     NAV_CLO_APP:      CLOSE APP
-    NAV_SMILEY:       SMILEY
+    NAV_SMILEY:       $$mdi:emoticon-happy-outline$$
     NAV_DELWRD:       DEL WORD
-    NAV_SWI_LE:       SWITCH $$mdi:arrow-left$$
-    NAV_SWI_RI:       SWITCH $$mdi:arrow-right$$
-    NAV_THREAD:       $$mdi:slack$$  THREAD
+    NAV_SWI_LE:       {t: $$mdi:arrow-left$$, s: Switch}
+    NAV_SWI_RI:       {t: $$mdi:arrow-right$$, s: Switch}
+    NAV_THREAD:       {t: $$mdi:slack$$, s: Thread}
 
     # number
     NUM_MINUS:        {t: '-', h: Ctrl}
@@ -60,9 +60,9 @@ parse_config:
     MIS_VOL_MU:       $$mdi:volume-mute$$
     MIS_VOL_UP:       $$mdi:volume-plus$$
     MIS_MUT_MIC:      $$mdi:microphone-off$$
-    MIS_BT_1:         $$mdi:bluetooth-connect$$  1
-    MIS_BT_2:         $$mdi:bluetooth-connect$$  2
-    MIS_BT_3:         $$mdi:bluetooth-connect$$  3  
+    MIS_BT_1:         {t: $$mdi:bluetooth-connect$$, s: '1'}
+    MIS_BT_2:         {t: $$mdi:bluetooth-connect$$, s: '2'}
+    MIS_BT_3:         {t: $$mdi:bluetooth-connect$$, s: '3'}
     MIS_SCREEN:       SCREEN SHOT
     MIS_CAD:          C  A  D
     MIS_BRI_DN:       BRI DOWN
@@ -118,9 +118,9 @@ parse_config:
     K_APP:            {type: held}
     ENTER:            Enter
     C_PLAY:           $$mdi:play-pause$$
-    C_PREV:           PREV ←
-    C_NEXT:           NEXT →
-    BT_CLR:           CLEAR
+    C_PREV:           $$mdi:skip-previous$$
+    C_NEXT:           $$mdi:skip-next$$
+    BT_CLR:           {t: $$mdi:bluetooth-connect$$, s: 'Clear'}
 
     UP:               {t: $$mdi:arrow-up$$, s: PG  Up}
     DOWN:             {t: $$mdi:arrow-down$$, s: PG  Down}
