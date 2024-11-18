@@ -43,6 +43,11 @@ combo_##NAME { \
 		COMBO(fslh,		&kp FSLH,		21 22,		DEF NUM,		COMBO_TERM_NORMAL)
 
 		// diagonals
+		COMBO(caps_l,	&caps_word,    	11 12,  	DEF, 			COMBO_TERM_NORMAL)
+		COMBO(caps_r,	&caps_word,    	17 18,  	DEF, 			COMBO_TERM_NORMAL)
+		COMBO(bspc,		&kp BSPC,		16 17		DEF NUM,		COMBO_TERM_SLOW)
+		COMBO(backword,	&kp LC(BSPC),	12 13		DEF NUM,		COMBO_TERM_SLOW)
+
 		COMBO(esc,		&kp ESC,     	12 22,  	DEF NUM NAV, 	COMBO_TERM_NORMAL)
 		COMBO(enter,	&kp ENTER,     	17 23,  	DEF NUM NAV, 	COMBO_TERM_NORMAL)
 		COMBO(undo,		DEF_UNDO,		13 14,	  	DEF NUM NAV,	COMBO_TERM_SLOW)
