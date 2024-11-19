@@ -1,8 +1,8 @@
 parse_config:
 
   layer_legend_map:
-    Nav:              A
-    Navigation:       B
+    Navigation:       NAV
+    Number/Symbol:    NUM
 
   raw_binding_map:
     '&bootloader':    BOOT
@@ -73,7 +73,7 @@ parse_config:
     MIS_BRI_UP:       $$mdi:weather-sunny$$
     MIS_BITWAR:       BIT WAR 
     MIS_GENERAT:      GEN PWD
-    MIS_SLEEP:        $$mdi:power-sleep$$
+    MIS_SLEEP:        SLEEP
 
     # UK symbols
     UK_HASH:          '#'

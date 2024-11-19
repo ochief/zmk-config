@@ -48,7 +48,7 @@
 			>;
 		};
 
-        NUMSYM_layer {
+        NUM_layer {
             label = "Number/Symbol";
 			bindings = <
 				XXXXXXXXXX	&kp EXCL	&kp QMARK	UK_AT		UK_EURO 			UK_HASH		NUM_N7		NUM_N8		NUM_N9		XXXXXXXXXX
