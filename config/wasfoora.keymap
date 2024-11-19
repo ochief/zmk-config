@@ -23,28 +23,6 @@
 #include "behaviors.dtsi"
 #include "macros.dtsi"
 
-/*
-	https://github.com/EsportToys/TPMouse
-	numword
-	1 3, 6 8 short cuts for ; ENter SHIFT or "- Shift" 
-	Maybe diagonal combo for bspc - sort out timeless first
-	brackets layer?
-	Vertical combos for bracket; different types of comment blocks? => (( ))
-	shift sticky
-	FORGOT BSPC
-	caps locks and caps caps_word as per https://github.com/grassfedreeve/akohekohe
-	urob timeless hrm for alphas
-	shift qu should be Qu not QU
-	AHK F keys including F10
-	timings for HR Combos
-	how about mouse keys?? and other urob stuff.
-	https://github.com/rvaiya/warpd/tree/master
-	https://github.com/lesderid/keynavish?tab=readme-ov-file https://github.com/stozi/gallium-ru-34
-
-	=>	|	(	|	', '	|	[			]	|	,Enter	|	)	|	bracket; enter
-	{	|	('	|	()		|					|	; Enter	|	')	|	}
-*/
-
 / {
 	keymap {
 		compatible = "zmk,keymap";

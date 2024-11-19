@@ -181,5 +181,3 @@ draw_config:
     .ghost {
       display: none !important;
     }
-  
-  layer_legend_map: dict[Navigation, Nav] = {}
