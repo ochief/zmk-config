@@ -63,7 +63,7 @@ combo_##NAME { \
 		// brackets
 		COMBO(arrow,	&macro_arrow,	 1 11,		DEF NUM,		COMBO_TERM_SLOW)
 		COMBO(bra_com,	&macro_bra_com,	12 21,  	DEF NUM, 		COMBO_TERM_SLOW)
-		COMBO(com_bra,	&macro_com_bra,	17 24,  	DEF NUM, 		COMBO_TERM_SLOW)
+		COMBO(dou_bra,	&macro_dou_bra,	17 24,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(rbkt,     &kp LBKT,     	 4 14,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(lbkt,		&kp RBKT,     	 5 15,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(rbrc,     &kp LBRC,     	11 20,  	DEF NUM, 		COMBO_TERM_SLOW)
