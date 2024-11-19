@@ -24,6 +24,7 @@
 #include "macros.dtsi"
 
 /*
+numword
 Maybe diagonal combo for bspc - sort out timeless first
 brackets layer?
 Vertical combos for ); different types of comment blocks? => (( ))
