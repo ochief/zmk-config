@@ -61,16 +61,11 @@ combo_##NAME { \
 		COMBO(share,	DEF_SHA_SCR,	 5  6,	  	DEF NUM NAV,	COMBO_TERM_SLOW)
 
 		// brackets
-		COMBO(rbkt,     &kp LBKT,     	 4 14,  	DEF NUM, 		COMBO_TERM_SLOW)
-		COMBO(lbkt,		&kp RBKT,     	 5 15,  	DEF NUM, 		COMBO_TERM_SLOW)
-
-		COMBO(rbrc,     &kp LBRC,     	11 20,  	DEF NUM, 		COMBO_TERM_SLOW)
-		COMBO(lbrc,     &kp RBRC,     	18 25,  	DEF NUM, 		COMBO_TERM_SLOW)
-
-
+		COMBO(rbrc,     &kp LBRC,     	 3 13,  	DEF NUM, 		COMBO_TERM_SLOW)
+		COMBO(lbrc,     &kp RBRC,     	 6 16,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(rpar,     &kp LPAR,     	 2 12,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(lpar,     &kp RPAR,     	 7 17,  	DEF NUM, 		COMBO_TERM_SLOW)
-
-
+		COMBO(rbkt,     &kp LBKT,     	 1 11,  	DEF NUM, 		COMBO_TERM_SLOW)
+		COMBO(lbkt,		&kp RBKT,     	 8 18,  	DEF NUM, 		COMBO_TERM_SLOW)
 	};	
 };
