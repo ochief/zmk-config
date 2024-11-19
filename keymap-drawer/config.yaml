@@ -1,8 +1,8 @@
 parse_config:
 
-  layer_legend:
-    NAV:            Test
-    Navigation:     ASD
+  layer_legend_map:
+    Nav:              A
+    Navigation:       B
 
   raw_binding_map:
     '&bootloader':    BOOT
@@ -105,11 +105,6 @@ parse_config:
     combo_backword:   {draw_separate: true}
 
   zmk_keycode_map:
-    Navigation:       A
-    NUM 1:            B
-    NAV 2:            C
-    NUM:              D
-    NAV:              E
     SPACE:            $$mdi:keyboard-space$$
     LCTL:             Ctrl
     LALT:             Alt
