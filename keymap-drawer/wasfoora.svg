@@ -357,6 +357,18 @@ path.combo {
 <rect rx="6" ry="6" x="166" y="127" width="28" height="26" class="combo"/>
 <text x="180" y="140" class="combo tap">/</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="166" y="43" width="28" height="26" class="combo"/>
+<text x="180" y="56" class="combo tap">
+<tspan x="180" dy="-0.6em">Back</tspan><tspan x="180" dy="1.2em">Word</tspan>
+</text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="556" y="43" width="28" height="26" class="combo"/>
+<text x="570" y="56" class="combo tap">
+<tspan x="570" dy="-0.6em">Back</tspan><tspan x="570" dy="1.2em">Space</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 311)" class="layer-Number/Symbol">
@@ -521,6 +533,18 @@ path.combo {
 <rect rx="6" ry="6" x="166" y="127" width="28" height="26" class="combo"/>
 <text x="180" y="140" class="combo tap">/</text>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="166" y="43" width="28" height="26" class="combo"/>
+<text x="180" y="56" class="combo tap">
+<tspan x="180" dy="-0.6em">Back</tspan><tspan x="180" dy="1.2em">Word</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="556" y="43" width="28" height="26" class="combo"/>
+<text x="570" y="56" class="combo tap">
+<tspan x="570" dy="-0.6em">Back</tspan><tspan x="570" dy="1.2em">Space</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 622)" class="layer-Navigation">
@@ -670,6 +694,18 @@ path.combo {
 </g>
 <g transform="translate(480, 196)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="166" y="43" width="28" height="26" class="combo"/>
+<text x="180" y="56" class="combo tap">
+<tspan x="180" dy="-0.6em">Back</tspan><tspan x="180" dy="1.2em">Word</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="556" y="43" width="28" height="26" class="combo"/>
+<text x="570" y="56" class="combo tap">
+<tspan x="570" dy="-0.6em">Back</tspan><tspan x="570" dy="1.2em">Space</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1313,7 +1349,9 @@ path.combo {
 <g transform="translate(0, 28)">
 <g transform="translate(30, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key  combo-separate"/>
-<text x="0" y="0" class="key  combo-separate tap">BSPC</text>
+<text x="0" y="0" class="key  combo-separate tap">
+<tspan x="0" dy="-0.6em">Back</tspan><tspan x="0" dy="1.2em">Space</tspan>
+</text>
 </g>
 <g transform="translate(15, 72)" class="key ghost keypos-1">
 <rect rx="6" ry="6" x="-13" y="-12" width="26" height="24" class="key ghost"/>

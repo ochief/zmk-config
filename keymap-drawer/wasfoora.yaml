@@ -186,12 +186,18 @@ combos:
   draw_separate: true
 - p: [11, 13]
   k: Back Word
-  l: [Default, Number/Symbol]
+  l: [Default, Number/Symbol, Navigation]
   draw_separate: true
 - p: [16, 18]
-  k: BSPC
-  l: [Default, Number/Symbol]
+  k: Back Space
+  l: [Default, Number/Symbol, Navigation]
   draw_separate: true
+- p: [2, 13]
+  k: Back Word
+  l: [Default, Number/Symbol, Navigation]
+- p: [7, 16]
+  k: Back Space
+  l: [Default, Number/Symbol, Navigation]
 - p: [12, 22]
   k: Esc
   l: [Default, Number/Symbol, Navigation]
