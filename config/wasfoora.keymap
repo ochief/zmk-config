@@ -24,6 +24,7 @@
 #include "macros.dtsi"
 
 /*
+Maybe diagonal combo for bspc - sort out timeless first
 Vertical combos for ); different types of comment blocks? => (( ))
 shift sticky
 FORGOT BSPC
