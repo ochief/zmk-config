@@ -23,17 +23,22 @@
 #include "behaviors.dtsi"
 #include "macros.dtsi"
 
-// Vertical combos for ); different types of comment blocks? => (( ))
-// shift sticky
-// FORGOT BSPC
-// caps locks and caps caps_word as per https://github.com/grassfedreeve/akohekohe
-// urob timeless hrm for alphas
-// shift qu should be Qu not QU
-// AHK F keys including F10
-// timings for HR Combos
-// how about mouse keys?? and other urob stuff.
-// https://github.com/rvaiya/warpd/tree/master
-// https://github.com/lesderid/keynavish?tab=readme-ov-file https://github.com/stozi/gallium-ru-34
+/*
+Vertical combos for ); different types of comment blocks? => (( ))
+shift sticky
+FORGOT BSPC
+caps locks and caps caps_word as per https://github.com/grassfedreeve/akohekohe
+urob timeless hrm for alphas
+shift qu should be Qu not QU
+AHK F keys including F10
+timings for HR Combos
+how about mouse keys?? and other urob stuff.
+https://github.com/rvaiya/warpd/tree/master
+https://github.com/lesderid/keynavish?tab=readme-ov-file https://github.com/stozi/gallium-ru-34
+
+=>	|	(	|	', '	|	[			]	|	,Enter	|	)	|	); enter
+{	|	('	|	()		|					|	; Enter	|	')	|	}
+*/
 
 / {
 	keymap {

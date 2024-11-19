@@ -10,16 +10,6 @@
 		};
 	};
 
-	/******************** STICKY SHIFT ******************/
-	sk: sticky_key {
-      compatible = "zmk,behavior-sticky-key";
-      label = "STICKY_KEY_QUICK_RELEASE";
-      #binding-cells = <1>;
-      bindings = <&kp>;
-      quick-release;
-      release-after-ms = <750>;
-    };
-
 	/******************** HOLD TAPS *********************/
 	hm: homerow_mod {
 		compatible = "zmk,behavior-hold-tap";
