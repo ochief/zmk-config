@@ -20,7 +20,7 @@ parse_config:
     DEF_REDO:         Redo
     DEF_BACK_WD:      Back Word
     DEF_STICKYS:      Sticky Shift
-    
+
     # navigation
     NAV_SEL_AL:       SELECT ALL
     NAV_SEL_LI:       SEL LINE
@@ -108,7 +108,6 @@ parse_config:
     combo_backword:   {draw_separate: true}
 
   zmk_keycode_map:
-    CAPS:             Caps Lock
     SPACE:            $$mdi:keyboard-space$$
     LCTL:             Ctrl
     LALT:             Alt
@@ -139,7 +138,7 @@ parse_config:
     AMPS:             '&'
     NUBS:             \
     BSLH:             \
-    CAPS:             Caps
+    CAPS:             Caps Lock
     CARET:            ^
     COLON:            ':'
     COMMA:            ','
