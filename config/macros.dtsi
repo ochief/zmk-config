@@ -15,5 +15,6 @@
 		MACRO(grave3,		&macro_tap &kp GRAVE &kp GRAVE &kp GRAVE, 0, 0)
 		MACRO(nequal,		&macro_tap &kp LT &kp GT, 0, 0)
 		MACRO(qu,			&macro_tap &kp Q &kp U, 0, 0)
+		MACRO(arrow,		&macro_tap &kp EQUAL &kp GT, 0, 0)
 	};
 };

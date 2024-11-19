@@ -61,6 +61,7 @@ combo_##NAME { \
 		COMBO(share,	DEF_SHA_SCR,	 5  6,	  	DEF NUM NAV,	COMBO_TERM_SLOW)
 
 		// brackets
+		COMBO(arrow		&macro_arrow,	 1 11,		DEF NUM,		COMBO_TERM_SLOW)
 		COMBO(rbkt,     &kp LBKT,     	 4 14,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(lbkt,		&kp RBKT,     	 5 15,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(rbrc,     &kp LBRC,     	11 20,  	DEF NUM, 		COMBO_TERM_SLOW)
