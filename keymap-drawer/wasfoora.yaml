@@ -195,9 +195,11 @@ combos:
 - p: [2, 13]
   k: Back Word
   l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
 - p: [7, 16]
   k: Back Space
   l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
 - p: [12, 22]
   k: Esc
   l: [Default, Number/Symbol, Navigation]
