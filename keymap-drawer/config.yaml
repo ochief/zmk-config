@@ -20,7 +20,7 @@ parse_config:
     DEF_REDO:         Redo
     DEF_BACK_WD:      Back Word
     DEF_STICKYS:      Sticky Shift
-
+    
     # navigation
     NAV_SEL_AL:       SELECT ALL
     NAV_SEL_LI:       SEL LINE
