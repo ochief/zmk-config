@@ -19,7 +19,8 @@ parse_config:
     DEF_UNDO:         Undo
     DEF_REDO:         Redo
     DEF_BACK_WD:      Back Word
-
+    DEF_STICKYS:      Sticky Shift
+    
     # navigation
     NAV_SEL_AL:       SELECT ALL
     NAV_SEL_LI:       SEL LINE
@@ -83,8 +84,6 @@ parse_config:
     UK_EURO:          €
 
   zmk_combos:
-    combo_ssl:        Sticky Shift
-    combo_ssr:        Sticky Shift
     combo_grave3:     {a: top, o: 0.3}
     combo_q:          {a: top, o: 0.3}
     combo_z:          {a: bottom, o: 0.3}
@@ -101,8 +100,10 @@ parse_config:
     combo_lpar:       {draw_separate: true}
     combo_rbkt:       {draw_separate: true}
     combo_lbkt:       {draw_separate: true}
-    combo_caps_l:     {draw_separate: true}
-    combo_caps_r:     {draw_separate: true}
+    combo_ssl:        {draw_separate: true}
+    combo_ssr:        {draw_separate: true}
+    combo_capsword:   {draw_separate: true}
+    combo_capslock:   {draw_separate: true}
     combo_bspc:       {draw_separate: true}
     combo_backword:   {draw_separate: true}
 
