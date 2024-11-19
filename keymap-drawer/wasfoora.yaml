@@ -27,7 +27,7 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - VISUAL
-  - {t: '$$mdi:keyboard-space$$', h: Navigation}
+  - {t: '$$mdi:keyboard-space$$', h: B}
   - {t: E, h: Number/Symbol}
   - GRID
   Number/Symbol:
