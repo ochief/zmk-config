@@ -168,19 +168,27 @@ combos:
 - p: [21, 22]
   k: /
   l: [Default, Number/Symbol]
-- p: [11, 12]
+- p: [1, 8]
+  k: Caps Lock
+  l: [Default]
+  draw_separate: true
+- p: [13, 16]
   k: Caps Word
+  l: [Default]
+  draw_separate: true
+- p: [11, 12]
+  k: Sticky Shift
   l: [Default]
   draw_separate: true
 - p: [17, 18]
-  k: Caps Word
+  k: Sticky Shift
   l: [Default]
   draw_separate: true
-- p: [12, 13]
-  k: Back
+- p: [11, 13]
+  k: Back Word
   l: [Default, Number/Symbol]
   draw_separate: true
-- p: [16, 17]
+- p: [16, 18]
   k: BSPC
   l: [Default, Number/Symbol]
   draw_separate: true
