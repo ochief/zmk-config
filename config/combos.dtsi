@@ -62,8 +62,10 @@ combo_##NAME { \
 
 		// brackets
 		COMBO(arrow,	&macro_arrow,	 1 11,		DEF NUM,		COMBO_TERM_SLOW)
-		COMBO(bra_com,	&macro_bra_com,	12 21,  	DEF NUM, 		COMBO_TERM_SLOW)
-		COMBO(dou_bra,	&macro_dou_bra,	17 24,  	DEF NUM, 		COMBO_TERM_SLOW)
+		COMBO(bra_sqt,	&macro_bra_sqt,	12 21,  	DEF NUM, 		COMBO_TERM_SLOW)
+		COMBO(sqt_bra,	&macro_sqt_bra,	17 24,  	DEF NUM, 		COMBO_TERM_SLOW)
+		COMBO(dou_bra,	&macro_dou_bra,	13 22,  	DEF NUM, 		COMBO_TERM_SLOW)
+		COMBO(com_sep,	&macro_com_sep,	 3 13,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(rbkt,     &kp LBKT,     	 4 14,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(lbkt,		&kp RBKT,     	 5 15,  	DEF NUM, 		COMBO_TERM_SLOW)
 		COMBO(rbrc,     &kp LBRC,     	11 20,  	DEF NUM, 		COMBO_TERM_SLOW)
