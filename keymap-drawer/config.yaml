@@ -20,7 +20,7 @@ parse_config:
     DEF_REDO:         Redo
     DEF_BACK_WD:      Back Word
     DEF_STICKYS:      Sticky Shift
-    
+
     # navigation
     NAV_SEL_AL:       SELECT ALL
     NAV_SEL_LI:       SEL LINE
@@ -106,6 +106,8 @@ parse_config:
     combo_capslock:   {draw_separate: true}
     combo_bspc:       {draw_separate: true}
     combo_backword:   {draw_separate: true}
+    combo_dia_bwrd:   {draw_separate: true}
+    combo_dia_bspc:   {draw_separate: true}
 
   zmk_keycode_map:
     BSPC:             Back Space
