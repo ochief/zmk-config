@@ -16,7 +16,7 @@
 		MACRO(nequal,		&macro_tap &kp LT &kp GT, 0, 0)
 		MACRO(qu,			&macro_tap &kp Q &kp U, 0, 0)
 		MACRO(arrow,		&macro_tap &kp EQUAL &kp GT, 0, 0) 
-		MACRO(bra_com,		&macro_tap &kp LBRC &kp COMMA, 0, 0)
-		MACRO(com_bra,		&macro_tap &kp COMMA &kp RBRC, 0, 0)
+		MACRO(bra_com,		&macro_tap &kp LPAR &kp COMMA, 0, 0)
+		MACRO(dou_bra,		&macro_tap &kp LPAR &kp RPAR, 0, 0)
 	};
 };
