@@ -27,8 +27,8 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - VISUAL
-  - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: E, h: Number/Symbol}
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - {t: E, h: NUM}
   - GRID
   Number/Symbol:
   - ''
@@ -116,7 +116,7 @@ layers:
   - SOFT OFF
   - '~'
   - C  A  D
-  - $$mdi:power-sleep$$
+  - SLEEP
   - ^
   - BOOT
   - ''

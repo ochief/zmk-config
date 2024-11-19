@@ -24,9 +24,6 @@
 <svg id="mdi:play-pause">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
 </svg>
-<svg id="mdi:power-sleep">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-power-sleep" viewBox="0 0 24 24"><path d="M18.73,18C15.4,21.69 9.71,22 6,18.64C2.33,15.31 2.04,9.62 5.37,5.93C6.9,4.25 9,3.2 11.27,3C7.96,6.7 8.27,12.39 12,15.71C13.63,17.19 15.78,18 18,18C18.25,18 18.5,18 18.73,18Z" /></svg>
-</svg>
 <svg id="mdi:skip-next">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-skip-next" viewBox="0 0 24 24"><path d="M16,18H18V6H16M6,18L14.5,12L6,6V18Z" /></svg>
 </svg>
@@ -292,15 +289,13 @@ path.combo {
 <g transform="translate(330, 196)" class="key keypos-27">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#Navigation">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 70%">Navigation</tspan></text>
-</a></g>
+<text x="0" y="24" class="key hold">NAV</text>
+</g>
 <g transform="translate(420, 196)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
-<a href="#NumberSymbol">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Number/Sym…</tspan></text>
-</a></g>
+<text x="0" y="24" class="key hold">NUM</text>
+</g>
 <g transform="translate(480, 196)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
 <text x="0" y="0" class="key tap">GRID</text>
@@ -789,7 +784,7 @@ path.combo {
 </g>
 <g transform="translate(540, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
-<use href="#mdi:power-sleep" xlink:href="#mdi:power-sleep" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:power-sleep"/>
+<text x="0" y="0" class="key tap">SLEEP</text>
 </g>
 <g transform="translate(600, 140)" class="key keypos-24">
 <rect rx="6" ry="6" x="-28" y="-26" width="56" height="52" class="key"/>
