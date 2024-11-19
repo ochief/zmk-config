@@ -168,12 +168,12 @@ combos:
 - p: [21, 22]
   k: /
   l: [Default, Number/Symbol]
-- p: [13, 16]
-  k: Caps Word
+- p: [1, 8]
+  k: Caps Lock
   l: [Default]
   draw_separate: true
-- p: [1, 8]
-  k: Caps
+- p: [13, 16]
+  k: Caps Word
   l: [Default]
   draw_separate: true
 - p: [11, 12]
