@@ -23,8 +23,10 @@
 #include "behaviors.dtsi"
 #include "macros.dtsi"
 
+// Vertical combos for ); different types of comment blocks? => (( ))
+// shift sticky
 // FORGOT BSPC
-// caps locks
+// caps locks and caps caps_word as per https://github.com/grassfedreeve/akohekohe
 // urob timeless hrm for alphas
 // shift qu should be Qu not QU
 // AHK F keys including F10

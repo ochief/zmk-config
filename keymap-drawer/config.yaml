@@ -18,7 +18,7 @@ parse_config:
     DEF_SHA_SCR:      Share Screen
     DEF_UNDO:         Undo
     DEF_REDO:         Redo
-    DEF_BACK_WD:      Back
+    DEF_BACK_WD:      Back Word
 
     # navigation
     NAV_SEL_AL:       SELECT ALL
@@ -83,6 +83,8 @@ parse_config:
     UK_EURO:          €
 
   zmk_combos:
+    combo_ssl:        Sticky Shift
+    combo_ssr:        Sticky Shift
     combo_grave3:     {a: top, o: 0.3}
     combo_q:          {a: top, o: 0.3}
     combo_z:          {a: bottom, o: 0.3}
@@ -105,6 +107,7 @@ parse_config:
     combo_backword:   {draw_separate: true}
 
   zmk_keycode_map:
+    CAPS:             Caps Lock
     SPACE:            $$mdi:keyboard-space$$
     LCTL:             Ctrl
     LALT:             Alt
