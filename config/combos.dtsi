@@ -45,8 +45,8 @@ combo_##NAME { \
 		// diagonals
 		COMBO(capsword,	&caps_word,    	13 16,  	DEF, 			COMBO_TERM_NORMAL)
 		COMBO(capslock,	&kp CAPS,    	 1  8,  	DEF, 			COMBO_TERM_NORMAL)
-		COMBO(ssl,		&sk LSFT,    	11 12,  	DEF, 			COMBO_TERM_NORMAL)
-		COMBO(ssr,		&sk LSFT,    	17 18,  	DEF, 			COMBO_TERM_NORMAL)
+		COMBO(ssl,		DEF_STICKYS,   	11 12,  	DEF, 			COMBO_TERM_NORMAL)
+		COMBO(ssr,		DEF_STICKYS,    17 18,  	DEF, 			COMBO_TERM_NORMAL)
 		COMBO(backword,	DEF_BACK_WD,	11 13,		DEF NUM,		COMBO_TERM_NORMAL)
 		COMBO(bspc,		&kp BSPC,		16 18,		DEF NUM,		COMBO_TERM_NORMAL)
 

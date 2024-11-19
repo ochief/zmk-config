@@ -28,6 +28,7 @@
 #define DEF_UNDO    &kp LC(Z)
 #define DEF_REDO    &kp LC(Y)
 #define DEF_BACK_WD &kp LC(BSPC)
+#define DEF_STICKYS &sk LSFT
 
 // navigation
 #define NAV_TAB     &hm LCTL TAB
