@@ -1,4 +1,9 @@
 parse_config:
+
+  layer_legend:
+    NAV:            Test
+    Navigation:     ASD
+
   raw_binding_map:
     '&bootloader':    BOOT
     '&soft_off':      SOFT OFF
@@ -175,3 +180,5 @@ draw_config:
     .ghost {
       display: none !important;
     }
+  
+  layer_legend_map: dict[Navigation, Nav] = {}
