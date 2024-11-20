@@ -228,10 +228,16 @@ combos:
   k: '&macro_arrow'
   l: [Default, Number/Symbol]
 - p: [12, 21]
-  k: '&macro_bra_com'
+  k: '&macro_bra_sqt'
   l: [Default, Number/Symbol]
 - p: [17, 24]
+  k: '&macro_sqt_bra'
+  l: [Default, Number/Symbol]
+- p: [13, 22]
   k: '&macro_dou_bra'
+  l: [Default, Number/Symbol]
+- p: [3, 13]
+  k: '&macro_com_sep'
   l: [Default, Number/Symbol]
 - p: [4, 14]
   k: '['
