@@ -4,13 +4,17 @@
 #include			<dt-bindings/zmk/bt.h>
 #include			<dt-bindings/zmk/outputs.h>
 #include            <zmk-helpers/helper.h>
-#include            <30.h>
 
 // layers
 #define DEF			0
 #define NUM 		1
 #define NAV 		2
 #define MIS			3
+
+/* Key Position Groups */
+#define KEYS_L      0 1 2 3 4 10 11 12 13 14 20 21 22  // left-hand keys
+#define KEYS_R      5 6 7 8 9 15 16 17 18 19 23 24 25  // right-hand keys
+#define THUMBS      26 27 28 29                        // thumb keys
 
 // default
 #define DEF_R		&hm LGUI R
