@@ -23,6 +23,13 @@
 #include "behaviors.dtsi"
 #include "macros.dtsi"
 
+// Bspc and Del / del word combos <> in normal places
+
+//left-hand side combos for tab, esc, enter, cut (on X + D), copy and paste that go well with right-handed mouse usage
+//maybe enter on left thumb with mouse simply for one handed mousing
+// smart num / grid(keynavish)  - maybe smart number tap/number hold
+// urob has home row combos... how!	
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
