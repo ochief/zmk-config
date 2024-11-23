@@ -19,18 +19,18 @@
 // default
 #define DEF_R		&hm LGUI R
 #define DEF_S		&hm LALT S
-#define DEF_T		&hm LSFT T
+#define DEF_N		&hm LSFT N
+#define DEF_T		&hm LCTL T
 #define DEF_H		&hm LCTL H
-#define DEF_N		&hm LCTL N
-#define DEF_A		&hm LSFT A
+#define DEF_E		&hm LSFT E
 #define DEF_I		&hm LALT I
-#define DEF_O		&hm LGUI O
+#define DEF_A		&hm LGUI A
 
 #define DEF_COMMA   &mm_com_sem
 #define DEF_DOT     &mm_dot_col
 
-#define DEF_TOG_MIC &kp F23
-#define DEF_SHA_SCR &kp F24
+#define DEF_TOG_MIC &kp F21
+#define DEF_SHA_SCR &kp F22
 #define DEF_UNDO    &kp LC(Z)
 #define DEF_REDO    &kp LC(Y)
 #define DEF_BACK_WD &kp LC(BSPC)
@@ -93,7 +93,6 @@
 #define MIS_CAD     &kp LC(LA(DEL))
 #define MIS_BRI_DN  &kp C_BRI_DN
 #define MIS_BRI_UP  &kp C_BRI_UP
-#define MIS_MUT_MIC &kp F9
 #define MIS_BITWAR  &kp LC(LS(L))
 #define MIS_GENERAT &kp LC(LS(N9))
 #define MIS_SLEEP   &kp F10
@@ -107,7 +106,7 @@
 #define UK_PIPE     PIPE2
 #define UK_BSLH     &kp NUBS
 #define UK_POUND    HASH 
-#define UK_EURO     &kp LC(LA(N4)) 
+#define UK_EURO     &kp LC(LA(N4))
 
 // other
 #define XXXXXXXXXX	&none
