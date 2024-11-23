@@ -37,11 +37,11 @@
 		DEF_layer {
             label = "Default";
             bindings = <
-				XXXXXXXXXX	&kp C		&kp G		&kp D		&kp K				&kp J		&kp L		&kp U		&kp Y		XXXXXXXXXX
-				DEF_R		DEF_S		DEF_T		DEF_H		&kp P				&kp V		DEF_N		DEF_A		DEF_I		DEF_O
-							&kp B		&kp W		&kp F										&kp M		DEF_COMMA	DEF_DOT
+				XXXXXXXXXX	&kp C		&kp L		&kp F		&kp P				&kp K		&kp Y		&kp O		&kp U		XXXXXXXXXX
+				DEF_R		DEF_S		DEF_N		DEF_T		&kp B				&kp J		DEF_H		DEF_E		DEF_I		DEF_A
+							&kp W		&kp M		&kp G										&kp D		DEF_COMMA	DEF_DOT
 
-													&kp F21		&lt NAV SPACE		&lt NUM E	&kp F22
+													&kp F23		&lt NAV SPACE		&lt NUM SFT	&kp F24
 			>;
 		};
 

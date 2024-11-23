@@ -2,34 +2,34 @@ layers:
   Default:
   - ''
   - C
-  - G
-  - D
-  - K
-  - J
   - L
-  - U
+  - F
+  - P
+  - K
   - Y
+  - O
+  - U
   - ''
   - {t: R, h: Win}
   - {t: S, h: Alt}
-  - {t: T, h: Shift}
-  - {t: H, h: Ctrl}
-  - P
-  - V
-  - {t: N, h: Ctrl}
-  - {t: A, h: Shift}
-  - {t: I, h: Alt}
-  - {t: O, h: Win}
+  - {t: N, h: Shift}
+  - {t: T, h: Ctrl}
   - B
+  - J
+  - {t: H, h: Ctrl}
+  - {t: E, h: Shift}
+  - {t: I, h: Alt}
+  - {t: A, h: Win}
   - W
-  - F
   - M
+  - G
+  - D
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - VISUAL
+  - F23
   - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - {t: E, h: NUM}
-  - GRID
+  - {t: SFT, h: NUM}
+  - F24
   Number/Symbol:
   - ''
   - '!'
