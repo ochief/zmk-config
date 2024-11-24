@@ -28,7 +28,7 @@ layers:
   - {t: ., s: ':'}
   - F23
   - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - {t: E, h: NUM}
+  - {t: LSHFT, h: NUM}
   - F24
   Number/Symbol:
   - ''
@@ -125,7 +125,7 @@ layers:
   - ''
 combos:
 - p: [1, 2]
-  k: X
+  k: V
   l: [Default]
 - p: [2, 3]
   k: QU
@@ -135,11 +135,14 @@ combos:
   l: [Default]
   a: top
   o: 0.3
-- p: [20, 22]
+- p: [20, 21]
   k: Z
   l: [Default]
   a: bottom
   o: 0.3
+- p: [21, 22]
+  k: X
+  l: [Default]
 - p: [6, 7]
   k: '`'
   l: [Default, Number/Symbol]
@@ -157,15 +160,9 @@ combos:
   a: bottom
   o: 0.3
 - p: [23, 24]
-  k: <
-  l: [Default, Number/Symbol]
-- p: [24, 25]
-  k: '>'
-  l: [Default, Number/Symbol]
-- p: [20, 21]
   k: \
   l: [Default, Number/Symbol]
-- p: [21, 22]
+- p: [24, 25]
   k: /
   l: [Default, Number/Symbol]
 - p: [1, 8]
@@ -174,14 +171,6 @@ combos:
   draw_separate: true
 - p: [13, 16]
   k: Caps Word
-  l: [Default]
-  draw_separate: true
-- p: [11, 12]
-  k: Sticky Shift
-  l: [Default]
-  draw_separate: true
-- p: [17, 18]
-  k: Sticky Shift
   l: [Default]
   draw_separate: true
 - p: [11, 13]
@@ -224,6 +213,12 @@ combos:
   k: Share Screen
   l: [Default, Number/Symbol, Navigation]
   draw_separate: true
+- p: [4, 14]
+  k: <
+  l: [Default, Number/Symbol]
+- p: [5, 15]
+  k: '>'
+  l: [Default, Number/Symbol]
 - p: [1, 11]
   k: '&macro_arrow'
   l: [Default, Number/Symbol]
