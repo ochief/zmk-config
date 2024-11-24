@@ -29,6 +29,7 @@
 //maybe enter on left thumb with mouse simply for one handed mousing
 // smart num / grid(keynavish)  - maybe smart number tap/number hold
 // urob has home row combos... how!	
+// new tab becomes browser swap
 
 / {
 	keymap {
