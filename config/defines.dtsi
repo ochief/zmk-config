@@ -17,6 +17,9 @@
 #define THUMBS      26 27 28 29                        // thumb keys
 
 // default
+#define DEF_NAV_SPC &lt NAV SPACE
+#define DEF_NUM_SFT &lst NUM LSHFT
+
 #define DEF_R		&hm LGUI R
 #define DEF_S		&hm LALT S
 #define DEF_N		&hm LSFT N
@@ -34,7 +37,6 @@
 #define DEF_UNDO    &kp LC(Z)
 #define DEF_REDO    &kp LC(Y)
 #define DEF_BACK_WD &kp LC(BSPC)
-#define DEF_STICKYS &sk LSFT
 
 // navigation
 #define NAV_TAB     &hm LCTL TAB
