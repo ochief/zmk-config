@@ -19,7 +19,6 @@ parse_config:
     DEF_UNDO:         Undo
     DEF_REDO:         Redo
     DEF_BACK_WD:      Back Word
-    DEF_STICKYS:      Sticky Shift
     
     # navigation
     NAV_SEL_AL:       SELECT ALL

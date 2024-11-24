@@ -1,21 +1,21 @@
 /*					   KEY POSITIONS
  *		 0	 1	 2	 3	 4		 5	 6	 7	 8	 9
- *		10	11	12	13	14		15	16	17	18	19 
+ *		10	11	12	13	14		15	16	17	18	19
  *			20	21	22				23	24	25
  *					26	27		28	29
  *
- *		 	 C	 G	 D	 K		 J	 L	 U	 Y
- *		 R	 S	 T	 H	 P		 V	 N	 A	 I	 O
- *			 B	 W	 F				 M	 ,	 .
- *					   SPACE	 E
+ *		 	 C	 L	 F	 P		 K	 Y	 O	 U
+ *		 R	 S	 N	 T	 B		 J	 H	 E	 I	 A
+ *			 W	 M	 G				 D	 ,	 .
+ *					   SPACE   SHIFT
  *
  *          	 Q	                    ```
  *             V   QU                  `   ' 
- *		 	 C	 G	 D	 K		 J	 L	 U	 Y
- *		 R	 S	 T	 H	 P		 V	 N	 A	 I	 O
- *			 B	 W	 F				 M	 ,	 .
- *             \   /                   <   >
- *               Z                      < >
+ *		 	 C	 L	 F	 P		 K	 Y	 O	 U
+ *		 R	 S	 N	 T	 B		 J	 H	 E	 I	 A
+ *			 W	 M	 G				 D	 ,	 .
+ *             Z   X                   \   /
+ *               ?                       ?
  */
 
 #include "defines.dtsi"
@@ -41,7 +41,7 @@
 				DEF_R		DEF_S		DEF_N		DEF_T		&kp B				&kp J		DEF_H		DEF_E		DEF_I		DEF_A
 							&kp W		&kp M		&kp G										&kp D		DEF_COMMA	DEF_DOT
 
-													&kp F23		&lt NAV SPACE		&lt NUM E	&kp F24
+													&kp F23		DEF_NAV_SPC			DEF_NUM_SFT	&kp F24
 			>;
 		};
 
