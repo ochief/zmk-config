@@ -28,7 +28,7 @@ layers:
   - {t: ., s: ':'}
   - F23
   - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - {t: SFT, h: NUM}
+  - {t: E, h: NUM}
   - F24
   Number/Symbol:
   - ''
