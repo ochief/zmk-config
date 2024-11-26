@@ -53,10 +53,10 @@
 		flavor = "balanced";
 		tapping-term-ms = <280>;
 		quick-tap-ms = <175>;							// double tapping same key allows for repeating
-		global-quick-tap-ms = <60>;						// without PR #1387 use global-quick-tap instead
+		global-quick-tap = <60>;
 		bindings = <&kp>, <&kp>;
 		hold-trigger-key-positions = <KEYS_R THUMBS>;
-		hold-trigger-on-release;						// requires PR #1423
+		hold-trigger-on-release;						// delay positional check until key-release
     };
 
 	hmr: home-row-right {
@@ -66,10 +66,10 @@
 		flavor = "balanced";
 		tapping-term-ms = <280>;
 		quick-tap-ms = <175>;							// double tapping same key allows for repeating
-		global-quick-tap-ms = <60>;						// without PR #1387 use global-quick-tap instead
+		global-quick-tap = <60>;
 		bindings = <&kp>, <&kp>;
 		hold-trigger-key-positions = <KEYS_L THUMBS>;
-		hold-trigger-on-release;						// requires PR #1423
+		hold-trigger-on-release;						// delay positional check until key-release
 	};
 
 	/******************** MOD MORPHS ********************/
