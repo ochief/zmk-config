@@ -20,14 +20,14 @@
 #define DEF_NAV_SPC &lt NAV SPACE
 #define DEF_NUM_SFT &lst NUM LSHFT
 
-#define DEF_R		&hm LGUI R
-#define DEF_S		&hm LALT S
-#define DEF_N		&hm LSFT N
-#define DEF_T		&hm LCTL T
-#define DEF_H		&hm LCTL H
-#define DEF_E		&hm LSFT E
-#define DEF_I		&hm LALT I
-#define DEF_A		&hm LGUI A
+#define DEF_R		&hml LGUI R
+#define DEF_S		&hml LALT S
+#define DEF_N		&hml LSFT N
+#define DEF_T		&hml LCTL T
+#define DEF_H		&hmr LCTL H
+#define DEF_E		&hmr LSFT E
+#define DEF_I		&hmr LALT I
+#define DEF_A		&hmr LGUI A
 
 #define DEF_COMMA   &mm_com_sem
 #define DEF_DOT     &mm_dot_col
@@ -39,11 +39,11 @@
 #define DEF_BACK_WD &kp LC(BSPC)
 
 // navigation
-#define NAV_TAB     &hm LCTL TAB
-#define NAV_SWAP    &hm LSFT LC(LA(TAB))
-#define NAV_INCOG   &hm LALT LC(N)
-#define NAV_COPY    &hm RSFT LC(C)
-#define NAV_SCREENS &hm LGUI LG(LS(S))
+#define NAV_TAB     &hml LCTL TAB
+#define NAV_SWAP    &hml LSFT LC(LA(TAB))
+#define NAV_INCOG   &hml LALT LC(N)
+#define NAV_SCREENS &hml LGUI LG(LS(S))
+#define NAV_COPY    &hm  RSFT LC(C)
 
 #define NAV_SEL_LI  &kp LA(LS(I))
 #define NAV_TAB_LE  &kp LC(PG_UP)
@@ -78,11 +78,11 @@
 #define NUM_N9      &mm_num_9
 #define NUM_AMPS    &mm_amps_pou
 
-#define NUM_MINUS   &hm LCTL MINUS
-#define NUM_UNDER   &hm LSFT UNDER
-#define NUM_STAR    &hm LALT STAR
-#define NUM_PERCENT &hm LGUI PERCENT
-#define NUM_PIPE    &hm RSFT UK_PIPE    
+#define NUM_MINUS   &hml LCTL MINUS
+#define NUM_UNDER   &hml LSFT UNDER
+#define NUM_STAR    &hml LALT STAR
+#define NUM_PERCENT &hml LGUI PERCENT
+#define NUM_PIPE    &hm  RSFT UK_PIPE    
 
 // miscellaneous
 #define MIS_BT_1    &bt BT_SEL 1
@@ -105,10 +105,10 @@
 #define UK_AT       &kp DQT
 #define UK_TILDE    &kp TILDE2
 #define UK_GRAVE    &kp GRAVE
-#define UK_PIPE     PIPE2
 #define UK_BSLH     &kp NUBS
-#define UK_POUND    HASH 
 #define UK_EURO     &kp LC(LA(N4))
+#define UK_PIPE     PIPE2
+#define UK_POUND    HASH 
 
 // other
 #define XXXXXXXXXX	&none
