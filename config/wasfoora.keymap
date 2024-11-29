@@ -36,7 +36,7 @@
 				DEF_R		DEF_S		DEF_N		DEF_T		&kp B				&kp J		DEF_H		DEF_E		DEF_I		DEF_A
 							&kp W		&kp M		&kp G										&kp D		DEF_COMMA	DEF_DOT
 
-													&kp F23		DEF_NAV_SPC			DEF_NUM_SFT	&kp F24
+													XXXXXXXXXX	DEF_NAV_SPC			DEF_NUM_SFT	XXXXXXXXXX
 			>;
 		};
 
@@ -47,7 +47,7 @@
 				NUM_PERCENT NUM_STAR  	NUM_UNDER	NUM_MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp PLUS  	NUM_PIPE	NUM_AMPS									NUM_N4		NUM_N5		NUM_N6
 
-													__________	__________			__________	__________
+													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 			>;
 		};
 
@@ -58,7 +58,7 @@
 				NAV_SCREENS	NAV_INCOG	NAV_SWAP	NAV_TAB		NAV_SEL_AL			NAV_SEL_LI	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_THREAD
 							NAV_CUT		NAV_COPY	NAV_PASTE									&kp ENTER 	&kp BSPC	&kp TAB 
 
-													__________	__________			__________	__________
+													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 			>;
 		};
 
@@ -69,7 +69,7 @@
 				MIS_BITWAR	&kp F2		&kp F11		&kp F6		&kp F12				&bt BT_CLR	MIS_BT_1	MIS_BT_2	MIS_BT_3	MIS_GENERAT
 							&soft_off	UK_TILDE	MIS_CAD										MIS_SLEEP	&kp CARET	&bootloader
 
-													__________	__________			__________	__________
+													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 			>;
 		};
 	};
