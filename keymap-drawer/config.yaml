@@ -18,7 +18,7 @@ parse_config:
     DEF_SHA_SCR:      Share Screen
     DEF_UNDO:         Undo
     DEF_REDO:         Redo
-    DEF_BACK_WD:      Back Word
+    DEF_BACK_WD:      Back WordNAV_CLO_TAB
     
     # navigation
     NAV_SEL_AL:       SELECT ALL
@@ -32,12 +32,9 @@ parse_config:
     NAV_SWAP:         {t: SWAP, h: Shift}
     NAV_INCOG:        {t: INCOG, h: Alt}
     NAV_SCREENS:      {t: SCREEN SHOT, h: Win}
-    NAV_CLO_TAB:      CLOSE TAB
     NAV_TAB_RO:       REOPEN TAB
     NAV_TAB_NE:       NEW TAB
     NAV_CLO_APP:      CLOSE APP
-    NAV_SMILEY:       $$mdi:emoticon-happy-outline$$
-    NAV_DELWRD:       DELETE WORD
     NAV_SWI_LE:       {t: $$mdi:arrow-left$$, s: SWITCH}
     NAV_SWI_RI:       {t: $$mdi:arrow-right$$, s: SWITCH}
     NAV_THREAD:       SLACK THREAD

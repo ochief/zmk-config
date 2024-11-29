@@ -50,12 +50,9 @@
 #define NAV_TAB_RI  &kp LC(PG_DN)
 #define NAV_CUT     &kp LC(X)
 #define NAV_SEL_AL  &kp LC(A)
-#define NAV_SMILEY  &kp LG(DOT)
-#define NAV_DELWRD  &kp LC(DEL)
 #define NAV_CLO_APP &kp LA(F4)
 #define NAV_THREAD  &kp LC(LS(T))
 #define NAV_TAB_NE  &kp LC(T)
-#define NAV_CLO_TAB &kp LC(W)
 #define NAV_PASTE   &kp LC(V)
 
 #define NAV_SWI_LE  &mm_switch_left
