@@ -67,7 +67,7 @@ layers:
   - NEW TAB
   - NEXT TAB
   - DELETE
-  - DELETE WORD
+  - CLOSE APP
   - {t: '$$mdi:arrow-left$$', s: SWITCH}
   - {t: '$$mdi:arrow-up$$', s: PG UP}
   - {t: '$$mdi:arrow-right$$', s: SWITCH}
@@ -77,7 +77,7 @@ layers:
   - {t: SWAP, h: Shift}
   - {t: TAB, h: Ctrl}
   - SELECT ALL
-  - $$mdi:emoticon-happy-outline$$
+  - SEL LINE
   - {t: '$$mdi:arrow-left$$', s: HOME}
   - {t: '$$mdi:arrow-down$$', s: PG DN}
   - {t: '$$mdi:arrow-right$$', s: END}
@@ -85,9 +85,9 @@ layers:
   - CUT
   - {t: Ctl+ C, h: R Shift}
   - PASTE
-  - CLOSE TAB
-  - CLOSE APP
-  - SEL LINE
+  - Enter
+  - Back Space
+  - TAB
   - ''
   - {type: held}
   - ''
@@ -174,7 +174,7 @@ combos:
   l: [Default]
   draw_separate: true
 - p: [11, 13]
-  k: Back Word
+  k: Back WordNAV_CLO_TAB
   l: [Default, Number/Symbol, Navigation]
   draw_separate: true
 - p: [16, 18]
@@ -182,7 +182,7 @@ combos:
   l: [Default, Number/Symbol, Navigation]
   draw_separate: true
 - p: [2, 13]
-  k: Back Word
+  k: Back WordNAV_CLO_TAB
   l: [Default, Number/Symbol, Navigation]
   draw_separate: true
 - p: [7, 16]
