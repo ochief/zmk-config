@@ -14,7 +14,7 @@
  *		 	 C	 L	 F	 P		 K	 Y	 O	 U
  *		 R	 S	 N	 T	 B		 J	 H	 E	 I	 A
  *			 W	 M	 G				 D	 ,	 .
- *             Z   X                   \   /
+ *             X   Z                   \   /
  *               ?                       ?
  */
 
@@ -24,7 +24,10 @@
 #include "macros.dtsi"
 
 // DELETE WORDS ETC?
-
+// LEFT HAND - diagonal lower tab (on nav shift tab) / esc on upper
+// RIGHT HAND - what is useful? .space shift
+// right shift and key next to it for ALT+SPACE left hand side for puntuation with auto enter capitals etc "DOT ENTER SHIFT", "COMMA" (make the one on the first layer "COMMA SPACE"), "DOT" (make the one on the first layer "DOT SPACE SHIFT")
+// https://rndkbd.com/products/sprit-springs?variant=43822770847978 with Oil Kings
 / {
 	keymap {
 		compatible = "zmk,keymap";
@@ -56,7 +59,7 @@
 			bindings = <
 				XXXXXXXXXX	NAV_TAB_LE	NAV_TAB_NE	NAV_TAB_RI	&kp DEL				NAV_CLO_APP	NAV_SWI_LE	NAV_UP		NAV_SWI_RI	XXXXXXXXXX
 				NAV_SCREENS	NAV_INCOG	NAV_SWAP	NAV_TAB		NAV_SEL_AL			NAV_SEL_LI	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_THREAD
-							NAV_CUT		NAV_COPY	NAV_PASTE									&kp ENTER 	&kp BSPC	&kp TAB 
+							NAV_CUT		NAV_COPY	NAV_PASTE									&kp ENTER 	&kp BSPC	&kp DEL 
 
 													XXXXXXXXXX	__________			__________	XXXXXXXXXX
 			>;

@@ -9,7 +9,6 @@ parse_config:
     '&soft_off':      SOFT OFF
     '&caps_word':     Caps Word
     '&macro_grave3':  '```'
-    '&macro_nequal':  <  >
     '&macro_qu':      QU
     '&trans':         ''
 
