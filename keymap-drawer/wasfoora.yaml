@@ -26,10 +26,10 @@ layers:
   - D
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - F23
+  - ''
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: LSHFT, h: NUM}
-  - F24
+  - ''
   Number/Symbol:
   - ''
   - '!'
@@ -87,7 +87,7 @@ layers:
   - PASTE
   - Enter
   - Back Space
-  - TAB
+  - DELETE
   - ''
   - {type: held}
   - ''
@@ -136,28 +136,23 @@ combos:
   a: top
   o: 0.3
 - p: [20, 21]
+  k: X
+  l: [Default]
+- p: [21, 22]
   k: Z
   l: [Default]
   a: bottom
   o: 0.3
-- p: [21, 22]
-  k: X
-  l: [Default]
 - p: [6, 7]
   k: '`'
   l: [Default, Number/Symbol]
 - p: [7, 8]
   k: {t: '''', s: '"'}
   l: [Default, Number/Symbol]
-- p: [6, 8]
+- p: [23, 25]
   k: '```'
   l: [Default, Number/Symbol]
   a: top
-  o: 0.3
-- p: [23, 25]
-  k: <  >
-  l: [Default, Number/Symbol]
-  a: bottom
   o: 0.3
 - p: [23, 24]
   k: \
