@@ -26,10 +26,10 @@ layers:
   - D
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - F23
+  - ''
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: LSHFT, h: NUM}
-  - F24
+  - ''
   Number/Symbol:
   - ''
   - '!'
