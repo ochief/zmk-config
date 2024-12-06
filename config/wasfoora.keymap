@@ -22,10 +22,13 @@
 #include "combos.dtsi"
 #include "behaviors.dtsi"
 #include "macros.dtsi"
+#include "mouse.dtsi"
 
 // DELETE WORDS ETC?
 // LEFT HAND - diagonal lower tab (on nav shift tab) / esc on upper
 // RIGHT HAND - what is useful? .space shift
+// right hand shift for DQT, home row bracket pairingscd
+// maybe backspace word instead of tab?
 // right shift and key next to it for ALT+SPACE left hand side for puntuation with auto enter capitals etc "DOT ENTER SHIFT", "COMMA" (make the one on the first layer "COMMA SPACE"), "DOT" (make the one on the first layer "DOT SPACE SHIFT")
 // https://rndkbd.com/products/sprit-springs?variant=43822770847978 with Oil Kings
 / {
@@ -39,7 +42,7 @@
 				DEF_R		DEF_S		DEF_N		DEF_T		&kp B				&kp J		DEF_H		DEF_E		DEF_I		DEF_A
 							&kp W		&kp M		&kp G										&kp D		DEF_COMMA	DEF_DOT
 
-													XXXXXXXXXX	DEF_NAV_SPC			DEF_NUM_SFT	XXXXXXXXXX
+													DEF_MOUSE	DEF_NAV_SPC			DEF_NUM_SFT	XXXXXXXXXX
 			>;
 		};
 
@@ -50,7 +53,7 @@
 				NUM_PERCENT NUM_STAR  	NUM_UNDER	NUM_MINUS	&kp DOLLAR			&kp EQUAL	NUM_N0		NUM_N1		NUM_N2		NUM_N3
 							&kp PLUS  	NUM_PIPE	NUM_AMPS									NUM_N4		NUM_N5		NUM_N6
 
-													XXXXXXXXXX	__________			__________	XXXXXXXXXX
+													__________	__________			__________	XXXXXXXXXX
 			>;
 		};
 
@@ -61,7 +64,7 @@
 				NAV_SCREENS	NAV_INCOG	NAV_SWAP	NAV_TAB		NAV_SEL_AL			NAV_SEL_LI	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_THREAD
 							NAV_CUT		NAV_COPY	NAV_PASTE									&kp ENTER 	&kp BSPC	&kp DEL 
 
-													XXXXXXXXXX	__________			__________	XXXXXXXXXX
+													__________	__________			__________	XXXXXXXXXX
 			>;
 		};
 
@@ -72,7 +75,18 @@
 				MIS_BITWAR	&kp F2		&kp F11		&kp F6		&kp F12				&bt BT_CLR	MIS_BT_1	MIS_BT_2	MIS_BT_3	MIS_GENERAT
 							&soft_off	UK_TILDE	MIS_CAD										MIS_SLEEP	&kp CARET	&bootloader
 
-													XXXXXXXXXX	__________			__________	XXXXXXXXXX
+													__________	__________			__________	XXXXXXXXXX
+			>;
+		};
+
+		MOU_layer {
+            label = "MOUSE";
+            bindings = <
+				XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX			XXXXXXXXXX	XXXXXXXXXX	U_MS_U		XXXXXXXXXX	XXXXXXXXXX
+				XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX			XXXXXXXXXX	U_MS_L		U_MS_D		U_MS_R		XXXXXXXXXX
+							XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX									XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX
+
+													__________	__________			__________	XXXXXXXXXX
 			>;
 		};
 	};

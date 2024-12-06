@@ -10,6 +10,7 @@
 #define NUM 		1
 #define NAV 		2
 #define MIS			3
+#define MOU         4
 
 /* Key Position Groups */
 #define KEYS_L      0 1 2 3 4 10 11 12 13 14 20 21 22  // left-hand keys
@@ -19,6 +20,7 @@
 // default
 #define DEF_NAV_SPC &lt NAV SPACE
 #define DEF_NUM_SFT &lst NUM LSHFT
+#define DEF_MOUSE   &mo MOU
 
 #define DEF_R		&hml LGUI R
 #define DEF_S		&hml LALT S
