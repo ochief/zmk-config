@@ -19,7 +19,7 @@
 // default
 #define DEF_NAV_SPC &lt NAV SPACE
 #define DEF_NUM_SFT &lst NUM LSHFT
-#define DEF_MOUSE   &mo MOU
+#define DEF_MOUSE   &tog MOU
 
 #define DEF_R		&hml LGUI R
 #define DEF_S		&hml LALT S

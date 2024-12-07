@@ -26,7 +26,7 @@ layers:
   - D
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - MOUSE
+  - {t: MOUSE, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: LSHFT, h: NUM}
   - ''
@@ -123,37 +123,8 @@ layers:
   - {type: held}
   - {type: held}
   - ''
-  MOUSE:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mmv MOVE_UP'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - ''
-  - ''
-  - ''
-  - ''
-  - '1'
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
+  MOUSE: ['', '', '', '', '', '', '', '&mmv MOVE_UP', '', '', '', '', '', '', '', '', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN', '&mmv MOVE_RIGHT', '', '', '', '', '1',
+    '', '', '', '', '', '']
 combos:
 - p: [1, 2]
   k: V
