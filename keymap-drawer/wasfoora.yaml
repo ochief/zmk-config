@@ -154,3 +154,133 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [1, 2]
+  k: V
+  l: [Default]
+- p: [2, 3]
+  k: QU
+  l: [Default]
+- p: [1, 3]
+  k: Q
+  l: [Default]
+  a: top
+  o: 0.3
+- p: [20, 21]
+  k: X
+  l: [Default]
+- p: [21, 22]
+  k: Z
+  l: [Default]
+  a: bottom
+  o: 0.3
+- p: [6, 7]
+  k: '`'
+  l: [Default, Number/Symbol]
+- p: [7, 8]
+  k: {t: '''', s: '"'}
+  l: [Default, Number/Symbol]
+- p: [23, 25]
+  k: '```'
+  l: [Default, Number/Symbol]
+  a: top
+  o: 0.3
+- p: [23, 24]
+  k: \
+  l: [Default, Number/Symbol]
+- p: [24, 25]
+  k: /
+  l: [Default, Number/Symbol]
+- p: [1, 8]
+  k: Caps Lock
+  l: [Default]
+  draw_separate: true
+- p: [13, 16]
+  k: Caps Word
+  l: [Default]
+  draw_separate: true
+- p: [11, 13]
+  k: Back WordNAV_CLO_TAB
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [16, 18]
+  k: Back Space
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [2, 13]
+  k: Back WordNAV_CLO_TAB
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [7, 16]
+  k: Back Space
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [12, 22]
+  k: Esc
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [17, 23]
+  k: Enter
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [13, 14]
+  k: Undo
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [15, 16]
+  k: Mute Mic
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [3, 4]
+  k: Redo
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [5, 6]
+  k: Share Screen
+  l: [Default, Number/Symbol, Navigation]
+  draw_separate: true
+- p: [4, 14]
+  k: <
+  l: [Default, Number/Symbol]
+- p: [5, 15]
+  k: '>'
+  l: [Default, Number/Symbol]
+- p: [1, 11]
+  k: '&macro_arrow'
+  l: [Default, Number/Symbol]
+- p: [12, 21]
+  k: '&macro_bra_sqt'
+  l: [Default, Number/Symbol]
+- p: [17, 24]
+  k: '&macro_sqt_bra'
+  l: [Default, Number/Symbol]
+- p: [13, 22]
+  k: '&macro_dou_bra'
+  l: [Default, Number/Symbol]
+- p: [3, 13]
+  k: '&macro_com_sep'
+  l: [Default, Number/Symbol]
+- p: [4, 14]
+  k: '['
+  l: [Default, Number/Symbol]
+  draw_separate: true
+- p: [5, 15]
+  k: ']'
+  l: [Default, Number/Symbol]
+  draw_separate: true
+- p: [11, 20]
+  k: '{'
+  l: [Default, Number/Symbol]
+  draw_separate: true
+- p: [18, 25]
+  k: '}'
+  l: [Default, Number/Symbol]
+  draw_separate: true
+- p: [2, 12]
+  k: (
+  l: [Default, Number/Symbol]
+  draw_separate: true
+- p: [7, 17]
+  k: )
+  l: [Default, Number/Symbol]
+  draw_separate: true
