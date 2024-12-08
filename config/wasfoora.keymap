@@ -21,8 +21,8 @@
 #include "defines.dtsi"
 #include "combos.dtsi"
 #include "behaviors.dtsi"
-#include "macros.dtsi"
 #include "mouse.dtsi"
+#include "macros.dtsi"
 
 // DELETE WORDS ETC?
 // LEFT HAND - diagonal lower tab (on nav shift tab) / esc on upper
