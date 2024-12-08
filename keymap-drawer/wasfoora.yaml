@@ -150,7 +150,7 @@ layers:
   - Enter
   - Back Space
   - DELETE
-  - {type: held}
+  - ''
   - ''
   - '&mmv MOVE_UP'
   - ''
