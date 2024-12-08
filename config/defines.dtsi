@@ -97,6 +97,9 @@
 #define MIS_GENERAT &kp LC(LS(N9))
 #define MIS_SLEEP   &kp F10
 
+// mouse
+#define DOUBLE_CLK  &macro_dclck
+
 // UK symbols
 #define UK_HASH     &kp NUHS
 #define UK_DQT      &kp AT

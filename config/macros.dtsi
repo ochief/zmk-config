@@ -20,5 +20,6 @@
 		MACRO(sqt_bra,		&macro_tap &kp SQT &kp RPAR, 0, 0)
 		MACRO(dou_bra,		&macro_tap &kp LPAR &kp RPAR, 0, 0)
 		MACRO(com_sep,		&macro_tap &kp SQT &kp COMMA &kp SQT, 0, 0)
+		MACRO(dclck,		&macro_tap &mkp LCLK &mkp LCLK, 0, 0)	
 	};
 };
