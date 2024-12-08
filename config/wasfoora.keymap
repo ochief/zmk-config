@@ -64,7 +64,7 @@
 				NAV_SCREENS	NAV_INCOG	NAV_SWAP	NAV_TAB		NAV_SEL_AL			NAV_SEL_LI	NAV_LEFT	NAV_DOWN	NAV_RIGHT	NAV_THREAD
 							NAV_CUT		NAV_COPY	NAV_PASTE									&kp ENTER 	&kp BSPC	&kp DEL 
 
-													__________	__________			__________	XXXXXXXXXX
+													__________	___XXXX___			__________	XXXXXXXXXX
 			>;
 		};
 
@@ -75,18 +75,18 @@
 				MIS_BITWAR	&kp F2		&kp F11		&kp F6		&kp F12				&bt BT_CLR	MIS_BT_1	MIS_BT_2	MIS_BT_3	MIS_GENERAT
 							&soft_off	UK_TILDE	MIS_CAD										MIS_SLEEP	&kp CARET	&bootloader
 
-													__________	__________			__________	XXXXXXXXXX
+													__________	___XXXX___			___XXXX___	XXXXXXXXXX
 			>;
 		};
 
 		MOU_layer {
-            display-name = "MOUSE";
+            display-name = "Mouse";
             bindings = <
-				XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX			XXXXXXXXXX	U_WH_L		U_MS_U		U_WH_R		XXXXXXXXXX
-				XXXXXXXXXX	&mkp RCLK	&kp LSHFT	&mkp LCLK	XXXXXXXXXX			XXXXXXXXXX	U_MS_L		U_MS_D		U_MS_R		XXXXXXXXXX
-							XXXXXXXXXX	XXXXXXXXXX	XXXXXXXXXX									U_WH_D		U_WH_U		XXXXXXXXXX
+				XXXXXXXXXX	NAV_TAB_LE	NAV_TAB_NE	NAV_TAB_RI	&kp DE				U_WH_U		U_WH_L		U_MS_U		U_WH_R		XXXXXXXXXX
+				NAV_SCREENS	&mkp RCLK	&kp LSHFT	&mkp LCLK	NAV_SEL_AL			U_WH_D		U_MS_L		U_MS_D		U_MS_R		&mkp MCLK
+							NAV_CUT		NAV_COPY	NAV_PASTE									&kp ENTER 	&kp BSPC	&kp DEL
 
-													__________	__________			U_MS_U		XXXXXXXXXX
+													___XXXX___	__________			U_MS_U		XXXXXXXXXX
 			>;
 		};
 	};
