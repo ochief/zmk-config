@@ -136,7 +136,7 @@ layers:
   - ''
   - {t: SCREEN SHOT, h: Win}
   - '&mkp RCLK'
-  - LSHFT
+  - '&macro_dclck'
   - '&mkp LCLK'
   - SELECT ALL
   - '&msc SCRL_DOWN'
