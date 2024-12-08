@@ -44,7 +44,7 @@
 #define NAV_SWAP    &hml LSFT LC(LA(TAB))
 #define NAV_INCOG   &hml LALT LC(N)
 #define NAV_SCREENS &hml LGUI LG(LS(S))
-#define NAV_COPY    &hm  RSFT LC(C)
+#define NAV_COPY    &hml RSFT LC(C)
 
 #define NAV_SEL_LI  &kp LA(LS(I))
 #define NAV_TAB_LE  &kp LC(PG_UP)
@@ -80,7 +80,7 @@
 #define NUM_UNDER   &hml LSFT UNDER
 #define NUM_STAR    &hml LALT STAR
 #define NUM_PERCENT &hml LGUI PERCENT
-#define NUM_PIPE    &hm  RSFT UK_PIPE    
+#define NUM_PIPE    &hml RSFT UK_PIPE    
 
 // miscellaneous
 #define MIS_BT_1    &bt BT_SEL 1

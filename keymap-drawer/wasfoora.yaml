@@ -83,7 +83,7 @@ layers:
   - {t: '$$mdi:arrow-right$$', s: END}
   - SLACK THREAD
   - CUT
-  - {t: Ctl+ C, h: R Shift}
+  - {t: COPY, h: R Shift}
   - PASTE
   - Enter
   - Back Space
@@ -145,7 +145,7 @@ layers:
   - '&mmv MOVE_RIGHT'
   - '&mkp MCLK'
   - CUT
-  - {t: Ctl+ C, h: R Shift}
+  - {t: COPY, h: R Shift}
   - PASTE
   - Enter
   - Back Space
