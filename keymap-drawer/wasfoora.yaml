@@ -26,7 +26,7 @@ layers:
   - D
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: MOUSE, h: toggle}
+  - {t: Mouse, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: LSHFT, h: NUM}
   - ''
@@ -123,8 +123,37 @@ layers:
   - {type: held}
   - {type: held}
   - ''
-  MOUSE: ['', '', '', '', '', '', '&msc SCRL_LEFT', '&mmv MOVE_UP', '&msc SCRL_RIGHT', '', '', '&mkp RCLK', LSHFT, '&mkp LCLK', '', '', '&mmv MOVE_LEFT', '&mmv MOVE_DOWN',
-    '&mmv MOVE_RIGHT', '', '', '', '', '&msc SCRL_DOWN', '&msc SCRL_UP', '', '', '', '&mmv MOVE_UP', '']
+  Mouse:
+  - ''
+  - PREV TAB
+  - NEW TAB
+  - NEXT TAB
+  - DE
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - {t: SCREEN SHOT, h: Win}
+  - '&mkp RCLK'
+  - LSHFT
+  - '&mkp LCLK'
+  - SELECT ALL
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp MCLK'
+  - CUT
+  - {t: Ctl+ C, h: R Shift}
+  - PASTE
+  - Enter
+  - Back Space
+  - DELETE
+  - {type: held}
+  - ''
+  - '&mmv MOVE_UP'
+  - ''
 combos:
 - p: [1, 2]
   k: V
