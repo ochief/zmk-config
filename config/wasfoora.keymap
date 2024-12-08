@@ -82,7 +82,7 @@
 		MOU_layer {
             display-name = "Mouse";
             bindings = <
-				XXXXXXXXXX	NAV_TAB_LE	NAV_TAB_NE	NAV_TAB_RI	&kp DE				U_WH_U		U_WH_L		U_MS_U		U_WH_R		XXXXXXXXXX
+				XXXXXXXXXX	NAV_TAB_LE	NAV_TAB_NE	NAV_TAB_RI	&kp DEL				U_WH_U		U_WH_L		U_MS_U		U_WH_R		XXXXXXXXXX
 				NAV_SCREENS	&mkp RCLK	&kp LSHFT	&mkp LCLK	NAV_SEL_AL			U_WH_D		U_MS_L		U_MS_D		U_MS_R		&mkp MCLK
 							NAV_CUT		NAV_COPY	NAV_PASTE									&kp ENTER 	&kp BSPC	&kp DEL
 

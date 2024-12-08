@@ -128,7 +128,7 @@ layers:
   - PREV TAB
   - NEW TAB
   - NEXT TAB
-  - DE
+  - DELETE
   - '&msc SCRL_UP'
   - '&msc SCRL_LEFT'
   - '&mmv MOVE_UP'
