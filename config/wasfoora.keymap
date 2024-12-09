@@ -79,6 +79,7 @@
 			>;
 		};
 
+		// tap = lclk, hold = ctrl + lclk
 		MOU_layer {
             display-name = "Mouse";
             bindings = <
@@ -86,7 +87,7 @@
 				NAV_SCREENS	&mkp RCLK	DOUBLE_CLK	&mkp LCLK	NAV_SEL_AL			U_WH_D		U_MS_L		U_MS_D		U_MS_R		&mkp MCLK
 							NAV_CUT		NAV_COPY	NAV_PASTE									&kp ENTER 	&kp BSPC	&kp DEL
 
-													___XXXX___	__________			U_MS_U		XXXXXXXXXX
+													___XXXX___	CANCEL				U_MS_U		XXXXXXXXXX
 			>;
 		};
 	};
