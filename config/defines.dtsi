@@ -99,6 +99,7 @@
 
 // mouse
 #define DOUBLE_CLK  &macro_dclck
+#define CANCEL      &kp K_CANCEL 
 
 // UK symbols
 #define UK_HASH     &kp NUHS
