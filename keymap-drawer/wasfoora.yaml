@@ -151,7 +151,7 @@ layers:
   - Back Space
   - DELETE
   - ''
-  - ''
+  - CANCEL
   - '&mmv MOVE_UP'
   - ''
 combos:
