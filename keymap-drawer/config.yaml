@@ -80,9 +80,9 @@ parse_config:
 
   zmk_combos:
     combo_grave3:     {a: top, o: 0.3}
-    combo_q:          {a: top, o: 0.3}
-    combo_z:          {a: bottom, o: 0.3}
-    combo_nequal:     {a: bottom, o: 0.3}
+    # combo_q:          {a: top, o: 0.3}
+    # combo_z:          {a: bottom, o: 0.3}
+    # combo_nequal:     {a: bottom, o: 0.3}
     combo_esc:        {draw_separate: true}
     combo_enter:      {draw_separate: true}
     combo_undo:       {draw_separate: true}

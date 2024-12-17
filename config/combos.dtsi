@@ -35,17 +35,16 @@ combo_##NAME { \
 		compatible = "zmk,combos";
 
 		// missing alphas
-		COMBO(v,		&kp V,			 1  2,		DEF,			COMBO_TERM_NORMAL)
-		COMBO(qu,		&macro_qu,		 2  3,		DEF,			COMBO_TERM_NORMAL)
-		COMBO(q,		&kp Q,			 1  3,		DEF,			COMBO_TERM_NORMAL)
-		COMBO(x,		&kp X,			20 21,		DEF,			COMBO_TERM_NORMAL)
-		COMBO(z,		&kp Z,			21 22,		DEF,			COMBO_TERM_NORMAL)
+		COMBO(v,		&kp V,			 1  2,		DEF,			COMBO_TERM_SLOW)
+		COMBO(qu,		&macro_qu,		 2  3,		DEF,			COMBO_TERM_SLOW)
+		COMBO(q,		&kp Q,			 1  3,		DEF,			COMBO_TERM_SLOW)
+		COMBO(x,		&kp X,			20 21,		DEF,			COMBO_TERM_SLOW)
+		COMBO(z,		&kp Z,			21 22,		DEF,			COMBO_TERM_SLOW)
 
 		// missing symbols
 		COMBO(grave,	UK_GRAVE,		 6  7,		DEF NUM,		COMBO_TERM_NORMAL)
 		COMBO(sqt,		&mm_sqt_dqt,	 7  8,		DEF NUM,		COMBO_TERM_NORMAL)
-		COMBO(grave3,	&macro_grave3,	23 25,		DEF NUM,		COMBO_TERM_NORMAL)
-
+		COMBO(grave3,	&macro_grave3,	 6  8,		DEF NUM,		COMBO_TERM_NORMAL)
 		COMBO(bslh,		UK_BSLH,		23 24,		DEF NUM,		COMBO_TERM_NORMAL)
 		COMBO(fslh,		&kp FSLH,		24 25,		DEF NUM,		COMBO_TERM_NORMAL)
 
