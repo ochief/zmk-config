@@ -76,8 +76,8 @@
 #define NUM_N9      &mm_num_9
 #define NUM_AMPS    &mm_amps_pou
 
-#define NUM_MINUS   &hml LCTL MINUS
-#define NUM_UNDER   &hml LSFT UNDER
+#define NUM_UNDER   &hml LCTL UNDER
+#define NUM_MINUS   &hml LSFT MINUS
 #define NUM_STAR    &hml LALT STAR
 #define NUM_PERCENT &hml LGUI PERCENT
 #define NUM_PIPE    &hml RSFT UK_PIPE    
