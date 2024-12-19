@@ -43,8 +43,8 @@ layers:
   - ''
   - {t: '%', h: Win}
   - {t: '*', h: Alt}
-  - {t: _, h: Shift}
   - {t: '-', h: Ctrl}
+  - {t: _, h: Shift}
   - $
   - '='
   - '0'
@@ -164,23 +164,19 @@ combos:
 - p: [1, 3]
   k: Q
   l: [Default]
-  a: top
-  o: 0.3
 - p: [20, 21]
   k: X
   l: [Default]
 - p: [21, 22]
   k: Z
   l: [Default]
-  a: bottom
-  o: 0.3
 - p: [6, 7]
   k: '`'
   l: [Default, Number/Symbol]
 - p: [7, 8]
   k: {t: '''', s: '"'}
   l: [Default, Number/Symbol]
-- p: [23, 25]
+- p: [6, 8]
   k: '```'
   l: [Default, Number/Symbol]
   a: top
